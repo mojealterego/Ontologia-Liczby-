@@ -1,0 +1,1263 @@
+code	level	taxonomy_pdf_page	first_line_title_needs_verification
+11E45	V	505	Analytic theory (Epstein zeta functions; relations with automorphic forms and
+11F03	V	505	Modular and automorphic functions
+11F12	V	505	Automorphic forms, one variable
+11F30	V	505	Fourier coefficients of automorphic forms
+11F41	V	505	Automorphic forms on (mbox{GL}(2)); Hilbert and Hilbert-Siegel modular
+11F46	V	505	Siegel modular groups; Siegel and Hilbert-Siegel modular and automorphic
+11F55	V	506	Other groups and their modular and automorphic forms (several variables)
+11F66	V	506	Langlands (L)-functions; one variable Dirichlet series and functional
+11F67	V	506	Special values of automorphic (L)-series, periods of automorphic forms,
+11F68	V	506	Dirichlet series in several complex variables associated to automorphic
+11F70	V	506	Representation-theoretic methods; automorphic representations over local
+11F77	V	506	Automorphic forms and their relations with perfectoid spaces
+11G09	V	506	Drinfel'd modules; higher-dimensional motives, etc.
+11M55	V	506	Relations with noncommutative geometry
+11N75	V	506	Applications of automorphic functions and forms to multiplicative problems
+11R39	V	507	Langlands-Weil conjectures, nonabelian class field theory
+11S37	V	507	Langlands-Weil conjectures, nonabelian class field theory
+13D09	V	507	Derived categories and commutative rings
+14-00	V	509	General reference works (handbooks, dictionaries, bibliographies, etc.)
+14-02	V	509	Research exposition (monographs, survey articles) pertaining to algebraic
+14-03	V	509	History of algebraic geometry
+14-04	V	509	Software, source code, etc. for problems pertaining to algebraic geometry
+14-06	V	509	Proceedings, conferences, collections, etc. pertaining to algebraic geometry
+14-11	V	509	Research data for problems pertaining to algebraic geometry
+14A05	V	509	Relevant commutative algebra
+14A10	V	509	Varieties and morphisms
+14A15	V	509	Schemes and morphisms
+14A20	V	509	Generalizations (algebraic spaces, stacks)
+14A21	V	509	Logarithmic algebraic geometry, log schemes
+14A22	V	509	Noncommutative algebraic geometry
+14A23	V	509	Geometry over the field with one element
+14A30	V	509	Fundamental constructions in algebraic geometry involving higher and
+14A99	V	509	Foundations of algebraic geometry
+14B05	V	510	Singularities in algebraic geometry
+14B07	V	510	Deformations of singularities
+14B10	V	510	Infinitesimal methods in algebraic geometry
+14B12	V	510	Local deformation theory, Artin approximation, etc.
+14B15	V	510	Local cohomology and algebraic geometry
+14B20	V	510	Formal neighborhoods in algebraic geometry
+14B25	V	510	Local structure of morphisms in algebraic geometry: étale, flat, etc.
+14B99	V	510	Local theory in algebraic geometry
+14C05	V	510	Parametrization (Chow and Hilbert schemes)
+14C15	V	510	(Equivariant) Chow groups and rings; motives
+14C17	V	510	Intersection theory, characteristic classes, intersection multiplicities in
+14C20	V	510	Divisors, linear systems, invertible sheaves
+14C21	V	511	Pencils, nets, webs in algebraic geometry
+14C22	V	511	Picard groups
+14C25	V	511	Algebraic cycles
+14C30	V	511	Transcendental methods, Hodge theory (algebro-geometric aspects)
+14C34	V	511	Torelli problem
+14C35	V	511	Applications of methods of algebraic (K)-theory in algebraic geometry
+14C40	V	511	Riemann-Roch theorems
+14C99	V	511	Cycles and subschemes
+14D05	V	511	Structure of families (Picard-Lefschetz, monodromy, etc.)
+14D06	V	511	Fibrations, degenerations in algebraic geometry
+14D07	V	511	Variation of Hodge structures (algebro-geometric aspects)
+14D10	V	511	Arithmetic ground fields (finite, local, global) and families or fibrations
+14D15	V	511	Formal methods and deformations in algebraic geometry
+14D20	V	512	Algebraic moduli problems, moduli of vector bundles
+14D21	V	512	Applications of vector bundles and moduli spaces in mathematical physics
+14D22	V	512	Fine and coarse moduli spaces
+14D23	V	512	Stacks and moduli problems
+14D24	V	512	Geometric Langlands program (algebro-geometric aspects)
+14D99	V	512	Families, fibrations in algebraic geometry
+14E05	V	512	Rational and birational maps
+14E07	V	512	Birational automorphisms, Cremona group and generalizations
+14E08	V	512	Rationality questions in algebraic geometry
+14E15	V	512	Global theory and resolution of singularities (algebro-geometric aspects)
+14E16	V	512	McKay correspondence
+14E18	V	512	Arcs and motivic integration
+14E20	V	513	Coverings in algebraic geometry
+14E22	V	513	Ramification problems in algebraic geometry
+14E25	V	513	Embeddings in algebraic geometry
+14E30	V	513	Minimal model program (Mori theory, extremal rays)
+14E99	V	513	Birational geometry
+14F06	V	513	Sheaves in algebraic geometry
+14F08	V	513	Derived categories of sheaves, dg categories, and related constructions in
+14F10	V	513	Differentials and other special sheaves; D-modules; Bernstein-Sato ideals and
+14F17	V	513	Vanishing theorems in algebraic geometry
+14F18	V	513	Multiplier ideals
+14F20	V	513	Étale and other Grothendieck topologies and (co)homologies
+14F22	V	514	Brauer groups of schemes
+14F25	V	514	Classical real and complex (co)homology in algebraic geometry
+14F30	V	514	(p)-adic cohomology, crystalline cohomology
+14F35	V	514	Homotopy theory and fundamental groups in algebraic geometry
+14F40	V	514	de Rham cohomology and algebraic geometry
+14F42	V	514	Motivic cohomology; motivic homotopy theory
+14F43	V	514	Other algebro-geometric (co)homologies (e.g., intersection, equivariant,
+14F45	V	514	Topological properties in algebraic geometry
+14F99	V	514	(Co)homology theory in algebraic geometry
+14G05	V	514	Rational points
+14G10	V	514	Zeta functions and related questions in algebraic geometry (e.g.,
+14G12	V	514	Hasse principle, weak and strong approximation, Brauer-Manin obstruction
+14G15	V	515	Finite ground fields in algebraic geometry
+14G17	V	515	Positive characteristic ground fields in algebraic geometry
+14G20	V	515	Local ground fields in algebraic geometry
+14G22	V	515	Rigid analytic geometry
+14G25	V	515	Global ground fields in algebraic geometry
+14G27	V	515	Other nonalgebraically closed ground fields in algebraic geometry
+14G32	V	515	Universal profinite groups (relationship to moduli spaces, projective and
+14G35	V	515	Modular and Shimura varieties
+14G40	V	515	Arithmetic varieties and schemes; Arakelov theory; heights
+14G45	V	515	Perfectoid spaces and mixed characteristic
+14G50	V	515	Applications to coding theory and cryptography of arithmetic geometry
+14G99	V	515	Arithmetic problems in algebraic geometry; Diophantine geometry
+14H05	V	515	Algebraic functions and function fields in algebraic geometry
+14H10	V	515	Families, moduli of curves (algebraic)
+14H15	V	516	Families, moduli of curves (analytic)
+14H20	V	516	Singularities of curves, local rings
+14H25	V	516	Arithmetic ground fields for curves
+14H30	V	516	Coverings of curves, fundamental group
+14H37	V	516	Automorphisms of curves
+14H40	V	516	Jacobians, Prym varieties
+14H42	V	516	Theta functions and curves; Schottky problem
+14H45	V	516	Special algebraic curves and curves of low genus
+14H50	V	516	Plane and space curves
+14H51	V	516	Special divisors on curves (gonality, Brill-Noether theory)
+14H52	V	516	Elliptic curves
+14H55	V	516	Riemann surfaces; Weierstrass points; gap sequences
+14H57	V	516	Dessins d'enfants theory
+14H60	V	516	Vector bundles on curves and their moduli
+14H70	V	516	Relationships between algebraic curves and integrable systems
+14H81	V	516	Relationships between algebraic curves and physics
+14H99	V	517	Curves in algebraic geometry
+14J10	V	517	Families, moduli, classification: algebraic theory
+14J15	V	517	Moduli, classification: analytic theory; relations with modular forms
+14J17	V	517	Singularities of surfaces or higher-dimensional varieties
+14J20	V	517	Arithmetic ground fields for surfaces or higher-dimensional varieties
+14J25	V	517	Special surfaces
+14J26	V	517	Rational and ruled surfaces
+14J27	V	517	Elliptic surfaces, elliptic or Calabi-Yau fibrations
+14J28	V	517	(K3) surfaces and Enriques surfaces
+14J29	V	517	Surfaces of general type
+14J30	V	517	(3)-folds
+14J32	V	517	Calabi-Yau manifolds (algebro-geometric aspects)
+14J33	V	517	Mirror symmetry (algebro-geometric aspects)
+14J35	V	517	(4)-folds
+14J40	V	518	(n)-folds ((n>4))
+14J42	V	518	Holomorphic symplectic varieties, hyper-Kähler varieties
+14J45	V	518	Fano varieties
+14J50	V	518	Automorphisms of surfaces and higher-dimensional varieties
+14J60	V	518	Vector bundles on surfaces and higher-dimensional varieties, and their
+14J70	V	518	Hypersurfaces and algebraic geometry
+14J80	V	518	Topology of surfaces (Donaldson polynomials, Seiberg-Witten invariants)
+14J81	V	518	Relationships between surfaces, higher-dimensional varieties, and physics
+14J99	V	518	Surfaces and higher-dimensional varieties
+14K02	V	518	Isogeny
+14K05	V	518	Algebraic theory of abelian varieties
+14K10	V	518	Algebraic moduli of abelian varieties, classification
+14K12	V	518	Subvarieties of abelian varieties
+14K15	V	519	Arithmetic ground fields for abelian varieties
+14K20	V	519	Analytic theory of abelian varieties; abelian integrals and differentials
+14K22	V	519	Complex multiplication and abelian varieties
+14K25	V	519	Theta functions and abelian varieties
+14K30	V	519	Picard schemes, higher Jacobians
+14K99	V	519	Abelian varieties and schemes
+14L05	V	519	Formal groups, (p)-divisible groups
+14L10	V	519	Group varieties
+14L15	V	519	Group schemes
+14L17	V	519	Affine algebraic groups, hyperalgebra constructions
+14L24	V	519	Geometric invariant theory
+14L30	V	519	Group actions on varieties or schemes (quotients)
+14L35	V	519	Classical groups (algebro-geometric aspects)
+14L40	V	520	Other algebraic groups (geometric aspects)
+14L99	V	520	Algebraic groups
+14M05	V	520	Varieties defined by ring conditions (factorial, Cohen-Macaulay, seminormal)
+14M06	V	520	Linkage
+14M07	V	520	Low codimension problems in algebraic geometry
+14M10	V	520	Complete intersections
+14M12	V	520	Determinantal varieties
+14M15	V	520	Grassmannians, Schubert varieties, flag manifolds
+14M17	V	520	Homogeneous spaces and generalizations
+14M20	V	520	Rational and unirational varieties
+14M22	V	520	Rationally connected varieties
+14M25	V	520	Toric varieties, Newton polyhedra, Okounkov bodies
+14M27	V	520	Compactifications; symmetric and spherical varieties
+14M30	V	520	Supervarieties
+14M35	V	520	Character varieties
+14M99	V	521	Special varieties
+14N05	V	521	Projective techniques in algebraic geometry
+14N07	V	521	Secant varieties, tensor rank, varieties of sums of powers
+14N10	V	521	Enumerative problems (combinatorial problems) in algebraic geometry
+14N15	V	521	Classical problems, Schubert calculus
+14N20	V	521	Configurations and arrangements of linear subspaces
+14N25	V	521	Varieties of low degree
+14N30	V	521	Adjunction problems
+14N35	V	521	Gromov-Witten invariants, quantum cohomology, Gopakumar-Vafa invariants,
+14N99	V	521	Projective and enumerative algebraic geometry
+14P05	V	521	Real algebraic sets
+14P10	V	521	Semialgebraic sets and related spaces
+14P15	V	522	Real-analytic and semi-analytic sets
+14P20	V	522	Nash functions and manifolds
+14P25	V	522	Topology of real algebraic varieties
+14P99	V	522	Real algebraic and real-analytic geometry
+14Q05	V	522	Computational aspects of algebraic curves
+14Q10	V	522	Computational aspects of algebraic surfaces
+14Q15	V	522	Computational aspects of higher-dimensional varieties
+14Q20	V	522	Effectivity, complexity and computational aspects of algebraic geometry
+14Q25	V	522	Computational algebraic geometry over arithmetic ground fields
+14Q30	V	522	Computational real algebraic geometry
+14Q65	V	522	Geometric aspects of numerical algebraic geometry
+14Q99	V	522	Computational aspects in algebraic geometry
+14R05	V	522	Classification of affine varieties
+14R10	V	523	Affine spaces (automorphisms, embeddings, exotic structures, cancellation
+14R15	V	523	Jacobian problem
+14R20	V	523	Group actions on affine varieties
+14R25	V	523	Affine fibrations
+14R99	V	523	Affine geometry
+14T10	V	523	Foundations of tropical geometry and relations with algebra
+14T15	V	523	Combinatorial aspects of tropical varieties
+14T20	V	523	Geometric aspects of tropical varieties
+14T25	V	523	Arithmetic aspects of tropical varieties
+14T90	V	523	Applications of tropical geometry
+14T99	V	523	Tropical geometry
+16E35	V	524	Derived categories and associative algebras
+16L30	V	524	Noncommutative local and semilocal rings, perfect rings
+16S38	V	524	Rings arising from noncommutative algebraic geometry
+16U30	V	524	Divisibility, noncommutative UFDs
+17A15	V	524	Noncommutative Jordan algebras
+18-00	V	526	General reference works (handbooks, dictionaries, bibliographies, etc.)
+18-02	V	526	Research exposition (monographs, survey articles) pertaining to category
+18-03	V	526	History of category theory
+18-04	V	526	Software, source code, etc. for problems pertaining to category theory
+18-06	V	526	Proceedings, conferences, collections, etc. pertaining to category theory
+18-08	V	526	Computational methods for problems pertaining to category theory
+18-11	V	526	Research data for problems pertaining to category theory
+18A05	V	526	Definitions and generalizations in theory of categories
+18A10	V	526	Graphs, diagram schemes, precategories
+18A15	V	526	Foundations, relations to logic and deductive systems
+18A20	V	526	Epimorphisms, monomorphisms, special classes of morphisms, null
+18A22	V	526	Special properties of functors (faithful, full, etc.)
+18A23	V	526	Natural morphisms, dinatural morphisms
+18A25	V	526	Functor categories, comma categories
+18A30	V	527	Limits and colimits (products, sums, directed limits, pushouts, fiber products,
+18A32	V	527	Factorization systems, substructures, quotient structures, congruences,
+18A35	V	527	Categories admitting limits (complete categories), functors preserving limits,
+18A40	V	527	Adjoint functors (universal constructions, reflective subcategories, Kan
+18A50	V	527	Graded categories (general)
+18A99	V	527	General theory of categories and functors
+18B05	V	527	Categories of sets, characterizations
+18B10	V	527	Categories of spans/cospans, relations, or partial maps
+18B15	V	527	Embedding theorems, universal categories
+18B20	V	527	Categories of machines, automata
+18B25	V	527	Topoi
+18B35	V	527	Preorders, orders, domains and lattices (viewed as categories)
+18B40	V	528	Groupoids, semigroupoids, semigroups, groups (viewed as categories)
+18B50	V	528	Extensive, distributive, and adhesive categories
+18B99	V	528	Special categories
+18C05	V	528	Equational categories
+18C10	V	528	Theories (e.g., algebraic theories), structure, and semantics
+18C15	V	528	Monads (= standard construction, triple or triad), algebras for monads,
+18C20	V	528	Eilenberg-Moore and Kleisli constructions for monads
+18C30	V	528	Sketches and generalizations
+18C35	V	528	Accessible and locally presentable categories
+18C40	V	528	Structured objects in a category (group objects, etc.)
+18C50	V	528	Categorical semantics of formal languages
+18C99	V	528	Categories and theories
+18D15	V	529	Closed categories (closed monoidal and Cartesian closed categories, etc.)
+18D20	V	529	Enriched categories (over closed or monoidal categories)
+18D25	V	529	Actions of a monoidal category, tensorial strength
+18D30	V	529	Fibered categories
+18D40	V	529	Internal categories and groupoids
+18D60	V	529	Profunctors (= correspondences, distributors, modules)
+18D65	V	529	Proarrow equipments, Yoneda structures, KZ doctrines (lax idempotent
+18D70	V	529	Formal category theory
+18D99	V	529	Categorical structures
+18E05	V	529	Preadditive, additive categories
+18E08	V	529	Regular categories, Barr-exact categories
+18E10	V	529	Abelian categories, Grothendieck categories
+18E13	V	529	Protomodular categories, semi-abelian categories, Mal'tsev categories
+18E20	V	530	Categorical embedding theorems
+18E35	V	530	Localization of categories, calculus of fractions
+18E40	V	530	Torsion theories, radicals
+18E45	V	530	Definable subcategories and connections with model theory
+18E50	V	530	Categorical Galois theory
+18E99	V	530	Categorical algebra
+18F05	V	530	Local categories and functors
+18F10	V	530	Grothendieck topologies and Grothendieck topoi
+18F15	V	530	Abstract manifolds and fiber bundles (category-theoretic aspects)
+18F20	V	530	Presheaves and sheaves, stacks, descent conditions (category-theoretic
+18F25	V	530	Algebraic (K)-theory and (L)-theory (category-theoretic aspects)
+18F30	V	530	Grothendieck groups (category-theoretic aspects)
+18F40	V	530	Synthetic differential geometry, tangent categories, differential categories
+18F50	V	531	Goodwillie calculus and functor calculus
+18F60	V	531	Categories of topological spaces and continuous mappings
+18F70	V	531	Frames and locales, pointfree topology, Stone duality
+18F75	V	531	Quantales
+18F99	V	531	Categories in geometry and topology
+18G05	V	531	Projectives and injectives (category-theoretic aspects)
+18G10	V	531	Resolutions; derived functors (category-theoretic aspects)
+18G15	V	531	Ext and Tor, generalizations, Künneth formula (category-theoretic aspects)
+18G20	V	531	Homological dimension (category-theoretic aspects)
+18G25	V	531	Relative homological algebra, projective classes (category-theoretic aspects)
+18G31	V	531	Simplicial modules and Dold-Kan correspondence
+18G35	V	531	Chain complexes (category-theoretic aspects), dg categories
+18G40	V	532	Spectral sequences, hypercohomology
+18G45	V	532	2-groups, crossed modules, crossed complexes
+18G50	V	532	Nonabelian homological algebra (category-theoretic aspects)
+18G65	V	532	Stable module categories
+18G70	V	532	(A_{infty})-categories, relations with homological mirror symmetry
+18G80	V	532	Derived categories, triangulated categories
+18G85	V	532	Graph complexes and graph homology
+18G90	V	532	Other (co)homology theories (category-theoretic aspects)
+18G99	V	532	Homological algebra in category theory, derived categories and functors
+18M05	V	532	Monoidal categories, symmetric monoidal categories
+18M10	V	532	Traced monoidal categories, compact closed categories, star-autonomous
+18M15	V	533	Braided monoidal categories and ribbon categories
+18M20	V	533	Fusion categories, modular tensor categories, modular functors
+18M25	V	533	Tannakian categories
+18M30	V	533	String diagrams and graphical calculi
+18M35	V	533	Categories of networks and processes, compositionality
+18M40	V	533	Dagger categories, categorical quantum mechanics
+18M45	V	533	Categorical aspects of linear logic
+18M50	V	533	Bimonoidal, skew-monoidal, duoidal categories
+18M60	V	533	Operads (general)
+18M65	V	533	Non-symmetric operads, multicategories, generalized multicategories
+18M70	V	533	Algebraic operads, cooperads, and Koszul duality
+18M75	V	533	Topological and simplicial operads
+18M80	V	533	Species, Hopf monoids, operads in combinatorics
+18M85	V	534	Polycategories/dioperads, properads, PROPs, cyclic operads, modular
+18M90	V	534	Globular operads
+18M99	V	534	Monoidal categories and operads
+18N10	V	534	2-categories, bicategories, double categories
+18N15	V	534	2-dimensional monad theory
+18N20	V	534	Tricategories, weak (n)-categories, coherence, semi-strictification
+18N25	V	534	Categorification
+18N30	V	534	Strict omega-categories, computads, polygraphs
+18N40	V	534	Homotopical algebra, Quillen model categories, derivators
+18N45	V	534	Categories of fibrations, relations to (K)-theory, relations to type theory
+18N50	V	534	Simplicial sets, simplicial objects
+18N55	V	535	Localizations (e.g., simplicial localization, Bousfield localization)
+18N60	V	535	((infty,1))-categories (quasi-categories, Segal spaces, etc.); (infty)-topoi,
+18N65	V	535	((infty, n))-categories and ((infty,infty))-categories
+18N70	V	535	(infty)-operads and higher algebra
+18N99	V	535	Higher categories and homotopical algebra
+19-00	V	535	General reference works (handbooks, dictionaries, bibliographies, etc.)
+19-02	V	535	Research exposition (monographs, survey articles) pertaining to (K)-theory
+19-03	V	535	History of (K)-theory
+19-04	V	535	Software, source code, etc. for problems pertaining to (K)-theory
+19-06	V	535	Proceedings, conferences, collections, etc. pertaining to (K)-theory
+19-08	V	535	Computational methods for problems pertaining to (K)-theory
+19-11	V	535	Research data for problems pertaining to (K)-theory
+19A13	V	535	Stability for projective modules
+19A15	V	536	Efficient generation of modules
+19A22	V	536	Frobenius induction, Burnside and representation rings
+19A31	V	536	(K_0) of group rings and orders
+19A49	V	536	(K_0) of other rings
+19A99	V	536	Grothendieck groups and (K_0)
+19B10	V	536	Stable range conditions
+19B14	V	536	Stability for linear groups
+19B28	V	536	(K_1) of group rings and orders
+19B37	V	536	Congruence subgroup problems
+19B99	V	536	Whitehead groups and (K_1)
+19C09	V	536	Central extensions and Schur multipliers
+19C20	V	536	Symbols, presentations and stability of (K_2)
+19C30	V	536	(K_2) and the Brauer group
+19C40	V	537	Excision for (K_2)
+19C99	V	537	Steinberg groups and (K_2)
+19D06	V	537	(Q)- and plus-constructions
+19D10	V	537	Algebraic (K)-theory of spaces
+19D23	V	537	Symmetric monoidal categories
+19D25	V	537	Karoubi-Villamayor-Gersten (K)-theory
+19D35	V	537	Negative (K)-theory, NK and Nil
+19D45	V	537	Higher symbols, Milnor (K)-theory
+19D50	V	537	Computations of higher (K)-theory of rings
+19D55	V	537	(K)-theory and homology; cyclic homology and cohomology
+19D99	V	537	Higher algebraic (K)-theory
+19E08	V	537	(K)-theory of schemes
+19E15	V	538	Algebraic cycles and motivic cohomology ((K)-theoretic aspects)
+19E20	V	538	Relations of (K)-theory with cohomology theories
+19E99	V	538	(K)-theory in geometry
+19F05	V	538	Generalized class field theory ((K)-theoretic aspects)
+19F15	V	538	Symbols and arithmetic ((K)-theoretic aspects)
+19F27	V	538	Étale cohomology, higher regulators, zeta and (L)-functions ((K)-theoretic
+19F99	V	538	(K)-theory in number theory
+19G05	V	538	Stability for quadratic modules
+19G12	V	538	Witt groups of rings
+19G24	V	538	(L)-theory of group rings
+19G38	V	538	Hermitian (K)-theory, relations with (K)-theory of rings
+19G99	V	539	(K)-theory of forms
+19J05	V	539	Finiteness and other obstructions in (K_0)
+19J10	V	539	Whitehead (and related) torsion
+19J25	V	539	Surgery obstructions ((K)-theoretic aspects)
+19J35	V	539	Obstructions to group actions ((K)-theoretic aspects)
+19J99	V	539	Obstructions from topology
+19K14	V	539	(K_0) as an ordered group, traces
+19K33	V	539	Ext and (K)-homology
+19K35	V	539	Kasparov theory ((KK)-theory)
+19K56	V	539	Index theory
+19K99	V	539	(K)-theory and operator algebras
+19L10	V	540	Riemann-Roch theorems, Chern characters
+19L20	V	540	(J)-homomorphism, Adams operations
+19L41	V	540	Connective (K)-theory, cobordism
+19L47	V	540	Equivariant (K)-theory
+19L50	V	540	Twisted (K)-theory; differential (K)-theory
+19L64	V	540	Geometric applications of topological (K)-theory
+19L99	V	540	Topological (K)-theory
+19M05	V	540	Miscellaneous applications of (K)-theory
+19M99	V	540	Miscellaneous applications of (K)-theory
+20E18	V	540	Limits, profinite groups
+20F14	V	541	Derived series, central series, and generalizations for groups
+22E57	V	541	Geometric Langlands program: representation-theoretic aspects
+30F35	V	541	Fuchsian groups and automorphic functions (aspects of compact Riemann
+32-00	V	541	General reference works (handbooks, dictionaries, bibliographies, etc.)
+32-02	V	541	Research exposition (monographs, survey articles) pertaining to several
+32-03	V	541	History of several complex variables and analytic spaces
+32-04	V	541	Software, source code, etc. for problems pertaining to several complex
+32-06	V	541	Proceedings, conferences, collections, etc. pertaining to several complex
+32-08	V	542	Computational methods for problems pertaining to several complex variables
+32-11	V	542	Research data for problems pertaining to several complex variables and
+32A05	V	542	Power series, series of functions of several complex variables
+32A08	V	542	Polynomials and rational functions of several complex variables
+32A10	V	542	Holomorphic functions of several complex variables
+32A12	V	542	Multifunctions of several complex variables
+32A15	V	542	Entire functions of several complex variables
+32A17	V	542	Special families of functions of several complex variables
+32A18	V	542	Bloch functions, normal functions of several complex variables
+32A19	V	542	Normal families of holomorphic functions, mappings of several complex
+32A20	V	542	Meromorphic functions of several complex variables
+32A22	V	542	Nevanlinna theory; growth estimates; other inequalities of several complex
+32A25	V	542	Integral representations; canonical kernels (Szeg?, Bergman, etc.)
+32A26	V	542	Integral representations, constructed kernels (e.g., Cauchy, Fantappiè-type
+32A27	V	543	Residues for several complex variables
+32A30	V	543	Other generalizations of function theory of one complex variable
+32A35	V	543	(H^p)-spaces, Nevanlinna spaces of functions in several complex variables
+32A36	V	543	Bergman spaces of functions in several complex variables
+32A37	V	543	Other spaces of holomorphic functions of several complex variables (e.g.,
+32A38	V	543	Algebras of holomorphic functions of several complex variables
+32A40	V	543	Boundary behavior of holomorphic functions of several complex variables
+32A45	V	543	Hyperfunctions
+32A50	V	543	Harmonic analysis of several complex variables
+32A55	V	543	Singular integrals of functions in several complex variables
+32A60	V	543	Zero sets of holomorphic functions of several complex variables
+32A65	V	543	Banach algebra techniques applied to functions of several complex variables
+32A70	V	543	Functional analysis techniques applied to functions of several complex
+32A99	V	543	Holomorphic functions of several complex variables
+32B05	V	544	Analytic algebras and generalizations, preparation theorems
+32B10	V	544	Germs of analytic sets, local parametrization
+32B15	V	544	Analytic subsets of affine space
+32B20	V	544	Semi-analytic sets, subanalytic sets, and generalizations
+32B25	V	544	Triangulation and topological properties of semi-analytic andsubanalytic sets,
+32B99	V	544	Local analytic geometry
+32C05	V	544	Real-analytic manifolds, real-analytic spaces
+32C07	V	544	Real-analytic sets, complex Nash functions
+32C09	V	544	Embedding of real-analytic manifolds
+32C11	V	544	Complex supergeometry
+32C15	V	544	Complex spaces
+32C18	V	544	Topology of analytic spaces
+32C20	V	544	Normal analytic spaces
+32C22	V	544	Embedding of analytic spaces
+32C25	V	545	Analytic subsets and submanifolds
+32C30	V	545	Integration on analytic sets and spaces, currents
+32C35	V	545	Analytic sheaves and cohomology groups
+32C36	V	545	Local cohomology of analytic spaces
+32C37	V	545	Duality theorems for analytic spaces
+32C38	V	545	Sheaves of differential operators and their modules, (D)-modules
+32C55	V	545	The Levi problem in complex spaces; generalizations
+32C81	V	545	Applications of analytic spaces to physics and other areas of science
+32C99	V	545	Analytic spaces
+32D05	V	545	Domains of holomorphy
+32D10	V	545	Envelopes of holomorphy
+32D15	V	545	Continuation of analytic objects in several complex variables
+32D20	V	545	Removable singularities in several complex variables
+32D26	V	546	Riemann domains
+32D99	V	546	Analytic continuation
+32E05	V	546	Holomorphically convex complex spaces, reduction theory
+32E10	V	546	Stein spaces
+32E20	V	546	Polynomial convexity, rational convexity, meromorphic convexity in several
+32E30	V	546	Holomorphic, polynomial and rational approximation, and interpolation in
+32E35	V	546	Global boundary behavior of holomorphic functions of several complex
+32E40	V	546	The Levi problem
+32E99	V	546	Holomorphic convexity
+32F10	V	546	(q)-convexity, (q)-concavity
+32F17	V	546	Other notions of convexity in relation to several complex variables
+32F18	V	547	Finite-type conditions for the boundary of a domain
+32F27	V	547	Topological consequences of geometric convexity
+32F32	V	547	Analytical consequences of geometric convexity (vanishing theorems, etc.)
+32F45	V	547	Invariant metrics and pseudodistances in several complex variables
+32F99	V	547	Geometric convexity in several complex variables
+32G05	V	547	Deformations of complex structures
+32G07	V	547	Deformations of special (e.g., CR) structures
+32G08	V	547	Deformations of fiber bundles
+32G10	V	547	Deformations of submanifolds and subspaces
+32G13	V	547	Complex-analytic moduli problems
+32G15	V	547	Moduli of Riemann surfaces, Teichmüller theory (complex-analytic aspects in
+32G20	V	547	Period matrices, variation of Hodge structure; degenerations
+32G81	V	547	Applications of deformations of analytic structures to the sciences
+32G99	V	548	Deformations of analytic structures
+32H02	V	548	Holomorphic mappings, (holomorphic) embeddings and related questions in
+32H04	V	548	Meromorphic mappings in several complex variables
+32H12	V	548	Boundary uniqueness of mappings in several complex variables
+32H25	V	548	Picard-type theorems and generalizations for several complex variables
+32H30	V	548	Value distribution theory in higher dimensions
+32H35	V	548	Proper holomorphic mappings, finiteness theorems
+32H40	V	548	Boundary regularity of mappings in several complex variables
+32H50	V	548	Iteration of holomorphic maps, fixed points of holomorphic maps and related
+32H99	V	548	Holomorphic mappings and correspondences
+32J05	V	548	Compactification of analytic spaces
+32J10	V	548	Algebraic dependence theorems
+32J15	V	549	Compact complex surfaces
+32J17	V	549	Compact complex (3)-folds
+32J18	V	549	Compact complex (n)-folds
+32J25	V	549	Transcendental methods of algebraic geometry (complex-analytic aspects)
+32J27	V	549	Compact Kähler manifolds: generalizations, classification
+32J81	V	549	Applications of compact analytic spaces to the sciences
+32J99	V	549	Compact analytic spaces
+32K05	V	549	Banach analytic manifolds and spaces
+32K07	V	549	Formal and graded complex spaces
+32K12	V	549	Holomorphic maps with infinite-dimensional arguments or values
+32K15	V	549	Differentiable functions on analytic spaces, differentiable spaces
+32K99	V	549	Generalizations of analytic spaces
+32L05	V	550	Holomorphic bundles and generalizations
+32L10	V	550	Sheaves and cohomology of sections of holomorphic vector bundles, general
+32L15	V	550	Bundle convexity
+32L20	V	550	Vanishing theorems
+32L25	V	550	Twistor theory, double fibrations (complex-analytic aspects)
+32L81	V	550	Applications of holomorphic fiber spaces to the sciences
+32L99	V	550	Holomorphic fiber spaces
+32M05	V	550	Complex Lie groups, group actions on complex spaces
+32M10	V	550	Homogeneous complex manifolds
+32M12	V	550	Almost homogeneous manifolds and spaces
+32M15	V	550	Hermitian symmetric spaces, bounded symmetric domains, Jordan algebras
+32M17	V	550	Automorphism groups of (mathbb{C}^n) and affine manifolds
+32M18	V	550	Automorphism groups of other complex spaces
+32M25	V	551	Complex vector fields, holomorphic foliations, (mathbb{C})-actions
+32M99	V	551	Complex spaces with a group of automorphisms
+32N05	V	551	General theory of automorphic functions of several complex variables
+32N10	V	551	Automorphic forms in several complex variables
+32N15	V	551	Automorphic functions in symmetric domains
+32N99	V	551	Automorphic functions
+32P05	V	551	Non-Archimedean analysis
+32P99	V	551	Non-Archimedean analysis
+32Q02	V	551	Special domains (Reinhardt, Hartogs, circular, tube, etc.) in (mathbb{C}^n)
+32Q05	V	551	Negative curvature complex manifolds
+32Q10	V	552	Positive curvature complex manifolds
+32Q15	V	552	Kähler manifolds
+32Q20	V	552	Kähler-Einstein manifolds
+32Q25	V	552	Calabi-Yau theory (complex-analytic aspects)
+32Q26	V	552	Notions of stability for complex manifolds
+32Q28	V	552	Stein manifolds
+32Q30	V	552	Uniformization of complex manifolds
+32Q35	V	552	Complex manifolds as subdomains of Euclidean space
+32Q40	V	552	Embedding theorems for complex manifolds
+32Q45	V	552	Hyperbolic and Kobayashi hyperbolic manifolds
+32Q55	V	552	Topological aspects of complex manifolds
+32Q56	V	552	Oka principle and Oka manifolds
+32Q57	V	552	Classification theorems for complex manifolds
+32Q60	V	553	Almost complex manifolds
+32Q65	V	553	Pseudoholomorphic curves
+32Q99	V	553	Complex manifolds
+32S05	V	553	Local complex singularities
+32S10	V	553	Invariants of analytic local rings
+32S15	V	553	Equisingularity (topological and analytic)
+32S20	V	553	Global theory of complex singularities; cohomological properties
+32S22	V	553	Relations with arrangements of hyperplanes
+32S25	V	553	Complex surface and hypersurface singularities
+32S30	V	553	Deformations of complex singularities; vanishing cycles
+32S35	V	553	Mixed Hodge theory of singular varieties (complex-analytic aspects)
+32S40	V	553	Monodromy; relations with differential equations and (D)-modules
+32S45	V	553	Modifications; resolution of singularities (complex-analytic aspects)
+32S50	V	554	Topological aspects of complex singularities: Lefschetz theorems, topological
+32S55	V	554	Milnor fibration; relations with knot theory
+32S60	V	554	Stratifications; constructible sheaves; intersection cohomology
+32S65	V	554	Singularities of holomorphic vector fields and foliations
+32S70	V	554	Other operations on complex singularities
+32S99	V	554	Complex singularities
+32T05	V	554	Domains of holomorphy
+32T15	V	554	Strongly pseudoconvex domains
+32T20	V	554	Worm domains
+32T25	V	554	Finite-type domains
+32T27	V	554	Geometric and analytic invariants on weakly pseudoconvex boundaries
+32T35	V	554	Exhaustion functions
+32T40	V	554	Peak functions
+32T99	V	555	Pseudoconvex domains
+32U05	V	555	Plurisubharmonic functions and generalizations
+32U10	V	555	Plurisubharmonic exhaustion functions
+32U15	V	555	General pluripotential theory
+32U20	V	555	Capacity theory and generalizations
+32U25	V	555	Lelong numbers
+32U30	V	555	Removable sets in pluripotential theory
+32U35	V	555	Plurisubharmonic extremal functions, pluricomplex Green functions
+32U40	V	555	Currents
+32U99	V	555	Pluripotential theory
+32V05	V	555	CR structures, CR operators, and generalizations
+32V10	V	555	CR functions
+32V15	V	556	CR manifolds as boundaries of domains
+32V20	V	556	Analysis on CR manifolds
+32V25	V	556	Extension of functions and other analytic objects from CR manifolds
+32V30	V	556	Embeddings of CR manifolds
+32V35	V	556	Finite-type conditions on CR manifolds
+32V40	V	556	Real submanifolds in complex manifolds
+32V99	V	556	CR manifolds
+32W05	V	556	(overlinepartial) and (overlinepartial)-Neumann operators
+32W10	V	556	(overlinepartial_b) and (overlinepartial_b)-Neumann operators
+32W20	V	556	Complex Monge-Ampère operators
+32W25	V	556	Pseudodifferential operators in several complex variables
+32W30	V	556	Heat kernels in several complex variables
+32W50	V	556	Other partial differential equations of complex analysis in several variables
+32W99	V	557	Differential operators in several variables
+35A27	V	557	Microlocal methods and methods of sheaf theory and homological algebra
+35R60	V	557	PDEs with randomness, stochastic partial differential equations
+42A16	V	557	Fourier coefficients, Fourier series of functions with special properties,
+46L51	V	557	Noncommutative measure and integration
+46L52	V	558	Noncommutative function spaces
+46L53	V	558	Noncommutative probability and statistics
+46L55	V	558	Noncommutative dynamical systems
+46L85	V	558	Noncommutative topology
+46L87	V	558	Noncommutative differential geometry
+46L89	V	558	Other ``noncommutative'' mathematics based on (C^*)-algebra theory
+47-00	V	558	General reference works (handbooks, dictionaries, bibliographies, etc.)
+47-02	V	558	Research exposition (monographs, survey articles) pertaining to operator
+47-03	V	558	History of operator theory
+47-04	V	558	Software, source code, etc. for problems pertaining to operator theory
+47-06	V	558	Proceedings, conferences, collections, etc. pertaining to operator theory
+47-08	V	558	Computational methods for problems pertaining to operator theory
+47-11	V	558	Research data for problems pertaining to operator theory
+47A05	V	559	General (adjoints, conjugates, products, inverses, domains, ranges, etc.)
+47A06	V	559	Linear relations (multivalued linear operators)
+47A07	V	559	Forms (bilinear, sesquilinear, multilinear)
+47A08	V	559	Operator matrices
+47A10	V	559	Spectrum, resolvent
+47A11	V	559	Local spectral properties of linear operators
+47A12	V	559	Numerical range, numerical radius
+47A13	V	559	Several-variable operator theory (spectral, Fredholm, etc.)
+47A15	V	559	Invariant subspaces of linear operators
+47A16	V	559	Cyclic vectors, hypercyclic and chaotic operators
+47A20	V	559	Dilations, extensions, compressions of linear operators
+47A25	V	559	Spectral sets of linear operators
+47A30	V	559	Norms (inequalities, more than one norm, etc.) of linear operators
+47A35	V	559	Ergodic theory of linear operators
+47A40	V	559	Scattering theory of linear operators
+47A45	V	559	Canonical models for contractions and nonselfadjoint linear operators
+47A46	V	560	Chains (nests) of projections or of invariant subspaces, integrals along
+47A48	V	560	Operator colligations (= nodes), vessels, linear systems, characteristic
+47A50	V	560	Equations and inequalities involving linear operators, with vector unknowns
+47A52	V	560	Linear operators and ill-posed problems, regularization
+47A53	V	560	(Semi-) Fredholm operators; index theories
+47A55	V	560	Perturbation theory of linear operators
+47A56	V	560	Functions whose values are linear operators (operator- and matrix-valued
+47A57	V	560	Linear operator methods in interpolation, moment and extension problems
+47A58	V	560	Linear operator approximation theory
+47A60	V	560	Functional calculus for linear operators
+47A62	V	560	Equations involving linear operators, with operator unknowns
+47A63	V	560	Linear operator inequalities
+47A64	V	560	Operator means involving linear operators, shorted linear operators, etc.
+47A65	V	560	Structure theory of linear operators
+47A66	V	561	Quasitriangular and nonquasitriangular, quasidiagonal and nonquasidiagonal
+47A67	V	561	Representation theory of linear operators
+47A68	V	561	Factorization theory (including Wiener-Hopf and spectral factorizations) of
+47A70	V	561	(Generalized) eigenfunction expansions of linear operators; rigged Hilbert
+47A75	V	561	Eigenvalue problems for linear operators
+47A80	V	561	Tensor products of linear operators
+47A99	V	561	General theory of linear operators
+47B01	V	561	Operators on Banach spaces
+47B02	V	561	Operators on Hilbert spaces (general)
+47B06	V	561	Riesz operators; eigenvalue distributions; approximation numbers,
+47B07	V	561	Linear operators defined by compactness properties
+47B10	V	561	Linear operators belonging to operator ideals (nuclear, (p)-summing, in the
+47B12	V	562	Sectorial operators
+47B13	V	562	Cowen-Douglas operators
+47B15	V	562	Hermitian and normal operators (spectral measures, functional calculus, etc.)
+47B20	V	562	Subnormal operators, hyponormal operators, etc.
+47B25	V	562	Linear symmetric and selfadjoint operators (unbounded)
+47B28	V	562	Nonselfadjoint operators
+47B32	V	562	Linear operators in reproducing-kernel Hilbert spaces (including de Branges,
+47B33	V	562	Linear composition operators
+47B34	V	562	Kernel operators
+47B35	V	562	Toeplitz operators, Hankel operators, Wiener-Hopf operators
+47B36	V	562	Jacobi (tridiagonal) operators (matrices) and generalizations
+47B37	V	562	Linear operators on special spaces (weighted shifts, operators on sequence
+47B38	V	562	Linear operators on function spaces (general)
+47B39	V	562	Linear difference operators
+47B40	V	562	Spectral operators, decomposable operators, well-bounded operators, etc.
+47B44	V	562	Linear accretive operators, dissipative operators, etc.
+47B48	V	563	Linear operators on Banach algebras
+47B49	V	563	Transformers, preservers (linear operators on spaces of linear operators)
+47B50	V	563	Linear operators on spaces with an indefinite metric
+47B60	V	563	Linear operators on ordered spaces
+47B65	V	563	Positive linear operators and order-bounded operators
+47B80	V	563	Random linear operators
+47B90	V	563	Operator theory and harmonic analysis
+47B91	V	563	Operators on complex function spaces
+47B92	V	563	Operators on real function spaces
+47B93	V	563	Operators arising in mathematical physics
+47B99	V	563	Special classes of linear operators
+47C05	V	563	Linear operators in algebras
+47C10	V	563	Linear operators in ({}^*)-algebras
+47C15	V	563	Linear operators in (C^*)- or von Neumann algebras
+47C99	V	564	Individual linear operators as elements of algebraic systems
+47D03	V	564	Groups and semigroups of linear operators
+47D06	V	564	One-parameter semigroups and linear evolution equations
+47D07	V	564	Markov semigroups and applications to diffusion processes
+47D08	V	564	Schrödinger and Feynman-Kac semigroups
+47D09	V	564	Operator sine and cosine functions and higher-order Cauchy problems
+47D60	V	564	(C)-semigroups, regularized semigroups
+47D62	V	564	Integrated semigroups
+47D99	V	564	Groups and semigroups of linear operators, their generalizations and
+47E07	V	564	Functional-differential and differential-difference operators
+47E99	V	565	Ordinary differential operators
+47F10	V	565	Elliptic operators and their generalizations
+47F99	V	565	Partial differential operators
+47G10	V	565	Integral operators
+47G20	V	565	Integro-differential operators
+47G30	V	565	Pseudodifferential operators
+47G40	V	565	Potential operators
+47G99	V	565	Integral, integro-differential, and pseudodifferential operators
+47H04	V	565	Set-valued operators
+47H05	V	565	Monotone operators and generalizations
+47H06	V	565	Nonlinear accretive operators, dissipative operators, etc.
+47H07	V	566	Monotone and positive operators on ordered Banach spaces or other ordered
+47H08	V	566	Measures of noncompactness and condensing mappings, (K)-set contractions,
+47H09	V	566	Contraction-type mappings, nonexpansive mappings, (A)-proper mappings,
+47H10	V	566	Fixed-point theorems
+47H11	V	566	Degree theory for nonlinear operators
+47H14	V	566	Perturbations of nonlinear operators
+47H20	V	566	Semigroups of nonlinear operators
+47H25	V	566	Nonlinear ergodic theorems
+47H30	V	566	Particular nonlinear operators (superposition, Hammerstein, Nemytski?,
+47H40	V	566	Random nonlinear operators
+47H60	V	566	Multilinear and polynomial operators
+47H99	V	566	Nonlinear operators and their properties
+47J05	V	566	Equations involving nonlinear operators (general)
+47J06	V	567	Nonlinear ill-posed problems
+47J07	V	567	Abstract inverse mapping and implicit function theorems involving nonlinear
+47J10	V	567	Nonlinear spectral theory, nonlinear eigenvalue problems
+47J15	V	567	Abstract bifurcation theory involving nonlinear operators
+47J20	V	567	Variational and other types of inequalities involving nonlinear operators
+47J22	V	567	Variational and other types of inclusions
+47J25	V	567	Iterative procedures involving nonlinear operators
+47J26	V	567	Fixed-point iterations
+47J30	V	567	Variational methods involving nonlinear operators
+47J35	V	567	Nonlinear evolution equations
+47J40	V	567	Equations with nonlinear hysteresis operators
+47J99	V	567	Equations and inequalities involving nonlinear operators
+47L05	V	567	Linear spaces of operators
+47L07	V	568	Convex sets and cones of operators
+47L10	V	568	Algebras of operators on Banach spaces and other topological linear spaces
+47L15	V	568	Operator algebras with symbol structure
+47L20	V	568	Operator ideals
+47L22	V	568	Ideals of polynomials and of multilinear mappings in operator theory
+47L25	V	568	Operator spaces (= matricially normed spaces)
+47L30	V	568	Abstract operator algebras on Hilbert spaces
+47L35	V	568	Nest algebras, CSL algebras
+47L40	V	568	Limit algebras, subalgebras of (C^*)-algebras
+47L45	V	568	Dual algebras; weakly closed singly generated operator algebras
+47L50	V	568	Dual spaces of operator algebras
+47L55	V	568	Representations of (nonselfadjoint) operator algebras
+47L60	V	568	Algebras of unbounded operators; partial algebras of operators
+47L65	V	568	Crossed product algebras (analytic crossed products)
+47L70	V	569	Nonassociative nonselfadjoint operator algebras
+47L75	V	569	Other nonselfadjoint operator algebras
+47L80	V	569	Algebras of specific types of operators (Toeplitz, integral, pseudodifferential,
+47L90	V	569	Applications of operator algebras to the sciences
+47L99	V	569	Linear spaces and algebras of operators
+47N10	V	569	Applications of operator theory in optimization, convex analysis,
+47N20	V	569	Applications of operator theory to differential and integral equations
+47N30	V	569	Applications of operator theory in probability theory and statistics
+47N40	V	569	Applications of operator theory in numerical analysis
+47N50	V	569	Applications of operator theory in the physical sciences
+47N60	V	569	Applications of operator theory in chemistry and life sciences
+47N70	V	569	Applications of operator theory in systems, signals, circuits, and control
+47N99	V	570	Miscellaneous applications of operator theory
+47S05	V	570	Quaternionic operator theory
+47S10	V	570	Operator theory over fields other than (mathbb{R}), (mathbb{C}) or the
+47S20	V	570	Nonstandard operator theory
+47S30	V	570	Constructive operator theory
+47S40	V	570	Fuzzy operator theory
+47S50	V	570	Operator theory in probabilistic metric linear spaces
+47S99	V	570	Other (nonclassical) types of operator theory
+53C07	V	570	Special connections and metrics on vector bundles (Hermite-Einstein,
+53D37	V	571	Symplectic aspects of mirror symmetry, homological mirror symmetry, and
+53D40	V	571	Symplectic aspects of Floer homology and cohomology
+57-00	V	573	General reference works (handbooks, dictionaries, bibliographies, etc.)
+57-02	V	573	Research exposition (monographs, survey articles) pertaining to manifolds
+57-03	V	573	History of manifolds and cell complexes
+57-04	V	573	Software, source code, etc. for problems pertaining to manifolds and cell
+57-06	V	573	Proceedings, conferences, collections, etc. pertaining to manifolds and cell
+57-08	V	573	Computational methods for problems pertaining to manifolds and cell
+57-11	V	573	Research data for problems pertaining to manifolds and cell complexes
+57K10	V	573	Knot theory
+57K12	V	573	Generalized knots (virtual knots, welded knots, quandles, etc.)
+57K14	V	573	Knot polynomials
+57K16	V	573	Finite-type and quantum invariants, topological quantum field theories
+57K18	V	573	Homology theories in knot theory (Khovanov, Heegaard-Floer, etc.)
+57K20	V	573	2-dimensional topology (including mapping class groups of surfaces,
+57K30	V	574	General topology of 3-manifolds
+57K31	V	574	Invariants of 3-manifolds (including skein modules, character varieties)
+57K32	V	574	Hyperbolic 3-manifolds
+57K33	V	574	Contact structures in 3 dimensions
+57K35	V	574	Other geometric structures on 3-manifolds
+57K40	V	574	General topology of 4-manifolds
+57K41	V	574	Invariants of 4-manifolds (including Donaldson and Seiberg-Witten
+57K43	V	574	Symplectic structures in 4 dimensions
+57K45	V	574	Higher-dimensional knots and links
+57K50	V	574	Low-dimensional manifolds of specific dimension 5 or higher
+57K99	V	574	Low-dimensional topology in specific dimensions
+57M05	V	574	Fundamental group, presentations, free differential calculus
+57M07	V	575	Topological methods in group theory
+57M10	V	575	Covering spaces and low-dimensional topology
+57M12	V	575	Low-dimensional topology of special (e.g., branched) coverings
+57M15	V	575	Relations of low-dimensional topology with graph theory
+57M30	V	575	Wild embeddings
+57M50	V	575	General geometric structures on low-dimensional manifolds
+57M60	V	575	Group actions on manifolds and cell complexes in low dimensions
+57M99	V	575	General low-dimensional topology
+57N16	V	575	Geometric structures on manifolds of high or arbitrary dimension
+57N17	V	575	Topology of topological vector spaces
+57N20	V	575	Topology of infinite-dimensional manifolds
+57N25	V	575	Shapes (aspects of topological manifolds)
+57N30	V	576	Engulfing in topological manifolds
+57N35	V	576	Embeddings and immersions in topological manifolds
+57N37	V	576	Isotopy and pseudo-isotopy
+57N40	V	576	Neighborhoods of submanifolds
+57N45	V	576	Flatness and tameness of topological manifolds
+57N50	V	576	(S^{n-1}subset E^n), Schoenflies problem
+57N55	V	576	Microbundles and block bundles
+57N60	V	576	Cellularity in topological manifolds
+57N65	V	576	Algebraic topology of manifolds
+57N70	V	576	Cobordism and concordance in topological manifolds
+57N75	V	576	General position and transversality
+57N80	V	576	Stratifications in topological manifolds
+57N99	V	577	Topological manifolds
+57P05	V	577	Local properties of generalized manifolds
+57P10	V	577	Poincaré duality spaces
+57P99	V	577	Generalized manifolds
+57Q05	V	577	General topology of complexes
+57Q10	V	577	Simple homotopy type, Whitehead torsion, Reidemeister-Franz torsion, etc.
+57Q12	V	577	Wall finiteness obstruction for CW-complexes
+57Q15	V	577	Triangulating manifolds
+57Q20	V	577	Cobordism in PL-topology
+57Q25	V	577	Comparison of PL-structures: classification, Hauptvermutung
+57Q30	V	577	Engulfing
+57Q35	V	577	Embeddings and immersions in PL-topology
+57Q37	V	578	Isotopy in PL-topology
+57Q40	V	578	Regular neighborhoods in PL-topology
+57Q50	V	578	Microbundles and block bundles
+57Q55	V	578	Approximations in PL-topology
+57Q60	V	578	Cobordism and concordance in PL-topology
+57Q65	V	578	General position and transversality
+57Q70	V	578	Discrete Morse theory and related ideas in manifold topology
+57Q91	V	578	Equivariant PL-topology
+57Q99	V	578	PL-topology
+57R05	V	578	Triangulating
+57R10	V	578	Smoothing in differential topology
+57R12	V	578	Smooth approximations in differential topology
+57R15	V	578	Specialized structures on manifolds (spin manifolds, framed manifolds, etc.)
+57R17	V	578	Symplectic and contact topology in high or arbitrary dimension
+57R18	V	579	Topology and geometry of orbifolds
+57R19	V	579	Algebraic topology on manifolds and differential topology
+57R20	V	579	Characteristic classes and numbers in differential topology
+57R22	V	579	Topology of vector bundles and fiber bundles
+57R25	V	579	Vector fields, frame fields in differential topology
+57R27	V	579	Controllability of vector fields on (C^infty) and real-analytic manifolds
+57R30	V	579	Foliations in differential topology; geometric theory
+57R32	V	579	Classifying spaces for foliations; Gelfand-Fuks cohomology
+57R35	V	579	Differentiable mappings in differential topology
+57R40	V	579	Embeddings in differential topology
+57R42	V	579	Immersions in differential topology
+57R45	V	579	Singularities of differentiable mappings in differential topology
+57R50	V	579	Differential topological aspects of diffeomorphisms
+57R52	V	579	Isotopy in differential topology
+57R55	V	579	Differentiable structures in differential topology
+57R56	V	580	Topological quantum field theories (aspects of differential topology)
+57R57	V	580	Applications of global analysis to structures on manifolds
+57R58	V	580	Floer homology
+57R60	V	580	Homotopy spheres, Poincaré conjecture
+57R65	V	580	Surgery and handlebodies
+57R67	V	580	Surgery obstructions, Wall groups
+57R70	V	580	Critical points and critical submanifolds in differential topology
+57R75	V	580	(mathrm{O})- and (mathrm{SO})-cobordism
+57R77	V	580	Complex cobordism ((mathrm{U})- and (mathrm{SU})-cobordism)
+57R80	V	580	(h)- and (s)-cobordism
+57R85	V	580	Equivariant cobordism
+57R90	V	580	Other types of cobordism
+57R91	V	580	Equivariant algebraic topology of manifolds
+57R95	V	581	Realizing cycles by submanifolds
+57R99	V	581	Differential topology
+57S05	V	581	Topological properties of groups of homeomorphisms or diffeomorphisms
+57S10	V	581	Compact groups of homeomorphisms
+57S12	V	581	Toric topology
+57S15	V	581	Compact Lie groups of differentiable transformations
+57S17	V	581	Finite transformation groups
+57S20	V	581	Noncompact Lie groups of transformations
+57S25	V	581	Groups acting on specific manifolds
+57S30	V	581	Discontinuous groups of transformations
+57S99	V	581	Topological transformation groups
+57T05	V	581	Hopf algebras (aspects of homology and homotopy of topological groups)
+57T10	V	582	Homology and cohomology of Lie groups
+57T15	V	582	Homology and cohomology of homogeneous spaces of Lie groups
+57T20	V	582	Homotopy groups of topological groups and homogeneous spaces
+57T25	V	582	Homology and cohomology of (H)-spaces
+57T30	V	582	Bar and cobar constructions
+57T35	V	582	Applications of Eilenberg-Moore spectral sequences
+57T99	V	582	Homology and homotopy of topological groups and related structures
+57Z05	V	582	Relations of manifolds and cell complexes with physics
+57Z10	V	582	Relations of manifolds and cell complexes with biology
+57Z15	V	582	Relations of manifolds and cell complexes with chemistry
+57Z20	V	582	Relations of manifolds and cell complexes with engineering
+57Z25	V	582	Relations of manifolds and cell complexes with computer and data science
+57Z99	V	583	Relations of manifolds and cell complexes with science and engineering
+58-00	V	583	General reference works (handbooks, dictionaries, bibliographies, etc.)
+58-02	V	583	Research exposition (monographs, survey articles) pertaining to global
+58-03	V	583	History of global analysis
+58-04	V	583	Software, source code, etc. for problems pertaining to global analysis
+58-06	V	583	Proceedings, conferences, collections, etc. pertaining to global analysis
+58-08	V	583	Computational methods for problems pertaining to global analysis
+58-11	V	583	Research data for problems pertaining to global analysis
+58A03	V	583	Topos-theoretic approach to differentiable manifolds
+58A05	V	583	Differentiable manifolds, foundations
+58A07	V	583	Real-analytic and Nash manifolds
+58A10	V	583	Differential forms in global analysis
+58A12	V	584	de Rham theory in global analysis
+58A14	V	584	Hodge theory in global analysis
+58A15	V	584	Exterior differential systems (Cartan theory)
+58A17	V	584	Pfaffian systems
+58A20	V	584	Jets in global analysis
+58A25	V	584	Currents in global analysis
+58A30	V	584	Vector distributions (subbundles of the tangent bundles)
+58A32	V	584	Natural bundles
+58A35	V	584	Stratified sets
+58A40	V	584	Differential spaces
+58A50	V	584	Supermanifolds and graded manifolds
+58A99	V	584	General theory of differentiable manifolds
+58B05	V	585	Homotopy and topological questions for infinite-dimensional manifolds
+58B10	V	585	Differentiability questions for infinite-dimensional manifolds
+58B12	V	585	Questions of holomorphy and infinite-dimensional manifolds
+58B15	V	585	Fredholm structures on infinite-dimensional manifolds
+58B20	V	585	Riemannian, Finsler and other geometric structures on infinite-dimensional
+58B25	V	585	Group structures and generalizations on infinite-dimensional manifolds
+58B32	V	585	Geometry of quantum groups
+58B34	V	585	Noncommutative geometry (à la Connes)
+58B99	V	585	Infinite-dimensional manifolds
+58C05	V	585	Real-valued functions on manifolds
+58C06	V	585	Set-valued and function-space-valued mappings on manifolds
+58C07	V	586	Continuity properties of mappings on manifolds
+58C10	V	586	Holomorphic maps on manifolds
+58C15	V	586	Implicit function theorems; global Newton methods on manifolds
+58C20	V	586	Differentiation theory (Gateaux, Fréchet, etc.) on manifolds
+58C25	V	586	Differentiable maps on manifolds
+58C30	V	586	Fixed-point theorems on manifolds
+58C35	V	586	Integration on manifolds; measures on manifolds
+58C40	V	586	Spectral theory; eigenvalue problems on manifolds
+58C50	V	586	Analysis on supermanifolds or graded manifolds
+58C99	V	586	Calculus on manifolds; nonlinear operators
+58D05	V	586	Groups of diffeomorphisms and homeomorphisms as manifolds
+58D07	V	586	Groups and semigroups of nonlinear operators
+58D10	V	587	Spaces of embeddings and immersions
+58D15	V	587	Manifolds of mappings
+58D17	V	587	Manifolds of metrics (especially Riemannian)
+58D19	V	587	Group actions and symmetry properties
+58D20	V	587	Measures (Gaussian, cylindrical, etc.) on manifolds of maps
+58D25	V	587	Equations in function spaces; evolution equations
+58D27	V	587	Moduli problems for differential geometric structures
+58D29	V	587	Moduli problems for topological structures
+58D30	V	587	Applications of manifolds of mappings to the sciences
+58D99	V	587	Spaces and manifolds of mappings (including nonlinear versions of 46Exx)
+58E05	V	587	Abstract critical point theory (Morse theory, Lyusternik-Shnirel'man theory,
+58E07	V	588	Variational problems in abstract bifurcation theory in infinite-dimensional
+58E09	V	588	Group-invariant bifurcation theory in infinite-dimensional spaces
+58E10	V	588	Variational problems in applications to the theory of geodesics (problems in
+58E11	V	588	Critical metrics
+58E12	V	588	Variational problems concerning minimal surfaces (problems in two
+58E15	V	588	Variational problems concerning extremal problems in several variables;
+58E17	V	588	Multiobjective variational problems, Pareto optimality, applications to
+58E20	V	588	Harmonic maps, etc.
+58E25	V	588	Applications of variational problems to control theory
+58E30	V	588	Variational principles in infinite-dimensional spaces
+58E35	V	588	Variational inequalities (global problems) in infinite-dimensional spaces
+58E40	V	588	Variational aspects of group actions in infinite-dimensional spaces
+58E50	V	589	Applications of variational problems in infinite-dimensional spaces to the
+58E99	V	589	Variational problems in infinite-dimensional spaces
+58H05	V	589	Pseudogroups and differentiable groupoids
+58H10	V	589	Cohomology of classifying spaces for pseudogroup structures (Spencer,
+58H15	V	589	Deformations of general structures on manifolds
+58H99	V	589	Pseudogroups, differentiable groupoids and general structures on manifolds
+58J05	V	589	Elliptic equations on manifolds, general theory
+58J10	V	589	Differential complexes
+58J15	V	589	Relations of PDEs on manifolds with hyperfunctions
+58J20	V	589	Index theory and related fixed-point theorems on manifolds
+58J22	V	590	Exotic index theories on manifolds
+58J26	V	590	Elliptic genera
+58J28	V	590	Eta-invariants, Chern-Simons invariants
+58J30	V	590	Spectral flows
+58J32	V	590	Boundary value problems on manifolds
+58J35	V	590	Heat and other parabolic equation methods for PDEs on manifolds
+58J37	V	590	Perturbations of PDEs on manifolds; asymptotics
+58J40	V	590	Pseudodifferential and Fourier integral operators on manifolds
+58J42	V	590	Noncommutative global analysis, noncommutative residues
+58J45	V	590	Hyperbolic equations on manifolds
+58J47	V	590	Propagation of singularities; initial value problems on manifolds
+58J50	V	590	Spectral problems; spectral geometry; scattering theory on manifolds
+58J51	V	591	Relations between spectral theory and ergodic theory, e.g., quantum unique
+58J52	V	591	Determinants and determinant bundles, analytic torsion
+58J53	V	591	Isospectrality
+58J55	V	591	Bifurcation theory for PDEs on manifolds
+58J60	V	591	Relations of PDEs with special manifold structures (Riemannian, Finsler, etc.)
+58J65	V	591	Diffusion processes and stochastic analysis on manifolds
+58J70	V	591	Invariance and symmetry properties for PDEs on manifolds
+58J72	V	591	Correspondences and other transformation methods (e.g., Lie-Bäcklund) for
+58J90	V	591	Applications of PDEs on manifolds
+58J99	V	591	Partial differential equations on manifolds; differential operators
+58K05	V	591	Critical points of functions and mappings on manifolds
+58K10	V	592	Monodromy on manifolds
+58K15	V	592	Topological properties of mappings on manifolds
+58K20	V	592	Algebraic and analytic properties of mappings on manifolds
+58K25	V	592	Stability theory for manifolds
+58K30	V	592	Global theory of singularities
+58K35	V	592	Catastrophe theory
+58K40	V	592	Classification; finite determinacy of map germs
+58K45	V	592	Singularities of vector fields, topological aspects
+58K50	V	592	Normal forms on manifolds
+58K55	V	592	Asymptotic behavior of solutions to equations on manifolds
+58K60	V	592	Deformation of singularities
+58K65	V	592	Topological invariants on manifolds
+58K70	V	592	Symmetries, equivariance on manifolds
+58K99	V	592	Theory of singularities and catastrophe theory
+58Z05	V	593	Applications of global analysis to the sciences
+58Z99	V	593	Applications of global analysis to the sciences
+60H15	V	593	Stochastic partial differential equations (aspects of stochastic analysis)
+60H17	V	593	Singular stochastic partial differential equations
+70S15	V	593	Yang-Mills and other gauge theories in mechanics of particles and systems
+81-00	V	595	General reference works (handbooks, dictionaries, bibliographies, etc.)
+81-02	V	595	Research exposition (monographs, survey articles) pertaining to quantum
+81-03	V	595	History of quantum theory
+81-04	V	595	Software, source code, etc. for problems pertaining to quantum theory
+81-05	V	595	Experimental work for problems pertaining to quantum theory
+81-06	V	595	Proceedings, conferences, collections, etc. pertaining to quantum theory
+81-08	V	595	Computational methods for problems pertaining to quantum theory
+81-10	V	595	Mathematical modeling or simulation for problems pertaining to quantum
+81-11	V	595	Research data for problems pertaining to quantum theory
+81P05	V	595	General and philosophical questions in quantum theory
+81P10	V	595	Logical foundations of quantum mechanics; quantum logic
+81P13	V	595	Contextuality in quantum theory
+81P15	V	595	Quantum measurement theory, state operations, state preparations
+81P16	V	595	Quantum state spaces, operational and probabilistic concepts
+81P17	V	595	Quantum entropies
+81P18	V	596	Quantum state tomography, quantum state discrimination
+81P20	V	596	Stochastic mechanics (including stochastic electrodynamics)
+81P40	V	596	Quantum coherence, entanglement, quantum correlations
+81P42	V	596	Entanglement measures, concurrencies, separability criteria
+81P43	V	596	Quantum discord
+81P45	V	596	Quantum information, communication, networks (quantum-theoretic aspects)
+81P47	V	596	Quantum channels, fidelity
+81P48	V	596	LOCC, teleportation, dense coding, remote state operations, distillation
+81P50	V	596	Quantum state estimation, approximate cloning
+81P55	V	596	Special bases (entangled, mutual unbiased, etc.)
+81P65	V	596	Quantum gates
+81P68	V	596	Quantum computation
+81P70	V	596	Quantum coding (general)
+81P73	V	597	Computational stability and error-correcting codes for quantum computation
+81P94	V	597	Quantum cryptography (quantum-theoretic aspects)
+81P99	V	597	Foundations, quantum information and its processing, quantum axioms, and
+81Q05	V	597	Closed and approximate solutions to the Schrödinger, Dirac, Klein-Gordon
+81Q10	V	597	Selfadjoint operator theory in quantum theory, including spectral analysis
+81Q12	V	597	Nonselfadjoint operator theory in quantum theory including creation and
+81Q15	V	597	Perturbation theories for operators and differential equations in quantum
+81Q20	V	597	Semiclassical techniques, including WKB and Maslov methods applied to
+81Q30	V	597	Feynman integrals and graphs; applications of algebraic topology and
+81Q35	V	597	Quantum mechanics on special spaces: manifolds, fractals, graphs, lattices
+81Q37	V	597	Quantum dots, waveguides, ratchets, etc.
+81Q40	V	598	Bethe-Salpeter and other integral equations arising in quantum theory
+81Q50	V	598	Quantum chaos
+81Q60	V	598	Supersymmetry and quantum mechanics
+81Q65	V	598	Alternative quantum mechanics (including hidden variables, etc.)
+81Q70	V	598	Differential geometric methods, including holonomy, Berry and Hannay
+81Q80	V	598	Special quantum systems, such as solvable systems
+81Q93	V	598	Quantum control
+81Q99	V	598	General mathematical topics and methods in quantum theory
+81R05	V	598	Finite-dimensional groups and algebras motivated by physics and their
+81R10	V	598	Infinite-dimensional groups and algebras motivated by physics, including
+81R12	V	598	Groups and algebras in quantum theory and relations with integrable
+81R15	V	598	Operator algebra methods applied to problems in quantum theory
+81R20	V	598	Covariant wave equations in quantum theory, relativistic quantum mechanics
+81R25	V	599	Spinor and twistor methods applied to problems in quantum theory
+81R30	V	599	Coherent states
+81R40	V	599	Symmetry breaking in quantum theory
+81R50	V	599	Quantum groups and related algebraic methods applied to problems in
+81R60	V	599	Noncommutative geometry in quantum theory
+81R99	V	599	Groups and algebras in quantum theory
+81S05	V	599	Commutation relations and statistics as related to quantum mechanics
+81S07	V	599	Uncertainty relations, also entropic
+81S08	V	599	Canonical quantization
+81S10	V	599	Geometry and quantization, symplectic methods
+81S20	V	599	Stochastic quantization
+81S22	V	599	Open systems, reduced dynamics, master equations, decoherence
+81S25	V	599	Quantum stochastic calculus
+81S30	V	599	Phase-space methods including Wigner distributions, etc. applied to
+81S40	V	600	Path integrals in quantum mechanics
+81S99	V	600	General quantum mechanics and problems of quantization
+81T05	V	600	Axiomatic quantum field theory; operator algebras
+81T08	V	600	Constructive quantum field theory
+81T10	V	600	Model quantum field theories
+81T11	V	600	Higher spin theories
+81T12	V	600	Effective quantum field theories
+81T13	V	600	Yang-Mills and other gauge theories in quantum field theory
+81T15	V	600	Perturbative methods of renormalization applied to problems in quantum
+81T16	V	600	Nonperturbative methods of renormalization applied to problems in quantum
+81T17	V	600	Renormalization group methods applied to problems in quantum field theory
+81T18	V	601	Feynman diagrams
+81T20	V	601	Quantum field theory on curved space or space-time backgrounds
+81T25	V	601	Quantum field theory on lattices
+81T27	V	601	Continuum limits in quantum field theory
+81T28	V	601	Thermal quantum field theory
+81T30	V	601	String and superstring theories; other extended objects (e.g., branes) in
+81T32	V	601	Matrix models and tensor models for quantum field theory
+81T33	V	601	Dimensional compactification in quantum field theory
+81T35	V	601	Correspondence, duality, holography (AdS/CFT, gauge/gravity, etc.)
+81T40	V	601	Two-dimensional field theories, conformal field theories, etc. in quantum
+81T45	V	601	Topological field theories in quantum mechanics
+81T50	V	601	Anomalies in quantum field theory
+81T55	V	602	Casimir effect in quantum field theory
+81T60	V	602	Supersymmetric field theories in quantum mechanics
+81T70	V	602	Quantization in field theory; cohomological methods
+81T75	V	602	Noncommutative geometry methods in quantum field theory
+81T99	V	602	Quantum field theory; related classical field theories
+81U05	V	602	(2)-body potential quantum scattering theory
+81U10	V	602	(n)-body potential quantum scattering theory
+81U15	V	602	Exactly and quasi-solvable systems arising in quantum theory
+81U20	V	602	(S)-matrix theory, etc. in quantum theory
+81U24	V	602	Resonances in quantum scattering theory
+81U26	V	602	Tunneling in quantum theory
+81U30	V	602	Dispersion theory, dispersion relations arising in quantum theory
+81U35	V	602	Inelastic and multichannel quantum scattering
+81U40	V	602	Inverse scattering problems in quantum theory
+81U90	V	603	Particle decays
+81U99	V	603	Quantum scattering theory
+81V05	V	603	Strong interaction, including quantum chromodynamics
+81V10	V	603	Electromagnetic interaction; quantum electrodynamics
+81V15	V	603	Weak interaction in quantum theory
+81V17	V	603	Gravitational interaction in quantum theory
+81V19	V	603	Other fundamental interactions in quantum theory
+81V22	V	603	Unified quantum theories
+81V27	V	603	Anyons
+81V35	V	603	Nuclear physics
+81V45	V	603	Atomic physics
+81V55	V	603	Molecular physics
+81V60	V	603	Mono-, di- and multipole moments (EM and other), gyromagnetic relations
+81V65	V	603	Quantum dots as quasi particles
+81V70	V	603	Many-body theory; quantum Hall effect
+81V72	V	604	Particle exchange symmetries in quantum theory (general)
+81V73	V	604	Bosonic systems in quantum theory
+81V74	V	604	Fermionic systems in quantum theory
+81V80	V	604	Quantum optics
+81V99	V	604	Applications of quantum theory to specific physical systems
+82-00	V	604	General reference works (handbooks, dictionaries, bibliographies, etc.)
+82-02	V	604	Research exposition (monographs, survey articles) pertaining to statistical
+82-03	V	604	History of statistical mechanics
+82-04	V	604	Software, source code, etc. for problems pertaining to statistical mechanics
+82-05	V	604	Experimental work for problems pertaining to statistical mechanics
+82-06	V	604	Proceedings, conferences, collections, etc. pertaining to statistical mechanics
+82-10	V	604	Mathematical modeling or simulation for problems pertaining to statistical
+82-11	V	604	Research data for problems pertaining to statistical mechanics
+82B03	V	604	Foundations of equilibrium statistical mechanics
+82B05	V	605	Classical equilibrium statistical mechanics (general)
+82B10	V	605	Quantum equilibrium statistical mechanics (general)
+82B20	V	605	Lattice systems (Ising, dimer, Potts, etc.) and systems on graphs arising in
+82B21	V	605	Continuum models (systems of particles, etc.) arising in equilibrium
+82B23	V	605	Exactly solvable models; Bethe ansatz
+82B24	V	605	Interface problems; diffusion-limited aggregation arising in equilibrium
+82B26	V	605	Phase transitions (general) in equilibrium statistical mechanics
+82B27	V	605	Critical phenomena in equilibrium statistical mechanics
+82B28	V	605	Renormalization group methods in equilibrium statistical mechanics
+82B30	V	605	Statistical thermodynamics
+82B31	V	605	Stochastic methods applied to problems in equilibrium statistical mechanics
+82B35	V	605	Irreversible thermodynamics, including Onsager-Machlup theory
+82B40	V	605	Kinetic theory of gases in equilibrium statistical mechanics
+82B41	V	605	Random walks, random surfaces, lattice animals, etc. in equilibrium
+82B43	V	606	Percolation
+82B44	V	606	Disordered systems (random Ising models, random Schrödinger operators,
+82B99	V	606	Equilibrium statistical mechanics
+82C03	V	606	Foundations of time-dependent statistical mechanics
+82C05	V	606	Classical dynamic and nonequilibrium statistical mechanics (general)
+82C10	V	606	Quantum dynamics and nonequilibrium statistical mechanics (general)
+82C20	V	606	Dynamic lattice systems (kinetic Ising, etc.) and systems on graphs in
+82C21	V	606	Dynamic continuum models (systems of particles, etc.) in time-dependent
+82C22	V	606	Interacting particle systems in time-dependent statistical mechanics
+82C23	V	606	Exactly solvable dynamic models in time-dependent statistical mechanics
+82C24	V	606	Interface problems; diffusion-limited aggregation in time-dependent
+82C26	V	606	Dynamic and nonequilibrium phase transitions (general) in statistical
+82C27	V	606	Dynamic critical phenomena in statistical mechanics
+82C28	V	607	Dynamic renormalization group methods applied to problems in
+82C31	V	607	Stochastic methods (Fokker-Planck, Langevin, etc.) applied to problems in
+82C32	V	607	Neural nets applied to problems in time-dependent statistical mechanics
+82C35	V	607	Irreversible thermodynamics, including Onsager-Machlup theory
+82C40	V	607	Kinetic theory of gases in time-dependent statistical mechanics
+82C41	V	607	Dynamics of random walks, random surfaces, lattice animals, etc. in
+82C43	V	607	Time-dependent percolation in statistical mechanics
+82C44	V	607	Dynamics of disordered systems (random Ising systems, etc.) in
+82C70	V	607	Transport processes in time-dependent statistical mechanics
+82C99	V	607	Time-dependent statistical mechanics (dynamic and nonequilibrium)
+82D03	V	607	Statistical mechanics in condensed matter (general)
+82D05	V	607	Statistical mechanics of gases
+82D10	V	607	Statistical mechanics of plasmas
+82D15	V	608	Statistical mechanics of liquids
+82D20	V	608	Statistical mechanics of solids
+82D25	V	608	Statistical mechanics of crystals
+82D30	V	608	Statistical mechanics of random media, disordered materials (including liquid
+82D35	V	608	Statistical mechanics of metals
+82D37	V	608	Statistical mechanics of semiconductors
+82D40	V	608	Statistical mechanics of magnetic materials
+82D45	V	608	Statistical mechanics of ferroelectrics
+82D50	V	608	Statistical mechanics of superfluids
+82D55	V	608	Statistical mechanics of superconductors
+82D60	V	608	Statistical mechanics of polymers
+82D75	V	608	Nuclear reactor theory; neutron transport
+82D77	V	608	Quantum waveguides, quantum wires
+82D80	V	608	Statistical mechanics of nanostructures and nanoparticles
+82D99	V	608	Applications of statistical mechanics to specific types of physical systems
+82M10	V	609	Finite element, Galerkin and related methods applied to problems in
+82M12	V	609	Finite volume methods applied to problems in statistical mechanics
+82M15	V	609	Boundary element methods applied to problems in statistical mechanics
+82M20	V	609	Finite difference methods applied to problems in statistical mechanics
+82M22	V	609	Spectral, collocation and related (meshless) methods applied to problems in
+82M30	V	609	Variational methods applied to problems in statistical mechanics
+82M31	V	609	Monte Carlo methods applied to problems in statistical mechanics
+82M36	V	609	Computational density functional analysis in statistical mechanics
+82M37	V	609	Computational molecular dynamics in statistical mechanics
+82M60	V	609	Stochastic analysis in statistical mechanics
+82M99	V	609	Basic methods in statistical mechanics
+83-00	V	611	General reference works (handbooks, dictionaries, bibliographies, etc.)
+83-02	V	611	Research exposition (monographs, survey articles) pertaining to relativity
+83-03	V	611	History of relativity and gravitational theory
+83-04	V	611	Software, source code, etc. for problems pertaining to relativity and
+83-05	V	611	Experimental work for problems pertaining to relativity and gravitational
+83-06	V	611	Proceedings, conferences, collections, etc. pertaining to relativity and
+83-08	V	611	Computational methods for problems pertaining to relativity and
+83-10	V	611	Mathematical modeling or simulation for problems pertaining to relativity
+83-11	V	611	Research data for problems pertaining to relativity and gravitational theory
+83A05	V	611	Special relativity
+83A99	V	611	Special relativity
+83B05	V	611	Observational and experimental questions in relativity and gravitational
+83B99	V	611	Observational and experimental questions in relativity and gravitational
+83C05	V	612	Einstein's equations (general structure, canonical formalism, Cauchy
+83C10	V	612	Equations of motion in general relativity and gravitational theory
+83C15	V	612	Exact solutions to problems in general relativity and gravitational theory
+83C20	V	612	Classes of solutions; algebraically special solutions, metrics with symmetries
+83C22	V	612	Einstein-Maxwell equations
+83C25	V	612	Approximation procedures, weak fields in general relativity and gravitational
+83C27	V	612	Lattice gravity, Regge calculus and other discrete methods in general
+83C30	V	612	Asymptotic procedures (radiation, news functions, (mathcal{H} )-spaces,
+83C35	V	612	Gravitational waves
+83C40	V	612	Gravitational energy and conservation laws; groups of motions
+83C45	V	612	Quantization of the gravitational field
+83C47	V	613	Methods of quantum field theory in general relativity and gravitational theory
+83C50	V	613	Electromagnetic fields in general relativity and gravitational theory
+83C55	V	613	Macroscopic interaction of the gravitational field with matter
+83C56	V	613	Dark matter and dark energy
+83C57	V	613	Black holes
+83C60	V	613	Spinor and twistor methods in general relativity and gravitational theory;
+83C65	V	613	Methods of noncommutative geometry in general relativity
+83C75	V	613	Space-time singularities, cosmic censorship, etc.
+83C80	V	613	Analogues of general relativity in lower dimensions
+83C99	V	613	General relativity
+83D05	V	613	Relativistic gravitational theories other than Einstein's, including asymmetric
+83D99	V	614	Relativistic gravitational theories other than Einstein's, including asymmetric
+83E05	V	614	Geometrodynamics and the holographic principle
+83E15	V	614	Kaluza-Klein and other higher-dimensional theories
+83E30	V	614	String and superstring theories in gravitational theory
+83E50	V	614	Supergravity
+83E99	V	614	Unified, higher-dimensional and super field theories
+83F05	V	614	Relativistic cosmology
+83F99	V	614	Relativistic cosmology
