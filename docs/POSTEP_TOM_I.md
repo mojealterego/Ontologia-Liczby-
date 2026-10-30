@@ -322,3 +322,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Dowody wykonania:** `docs/DOWODY_F15_2_2026-10-30.md`, końcowy commit `a6d1e562f3532f73f0358128cf2903ac4797e50d`.
 - **Ograniczenia:** brak potwierdzonego GitHub Actions CI, niezależnej recenzji naukowej i integracji z rzeczywistym monolitem 0.20. Wersja biblioteczna 764 strony nie jest tożsama z wydaniem 0.20 (864 strony według rejestru). Historyczny wstęp i istniejące rozdziały nietknięte. Podgląd **nie zwiększa 585/1222**; nie ustalono łącznej liczby niescalonych stron z powodu wcześniejszej duplikacji F12.2.
 - **Następny punkt:** F15.3 „NWD, NWW i zastosowania” (referencyjna strona 179). Porównać z F15.1 i istniejącym F15.3; rozwijać zastosowania bez powtarzania dowodu `gcd·lcm=|ab|`. Bez końcowego spisu treści i bez Tomu II.
+
+
+## F15.3 — NWD, NWW i zastosowania (30 października 2026)
+
+- Źródło na `main`: `manuscript/tom-01/F15/F15.3_UZUPELNIENIE_KONGRUENCJE_OKRESY.md`; commity `5cc76716b4f85a00c2f8663e49da9621a14eb6e6`, `904afa8c2623d1ecde0c0a0a0b4e41e2319600fd`.
+- Zakres: 4 definicje, 8 twierdzeń z dowodami, 5 kontrprzykładów, 12 zadań z rozwiązaniami. Uogólnione CRT, kongruencje liniowe, przesunięte harmonogramy, liczba rozwiązań i okresy wspólne. Nie powtórzono dowodu tożsamości NWD·NWW.
+- Testy opublikowane: `tests/test_f153.py`, commit `2bad45efd7b7858ec1b41a3c469e0209b374cd83`; pięć metod sprawdzających skończone zakresy. W tej sesji **nie potwierdzono ich uruchomienia**. Nie oznaczać ich jako zaliczone.
+- Kompilacja PDF: **nie wykonana**; środowisko lokalne nie mogło pobrać opublikowanego źródła z raw.githubusercontent.com. Brak zweryfikowanego podglądu i liczby jego stron.
+- Suplement pozostaje niescalony z monolitem 0.20. Licznik **585/1222 bez zmian**. Nie modyfikowano wcześniejszych źródeł ani historycznego wstępu. Nie utworzono finalnego spisu treści; nie rozpoczęto Tomu II.
