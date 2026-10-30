@@ -1,0 +1,515 @@
+code	level	taxonomy_pdf_page	title_source
+AUT-00-04	II	17	Popularyzacja
+AUT-01-01	II	17	Matematyka starożytna
+AUT-97-01	II	17	Dydaktyka szkolna
+AUT-97-02	II	17	Programy nauczania
+AUT-00-01	III	29	Filozofia metodologii
+AUT-00-02	III	29	Problematyka otwarta
+AUT-00-03	III	29	Modelowanie
+AUT-00-05	III	29	Zbiory wyników
+AUT-00-06	III	29	Bazy matematyczne
+AUT-00-07	III	29	Metodologie dowodów
+AUT-00-08	III	29	Infrastruktura wiedzy
+AUT-01-02	III	29	Tradycja arabska
+AUT-01-03	III	29	Szkoły nowożytne
+AUT-01-04	III	29	Historia analizy
+AUT-01-05	III	29	Historia algebry
+AUT-01-06	III	29	Biografie
+AUT-01-07	III	29	Historia formalizacji
+AUT-01-08	III	29	Historiografia matematyki
+AUT-05-01	III	30	Kombinatoryka enumeratywna
+AUT-05-02	III	30	Permutacje i partycje
+AUT-05-03	III	30	Teoria grafów
+AUT-05-04	III	30	Ekstremalna kombinatoryka
+AUT-05-05	III	30	Geometria incydencji
+AUT-05-06	III	30	Matroidy
+AUT-05-07	III	30	Teoria Ramseya
+AUT-05-08	III	30	Kombinatoryka algebraiczna
+AUT-11-01	III	30	Elementarna teoria liczb
+AUT-11-02	III	30	Algebraiczna teoria liczb
+AUT-11-03	III	30	Analityczna teoria liczb
+AUT-11-04	III	30	Równania diofantyczne
+AUT-11-05	III	30	Formy modularne
+AUT-11-06	III	30	Ciała lokalne
+AUT-11-07	III	30	Krzywe eliptyczne
+AUT-11-08	III	30	Rozkłady liczb pierwszych
+AUT-11-09	III	30	Geometria liczb
+AUT-15-01	III	30	Macierze
+AUT-15-02	III	30	Przestrzenie wektorowe
+AUT-15-03	III	30	Wartości własne
+AUT-15-04	III	30	Postacie kanoniczne
+AUT-15-05	III	30	Multilinearność
+AUT-15-06	III	30	Tensory
+AUT-15-07	III	30	Rzadkie macierze
+AUT-15-08	III	30	Algebry macierzowe
+AUT-15-09	III	30	Zagadnienia widmowe
+AUT-26-01	III	30	Granice i ciągłość
+AUT-26-02	III	30	Rachunek różniczkowy
+AUT-26-03	III	30	Funkcje wielu zmiennych
+AUT-26-04	III	30	Szeregi funkcji
+AUT-26-05	III	30	Funkcje wypukłe
+AUT-26-06	III	31	Funkcje rzeczywiste osobliwe
+AUT-26-08	III	31	Nierówności analityczne
+AUT-34-01	III	31	Problemy Cauchy'ego
+AUT-34-02	III	31	Równania liniowe
+AUT-34-03	III	31	Stabilność
+AUT-34-04	III	31	Bifurkacje
+AUT-34-05	III	31	Warunki brzegowe
+AUT-34-06	III	31	Równania opóźnione
+AUT-34-07	III	31	Układy Hamiltona
+AUT-34-08	III	31	ODE nieliniowe
+AUT-39-01	III	31	Równania rekurencyjne
+AUT-39-02	III	31	Układy z opóźnieniem
+AUT-39-03	III	31	Równania q-różnicowe
+AUT-39-04	III	31	Zależności funkcyjne
+AUT-39-05	III	31	Iteracje
+AUT-39-06	III	31	Uogólnione różnice
+AUT-39-07	III	31	Równania integrodiferencyjne
+AUT-39-08	III	31	Stabilność
+AUT-40-01	III	31	Ciągi liczbowe
+AUT-40-02	III	31	Zbieżność bezwzględna
+AUT-40-03	III	31	Szeregi wielokrotne
+AUT-40-04	III	31	Metody Cesàro
+AUT-40-05	III	31	Sumowalność Abelowska
+AUT-40-06	III	31	Szeregi funkcji
+AUT-40-07	III	31	Produkty nieskończone
+AUT-40-08	III	31	Metody macierzowe
+AUT-41-01	III	31	Aproksymacja wielomianowa
+AUT-41-02	III	31	Funkcje sklejane
+AUT-41-03	III	31	Przybliżenie wymierne
+AUT-41-04	III	31	Aproksymacja harmoniczna
+AUT-41-05	III	31	Teoria interpolacji
+AUT-41-06	III	31	Oszacowania błędów
+AUT-41-08	III	31	Wagi i normy
+AUT-51-01	III	32	Geometria euklidesowa
+AUT-51-02	III	32	Geometria afiniczna
+AUT-51-03	III	32	Geometria rzutowa
+AUT-51-04	III	32	Geometrie nieeuklidesowe
+AUT-51-05	III	32	Incydencja
+AUT-51-06	III	32	Przekształcenia geometryczne
+AUT-51-07	III	32	Geometria analityczna
+AUT-51-08	III	32	Geometria skończona
+AUT-54-01	III	32	Przestrzenie metryczne
+AUT-54-02	III	32	Zwartość
+AUT-54-03	III	32	Spójność
+AUT-54-04	III	32	Przestrzenie funkcyjne
+AUT-54-05	III	32	Topologie produktowe
+AUT-54-06	III	32	Teorie wymiaru
+AUT-54-07	III	32	Topologia zbiorów
+AUT-54-08	III	32	Przestrzenie jednorodne
+AUT-62-01	III	32	Estymacja
+AUT-62-02	III	32	Testowanie
+AUT-62-03	III	32	Bayesowskie wnioskowanie
+AUT-62-04	III	32	Regresja
+AUT-62-05	III	32	Szeregi czasowe
+AUT-62-06	III	32	Statystyka funkcjonalna
+AUT-62-07	III	32	TDA statystyczna
+AUT-62-08	III	32	Projektowanie doświadczeń
+AUT-62-09	III	32	Dane wysokowymiarowe
+AUT-65-01	III	32	Numeryczna algebra liniowa
+AUT-65-02	III	32	Numeryczne ODE
+AUT-65-03	III	32	Numeryczne PDE
+AUT-65-04	III	32	Interpolacja
+AUT-65-05	III	32	Optymalizacja obliczeniowa
+AUT-65-06	III	32	Metody Monte Carlo
+AUT-65-07	III	32	Metody spektralne
+AUT-65-08	III	33	Arytmetyka zmiennoprzecinkowa
+AUT-68-01	III	33	Teoria złożoności
+AUT-68-02	III	33	Algorytmy i struktury danych
+AUT-68-03	III	33	Logika obliczeniowa
+AUT-68-04	III	33	Automatyzacja dowodów
+AUT-68-05	III	33	Uczenie maszynowe
+AUT-68-06	III	33	Grafy
+AUT-68-07	III	33	Kryptografia
+AUT-68-08	III	33	Metody formalne
+AUT-90-01	III	33	Programowanie liniowe
+AUT-90-02	III	33	Optymalizacja całkowitoliczbowa
+AUT-90-03	III	33	Optymalizacja wypukła
+AUT-90-04	III	33	Grafowe przepływy
+AUT-90-05	III	33	Harmonogramowanie
+AUT-90-06	III	33	Sieci transportowe
+AUT-90-07	III	33	Programowanie stochastyczne
+AUT-90-08	III	33	Analiza wielokryterialna
+AUT-97-03	III	33	Teoria reprezentacji pojęć
+AUT-97-04	III	33	Uczenie problemowe
+AUT-97-05	III	33	Ocenianie
+AUT-97-06	III	33	Edukacja akademicka
+AUT-97-07	III	33	Technologie edukacyjne
+AUT-97-08	III	33	Badania porównawcze
+AUT-03-01	IV	199	Teoria modeli
+AUT-03-02	IV	199	Teoria mnogości
+AUT-03-03	IV	199	Obliczalność
+AUT-03-04	IV	199	Logika modalna
+AUT-03-05	IV	199	Teoria dowodu
+AUT-03-06	IV	199	Teoria typów
+AUT-03-07	IV	199	Struktury aksjomatyczne
+AUT-03-08	IV	199	Filozofia matematyki
+AUT-06-01	IV	199	Teoria porządku
+AUT-06-02	IV	199	Kraty kompletne
+AUT-06-03	IV	199	Algebry Boole'a
+AUT-06-04	IV	199	Algebry Heytinga
+AUT-06-05	IV	199	Teoria domen
+AUT-06-06	IV	199	Struktury resztowane
+AUT-06-07	IV	199	Przestrzenie Priestleya
+AUT-06-08	IV	199	Związki z logiką
+AUT-08-01	IV	199	Algebra uniwersalna
+AUT-08-02	IV	199	Kongruencje
+AUT-08-03	IV	199	Rozmaitości algebr
+AUT-08-04	IV	199	Quasi-rozmaitości
+AUT-08-05	IV	199	Klony operacji
+AUT-08-06	IV	200	Algebry częściowe
+AUT-08-07	IV	200	Automatyzacja tożsamości
+AUT-08-08	IV	200	Teoria równań
+AUT-12-02	IV	200	Ciała skończone
+AUT-12-03	IV	200	Ciała uporządkowane
+AUT-12-04	IV	200	Teoria Kummera
+AUT-12-05	IV	200	Geometria wielomianów
+AUT-12-06	IV	200	Rozszerzenia przestępne
+AUT-12-07	IV	200	Ciała różniczkowe
+AUT-12-08	IV	200	Arytmetyka obliczeniowa
+AUT-13-01	IV	200	Pierścienie noetherowskie
+AUT-13-02	IV	200	Algebra lokalna
+AUT-13-03	IV	200	Teoria ideałów
+AUT-13-04	IV	200	Homologia przemienna
+AUT-13-05	IV	200	Geometria homologiczna
+AUT-13-06	IV	200	Pierścienie stopniowane
+AUT-13-07	IV	200	Osobliwości
+AUT-13-08	IV	200	Algebra komputerowa
+AUT-16-01	IV	200	Teoria modułów
+AUT-16-02	IV	200	Struktura pierścieni
+AUT-16-03	IV	200	Algebry Artina
+AUT-16-04	IV	200	Algebry Hopfa
+AUT-16-05	IV	200	Teoria Mority
+AUT-16-06	IV	200	Pierścienie stopniowane
+AUT-16-08	IV	200	Algebry operatorów
+AUT-17-01	IV	200	Algebry Liego
+AUT-17-02	IV	200	Algebry Jordana
+AUT-17-03	IV	200	Algebry Malcewa
+AUT-17-04	IV	200	Algebry alternatywne
+AUT-17-05	IV	200	Superalgebry
+AUT-17-06	IV	200	Operacje n-arne
+AUT-17-07	IV	200	Deformacje
+AUT-17-08	IV	200	Teoria reprezentacji
+AUT-20-01	IV	201	Grupy skończone
+AUT-20-02	IV	201	Grupy nieskończone
+AUT-20-03	IV	201	Teoria reprezentacji
+AUT-20-04	IV	201	Grupy permutacji
+AUT-20-05	IV	201	Teoria geometryczna grup
+AUT-20-06	IV	201	Grupy pro-p
+AUT-20-07	IV	201	Algorytmy grupowe
+AUT-20-08	IV	201	Grupy arytmetyczne
+AUT-22-01	IV	201	Grupy Liego
+AUT-22-02	IV	201	Reprezentacje unitarne
+AUT-22-03	IV	201	Analiza harmoniczna na grupach
+AUT-22-04	IV	201	Grupy algebraiczne
+AUT-22-05	IV	201	Struktury półproste
+AUT-22-06	IV	201	Grupy lokalnie zwarte
+AUT-22-07	IV	201	Formy automorficzne
+AUT-22-08	IV	201	Algebry Liego
+AUT-28-01	IV	201	Miara Lebesgue'a
+AUT-28-02	IV	201	Miary Radona
+AUT-28-03	IV	201	Zbieżność w mierze
+AUT-28-04	IV	201	Geometryczna teoria miary
+AUT-28-05	IV	201	Całkowanie abstrakcyjne
+AUT-28-06	IV	201	Miary wektorowe
+AUT-28-07	IV	201	Przestrzenie miar
+AUT-28-08	IV	201	Teoria dezintegracji
+AUT-30-01	IV	201	Twierdzenie Cauchy'ego
+AUT-30-02	IV	201	Szeregi Laurenta
+AUT-30-03	IV	201	Residua
+AUT-30-04	IV	201	Odwzorowania konforemne
+AUT-30-05	IV	201	Rodziny normalne
+AUT-30-06	IV	201	Dynamika zespolona
+AUT-30-07	IV	201	Przestrzenie funkcji
+AUT-30-08	IV	201	Teoria wartości
+AUT-31-01	IV	202	Potencjały Newtona
+AUT-31-02	IV	202	Funkcje harmoniczne
+AUT-31-03	IV	202	Funkcje subharmoniczne
+AUT-31-04	IV	202	Pojemność
+AUT-31-05	IV	202	Procesy Browna
+AUT-31-06	IV	202	Potencjały nieliniowe
+AUT-31-07	IV	202	Teoria Dirichleta
+AUT-31-08	IV	202	Metody probabilistyczne
+AUT-33-01	IV	202	Funkcje hipergeometryczne
+AUT-33-02	IV	202	Bessela
+AUT-33-03	IV	202	Gamma
+AUT-33-04	IV	202	Funkcje eliptyczne
+AUT-33-05	IV	202	Ortogonalne wielomiany
+AUT-33-06	IV	202	Funkcje theta
+AUT-33-07	IV	202	Funkcje q-specjalne
+AUT-33-08	IV	202	Funkcje automorficzne
+AUT-35-01	IV	202	PDE eliptyczne
+AUT-35-02	IV	202	Paraboliczne
+AUT-35-03	IV	202	Hiperboliczne
+AUT-35-04	IV	202	Rozwiązania słabe
+AUT-35-05	IV	202	Teoria regularności
+AUT-35-06	IV	202	PDE nieliniowe
+AUT-35-07	IV	202	Układy dyspersyjne
+AUT-35-08	IV	202	Osobliwości
+AUT-35-09	IV	202	Problemy odwrotne
+AUT-37-01	IV	202	Dynamika topologiczna
+AUT-37-02	IV	202	Teoria ergodyczna
+AUT-37-03	IV	202	Chaos
+AUT-37-04	IV	202	Układy hiperboliczne
+AUT-37-05	IV	202	Bifurkacje
+AUT-37-06	IV	202	Dynamika zespolona
+AUT-37-07	IV	202	Dynamika symboliczna
+AUT-37-08	IV	202	Entropia
+AUT-37-09	IV	202	Teoria stabilności
+AUT-42-01	IV	203	Szeregi Fouriera
+AUT-42-02	IV	203	Transformata Fouriera
+AUT-42-03	IV	203	Analiza falkowa
+AUT-42-04	IV	203	Operatory osobliwe
+AUT-42-05	IV	203	Mnożniki
+AUT-42-06	IV	203	Analiza czasu-częstotliwości
+AUT-42-07	IV	203	Oszacowania restrykcyjne
+AUT-42-08	IV	203	Analiza dyspersyjna
+AUT-43-01	IV	203	Dualność Pontriagina
+AUT-43-02	IV	203	Algebry grupowe
+AUT-43-03	IV	203	Analiza na grupach Liego
+AUT-43-04	IV	203	Reprezentacje unitarne
+AUT-43-05	IV	203	Hipergropy
+AUT-43-06	IV	203	Transformacje sferyczne
+AUT-43-08	IV	203	Struktury lokalnie zwarte
+AUT-44-01	IV	203	Transformata Laplace'a
+AUT-44-02	IV	203	Transformata Mellina
+AUT-44-03	IV	203	Transformata Radona
+AUT-44-04	IV	203	Transformata Hilberta
+AUT-44-05	IV	203	Operatory pseudoróżniczkowe
+AUT-44-06	IV	203	Rachunek operatorowy
+AUT-44-07	IV	203	Inwersja transformacji
+AUT-44-08	IV	203	Uogólnione transformacje
+AUT-45-01	IV	203	Fredholm
+AUT-45-02	IV	203	Volterra
+AUT-45-03	IV	203	Równania nieliniowe
+AUT-45-04	IV	203	Równania brzegowe
+AUT-45-05	IV	203	Operatorowe metody rozwiązań
+AUT-45-06	IV	203	Równania osobliwe
+AUT-45-07	IV	203	Regularizacja
+AUT-45-08	IV	203	Metody numeryczne
+AUT-46-01	IV	203	Przestrzenie Banacha
+AUT-46-02	IV	203	Przestrzenie Hilberta
+AUT-46-03	IV	203	Dualność
+AUT-46-04	IV	204	Dystrybucje
+AUT-46-05	IV	204	Przestrzenie Sobolewa
+AUT-46-06	IV	204	Algebry Banacha
+AUT-46-08	IV	204	Geometria przestrzeni
+AUT-49-01	IV	204	Równania Eulera-Lagrange'a
+AUT-49-02	IV	204	Metody bezpośrednie
+AUT-49-03	IV	204	Γ-zbieżność
+AUT-49-04	IV	204	Zasada maksimum
+AUT-49-05	IV	204	Hamilton-Jacobi-Bellman
+AUT-49-06	IV	204	Optymalizacja wypukła
+AUT-49-07	IV	204	Optymalizacja stochastyczna
+AUT-49-08	IV	204	Transport optymalny
+AUT-52-01	IV	204	Ciała wypukłe
+AUT-52-02	IV	204	Wielościany
+AUT-52-03	IV	204	Geometria liczb
+AUT-52-04	IV	204	Pakowania
+AUT-52-05	IV	204	Teselacje
+AUT-52-06	IV	204	Teoria objętości
+AUT-52-07	IV	204	Geometria obliczeniowa
+AUT-52-08	IV	204	Wyceny geometryczne
+AUT-53-01	IV	204	Geometria riemannowska
+AUT-53-02	IV	204	Koneksje
+AUT-53-03	IV	204	Krzywizna
+AUT-53-04	IV	204	Geometria symplektyczna
+AUT-53-05	IV	204	Geometria pseudo-riemannowska
+AUT-53-06	IV	204	Równania ewolucji geometrycznej
+AUT-53-07	IV	204	Teoria cechowania
+AUT-53-08	IV	204	Geometria Finslera
+AUT-55-01	IV	204	Homotopia
+AUT-55-02	IV	204	Homologia
+AUT-55-04	IV	204	Fibry i wiązki
+AUT-55-05	IV	204	Teoria spektrów
+AUT-55-06	IV	204	Stabilna homotopia
+AUT-55-08	IV	205	Trwała homologia
+AUT-60-01	IV	205	Zmienne losowe
+AUT-60-02	IV	205	Rozkłady
+AUT-60-03	IV	205	Procesy Markowa
+AUT-60-04	IV	205	Martyngały
+AUT-60-05	IV	205	Ruch Browna
+AUT-60-06	IV	205	Duże odchylenia
+AUT-60-07	IV	205	Probabilistyka swobodna
+AUT-60-09	IV	205	Równania stochastyczne
+AUT-70-01	IV	205	Mechanika klasyczna
+AUT-70-02	IV	205	Równania Lagrange'a
+AUT-70-03	IV	205	Dynamika bryły
+AUT-70-04	IV	205	Mechanika Hamiltonowska
+AUT-70-05	IV	205	Stabilność ruchu
+AUT-70-06	IV	205	Układy z więzami
+AUT-70-07	IV	205	Mechanika nieholonomiczna
+AUT-70-08	IV	205	Problemy wielu ciał
+AUT-74-01	IV	205	Sprężystość liniowa
+AUT-74-02	IV	205	Hiperelastyczność
+AUT-74-03	IV	205	Plastyczność
+AUT-74-04	IV	205	Materiały złożone
+AUT-74-05	IV	205	Teoria pękania
+AUT-74-06	IV	205	Mikromechanika
+AUT-74-07	IV	205	Homogenizacja
+AUT-74-08	IV	205	Mechanika kontaktu
+AUT-76-01	IV	205	Navier-Stokes
+AUT-76-02	IV	205	Euler
+AUT-76-03	IV	205	Turbulencja
+AUT-76-04	IV	205	Przepływy ściśliwe
+AUT-76-05	IV	205	Warstwy brzegowe
+AUT-76-06	IV	205	Przepływy wielofazowe
+AUT-76-07	IV	206	Hydrodynamika geofizyczna
+AUT-76-08	IV	206	Magnetohydrodynamika
+AUT-78-01	IV	206	Równania Maxwella
+AUT-78-02	IV	206	Fale elektromagnetyczne
+AUT-78-03	IV	206	Rozpraszanie
+AUT-78-04	IV	206	Optyka geometryczna
+AUT-78-05	IV	206	Optyka falowa
+AUT-78-06	IV	206	Fotonika
+AUT-78-07	IV	206	Metamateriały
+AUT-78-08	IV	206	Problemy odwrotne
+AUT-80-01	IV	206	Przewodnictwo
+AUT-80-02	IV	206	Konwekcja
+AUT-80-03	IV	206	Promieniowanie
+AUT-80-04	IV	206	Termodynamika nierównowagowa
+AUT-80-05	IV	206	Mechanika statystyczna
+AUT-80-06	IV	206	Zjawiska fazowe
+AUT-80-07	IV	206	Sprzężony transport
+AUT-80-08	IV	206	Modele termoelastyczne
+AUT-85-01	IV	206	Mechanika nieba
+AUT-85-02	IV	206	Kosmologia
+AUT-85-03	IV	206	Struktura gwiazd
+AUT-85-04	IV	206	Dynamika galaktyk
+AUT-85-05	IV	206	Akrecja
+AUT-85-06	IV	206	Promieniowanie
+AUT-85-07	IV	206	Astrofizyka statystyczna
+AUT-85-08	IV	206	Przetwarzanie danych astronomicznych
+AUT-86-01	IV	206	Sejsmologia
+AUT-86-02	IV	206	Oceanografia
+AUT-86-03	IV	206	Dynamika atmosfery
+AUT-86-04	IV	206	Geofizyka płynów
+AUT-86-05	IV	206	Paleoklimat
+AUT-86-06	IV	206	Problem odwrotny
+AUT-86-07	IV	206	Modele płyt tektonicznych
+AUT-86-08	IV	206	Procesy geotermalne
+AUT-91-01	IV	207	Gry kooperacyjne
+AUT-91-02	IV	207	Gry niekooperacyjne
+AUT-91-03	IV	207	Równowaga Nasha
+AUT-91-04	IV	207	Projektowanie mechanizmów
+AUT-91-05	IV	207	Matematyka finansowa
+AUT-91-06	IV	207	Matematyka aktuarialna
+AUT-91-07	IV	207	Ekonometria
+AUT-91-08	IV	207	Dynamika społeczna
+AUT-92-01	IV	207	Populacje
+AUT-92-02	IV	207	Epidemiologia
+AUT-92-03	IV	207	Sieci neuronowe
+AUT-92-04	IV	207	Biochemia reakcji
+AUT-92-05	IV	207	Genetyka populacji
+AUT-92-06	IV	207	Filogenetyka
+AUT-92-07	IV	207	Bioinformatyka
+AUT-92-08	IV	207	Modelowanie komórek
+AUT-92-09	IV	207	Ewolucja
+AUT-93-01	IV	207	Sterowanie liniowe
+AUT-93-02	IV	207	Sterowanie nieliniowe
+AUT-93-03	IV	207	Stabilność Lapunowa
+AUT-93-04	IV	207	Identyfikacja systemów
+AUT-93-05	IV	207	Sterowanie odporne
+AUT-93-06	IV	207	Sterowanie predykcyjne
+AUT-93-07	IV	207	Estymatory stanu
+AUT-93-08	IV	207	Sterowanie rozproszone
+AUT-94-01	IV	207	Teoria informacji
+AUT-94-02	IV	207	Kody korekcyjne
+AUT-94-03	IV	207	Kryptografia
+AUT-94-04	IV	207	Sieci komunikacyjne
+AUT-94-05	IV	207	Układy logiczne
+AUT-94-06	IV	207	Obwody
+AUT-94-08	IV	207	Bezpieczeństwo komunikacji
+AUT-12-01	V	501	Teoria Galois
+AUT-14-01	V	501	Rozmaitości
+AUT-14-02	V	501	Schematy
+AUT-14-03	V	501	Snopy i kohomologie
+AUT-14-04	V	501	Geometria biracjonalna
+AUT-14-05	V	501	Geometria diofantyczna
+AUT-14-06	V	501	Przestrzenie moduli
+AUT-14-07	V	501	Geometria tropikalna
+AUT-14-08	V	502	Geometria pochodna
+AUT-14-09	V	502	Cykle algebraiczne
+AUT-16-07	V	502	Geometria nieprzemienna
+AUT-18-01	V	502	Kategorie i funktory
+AUT-18-02	V	502	Sprzężenia
+AUT-18-03	V	502	Granice i kogranice
+AUT-18-04	V	502	Homologia
+AUT-18-05	V	502	Kategorie triangulowane
+AUT-18-06	V	502	Kategorie monoidalne
+AUT-18-07	V	502	Operady
+AUT-18-08	V	502	Wyższe kategorie
+AUT-18-09	V	502	Algebra homotopijna
+AUT-19-01	V	502	Algebraiczna teoria K
+AUT-19-02	V	502	Topologiczna teoria K
+AUT-19-03	V	502	Grupy Grothendiecka
+AUT-19-04	V	502	Cykliczne ślady
+AUT-19-05	V	502	Teoria regulatorów
+AUT-19-06	V	502	Motywy
+AUT-19-07	V	502	Konstrukcje widmowe
+AUT-19-08	V	502	Zastosowania w geometrii
+AUT-26-07	V	502	Analiza nieliniowa
+AUT-32-01	V	502	Domeny pseudowypukłe
+AUT-32-02	V	502	Kompleksy Dolbeaulta
+AUT-32-03	V	502	Snopy koherentne
+AUT-32-04	V	502	Metody d-bar
+AUT-32-05	V	502	Funkcje plurisubharmoniczne
+AUT-32-06	V	502	Geometria analityczna
+AUT-32-07	V	502	Przestrzenie Stein
+AUT-32-08	V	502	Geometria Kählera
+AUT-41-07	V	503	Aproksymacja nieliniowa
+AUT-43-07	V	503	Analiza harmoniczna nieprzemienna
+AUT-46-07	V	503	Wypukłość nieskończenie wymiarowa
+AUT-47-01	V	503	Operatory samosprzężone
+AUT-47-02	V	503	Operatorowe widma
+AUT-47-03	V	503	Operatory zwarte
+AUT-47-04	V	503	Półgrupy
+AUT-47-05	V	503	Algebry operatorów
+AUT-47-06	V	503	Operatory nieliniowe
+AUT-47-07	V	503	Równania operatorowe
+AUT-47-08	V	503	Operatory Fredholma
+AUT-55-03	V	503	Kohomologia
+AUT-55-07	V	503	Operacje kohomologiczne
+AUT-57-01	V	503	Topologia niskowymiarowa
+AUT-57-02	V	503	Teoria węzłów
+AUT-57-03	V	503	Rozmaitości gładkie
+AUT-57-04	V	503	Topologia PL
+AUT-57-05	V	503	Struktury 3-rozmaitości
+AUT-57-06	V	503	Cobordyzmy
+AUT-57-07	V	503	4-rozmaitości
+AUT-57-08	V	503	Embeding
+AUT-58-01	V	503	Operator Diraca
+AUT-58-02	V	503	Teoria indeksu
+AUT-58-03	V	503	Analiza mikrolokalna
+AUT-58-04	V	503	Wariacyjne PDE
+AUT-58-05	V	503	Równania geometryczne
+AUT-58-06	V	503	Globalna teoria spektralna
+AUT-58-07	V	503	Geometria nieprzemienna
+AUT-58-08	V	504	Foliacje
+AUT-60-08	V	504	Macierze losowe
+AUT-68-09	V	504	Obliczenia kwantowe
+AUT-81-01	V	504	Mechanika kwantowa
+AUT-81-02	V	504	Operatory samosprzężone
+AUT-81-03	V	504	Kwantowa teoria pola
+AUT-81-04	V	504	Splątanie
+AUT-81-05	V	504	Informacja kwantowa
+AUT-81-06	V	504	Kwantowe obliczenia
+AUT-81-07	V	504	Kwantowe grupy
+AUT-81-08	V	504	Teoria cechowania
+AUT-82-01	V	504	Miary Gibbsa
+AUT-82-02	V	504	Przejścia fazowe
+AUT-82-03	V	504	Renormalizacja
+AUT-82-04	V	504	Modele spinowe
+AUT-82-05	V	504	Układy wielu ciał
+AUT-82-06	V	504	Teoria kinetyczna
+AUT-82-07	V	504	Granice hydrodynamiczne
+AUT-82-08	V	504	Równania Boltzmanna
+AUT-83-01	V	504	Czasoprzestrzenie Lorentzowskie
+AUT-83-02	V	504	Równania Einsteina
+AUT-83-03	V	504	Czarne dziury
+AUT-83-04	V	504	Fale grawitacyjne
+AUT-83-05	V	504	Kosmologia
+AUT-83-06	V	504	Geometria konforemna
+AUT-83-07	V	504	Grawitacja kwantowa
+AUT-83-08	V	504	Metryki statyczne
+AUT-94-07	V	505	Informacja kwantowa
