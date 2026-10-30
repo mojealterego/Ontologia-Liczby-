@@ -221,3 +221,19 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Bilans odrębnych podglądów:** 85 stron wcześniej udokumentowanych + 4 strony F12.2 = **89 stron materiałów niescalonych**. **Monolit pozostaje 585/1222 wyłącznie według historycznego rejestru**, bez aktualizacji paginacji.
 - **Blokada integracyjna:** w repozytorium brak kompletnego źródła i binarnego monolitu wydania 0.20. Nie naruszono historycznego wstępu, pierwotnych stron 156–157 ani wcześniejszych materiałów. Nie tworzono końcowego spisu treści; nie przechodzono do Tomu II.
 - **Kolejny punkt:** F12.3 „Zadanie odwrotne” (oryginalna strona 158); najpierw porównać z istniejącym omówieniem równań i uniknąć powtarzania dowodów z F12.1.
+
+
+## Opracowania F12.2–F12.3 (30 października 2026)
+
+| Punkt | Źródło na `main` | Rezultat i weryfikacja | Integracja |
+| --- | --- | --- | --- |
+| F12.2 — Pożyczanie w zapisie dziesiętnym | `manuscript/tom-01/F12/F12.2_UZUPELNIENIE_NIEZMIENNIKI_POZYCYJNE.md` | Niezmiennik prefiksu `A_j-B_j=C_j-u_j β^j`, odejmowanie przez dopełnienie, przypadki graniczne zera, arytmetyka stałej szerokości i błąd numeryczny; 11 twierdzeń/lematów/wniosków, 12 zadań z rozwiązaniami; podgląd **4 strony A4** | Niescalony z monolitem 0.20 |
+| F12.3 — Zadanie odwrotne | `manuscript/tom-01/F12/F12.3_UZUPELNIENIE_RÓWNANIA_ODWROTNE.md` | Translacje grupowe, kryterium podzielności w Z, kongruencje liniowe, diofantyczne równania dwóch niewiadomych i teleskopowanie różnic; 12 oznaczonych twierdzeń/lematów/wniosków, 12 zadań z rozwiązaniami; podgląd **4 strony A4** | Niescalony z monolitem 0.20 |
+
+**Kod i testy odtwarzalne:** `tools/arithmetic.py`, `tests/test_f122_f123.py`; uruchomienie lokalne z katalogu repozytorium: `python -m unittest discover -s tests -p 'test_f122_f123.py' -v`. Podczas tej sesji **14/14 testów pozytywnych**, w tym wyczerpująca weryfikacja małych przypadków, 2500 losowo odtwarzalnych par, NWD i parametrów równań diofantycznych. GitHub Actions/CI nie zostało potwierdzone; testy nie zastępują dowodów ogólnych ani niezależnej recenzji naukowej.
+
+**Skład:** dwa podglądy XeLaTeX po 4 strony A4, każda strona z tekstem, bez słów wychodzących poza margines bezpieczeństwa 12 pt; sprawdzono wyrenderowane strony pierwszą i końcową. PDF-y są artefaktami lokalnymi; repozytorium przechowuje ich źródła. Do **85 stron** wcześniejszych osobnych podglądów doszło **8 stron F12.2–F12.3**, co daje **93 strony odrębnych materiałów niescalonych**, jeżeli w międzyczasie nie pojawiły się dalsze pakiety.
+
+**Bilans pełnego monolitu Tomu I pozostaje 585/1222 wyłącznie według rejestru 0.20**; pełne źródło i binarny monolit wydania 0.20 nadal nie zostały dostarczone do integracji. Nie modyfikować historycznego wstępu, nie uznawać dodatków za strony monolitu i nie sporządzać końcowego spisu treści do zamknięcia Tomu I.
+
+**Następny punkt według oryginalnego manuskryptu:** F13.1 „Definicja i tabliczka mnożenia” (s. 160–161 wydania referencyjnego 0.18).
