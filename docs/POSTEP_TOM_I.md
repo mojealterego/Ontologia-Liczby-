@@ -16,8 +16,9 @@
 | Punkt | Plik źródłowy | Rezultat | Status w manuskrypcie |
 | --- | --- | --- | --- |
 | F7.1 — Trzy role zera | `manuscript/tom-01/F07/F7.1_UZUPELNIENIE_FORMALNE.md` | Rozszerzenie dowodowe, przykłady, kontrmodele, 6 zadań z rozwiązaniami; samodzielny podgląd PDF: 5 stron, każda ponad 2000 znaków tekstu wyekstrahowanego | **Nie włączono do monolitu 0.20; bez zaliczenia do bilansu 585/1222** |
+| F7.2 — Dlaczego zero mnożone przez liczbę daje zero | `manuscript/tom-01/F07/F7.2_UZUPELNIENIE_ALGEBRAICZNE.md` | Uzupełnienie o pierścienie, moduły, półpierścienie, dzielniki zera i 8 zadań z rozwiązaniami; podgląd PDF: 4 strony, każda ponad 2000 znaków tekstu wyekstrahowanego | **Nie włączono do monolitu 0.20; bez zaliczenia do bilansu 585/1222** |
 
-Nowe opracowanie zostało skompilowane lokalnie XeLaTeX oraz poddane testom przykładów liczbowych i podstawowych niezmienników. **Nie przeprowadzono niezależnej recenzji naukowej ani integracyjnego testu z wydaniem 0.20**.
+Nowe opracowania F7.1 i F7.2 zostały skompilowane lokalnie XeLaTeX oraz poddane testom przykładów liczbowych i podstawowych niezmienników. **Nie przeprowadzono niezależnej recenzji naukowej ani integracyjnego testu z wydaniem 0.20**.
 
 ## Reguła zaliczania stron
 
@@ -25,4 +26,4 @@ Strony nowego opracowania można doliczyć do Tomu I **dopiero po** scaleniu z r
 
 ## Następny odcinek pracy
 
-Kolejnymi działaniami merytorycznymi są integracja uzupełnienia F7.1 z istniejącymi s. 94–95, następnie rozwijanie F7.2 i dalszych punktów według sekwencji manuskryptu. Nie tworzyć finalnego spisu treści, nie przechodzić do Tomu II i nie oznaczać żadnego punktu jako zweryfikowany jedynie na podstawie osiągniętej długości.
+Kolejnymi działaniami merytorycznymi są integracja uzupełnień F7.1 i F7.2 z właściwym monolitem po uzyskaniu źródła wydania 0.20, następnie rozwijanie dalszych punktów według sekwencji manuskryptu. Nie tworzyć finalnego spisu treści, nie przechodzić do Tomu II i nie oznaczać żadnego punktu jako zweryfikowany jedynie na podstawie osiągniętej długości.
