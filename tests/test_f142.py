@@ -6,7 +6,6 @@ Run: python -m unittest discover -s tests -p test_f142.py -v
 from __future__ import annotations
 
 import itertools
-import math
 import unittest
 from fractions import Fraction
 
