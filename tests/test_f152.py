@@ -87,7 +87,7 @@ class TestF152(unittest.TestCase):
         self.assertEqual(math.gcd(1071,462),21)
 
     def test_example_inverse(self):
-        self.assertEqual((7*15)%26,1)
+        self.assertEqual((17*38)%43,1)
 
     def test_example_equation(self):
         self.assertEqual(15*3+21*(-2),3)
