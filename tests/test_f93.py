@@ -4,7 +4,7 @@ import math
 import unittest
 from pathlib import Path
 
-SOURCE = Path(__file__).with_name('F9.3_UZUPELNIENIE_ODLICZANIE_A_DOWOD.md')
+SOURCE = Path(__file__).resolve().parents[1] / 'manuscript' / 'tom-01' / 'F09' / 'F9.3_UZUPELNIENIE_ODLICZANIE_A_DOWOD.md'
 
 class F93Checks(unittest.TestCase):
     def test_manuscript_structure(self):
