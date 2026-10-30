@@ -45,7 +45,7 @@ class TestF113(unittest.TestCase):
 
     def test_exercises(self):
         self.assertEqual([0,3,1,6],[sum([3,-2,5][:i]) for i in range(4)])
-        self.assertEqual([4,5,-2],[2-0,7-2,5-7]) if False else None
+        self.assertEqual([4,5,-2],[4-0,9-4,7-9])
         self.assertEqual(17+28+36,81)
         self.assertEqual(2+4-1+3,8)
         self.assertEqual(sum((4,5,-2)),7)
