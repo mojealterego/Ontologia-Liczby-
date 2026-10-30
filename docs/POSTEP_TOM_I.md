@@ -175,3 +175,11 @@ Końcowy spis treści pozostaje odroczony do całkowitego ukończenia i finalneg
 - **Następny punkt do opracowania:** F11.3 „Przykłady i kontrola” (oryginał na stronach 152–153). Najpierw sprawdzić istniejące przykłady i nie powielać ich; wprowadzić nowe metody walidacji sum i formalne oszacowania.
 
 Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu I. Nie przechodzić do Tomu II.
+
+
+## F11.3 — kontrola sum (30 października 2026)
+
+- Źródło: `manuscript/tom-01/F11/F11.3_UZUPELNIENIE_KONTROLA_SUM.md`, commit `48e0d45be21dd51fad7a68ad0d32dee7c9a7f17b` na `main`.
+- Zakres: 3 definicje, 8 twierdzeń z dowodami, 4 kontrprzykłady i 12 rozwiązanych zadań. Certyfikaty prefiksowe, niezmiennik pętli, podział na bloki, kontrola modularna, CRT przy modułach względnie pierwszych, dokładna rekonstrukcja przy ograniczeniu błędu oraz oszacowanie błędów sumowania.
+- Status: tekst źródłowy zapisany; brak potwierdzonej recenzji formalnej, wykonania testów i kompilacji PDF w tej sesji. Nie twierdzić, że są zaliczone.
+- Brak integracji z monolitem 0.20; licznik 585/1222 bez zmian. Dotychczasowe 77 stron odrębnych podglądów nie obejmuje F11.3. Wstęp historyczny i poprzednie materiały niezmienione. Bez finalnego spisu treści i bez Tomu II.
