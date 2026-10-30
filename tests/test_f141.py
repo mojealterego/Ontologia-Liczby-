@@ -6,7 +6,7 @@ import random
 import unittest
 from pathlib import Path
 
-MODULE = Path(__file__).resolve().parents[0] / "long_divide.py"
+MODULE = Path(__file__).resolve().parents[1] / "tools" / "long_divide.py"
 spec = importlib.util.spec_from_file_location("long_divide", MODULE)
 assert spec and spec.loader
 import sys
