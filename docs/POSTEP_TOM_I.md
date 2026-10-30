@@ -297,3 +297,17 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Niezweryfikowane:** niezależna recenzja wszystkich dowodów, pełna regresja repozytorium i GitHub Actions CI. Statusy dla commitu testowego nie zawierały wyników. Brak kompletnego źródła i binarnego monolitu wydania 0.20 uniemożliwia integrację i nową paginację.
 - **Bilans:** cztery nowe strony są odrębnym podglądem, **nie zwiększają 585/1222**. Nie podawać definitywnej sumy odrębnych podglądów bez deduplikacji F12.2. Nie tworzyć finalnego spisu treści ani Tomu II.
 - **Następny punkt:** F14.3 „Ułamki jako wynik dzielenia” (oryginał od strony 170). Najpierw sprawdzić istniejące konstrukcje i dowody, następnie rozszerzać bez powtórzeń.
+
+
+## F14.3–F15.1 — konstrukcja wymiernych i podzielność (30 października 2026)
+
+| Punkt | Plik na `main` | Odrębny rezultat | Kontrola i ograniczenia |
+| --- | --- | --- | --- |
+| F14.3 — Ułamki jako wynik dzielenia | `manuscript/tom-01/F14/F14.3_UZUPELNIENIE_KONSTRUKCJA_WYMIERNYCH.md` | 12 twierdzeń z dowodami, 6 kontrprzykładów, 12 rozwiązanych zadań. Konstrukcja ciała \(\mathbb Q\), niezależność reprezentantów, własność uniwersalna, porządek, gęstość, mediant Fareya i oszacowania przybliżeń. Git commit `eef7f999ec2a257e1a38a72e8dce26cedd753841`, odczyt treści potwierdzony. | Lokalny Pandoc/XeLaTeX: **4 strony A4**, 2404 / 3231 / 2574 / 3123 znaki tekstu; kontrola PyMuPDF bez przekroczeń 9 pt. PDF SHA-256: `fe8dbaec0a9ddf67692994238d7c1e3f9b4e1012ab8afdc76e867925bb415b49`. |
+| F15.1 — Podzielność | `manuscript/tom-01/F15/F15.1_UZUPELNIENIE_IDEALY_I_WARTOSCIOWANIA.md` | 12 twierdzeń z dowodami, 6 kontrprzykładów, 12 rozwiązanych zadań. Porządek podzielności, ideały główne, NWD/NWW, rozkład na pierwsze, wartościowania, CRT, sumowanie bloków cyfr. Git commit `93545160570c374edd2c75897c0f2a8305523bdb`, odczyt treści potwierdzony. | Lokalny Pandoc/XeLaTeX: **4 strony A4**, 2465 / 2916 / 2664 / 3050 znaków tekstu; kontrola PyMuPDF bez przekroczeń 9 pt. PDF SHA-256: `c249b421304625f1daeaf9d36b3f38849972c04c787e36968e8517fcf333c20a`. |
+
+**Testy reprodukowalne:** `tests/test_f143.py` (commit `f7b3f52647669374a36fde569363c5bda6a6027f`) i `tests/test_f151.py` (commit `8a2b67e9443458e6f7a4ce5f04159d44cc26d800`). Lokalnie `python -m pytest -q` dla tych dwóch plików: **24/24 passed**, wyłącznie przypadki skończone i kontrola rachunków. **Nie uruchomiono potwierdzonego GitHub Actions CI** i nie przeprowadzono niezależnej recenzji naukowej wszystkich dowodów.
+
+**Integracja i bilans:** osiem stron kolejnych samodzielnych podglądów PDF **nie jest częścią scalonego monolitu**. Historyczna suma podglądów wymaga deduplikacji dwóch wersji F12.2, dlatego nie deklarujemy nowej sumy całkowitej. Udokumentowany bilans części zasadniczej Tomu I pozostaje **585/1222**, wyłącznie według rejestru wydania 0.20, którego pełnych źródeł i binarnego PDF w repozytorium nadal brakuje. Wstęp historyczny oraz istniejące rozdziały pozostawiono bez zmian. Bez końcowego spisu treści i bez przejścia do Tomu II.
+
+**Następny punkt:** F15.2 „Algorytm Euklidesa” — przed pisaniem porównać z oryginalnymi stronami 174–176 i z gotowymi dowodami NWD/Bézouta w F15.1; rozwinąć odrębne własności, np. granice złożoności i certyfikaty obliczeń, bez powtarzania źródeł.
