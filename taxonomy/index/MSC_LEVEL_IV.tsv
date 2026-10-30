@@ -1,0 +1,3049 @@
+code	level	taxonomy_pdf_page	first_line_title_needs_verification
+03-00	IV	210	General reference works (handbooks, dictionaries, bibliographies, etc.)
+03-02	IV	210	Research exposition (monographs, survey articles) pertaining to
+03-03	IV	210	History of mathematical logic and foundations
+03-04	IV	210	Software, source code, etc. for problems pertaining to mathematical logic
+03-06	IV	210	Proceedings, conferences, collections, etc. pertaining to mathematical logic
+03-08	IV	210	Computational methods for problems pertaining to mathematical logic and
+03-11	IV	210	Research data for problems pertaining to mathematical logic and foundations
+03A05	IV	210	Philosophical and critical aspects of logic and foundations
+03A10	IV	210	Logic in the philosophy of science
+03A99	IV	210	Philosophical aspects of logic and foundations
+03B16	IV	210	Higher-order logic
+03B20	IV	210	Subsystems of classical logic (including intuitionistic logic)
+03B22	IV	210	Abstract deductive systems
+03B25	IV	210	Decidability of theories and sets of sentences
+03B30	IV	211	Foundations of classical theories (including reverse mathematics)
+03B35	IV	211	Mechanization of proofs and logical operations
+03B38	IV	211	Type theory
+03B40	IV	211	Combinatory logic and lambda calculus
+03B42	IV	211	Logics of knowledge and belief (including belief change)
+03B44	IV	211	Temporal logic
+03B45	IV	211	Modal logic (including the logic of norms)
+03B47	IV	211	Substructural logics (including relevance, entailment, linear logic, Lambek
+03B48	IV	211	Probability and inductive logic
+03B50	IV	211	Many-valued logic
+03B52	IV	211	Fuzzy logic; logic of vagueness
+03B53	IV	211	Paraconsistent logics
+03B55	IV	211	Intermediate logics
+03B60	IV	211	Other nonclassical logic
+03B62	IV	211	Combined logics
+03B65	IV	211	Logic of natural languages
+03B70	IV	211	Logic in computer science
+03B80	IV	212	Other applications of logic
+03B99	IV	212	General logic
+03C05	IV	212	Equational classes, universal algebra in model theory
+03C07	IV	212	Basic properties of first-order languages and structures
+03C10	IV	212	Quantifier elimination, model completeness, and related topics
+03C13	IV	212	Model theory of finite structures
+03C15	IV	212	Model theory of denumerable and separable structures
+03C20	IV	212	Ultraproducts and related constructions
+03C25	IV	212	Model-theoretic forcing
+03C30	IV	212	Other model constructions
+03C35	IV	212	Categoricity and completeness of theories
+03C40	IV	212	Interpolation, preservation, definability
+03C45	IV	213	Classification theory, stability, and related concepts in model theory
+03C50	IV	213	Models with special properties (saturated, rigid, etc.)
+03C52	IV	213	Properties of classes of models
+03C55	IV	213	Set-theoretic model theory
+03C57	IV	213	Computable structure theory, computable model theory
+03C60	IV	213	Model-theoretic algebra
+03C62	IV	213	Models of arithmetic and set theory
+03C64	IV	213	Model theory of ordered structures; o-minimality
+03C65	IV	213	Models of other mathematical theories
+03C66	IV	213	Continuous model theory, model theory of metric structures
+03C68	IV	213	Other classical first-order model theory
+03C70	IV	213	Logic on admissible sets
+03C75	IV	213	Other infinitary logic
+03C80	IV	214	Logic with extra quantifiers and operators
+03C85	IV	214	Second- and higher-order model theory
+03C90	IV	214	Nonclassical models (Boolean-valued, sheaf, etc.)
+03C95	IV	214	Abstract model theory
+03C98	IV	214	Applications of model theory
+03C99	IV	214	Model theory
+03D03	IV	214	Thue and Post systems, etc.
+03D05	IV	214	Automata and formal grammars in connection with logical questions
+03D10	IV	214	Turing machines and related notions
+03D15	IV	214	Complexity of computation (including implicit computational complexity)
+03D20	IV	214	Recursive functions and relations, subrecursive hierarchies
+03D25	IV	214	Recursively (computably) enumerable sets and degrees
+03D28	IV	215	Other Turing degree structures
+03D30	IV	215	Other degrees and reducibilities in computability and recursion theory
+03D32	IV	215	Algorithmic randomness and dimension
+03D35	IV	215	Undecidability and degrees of sets of sentences
+03D40	IV	215	Word problems, etc. in computability and recursion theory
+03D45	IV	215	Theory of numerations, effectively presented structures
+03D50	IV	215	Recursive equivalence types of sets and structures, isols
+03D55	IV	215	Hierarchies of computability and definability
+03D60	IV	215	Computability and recursion theory on ordinals, admissible sets, etc.
+03D65	IV	215	Higher-type and set recursion theory
+03D70	IV	215	Inductive definability
+03D75	IV	215	Abstract and axiomatic computability and recursion theory
+03D78	IV	215	Computation over the reals, computable analysis
+03D80	IV	216	Applications of computability and recursion theory
+03D99	IV	216	Computability and recursion theory
+03E02	IV	216	Partition relations
+03E04	IV	216	Ordered sets and their cofinalities; pcf theory
+03E05	IV	216	Other combinatorial set theory
+03E10	IV	216	Ordinal and cardinal numbers
+03E15	IV	216	Descriptive set theory
+03E17	IV	216	Cardinal characteristics of the continuum
+03E20	IV	216	Other classical set theory (including functions, relations, and set algebra)
+03E25	IV	216	Axiom of choice and related propositions
+03E30	IV	216	Axiomatics of classical set theory and its fragments
+03E35	IV	216	Consistency and independence results
+03E40	IV	216	Other aspects of forcing and Boolean-valued models
+03E45	IV	216	Inner models, including constructibility, ordinal definability, and core models
+03E47	IV	216	Other notions of set-theoretic definability
+03E50	IV	217	Continuum hypothesis and Martin's axiom
+03E55	IV	217	Large cardinals
+03E57	IV	217	Generic absoluteness and forcing axioms
+03E60	IV	217	Determinacy principles
+03E65	IV	217	Other set-theoretic hypotheses and axioms
+03E70	IV	217	Nonclassical and second-order set theories
+03E72	IV	217	Theory of fuzzy sets, etc.
+03E75	IV	217	Applications of set theory
+03E99	IV	217	Set theory
+03F03	IV	217	Proof theory in general (including proof-theoretic semantics)
+03F05	IV	217	Cut-elimination and normal-form theorems
+03F07	IV	217	Structure of proofs
+03F10	IV	217	Functionals in proof theory
+03F15	IV	218	Recursive ordinals and ordinal notations
+03F20	IV	218	Complexity of proofs
+03F25	IV	218	Relative consistency and interpretations
+03F30	IV	218	First-order arithmetic and fragments
+03F35	IV	218	Second- and higher-order arithmetic and fragments
+03F40	IV	218	Gödel numberings and issues of incompleteness
+03F45	IV	218	Provability logics and related algebras (e.g., diagonalizable algebras)
+03F50	IV	218	Metamathematics of constructive systems
+03F52	IV	218	Proof-theoretic aspects of linear logic and other substructural logics
+03F55	IV	218	Intuitionistic mathematics
+03F60	IV	218	Constructive and recursive analysis
+03F65	IV	218	Other constructive mathematics
+03F99	IV	219	Proof theory and constructive mathematics
+03G05	IV	219	Logical aspects of Boolean algebras
+03G10	IV	219	Logical aspects of lattices and related structures
+03G12	IV	219	Quantum logic
+03G15	IV	219	Cylindric and polyadic algebras; relation algebras
+03G20	IV	219	Logical aspects of ?ukasiewicz and Post algebras
+03G25	IV	219	Other algebras related to logic
+03G27	IV	219	Abstract algebraic logic
+03G30	IV	219	Categorical logic, topoi
+03G99	IV	219	Algebraic logic
+03H05	IV	219	Nonstandard models in mathematics
+03H10	IV	219	Other applications of nonstandard models (economics, physics, etc.)
+03H15	IV	219	Nonstandard models of arithmetic
+03H99	IV	220	Nonstandard models
+06-00	IV	220	General reference works (handbooks, dictionaries, bibliographies, etc.)
+06-02	IV	220	Research exposition (monographs, survey articles) pertaining to ordered
+06-03	IV	220	History of ordered structures
+06-04	IV	220	Software, source code, etc. for problems pertaining to ordered structures
+06-06	IV	220	Proceedings, conferences, collections, etc. pertaining to ordered structures
+06-08	IV	220	Computational methods for problems pertaining to ordered structures
+06-11	IV	220	Research data for problems pertaining to ordered structures
+06A05	IV	220	Total orders
+06A06	IV	220	Partial orders, general
+06A07	IV	220	Combinatorics of partially ordered sets
+06A11	IV	220	Algebraic aspects of posets
+06A12	IV	220	Semilattices
+06A15	IV	220	Galois correspondences, closure operators (in relation to ordered sets)
+06A75	IV	221	Generalizations of ordered sets
+06A99	IV	221	Ordered sets
+06B05	IV	221	Structure theory of lattices
+06B10	IV	221	Lattice ideals, congruence relations
+06B15	IV	221	Representation theory of lattices
+06B20	IV	221	Varieties of lattices
+06B23	IV	221	Complete lattices, completions
+06B25	IV	221	Free lattices, projective lattices, word problems
+06B30	IV	221	Topological lattices
+06B35	IV	221	Continuous lattices and posets, applications
+06B75	IV	221	Generalizations of lattices
+06B99	IV	221	Lattices
+06C05	IV	221	Modular lattices, Desarguesian lattices
+06C10	IV	222	Semimodular lattices, geometric lattices
+06C15	IV	222	Complemented lattices, orthocomplemented lattices and posets
+06C20	IV	222	Complemented modular lattices, continuous geometries
+06C99	IV	222	Modular lattices, complemented lattices
+06D05	IV	222	Structure and representation theory of distributive lattices
+06D10	IV	222	Complete distributivity
+06D15	IV	222	Pseudocomplemented lattices
+06D20	IV	222	Heyting algebras (lattice-theoretic aspects)
+06D22	IV	222	Frames, locales
+06D25	IV	222	Post algebras (lattice-theoretic aspects)
+06D30	IV	222	De Morgan algebras, ?ukasiewicz algebras (lattice-theoretic aspects)
+06D35	IV	222	MV-algebras
+06D50	IV	222	Lattices and duality
+06D72	IV	222	Fuzzy lattices (soft algebras) and related topics
+06D75	IV	222	Other generalizations of distributive lattices
+06D99	IV	223	Distributive lattices
+06E05	IV	223	Structure theory of Boolean algebras
+06E10	IV	223	Chain conditions, complete algebras
+06E15	IV	223	Stone spaces (Boolean spaces) and related structures
+06E20	IV	223	Ring-theoretic properties of Boolean algebras
+06E25	IV	223	Boolean algebras with additional operations (diagonalizable algebras, etc.)
+06E30	IV	223	Boolean functions
+06E75	IV	223	Generalizations of Boolean algebras
+06E99	IV	223	Boolean algebras (Boolean rings)
+06F05	IV	223	Ordered semigroups and monoids
+06F07	IV	223	Quantales
+06F10	IV	224	Noether lattices
+06F15	IV	224	Ordered groups
+06F20	IV	224	Ordered abelian groups, Riesz groups, ordered linear spaces
+06F25	IV	224	Ordered rings, algebras, modules
+06F30	IV	224	Ordered topological structures
+06F35	IV	224	BCK-algebras, BCI-algebras
+06F99	IV	224	Ordered structures
+08-00	IV	228	General reference works (handbooks, dictionaries, bibliographies, etc.)
+08-02	IV	228	Research exposition (monographs, survey articles) pertaining to general
+08-03	IV	228	History of general algebraic systems
+08-04	IV	228	Software, source code, etc. for problems pertaining to general algebraic
+08-06	IV	228	Proceedings, conferences, collections, etc. pertaining to general algebraic
+08-08	IV	228	Computational methods for problems pertaining to general algebraic systems
+08-11	IV	228	Research data for problems pertaining to general algebraic systems
+08A02	IV	228	Relational systems, laws of composition
+08A05	IV	228	Structure theory of algebraic structures
+08A30	IV	228	Subalgebras, congruence relations
+08A35	IV	228	Automorphisms and endomorphisms of algebraic structures
+08A40	IV	228	Operations and polynomials in algebraic structures, primal algebras
+08A45	IV	228	Equational compactness
+08A50	IV	228	Word problems (aspects of algebraic structures)
+08A55	IV	228	Partial algebras
+08A60	IV	228	Unary algebras
+08A62	IV	229	Finitary algebras
+08A65	IV	229	Infinitary algebras
+08A68	IV	229	Heterogeneous algebras
+08A70	IV	229	Applications of universal algebra in computer science
+08A72	IV	229	Fuzzy algebraic structures
+08A99	IV	229	Algebraic structures
+08B05	IV	229	Equational logic, Mal'tsev conditions
+08B10	IV	229	Congruence modularity, congruence distributivity
+08B15	IV	229	Lattices of varieties
+08B20	IV	229	Free algebras
+08B25	IV	229	Products, amalgamated products, and other kinds of limits and colimits
+08B26	IV	229	Subdirect products and subdirect irreducibility
+08B30	IV	229	Injectives, projectives
+08B99	IV	229	Varieties
+08C05	IV	230	Categories of algebras
+08C10	IV	230	Axiomatic model classes
+08C15	IV	230	Quasivarieties
+08C20	IV	230	Natural dualities for classes of algebras
+08C99	IV	230	Other classes of algebras
+12-00	IV	230	General reference works (handbooks, dictionaries, bibliographies, etc.)
+12-02	IV	230	Research exposition (monographs, survey articles) pertaining to field theory
+12-03	IV	230	History of field theory
+12-04	IV	230	Software, source code, etc. for problems pertaining to field theory
+12-06	IV	230	Proceedings, conferences, collections, etc. pertaining to field theory
+12-08	IV	230	Computational methods for problems pertaining to field theory
+12-11	IV	230	Research data for problems pertaining to field theory
+12D05	IV	230	Polynomials in real and complex fields: factorization
+12D10	IV	230	Polynomials in real and complex fields: location of zeros (algebraic theorems)
+12D15	IV	231	Fields related with sums of squares (formally real fields, Pythagorean fields,
+12D99	IV	231	Real and complex fields
+12E05	IV	231	Polynomials in general fields (irreducibility, etc.)
+12E10	IV	231	Special polynomials in general fields
+12E12	IV	231	Equations in general fields
+12E15	IV	231	Skew fields, division rings
+12E20	IV	231	Finite fields (field-theoretic aspects)
+12E25	IV	231	Hilbertian fields; Hilbert's irreducibility theorem
+12E30	IV	231	Field arithmetic
+12E99	IV	231	General field theory
+12F05	IV	231	Algebraic field extensions
+12F10	IV	231	Separable extensions, Galois theory
+12F12	IV	231	Inverse Galois theory
+12F15	IV	232	Inseparable field extensions
+12F20	IV	232	Transcendental field extensions
+12F99	IV	232	Field extensions
+12G05	IV	232	Galois cohomology
+12G10	IV	232	Cohomological dimension of fields
+12G99	IV	232	Homological methods (field theory)
+12H05	IV	232	Differential algebra
+12H10	IV	232	Difference algebra
+12H20	IV	232	Abstract differential equations
+12H25	IV	232	(p)-adic differential equations
+12H99	IV	232	Differential and difference algebra
+12J05	IV	233	Normed fields
+12J10	IV	233	Valued fields
+12J12	IV	233	Formally (p)-adic fields
+12J15	IV	233	Ordered fields
+12J17	IV	233	Topological semifields
+12J20	IV	233	General valuation theory for fields
+12J25	IV	233	Non-Archimedean valued fields
+12J27	IV	233	Krasner-Tate algebras
+12J99	IV	233	Topological fields
+12K05	IV	233	Near-fields
+12K10	IV	233	Semifields
+12K99	IV	233	Generalizations of fields
+12L05	IV	233	Decidability and field theory
+12L10	IV	234	Ultraproducts and field theory
+12L12	IV	234	Model theory of fields
+12L15	IV	234	Nonstandard arithmetic and field theory
+12L99	IV	234	Connections between field theory and logic
+13-00	IV	234	General reference works (handbooks, dictionaries, bibliographies, etc.)
+13-02	IV	234	Research exposition (monographs, survey articles) pertaining to commutative
+13-03	IV	234	History of commutative algebra
+13-04	IV	234	Software, source code, etc. for problems pertaining to commutative algebra
+13-06	IV	234	Proceedings, conferences, collections, etc. pertaining to commutative
+13-11	IV	234	Research data for problems pertaining to commutative algebra
+13A02	IV	234	Graded rings
+13A05	IV	234	Divisibility and factorizations in commutative rings
+13A15	IV	234	Ideals and multiplicative ideal theory in commutative rings
+13A18	IV	235	Valuations and their generalizations for commutative rings
+13A30	IV	235	Associated graded rings of ideals (Rees ring, form ring), analytic spread and
+13A35	IV	235	Characteristic (p) methods (Frobenius endomorphism) and reduction to
+13A50	IV	235	Actions of groups on commutative rings; invariant theory
+13A70	IV	235	General commutative ring theory and combinatorics (zero-divisor graphs,
+13A99	IV	235	General commutative ring theory
+13B02	IV	235	Extension theory of commutative rings
+13B05	IV	235	Galois theory and commutative ring extensions
+13B10	IV	235	Morphisms of commutative rings
+13B21	IV	235	Integral dependence in commutative rings; going up, going down
+13B22	IV	235	Integral closure of commutative rings and ideals
+13B25	IV	235	Polynomials over commutative rings
+13B30	IV	235	Rings of fractions and localization for commutative rings
+13B35	IV	235	Completion of commutative rings
+13B40	IV	236	Étale and flat extensions; Henselization; Artin approximation
+13B99	IV	236	Commutative ring extensions and related topics
+13C05	IV	236	Structure, classification theorems for modules and ideals in commutative
+13C10	IV	236	Projective and free modules and ideals in commutative rings
+13C11	IV	236	Injective and flat modules and ideals in commutative rings
+13C12	IV	236	Torsion modules and ideals in commutative rings
+13C13	IV	236	Other special types of modules and ideals in commutative rings
+13C14	IV	236	Cohen-Macaulay modules
+13C15	IV	236	Dimension theory, depth, related commutative rings (catenary, etc.)
+13C20	IV	236	Class groups
+13C40	IV	236	Linkage, complete intersections and determinantal ideals
+13C60	IV	236	Module categories and commutative rings
+13C70	IV	236	Theory of modules and ideals in commutative rings described by
+13C99	IV	237	Theory of modules and ideals in commutative rings
+13D02	IV	237	Syzygies, resolutions, complexes and commutative rings
+13D03	IV	237	(Co)homology of commutative rings and algebras (e.g., Hochschild,
+13D05	IV	237	Homological dimension and commutative rings
+13D07	IV	237	Homological functors on modules of commutative rings (Tor, Ext, etc.)
+13D10	IV	237	Deformations and infinitesimal methods in commutative ring theory
+13D15	IV	237	Grothendieck groups, (K)-theory and commutative rings
+13D22	IV	237	Homological conjectures (intersection theorems) in commutative ring theory
+13D30	IV	237	Torsion theory for commutative rings
+13D40	IV	237	Hilbert-Samuel and Hilbert-Kunz functions; Poincaré series
+13D45	IV	237	Local cohomology and commutative rings
+13D99	IV	238	Homological methods in commutative ring theory
+13E05	IV	238	Commutative Noetherian rings and modules
+13E10	IV	238	Commutative Artinian rings and modules, finite-dimensional algebras
+13E15	IV	238	Commutative rings and modules of finite generation or presentation; number
+13E99	IV	238	Chain conditions, finiteness conditions in commutative ring theory
+13F05	IV	238	Dedekind, Prüfer, Krull and Mori rings and their generalizations
+13F07	IV	238	Euclidean rings and generalizations
+13F10	IV	238	Principal ideal rings
+13F15	IV	238	Commutative rings defined by factorization properties (e.g., atomic, factorial,
+13F20	IV	238	Polynomial rings and ideals; rings of integer-valued polynomials
+13F25	IV	238	Formal power series rings
+13F30	IV	238	Valuation rings
+13F35	IV	238	Witt vectors and related rings
+13F40	IV	239	Excellent rings
+13F45	IV	239	Seminormal rings
+13F50	IV	239	Rings with straightening laws, Hodge algebras
+13F55	IV	239	Commutative rings defined by monomial ideals; Stanley-Reisner face rings;
+13F60	IV	239	Cluster algebras
+13F65	IV	239	Commutative rings defined by binomial ideals, toric rings, etc.
+13F70	IV	239	Other commutative rings defined by combinatorial properties
+13F99	IV	239	Arithmetic rings and other special commutative rings
+13G05	IV	239	Integral domains
+13G99	IV	239	Integral domains
+13H05	IV	239	Regular local rings
+13H10	IV	239	Special types (Cohen-Macaulay, Gorenstein, Buchsbaum, etc.)
+13H15	IV	239	Multiplicity theory and related topics
+13H99	IV	240	Local rings and semilocal rings
+13J05	IV	240	Power series rings
+13J07	IV	240	Analytical algebras and rings
+13J10	IV	240	Complete rings, completion
+13J15	IV	240	Henselian rings
+13J20	IV	240	Global topological rings
+13J25	IV	240	Ordered rings
+13J30	IV	240	Real algebra
+13J99	IV	240	Topological rings and modules
+13L05	IV	240	Applications of logic to commutative algebra
+13L99	IV	240	Applications of logic to commutative algebra
+13M05	IV	241	Structure of finite commutative rings
+13M10	IV	241	Polynomials and finite commutative rings
+13M99	IV	241	Finite commutative rings
+13N05	IV	241	Modules of differentials
+13N10	IV	241	Commutative rings of differential operators and their modules
+13N15	IV	241	Derivations and commutative rings
+13N99	IV	241	Differential algebra
+13P05	IV	241	Polynomials, factorization in commutative rings
+13P10	IV	241	Gröbner bases; other bases for ideals and modules (e.g., Janet and border
+13P15	IV	241	Solving polynomial systems; resultants
+13P20	IV	241	Computational homological algebra
+13P25	IV	241	Applications of commutative algebra (e.g., to statistics, control theory,
+13P99	IV	242	Computational aspects and applications of commutative rings
+16-00	IV	244	General reference works (handbooks, dictionaries, bibliographies, etc.)
+16-02	IV	244	Research exposition (monographs, survey articles) pertaining to associative
+16-03	IV	244	History of associative rings and algebras
+16-04	IV	244	Software, source code, etc. for problems pertaining to associative rings and
+16-06	IV	244	Proceedings, conferences, collections, etc. pertaining to associative rings and
+16-11	IV	244	Research data for problems pertaining to associative rings and algebras
+16B50	IV	244	Category-theoretic methods and results in associative algebras (except as in
+16B70	IV	244	Applications of logic in associative algebras
+16B99	IV	244	General and miscellaneous
+16D10	IV	244	General module theory in associative algebras
+16D20	IV	244	Bimodules in associative algebras
+16D25	IV	244	Ideals in associative algebras
+16D30	IV	244	Infinite-dimensional simple rings (except as in 16Kxx)
+16D40	IV	245	Free, projective, and flat modules and ideals in associative algebras
+16D50	IV	245	Injective modules, self-injective associative rings
+16D60	IV	245	Simple and semisimple modules, primitive rings and ideals in associative
+16D70	IV	245	Structure and classification for modules, bimodules and ideals (except as in
+16D80	IV	245	Other classes of modules and ideals in associative algebras
+16D90	IV	245	Module categories in associative algebras
+16D99	IV	245	Modules, bimodules and ideals in associative algebras
+16E05	IV	245	Syzygies, resolutions, complexes in associative algebras
+16E10	IV	245	Homological dimension in associative algebras
+16E20	IV	245	Grothendieck groups, (K)-theory, etc.
+16E30	IV	245	Homological functors on modules (Tor, Ext, etc.) in associative algebras
+16E40	IV	245	(Co)homology of rings and associative algebras (e.g., Hochschild, cyclic,
+16E45	IV	246	Differential graded algebras and applications (associative algebraic aspects)
+16E50	IV	246	von Neumann regular rings and generalizations (associative algebraic
+16E60	IV	246	Semihereditary and hereditary rings, free ideal rings, Sylvester rings, etc.
+16E65	IV	246	Homological conditions on associative rings (generalizations of regular,
+16E99	IV	246	Homological methods in associative algebras
+16G10	IV	246	Representations of associative Artinian rings
+16G20	IV	246	Representations of quivers and partially ordered sets
+16G30	IV	246	Representations of orders, lattices, algebras over commutative rings
+16G50	IV	246	Cohen-Macaulay modules in associative algebras
+16G60	IV	246	Representation type (finite, tame, wild, etc.) of associative algebras
+16G70	IV	246	Auslander-Reiten sequences (almost split sequences) and Auslander-Reiten
+16G99	IV	247	Representation theory of associative rings and algebras
+16H05	IV	247	Separable algebras (e.g., quaternion algebras, Azumaya algebras, etc.)
+16H10	IV	247	Orders in separable algebras
+16H15	IV	247	Commutative orders
+16H20	IV	247	Lattices over orders
+16H99	IV	247	Associative algebras and orders
+16K20	IV	247	Finite-dimensional division rings
+16K40	IV	247	Infinite-dimensional and general division rings
+16K50	IV	247	Brauer groups (algebraic aspects)
+16K99	IV	247	Division rings and semisimple Artin rings
+16L60	IV	247	Quasi-Frobenius rings
+16L99	IV	248	Local rings and generalizations
+16N20	IV	248	Jacobson radical, quasimultiplication
+16N40	IV	248	Nil and nilpotent radicals, sets, ideals, associative rings
+16N60	IV	248	Prime and semiprime associative rings
+16N80	IV	248	General radicals and associative rings
+16N99	IV	248	Radicals and radical properties of associative rings
+16P10	IV	248	Finite rings and finite-dimensional associative algebras
+16P20	IV	248	Artinian rings and modules (associative rings and algebras)
+16P40	IV	248	Noetherian rings and modules (associative rings and algebras)
+16P50	IV	248	Localization and associative Noetherian rings
+16P60	IV	248	Chain conditions on annihilators and summands: Goldie-type conditions
+16P70	IV	248	Chain conditions on other classes of submodules, ideals, subrings, etc.;
+16P90	IV	248	Growth rate, Gelfand-Kirillov dimension
+16P99	IV	249	Chain conditions, growth conditions, and other forms of finiteness for
+16R10	IV	249	(T)-ideals, identities, varieties of associative rings and algebras
+16R20	IV	249	Semiprime p.i. rings, rings embeddable in matrices over commutative rings
+16R30	IV	249	Trace rings and invariant theory (associative rings and algebras)
+16R40	IV	249	Identities other than those of matrices over commutative rings
+16R50	IV	249	Other kinds of identities (generalized polynomial, rational, involution)
+16R60	IV	249	Functional identities (associative rings and algebras)
+16R99	IV	249	Rings with polynomial identity
+16S10	IV	249	Associative rings determined by universal properties (free algebras,
+16S15	IV	249	Finite generation, finite presentability, normal forms (diamond lemma,
+16S20	IV	249	Centralizing and normalizing extensions
+16S30	IV	249	Universal enveloping algebras of Lie algebras
+16S32	IV	250	Rings of differential operators (associative algebraic aspects)
+16S34	IV	250	Group rings
+16S35	IV	250	Twisted and skew group rings, crossed products
+16S36	IV	250	Ordinary and skew polynomial rings and semigroup rings
+16S37	IV	250	Quadratic and Koszul algebras
+16S40	IV	250	Smash products of general Hopf actions
+16S50	IV	250	Endomorphism rings; matrix rings
+16S60	IV	250	Associative rings of functions, subdirect products, sheaves of rings
+16S70	IV	250	Extensions of associative rings by ideals
+16S80	IV	250	Deformations of associative rings
+16S85	IV	250	Associative rings of fractions and localizations
+16S88	IV	250	Leavitt path algebras
+16S90	IV	250	Torsion theories; radicals on module categories (associative algebraic
+16S99	IV	250	Associative rings and algebras arising under various constructions
+16T05	IV	251	Hopf algebras and their applications
+16T10	IV	251	Bialgebras
+16T15	IV	251	Coalgebras and comodules; corings
+16T20	IV	251	Ring-theoretic aspects of quantum groups
+16T25	IV	251	Yang-Baxter equations
+16T30	IV	251	Connections of Hopf algebras with combinatorics
+16T99	IV	251	Hopf algebras, quantum groups and related topics
+16U10	IV	251	Integral domains (associative rings and algebras)
+16U20	IV	251	Ore rings, multiplicative sets, Ore localization
+16U40	IV	251	Idempotent elements (associative rings and algebras)
+16U60	IV	251	Units, groups of units (associative rings and algebras)
+16U70	IV	251	Center, normalizer (invariant elements) (associative rings and algebras)
+16U80	IV	251	Generalizations of commutativity (associative rings and algebras)
+16U90	IV	251	Generalized inverses (associative rings and algebras)
+16U99	IV	252	Conditions on elements
+16W10	IV	252	Rings with involution; Lie, Jordan and other nonassociative structures
+16W20	IV	252	Automorphisms and endomorphisms
+16W22	IV	252	Actions of groups and semigroups; invariant theory (associative rings and
+16W25	IV	252	Derivations, actions of Lie algebras
+16W50	IV	252	Graded rings and modules (associative rings and algebras)
+16W55	IV	252	``Super'' (or ``skew'') structure
+16W60	IV	252	Valuations, completions, formal power series and related constructions
+16W70	IV	252	Filtered associative rings; filtrational and graded techniques
+16W80	IV	252	Topological and ordered rings and modules
+16W99	IV	252	Associative rings and algebras with additional structure
+16Y20	IV	252	Hyperrings
+16Y30	IV	253	Near-rings
+16Y60	IV	253	Semirings
+16Y80	IV	253	(Gamma) and fuzzy structures
+16Y99	IV	253	Generalizations
+16Z05	IV	253	Computational aspects of associative rings (general theory)
+16Z10	IV	253	Gröbner-Shirshov bases
+16Z99	IV	253	Computational aspects of associative rings
+17-00	IV	255	General reference works (handbooks, dictionaries, bibliographies, etc.)
+17-02	IV	255	Research exposition (monographs, survey articles) pertaining to
+17-03	IV	255	History of nonassociative rings and algebras
+17-04	IV	255	Software, source code, etc. for problems pertaining to nonassociative rings
+17-06	IV	255	Proceedings, conferences, collections, etc. pertaining to nonassociative rings
+17-08	IV	255	Computational methods for problems pertaining to nonassociative rings and
+17-11	IV	255	Research data for problems pertaining to nonassociative rings and algebras
+17A05	IV	255	Power-associative rings
+17A20	IV	255	Flexible algebras
+17A30	IV	255	Nonassociative algebras satisfying other identities
+17A32	IV	255	Leibniz algebras
+17A35	IV	255	Nonassociative division algebras
+17A36	IV	255	Automorphisms, derivations, other operators (nonassociative rings and
+17A40	IV	255	Ternary compositions
+17A42	IV	255	Other (n)-ary compositions ((n ge 3))
+17A45	IV	255	Quadratic algebras (but not quadratic Jordan algebras)
+17A50	IV	256	Free nonassociative algebras
+17A60	IV	256	Structure theory for nonassociative algebras
+17A61	IV	256	Gröbner-Shirshov bases in nonassociative algebras
+17A65	IV	256	Radical theory (nonassociative rings and algebras)
+17A70	IV	256	Superalgebras
+17A75	IV	256	Composition algebras
+17A80	IV	256	Valued algebras
+17A99	IV	256	General nonassociative rings
+17B01	IV	256	Identities, free Lie (super)algebras
+17B05	IV	256	Structure theory for Lie algebras and superalgebras
+17B08	IV	256	Coadjoint orbits; nilpotent varieties
+17B10	IV	256	Representations of Lie algebras and Lie superalgebras, algebraic theory
+17B15	IV	256	Representations of Lie algebras and Lie superalgebras, analytic theory
+17B20	IV	257	Simple, semisimple, reductive (super)algebras
+17B22	IV	257	Root systems
+17B25	IV	257	Exceptional (super)algebras
+17B30	IV	257	Solvable, nilpotent (super)algebras
+17B35	IV	257	Universal enveloping (super)algebras
+17B37	IV	257	Quantum groups (quantized enveloping algebras) and related deformations
+17B38	IV	257	Yang-Baxter equations and Rota-Baxter operators
+17B40	IV	257	Automorphisms, derivations, other operators for Lie algebras and super
+17B45	IV	257	Lie algebras of linear algebraic groups
+17B50	IV	257	Modular Lie (super)algebras
+17B55	IV	257	Homological methods in Lie (super)algebras
+17B56	IV	257	Cohomology of Lie (super)algebras
+17B60	IV	258	Lie (super)algebras associated with other structures (associative, Jordan,
+17B61	IV	258	Hom-Lie and related algebras
+17B62	IV	258	Lie bialgebras; Lie coalgebras
+17B63	IV	258	Poisson algebras
+17B65	IV	258	Infinite-dimensional Lie (super)algebras
+17B66	IV	258	Lie algebras of vector fields and related (super) algebras
+17B67	IV	258	Kac-Moody (super)algebras; extended affine Lie algebras; toroidal Lie
+17B68	IV	258	Virasoro and related algebras
+17B69	IV	258	Vertex operators; vertex operator algebras and related structures
+17B70	IV	258	Graded Lie (super)algebras
+17B75	IV	258	Color Lie (super)algebras
+17B80	IV	258	Applications of Lie algebras and superalgebras to integrable systems
+17B81	IV	259	Applications of Lie (super)algebras to physics, etc.
+17B99	IV	259	Lie algebras and Lie superalgebras
+17C05	IV	259	Identities and free Jordan structures
+17C10	IV	259	Structure theory for Jordan algebras
+17C17	IV	259	Radicals in Jordan algebras
+17C20	IV	259	Simple, semisimple Jordan algebras
+17C27	IV	259	Idempotents, Peirce decompositions
+17C30	IV	259	Associated groups, automorphisms of Jordan algebras
+17C36	IV	259	Associated manifolds of Jordan algebras
+17C37	IV	259	Associated geometries of Jordan algebras
+17C40	IV	259	Exceptional Jordan structures
+17C50	IV	259	Jordan structures associated with other structures
+17C55	IV	259	Finite-dimensional structures of Jordan algebras
+17C60	IV	259	Division algebras and Jordan algebras
+17C65	IV	260	Jordan structures on Banach spaces and algebras
+17C70	IV	260	Super structures
+17C90	IV	260	Applications of Jordan algebras to physics, etc.
+17C99	IV	260	Jordan algebras (algebras, triples and pairs)
+17D05	IV	260	Alternative rings
+17D10	IV	260	Mal'tsev rings and algebras
+17D15	IV	260	Right alternative rings
+17D20	IV	260	((gamma, delta))-rings, including ((1,-1))-rings
+17D25	IV	260	Lie-admissible algebras
+17D30	IV	260	(non-Lie) Hom algebras and topics
+17D92	IV	260	Genetic algebras
+17D99	IV	260	Other nonassociative rings and algebras
+20-00	IV	264	General reference works (handbooks, dictionaries, bibliographies, etc.)
+20-02	IV	264	Research exposition (monographs, survey articles) pertaining to group theory
+20-03	IV	264	History of group theory
+20-04	IV	264	Software, source code, etc. for problems pertaining to group theory
+20-06	IV	264	Proceedings, conferences, collections, etc. pertaining to group theory
+20-08	IV	264	Computational methods for problems pertaining to group theory
+20-11	IV	264	Research data for problems pertaining to group theory
+20A10	IV	264	Metamathematical considerations in group theory
+20A15	IV	264	Applications of logic to group theory
+20A99	IV	264	Foundations
+20B05	IV	264	General theory for finite permutation groups
+20B07	IV	264	General theory for infinite permutation groups
+20B10	IV	264	Characterization theorems for permutation groups
+20B15	IV	264	Primitive groups
+20B20	IV	264	Multiply transitive finite groups
+20B22	IV	265	Multiply transitive infinite groups
+20B25	IV	265	Finite automorphism groups of algebraic, geometric, or combinatorial
+20B27	IV	265	Infinite automorphism groups
+20B30	IV	265	Symmetric groups
+20B35	IV	265	Subgroups of symmetric groups
+20B99	IV	265	Permutation groups
+20C05	IV	265	Group rings of finite groups and their modules (group-theoretic aspects)
+20C07	IV	265	Group rings of infinite groups and their modules (group-theoretic aspects)
+20C08	IV	265	Hecke algebras and their representations
+20C10	IV	265	Integral representations of finite groups
+20C11	IV	265	(p)-adic representations of finite groups
+20C12	IV	265	Integral representations of infinite groups
+20C15	IV	265	Ordinary representations and characters
+20C20	IV	266	Modular representations and characters
+20C25	IV	266	Projective representations and multipliers
+20C30	IV	266	Representations of finite symmetric groups
+20C32	IV	266	Representations of infinite symmetric groups
+20C33	IV	266	Representations of finite groups of Lie type
+20C34	IV	266	Representations of sporadic groups
+20C35	IV	266	Applications of group representations to physics and other areas of science
+20C99	IV	266	Representation theory of groups
+20D05	IV	266	Finite simple groups and their classification
+20D06	IV	266	Simple groups: alternating groups and groups of Lie type
+20D08	IV	266	Simple groups: sporadic groups
+20D10	IV	266	Finite solvable groups, theory of formations, Schunck classes, Fitting classes,
+20D15	IV	266	Finite nilpotent groups, (p)-groups
+20D20	IV	267	Sylow subgroups, Sylow properties, (pi)-groups, (pi)-structure
+20D25	IV	267	Special subgroups (Frattini, Fitting, etc.)
+20D30	IV	267	Series and lattices of subgroups
+20D35	IV	267	Subnormal subgroups of abstract finite groups
+20D40	IV	267	Products of subgroups of abstract finite groups
+20D45	IV	267	Automorphisms of abstract finite groups
+20D60	IV	267	Arithmetic and combinatorial problems involving abstract finite groups
+20D99	IV	267	Abstract finite groups
+20E05	IV	267	Free nonabelian groups
+20E06	IV	267	Free products of groups, free products with amalgamation,
+20E07	IV	267	Subgroup theorems; subgroup growth
+20E08	IV	267	Groups acting on trees
+20E10	IV	267	Quasivarieties and varieties of groups
+20E15	IV	267	Chains and lattices of subgroups, subnormal subgroups
+20E22	IV	267	Extensions, wreath products, and other compositions of groups
+20E25	IV	268	Local properties of groups
+20E26	IV	268	Residual properties and generalizations; residually finite groups
+20E28	IV	268	Maximal subgroups
+20E32	IV	268	Simple groups
+20E34	IV	268	General structure theorems for groups
+20E36	IV	268	Automorphisms of infinite groups
+20E42	IV	268	Groups with a (BN)-pair; buildings
+20E45	IV	268	Conjugacy classes for groups
+20E99	IV	268	Structure and classification of infinite or finite groups
+20F05	IV	268	Generators, relations, and presentations of groups
+20F06	IV	268	Cancellation theory of groups; application of van Kampen diagrams
+20F10	IV	268	Word problems, other decision problems, connections with logic and
+20F11	IV	268	Groups of finite Morley rank
+20F12	IV	268	Commutator calculus
+20F16	IV	269	Solvable groups, supersolvable groups
+20F17	IV	269	Formations of groups, Fitting classes
+20F18	IV	269	Nilpotent groups
+20F19	IV	269	Generalizations of solvable and nilpotent groups
+20F22	IV	269	Other classes of groups defined by subgroup chains
+20F24	IV	269	FC-groups and their generalizations
+20F28	IV	269	Automorphism groups of groups
+20F29	IV	269	Representations of groups as automorphism groups of algebraic systems
+20F34	IV	269	Fundamental groups and their automorphisms (group-theoretic aspects)
+20F36	IV	269	Braid groups; Artin groups
+20F38	IV	269	Other groups related to topology or analysis
+20F40	IV	269	Associated Lie structures for groups
+20F45	IV	269	Engel conditions
+20F50	IV	269	Periodic groups; locally finite groups
+20F55	IV	269	Reflection and Coxeter groups (group-theoretic aspects)
+20F60	IV	269	Ordered groups (group-theoretic aspects)
+20F65	IV	270	Geometric group theory
+20F67	IV	270	Hyperbolic groups and nonpositively curved groups
+20F69	IV	270	Asymptotic properties of groups
+20F70	IV	270	Algebraic geometry over groups; equations over groups
+20F99	IV	270	Special aspects of infinite or finite groups
+20G05	IV	270	Representation theory for linear algebraic groups
+20G07	IV	270	Structure theory for linear algebraic groups
+20G10	IV	270	Cohomology theory for linear algebraic groups
+20G15	IV	270	Linear algebraic groups over arbitrary fields
+20G20	IV	270	Linear algebraic groups over the reals, the complexes, the quaternions
+20G25	IV	270	Linear algebraic groups over local fields and their integers
+20G30	IV	270	Linear algebraic groups over global fields and their integers
+20G35	IV	270	Linear algebraic groups over adèles and other rings and schemes
+20G40	IV	270	Linear algebraic groups over finite fields
+20G41	IV	271	Exceptional groups
+20G42	IV	271	Quantum groups (quantized function algebras) and their representations
+20G43	IV	271	Schur and (q)-Schur algebras
+20G44	IV	271	Kac-Moody groups
+20G45	IV	271	Applications of linear algebraic groups to the sciences
+20G99	IV	271	Linear algebraic groups and related topics
+20H05	IV	271	Unimodular groups, congruence subgroups (group-theoretic aspects)
+20H10	IV	271	Fuchsian groups and their generalizations (group-theoretic aspects)
+20H15	IV	271	Other geometric groups, including crystallographic groups
+20H20	IV	271	Other matrix groups over fields
+20H25	IV	271	Other matrix groups over rings
+20H30	IV	271	Other matrix groups over finite fields
+20H99	IV	271	Other groups of matrices
+20J05	IV	272	Homological methods in group theory
+20J06	IV	272	Cohomology of groups
+20J15	IV	272	Category of groups
+20J99	IV	272	Connections of group theory with homological algebra and category theory
+20K01	IV	272	Finite abelian groups
+20K10	IV	272	Torsion groups, primary groups and generalized primary groups
+20K15	IV	272	Torsion-free groups, finite rank
+20K20	IV	272	Torsion-free groups, infinite rank
+20K21	IV	272	Mixed groups
+20K25	IV	272	Direct sums, direct products, etc. for abelian groups
+20K27	IV	272	Subgroups of abelian groups
+20K30	IV	272	Automorphisms, homomorphisms, endomorphisms, etc. for abelian groups
+20K35	IV	272	Extensions of abelian groups
+20K40	IV	272	Homological and categorical methods for abelian groups
+20K45	IV	273	Topological methods for abelian groups
+20K99	IV	273	Abelian groups
+20L05	IV	273	Groupoids (i.e. small categories in which all morphisms are isomorphisms)
+20L99	IV	273	Groupoids (i.e. small categories in which all morphisms are isomorphisms)
+20M05	IV	273	Free semigroups, generators and relations, word problems
+20M07	IV	273	Varieties and pseudovarieties of semigroups
+20M10	IV	273	General structure theory for semigroups
+20M11	IV	273	Radical theory for semigroups
+20M12	IV	273	Ideal theory for semigroups
+20M13	IV	273	Arithmetic theory of semigroups
+20M14	IV	273	Commutative semigroups
+20M15	IV	274	Mappings of semigroups
+20M17	IV	274	Regular semigroups
+20M18	IV	274	Inverse semigroups
+20M19	IV	274	Orthodox semigroups
+20M20	IV	274	Semigroups of transformations, relations, partitions, etc.
+20M25	IV	274	Semigroup rings, multiplicative semigroups of rings
+20M30	IV	274	Representation of semigroups; actions of semigroups on sets
+20M32	IV	274	Algebraic monoids
+20M35	IV	274	Semigroups in automata theory, linguistics, etc.
+20M50	IV	274	Connections of semigroups with homological algebra and category theory
+20M75	IV	274	Generalizations of semigroups
+20M99	IV	274	Semigroups
+20N02	IV	275	Sets with a single binary operation (groupoids)
+20N05	IV	275	Loops, quasigroups
+20N10	IV	275	Ternary systems (heaps, semiheaps, heapoids, etc.)
+20N15	IV	275	(n)-ary systems ((nge 3))
+20N20	IV	275	Hypergroups
+20N25	IV	275	Fuzzy groups
+20N99	IV	275	Other generalizations of groups
+20P05	IV	275	Probabilistic methods in group theory
+20P99	IV	275	Probabilistic methods in group theory
+22-00	IV	277	General reference works (handbooks, dictionaries, bibliographies, etc.)
+22-02	IV	277	Research exposition (monographs, survey articles) pertaining to topological
+22-03	IV	277	History of topological groups
+22-04	IV	277	Software, source code, etc. for problems pertaining to topological groups
+22-06	IV	277	Proceedings, conferences, collections, etc. pertaining to topological groups
+22-08	IV	277	Computational methods for problems pertaining to topological groups
+22-11	IV	277	Research data for problems pertaining to topological groups
+22A05	IV	277	Structure of general topological groups
+22A10	IV	277	Analysis on general topological groups
+22A15	IV	277	Structure of topological semigroups
+22A20	IV	277	Analysis on topological semigroups
+22A22	IV	277	Topological groupoids (including differentiable and Lie groupoids)
+22A25	IV	277	Representations of general topological groups and semigroups
+22A26	IV	277	Topological semilattices, lattices and applications
+22A30	IV	277	Other topological algebraic systems and their representations
+22A99	IV	278	Topological and differentiable algebraic systems
+22B05	IV	278	General properties and structure of LCA groups
+22B10	IV	278	Structure of group algebras of LCA groups
+22B99	IV	278	Locally compact abelian groups (LCA groups)
+22C05	IV	278	Compact groups
+22C99	IV	278	Compact groups
+22D05	IV	278	General properties and structure of locally compact groups
+22D10	IV	278	Unitary representations of locally compact groups
+22D12	IV	278	Other representations of locally compact groups
+22D15	IV	278	Group algebras of locally compact groups
+22D20	IV	278	Representations of group algebras
+22D25	IV	279	(C^*)-algebras and (W^*)-algebras in relation to group representations
+22D30	IV	279	Induced representations for locally compact groups
+22D35	IV	279	Duality theorems for locally compact groups
+22D40	IV	279	Ergodic theory on groups
+22D45	IV	279	Automorphism groups of locally compact groups
+22D50	IV	279	Rigidity in locally compact groups
+22D55	IV	279	Kazhdan's property (T), the Haagerup property, and generalizations
+22D99	IV	279	Locally compact groups and their algebras
+22E05	IV	279	Local Lie groups
+22E10	IV	279	General properties and structure of complex Lie groups
+22E15	IV	279	General properties and structure of real Lie groups
+22E20	IV	279	General properties and structure of other Lie groups
+22E25	IV	279	Nilpotent and solvable Lie groups
+22E27	IV	280	Representations of nilpotent and solvable Lie groups (special orbital
+22E30	IV	280	Analysis on real and complex Lie groups
+22E35	IV	280	Analysis on (p)-adic Lie groups
+22E40	IV	280	Discrete subgroups of Lie groups
+22E41	IV	280	Continuous cohomology of Lie groups
+22E43	IV	280	Structure and representation of the Lorentz group
+22E45	IV	280	Representations of Lie and linear algebraic groups over real fields: analytic
+22E46	IV	280	Semisimple Lie groups and their representations
+22E47	IV	280	Representations of Lie and real algebraic groups: algebraic methods (Verma
+22E50	IV	280	Representations of Lie and linear algebraic groups over local fields
+22E55	IV	280	Representations of Lie and linear algebraic groups over global fields and
+22E60	IV	280	Lie algebras of Lie groups
+22E65	IV	281	Infinite-dimensional Lie groups and their Lie algebras: general properties
+22E66	IV	281	Analysis on and representations of infinite-dimensional Lie groups
+22E67	IV	281	Loop groups and related constructions, group-theoretic treatment
+22E70	IV	281	Applications of Lie groups to the sciences; explicit representations
+22E99	IV	281	Lie groups
+22F10	IV	281	Measurable group actions
+22F30	IV	281	Homogeneous spaces
+22F50	IV	281	Groups as automorphisms of other structures
+22F99	IV	281	Noncompact transformation groups
+28-00	IV	283	General reference works (handbooks, dictionaries, bibliographies, etc.)
+28-02	IV	283	Research exposition (monographs, survey articles) pertaining to measure and
+28-03	IV	283	History of measure and integration
+28-04	IV	283	Software, source code, etc. for problems pertaining to measure and
+28-06	IV	283	Proceedings, conferences, collections, etc. pertaining to measure and
+28-08	IV	283	Computational methods for problems pertaining to measure and integration
+28-11	IV	283	Research data for problems pertaining to measure and integration
+28A05	IV	283	Classes of sets (Borel fields, (sigma)-rings, etc.), measurable sets, Suslin
+28A10	IV	283	Real- or complex-valued set functions
+28A12	IV	283	Contents, measures, outer measures, capacities
+28A15	IV	283	Abstract differentiation theory, differentiation of set functions
+28A20	IV	283	Measurable and nonmeasurable functions, sequences of measurable
+28A25	IV	283	Integration with respect to measures and other set functions
+28A33	IV	283	Spaces of measures, convergence of measures
+28A35	IV	283	Measures and integrals in product spaces
+28A50	IV	283	Integration and disintegration of measures
+28A51	IV	284	Lifting theory
+28A60	IV	284	Measures on Boolean rings, measure algebras
+28A75	IV	284	Length, area, volume, other geometric measure theory
+28A78	IV	284	Hausdorff and packing measures
+28A80	IV	284	Fractals
+28A99	IV	284	Classical measure theory
+28B05	IV	284	Vector-valued set functions, measures and integrals
+28B10	IV	284	Group- or semigroup-valued set functions, measures and integrals
+28B15	IV	284	Set functions, measures and integrals with values in ordered spaces
+28B20	IV	284	Set-valued set functions and measures; integration of set-valued functions;
+28B99	IV	284	Set functions, measures and integrals with values in abstract spaces
+28C05	IV	285	Integration theory via linear functionals (Radon measures, Daniell integrals,
+28C10	IV	285	Set functions and measures on topological groups or semigroups, Haar
+28C15	IV	285	Set functions and measures on topological spaces (regularity of measures,
+28C20	IV	285	Set functions and measures and integrals in infinite-dimensional spaces
+28C99	IV	285	Set functions and measures on spaces with additional structure
+28D05	IV	285	Measure-preserving transformations
+28D10	IV	285	One-parameter continuous families of measure-preserving transformations
+28D15	IV	285	General groups of measure-preserving transformations
+28D20	IV	285	Entropy and other invariants
+28D99	IV	285	Measure-theoretic ergodic theory
+28E05	IV	286	Nonstandard measure theory
+28E10	IV	286	Fuzzy measure theory
+28E15	IV	286	Other connections with logic and set theory
+28E99	IV	286	Miscellaneous topics in measure theory
+30-00	IV	288	General reference works (handbooks, dictionaries, bibliographies, etc.)
+30-02	IV	288	Research exposition (monographs, survey articles) pertaining to functions of
+30-03	IV	288	History of functions of a complex variable
+30-04	IV	288	Software, source code, etc. for problems pertaining to functions of a complex
+30-06	IV	288	Proceedings, conferences, collections, etc. pertaining to functions of a
+30-08	IV	288	Computational methods for problems pertaining to functions of a complex
+30-11	IV	288	Research data for problems pertaining to functions of a complex variable
+30A10	IV	288	Inequalities in the complex plane
+30A99	IV	288	General properties of functions of one complex variable
+30B10	IV	288	Power series (including lacunary series) in one complex variable
+30B20	IV	288	Random power series in one complex variable
+30B30	IV	288	Boundary behavior of power series in one complex variable;
+30B40	IV	288	Analytic continuation of functions of one complex variable
+30B50	IV	289	Dirichlet series, exponential series and other series in one complex variable
+30B60	IV	289	Completeness problems, closure of a system of functions of one complex
+30B70	IV	289	Continued fractions; complex-analytic aspects
+30B99	IV	289	Series expansions of functions of one complex variable
+30C10	IV	289	Polynomials and rational functions of one complex variable
+30C15	IV	289	Zeros of polynomials, rational functions, and other analytic functions of one
+30C20	IV	289	Conformal mappings of special domains
+30C25	IV	289	Covering theorems in conformal mapping theory
+30C30	IV	289	Schwarz-Christoffel-type mappings
+30C40	IV	289	Kernel functions in one complex variable and applications
+30C45	IV	289	Special classes of univalent and multivalent functions of one complex
+30C50	IV	289	Coefficient problems for univalent and multivalent functions of one complex
+30C62	IV	289	Quasiconformal mappings in the complex plane
+30C65	IV	290	Quasiconformal mappings in (mathbb{R}^n), other generalizations
+30C70	IV	290	Extremal problems for conformal and quasiconformal mappings, variational
+30C75	IV	290	Extremal problems for conformal and quasiconformal mappings, other
+30C80	IV	290	Maximum principle, Schwarz's lemma, Lindelöf principle, analogues and
+30C85	IV	290	Capacity and harmonic measure in the complex plane
+30C99	IV	290	Geometric function theory
+30D05	IV	290	Functional equations in the complex plane, iteration and composition of
+30D10	IV	290	Representations of entire functions of one complex variable by series and
+30D15	IV	290	Special classes of entire functions of one complex variable and growth
+30D20	IV	290	Entire functions of one complex variable (general theory)
+30D30	IV	290	Meromorphic functions of one complex variable (general theory)
+30D35	IV	291	Value distribution of meromorphic functions of one complex variable,
+30D40	IV	291	Cluster sets, prime ends, boundary behavior
+30D45	IV	291	Normal functions of one complex variable, normal families
+30D60	IV	291	Quasi-analytic and other classes of functions of one complex variable
+30D99	IV	291	Entire and meromorphic functions of one complex variable, and related topics
+30E05	IV	291	Moment problems and interpolation problems in the complex plane
+30E10	IV	291	Approximation in the complex plane
+30E15	IV	291	Asymptotic representations in the complex plane
+30E20	IV	291	Integration, integrals of Cauchy type, integral representations of analytic
+30E25	IV	291	Boundary value problems in the complex plane
+30E99	IV	291	Miscellaneous topics of analysis in the complex plane
+30F10	IV	292	Compact Riemann surfaces and uniformization
+30F15	IV	292	Harmonic functions on Riemann surfaces
+30F20	IV	292	Classification theory of Riemann surfaces
+30F25	IV	292	Ideal boundary theory for Riemann surfaces
+30F30	IV	292	Differentials on Riemann surfaces
+30F40	IV	292	Kleinian groups (aspects of compact Riemann surfaces and uniformization)
+30F45	IV	292	Conformal metrics (hyperbolic, Poincaré, distance functions)
+30F50	IV	292	Klein surfaces
+30F60	IV	292	Teichmüller theory for Riemann surfaces
+30F99	IV	292	Riemann surfaces
+30G06	IV	292	Non-Archimedean function theory
+30G12	IV	292	Finely holomorphic functions and topological function theory
+30G20	IV	292	Generalizations of Bers and Vekua type (pseudoanalytic, (p)-analytic, etc.)
+30G25	IV	292	Discrete analytic functions
+30G30	IV	293	Other generalizations of analytic functions (including abstract-valued
+30G35	IV	293	Functions of hypercomplex variables and generalized variables
+30G99	IV	293	Generalized function theory
+30H05	IV	293	Spaces of bounded analytic functions of one complex variable
+30H10	IV	293	Hardy spaces
+30H15	IV	293	Nevanlinna spaces and Smirnov spaces
+30H20	IV	293	Bergman spaces and Fock spaces
+30H25	IV	293	Besov spaces and (Q_p)-spaces
+30H30	IV	293	Bloch spaces
+30H35	IV	293	BMO-spaces
+30H40	IV	293	Zygmund spaces
+30H45	IV	293	de Branges-Rovnyak spaces
+30H50	IV	293	Algebras of analytic functions of one complex variable
+30H80	IV	293	Corona theorems
+30H99	IV	294	Spaces and algebras of analytic functions of one complex variable
+30J05	IV	294	Inner functions of one complex variable
+30J10	IV	294	Blaschke products
+30J15	IV	294	Singular inner functions of one complex variable
+30J99	IV	294	Function theory on the disc
+30K05	IV	294	Universal Taylor series in one complex variable
+30K10	IV	294	Universal Dirichlet series in one complex variable
+30K15	IV	294	Universal functions of one complex variable
+30K20	IV	294	Compositional universality
+30K99	IV	294	Universal holomorphic functions of one complex variable
+30L05	IV	294	Geometric embeddings of metric spaces
+30L10	IV	295	Quasiconformal mappings in metric spaces
+30L15	IV	295	Inequalities in metric spaces
+30L99	IV	295	Analysis on metric spaces
+31-00	IV	297	General reference works (handbooks, dictionaries, bibliographies, etc.)
+31-02	IV	297	Research exposition (monographs, survey articles) pertaining to potential
+31-03	IV	297	History of potential theory
+31-04	IV	297	Software, source code, etc. for problems pertaining to potential theory
+31-06	IV	297	Proceedings, conferences, collections, etc. pertaining to potential theory
+31-08	IV	297	Computational methods for problems pertaining to potential theory
+31-11	IV	297	Research data for problems pertaining to potential theory
+31A05	IV	297	Harmonic, subharmonic, superharmonic functions in two dimensions
+31A10	IV	297	Integral representations, integral operators, integral equations methods in
+31A15	IV	297	Potentials and capacity, harmonic measure, extremal length and related
+31A20	IV	297	Boundary behavior (theorems of Fatou type, etc.) of harmonic functions in
+31A25	IV	297	Boundary value and inverse problems for harmonic functions in two
+31A30	IV	297	Biharmonic, polyharmonic functions and equations, Poisson's equation in two
+31A35	IV	297	Connections of harmonic functions with differential equations in two
+31A99	IV	298	Two-dimensional potential theory
+31B05	IV	298	Harmonic, subharmonic, superharmonic functions in higher dimensions
+31B10	IV	298	Integral representations, integral operators, integral equations methods in
+31B15	IV	298	Potentials and capacities, extremal length and related notions in higher
+31B20	IV	298	Boundary value and inverse problems for harmonic functions in higher
+31B25	IV	298	Boundary behavior of harmonic functions in higher dimensions
+31B30	IV	298	Biharmonic and polyharmonic equations and functions in higher dimensions
+31B35	IV	298	Connections of harmonic functions with differential equations in higher
+31B99	IV	298	Higher-dimensional potential theory
+31C05	IV	298	Harmonic, subharmonic, superharmonic functions on other spaces
+31C10	IV	298	Pluriharmonic and plurisubharmonic functions
+31C12	IV	299	Potential theory on Riemannian manifolds and other spaces
+31C15	IV	299	Potentials and capacities on other spaces
+31C20	IV	299	Discrete potential theory
+31C25	IV	299	Dirichlet forms
+31C35	IV	299	Martin boundary theory
+31C40	IV	299	Fine potential theory; fine properties of sets and functions
+31C45	IV	299	Other generalizations (nonlinear potential theory, etc.)
+31C99	IV	299	Generalizations of potential theory
+31D05	IV	299	Axiomatic potential theory
+31D99	IV	299	Axiomatic potential theory
+31E05	IV	299	Potential theory on fractals and metric spaces
+31E99	IV	299	Potential theory on fractals and metric spaces
+33-00	IV	302	General reference works (handbooks, dictionaries, bibliographies, etc.)
+33-02	IV	302	Research exposition (monographs, survey articles) pertaining to special
+33-03	IV	302	History of special functions
+33-04	IV	302	Software, source code, etc. for problems pertaining to special functions
+33-06	IV	302	Proceedings, conferences, collections, etc. pertaining to special functions
+33-11	IV	302	Research data for problems pertaining to special functions
+33B10	IV	302	Exponential and trigonometric functions
+33B15	IV	302	Gamma, beta and polygamma functions
+33B20	IV	302	Incomplete beta and gamma functions (error functions, probability integral,
+33B30	IV	302	Higher logarithm functions
+33B99	IV	302	Elementary classical functions
+33C05	IV	302	Classical hypergeometric functions, ({}_2F_1)
+33C10	IV	302	Bessel and Airy functions, cylinder functions, ({}_0F_1)
+33C15	IV	303	Confluent hypergeometric functions, Whittaker functions, ({}_1F_1)
+33C20	IV	303	Generalized hypergeometric series, ({}_pF_q)
+33C45	IV	303	Orthogonal polynomials and functions of hypergeometric type (Jacobi,
+33C47	IV	303	Other special orthogonal polynomials and functions
+33C50	IV	303	Orthogonal polynomials and functions in several variables expressible in
+33C52	IV	303	Orthogonal polynomials and functions associated with root systems
+33C55	IV	303	Spherical harmonics
+33C60	IV	303	Hypergeometric integrals and functions defined by them ((E), (G), (H) and (I)
+33C65	IV	303	Appell, Horn and Lauricella functions
+33C67	IV	303	Hypergeometric functions associated with root systems
+33C70	IV	303	Other hypergeometric functions and integrals in several variables
+33C75	IV	303	Elliptic integrals as hypergeometric functions
+33C80	IV	304	Connections of hypergeometric functions with groups and algebras, and
+33C90	IV	304	Applications of hypergeometric functions
+33C99	IV	304	Hypergeometric functions
+33D05	IV	304	(q)-gamma functions, (q)-beta functions and integrals
+33D15	IV	304	Basic hypergeometric functions in one variable, ({}_rphi_s)
+33D45	IV	304	Basic orthogonal polynomials and functions (Askey-Wilson polynomials, etc.)
+33D50	IV	304	Orthogonal polynomials and functions in several variables expressible in
+33D52	IV	304	Basic orthogonal polynomials and functions associated with root systems
+33D60	IV	304	Basic hypergeometric integrals and functions defined by them
+33D65	IV	304	Bibasic functions and multiple bases
+33D67	IV	304	Basic hypergeometric functions associated with root systems
+33D70	IV	305	Other basic hypergeometric functions and integrals in several variables
+33D80	IV	305	Connections of basic hypergeometric functions with quantum groups,
+33D90	IV	305	Applications of basic hypergeometric functions
+33D99	IV	305	Basic hypergeometric functions
+33E05	IV	305	Elliptic functions and integrals
+33E10	IV	305	Lamé, Mathieu, and spheroidal wave functions
+33E12	IV	305	Mittag-Leffler functions and generalizations
+33E15	IV	305	Other wave functions
+33E17	IV	305	Painlevé-type functions
+33E20	IV	305	Other functions defined by series and integrals
+33E30	IV	305	Other functions coming from differential, difference and integral equations
+33E50	IV	306	Special functions in characteristic (p) (gamma functions, etc.)
+33E99	IV	306	Other special functions
+33F05	IV	306	Numerical approximation and evaluation of special functions
+33F99	IV	306	Computational aspects of special functions
+35-00	IV	308	General reference works (handbooks, dictionaries, bibliographies, etc.)
+35-02	IV	308	Research exposition (monographs, survey articles) pertaining to partial
+35-03	IV	308	History of partial differential equations
+35-04	IV	308	Software, source code, etc. for problems pertaining to partial differential
+35-06	IV	308	Proceedings, conferences, collections, etc. pertaining to partial differential
+35-11	IV	308	Research data for problems pertaining to partial differential equations
+35A01	IV	308	Existence problems for PDEs: global existence, local existence, non-existence
+35A02	IV	308	Uniqueness problems for PDEs: global uniqueness, local uniqueness,
+35A08	IV	308	Fundamental solutions to PDEs
+35A09	IV	308	Classical solutions to PDEs
+35A10	IV	308	Cauchy-Kovalevskaya theorems
+35A15	IV	308	Variational methods applied to PDEs
+35A16	IV	308	Topological and monotonicity methods applied to PDEs
+35A17	IV	309	Parametrices in context of PDEs
+35A18	IV	309	Wave front sets in context of PDEs
+35A20	IV	309	Analyticity in context of PDEs
+35A21	IV	309	Singularity in context of PDEs
+35A22	IV	309	Transform methods (e.g., integral transforms) applied to PDEs
+35A23	IV	309	Inequalities applied to PDEs involving derivatives, differential and integral
+35A25	IV	309	Other special methods applied to PDEs
+35A30	IV	309	Geometric theory, characteristics, transformations in context of PDEs
+35A35	IV	309	Theoretical approximation in context of PDEs
+35A99	IV	309	General topics in partial differential equations
+35B05	IV	309	Oscillation, zeros of solutions, mean value theorems, etc. in context of PDEs
+35B06	IV	310	Symmetries, invariants, etc. in context of PDEs
+35B07	IV	310	Axially symmetric solutions to PDEs
+35B08	IV	310	Entire solutions to PDEs
+35B09	IV	310	Positive solutions to PDEs
+35B10	IV	310	Periodic solutions to PDEs
+35B15	IV	310	Almost and pseudo-almost periodic solutions to PDEs
+35B20	IV	310	Perturbations in context of PDEs
+35B25	IV	310	Singular perturbations in context of PDEs
+35B27	IV	310	Homogenization in context of PDEs; PDEs in media with periodic structure
+35B30	IV	310	Dependence of solutions to PDEs on initial and/or boundary data and/or on
+35B32	IV	310	Bifurcations in context of PDEs
+35B33	IV	310	Critical exponents in context of PDEs
+35B34	IV	311	Resonance in context of PDEs
+35B35	IV	311	Stability in context of PDEs
+35B36	IV	311	Pattern formations in context of PDEs
+35B38	IV	311	Critical points of functionals in context of PDEs (e.g., energy functionals)
+35B40	IV	311	Asymptotic behavior of solutions to PDEs
+35B41	IV	311	Attractors
+35B42	IV	311	Inertial manifolds
+35B44	IV	311	Blow-up in context of PDEs
+35B45	IV	311	A priori estimates in context of PDEs
+35B50	IV	311	Maximum principles in context of PDEs
+35B51	IV	311	Comparison principles in context of PDEs
+35B53	IV	311	Liouville theorems and Phragmén-Lindelöf theorems in context of PDEs
+35B60	IV	311	Continuation and prolongation of solutions to PDEs
+35B65	IV	312	Smoothness and regularity of solutions to PDEs
+35B99	IV	312	Qualitative properties of solutions to partial differential equations
+35C05	IV	312	Solutions to PDEs in closed form
+35C06	IV	312	Self-similar solutions to PDEs
+35C07	IV	312	Traveling wave solutions
+35C08	IV	312	Soliton solutions
+35C09	IV	312	Trigonometric solutions to PDEs
+35C10	IV	312	Series solutions to PDEs
+35C11	IV	312	Polynomial solutions to PDEs
+35C15	IV	312	Integral representations of solutions to PDEs
+35C20	IV	312	Asymptotic expansions of solutions to PDEs
+35C99	IV	313	Representations of solutions to partial differential equations
+35D30	IV	313	Weak solutions to PDEs
+35D35	IV	313	Strong solutions to PDEs
+35D40	IV	313	Viscosity solutions to PDEs
+35D99	IV	313	Generalized solutions to partial differential equations
+35E05	IV	313	Fundamental solutions to PDEs and systems of PDEs with constant
+35E10	IV	313	Convexity properties of solutions to PDEs with constant coefficients
+35E15	IV	313	Initial value problems for PDEs and systems of PDEs with constant
+35E99	IV	313	Partial differential equations and systems of partial differential equations
+35F05	IV	314	Linear first-order PDEs
+35F10	IV	314	Initial value problems for linear first-order PDEs
+35F15	IV	314	Boundary value problems for linear first-order PDEs
+35F16	IV	314	Initial-boundary value problems for linear first-order PDEs
+35F20	IV	314	Nonlinear first-order PDEs
+35F21	IV	314	Hamilton-Jacobi equations
+35F25	IV	314	Initial value problems for nonlinear first-order PDEs
+35F30	IV	314	Boundary value problems for nonlinear first-order PDEs
+35F31	IV	314	Initial-boundary value problems for nonlinear first-order PDEs
+35F35	IV	314	Systems of linear first-order PDEs
+35F40	IV	314	Initial value problems for systems of linear first-order PDEs
+35F45	IV	314	Boundary value problems for systems of linear first-order PDEs
+35F46	IV	314	Initial-boundary value problems for systems of linear first-order PDEs
+35F50	IV	315	Systems of nonlinear first-order PDEs
+35F55	IV	315	Initial value problems for systems of nonlinear first-order PDEs
+35F60	IV	315	Boundary value problems for systems of nonlinear first-order PDEs
+35F61	IV	315	Initial-boundary value problems for systems of nonlinear first-order PDEs
+35F99	IV	315	General first-order partial differential equations and systems of first-order
+35G05	IV	315	Linear higher-order PDEs
+35G10	IV	315	Initial value problems for linear higher-order PDEs
+35G15	IV	315	Boundary value problems for linear higher-order PDEs
+35G16	IV	315	Initial-boundary value problems for linear higher-order PDEs
+35G20	IV	315	Nonlinear higher-order PDEs
+35G25	IV	315	Initial value problems for nonlinear higher-order PDEs
+35G30	IV	316	Boundary value problems for nonlinear higher-order PDEs
+35G31	IV	316	Initial-boundary value problems for nonlinear higher-order PDEs
+35G35	IV	316	Systems of linear higher-order PDEs
+35G40	IV	316	Initial value problems for systems of linear higher-order PDEs
+35G45	IV	316	Boundary value problems for systems of linear higher-order PDEs
+35G46	IV	316	Initial-boundary value problems for systems of linear higher-order PDEs
+35G50	IV	316	Systems of nonlinear higher-order PDEs
+35G55	IV	316	Initial value problems for systems of nonlinear higher-order PDEs
+35G60	IV	316	Boundary value problems for systems of nonlinear higher-order PDEs
+35G61	IV	316	Initial-boundary value problems for systems of nonlinear higher-order PDEs
+35G99	IV	316	General higher-order partial differential equations and systems of
+35H10	IV	317	Hypoelliptic equations
+35H20	IV	317	Subelliptic equations
+35H30	IV	317	Quasielliptic equations
+35H99	IV	317	Close-to-elliptic equations
+35J05	IV	317	Laplace operator, Helmholtz equation (reduced wave equation), Poisson
+35J08	IV	317	Green's functions for elliptic equations
+35J15	IV	317	Second-order elliptic equations
+35J20	IV	317	Variational methods for second-order elliptic equations
+35J25	IV	317	Boundary value problems for second-order elliptic equations
+35J30	IV	317	Higher-order elliptic equations
+35J35	IV	317	Variational methods for higher-order elliptic equations
+35J40	IV	318	Boundary value problems for higher-order elliptic equations
+35J46	IV	318	First-order elliptic systems
+35J47	IV	318	Second-order elliptic systems
+35J48	IV	318	Higher-order elliptic systems
+35J50	IV	318	Variational methods for elliptic systems
+35J56	IV	318	Boundary value problems for first-order elliptic systems
+35J57	IV	318	Boundary value problems for second-order elliptic systems
+35J58	IV	318	Boundary value problems for higher-order elliptic systems
+35J60	IV	318	Nonlinear elliptic equations
+35J61	IV	318	Semilinear elliptic equations
+35J62	IV	318	Quasilinear elliptic equations
+35J65	IV	318	Nonlinear boundary value problems for linear elliptic equations
+35J66	IV	318	Nonlinear boundary value problems for nonlinear elliptic equations
+35J67	IV	319	Boundary values of solutions to elliptic equations and elliptic systems
+35J70	IV	319	Degenerate elliptic equations
+35J75	IV	319	Singular elliptic equations
+35J86	IV	319	Unilateral problems for linear elliptic equations and variational inequalities
+35J87	IV	319	Unilateral problems for nonlinear elliptic equations and variational
+35J88	IV	319	Unilateral problems for elliptic systems and systems of variational
+35J91	IV	319	Semilinear elliptic equations with Laplacian, bi-Laplacian or poly-Laplacian
+35J92	IV	319	Quasilinear elliptic equations with (p)-Laplacian
+35J93	IV	319	Quasilinear elliptic equations with mean curvature operator
+35J94	IV	319	Elliptic equations with infinity-Laplacian
+35J96	IV	319	Monge-Ampère equations
+35J99	IV	319	Elliptic equations and elliptic systems
+35K05	IV	320	Heat equation
+35K08	IV	320	Heat kernel
+35K10	IV	320	Second-order parabolic equations
+35K15	IV	320	Initial value problems for second-order parabolic equations
+35K20	IV	320	Initial-boundary value problems for second-order parabolic equations
+35K25	IV	320	Higher-order parabolic equations
+35K30	IV	320	Initial value problems for higher-order parabolic equations
+35K35	IV	320	Initial-boundary value problems for higher-order parabolic equations
+35K40	IV	320	Second-order parabolic systems
+35K41	IV	320	Higher-order parabolic systems
+35K45	IV	320	Initial value problems for second-order parabolic systems
+35K46	IV	320	Initial value problems for higher-order parabolic systems
+35K51	IV	320	Initial-boundary value problems for second-order parabolic systems
+35K52	IV	321	Initial-boundary value problems for higher-order parabolic systems
+35K55	IV	321	Nonlinear parabolic equations
+35K57	IV	321	Reaction-diffusion equations
+35K58	IV	321	Semilinear parabolic equations
+35K59	IV	321	Quasilinear parabolic equations
+35K60	IV	321	Nonlinear initial, boundary and initial-boundary value problems for linear
+35K61	IV	321	Nonlinear initial, boundary and initial-boundary value problems for nonlinear
+35K65	IV	321	Degenerate parabolic equations
+35K67	IV	321	Singular parabolic equations
+35K70	IV	321	Ultraparabolic equations, pseudoparabolic equations, etc.
+35K85	IV	321	Unilateral problems for linear parabolic equations and variational inequalities
+35K86	IV	321	Unilateral problems for nonlinear parabolic equations and variational
+35K87	IV	322	Unilateral problems for parabolic systems and systems of variational
+35K90	IV	322	Abstract parabolic equations
+35K91	IV	322	Semilinear parabolic equations with Laplacian, bi-Laplacian or poly-Laplacian
+35K92	IV	322	Quasilinear parabolic equations with (p)-Laplacian
+35K93	IV	322	Quasilinear parabolic equations with mean curvature operator
+35K96	IV	322	Parabolic Monge-Ampère equations
+35K99	IV	322	Parabolic equations and parabolic systems
+35L02	IV	322	First-order hyperbolic equations
+35L03	IV	322	Initial value problems for first-order hyperbolic equations
+35L04	IV	322	Initial-boundary value problems for first-order hyperbolic equations
+35L05	IV	322	Wave equation
+35L10	IV	323	Second-order hyperbolic equations
+35L15	IV	323	Initial value problems for second-order hyperbolic equations
+35L20	IV	323	Initial-boundary value problems for second-order hyperbolic equations
+35L25	IV	323	Higher-order hyperbolic equations
+35L30	IV	323	Initial value problems for higher-order hyperbolic equations
+35L35	IV	323	Initial-boundary value problems for higher-order hyperbolic equations
+35L40	IV	323	First-order hyperbolic systems
+35L45	IV	323	Initial value problems for first-order hyperbolic systems
+35L50	IV	323	Initial-boundary value problems for first-order hyperbolic systems
+35L51	IV	323	Second-order hyperbolic systems
+35L52	IV	323	Initial value problems for second-order hyperbolic systems
+35L53	IV	323	Initial-boundary value problems for second-order hyperbolic systems
+35L55	IV	323	Higher-order hyperbolic systems
+35L56	IV	324	Initial value problems for higher-order hyperbolic systems
+35L57	IV	324	Initial-boundary value problems for higher-order hyperbolic systems
+35L60	IV	324	First-order nonlinear hyperbolic equations
+35L65	IV	324	Hyperbolic conservation laws
+35L67	IV	324	Shocks and singularities for hyperbolic equations
+35L70	IV	324	Second-order nonlinear hyperbolic equations
+35L71	IV	324	Second-order semilinear hyperbolic equations
+35L72	IV	324	Second-order quasilinear hyperbolic equations
+35L75	IV	324	Higher-order nonlinear hyperbolic equations
+35L76	IV	324	Higher-order semilinear hyperbolic equations
+35L77	IV	324	Higher-order quasilinear hyperbolic equations
+35L80	IV	324	Degenerate hyperbolic equations
+35L81	IV	324	Singular hyperbolic equations
+35L82	IV	325	Pseudohyperbolic equations
+35L85	IV	325	Unilateral problems for linear hyperbolic equations and variational
+35L86	IV	325	Unilateral problems for nonlinear hyperbolic equations and variational
+35L87	IV	325	Unilateral problems for hyperbolic systems and systems of variational
+35L90	IV	325	Abstract hyperbolic equations
+35L99	IV	325	Hyperbolic equations and hyperbolic systems
+35M10	IV	325	PDEs of mixed type
+35M11	IV	325	Initial value problems for PDEs of mixed type
+35M12	IV	325	Boundary value problems for PDEs of mixed type
+35M13	IV	325	Initial-boundary value problems for PDEs of mixed type
+35M30	IV	325	Mixed-type systems of PDEs
+35M31	IV	326	Initial value problems for mixed-type systems of PDEs
+35M32	IV	326	Boundary value problems for mixed-type systems of PDEs
+35M33	IV	326	Initial-boundary value problems for mixed-type systems of PDEs
+35M85	IV	326	Unilateral problems for linear PDEs of mixed type and variational inequalities
+35M86	IV	326	Unilateral problems for nonlinear PDEs of mixed type and variational
+35M87	IV	326	Unilateral problems for mixed-type systems of PDEs and systems of
+35M99	IV	326	Partial differential equations of mixed type and mixed-type systems of partial
+35N05	IV	326	Overdetermined systems of PDEs with constant coefficients
+35N10	IV	326	Overdetermined systems of PDEs with variable coefficients
+35N15	IV	326	(overlinepartial)-Neumann problems and formal complexes in context of PDEs
+35N20	IV	326	Overdetermined initial value problems for PDEs and systems of PDEs
+35N25	IV	327	Overdetermined boundary value problems for PDEs and systems of PDEs
+35N30	IV	327	Overdetermined initial-boundary value problems for PDEs and systems of
+35N99	IV	327	Overdetermined problems for partial differential equations and systems of
+35P05	IV	327	General topics in linear spectral theory for PDEs
+35P10	IV	327	Completeness of eigenfunctions and eigenfunction expansions in context of
+35P15	IV	327	Estimates of eigenvalues in context of PDEs
+35P20	IV	327	Asymptotic distributions of eigenvalues in context of PDEs
+35P25	IV	327	Scattering theory for PDEs
+35P30	IV	327	Nonlinear eigenvalue problems and nonlinear spectral theory for PDEs
+35P99	IV	327	Spectral theory and eigenvalue problems for partial differential equations
+35Q05	IV	328	Euler-Poisson-Darboux equations
+35Q07	IV	328	Fuchsian PDEs
+35Q15	IV	328	Riemann-Hilbert problems in context of PDEs
+35Q20	IV	328	Boltzmann equations
+35Q30	IV	328	Navier-Stokes equations
+35Q31	IV	328	Euler equations
+35Q35	IV	328	PDEs in connection with fluid mechanics
+35Q40	IV	328	PDEs in connection with quantum mechanics
+35Q41	IV	328	Time-dependent Schrödinger equations and Dirac equations
+35Q49	IV	328	Transport equations
+35Q51	IV	328	Soliton equations
+35Q53	IV	328	KdV equations (Korteweg-de Vries equations)
+35Q55	IV	328	NLS equations (nonlinear Schrödinger equations)
+35Q56	IV	329	Ginzburg-Landau equations
+35Q60	IV	329	PDEs in connection with optics and electromagnetic theory
+35Q61	IV	329	Maxwell equations
+35Q62	IV	329	PDEs in connection with statistics
+35Q68	IV	329	PDEs in connection with computer science
+35Q70	IV	329	PDEs in connection with mechanics of particles and systems of particles
+35Q74	IV	329	PDEs in connection with mechanics of deformable solids
+35Q75	IV	329	PDEs in connection with relativity and gravitational theory
+35Q76	IV	329	Einstein equations
+35Q79	IV	329	PDEs in connection with classical thermodynamics and heat transfer
+35Q81	IV	329	PDEs in connection with semiconductor devices
+35Q82	IV	329	PDEs in connection with statistical mechanics
+35Q83	IV	329	Vlasov equations
+35Q84	IV	330	Fokker-Planck equations
+35Q85	IV	330	PDEs in connection with astronomy and astrophysics
+35Q86	IV	330	PDEs in connection with geophysics
+35Q89	IV	330	PDEs in connection with mean field game theory
+35Q90	IV	330	PDEs in connection with mathematical programming
+35Q91	IV	330	PDEs in connection with game theory, economics, social and behavioral
+35Q92	IV	330	PDEs in connection with biology, chemistry and other natural sciences
+35Q93	IV	330	PDEs in connection with control and optimization
+35Q94	IV	330	PDEs in connection with information and communication
+35Q99	IV	330	Partial differential equations of mathematical physics and other areas of
+35R01	IV	330	PDEs on manifolds
+35R02	IV	331	PDEs on graphs and networks (ramified or polygonal spaces)
+35R03	IV	331	PDEs on Heisenberg groups, Lie groups, Carnot groups, etc.
+35R05	IV	331	PDEs with low regular coefficients and/or low regular data
+35R06	IV	331	PDEs with measure
+35R07	IV	331	PDEs on time scales
+35R09	IV	331	Integro-partial differential equations
+35R10	IV	331	Partial functional-differential equations
+35R11	IV	331	Fractional partial differential equations
+35R12	IV	331	Impulsive partial differential equations
+35R13	IV	331	Fuzzy partial differential equations
+35R15	IV	331	PDEs on infinite-dimensional (e.g., function) spaces (= PDEs in infinitely
+35R20	IV	331	Operator partial differential equations (= PDEs on finite-dimensional spaces
+35R25	IV	332	Ill-posed problems for PDEs
+35R30	IV	332	Inverse problems for PDEs
+35R35	IV	332	Free boundary problems for PDEs
+35R37	IV	332	Moving boundary problems for PDEs
+35R45	IV	332	Partial differential inequalities and systems of partial differential inequalities
+35R50	IV	332	PDEs of infinite order
+35R70	IV	332	PDEs with multivalued right-hand sides
+35R99	IV	332	Miscellaneous topics in partial differential equations
+35S05	IV	332	Pseudodifferential operators as generalizations of partial differential
+35S10	IV	332	Initial value problems for PDEs with pseudodifferential operators
+35S15	IV	332	Boundary value problems for PDEs with pseudodifferential operators
+35S16	IV	332	Initial-boundary value problems for PDEs with pseudodifferential operators
+35S30	IV	333	Fourier integral operators applied to PDEs
+35S35	IV	333	Topological aspects for pseudodifferential operators in context of PDEs:
+35S50	IV	333	Paradifferential operators as generalizations of partial differential operators
+35S99	IV	333	Pseudodifferential operators and other generalizations of partial differential
+37-00	IV	333	General reference works (handbooks, dictionaries, bibliographies, etc.)
+37-02	IV	333	Research exposition (monographs, survey articles) pertaining to dynamical
+37-03	IV	333	History of dynamical systems and ergodic theory
+37-04	IV	333	Software, source code, etc. for problems pertaining to dynamical systems
+37-06	IV	333	Proceedings, conferences, collections, etc. pertaining to dynamical systems
+37-11	IV	333	Research data for problems pertaining to dynamical systems and ergodic
+37A05	IV	333	Dynamical aspects of measure-preserving transformations
+37A10	IV	334	Dynamical systems involving one-parameter continuous families of
+37A15	IV	334	General groups of measure-preserving transformations and dynamical
+37A17	IV	334	Homogeneous flows
+37A20	IV	334	Algebraic ergodic theory, cocycles, orbit equivalence, ergodic equivalence
+37A25	IV	334	Ergodicity, mixing, rates of mixing
+37A30	IV	334	Ergodic theorems, spectral theory, Markov operators
+37A35	IV	334	Entropy and other invariants, isomorphism, classification in ergodic theory
+37A40	IV	334	Nonsingular (and infinite-measure preserving) transformations
+37A44	IV	334	Relations between ergodic theory and number theory
+37A46	IV	334	Relations between ergodic theory and harmonic analysis
+37A50	IV	334	Dynamical systems and their relations with probability theory and stochastic
+37A55	IV	334	Dynamical systems and the theory of (C^*)-algebras
+37A60	IV	335	Dynamical aspects of statistical mechanics
+37A99	IV	335	Ergodic theory
+37B02	IV	335	Dynamics in general topological spaces
+37B05	IV	335	Dynamical systems involving transformations and group actions with special
+37B10	IV	335	Symbolic dynamics
+37B15	IV	335	Dynamical aspects of cellular automata
+37B20	IV	335	Notions of recurrence and recurrent behavior in topological dynamical
+37B25	IV	335	Stability of topological dynamical systems
+37B30	IV	335	Index theory for dynamical systems, Morse-Conley indices
+37B35	IV	335	Gradient-like behavior; isolated (locally maximal) invariant sets; attractors,
+37B40	IV	335	Topological entropy
+37B45	IV	335	Continua theory in dynamics
+37B51	IV	335	Multidimensional shifts of finite type
+37B52	IV	336	Tiling dynamics
+37B55	IV	336	Topological dynamics of nonautonomous systems
+37B65	IV	336	Approximate trajectories, pseudotrajectories, shadowing and related notions
+37B99	IV	336	Topological dynamics
+37C05	IV	336	Dynamical systems involving smooth mappings and diffeomorphisms
+37C10	IV	336	Dynamics induced by flows and semiflows
+37C15	IV	336	Topological and differentiable equivalence, conjugacy, moduli, classification
+37C20	IV	336	Generic properties, structural stability of dynamical systems
+37C25	IV	336	Fixed points and periodic points of dynamical systems; fixed-point index
+37C27	IV	336	Periodic orbits of vector fields and flows
+37C29	IV	336	Homoclinic and heteroclinic orbits for dynamical systems
+37C30	IV	336	Functional analytic techniques in dynamical systems; zeta functions,
+37C35	IV	336	Orbit growth in dynamical systems
+37C40	IV	337	Smooth ergodic theory, invariant measures for smooth dynamical systems
+37C45	IV	337	Dimension theory of smooth dynamical systems
+37C50	IV	337	Approximate trajectories (pseudotrajectories, shadowing, etc.) in smooth
+37C55	IV	337	Periodic and quasi-periodic flows and diffeomorphisms
+37C60	IV	337	Nonautonomous smooth dynamical systems
+37C65	IV	337	Monotone flows as dynamical systems
+37C70	IV	337	Attractors and repellers of smooth dynamical systems and their topological
+37C75	IV	337	Stability theory for smooth dynamical systems
+37C79	IV	337	Symmetries and invariants of dynamical systems
+37C81	IV	337	Equivariant dynamical systems
+37C83	IV	337	Dynamical systems with singularities (billiards, etc.)
+37C85	IV	337	Dynamics induced by group actions other than (mathbb{Z}) and
+37C86	IV	337	Foliations generated by dynamical systems
+37C99	IV	337	Smooth dynamical systems: general theory
+37D05	IV	338	Dynamical systems with hyperbolic orbits and sets
+37D10	IV	338	Invariant manifold theory for dynamical systems
+37D15	IV	338	Morse-Smale systems
+37D20	IV	338	Uniformly hyperbolic systems (expanding, Anosov, Axiom A, etc.)
+37D25	IV	338	Nonuniformly hyperbolic systems (Lyapunov exponents, Pesin theory, etc.)
+37D30	IV	338	Partially hyperbolic systems and dominated splittings
+37D35	IV	338	Thermodynamic formalism, variational principles, equilibrium states for
+37D40	IV	338	Dynamical systems of geometric origin and hyperbolicity (geodesic and
+37D45	IV	338	Strange attractors, chaotic dynamics of systems with hyperbolic behavior
+37D99	IV	338	Dynamical systems with hyperbolic behavior
+37E05	IV	338	Dynamical systems involving maps of the interval
+37E10	IV	338	Dynamical systems involving maps of the circle
+37E15	IV	338	Combinatorial dynamics (types of periodic orbits)
+37E20	IV	339	Universality and renormalization of dynamical systems
+37E25	IV	339	Dynamical systems involving maps of trees and graphs
+37E30	IV	339	Dynamical systems involving homeomorphisms and diffeomorphisms of
+37E35	IV	339	Flows on surfaces
+37E40	IV	339	Dynamical aspects of twist maps
+37E45	IV	339	Rotation numbers and vectors
+37E99	IV	339	Low-dimensional dynamical systems
+37F05	IV	339	Dynamical systems involving relations and correspondences in one complex
+37F10	IV	339	Dynamics of complex polynomials, rational maps, entire and meromorphic
+37F12	IV	339	Critical orbits for holomorphic dynamical systems
+37F15	IV	339	Expanding holomorphic maps; hyperbolicity; structural stability of
+37F20	IV	339	Combinatorics and topology in relation with holomorphic dynamical systems
+37F25	IV	339	Renormalization of holomorphic dynamical systems
+37F31	IV	340	Quasiconformal methods in holomorphic dynamics; quasiconformal dynamics
+37F32	IV	340	Fuchsian and Kleinian groups as dynamical systems
+37F34	IV	340	Teichmüller theory; moduli spaces of holomorphic dynamical systems
+37F35	IV	340	Conformal densities and Hausdorff dimension for holomorphic dynamical
+37F40	IV	340	Geometric limits in holomorphic dynamics
+37F44	IV	340	Holomorphic families of dynamical systems; holomorphic motions;
+37F46	IV	340	Bifurcations; parameter spaces in holomorphic dynamics; the Mandelbrot and
+37F50	IV	340	Small divisors, rotation domains and linearization in holomorphic dynamics
+37F75	IV	340	Dynamical aspects of holomorphic foliations and vector fields
+37F80	IV	340	Higher-dimensional holomorphic and meromorphic dynamics
+37F99	IV	340	Dynamical systems over complex numbers
+37G05	IV	340	Normal forms for dynamical systems
+37G10	IV	341	Bifurcations of singular points in dynamical systems
+37G15	IV	341	Bifurcations of limit cycles and periodic orbits in dynamical systems
+37G20	IV	341	Hyperbolic singular points with homoclinic trajectories in dynamical systems
+37G25	IV	341	Bifurcations connected with nontransversal intersection in dynamical
+37G30	IV	341	Infinite nonwandering sets arising in bifurcations of dynamical systems
+37G35	IV	341	Dynamical aspects of attractors and their bifurcations
+37G40	IV	341	Dynamical aspects of symmetries, equivariant bifurcation theory
+37G99	IV	341	Local and nonlocal bifurcation theory for dynamical systems
+37H10	IV	341	Generation, random and stochastic difference and differential equations
+37H12	IV	341	Random iteration
+37H15	IV	341	Random dynamical systems aspects of multiplicative ergodic theory,
+37H20	IV	342	Bifurcation theory for random and stochastic dynamical systems
+37H30	IV	342	Stability theory for random and stochastic dynamical systems
+37H99	IV	342	Random dynamical systems
+37J11	IV	342	Symplectic and canonical mappings
+37J12	IV	342	Fixed points and periodic points of finite-dimensional Hamiltonian and
+37J20	IV	342	Bifurcation problems for finite-dimensional Hamiltonian and Lagrangian
+37J25	IV	342	Stability problems for finite-dimensional Hamiltonian and Lagrangian
+37J30	IV	342	Obstructions to integrability for finite-dimensional Hamiltonian and
+37J35	IV	342	Completely integrable finite-dimensional Hamiltonian systems, integration
+37J37	IV	342	Relations of finite-dimensional Hamiltonian and Lagrangian systems with Lie
+37J38	IV	342	Relations of finite-dimensional Hamiltonian and Lagrangian systems with
+37J39	IV	343	Relations of finite-dimensional Hamiltonian and Lagrangian systems with
+37J40	IV	343	Perturbations of finite-dimensional Hamiltonian systems, normal forms, small
+37J46	IV	343	Periodic, homoclinic and heteroclinic orbits of finite-dimensional Hamiltonian
+37J51	IV	343	Action-minimizing orbits and measures for finite-dimensional Hamiltonian
+37J55	IV	343	Contact systems
+37J60	IV	343	Nonholonomic dynamical systems
+37J65	IV	343	Nonautonomous Hamiltonian dynamical systems (Painlevé equations, etc.)
+37J70	IV	343	Completely integrable discrete dynamical systems
+37J99	IV	343	Dynamical aspects of finite-dimensional Hamiltonian and Lagrangian systems
+37K10	IV	343	Completely integrable infinite-dimensional Hamiltonian and Lagrangian
+37K15	IV	343	Inverse spectral and scattering methods for infinite-dimensional Hamiltonian
+37K20	IV	343	Relations of infinite-dimensional Hamiltonian and Lagrangian dynamical
+37K25	IV	344	Relations of infinite-dimensional Hamiltonian and Lagrangian dynamical
+37K30	IV	344	Relations of infinite-dimensional Hamiltonian and Lagrangian dynamical
+37K35	IV	344	Lie-Bäcklund and other transformations for infinite-dimensional Hamiltonian
+37K40	IV	344	Soliton theory, asymptotic behavior of solutions of infinite-dimensional
+37K45	IV	344	Stability problems for infinite-dimensional Hamiltonian and Lagrangian
+37K50	IV	344	Bifurcation problems for infinite-dimensional Hamiltonian and Lagrangian
+37K55	IV	344	Perturbations, KAM theory for infinite-dimensional Hamiltonian and
+37K58	IV	344	Variational principles and methods for infinite-dimensional Hamiltonian and
+37K60	IV	344	Lattice dynamics; integrable lattice equations
+37K65	IV	344	Hamiltonian systems on groups of diffeomorphisms and on manifolds of
+37K99	IV	344	Dynamical system aspects of infinite-dimensional Hamiltonian and
+37L10	IV	345	Normal forms, center manifold theory, bifurcation theory for
+37L15	IV	345	Stability problems for infinite-dimensional dissipative dynamical systems
+37L20	IV	345	Symmetries of infinite-dimensional dissipative dynamical systems
+37L25	IV	345	Inertial manifolds and other invariant attracting sets of infinite-dimensional
+37L30	IV	345	Attractors and their dimensions, Lyapunov exponents for infinite-dimensional
+37L40	IV	345	Invariant measures for infinite-dimensional dissipative dynamical systems
+37L45	IV	345	Hyperbolicity, Lyapunov functions for infinite-dimensional dissipative
+37L50	IV	345	Noncompact semigroups, dispersive equations, perturbations of
+37L55	IV	345	Infinite-dimensional random dynamical systems; stochastic equations
+37L60	IV	345	Lattice dynamics and infinite-dimensional dissipative dynamical systems
+37L65	IV	345	Special approximation methods (nonlinear Galerkin, etc.) for
+37L99	IV	345	Infinite-dimensional dissipative dynamical systems
+37M05	IV	346	Simulation of dynamical systems
+37M10	IV	346	Time series analysis of dynamical systems
+37M15	IV	346	Discretization methods and integrators (symplectic, variational, geometric,
+37M20	IV	346	Computational methods for bifurcation problems in dynamical systems
+37M21	IV	346	Computational methods for invariant manifolds of dynamical systems
+37M22	IV	346	Computational methods for attractors of dynamical systems
+37M99	IV	346	Approximation methods and numerical treatment of dynamical systems
+37N05	IV	346	Dynamical systems in classical and celestial mechanics
+37N10	IV	346	Dynamical systems in fluid mechanics, oceanography and meteorology
+37N15	IV	346	Dynamical systems in solid mechanics
+37N20	IV	346	Dynamical systems in other branches of physics (quantum mechanics,
+37N25	IV	346	Dynamical systems in biology
+37N30	IV	347	Dynamical systems in numerical analysis
+37N35	IV	347	Dynamical systems in control
+37N40	IV	347	Dynamical systems in optimization and economics
+37N99	IV	347	Applications of dynamical systems
+37P05	IV	347	Arithmetic and non-Archimedean dynamical systems involving polynomial
+37P10	IV	347	Arithmetic and non-Archimedean dynamical systems involving analytic and
+37P15	IV	347	Dynamical systems over global ground fields
+37P20	IV	347	Dynamical systems over non-Archimedean local ground fields
+37P25	IV	347	Dynamical systems over finite ground fields
+37P30	IV	347	Height functions; Green functions; invariant measures in arithmetic and
+37P35	IV	347	Arithmetic properties of periodic points
+37P40	IV	347	Non-Archimedean Fatou and Julia sets
+37P45	IV	348	Families and moduli spaces in arithmetic and non-Archimedean dynamical
+37P50	IV	348	Dynamical systems on Berkovich spaces
+37P55	IV	348	Arithmetic dynamics on general algebraic varieties
+37P99	IV	348	Arithmetic and non-Archimedean dynamical systems
+42-00	IV	348	General reference works (handbooks, dictionaries, bibliographies, etc.)
+42-02	IV	348	Research exposition (monographs, survey articles) pertaining to harmonic
+42-03	IV	348	History of harmonic analysis on Euclidean spaces
+42-04	IV	348	Software, source code, etc. for problems pertaining to harmonic analysis on
+42-06	IV	348	Proceedings, conferences, collections, etc. pertaining to harmonic analysis on
+42-08	IV	348	Computational methods for problems pertaining to harmonic analysis on
+42-11	IV	348	Research data for problems pertaining to harmonic analysis on Euclidean
+42A05	IV	349	Trigonometric polynomials, inequalities, extremal problems
+42A10	IV	349	Trigonometric approximation
+42A15	IV	349	Trigonometric interpolation
+42A20	IV	349	Convergence and absolute convergence of Fourier and trigonometric series
+42A24	IV	349	Summability and absolute summability of Fourier and trigonometric series
+42A32	IV	349	Trigonometric series of special types (positive coefficients, monotonic
+42A38	IV	349	Fourier and Fourier-Stieltjes transforms and other transforms of Fourier type
+42A45	IV	349	Multipliers in one variable harmonic analysis
+42A50	IV	349	Conjugate functions, conjugate series, singular integrals
+42A55	IV	349	Lacunary series of trigonometric and other functions; Riesz products
+42A61	IV	349	Probabilistic methods for one variable harmonic analysis
+42A63	IV	349	Uniqueness of trigonometric expansions, uniqueness of Fourier expansions,
+42A65	IV	350	Completeness of sets of functions in one variable harmonic analysis
+42A70	IV	350	Trigonometric moment problems in one variable harmonic analysis
+42A75	IV	350	Classical almost periodic functions, mean periodic functions
+42A82	IV	350	Positive definite functions in one variable harmonic analysis
+42A85	IV	350	Convolution, factorization for one variable harmonic analysis
+42A99	IV	350	Harmonic analysis in one variable
+42B05	IV	350	Fourier series and coefficients in several variables
+42B08	IV	350	Summability in several variables
+42B10	IV	350	Fourier and Fourier-Stieltjes transforms and other transforms of Fourier type
+42B15	IV	350	Multipliers for harmonic analysis in several variables
+42B20	IV	350	Singular and oscillatory integrals (Calderón-Zygmund, etc.)
+42B25	IV	350	Maximal functions, Littlewood-Paley theory
+42B30	IV	351	(H^p)-spaces
+42B35	IV	351	Function spaces arising in harmonic analysis
+42B37	IV	351	Harmonic analysis and PDEs
+42B99	IV	351	Harmonic analysis in several variables
+42C10	IV	351	Fourier series in special orthogonal functions (Legendre polynomials, Walsh
+42C15	IV	351	General harmonic expansions, frames
+42C20	IV	351	Other transformations of harmonic type
+42C25	IV	351	Uniqueness and localization for orthogonal series
+42C30	IV	351	Completeness of sets of functions in nontrigonometric harmonic analysis
+42C40	IV	351	Nontrigonometric harmonic analysis involving wavelets and other special
+42C99	IV	351	Nontrigonometric harmonic analysis
+43-00	IV	356	General reference works (handbooks, dictionaries, bibliographies, etc.)
+43-02	IV	356	Research exposition (monographs, survey articles) pertaining to abstract
+43-03	IV	356	History of abstract harmonic analysis
+43-04	IV	356	Software, source code, etc. for problems pertaining to abstract harmonic
+43-06	IV	356	Proceedings, conferences, collections, etc. pertaining to abstract harmonic
+43-08	IV	356	Computational methods for problems pertaining to abstract harmonic
+43-11	IV	356	Research data for problems pertaining to abstract harmonic analysis
+43A05	IV	356	Measures on groups and semigroups, etc.
+43A07	IV	356	Means on groups, semigroups, etc.; amenable groups
+43A10	IV	356	Measure algebras on groups, semigroups, etc.
+43A15	IV	356	(L^p)-spaces and other function spaces on groups, semigroups, etc.
+43A17	IV	356	Analysis on ordered groups, (H^p)-theory
+43A20	IV	356	(L^1)-algebras on groups, semigroups, etc.
+43A22	IV	357	Homomorphisms and multipliers of function spaces on groups, semigroups,
+43A25	IV	357	Fourier and Fourier-Stieltjes transforms on locally compact and other abelian
+43A30	IV	357	Fourier and Fourier-Stieltjes transforms on nonabelian groups and on
+43A32	IV	357	Other transforms and operators of Fourier type
+43A35	IV	357	Positive definite functions on groups, semigroups, etc.
+43A40	IV	357	Character groups and dual objects
+43A45	IV	357	Spectral synthesis on groups, semigroups, etc.
+43A46	IV	357	Special sets (thin sets, Kronecker sets, Helson sets, Ditkin sets, Sidon sets,
+43A50	IV	357	Convergence of Fourier series and of inverse transforms
+43A55	IV	357	Summability methods on groups, semigroups, etc.
+43A60	IV	357	Almost periodic functions on groups and semigroups and their
+43A62	IV	357	Harmonic analysis on hypergroups
+43A65	IV	358	Representations of groups, semigroups, etc. (aspects of abstract harmonic
+43A70	IV	358	Analysis on specific locally compact and other abelian groups
+43A75	IV	358	Harmonic analysis on specific compact groups
+43A77	IV	358	Harmonic analysis on general compact groups
+43A80	IV	358	Analysis on other specific Lie groups
+43A85	IV	358	Harmonic analysis on homogeneous spaces
+43A90	IV	358	Harmonic analysis and spherical functions
+43A95	IV	358	Categorical methods for abstract harmonic analysis
+43A99	IV	358	Abstract harmonic analysis
+44-00	IV	360	General reference works (handbooks, dictionaries, bibliographies, etc.)
+44-02	IV	360	Research exposition (monographs, survey articles) pertaining to integral
+44-03	IV	360	History of integral transforms
+44-04	IV	360	Software, source code, etc. for problems pertaining to integral transforms
+44-06	IV	360	Proceedings, conferences, collections, etc. pertaining to integral transforms
+44-11	IV	360	Research data for problems pertaining to integral transforms
+44A05	IV	360	General integral transforms
+44A10	IV	360	Laplace transform
+44A12	IV	360	Radon transform
+44A15	IV	360	Special integral transforms (Legendre, Hilbert, etc.)
+44A20	IV	360	Integral transforms of special functions
+44A30	IV	360	Multiple integral transforms
+44A35	IV	360	Convolution as an integral transform
+44A40	IV	360	Calculus of Mikusi?ski and other operational calculi
+44A45	IV	360	Classical operational calculus
+44A55	IV	360	Discrete operational calculus
+44A60	IV	361	Moment problems
+44A99	IV	361	Integral transforms, operational calculus
+45-00	IV	361	General reference works (handbooks, dictionaries, bibliographies, etc.)
+45-02	IV	361	Research exposition (monographs, survey articles) pertaining to integral
+45-03	IV	361	History of integral equations
+45-04	IV	361	Software, source code, etc. for problems pertaining to integral equations
+45-06	IV	361	Proceedings, conferences, collections, etc. pertaining to integral equations
+45-11	IV	361	Research data for problems pertaining to integral equations
+45A05	IV	361	Linear integral equations
+45A99	IV	361	Linear integral equations
+45B05	IV	361	Fredholm integral equations
+45B99	IV	362	Fredholm integral equations
+45C05	IV	362	Eigenvalue problems for integral equations
+45C99	IV	362	Eigenvalue problems for integral equations
+45D05	IV	362	Volterra integral equations
+45D99	IV	362	Volterra integral equations
+45E05	IV	362	Integral equations with kernels of Cauchy type
+45E10	IV	362	Integral equations of the convolution type (Abel, Picard, Toeplitz and
+45E99	IV	362	Singular integral equations
+45F05	IV	363	Systems of nonsingular linear integral equations
+45F10	IV	363	Dual, triple, etc., integral and series equations
+45F15	IV	363	Systems of singular linear integral equations
+45F99	IV	363	Systems of linear integral equations
+45G05	IV	363	Singular nonlinear integral equations
+45G10	IV	363	Other nonlinear integral equations
+45G15	IV	363	Systems of nonlinear integral equations
+45G99	IV	363	Nonlinear integral equations
+45H05	IV	363	Integral equations with miscellaneous special kernels
+45H99	IV	363	Integral equations with miscellaneous special kernels
+45J99	IV	364	Integro-ordinary differential equations
+45K05	IV	364	Integro-partial differential equations
+45K99	IV	364	Integro-partial differential equations
+45L05	IV	364	Theoretical approximation of solutions to integral equations
+45L99	IV	364	Theoretical approximation of solutions to integral equations
+45M05	IV	364	Asymptotics of solutions to integral equations
+45M10	IV	364	Stability theory for integral equations
+45M15	IV	364	Periodic solutions of integral equations
+45M20	IV	364	Positive solutions of integral equations
+45M99	IV	365	Qualitative behavior of solutions to integral equations
+45N05	IV	365	Abstract integral equations, integral equations in abstract spaces
+45N99	IV	365	Abstract integral equations, integral equations in abstract spaces
+45P05	IV	365	Integral operators
+45P99	IV	365	Integral operators
+45Q05	IV	365	Inverse problems for integral equations
+45Q99	IV	365	Inverse problems for integral equations
+45R05	IV	365	Random integral equations
+45R99	IV	366	Random integral equations
+46-00	IV	370	General reference works (handbooks, dictionaries, bibliographies, etc.)
+46-02	IV	370	Research exposition (monographs, survey articles) pertaining to functional
+46-03	IV	370	History of functional analysis
+46-04	IV	370	Software, source code, etc. for problems pertaining to functional analysis
+46-06	IV	370	Proceedings, conferences, collections, etc. pertaining to functional analysis
+46-08	IV	370	Computational methods for problems pertaining to functional analysis
+46-11	IV	370	Research data for problems pertaining to functional analysis
+46A04	IV	370	Locally convex Fréchet spaces and (DF)-spaces
+46A08	IV	370	Barrelled spaces, bornological spaces
+46A11	IV	370	Spaces determined by compactness or summability properties (nuclear
+46A13	IV	370	Spaces defined by inductive or projective limits (LB, LF, etc.)
+46A16	IV	370	Not locally convex spaces (metrizable topological linear spaces, locally
+46A17	IV	370	Bornologies and related structures; Mackey convergence, etc.
+46A19	IV	370	Other ``topological'' linear spaces (convergence spaces, ranked spaces,
+46A20	IV	370	Duality theory for topological vector spaces
+46A22	IV	371	Theorems of Hahn-Banach type; extension and lifting of functionals and
+46A25	IV	371	Reflexivity and semi-reflexivity
+46A30	IV	371	Open mapping and closed graph theorems; completeness (including (B)-,
+46A32	IV	371	Spaces of linear operators; topological tensor products; approximation
+46A35	IV	371	Summability and bases in topological vector spaces
+46A40	IV	371	Ordered topological linear spaces, vector lattices
+46A45	IV	371	Sequence spaces (including Köthe sequence spaces)
+46A50	IV	371	Compactness in topological linear spaces; angelic spaces, etc.
+46A55	IV	371	Convex sets in topological linear spaces; Choquet theory
+46A61	IV	371	Graded Fréchet spaces and tame operators
+46A63	IV	371	Topological invariants ((DN), ((Omega)), etc.) for locally convex spaces
+46A70	IV	371	Saks spaces and their duals (strict topologies, mixed topologies, two-norm
+46A80	IV	371	Modular spaces
+46A99	IV	371	Topological linear spaces and related structures
+46B03	IV	372	Isomorphic theory (including renorming) of Banach spaces
+46B04	IV	372	Isometric theory of Banach spaces
+46B06	IV	372	Asymptotic theory of Banach spaces
+46B07	IV	372	Local theory of Banach spaces
+46B08	IV	372	Ultraproduct techniques in Banach space theory
+46B09	IV	372	Probabilistic methods in Banach space theory
+46B10	IV	372	Duality and reflexivity in normed linear and Banach spaces
+46B15	IV	372	Summability and bases; functional analytic aspects of frames in Banach and
+46B20	IV	372	Geometry and structure of normed linear spaces
+46B22	IV	372	Radon-Nikodým, Kre?n-Milman and related properties
+46B25	IV	372	Classical Banach spaces in the general theory
+46B26	IV	372	Nonseparable Banach spaces
+46B28	IV	373	Spaces of operators; tensor products; approximation properties
+46B40	IV	373	Ordered normed spaces
+46B42	IV	373	Banach lattices
+46B45	IV	373	Banach sequence spaces
+46B50	IV	373	Compactness in Banach (or normed) spaces
+46B70	IV	373	Interpolation between normed linear spaces
+46B80	IV	373	Nonlinear classification of Banach spaces; nonlinear quotients
+46B85	IV	373	Embeddings of discrete metric spaces into Banach spaces; applications in
+46B87	IV	373	Lineability in functional analysis
+46B99	IV	373	Normed linear spaces and Banach spaces; Banach lattices
+46C05	IV	373	Hilbert and pre-Hilbert spaces: geometry and topology (including spaces with
+46C07	IV	374	Hilbert subspaces (= operator ranges); complementation (Aronszajn, de
+46C15	IV	374	Characterizations of Hilbert spaces
+46C20	IV	374	Spaces with indefinite inner product (Kre?n spaces, Pontryagin spaces, etc.)
+46C50	IV	374	Generalizations of inner products (semi-inner products, partial inner
+46C99	IV	374	Inner product spaces and their generalizations, Hilbert spaces
+46E05	IV	374	Lattices of continuous, differentiable or analytic functions
+46E10	IV	374	Topological linear spaces of continuous, differentiable or analytic functions
+46E15	IV	374	Banach spaces of continuous, differentiable or analytic functions
+46E20	IV	374	Hilbert spaces of continuous, differentiable or analytic functions
+46E22	IV	374	Hilbert spaces with reproducing kernels (= (proper) functional Hilbert spaces,
+46E25	IV	374	Rings and algebras of continuous, differentiable or analytic functions
+46E27	IV	375	Spaces of measures
+46E30	IV	375	Spaces of measurable functions ((L^p)-spaces, Orlicz spaces, Köthe function
+46E35	IV	375	Sobolev spaces and other spaces of ``smooth'' functions, embedding
+46E36	IV	375	Sobolev (and similar kinds of) spaces of functions on metric spaces; analysis
+46E39	IV	375	Sobolev (and similar kinds of) spaces of functions of discrete variables
+46E40	IV	375	Spaces of vector- and operator-valued functions
+46E50	IV	375	Spaces of differentiable or holomorphic functions on infinite-dimensional
+46E99	IV	375	Linear function spaces and their duals
+46F05	IV	375	Topological linear spaces of test functions, distributions and
+46F10	IV	375	Operations with distributions and generalized functions
+46F12	IV	375	Integral transforms in distribution spaces
+46F15	IV	376	Hyperfunctions, analytic functionals
+46F20	IV	376	Distributions and ultradistributions as boundary values of analytic functions
+46F25	IV	376	Distributions on infinite-dimensional spaces
+46F30	IV	376	Generalized functions for nonlinear analysis (Rosinger, Colombeau,
+46F99	IV	376	Distributions, generalized functions, distribution spaces
+46G05	IV	376	Derivatives of functions in infinite-dimensional spaces
+46G10	IV	376	Vector-valued measures and integration
+46G12	IV	376	Measures and integration on abstract linear spaces
+46G15	IV	376	Functional analytic lifting theory
+46G20	IV	376	Infinite-dimensional holomorphy
+46G25	IV	376	(Spaces of) multilinear mappings, polynomials
+46G99	IV	376	Measures, integration, derivative, holomorphy (all involving
+46H10	IV	376	Ideals and subalgebras
+46H15	IV	377	Representations of topological algebras
+46H20	IV	377	Structure, classification of topological algebras
+46H25	IV	377	Normed modules and Banach modules, topological modules (if not placed in
+46H30	IV	377	Functional calculus in topological algebras
+46H35	IV	377	Topological algebras of operators
+46H40	IV	377	Automatic continuity
+46H70	IV	377	Nonassociative topological algebras
+46H99	IV	377	Topological algebras, normed rings and algebras, Banach algebras
+46J10	IV	377	Banach algebras of continuous functions, function algebras
+46J15	IV	377	Banach algebras of differentiable or analytic functions, (H^p)-spaces
+46J20	IV	377	Ideals, maximal ideals, boundaries
+46J25	IV	377	Representations of commutative topological algebras
+46J30	IV	377	Subalgebras of commutative topological algebras
+46J40	IV	377	Structure and classification of commutative topological algebras
+46J45	IV	377	Radical Banach algebras
+46J99	IV	378	Commutative Banach algebras and commutative topological algebras
+46K10	IV	378	Representations of topological algebras with involution
+46K15	IV	378	Hilbert algebras
+46K50	IV	378	Nonselfadjoint (sub)algebras in algebras with involution
+46K70	IV	378	Nonassociative topological algebras with an involution
+46K99	IV	378	Topological (rings and) algebras with an involution
+46L06	IV	378	Tensor products of (C^*)-algebras
+46L07	IV	378	Operator spaces and completely bounded maps
+46L08	IV	378	(C^*)-modules
+46L09	IV	378	Free products of (C^*)-algebras
+46L30	IV	378	States of selfadjoint operator algebras
+46L35	IV	379	Classifications of (C^*)-algebras
+46L36	IV	379	Classification of factors
+46L37	IV	379	Subfactors and their classification
+46L40	IV	379	Automorphisms of selfadjoint operator algebras
+46L45	IV	379	Decomposition theory for (C^*)-algebras
+46L54	IV	379	Free probability and free operator algebras
+46L57	IV	379	Derivations, dissipations and positive semigroups in (C^*)-algebras
+46L60	IV	379	Applications of selfadjoint operator algebras to physics
+46L65	IV	379	Quantizations, deformations for selfadjoint operator algebras
+46L67	IV	379	Quantum groups (operator algebraic aspects)
+46L70	IV	379	Nonassociative selfadjoint operator algebras
+46L80	IV	379	(K)-theory and operator algebras (including cyclic theory)
+46L99	IV	380	Selfadjoint operator algebras ((C^*)-algebras, von Neumann ((W^*)-)
+46M05	IV	380	Tensor products in functional analysis
+46M07	IV	380	Ultraproducts in functional analysis
+46M10	IV	380	Projective and injective objects in functional analysis
+46M15	IV	380	Categories, functors in functional analysis
+46M18	IV	380	Homological methods in functional analysis (exact sequences, right inverses,
+46M20	IV	380	Methods of algebraic topology in functional analysis (cohomology, sheaf and
+46M35	IV	380	Abstract interpolation of topological vector spaces
+46M40	IV	380	Inductive and projective limits in functional analysis
+46M99	IV	380	Methods of category theory in functional analysis
+46N10	IV	381	Applications of functional analysis in optimization, convex analysis,
+46N20	IV	381	Applications of functional analysis to differential and integral equations
+46N30	IV	381	Applications of functional analysis in probability theory and statistics
+46N40	IV	381	Applications of functional analysis in numerical analysis
+46N50	IV	381	Applications of functional analysis in quantum physics
+46N55	IV	381	Applications of functional analysis in statistical physics
+46N60	IV	381	Applications of functional analysis in biology and other sciences
+46N99	IV	381	Miscellaneous applications of functional analysis
+46S05	IV	381	Quaternionic functional analysis
+46S10	IV	381	Functional analysis over fields other than (mathbb{R}) or (mathbb{C}) or
+46S20	IV	381	Nonstandard functional analysis
+46S30	IV	381	Constructive functional analysis
+46S40	IV	381	Fuzzy functional analysis
+46S50	IV	381	Functional analysis in probabilistic metric linear spaces
+46S60	IV	382	Functional analysis on superspaces (supermanifolds) or graded spaces
+46S99	IV	382	Other (nonclassical) types of functional analysis
+46T05	IV	382	Infinite-dimensional manifolds
+46T10	IV	382	Manifolds of mappings
+46T12	IV	382	Measure (Gaussian, cylindrical, etc.) and integrals (Feynman, path, Fresnel,
+46T20	IV	382	Continuous and differentiable maps in nonlinear functional analysis
+46T25	IV	382	Holomorphic maps in nonlinear functional analysis
+46T30	IV	382	Distributions and generalized functions on nonlinear spaces
+46T99	IV	382	Nonlinear functional analysis
+47E05	IV	383	General theory of ordinary differential operators
+47F05	IV	383	General theory of partial differential operators
+49-00	IV	385	General reference works (handbooks, dictionaries, bibliographies, etc.)
+49-02	IV	385	Research exposition (monographs, survey articles) pertaining to calculus of
+49-03	IV	385	History of calculus of variations and optimal control
+49-04	IV	385	Software, source code, etc. for problems pertaining to calculus of variations
+49-06	IV	385	Proceedings, conferences, collections, etc. pertaining to calculus of
+49-11	IV	385	Research data for problems pertaining to calculus of variations and optimal
+49J05	IV	385	Existence theories for free problems in one independent variable
+49J10	IV	385	Existence theories for free problems in two or more independent variables
+49J20	IV	385	Existence theories for optimal control problems involving partial differential
+49J21	IV	385	Existence theories for optimal control problems involving relations other than
+49J27	IV	385	Existence theories for problems in abstract spaces
+49J30	IV	385	Existence of optimal solutions belonging to restricted classes (Lipschitz
+49J35	IV	386	Existence of solutions for minimax problems
+49J40	IV	386	Variational inequalities
+49J45	IV	386	Methods involving semicontinuity and convergence; relaxation
+49J50	IV	386	Fréchet and Gateaux differentiability in optimization
+49J52	IV	386	Nonsmooth analysis
+49J53	IV	386	Set-valued and variational analysis
+49J55	IV	386	Existence of optimal solutions to problems involving randomness
+49J99	IV	386	Existence theories in calculus of variations and optimal control
+49K05	IV	386	Optimality conditions for free problems in one independent variable
+49K10	IV	386	Optimality conditions for free problems in two or more independent variables
+49K20	IV	386	Optimality conditions for problems involving partial differential equations
+49K21	IV	386	Optimality conditions for problems involving relations other than differential
+49K27	IV	387	Optimality conditions for problems in abstract spaces
+49K30	IV	387	Optimality conditions for solutions belonging to restricted classes (Lipschitz
+49K35	IV	387	Optimality conditions for minimax problems
+49K40	IV	387	Sensitivity, stability, well-posedness
+49K45	IV	387	Optimality conditions for problems involving randomness
+49K99	IV	387	Optimality conditions
+49L12	IV	387	Hamilton-Jacobi equations in optimal control and differential games
+49L20	IV	387	Dynamic programming in optimal control and differential games
+49L25	IV	387	Viscosity solutions to Hamilton-Jacobi equations in optimal control and
+49L99	IV	387	Hamilton-Jacobi theories
+49M05	IV	387	Numerical methods based on necessary conditions
+49M15	IV	388	Newton-type methods
+49M20	IV	388	Numerical methods of relaxation type
+49M25	IV	388	Discrete approximations in optimal control
+49M27	IV	388	Decomposition methods
+49M29	IV	388	Numerical methods involving duality
+49M37	IV	388	Numerical methods based on nonlinear programming
+49M41	IV	388	PDE constrained optimization (numerical aspects)
+49M99	IV	388	Numerical methods in optimal control
+49N05	IV	388	Linear optimal control problems
+49N10	IV	388	Linear-quadratic optimal control problems
+49N15	IV	388	Duality theory (optimization)
+49N20	IV	388	Periodic optimal control problems
+49N25	IV	389	Impulsive optimal control problems
+49N30	IV	389	Problems with incomplete information (optimization)
+49N35	IV	389	Optimal feedback synthesis
+49N45	IV	389	Inverse problems in optimal control
+49N60	IV	389	Regularity of solutions in optimal control
+49N70	IV	389	Differential games and control
+49N75	IV	389	Pursuit and evasion games
+49N80	IV	389	Mean field games and control
+49N90	IV	389	Applications of optimal control and differential games
+49N99	IV	389	Miscellaneous topics in calculus of variations and optimal control
+49Q05	IV	389	Minimal surfaces and optimization
+49Q10	IV	389	Optimization of shapes other than minimal surfaces
+49Q12	IV	390	Sensitivity analysis for optimization problems on manifolds
+49Q15	IV	390	Geometric measure and integration theory, integral and normal currents in
+49Q20	IV	390	Variational problems in a geometric measure-theoretic setting
+49Q22	IV	390	Optimal transportation
+49Q99	IV	390	Manifolds and measure-geometric topics
+49R05	IV	390	Variational methods for eigenvalues of operators
+49R99	IV	390	Variational methods for eigenvalues of operators
+49S05	IV	390	Variational principles of physics
+49S99	IV	390	Variational principles of physics
+52-00	IV	393	General reference works (handbooks, dictionaries, bibliographies, etc.)
+52-02	IV	393	Research exposition (monographs, survey articles) pertaining to convex and
+52-03	IV	393	History of convex and discrete geometry
+52-04	IV	393	Software, source code, etc. for problems pertaining to convex and discrete
+52-06	IV	393	Proceedings, conferences, collections, etc. pertaining to convex and discrete
+52-08	IV	393	Computational methods for problems pertaining to convex and discrete
+52-11	IV	393	Research data for problems pertaining to convex and discrete geometry
+52A01	IV	393	Axiomatic and generalized convexity
+52A05	IV	393	Convex sets without dimension restrictions (aspects of convex geometry)
+52A07	IV	393	Convex sets in topological vector spaces (aspects of convex geometry)
+52A10	IV	393	Convex sets in (2) dimensions (including convex curves)
+52A15	IV	393	Convex sets in (3) dimensions (including convex surfaces)
+52A20	IV	393	Convex sets in (n) dimensions (including convex hypersurfaces)
+52A21	IV	393	Convexity and finite-dimensional Banach spaces (including special norms,
+52A22	IV	393	Random convex sets and integral geometry (aspects of convex geometry)
+52A23	IV	394	Asymptotic theory of convex bodies
+52A27	IV	394	Approximation by convex sets
+52A30	IV	394	Variants of convex sets (star-shaped, ((m, n))-convex, etc.)
+52A35	IV	394	Helly-type theorems and geometric transversal theory
+52A37	IV	394	Other problems of combinatorial convexity
+52A38	IV	394	Length, area, volume and convex sets (aspects of convex geometry)
+52A39	IV	394	Mixed volumes and related topics in convex geometry
+52A40	IV	394	Inequalities and extremum problems involving convexity in convex geometry
+52A41	IV	394	Convex functions and convex programs in convex geometry
+52A55	IV	394	Spherical and hyperbolic convexity
+52A99	IV	394	General convexity
+52B05	IV	394	Combinatorial properties of polytopes and polyhedra (number of faces,
+52B10	IV	394	Three-dimensional polytopes
+52B11	IV	394	(n)-dimensional polytopes
+52B12	IV	395	Special polytopes (linear programming, centrally symmetric, etc.)
+52B15	IV	395	Symmetry properties of polytopes
+52B20	IV	395	Lattice polytopes in convex geometry (including relations with commutative
+52B22	IV	395	Shellability for polytopes and polyhedra
+52B35	IV	395	Gale and other diagrams
+52B40	IV	395	Matroids in convex geometry (realizations in the context of convex polytopes,
+52B45	IV	395	Dissections and valuations (Hilbert's third problem, etc.)
+52B55	IV	395	Computational aspects related to convexity
+52B60	IV	395	Isoperimetric problems for polytopes
+52B70	IV	395	Polyhedral manifolds
+52B99	IV	395	Polytopes and polyhedra
+52C05	IV	396	Lattices and convex bodies in (2) dimensions (aspects of discrete geometry)
+52C07	IV	396	Lattices and convex bodies in (n) dimensions (aspects of discrete geometry)
+52C10	IV	396	Erd?s problems and related topics of discrete geometry
+52C15	IV	396	Packing and covering in (2) dimensions (aspects of discrete geometry)
+52C17	IV	396	Packing and covering in (n) dimensions (aspects of discrete geometry)
+52C20	IV	396	Tilings in (2) dimensions (aspects of discrete geometry)
+52C22	IV	396	Tilings in (n) dimensions (aspects of discrete geometry)
+52C23	IV	396	Quasicrystals and aperiodic tilings in discrete geometry
+52C25	IV	396	Rigidity and flexibility of structures (aspects of discrete geometry)
+52C26	IV	396	Circle packings and discrete conformal geometry
+52C30	IV	396	Planar arrangements of lines and pseudolines (aspects of discrete geometry)
+52C35	IV	396	Arrangements of points, flats, hyperplanes (aspects of discrete geometry)
+52C40	IV	396	Oriented matroids in discrete geometry
+52C45	IV	396	Combinatorial complexity of geometric structures
+52C99	IV	397	Discrete geometry
+53-00	IV	399	General reference works (handbooks, dictionaries, bibliographies, etc.)
+53-02	IV	399	Research exposition (monographs, survey articles) pertaining to differential
+53-03	IV	399	History of differential geometry
+53-04	IV	399	Software, source code, etc. for problems pertaining to differential geometry
+53-06	IV	399	Proceedings, conferences, collections, etc. pertaining to differential
+53-08	IV	399	Computational methods for problems pertaining to differential geometry
+53-11	IV	399	Research data for problems pertaining to differential geometry
+53A04	IV	399	Curves in Euclidean and related spaces
+53A05	IV	399	Surfaces in Euclidean and related spaces
+53A07	IV	399	Higher-dimensional and -codimensional surfaces in Euclidean and related
+53A10	IV	399	Minimal surfaces in differential geometry, surfaces with prescribed mean
+53A15	IV	399	Affine differential geometry
+53A17	IV	399	Differential geometric aspects in kinematics
+53A20	IV	399	Projective differential geometry
+53A25	IV	399	Differential line geometry
+53A31	IV	400	Differential geometry of submanifolds of Möbius space
+53A35	IV	400	Non-Euclidean differential geometry
+53A40	IV	400	Other special differential geometries
+53A45	IV	400	Differential geometric aspects in vector and tensor analysis
+53A55	IV	400	Differential invariants (local theory), geometric objects
+53A60	IV	400	Differential geometry of webs
+53A70	IV	400	Discrete differential geometry
+53A99	IV	400	Classical differential geometry
+53B05	IV	400	Linear and affine connections
+53B10	IV	400	Projective connections
+53B12	IV	400	Differential geometric aspects of statistical manifolds and information
+53B15	IV	400	Other connections
+53B20	IV	400	Local Riemannian geometry
+53B21	IV	400	Methods of local Riemannian geometry
+53B25	IV	401	Local submanifolds
+53B30	IV	401	Local differential geometry of Lorentz metrics, indefinite metrics
+53B35	IV	401	Local differential geometry of Hermitian and Kählerian structures
+53B40	IV	401	Local differential geometry of Finsler spaces and generalizations (areal
+53B50	IV	401	Applications of local differential geometry to the sciences
+53B99	IV	401	Local differential geometry
+53C05	IV	401	Connections (general theory)
+53C08	IV	401	Differential geometric aspects of gerbes and differential characters
+53C10	IV	401	(G)-structures
+53C12	IV	401	Foliations (differential geometric aspects)
+53C15	IV	401	General geometric structures on manifolds (almost complex, almost product
+53C17	IV	401	Sub-Riemannian geometry
+53C18	IV	401	Conformal structures on manifolds
+53C20	IV	402	Global Riemannian geometry, including pinching
+53C21	IV	402	Methods of global Riemannian geometry, including PDE methods; curvature
+53C22	IV	402	Geodesics in global differential geometry
+53C23	IV	402	Global geometric and topological methods (à la Gromov); differential
+53C24	IV	402	Rigidity results
+53C25	IV	402	Special Riemannian manifolds (Einstein, Sasakian, etc.)
+53C26	IV	402	Hyper-Kähler and quaternionic Kähler geometry, ``special'' geometry
+53C27	IV	402	Spin and Spin({}^c) geometry
+53C28	IV	402	Twistor methods in differential geometry
+53C29	IV	402	Issues of holonomy in differential geometry
+53C30	IV	402	Differential geometry of homogeneous manifolds
+53C35	IV	402	Differential geometry of symmetric spaces
+53C38	IV	402	Calibrations and calibrated geometries
+53C40	IV	402	Global submanifolds
+53C42	IV	403	Differential geometry of immersions (minimal, prescribed curvature, tight,
+53C43	IV	403	Differential geometric aspects of harmonic maps
+53C45	IV	403	Global surface theory (convex surfaces à la A. D. Aleksandrov)
+53C50	IV	403	Global differential geometry of Lorentz manifolds, manifolds with indefinite
+53C55	IV	403	Global differential geometry of Hermitian and Kählerian manifolds
+53C56	IV	403	Other complex differential geometry
+53C60	IV	403	Global differential geometry of Finsler spaces and generalizations (areal
+53C65	IV	403	Integral geometry
+53C70	IV	403	Direct methods ((G)-spaces of Busemann, etc.)
+53C75	IV	403	Geometric orders, order geometry
+53C80	IV	403	Applications of global differential geometry to the sciences
+53C99	IV	403	Global differential geometry
+53D05	IV	403	Symplectic manifolds (general theory)
+53D10	IV	404	Contact manifolds (general theory)
+53D12	IV	404	Lagrangian submanifolds; Maslov index
+53D15	IV	404	Almost contact and almost symplectic manifolds
+53D17	IV	404	Poisson manifolds; Poisson groupoids and algebroids
+53D18	IV	404	Generalized geometries (à la Hitchin)
+53D20	IV	404	Momentum maps; symplectic reduction
+53D22	IV	404	Canonical transformations in symplectic and contact geometry
+53D25	IV	404	Geodesic flows in symplectic geometry and contact geometry
+53D30	IV	404	Symplectic structures of moduli spaces
+53D35	IV	404	Global theory of symplectic and contact manifolds
+53D42	IV	404	Symplectic field theory; contact homology
+53D45	IV	404	Gromov-Witten invariants, quantum cohomology, Frobenius manifolds
+53D50	IV	404	Geometric quantization
+53D55	IV	404	Deformation quantization, star products
+53D99	IV	405	Symplectic geometry, contact geometry
+53E10	IV	405	Flows related to mean curvature
+53E20	IV	405	Ricci flows
+53E30	IV	405	Flows related to complex manifolds (e.g., Kähler-Ricci flows, Chern-Ricci
+53E40	IV	405	Higher-order geometric flows
+53E50	IV	405	Flows related to symplectic and contact structures
+53E99	IV	405	Geometric evolution equations
+53Z05	IV	405	Applications of differential geometry to physics
+53Z10	IV	405	Applications of differential geometry to biology
+53Z15	IV	405	Applications of differential geometry to chemistry
+53Z30	IV	405	Applications of differential geometry to engineering
+53Z50	IV	406	Applications of differential geometry to data and computer science
+53Z99	IV	406	Applications of differential geometry to sciences and engineering
+55-00	IV	406	General reference works (handbooks, dictionaries, bibliographies, etc.)
+55-02	IV	406	Research exposition (monographs, survey articles) pertaining to algebraic
+55-03	IV	406	History of algebraic topology
+55-04	IV	406	Software, source code, etc. for problems pertaining to algebraic topology
+55-06	IV	406	Proceedings, conferences, collections, etc. pertaining to algebraic topology
+55-08	IV	406	Computational methods for problems pertaining to algebraic topology
+55-11	IV	406	Research data for problems pertaining to algebraic topology
+55M05	IV	406	Duality in algebraic topology
+55M10	IV	406	Dimension theory in algebraic topology
+55M15	IV	406	Absolute neighborhood retracts
+55M20	IV	406	Fixed points and coincidences in algebraic topology
+55M25	IV	406	Degree, winding number
+55M30	IV	407	Lyusternik-Shnirel'man category of a space, topological complexity à la
+55M35	IV	407	Finite groups of transformations in algebraic topology (including Smith
+55M99	IV	407	Classical topics in algebraic topology
+55N05	IV	407	?ech types
+55N07	IV	407	Steenrod-Sitnikov homologies
+55N10	IV	407	Singular homology and cohomology theory
+55N15	IV	407	Topological (K)-theory
+55N20	IV	407	Generalized (extraordinary) homology and cohomology theories in algebraic
+55N22	IV	407	Bordism and cobordism theories and formal group laws in algebraic topology
+55N25	IV	407	Homology with local coefficients, equivariant cohomology
+55N30	IV	407	Sheaf cohomology in algebraic topology
+55N31	IV	408	Persistent homology and applications, topological data analysis
+55N32	IV	408	Orbifold cohomology
+55N33	IV	408	Intersection homology and cohomology in algebraic topology
+55N34	IV	408	Elliptic cohomology
+55N35	IV	408	Other homology theories in algebraic topology
+55N40	IV	408	Axioms for homology theory and uniqueness theorems in algebraic topology
+55N45	IV	408	Products and intersections in homology and cohomology
+55N91	IV	408	Equivariant homology and cohomology in algebraic topology
+55N99	IV	408	Homology and cohomology theories in algebraic topology
+55P05	IV	408	Homotopy extension properties, cofibrations in algebraic topology
+55P10	IV	408	Homotopy equivalences in algebraic topology
+55P15	IV	408	Classification of homotopy type
+55P20	IV	409	Eilenberg-Mac Lane spaces
+55P25	IV	409	Spanier-Whitehead duality
+55P30	IV	409	Eckmann-Hilton duality
+55P35	IV	409	Loop spaces
+55P40	IV	409	Suspensions
+55P42	IV	409	Stable homotopy theory, spectra
+55P43	IV	409	Spectra with additional structure ((E_infty), (A_infty), ring spectra, etc.)
+55P45	IV	409	(H)-spaces and duals
+55P47	IV	409	Infinite loop spaces
+55P48	IV	409	Loop space machines and operads in algebraic topology
+55P50	IV	409	String topology
+55P55	IV	409	Shape theory
+55P57	IV	409	Proper homotopy theory
+55P60	IV	410	Localization and completion in homotopy theory
+55P62	IV	410	Rational homotopy theory
+55P65	IV	410	Homotopy functors in algebraic topology
+55P91	IV	410	Equivariant homotopy theory in algebraic topology
+55P92	IV	410	Relations between equivariant and nonequivariant homotopy theory in
+55P99	IV	410	Homotopy theory
+55Q05	IV	410	Homotopy groups, general; sets of homotopy classes
+55Q07	IV	410	Shape groups
+55Q10	IV	410	Stable homotopy groups
+55Q15	IV	410	Whitehead products and generalizations
+55Q20	IV	410	Homotopy groups of wedges, joins, and simple spaces
+55Q25	IV	411	Hopf invariants
+55Q35	IV	411	Operations in homotopy groups
+55Q40	IV	411	Homotopy groups of spheres
+55Q45	IV	411	Stable homotopy of spheres
+55Q50	IV	411	(J)-morphism
+55Q51	IV	411	(v_n)-periodicity
+55Q52	IV	411	Homotopy groups of special spaces
+55Q55	IV	411	Cohomotopy groups
+55Q70	IV	411	Homotopy groups of special types
+55Q91	IV	411	Equivariant homotopy groups
+55Q99	IV	411	Homotopy groups
+55R05	IV	411	Fiber spaces in algebraic topology
+55R10	IV	412	Fiber bundles in algebraic topology
+55R12	IV	412	Transfer for fiber spaces and bundles in algebraic topology
+55R15	IV	412	Classification of fiber spaces or bundles in algebraic topology
+55R20	IV	412	Spectral sequences and homology of fiber spaces in algebraic topology
+55R25	IV	412	Sphere bundles and vector bundles in algebraic topology
+55R35	IV	412	Classifying spaces of groups and (H)-spaces in algebraic topology
+55R37	IV	412	Maps between classifying spaces in algebraic topology
+55R40	IV	412	Homology of classifying spaces and characteristic classes in algebraic
+55R45	IV	412	Homology and homotopy of (Bmathrm{O}) and (Bmathrm{U}); Bott
+55R50	IV	412	Stable classes of vector space bundles in algebraic topology and relations to
+55R55	IV	412	Fiberings with singularities in algebraic topology
+55R60	IV	412	Microbundles and block bundles in algebraic topology
+55R65	IV	412	Generalizations of fiber spaces and bundles in algebraic topology
+55R70	IV	412	Fibrewise topology
+55R80	IV	412	Discriminantal varieties and configuration spaces in algebraic topology
+55R91	IV	413	Equivariant fiber spaces and bundles in algebraic topology
+55R99	IV	413	Fiber spaces and bundles in algebraic topology
+55S05	IV	413	Primary cohomology operations in algebraic topology
+55S10	IV	413	Steenrod algebra
+55S12	IV	413	Dyer-Lashof operations
+55S15	IV	413	Symmetric products and cyclic products in algebraic topology
+55S20	IV	413	Secondary and higher cohomology operations in algebraic topology
+55S25	IV	413	(K)-theory operations and generalized cohomology operations in algebraic
+55S30	IV	413	Massey products
+55S35	IV	413	Obstruction theory in algebraic topology
+55S36	IV	413	Extension and compression of mappings in algebraic topology
+55S37	IV	413	Classification of mappings in algebraic topology
+55S40	IV	413	Sectioning fiber spaces and bundles in algebraic topology
+55S45	IV	413	Postnikov systems, (k)-invariants
+55S91	IV	414	Equivariant operations and obstructions in algebraic topology
+55S99	IV	414	Operations and obstructions in algebraic topology
+55T10	IV	414	Serre spectral sequences
+55T15	IV	414	Adams spectral sequences
+55T20	IV	414	Eilenberg-Moore spectral sequences
+55T25	IV	414	Generalized cohomology and spectral sequences in algebraic topology
+55T99	IV	414	Spectral sequences in algebraic topology
+55U05	IV	414	Abstract complexes in algebraic topology
+55U10	IV	414	Simplicial sets and complexes in algebraic topology
+55U15	IV	414	Chain complexes in algebraic topology
+55U20	IV	414	Universal coefficient theorems, Bockstein operator
+55U25	IV	415	Homology of a product, Künneth formula
+55U30	IV	415	Duality in applied homological algebra and category theory (aspects of
+55U35	IV	415	Abstract and axiomatic homotopy theory in algebraic topology
+55U40	IV	415	Topological categories, foundations of homotopy theory
+55U99	IV	415	Applied homological algebra and category theory in algebraic topology
+60-00	IV	415	General reference works (handbooks, dictionaries, bibliographies, etc.)
+60-02	IV	415	Research exposition (monographs, survey articles) pertaining to probability
+60-03	IV	415	History of probability theory
+60-04	IV	415	Software, source code, etc. for problems pertaining to probability theory
+60-06	IV	415	Proceedings, conferences, collections, etc. pertaining to probability theory
+60-08	IV	415	Computational methods for problems pertaining to probability theory
+60-11	IV	415	Research data for problems pertaining to probability theory
+60A10	IV	416	Probabilistic measure theory
+60A86	IV	416	Fuzzy probability
+60A99	IV	416	Foundations of probability theory
+60B05	IV	416	Probability measures on topological spaces
+60B10	IV	416	Convergence of probability measures
+60B11	IV	416	Probability theory on linear topological spaces
+60B12	IV	416	Limit theorems for vector-valued random variables (infinite-dimensional
+60B15	IV	416	Probability measures on groups or semigroups, Fourier transforms,
+60B20	IV	416	Random matrices (probabilistic aspects)
+60B99	IV	416	Probability theory on algebraic and topological structures
+60C05	IV	416	Combinatorial probability
+60C99	IV	417	Combinatorial probability
+60D05	IV	417	Geometric probability and stochastic geometry
+60D99	IV	417	Geometric probability and stochastic geometry
+60E05	IV	417	Probability distributions: general theory
+60E07	IV	417	Infinitely divisible distributions; stable distributions
+60E10	IV	417	Characteristic functions; other transforms
+60E15	IV	417	Inequalities; stochastic orderings
+60E99	IV	417	Distribution theory
+60F05	IV	417	Central limit and other weak theorems
+60F10	IV	417	Large deviations
+60F15	IV	417	Strong limit theorems
+60F17	IV	418	Functional limit theorems; invariance principles
+60F20	IV	418	Zero-one laws
+60F25	IV	418	(L^p)-limit theorems
+60F99	IV	418	Limit theorems in probability theory
+60G05	IV	418	Foundations of stochastic processes
+60G09	IV	418	Exchangeability for stochastic processes
+60G10	IV	418	Stationary stochastic processes
+60G12	IV	418	General second-order stochastic processes
+60G15	IV	418	Gaussian processes
+60G17	IV	418	Sample path properties
+60G18	IV	418	Self-similar stochastic processes
+60G20	IV	418	Generalized stochastic processes
+60G22	IV	418	Fractional processes, including fractional Brownian motion
+60G25	IV	418	Prediction theory (aspects of stochastic processes)
+60G30	IV	418	Continuity and singularity of induced measures
+60G35	IV	419	Signal detection and filtering (aspects of stochastic processes)
+60G40	IV	419	Stopping times; optimal stopping problems; gambling theory
+60G42	IV	419	Martingales with discrete parameter
+60G44	IV	419	Martingales with continuous parameter
+60G46	IV	419	Martingales and classical analysis
+60G48	IV	419	Generalizations of martingales
+60G50	IV	419	Sums of independent random variables; random walks
+60G51	IV	419	Processes with independent increments; Lévy processes
+60G52	IV	419	Stable stochastic processes
+60G53	IV	419	Feller processes
+60G55	IV	419	Point processes (e.g., Poisson, Cox, Hawkes processes)
+60G57	IV	419	Random measures
+60G60	IV	419	Random fields
+60G65	IV	419	Nonlinear processes (e.g., (G)-Brownian motion, (G)-Lévy processes)
+60G70	IV	420	Extreme value theory; extremal stochastic processes
+60G99	IV	420	Stochastic processes
+60H05	IV	420	Stochastic integrals
+60H07	IV	420	Stochastic calculus of variations and the Malliavin calculus
+60H20	IV	420	Stochastic integral equations
+60H25	IV	420	Random operators and equations (aspects of stochastic analysis)
+60H30	IV	420	Applications of stochastic analysis (to PDEs, etc.)
+60H35	IV	420	Computational methods for stochastic equations (aspects of stochastic
+60H40	IV	420	White noise theory
+60H50	IV	420	Regularization by noise
+60H99	IV	420	Stochastic analysis
+60J05	IV	420	Discrete-time Markov processes on general state spaces
+60J10	IV	421	Markov chains (discrete-time Markov processes on discrete state spaces)
+60J20	IV	421	Applications of Markov chains and discrete-time Markov processes on general
+60J22	IV	421	Computational methods in Markov chains
+60J25	IV	421	Continuous-time Markov processes on general state spaces
+60J27	IV	421	Continuous-time Markov processes on discrete state spaces
+60J28	IV	421	Applications of continuous-time Markov processes on discrete state spaces
+60J35	IV	421	Transition functions, generators and resolvents
+60J40	IV	421	Right processes
+60J45	IV	421	Probabilistic potential theory
+60J46	IV	421	Dirichlet form methods in Markov processes
+60J50	IV	421	Boundary theory for Markov processes
+60J55	IV	421	Local time and additive functionals
+60J57	IV	422	Multiplicative functionals and Markov processes
+60J60	IV	422	Diffusion processes
+60J65	IV	422	Brownian motion
+60J67	IV	422	Stochastic (Schramm-)Loewner evolution (SLE)
+60J68	IV	422	Superprocesses
+60J70	IV	422	Applications of Brownian motions and diffusion theory (population genetics,
+60J74	IV	422	Jump processes on discrete state spaces
+60J76	IV	422	Jump processes on general state spaces
+60J80	IV	422	Branching processes (Galton-Watson, birth-and-death, etc.)
+60J85	IV	422	Applications of branching processes
+60J90	IV	422	Coalescent processes
+60J95	IV	422	Applications of coalescent processes
+60J99	IV	423	Markov processes
+60K05	IV	423	Renewal theory
+60K10	IV	423	Applications of renewal theory (reliability, demand theory, etc.)
+60K15	IV	423	Markov renewal processes, semi-Markov processes
+60K20	IV	423	Applications of Markov renewal processes (reliability, queueing networks,
+60K25	IV	423	Queueing theory (aspects of probability theory)
+60K30	IV	423	Applications of queueing theory (congestion, allocation, storage, traffic, etc.)
+60K35	IV	423	Interacting random processes; statistical mechanics type models; percolation
+60K37	IV	423	Processes in random environments
+60K40	IV	423	Other physical applications of random processes
+60K50	IV	423	Anomalous diffusion models (subdiffusion, superdiffusion, continuous-time
+60K99	IV	423	Special processes
+60L10	IV	424	Signatures and data streams
+60L20	IV	424	Rough paths
+60L30	IV	424	Regularity structures
+60L40	IV	424	Paracontrolled distributions and alternative approaches
+60L50	IV	424	Rough partial differential equations
+60L70	IV	424	Algebraic structures and computation
+60L90	IV	424	Applications of rough analysis
+60L99	IV	424	Rough analysis
+70-00	IV	424	General reference works (handbooks, dictionaries, bibliographies, etc.)
+70-02	IV	424	Research exposition (monographs, survey articles) pertaining to mechanics
+70-03	IV	424	History of mechanics of particles and systems
+70-04	IV	424	Software, source code, etc. for problems pertaining to mechanics of particles
+70-05	IV	424	Experimental work for problems pertaining to mechanics of particles and
+70-06	IV	425	Proceedings, conferences, collections, etc. pertaining to mechanics of
+70-08	IV	425	Computational methods for problems pertaining to mechanics of particles
+70-10	IV	425	Mathematical modeling or simulation for problems pertaining to mechanics of
+70-11	IV	425	Research data for problems pertaining to mechanics of particles and systems
+70A05	IV	425	Axiomatics, foundations
+70A99	IV	425	Axiomatics, foundations
+70B05	IV	425	Kinematics of a particle
+70B10	IV	425	Kinematics of a rigid body
+70B15	IV	425	Kinematics of mechanisms and robots
+70B99	IV	425	Kinematics
+70C20	IV	425	Statics
+70C99	IV	425	Statics
+70E05	IV	426	Motion of the gyroscope
+70E15	IV	426	Free motion of a rigid body
+70E17	IV	426	Motion of a rigid body with a fixed point
+70E18	IV	426	Motion of a rigid body in contact with a solid surface
+70E20	IV	426	Perturbation methods for rigid body dynamics
+70E40	IV	426	Integrable cases of motion in rigid body dynamics
+70E45	IV	426	Higher-dimensional generalizations in rigid body dynamics
+70E50	IV	426	Stability problems in rigid body dynamics
+70E55	IV	426	Dynamics of multibody systems
+70E60	IV	426	Robot dynamics and control of rigid bodies
+70E99	IV	426	Dynamics of a rigid body and of multibody systems
+70F05	IV	426	Two-body problems
+70F07	IV	426	Three-body problems
+70F10	IV	426	(n)-body problems
+70F15	IV	427	Celestial mechanics
+70F16	IV	427	Collisions in celestial mechanics, regularization
+70F17	IV	427	Inverse problems for systems of particles
+70F20	IV	427	Holonomic systems related to the dynamics of a system of particles
+70F25	IV	427	Nonholonomic systems related to the dynamics of a system of particles
+70F35	IV	427	Collision of rigid or pseudo-rigid bodies
+70F40	IV	427	Problems involving a system of particles with friction
+70F45	IV	427	The dynamics of infinite particle systems
+70F99	IV	427	Dynamics of a system of particles, including celestial mechanics
+70G10	IV	427	Generalized coordinates; event, impulse-energy, configuration, state, or
+70G40	IV	427	Topological and differential topological methods for problems in mechanics
+70G45	IV	427	Differential geometric methods (tensors, connections, symplectic, Poisson,
+70G55	IV	428	Algebraic geometry methods for problems in mechanics
+70G60	IV	428	Dynamical systems methods for problems in mechanics
+70G65	IV	428	Symmetries, Lie group and Lie algebra methods for problems in mechanics
+70G70	IV	428	Functional analytic methods for problems in mechanics
+70G75	IV	428	Variational methods for problems in mechanics
+70G99	IV	428	General models, approaches, and methods in mechanics of particles and
+70H03	IV	428	Lagrange's equations
+70H05	IV	428	Hamilton's equations
+70H06	IV	428	Completely integrable systems and methods of integration for problems in
+70H07	IV	428	Nonintegrable systems for problems in Hamiltonian and Lagrangian
+70H08	IV	428	Nearly integrable Hamiltonian systems, KAM theory
+70H09	IV	428	Perturbation theories for problems in Hamiltonian and Lagrangian mechanics
+70H11	IV	428	Adiabatic invariants for problems in Hamiltonian and Lagrangian mechanics
+70H12	IV	429	Periodic and almost periodic solutions for problems in Hamiltonian and
+70H14	IV	429	Stability problems for problems in Hamiltonian and Lagrangian mechanics
+70H15	IV	429	Canonical and symplectic transformations for problems in Hamiltonian and
+70H20	IV	429	Hamilton-Jacobi equations in mechanics
+70H25	IV	429	Hamilton's principle
+70H30	IV	429	Other variational principles in mechanics
+70H33	IV	429	Symmetries and conservation laws, reverse symmetries, invariant manifolds
+70H40	IV	429	Relativistic dynamics for problems in Hamiltonian and Lagrangian mechanics
+70H45	IV	429	Constrained dynamics, Dirac's theory of constraints
+70H50	IV	429	Higher-order theories for problems in Hamiltonian and Lagrangian mechanics
+70H99	IV	429	Hamiltonian and Lagrangian mechanics
+70J10	IV	429	Modal analysis in linear vibration theory
+70J25	IV	429	Stability for problems in linear vibration theory
+70J30	IV	430	Free motions in linear vibration theory
+70J35	IV	430	Forced motions in linear vibration theory
+70J40	IV	430	Parametric resonances in linear vibration theory
+70J50	IV	430	Systems arising from the discretization of structural vibration problems
+70J99	IV	430	Linear vibration theory
+70K05	IV	430	Phase plane analysis, limit cycles for nonlinear problems in mechanics
+70K20	IV	430	Stability for nonlinear problems in mechanics
+70K25	IV	430	Free motions for nonlinear problems in mechanics
+70K28	IV	430	Parametric resonances for nonlinear problems in mechanics
+70K30	IV	430	Nonlinear resonances for nonlinear problems in mechanics
+70K40	IV	430	Forced motions for nonlinear problems in mechanics
+70K42	IV	430	Equilibria and periodic trajectories for nonlinear problems in mechanics
+70K43	IV	430	Quasi-periodic motions and invariant tori for nonlinear problems in mechanics
+70K44	IV	430	Homoclinic and heteroclinic trajectories for nonlinear problems in mechanics
+70K45	IV	430	Normal forms for nonlinear problems in mechanics
+70K50	IV	431	Bifurcations and instability for nonlinear problems in mechanics
+70K55	IV	431	Transition to stochasticity (chaotic behavior) for nonlinear problems in
+70K60	IV	431	General perturbation schemes for nonlinear problems in mechanics
+70K65	IV	431	Averaging of perturbations for nonlinear problems in mechanics
+70K70	IV	431	Systems with slow and fast motions for nonlinear problems in mechanics
+70K75	IV	431	Nonlinear modes
+70K99	IV	431	Nonlinear dynamics in mechanics
+70L05	IV	431	Random vibrations in mechanics of particles and systems
+70L10	IV	431	Stochastic geometric mechanics
+70L99	IV	431	Random and stochastic aspects of the mechanics of particles and systems
+70M20	IV	431	Orbital mechanics
+70M99	IV	431	Orbital mechanics
+70P05	IV	432	Variable mass, rockets
+70P99	IV	432	Variable mass, rockets
+70Q05	IV	432	Control of mechanical systems
+70Q99	IV	432	Control of mechanical systems
+70S05	IV	432	Lagrangian formalism and Hamiltonian formalism in mechanics of particles
+70S10	IV	432	Symmetries and conservation laws in mechanics of particles and systems
+70S20	IV	432	More general nonquantum field theories in mechanics of particles and
+70S99	IV	432	Classical field theories
+74-00	IV	432	General reference works (handbooks, dictionaries, bibliographies, etc.)
+74-02	IV	433	Research exposition (monographs, survey articles) pertaining to mechanics
+74-03	IV	433	History of mechanics of deformable solids
+74-04	IV	433	Software, source code, etc. for problems pertaining to mechanics of
+74-05	IV	433	Experimental work for problems pertaining to mechanics of deformable solids
+74-06	IV	433	Proceedings, conferences, collections, etc. pertaining to mechanics of
+74-10	IV	433	Mathematical modeling or simulation for problems pertaining to mechanics of
+74-11	IV	433	Research data for problems pertaining to mechanics of deformable solids
+74A05	IV	433	Kinematics of deformation
+74A10	IV	433	Stress
+74A15	IV	433	Thermodynamics in solid mechanics
+74A20	IV	433	Theory of constitutive functions in solid mechanics
+74A25	IV	433	Molecular, statistical, and kinetic theories in solid mechanics
+74A30	IV	433	Nonsimple materials
+74A35	IV	433	Polar materials
+74A40	IV	433	Random materials and composite materials
+74A45	IV	433	Theories of fracture and damage
+74A50	IV	434	Structured surfaces and interfaces, coexistent phases
+74A55	IV	434	Theories of friction (tribology)
+74A60	IV	434	Micromechanical theories
+74A65	IV	434	Reactive materials
+74A70	IV	434	Peridynamics
+74A99	IV	434	Generalities, axiomatics, foundations of continuum mechanics of solids
+74B05	IV	434	Classical linear elasticity
+74B10	IV	434	Linear elasticity with initial stresses
+74B15	IV	434	Equations linearized about a deformed state (small deformations superposed
+74B20	IV	434	Nonlinear elasticity
+74B99	IV	434	Elastic materials
+74C05	IV	435	Small-strain, rate-independent theories of plasticity (including rigid-plastic
+74C10	IV	435	Small-strain, rate-dependent theories of plasticity (including theories of
+74C15	IV	435	Large-strain, rate-independent theories of plasticity (including nonlinear
+74C20	IV	435	Large-strain, rate-dependent theories of plasticity
+74C99	IV	435	Plastic materials, materials of stress-rate and internal-variable type
+74D05	IV	435	Linear constitutive equations for materials with memory
+74D10	IV	435	Nonlinear constitutive equations for materials with memory
+74D99	IV	435	Materials of strain-rate type and history type, other materials with memory
+74E05	IV	435	Inhomogeneity in solid mechanics
+74E10	IV	435	Anisotropy in solid mechanics
+74E15	IV	435	Crystalline structure
+74E20	IV	436	Granularity
+74E25	IV	436	Texture in solid mechanics
+74E30	IV	436	Composite and mixture properties
+74E35	IV	436	Random structure in solid mechanics
+74E40	IV	436	Chemical structure in solid mechanics
+74E99	IV	436	Material properties given special treatment
+74F05	IV	436	Thermal effects in solid mechanics
+74F10	IV	436	Fluid-solid interactions (including aero- and hydro-elasticity, porosity, etc.)
+74F15	IV	436	Electromagnetic effects in solid mechanics
+74F20	IV	436	Mixture effects in solid mechanics
+74F25	IV	436	Chemical and reactive effects in solid mechanics
+74F99	IV	436	Coupling of solid mechanics with other effects
+74G05	IV	436	Explicit solutions of equilibrium problems in solid mechanics
+74G10	IV	437	Analytic approximation of solutions (perturbation methods, asymptotic
+74G15	IV	437	Numerical approximation of solutions of equilibrium problems in solid
+74G22	IV	437	Existence of solutions of equilibrium problems in solid mechanics
+74G30	IV	437	Uniqueness of solutions of equilibrium problems in solid mechanics
+74G35	IV	437	Multiplicity of solutions of equilibrium problems in solid mechanics
+74G40	IV	437	Regularity of solutions of equilibrium problems in solid mechanics
+74G45	IV	437	Bounds for solutions of equilibrium problems in solid mechanics
+74G50	IV	437	Saint-Venant's principle
+74G55	IV	437	Qualitative behavior of solutions of equilibrium problems in solid mechanics
+74G60	IV	437	Bifurcation and buckling
+74G65	IV	437	Energy minimization in equilibrium problems in solid mechanics
+74G70	IV	437	Stress concentrations, singularities in solid mechanics
+74G75	IV	437	Inverse problems in equilibrium solid mechanics
+74G99	IV	437	Equilibrium (steady-state) problems in solid mechanics
+74H05	IV	438	Explicit solutions of dynamical problems in solid mechanics
+74H10	IV	438	Analytic approximation of solutions (perturbation methods, asymptotic
+74H15	IV	438	Numerical approximation of solutions of dynamical problems in solid
+74H20	IV	438	Existence of solutions of dynamical problems in solid mechanics
+74H25	IV	438	Uniqueness of solutions of dynamical problems in solid mechanics
+74H30	IV	438	Regularity of solutions of dynamical problems in solid mechanics
+74H35	IV	438	Singularities, blow-up, stress concentrations for dynamical problems in solid
+74H40	IV	438	Long-time behavior of solutions for dynamical problems in solid mechanics
+74H45	IV	438	Vibrations in dynamical problems in solid mechanics
+74H50	IV	438	Random vibrations in dynamical problems in solid mechanics
+74H55	IV	438	Stability of dynamical problems in solid mechanics
+74H60	IV	438	Dynamical bifurcation of solutions to dynamical problems in solid mechanics
+74H65	IV	438	Chaotic behavior of solutions to dynamical problems in solid mechanics
+74H75	IV	438	Inverse problems in dynamical solid mechanics
+74H80	IV	438	Energy minimization in dynamical problems in solid mechanics
+74H99	IV	439	Dynamical problems in solid mechanics
+74J05	IV	439	Linear waves in solid mechanics
+74J10	IV	439	Bulk waves in solid mechanics
+74J15	IV	439	Surface waves in solid mechanics
+74J20	IV	439	Wave scattering in solid mechanics
+74J25	IV	439	Inverse problems for waves in solid mechanics
+74J30	IV	439	Nonlinear waves in solid mechanics
+74J35	IV	439	Solitary waves in solid mechanics
+74J40	IV	439	Shocks and related discontinuities in solid mechanics
+74J99	IV	439	Waves in solid mechanics
+74K05	IV	439	Strings
+74K10	IV	439	Rods (beams, columns, shafts, arches, rings, etc.)
+74K15	IV	439	Membranes
+74K20	IV	440	Plates
+74K25	IV	440	Shells
+74K30	IV	440	Junctions
+74K35	IV	440	Thin films
+74K99	IV	440	Thin bodies, structures
+74L05	IV	440	Geophysical solid mechanics
+74L10	IV	440	Soil and rock mechanics
+74L15	IV	440	Biomechanical solid mechanics
+74L99	IV	440	Special subfields of solid mechanics
+74M05	IV	440	Control, switches and devices (``smart materials'') in solid mechanics
+74M10	IV	440	Friction in solid mechanics
+74M15	IV	440	Contact in solid mechanics
+74M20	IV	440	Impact in solid mechanics
+74M25	IV	441	Micromechanics of solids
+74M99	IV	441	Special kinds of problems in solid mechanics
+74N05	IV	441	Crystals in solids
+74N10	IV	441	Displacive transformations in solids
+74N15	IV	441	Analysis of microstructure in solids
+74N20	IV	441	Dynamics of phase boundaries in solids
+74N25	IV	441	Transformations involving diffusion in solids
+74N30	IV	441	Problems involving hysteresis in solids
+74N99	IV	441	Phase transformations in solids
+74P05	IV	441	Compliance or weight optimization in solid mechanics
+74P10	IV	441	Optimization of other properties in solid mechanics
+74P15	IV	441	Topological methods for optimization problems in solid mechanics
+74P20	IV	441	Geometrical methods for optimization problems in solid mechanics
+74P99	IV	442	Optimization problems in solid mechanics
+74Q05	IV	442	Homogenization in equilibrium problems of solid mechanics
+74Q10	IV	442	Homogenization and oscillations in dynamical problems of solid mechanics
+74Q15	IV	442	Effective constitutive equations in solid mechanics
+74Q20	IV	442	Bounds on effective properties in solid mechanics
+74Q99	IV	442	Homogenization, determination of effective properties in solid mechanics
+74R05	IV	442	Brittle damage
+74R10	IV	442	Brittle fracture
+74R15	IV	442	High-velocity fracture
+74R20	IV	442	Anelastic fracture and damage
+74R99	IV	442	Fracture and damage
+74S05	IV	443	Finite element methods applied to problems in solid mechanics
+74S10	IV	443	Finite volume methods applied to problems in solid mechanics
+74S15	IV	443	Boundary element methods applied to problems in solid mechanics
+74S20	IV	443	Finite difference methods applied to problems in solid mechanics
+74S22	IV	443	Isogeometric methods applied to problems in solid mechanics
+74S25	IV	443	Spectral and related methods applied to problems in solid mechanics
+74S40	IV	443	Applications of fractional calculus in solid mechanics
+74S50	IV	443	Applications of graph theory in solid mechanics
+74S60	IV	443	Stochastic and other probabilistic methods applied to problems in solid
+74S70	IV	443	Complex-variable methods applied to problems in solid mechanics
+74S99	IV	443	Numerical and other methods in solid mechanics
+76-00	IV	445	General reference works (handbooks, dictionaries, bibliographies, etc.)
+76-02	IV	445	Research exposition (monographs, survey articles) pertaining to fluid
+76-03	IV	445	History of fluid mechanics
+76-04	IV	445	Software, source code, etc. for problems pertaining to fluid mechanics
+76-05	IV	445	Experimental work for problems pertaining to fluid mechanics
+76-06	IV	445	Proceedings, conferences, collections, etc. pertaining to fluid mechanics
+76-10	IV	445	Mathematical modeling or simulation for problems pertaining to fluid
+76-11	IV	445	Research data for problems pertaining to fluid mechanics
+76A02	IV	445	Foundations of fluid mechanics
+76A05	IV	445	Non-Newtonian fluids
+76A10	IV	445	Viscoelastic fluids
+76A15	IV	445	Liquid crystals
+76A20	IV	445	Thin fluid films
+76A25	IV	445	Superfluids (classical aspects)
+76A30	IV	445	Traffic and pedestrian flow models
+76A99	IV	445	Foundations, constitutive equations, rheology, hydrodynamical models of
+76B03	IV	446	Existence, uniqueness, and regularity theory for incompressible inviscid
+76B07	IV	446	Free-surface potential flows for incompressible inviscid fluids
+76B10	IV	446	Jets and cavities, cavitation, free-streamline theory, water-entry problems,
+76B15	IV	446	Water waves, gravity waves; dispersion and scattering, nonlinear interaction
+76B20	IV	446	Ship waves
+76B25	IV	446	Solitary waves for incompressible inviscid fluids
+76B45	IV	446	Capillarity (surface tension) for incompressible inviscid fluids
+76B47	IV	446	Vortex flows for incompressible inviscid fluids
+76B55	IV	446	Internal waves for incompressible inviscid fluids
+76B70	IV	446	Stratification effects in inviscid fluids
+76B75	IV	446	Flow control and optimization for incompressible inviscid fluids
+76B99	IV	446	Incompressible inviscid fluids
+76D03	IV	446	Existence, uniqueness, and regularity theory for incompressible viscous fluids
+76D05	IV	446	Navier-Stokes equations for incompressible viscous fluids
+76D06	IV	447	Statistical solutions of Navier-Stokes and related equations
+76D07	IV	447	Stokes and related (Oseen, etc.) flows
+76D08	IV	447	Lubrication theory
+76D09	IV	447	Viscous-inviscid interaction
+76D10	IV	447	Boundary-layer theory, separation and reattachment, higher-order effects
+76D17	IV	447	Viscous vortex flows
+76D25	IV	447	Wakes and jets
+76D27	IV	447	Other free boundary flows; Hele-Shaw flows
+76D33	IV	447	Waves for incompressible viscous fluids
+76D45	IV	447	Capillarity (surface tension) for incompressible viscous fluids
+76D50	IV	447	Stratification effects in viscous fluids
+76D55	IV	447	Flow control and optimization for incompressible viscous fluids
+76D99	IV	447	Incompressible viscous fluids
+76E05	IV	447	Parallel shear flows in hydrodynamic stability
+76E06	IV	447	Convection in hydrodynamic stability
+76E07	IV	448	Rotation in hydrodynamic stability
+76E09	IV	448	Stability and instability of nonparallel flows in hydrodynamic stability
+76E15	IV	448	Absolute and convective instability and stability in hydrodynamic stability
+76E17	IV	448	Interfacial stability and instability in hydrodynamic stability
+76E19	IV	448	Compressibility effects in hydrodynamic stability
+76E20	IV	448	Stability and instability of geophysical and astrophysical flows
+76E25	IV	448	Stability and instability of magnetohydrodynamic and electrohydrodynamic
+76E30	IV	448	Nonlinear effects in hydrodynamic stability
+76E99	IV	448	Hydrodynamic stability
+76F02	IV	448	Fundamentals of turbulence
+76F05	IV	448	Isotropic turbulence; homogeneous turbulence
+76F06	IV	448	Transition to turbulence
+76F10	IV	448	Shear flows and turbulence
+76F20	IV	449	Dynamical systems approach to turbulence
+76F25	IV	449	Turbulent transport, mixing
+76F30	IV	449	Renormalization and other field-theoretical methods for turbulence
+76F35	IV	449	Convective turbulence
+76F40	IV	449	Turbulent boundary layers
+76F45	IV	449	Stratification effects in turbulence
+76F50	IV	449	Compressibility effects in turbulence
+76F55	IV	449	Statistical turbulence modeling
+76F60	IV	449	(k)-(varepsilon) modeling in turbulence
+76F65	IV	449	Direct numerical and large eddy simulation of turbulence
+76F70	IV	449	Control of turbulent flows
+76F80	IV	449	Turbulent combustion; reactive turbulence
+76F99	IV	450	Turbulence
+76G25	IV	450	General aerodynamics and subsonic flows
+76G99	IV	450	General aerodynamics and subsonic flows
+76H05	IV	450	Transonic flows
+76H99	IV	450	Transonic flows
+76J20	IV	450	Supersonic flows
+76J99	IV	450	Supersonic flows
+76K05	IV	450	Hypersonic flows
+76K99	IV	450	Hypersonic flows
+76L05	IV	451	Shock waves and blast waves in fluid mechanics
+76L99	IV	451	Shock waves and blast waves in fluid mechanics
+76M10	IV	451	Finite element methods applied to problems in fluid mechanics
+76M12	IV	451	Finite volume methods applied to problems in fluid mechanics
+76M15	IV	451	Boundary element methods applied to problems in fluid mechanics
+76M20	IV	451	Finite difference methods applied to problems in fluid mechanics
+76M21	IV	451	Inverse problems in fluid mechanics
+76M22	IV	451	Spectral methods applied to problems in fluid mechanics
+76M23	IV	451	Vortex methods applied to problems in fluid mechanics
+76M27	IV	451	Visualization algorithms applied to problems in fluid mechanics
+76M28	IV	451	Particle methods and lattice-gas methods
+76M30	IV	451	Variational methods applied to problems in fluid mechanics
+76M35	IV	451	Stochastic analysis applied to problems in fluid mechanics
+76M40	IV	452	Complex variables methods applied to problems in fluid mechanics
+76M45	IV	452	Asymptotic methods, singular perturbations applied to problems in fluid
+76M50	IV	452	Homogenization applied to problems in fluid mechanics
+76M55	IV	452	Dimensional analysis and similarity applied to problems in fluid mechanics
+76M60	IV	452	Symmetry analysis, Lie group and Lie algebra methods applied to problems in
+76M99	IV	452	Basic methods in fluid mechanics
+76N06	IV	452	Compressible Navier-Stokes equations
+76N10	IV	452	Existence, uniqueness, and regularity theory for compressible fluids and gas
+76N15	IV	452	Gas dynamics (general theory)
+76N17	IV	452	Viscous-inviscid interaction for compressible fluids and gas dynamics
+76N20	IV	452	Boundary-layer theory for compressible fluids and gas dynamics
+76N25	IV	452	Flow control and optimization for compressible fluids and gas dynamics
+76N30	IV	452	Waves in compressible fluids
+76N99	IV	453	Compressible fluids and gas dynamics
+76P05	IV	453	Rarefied gas flows, Boltzmann equation in fluid mechanics
+76P99	IV	453	Rarefied gas flows, Boltzmann equation in fluid mechanics
+76Q05	IV	453	Hydro- and aero-acoustics
+76Q99	IV	453	Hydro- and aero-acoustics
+76R05	IV	453	Forced convection
+76R10	IV	453	Free convection
+76R50	IV	453	Diffusion
+76R99	IV	453	Diffusion and convection
+76S05	IV	454	Flows in porous media; filtration; seepage
+76S99	IV	454	Flows in porous media; filtration; seepage
+76T06	IV	454	Liquid-liquid two component flows
+76T10	IV	454	Liquid-gas two-phase flows, bubbly flows
+76T15	IV	454	Dusty-gas two-phase flows
+76T17	IV	454	Two gas multicomponent flows
+76T20	IV	454	Suspensions
+76T25	IV	454	Granular flows
+76T30	IV	454	Three or more component flows
+76T99	IV	454	Multiphase and multicomponent flows
+76U60	IV	454	Geophysical flows
+76U65	IV	454	Rossby waves
+76U99	IV	454	Rotating fluids
+76V05	IV	455	Reaction effects in flows
+76V99	IV	455	Reaction effects in flows
+76W05	IV	455	Magnetohydrodynamics and electrohydrodynamics
+76W99	IV	455	Magnetohydrodynamics and electrohydrodynamics
+76X05	IV	455	Ionized gas flow in electromagnetic fields; plasmic flow
+76X99	IV	455	Ionized gas flow in electromagnetic fields; plasmic flow
+76Y05	IV	455	Quantum hydrodynamics and relativistic hydrodynamics
+76Y99	IV	455	Quantum hydrodynamics and relativistic hydrodynamics
+76Z05	IV	455	Physiological flows
+76Z10	IV	456	Biopropulsion in water and in air
+76Z99	IV	456	Biological fluid mechanics
+78-00	IV	458	General reference works (handbooks, dictionaries, bibliographies, etc.)
+78-02	IV	458	Research exposition (monographs, survey articles) pertaining to optics and
+78-03	IV	458	History of optics and electromagnetic theory
+78-04	IV	458	Software, source code, etc. for problems pertaining to optics and
+78-05	IV	458	Experimental work for problems pertaining to optics and electromagnetic
+78-06	IV	458	Proceedings, conferences, collections, etc. pertaining to optics and
+78-10	IV	458	Mathematical modeling or simulation for problems pertaining to optics and
+78-11	IV	458	Research data for problems pertaining to optics and electromagnetic theory
+78A02	IV	458	Foundations in optics and electromagnetic theory
+78A05	IV	458	Geometric optics
+78A10	IV	458	Physical optics
+78A15	IV	458	Electron optics
+78A20	IV	458	Space charge waves
+78A25	IV	458	Electromagnetic theory (general)
+78A30	IV	458	Electro- and magnetostatics
+78A35	IV	458	Motion of charged particles
+78A37	IV	459	Ion traps
+78A40	IV	459	Waves and radiation in optics and electromagnetic theory
+78A45	IV	459	Diffraction, scattering
+78A46	IV	459	Inverse problems (including inverse scattering) in optics and electromagnetic
+78A48	IV	459	Composite media; random media in optics and electromagnetic theory
+78A50	IV	459	Antennas, waveguides in optics and electromagnetic theory
+78A55	IV	459	Technical applications of optics and electromagnetic theory
+78A57	IV	459	Electrochemistry
+78A60	IV	459	Lasers, masers, optical bistability, nonlinear optics
+78A70	IV	459	Biological applications of optics and electromagnetic theory
+78A97	IV	459	Mathematically heuristic optics and electromagnetic theory (must also be
+78A99	IV	459	General topics in optics and electromagnetic theory
+78M05	IV	459	Method of moments applied to problems in optics and electromagnetic theory
+78M10	IV	460	Finite element, Galerkin and related methods applied to problems in optics
+78M12	IV	460	Finite volume methods, finite integration techniques applied to problems in
+78M15	IV	460	Boundary element methods applied to problems in optics and
+78M16	IV	460	Multipole methods applied to problems in optics and electromagnetic theory
+78M20	IV	460	Finite difference methods applied to problems in optics and electromagnetic
+78M22	IV	460	Spectral, collocation and related methods applied to problems in optics and
+78M30	IV	460	Variational methods applied to problems in optics and electromagnetic
+78M31	IV	460	Monte Carlo methods applied to problems in optics and electromagnetic
+78M32	IV	460	Neural and heuristic methods applied to problems in optics and
+78M34	IV	460	Model reduction in optics and electromagnetic theory
+78M35	IV	460	Asymptotic analysis in optics and electromagnetic theory
+78M40	IV	460	Homogenization in optics and electromagnetic theory
+78M50	IV	460	Optimization problems in optics and electromagnetic theory
+78M99	IV	461	Basic methods for problems in optics and electromagnetic theory
+80-00	IV	461	General reference works (handbooks, dictionaries, bibliographies, etc.)
+80-02	IV	461	Research exposition (monographs, survey articles) pertaining to classical
+80-03	IV	461	History of classical thermodynamics
+80-04	IV	461	Software, source code, etc. for problems pertaining to classical
+80-05	IV	461	Experimental work for problems pertaining to classical thermodynamics
+80-06	IV	461	Proceedings, conferences, collections, etc. pertaining to classical
+80-10	IV	461	Mathematical modeling or simulation for problems pertaining to classical
+80-11	IV	461	Research data for problems pertaining to classical thermodynamics
+80A05	IV	461	Foundations of thermodynamics and heat transfer
+80A10	IV	461	Classical and relativistic thermodynamics
+80A17	IV	461	Thermodynamics of continua
+80A19	IV	462	Diffusive and convective heat and mass transfer, heat flow
+80A21	IV	462	Radiative heat transfer
+80A22	IV	462	Stefan problems, phase changes, etc.
+80A23	IV	462	Inverse problems in thermodynamics and heat transfer
+80A25	IV	462	Combustion
+80A30	IV	462	Chemical kinetics in thermodynamics and heat transfer
+80A32	IV	462	Chemically reacting flows
+80A50	IV	462	Chemistry (general) in thermodynamics and heat transfer
+80A99	IV	462	Thermodynamics and heat transfer
+80M10	IV	462	Finite element, Galerkin and related methods applied to problems in
+80M12	IV	462	Finite volume methods applied to problems in thermodynamics and heat
+80M15	IV	463	Boundary element methods applied to problems in thermodynamics and heat
+80M20	IV	463	Finite difference methods applied to problems in thermodynamics and heat
+80M22	IV	463	Spectral, collocation and related (meshless) methods applied to problems in
+80M30	IV	463	Variational methods applied to problems in thermodynamics and heat
+80M31	IV	463	Monte Carlo methods applied to problems in thermodynamics and heat
+80M35	IV	463	Asymptotic analysis for problems in thermodynamics and heat transfer
+80M40	IV	463	Homogenization for problems in thermodynamics and heat transfer
+80M50	IV	463	Optimization problems in thermodynamics and heat transfer
+80M60	IV	463	Stochastic analysis in thermodynamics and heat transfer
+80M99	IV	463	Basic methods in thermodynamics and heat transfer
+85-00	IV	464	General reference works (handbooks, dictionaries, bibliographies, etc.)
+85-02	IV	464	Research exposition (monographs, survey articles) pertaining to astronomy
+85-03	IV	464	History of astronomy and astrophysics
+85-04	IV	464	Software, source code, etc. for problems pertaining to astronomy and
+85-05	IV	464	Experimental work for problems pertaining to astronomy and astrophysics
+85-06	IV	464	Proceedings, conferences, collections, etc. pertaining to astronomy and
+85-08	IV	464	Computational methods for problems pertaining to astronomy and
+85-10	IV	464	Mathematical modeling or simulation for problems pertaining to astronomy
+85-11	IV	464	Research data for problems pertaining to astronomy and astrophysics
+85A05	IV	464	Galactic and stellar dynamics
+85A15	IV	464	Galactic and stellar structure
+85A20	IV	464	Planetary atmospheres
+85A25	IV	464	Radiative transfer in astronomy and astrophysics
+85A30	IV	464	Hydrodynamic and hydromagnetic problems in astronomy and astrophysics
+85A35	IV	464	Statistical astronomy
+85A40	IV	464	Astrophysical cosmology
+85A99	IV	465	Astronomy and astrophysics
+86-00	IV	467	General reference works (handbooks, dictionaries, bibliographies, etc.)
+86-02	IV	467	Research exposition (monographs, survey articles) pertaining to geophysics
+86-03	IV	467	History of geophysics
+86-04	IV	467	Software, source code, etc. for problems pertaining to geophysics
+86-05	IV	467	Experimental work for problems pertaining to geophysics
+86-06	IV	467	Proceedings, conferences, collections, etc. pertaining to geophysics
+86-08	IV	467	Computational methods for problems pertaining to geophysics
+86-10	IV	467	Mathematical modeling or simulation for problems pertaining to geophysics
+86-11	IV	467	Research data for problems pertaining to geophysics
+86A05	IV	467	Hydrology, hydrography, oceanography
+86A08	IV	467	Climate science and climate modeling
+86A10	IV	467	Meteorology and atmospheric physics
+86A15	IV	467	Seismology (including tsunami modeling), earthquakes
+86A20	IV	467	Potentials, prospecting
+86A22	IV	467	Inverse problems in geophysics
+86A25	IV	467	Geo-electricity and geomagnetism
+86A30	IV	467	Geodesy, mapping problems
+86A32	IV	468	Geostatistics
+86A40	IV	468	Glaciology
+86A60	IV	468	Geological problems
+86A70	IV	468	Vulcanology; magma and lava flow
+86A99	IV	468	Geophysics
+91-00	IV	468	General reference works (handbooks, dictionaries, bibliographies, etc.)
+91-02	IV	468	Research exposition (monographs, survey articles) pertaining to game
+91-03	IV	468	History of game theory, economics, and finance
+91-04	IV	468	Software, source code, etc. for problems pertaining to game theory,
+91-05	IV	468	Experimental work for problems pertaining to game theory, economics, and
+91-06	IV	468	Proceedings, conferences, collections, etc. pertaining to game theory,
+91-08	IV	468	Computational methods for problems pertaining to game theory, economics,
+91-10	IV	468	Mathematical modeling or simulation for problems pertaining to game theory,
+91-11	IV	469	Research data for problems pertaining to game theory, economics, and
+91A05	IV	469	2-person games
+91A06	IV	469	(n)-person games, (n>2)
+91A07	IV	469	Games with infinitely many players
+91A10	IV	469	Noncooperative games
+91A11	IV	469	Equilibrium refinements
+91A12	IV	469	Cooperative games
+91A14	IV	469	Potential and congestion games
+91A15	IV	469	Stochastic games, stochastic differential games
+91A16	IV	469	Mean field games (aspects of game theory)
+91A18	IV	469	Games in extensive form
+91A20	IV	469	Multistage and repeated games
+91A22	IV	470	Evolutionary games
+91A23	IV	470	Differential games (aspects of game theory)
+91A24	IV	470	Positional games (pursuit and evasion, etc.)
+91A25	IV	470	Dynamic games
+91A26	IV	470	Rationality and learning in game theory
+91A27	IV	470	Games with incomplete information, Bayesian games
+91A28	IV	470	Signaling and communication in game theory
+91A30	IV	470	Utility theory for games
+91A35	IV	470	Decision theory for games
+91A40	IV	470	Other game-theoretic models
+91A43	IV	470	Games involving graphs
+91A44	IV	470	Games involving topology, set theory, or logic
+91A46	IV	470	Combinatorial games
+91A50	IV	471	Discrete-time games
+91A55	IV	471	Games of timing
+91A60	IV	471	Probabilistic games; gambling
+91A65	IV	471	Hierarchical games (including Stackelberg games)
+91A68	IV	471	Algorithmic game theory and complexity
+91A70	IV	471	Spaces of games
+91A80	IV	471	Applications of game theory
+91A81	IV	471	Quantum games
+91A86	IV	471	Game theory and fuzziness
+91A90	IV	471	Experimental studies
+91A99	IV	471	Game theory
+91B02	IV	471	Fundamental topics (basic mathematics, methodology; applicable to
+91B03	IV	472	Mechanism design theory
+91B05	IV	472	Risk models (general)
+91B06	IV	472	Decision theory
+91B08	IV	472	Individual preferences
+91B10	IV	472	Group preferences
+91B12	IV	472	Voting theory
+91B14	IV	472	Social choice
+91B15	IV	472	Welfare economics
+91B16	IV	472	Utility theory
+91B18	IV	472	Public goods
+91B24	IV	472	Microeconomic theory (price theory and economic markets)
+91B26	IV	472	Auctions, bargaining, bidding and selling, and other market models
+91B32	IV	472	Resource and cost allocation (including fair division, apportionment, etc.)
+91B38	IV	472	Production theory, theory of the firm
+91B39	IV	472	Labor markets
+91B41	IV	472	Contract theory (moral hazard, adverse selection)
+91B42	IV	472	Consumer behavior, demand theory
+91B43	IV	473	Principal-agent models
+91B44	IV	473	Economics of information
+91B50	IV	473	General equilibrium theory
+91B51	IV	473	Dynamic stochastic general equilibrium theory
+91B52	IV	473	Special types of economic equilibria
+91B54	IV	473	Special types of economic markets (including Cournot, Bertrand)
+91B55	IV	473	Economic dynamics
+91B60	IV	473	Trade models
+91B62	IV	473	Economic growth models
+91B64	IV	473	Macroeconomic theory (monetary models, models of taxation)
+91B66	IV	473	Multisectoral models in economics
+91B68	IV	473	Matching models
+91B69	IV	473	Heterogeneous agent models
+91B70	IV	473	Stochastic models in economics
+91B72	IV	473	Spatial models in economics
+91B74	IV	473	Economic models of real-world systems (e.g., electricity markets, etc.)
+91B76	IV	474	Environmental economics (natural resource models, harvesting, pollution,
+91B80	IV	474	Applications of statistical and quantum mechanics to economics
+91B82	IV	474	Statistical methods; economic indices and measures
+91B84	IV	474	Economic time series analysis
+91B86	IV	474	Mathematical economics and fuzziness
+91B99	IV	474	Mathematical economics
+91C05	IV	474	Measurement theory in the social and behavioral sciences
+91C15	IV	474	One- and multidimensional scaling in the social and behavioral sciences
+91C20	IV	474	Clustering in the social and behavioral sciences
+91C99	IV	474	Social and behavioral sciences: general topics
+91D10	IV	474	Models of societies, social and urban evolution
+91D15	IV	474	Social learning
+91D20	IV	475	Mathematical geography and demography
+91D25	IV	475	Spatial models in sociology
+91D30	IV	475	Social networks; opinion dynamics
+91D35	IV	475	Manpower systems in sociology
+91D99	IV	475	Mathematical sociology (including anthropology)
+91E10	IV	475	Cognitive psychology
+91E30	IV	475	Psychophysics and psychophysiology; perception
+91E40	IV	475	Memory and learning in psychology
+91E45	IV	475	Measurement and performance in psychology
+91E99	IV	475	Mathematical psychology
+91F10	IV	475	History, political science
+91F20	IV	475	Linguistics
+91F99	IV	476	Other social and behavioral sciences (mathematical treatment)
+91G05	IV	476	Actuarial mathematics
+91G10	IV	476	Portfolio theory
+91G15	IV	476	Financial markets
+91G20	IV	476	Derivative securities (option pricing, hedging, etc.)
+91G30	IV	476	Interest rates, asset pricing, etc. (stochastic models)
+91G40	IV	476	Credit risk
+91G45	IV	476	Financial networks (including contagion, systemic risk, regulation)
+91G50	IV	476	Corporate finance (dividends, real options, etc.)
+91G60	IV	476	Numerical methods (including Monte Carlo methods)
+91G70	IV	476	Statistical methods; risk measures
+91G80	IV	476	Financial applications of other theories
+91G99	IV	476	Actuarial science and mathematical finance
+92-00	IV	479	General reference works (handbooks, dictionaries, bibliographies, etc.)
+92-02	IV	479	Research exposition (monographs, survey articles) pertaining to biology
+92-03	IV	479	History of biology
+92-04	IV	479	Software, source code, etc. for problems pertaining to biology
+92-05	IV	479	Experimental work for problems pertaining to biology
+92-06	IV	479	Proceedings, conferences, collections, etc. pertaining to biology
+92-08	IV	479	Computational methods for problems pertaining to biology
+92-10	IV	479	Mathematical modeling or simulation for problems pertaining to biology
+92-11	IV	479	Research data for problems pertaining to biology
+92B05	IV	479	General biology and biomathematics
+92B10	IV	479	Taxonomy, cladistics, statistics in mathematical biology
+92B15	IV	479	General biostatistics
+92B20	IV	479	Neural networks for/in biological studies, artificial life and related topics
+92B25	IV	479	Biological rhythms and synchronization
+92B99	IV	479	Mathematical biology in general
+92C05	IV	480	Biophysics
+92C10	IV	480	Biomechanics
+92C15	IV	480	Developmental biology, pattern formation
+92C17	IV	480	Cell movement (chemotaxis, etc.)
+92C20	IV	480	Neural biology
+92C30	IV	480	Physiology (general)
+92C32	IV	480	Pathology, pathophysiology
+92C35	IV	480	Physiological flow
+92C37	IV	480	Cell biology
+92C40	IV	480	Biochemistry, molecular biology
+92C42	IV	480	Systems biology, networks
+92C45	IV	480	Kinetics in biochemical problems (pharmacokinetics, enzyme kinetics, etc.)
+92C47	IV	480	Biosensors (not for medical applications)
+92C50	IV	480	Medical applications (general)
+92C55	IV	480	Biomedical imaging and signal processing
+92C60	IV	480	Medical epidemiology
+92C70	IV	481	Microbiology
+92C75	IV	481	Biotechnology
+92C80	IV	481	Plant biology
+92C99	IV	481	Physiological, cellular and medical topics
+92D10	IV	481	Genetics and epigenetics
+92D15	IV	481	Problems related to evolution
+92D20	IV	481	Protein sequences, DNA sequences
+92D25	IV	481	Population dynamics (general)
+92D30	IV	481	Epidemiology
+92D40	IV	481	Ecology
+92D45	IV	481	Pest management
+92D50	IV	481	Animal behavior
+92D99	IV	482	Genetics and population dynamics
+92E10	IV	482	Molecular structure (graph-theoretic methods, methods of differential
+92E20	IV	482	Classical flows, reactions, etc. in chemistry
+92E99	IV	482	Chemistry
+92F05	IV	482	Other natural sciences (mathematical treatment)
+92F99	IV	482	Other natural sciences (mathematical treatment)
+93-00	IV	484	General reference works (handbooks, dictionaries, bibliographies, etc.)
+93-02	IV	484	Research exposition (monographs, survey articles) pertaining to systems and
+93-03	IV	484	History of systems and control theory
+93-04	IV	484	Software, source code, etc. for problems pertaining to systems and control
+93-05	IV	484	Experimental work for problems pertaining to systems and control theory
+93-06	IV	484	Proceedings, conferences, collections, etc. pertaining to systems and control
+93-08	IV	484	Computational methods for problems pertaining to systems and control
+93-10	IV	484	Mathematical modeling or simulation for problems pertaining to systems and
+93-11	IV	484	Research data for problems pertaining to systems and control theory
+93A05	IV	484	Axiomatic systems theory
+93A10	IV	484	General systems
+93A13	IV	484	Hierarchical systems
+93A14	IV	484	Decentralized systems
+93A15	IV	484	Large-scale systems
+93A16	IV	484	Multi-agent systems
+93A99	IV	484	General systems theory
+93B03	IV	485	Attainable sets, reachability
+93B05	IV	485	Controllability
+93B07	IV	485	Observability
+93B10	IV	485	Canonical structure
+93B11	IV	485	System structure simplification
+93B12	IV	485	Variable structure systems
+93B15	IV	485	Realizations from input-output data
+93B17	IV	485	Transformations
+93B18	IV	485	Linearizations
+93B20	IV	485	Minimal systems representations
+93B24	IV	485	Topological methods
+93B25	IV	485	Algebraic methods
+93B27	IV	485	Geometric methods
+93B28	IV	485	Operator-theoretic methods
+93B30	IV	485	System identification
+93B35	IV	485	Sensitivity (robustness)
+93B36	IV	485	(H^infty)-control
+93B45	IV	486	Model predictive control
+93B47	IV	486	Iterative learning control
+93B50	IV	486	Synthesis problems
+93B51	IV	486	Design techniques (robust design, computer-aided design, etc.)
+93B52	IV	486	Feedback control
+93B53	IV	486	Observers
+93B55	IV	486	Pole and zero placement problems
+93B60	IV	486	Eigenvalue problems
+93B70	IV	486	Networked control
+93B99	IV	486	Controllability, observability, and system structure
+93C05	IV	486	Linear systems in control theory
+93C10	IV	486	Nonlinear systems in control theory
+93C20	IV	486	Control/observation systems governed by partial differential equations
+93C23	IV	487	Control/observation systems governed by functional-differential equations
+93C25	IV	487	Control/observation systems in abstract spaces
+93C27	IV	487	Impulsive control/observation systems
+93C28	IV	487	Positive control/observation systems
+93C29	IV	487	Boolean control/observation systems
+93C30	IV	487	Control/observation systems governed by functional relations other than
+93C35	IV	487	Multivariable systems, multidimensional control systems
+93C40	IV	487	Adaptive control/observation systems
+93C41	IV	487	Control/observation systems with incomplete information
+93C42	IV	487	Fuzzy control/observation systems
+93C43	IV	487	Delay control/observation systems
+93C55	IV	487	Discrete-time control/observation systems
+93C57	IV	488	Sampled-data control/observation systems
+93C62	IV	488	Digital control/observation systems
+93C65	IV	488	Discrete event control/observation systems
+93C70	IV	488	Time-scale analysis and singular perturbations in control/observation
+93C73	IV	488	Perturbations in control/observation systems
+93C80	IV	488	Frequency-response methods in control theory
+93C83	IV	488	Control/observation systems involving computers (process control, etc.)
+93C85	IV	488	Automated systems (robots, etc.) in control theory
+93C95	IV	488	Application models in control theory
+93C99	IV	488	Model systems in control theory
+93D05	IV	488	Lyapunov and other classical stabilities (Lagrange, Poisson, (L^p, l^p), etc.)
+93D09	IV	489	Robust stability
+93D10	IV	489	Popov-type stability of feedback systems
+93D15	IV	489	Stabilization of systems by feedback
+93D20	IV	489	Asymptotic stability in control theory
+93D21	IV	489	Adaptive or robust stabilization
+93D23	IV	489	Exponential stability
+93D25	IV	489	Input-output approaches in control theory
+93D30	IV	489	Lyapunov and storage functions
+93D40	IV	489	Finite-time stability
+93D50	IV	489	Consensus
+93D99	IV	489	Stability of control systems
+93E03	IV	489	Stochastic systems in control theory (general)
+93E10	IV	489	Estimation and detection in stochastic control theory
+93E11	IV	490	Filtering in stochastic control theory
+93E12	IV	490	Identification in stochastic control theory
+93E14	IV	490	Data smoothing in stochastic control theory
+93E15	IV	490	Stochastic stability in control theory
+93E20	IV	490	Optimal stochastic control
+93E24	IV	490	Least squares and related methods for stochastic control systems
+93E35	IV	490	Stochastic learning and adaptive control
+93E99	IV	490	Stochastic systems and control
+94-00	IV	490	General reference works (handbooks, dictionaries, bibliographies, etc.)
+94-02	IV	490	Research exposition (monographs, survey articles) pertaining to information
+94-03	IV	490	History of information and communication theory
+94-04	IV	490	Software, source code, etc. for problems pertaining to information and
+94-05	IV	490	Experimental work for problems pertaining to information and
+94-06	IV	491	Proceedings, conferences, collections, etc. pertaining to information and
+94-08	IV	491	Computational methods for problems pertaining to information and
+94-10	IV	491	Mathematical modeling or simulation for problems pertaining to information
+94-11	IV	491	Research data for problems pertaining to information and communication
+94A05	IV	491	Communication theory
+94A08	IV	491	Image processing (compression, reconstruction, etc.) in information and
+94A11	IV	491	Application of orthogonal and other special functions
+94A12	IV	491	Signal theory (characterization, reconstruction, filtering, etc.)
+94A13	IV	491	Detection theory in information and communication theory
+94A14	IV	491	Modulation and demodulation in information and communication theory
+94A15	IV	491	Information theory (general)
+94A16	IV	491	Informational aspects of data analysis and big data
+94A17	IV	491	Measures of information, entropy
+94A20	IV	492	Sampling theory in information and communication theory
+94A24	IV	492	Coding theorems (Shannon theory)
+94A29	IV	492	Source coding
+94A34	IV	492	Rate-distortion theory in information and communication theory
+94A40	IV	492	Channel models (including quantum) in information and communication
+94A45	IV	492	Prefix, length-variable, comma-free codes
+94A50	IV	492	Theory of questionnaires
+94A55	IV	492	Shift register sequences and sequences over finite alphabets in information
+94A60	IV	492	Cryptography
+94A62	IV	492	Authentication, digital signatures and secret sharing
+94A99	IV	492	Communication, information
+94B05	IV	492	Linear codes (general theory)
+94B10	IV	492	Convolutional codes
+94B12	IV	493	Combined modulation schemes (including trellis codes) in coding theory
+94B15	IV	493	Cyclic codes
+94B20	IV	493	Burst-correcting codes
+94B25	IV	493	Combinatorial codes
+94B27	IV	493	Geometric methods (including applications of algebraic geometry) applied to
+94B30	IV	493	Majority codes
+94B35	IV	493	Decoding
+94B40	IV	493	Arithmetic codes
+94B50	IV	493	Synchronization error-correcting codes
+94B60	IV	493	Other types of codes
+94B65	IV	493	Bounds on codes
+94B70	IV	493	Error probability in coding theory
+94B75	IV	494	Applications of the theory of convex sets and geometry of numbers (covering
+94B99	IV	494	Theory of error-correcting codes and error-detecting codes
+94C05	IV	494	Analytic circuit theory
+94C11	IV	494	Switching theory, applications of Boolean algebras to circuits and networks
+94C12	IV	494	Fault detection; testing in circuits and networks
+94C15	IV	494	Applications of graph theory to circuits and networks
+94C30	IV	494	Applications of design theory to circuits and networks
+94C60	IV	494	Circuits in qualitative investigation and simulation of models
+94C99	IV	494	Circuits, networks
+94D05	IV	494	Fuzzy sets and logic (in connection with information, communication, or
+94D10	IV	495	Boolean functions
+94D99	IV	495	Miscellaneous topics in information and communication theory
