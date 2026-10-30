@@ -116,6 +116,17 @@ class TestF152(unittest.TestCase):
                     old_t,t=t,old_t-q*t
                     i+=1
 
+    def test_unimodular_trace_matrix(self):
+        for a in range(1,80):
+            for b in range(1,a+1):
+                _,_,_,trace=extended_gcd(a,b)
+                p00,p01,p10,p11=1,0,0,1
+                for i,(x,y,q,r) in enumerate(trace):
+                    # M(q) @ P, where M(q)=[[0,1],[1,-q]].
+                    p00,p01,p10,p11=p10,p11,p00-q*p10,p01-q*p11
+                    self.assertEqual((p00*a+p01*b,p10*a+p11*b),(y,r))
+                    self.assertEqual(p00*p11-p01*p10,(-1)**(i+1))
+
     def test_logarithmic_bound(self):
         for a in range(1,250):
             for b in range(1,a+1):
