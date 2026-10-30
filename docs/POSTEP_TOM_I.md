@@ -331,3 +331,13 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Testy opublikowane: `tests/test_f153.py`, commit `2bad45efd7b7858ec1b41a3c469e0209b374cd83`; pięć metod sprawdzających skończone zakresy. W tej sesji **nie potwierdzono ich uruchomienia**. Nie oznaczać ich jako zaliczone.
 - Kompilacja PDF: **nie wykonana**; środowisko lokalne nie mogło pobrać opublikowanego źródła z raw.githubusercontent.com. Brak zweryfikowanego podglądu i liczby jego stron.
 - Suplement pozostaje niescalony z monolitem 0.20. Licznik **585/1222 bez zmian**. Nie modyfikowano wcześniejszych źródeł ani historycznego wstępu. Nie utworzono finalnego spisu treści; nie rozpoczęto Tomu II.
+
+
+## F15.3 — zakończenie weryfikacji lokalnej i rozwinięcie (31 października 2026)
+
+- **Źródło:** `manuscript/tom-01/F15/F15.3_UZUPELNIENIE_KONGRUENCJE_OKRESY.md`; rozwinięcie T9–T12, D5, K6–K7, Z13–Z16 oraz korekty K3, K7 i warunków brzegowych T3/T8/T12. Commity `62e25b3401b47f15dbd32716db88538714163a1b`, `1b386a413dc41f68817a9ff4d9aafd7d02976e5f`, `2362fd284bfbec113e92a7cb4066561e89e7afa5`. **Łącznie F15.3: 5 definicji, 12 twierdzeń z dowodami, 7 kontrprzykładów, 16 rozwiązanych zadań.**
+- **Testy:** `tests/test_f153.py`; commit `57d3d9034f422b31d816e0ab516f09e1fb0c0ba4`; lokalnie `unittest` **10/10 OK**, `pytest` **10/10 passed**. Zweryfikowano zgodność Git blob SHA źródła `1e205a17f0b663dc5416466052f13df7bc0389f9` i testu `9b68f1eb8ece131b3b70b001aa9030b791486bf7` z GitHub.
+- **Podgląd:** lokalny Pandoc/XeLaTeX, **3 strony A4**, 2624/3408/2776 znaków; PyMuPDF: 0 słów poza marginesem 9 pt; SHA-256 PDF `e1e5031aa31c586e681d695b9cf9b3cc0581114064120b3da33ca7bcbca18726`. PDF nie został dodany jako binarium na `main`.
+- **Dokumentacja dowodowa:** `docs/DOWODY_F15_3_2026-10-31.md`, commit `11093a97400e5672bbc67019c6d0c7f4dcba45d3`.
+- **Ograniczenia:** testy potwierdzają skończone przypadki, nie stanowią niezależnej recenzji dowodów; brak potwierdzonego GitHub CI i pełnej regresji repozytorium. Nie odnaleziono jeszcze zweryfikowanego następnego oznaczenia punktu po F15.3; wymaga to odczytu oryginalnego monolitu.
+- **Wydanie:** historyczny wstęp i dotychczasowe rozdziały bez ingerencji. Integracja z monolitem 0.20 niewykonana; **585/1222 bez zmian**. Bez końcowego spisu treści i bez Tomu II.
