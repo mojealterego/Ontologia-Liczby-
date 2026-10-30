@@ -1,11 +1,11 @@
-# SPIS TREŚCI NADRZĘDNY — według „Taksonomii Matematyki” 2026
+# WEWNĘTRZNA MAPA REDAKCYJNA — według „Taksonomii Matematyki” 2026
 
-> **Pozycja w księdze:** po niezmienionym wstępie historycznym, przed zasadniczym wykładem.  
-> **Rola:** główny spis treści i mapa nawigacyjna kolejnych opracowań; każda pozycja wymaga odrębnej monografii, jeśli jej treść nie istnieje.  
+> **Status:** dokument wyłącznie roboczy dla redakcji; **nie jest finalnym spisem treści Tomu I**.  
+> **Rola:** mapa nawigacyjna i plan kontroli kolejnych opracowań; każda pozycja wymaga odrębnej monografii, jeśli jej treść nie istnieje. Ostateczny spis treści należy opracować dopiero po ukończeniu i złożeniu całego Tomu I, na podstawie rzeczywistych tytułów rozdziałów i numerów stron; w gotowej książce umieścić go po wstępie historycznym.  
 > **Źródło:** „TAKSONOMIA_MATEMATYKI_WYDANIE_JEDNOLITE_PELNE_2026.pdf”, 637 stron; SHA-256 `0fcf0ee0fe92a3b23a43cd15bbea103bb48a9a1b65ec04273bcf55e1e6710ae5`.
 
 ## Wstęp historyczny — fragment chroniony
-**„Wstęp. O początkach liczby: między genezą a statusem bytowym”**. Wydanie 0.19: strony 2–33 (F1.1–F1.8), w całości bez merytorycznych zmian. Dopiero **po tym bloku** należy umieścić spis treści oparty na taksonomii.
+**„Wstęp. O początkach liczby: między genezą a statusem bytowym”**. Wydanie 0.19: strony 2–33 (F1.1–F1.8), w całości bez merytorycznych zmian. Wstęp historyczny pozostaje nietknięty. Finalny spis treści powstanie **dopiero po zamknięciu Tomu I**; niniejsza mapa służy wyłącznie pracy nad treścią.
 
 ## Poziom I — szkoła podstawowa · minimum 4 strony
 **E0 — edukacja wczesnoszkolna:** E0-01 klasyfikacja i relacje; E0-02 liczby naturalne; E0-03 działania arytmetyczne; E0-04 pomiar; E0-05 figury i przestrzeń.
