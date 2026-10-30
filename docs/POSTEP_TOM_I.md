@@ -183,3 +183,29 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Zakres: 3 definicje, 8 twierdzeń z dowodami, 4 kontrprzykłady i 12 rozwiązanych zadań. Certyfikaty prefiksowe, niezmiennik pętli, podział na bloki, kontrola modularna, CRT przy modułach względnie pierwszych, dokładna rekonstrukcja przy ograniczeniu błędu oraz oszacowanie błędów sumowania.
 - Status: tekst źródłowy zapisany; brak potwierdzonej recenzji formalnej, wykonania testów i kompilacji PDF w tej sesji. Nie twierdzić, że są zaliczone.
 - Brak integracji z monolitem 0.20; licznik 585/1222 bez zmian. Dotychczasowe 77 stron odrębnych podglądów nie obejmuje F11.3. Wstęp historyczny i poprzednie materiały niezmienione. Bez finalnego spisu treści i bez Tomu II.
+
+
+## Domknięcie kontroli F11.3 i nowe uzupełnienie F12.1 (30 października 2026)
+
+### F11.3 — rozszerzenie i weryfikacja techniczna
+
+- **Zachowano dotychczasowy tekst** manuscript/tom-01/F11/F11.3_UZUPELNIENIE_KONTROLA_SUM.md i wyłącznie dopisano część o certyfikatach przedziałowych, sumach kontrolnych z wagami, wykrywaniu transpozycji, monotoniczności prefiksów oraz błędach względnych. Commit rozszerzenia: [8fc9bc0](https://github.com/mojealterego/Ontologia-Liczby-/commit/8fc9bc0ea6fb80a7e9907dc4208e38e3dab57c45); końcowy blob źródła: 51f9307a8904361c5c57f4527b0814f7f4fa4ab6.
+- **Bilans treści całego uzupełnienia:** 5 definicji (D1–D5), 14 twierdzeń z dowodami (T1–T14), 8 kontrprzykładów (K1–K8) i 20 rozwiązanych zadań (Z1–Z20). Zapisane źródło jest odrębne od pierwotnych stron 152–153.
+- **Testy:** tests/test_f113.py (8 testów; wcześniejszy commit cb1320b6c0b3d7b1e9f85bda675975c28e2a1ff3) oraz tests/test_f113_extended.py (6 testów; commit [78924ab](https://github.com/mojealterego/Ontologia-Liczby-/commit/78924abe0bed157ceb36ff911892443c69caef89)). Oba pliki odtworzono lokalnie z identycznością Git blob SHA i wykonano: **14/14 OK**. Sprawdzono m.in. przypadki skończone dla wag modulo liczb pierwszych, granic przedziałów i prefiksów.
+- **Podgląd PDF:** lokalna kompilacja Pandoc/XeLaTeX: **4 strony A4**; 1949, 2223, 2627, 1708 znaków wyekstrahowanego tekstu. PyMuPDF: 0 słów poza obszarem 15 pt od krawędzi. SHA-256 PDF: a76515e9e2a818d49772dbfe99456364d99b662a29dcd327c138eeb5e349addc. PDF pozostaje artefaktem lokalnym, nie binarium na GitHubie.
+
+### F12.1 — odejmowanie częściowe i dopełnienie grupowe
+
+- **Nowe źródło:** manuscript/tom-01/F12/F12.1_UZUPELNIENIE_GRUPOWE.md, commit [f8a23d6](https://github.com/mojealterego/Ontologia-Liczby-/commit/f8a23d68c20a7e3e2595c62b4995705a2b4ca5cc); Git blob SHA 9ef241c13a168ba220424294826121f063911ed7, zgodny z lokalnym plikiem użytym do kompilacji PDF.
+- **Zakres:** 5 definicji, 10 twierdzeń z dowodami, 7 kontrprzykładów i 12 rozwiązanych zadań. Operacja częściowa w N, relacja formalnych różnic, konstrukcja Z, dobrze określone działania, porządek grupowy, własność uniwersalna dopełnienia grupowego, teleskopowanie i znaczenie skracalności monoidu. Suplement do oryginalnych stron 154–155 bez ich nadpisywania.
+- **Testy:** tests/test_f121.py, commit [63c0591](https://github.com/mojealterego/Ontologia-Liczby-/commit/63c059113e5cd4df19fa23dc325ecbf06f681c50), Git blob SHA 1b4bd8142de78162c0de6c9652b007bad32320f9. W lokalnym odtworzeniu identycznym bajtowo z plikiem opublikowanym: **12/12 OK**. Kontrole obejmują skończone modele relacji równoważności, działań na klasach, porządku i przedłużenia homomorfizmów do grup cyklicznych.
+- **Podgląd PDF:** Pandoc/XeLaTeX, **4 strony A4**; 2554, 2420, 2108, 2715 znaków tekstu. PyMuPDF: 0 słów poza obszarem 15 pt. SHA-256: cd1314d773e79a51dfe112a59c5651add18388e6fec7cf4fd0a1fc2e77fd22f8.
+
+### Bilans i ograniczenia
+
+- Łącznie w bieżącym lokalnym uruchomieniu: **26/26 testów pozytywnych** (14 F11.3 + 12 F12.1); dwa osobne podglądy PDF, po 4 strony A4. Potwierdzono zgodność Git blob SHA plików źródłowych i testowych z plikami lokalnymi.
+- Wcześniejsze **77 stron** osobnych podglądów F7.1–F11.2 + **4 strony F11.3** + **4 strony F12.1** = **85 stron odrębnych materiałów PDF**, niebędących częścią zintegrowanej księgi.
+- **Licznik właściwego monolitu pozostaje 585/1222 wyłącznie według wcześniejszej dokumentacji.** Nie ma w repozytorium kompletnego źródła ani binarnego wydania 0.20; integracji i nowej paginacji nie wykonano.
+- Nie uruchomiono potwierdzonego GitHub Actions CI i nie wykonano niezależnej recenzji wszystkich twierdzeń. Testy skończonych przypadków nie zastępują dowodów ogólnych.
+- Historyczny wstęp, pierwotne strony manuskryptu i pozostałe suplementy pozostają nietknięte. Bez końcowego spisu treści; bez przejścia do Tomu II.
+- **Następny punkt merytoryczny:** F12.2 „Pożyczanie w zapisie dziesiętnym” (pierwotne strony 156–157). Rozszerzyć formalny niezmiennik pożyczki i przypadki graniczne bez powtarzania przykładów już zawartych w oryginale.
