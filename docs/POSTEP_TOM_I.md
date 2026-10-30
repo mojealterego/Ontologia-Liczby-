@@ -262,3 +262,14 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Bilans:** wcześniejsza liczba 93 niescalonych stron podglądów i 4 strony F13.1 były historycznie dokumentowane z zastrzeżeniem duplikacji F12.2. F13.2 dodaje kolejne 4 strony odrębnego podglądu; **nie ogłaszamy nowego definitywnego sumarycznego bilansu** przed deduplikacją. Monolit Tomu I pozostaje **585/1222 według rejestru 0.20**, bez doliczania suplementów.
 - **Granice weryfikacji:** brak potwierdzonego CI na GitHubie, niezależnej recenzji wszystkich dowodów oraz kompletnego źródła i binarnego monolitu 0.20. Nie wykonano integracji. Historyczny wstęp i wcześniejsza treść pozostają bez zmian; bez finalnego spisu treści, bez Tomu II.
 - **Następny punkt:** F13.3 „Algorytm pisemny” (oryginalne strony 164–165). Należy rozszerzać niezmienniki splotu i przeniesień bez powielania już istniejących przykładów.
+
+
+## F13.3 — Algorytm pisemny: formalna normalizacja (30 października 2026)
+
+- **Źródło:** `manuscript/tom-01/F13/F13.3_UZUPELNIENIE_SPLOT_I_PRZENIESIENIA.md`; uzupełnienie oryginalnych stron 164–165 wydania referencyjnego 0.18. Oryginału ani historycznego wstępu nie modyfikowano.
+- **Zakres:** 4 definicje, 12 twierdzeń z dowodami i 12 rozwiązanych zadań; splot cyfr, indukcyjny niezmiennik prefiksów, normalizacja przeniesień, długość iloczynu, koszt klasyczny, tożsamość Karatsuby, arytmetyka modularna i wykrywanie błędów cyfr.
+- **Kod referencyjny:** `tools/long_multiply.py`; typowany, jawny ślad iloczynu i przeniesień; nie jest implementacją stałoczasową ani biblioteką kryptograficzną.
+- **Testy:** `tests/test_f133.py`; **14/14 lokalnie pozytywnych** (`python -m unittest discover -s tests -p 'test_f133.py' -v` w katalogu roboczym); obejmują m.in. małe przypadki wyczerpujące, testy losowe 256-bitowych liczb, przeniesienia, przepełnienie i walidację danych. Testy obliczeniowe nie zastępują recenzji wszystkich dowodów.
+- **Podgląd PDF:** 5 stron A4, po **2069 / 2849 / 3058 / 3921 / 2502** znaki wyekstrahowanego tekstu; brak słów poza obszarem strony według PyMuPDF (margines bezpieczeństwa 10 pt). Lokalny SHA-256: `3c2d643343c619f2b697b63ad737ae8898079fd916932b1d915eb1f983476695`. PDF lokalny, niewłączony do repozytorium ani monolitu.
+- **Integracja:** niewykonana — nadal brak źródła i binarnego monolitu wydania 0.20. **585/1222** stron właściwego tomu pozostaje liczbą wyłącznie dokumentacyjną; nie doliczać pięciu stron podglądu. Wcześniejszy łączny licznik podglądów nadal wymaga deduplikacji F12.2. Finalny spis treści dopiero po ukończeniu Tomu I.
+- **Kolejny punkt:** po F13.3 przejść do F14.1 zgodnie z kolejnością oryginalnego manuskryptu, po odczytaniu oryginału i weryfikacji wcześniejszych uzupełnień.
