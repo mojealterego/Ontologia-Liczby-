@@ -369,3 +369,5 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy opublikowane:** `tests/test_f163.py`, commit `bd79b37726e1129ec3119ef8714daf3e1329abc0`. Pięć metod: enumeracja mnożenia i dzielenia, przykłady, zero, niepoprawne dane. **Uruchomienie dokładnego pliku repozytoryjnego niepotwierdzone**; brak potwierdzonego CI.
 - **PDF:** nie skompilowano w tej sesji. Nie ma zweryfikowanego podglądu ani liczby stron.
 - **Stan wydawniczy:** brak integracji z rzeczywistym monolitem 0.20, **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały bez zmian. Brak niezależnej recenzji naukowej i pełnej regresji; bez końcowego spisu treści i bez Tomu II.
+
+- **Kontynuacja weryfikacji F16.3 (31.10.2026):** lokalna niezależna enumeracja 14 161 kanonicznych przypadków mnożenia zakończona 14 161/14 161 PASS; porównano z `fractions.Fraction`, NWD, podzielność mianownika i granicę wysokości. Dowód: `docs/DOWODY_F16_3_2026-10-31.md`, commit `e763a440a0b235a704607bb74b1f0c471d4aa31c`. Nie jest to uruchomienie dokładnego pliku `tests/test_f163.py`; PDF nadal nieskompilowany, brak integracji 0.20, **585/1222 bez zmian**.
