@@ -125,6 +125,41 @@ class F164Tests(unittest.TestCase):
                         actual = abs((x+dx)/(y+dy)-x/y)
                         self.assertLessEqual(actual, bound)
 
+    def test_remainder_digit_certificate(self):
+        for base in (2, 3, 10, 16):
+            for b in range(1, 70):
+                for a in (1, b-1):
+                    if gcd(abs(a), b) != 1:
+                        continue
+                    remainder = abs(a) % b
+                    for step in range(1, 20):
+                        digit, remainder = divmod(base * remainder, b)
+                        self.assertTrue(0 <= digit < base)
+                        self.assertTrue(0 <= remainder < b)
+                        self.assertEqual(remainder, (pow(base, step, b) * abs(a)) % b)
+
+    def test_cancellation_condition_bound(self):
+        for x in (Fraction(-5, 2), Fraction(0), Fraction(1), Fraction(1001, 1000)):
+            for y in (Fraction(-1), Fraction(0), Fraction(1), Fraction(3, 2)):
+                if x == y:
+                    continue
+                eps = Fraction(1, 100)
+                for dx in (-eps*abs(x), Fraction(0), eps*abs(x)):
+                    for dy in (-eps*abs(y), Fraction(0), eps*abs(y)):
+                        actual = abs(dx-dy)/abs(x-y)
+                        kappa = (abs(x)+abs(y))/abs(x-y)
+                        self.assertLessEqual(actual, eps*kappa)
+
+    def test_disjoint_interval_order(self):
+        values = [Fraction(a, b) for b in range(1, 8) for a in range(-8, 9)]
+        for base in (2, 10):
+            for digits in (0, 1, 2):
+                bounds = [(x, interval(x, base, digits)) for x in values]
+                for x, (_, ux) in bounds:
+                    for y, (ly, _) in bounds:
+                        if ux < ly:
+                            self.assertLess(x, y)
+
     def test_invalid(self):
         for a, b, base in ((1, 0, 10), (2, 4, 10), (1, 3, 1)):
             with self.assertRaises(ValueError):
