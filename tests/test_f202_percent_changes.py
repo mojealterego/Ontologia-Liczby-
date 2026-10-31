@@ -111,7 +111,7 @@ class PercentChanges(unittest.TestCase):
         self.assertEqual(rate(F(12), F(15)), 25)
 
     def test_K4_K5_K6(self):
-        self.assertNotEqual((50-10)/2, aggregate((F(100), F(900)), (F(150), F(810))))
+        self.assertNotEqual((F(50)+F(-10))/2, aggregate((F(100), F(900)), (F(150), F(810))))
         with self.assertRaises(ValueError):
             rate(F(0), F(5))
         a = lambda x: x+10
