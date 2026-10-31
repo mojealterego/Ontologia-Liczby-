@@ -440,3 +440,14 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja:** lokalny skrypt Python zaliczył kontrole liczby rozwiązań x²≡0 dla p∈{2,3,5,7}, k=1..5, pierwiastków x²≡1 dla p∈{3,5,7,11}, k=1..4, zliczanie CRT dla czterech par modułów i trzech wielomianów oraz przykłady modulo 49 i 15. To skończone sprawdzenia, bez pełnej regresji i formalnej mechanizacji. Błąd K1 wykryto i poprawiono.
 - **PDF:** kompilacja dokładnego opublikowanego źródła nie została wykonana, ponieważ środowisko kontenerowe nie mogło rozwiązać nazwy `raw.githubusercontent.com` (curl exit 6). Nie deklarować podglądu ani liczby stron.
 - **Stan wydawniczy:** brak integracji z monolitem 0.20; **585/1222 bez zmian**. Nie zmieniono historycznego wstępu i wcześniejszych rozdziałów; bez końcowego spisu treści i bez Tomu II.
+
+
+## F17.3 — Porządek i oś liczbowa: geometria dyskretna (31 października 2026)
+
+- **Punkt odniesienia:** biblioteczny `ONTOLOGIA_LICZBY_AKTUALNY_MONOLIT.pdf` (764 strony), strony 193–194, zawierający oryginalny F17.3. Jest to inne wydanie niż monolit 0.20.
+- **Nowe źródło na `main`:** `manuscript/tom-01/F17/F17.3_UZUPELNIENIE_GEOMETRIA_DYSKRETNA.md`, commit `fda869379859c02877dc7a4c778b03262ae50b5e`, normalizacja końca pliku `22fbdc88b97c3ec1986f358bb4a5385a5192c09d`; Git blob SHA `26550d3f252b8db6e92f6b0df960943a55ed733d`.
+- **Zakres:** 7 definicji, 26 twierdzeń i wniosków z dowodami, 10 kontrprzykładów i 26 rozwiązanych zadań. Treść rozwija metrykę, geometrię ścieżek, izometrie, rzutowania, topologię dyskretną, zupełność, zwartość, zaokrąglanie i optymalizację dyskretną, nie zastępując F17.1 ani F17.2.
+- **Testy na `main`:** `tests/test_f173_discrete_geometry.py`, commit `4653f9299dffab7bdddbd96fde3ae7ad3320b545`, normalizacja końca pliku `dc549492b569de6081926eb9664cd59276a8d25d`; Git blob SHA `a5225d73625d72ffacb6fd30120a2f469f710a3c`. Lokalnie `unittest` **15/15 OK**, `pytest` **15 passed**, `compileall` bez błędów. SHA lokalne i repozytoryjne identyczne.
+- **Podgląd PDF:** z dokładnie tego źródła Markdown skompilowano lokalnie Pandoc/XeLaTeX **7 stron A4**; każda zawiera 3053–3440 znaków wyekstrahowanego tekstu; PyMuPDF wykazał 0 słów poza granicą 8 pt. SHA-256 PDF `cd3240131b5e44f83e28f644238054f366744d2fe917f97b8e8d81510d0ebdb3`. PDF nie został opublikowany binarnie na `main`.
+- **Dokumentacja dowodowa:** `docs/DOWODY_F17_3_2026-10-31.md`, commit `ea2714142fa01298eb84068d0fd94705554d211a`.
+- **Ograniczenia:** kontrole skończone nie zastępują pełnej recenzji matematycznej ani mechanizacji; brak kompletnego źródła monolitu 0.20 uniemożliwia integrację i finalną paginację. **585/1222 bez zmian.** Historyczny wstęp i poprzednie rozdziały bez ingerencji. Bez końcowego spisu treści i bez Tomu II.
