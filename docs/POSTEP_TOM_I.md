@@ -490,3 +490,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Podgląd całego F17.3:** Pandoc/XeLaTeX, A4, 11 pt, FreeSerif, margines 20 mm, **19 stron**, każda 2019–3681 znaków tekstu, 0 słów poza granicą 8 pt. PDF SHA-256 **afc3f9d7052c9b021c27b7ccf26ca9ac1459dc7ed81640582765420ff18ce978**. PDF lokalny, nie binarnie zapisany na main.
 - **Dowody:** docs/DOWODY_F17_3_2026-10-31.md, aktualizacja commit **37f1aac5fd71d45b562b77a73aada8a56b80d2ff**. Dla commitu testów brak statusów GitHub CI. Nie przeprowadzono pełnej regresji ani niezależnej recenzji.
 - **Integracja:** brak kompletnego źródła rzeczywistego monolitu 0.20; **585/1222 stron bez zmian**. Wstęp historyczny i inne rozdziały nietknięte. Nie utworzono końcowego spisu treści ani Tomu II.
+
+## F17.3 — widmo laplasjanu i ostra nierówność Poincarégo (31 października 2026)
+
+- **Zmieniono istniejący manuskrypt F17.3 bez tworzenia równoległego suplementu:** manuscript/tom-01/F17/F17.3_UZUPELNIENIE_GEOMETRIA_DYSKRETNA.md, commit b85b24919b87fb32c46fa0ea206eada933edff44, Git blob 7268e7f95df20b9166fc4f4e07f4ce38dc2b9f47. Dotychczasowe źródło o blobie 7642634d347fb3a1bfc0b196f2364e39ddc90cd6 zachowano jako prefiks, dopisując sekcje 19–21.
+- **Nowa treść:** 4 definicje D25–D28, 9 twierdzeń T72–T80 z dowodami, 5 kontrprzykładów K34–K38 i 11 rozwiązanych zadań Z75–Z85. Cały F17.3: 28 definicji, 80 twierdzeń/wniosków, 38 kontrprzykładów, 85 zadań. Kontrola numeracji: brak luk i duplikatów.
+- **Testy na main:** tests/test_f173_spectrum.py, commit 01f5a8c34f6334c6c4f0ea3830b3428dc3d67f1d, Git blob 5edcabee4e6f475447e0caecbffbdc6e5703291c, zgodny z lokalnym plikiem. Python standard library bez NumPy; pytest **10 passed**, unittest **10 OK**, compileall kod 0.
+- **Podgląd dokładnego pełnego źródła F17.3:** Pandoc/XeLaTeX, FreeSerif, A4, 11 pt, margines 20 mm; **22 strony**, bez pustych stron i bez wykrytych słów poza granicą bezpieczeństwa 8 pt. PDF SHA-256 442b4a0f6f845be73d143502b729d0c602554ce348730c344a9c0126e71567c7. Zgodność źródła PDF z main potwierdza Git blob SHA. PDF jest artefaktem lokalnym.
+- **Dowody techniczne:** docs/DOWODY_F17_3_2026-10-31.md, commit 85e94242899b131778ead051f7d9d69ad280673f. Brak potwierdzonego GitHub CI (pusta lista statusów), pełnej regresji, mechanizacji i niezależnej recenzji.
+- **Blokada integracji:** źródło monolitu 0.20 nieobecne w repo. **585/1222 stron bez zmian**. Historyczny wstęp i pozostałe rozdziały nietknięte. Bez finalnego spisu treści i bez Tomu II.
