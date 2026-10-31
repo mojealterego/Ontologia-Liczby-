@@ -394,3 +394,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Niezweryfikowane:** niezależna recenzja matematyczna, formalna mechanizacja dowodów, pełna regresja i GitHub CI (puste commit statuses). **Blokada integracyjna:** brak kompletnego źródła i binarnego monolitu wydania 0.20.
 - **Bilans wydawniczy:** cztery strony odrębnego podglądu **nie są stronami monolitu**. Udokumentowany licznik **585/1222 bez zmian**; łączna suma oddzielnych podglądów nadal wymaga deduplikacji wcześniejszych wersji F12.2. Historyczny wstęp i poprzednie rozdziały bez ingerencji. Bez finalnego spisu treści i bez Tomu II.
 - **Następny punkt:** F17.2 „Działania i znak” (referencyjna strona 191 i dalsze); nie powielać istniejącego dowodu reguły znaków, rozwinąć certyfikaty aksjomatów pierścienia i niezależność reprezentantów.
+
+
+## F17.2 — Działania i znak (31 października 2026)
+
+- Nowy, niezależny suplement: `manuscript/tom-01/F17/F17.2_UZUPELNIENIE_DZIALANIA_ZNAK.md`, commit `8ff9868631ce6cb6ecddc7129692025da9636617` na `main`.
+- 43 numerowane jednostki: 23 bloki definicyjno-dowodowe i kontrmodelowe oraz 20 rozwiązanych zadań. Materiał dotyczy dobrze określonych działań na klasach par, znaków, porządku, dzielników zera, dzielenia z resztą, NWD i uniwersalności Z.
+- **Status:** źródło opublikowane; nie uruchomiono w tej sesji kompilacji PDF ani testów matematycznych; nie wykonano niezależnej recenzji. Objętość PDF niezweryfikowana. To suplement, nie gotowy rozdział scalonej księgi.
+- **Blokada:** brak rzeczywistego źródła monolitu 0.20; licznik **585/1222 bez zmian**. Wstęp historyczny i istniejące rozdziały nietknięte. Bez końcowego spisu treści i bez Tomu II.
