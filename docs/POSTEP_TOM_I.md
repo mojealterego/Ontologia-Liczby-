@@ -341,3 +341,14 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Dokumentacja dowodowa:** `docs/DOWODY_F15_3_2026-10-31.md`, commit `11093a97400e5672bbc67019c6d0c7f4dcba45d3`.
 - **Ograniczenia:** testy potwierdzają skończone przypadki, nie stanowią niezależnej recenzji dowodów; brak potwierdzonego GitHub CI i pełnej regresji repozytorium. Nie odnaleziono jeszcze zweryfikowanego następnego oznaczenia punktu po F15.3; wymaga to odczytu oryginalnego monolitu.
 - **Wydanie:** historyczny wstęp i dotychczasowe rozdziały bez ingerencji. Integracja z monolitem 0.20 niewykonana; **585/1222 bez zmian**. Bez końcowego spisu treści i bez Tomu II.
+
+
+## F16.1 — Ułamek jako iloraz: wysokość i rekonstrukcja modularna (31 października 2026)
+
+- **Źródła odniesienia:** odczytano strony 181–182 bibliotecznego `ONTOLOGIA_LICZBY_AKTUALNY_MONOLIT.pdf` (764 strony, wersja referencyjna, nie monolit 0.20) oraz istniejące `manuscript/tom-01/F14/F14.3_UZUPELNIENIE_KONSTRUKCJA_WYMIERNYCH.md`. Odrębny suplement nie powtarza dowodów konstrukcji ciała \(\mathbb Q\).
+- **Gotowy materiał na `main`:** `manuscript/tom-01/F16/F16.1_UZUPELNIENIE_WYSOKOSC_REKONSTRUKCJA.md`, commit `34e34459382a21f4eafac15baafedb87486c485b`, Git blob SHA `a18086183f80e516212f1df33b9f6f4038a8f383`. **5 definicji, 12 twierdzeń z dowodami, 6 kontrprzykładów i 12 rozwiązanych zadań.** Nowe zagadnienia: minimalność mianownika, funkcja wysokości, ograniczenia wysokości sumy i iloczynu, zliczanie funkcją Eulera, warunki i jednoznaczność rekonstrukcji modularnej.
+- **Testy na `main`:** `tests/test_f161.py`, commit `cb20e74fbce7012f667b82ee6b8cbdd2a07a6d48`, Git blob SHA `7bdb16f12e8a645dfaa83f094a7711e4dc3e164b`. Lokalnie `unittest` **12/12 OK**, `pytest` **12/12 passed**, `compileall` bez błędów. Skończone testy nie zastępują dowodów.
+- **PDF:** lokalny Pandoc/XeLaTeX, **3 strony A4**; długości tekstu 2545/3093/1308 znaków; PyMuPDF: 0 słów poza granicą 9 pt; SHA-256 `4d15e892886b62b09d0e38b5d3b8d5c077efdcbfecc257964c9107fd18d98308`. Podgląd nie jest binarium na GitHub.
+- **Dokumentacja dowodowa:** `docs/DOWODY_F16_1_2026-10-31.md`, commity `700c763cd1a912c273df20c5825e2ee970152dbe`, `9a1422d8ffde4ddd328f18574bd2015ed22cdcbc`.
+- **Ograniczenia:** brak potwierdzonego GitHub CI (statusy commitu testowego puste), pełnej regresji repozytorium, niezależnej recenzji naukowej oraz kompletnego źródła i binarnego monolitu 0.20. Nie integrowano stron. **585/1222 bez zmian**. Wstęp historyczny i poprzednie rozdziały nienaruszone; nie utworzono końcowego spisu treści ani Tomu II.
+- **Kolejny punkt:** F16.2 „Dodawanie i odejmowanie” (referencyjne strony 183–184). Przed rozbudową porównać z F14.3 i F16.1, skupić się na ścisłych algorytmach redukcji liczb pośrednich i weryfikowalnych rachunkach, bez ponownego dowodzenia elementarnego wzoru sumy.
