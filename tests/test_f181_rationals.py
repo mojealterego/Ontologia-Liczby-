@@ -113,9 +113,13 @@ class F181ExactChecks(unittest.TestCase):
         self.assertNotEqual(Fraction(1+1,2+3), Fraction(2+1,4+3))
 
     def test_12_document_numbering(self):
-        p = Path(__file__).resolve().parent / 'F18.1_UZUPELNIENIE_STRUKTURALNE_Q.md'
-        if not p.exists():
-            self.skipTest('local source absent')
+        base = Path(__file__).resolve().parent
+        candidates = [
+            base / 'F18.1_UZUPELNIENIE_STRUKTURALNE_Q.md',
+            base.parent / 'manuscript' / 'tom-01' / 'F18' / 'F18.1_UZUPELNIENIE_STRUKTURALNE_Q.md',
+        ]
+        p = next((candidate for candidate in candidates if candidate.is_file()), None)
+        self.assertIsNotNone(p, 'F18.1 source file must exist')
         source = p.read_text(encoding='utf-8')
         for marker, end in [('D',8),('T',12),('K',6),('Z',12)]:
             nums = [int(x) for x in re.findall(r'\*\*'+marker+r'(\d+)\b', source)]
