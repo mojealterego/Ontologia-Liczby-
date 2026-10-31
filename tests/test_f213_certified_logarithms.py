@@ -217,3 +217,22 @@ class F213Tests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class F213AnalyticBoundsTests(unittest.TestCase):
+    def test_log_one_plus_u_bounds(self):
+        with localcontext() as ctx:
+            ctx.prec = 75
+            for u in [Fraction(-9, 10), Fraction(-1, 2), Fraction(-1, 10), Fraction(0), Fraction(1, 10), Fraction(2), Fraction(9)]:
+                value = decimal_value(1+u).ln()
+                self.assertLessEqual(decimal_value(u/(1+u)), value)
+                self.assertLessEqual(value, decimal_value(u))
+
+    def test_logsumexp_bound(self):
+        with localcontext() as ctx:
+            ctx.prec = 75
+            for z in [(0,), (0, 0), (0, -1), (-3, -2, 0), (2, 2, 2)]:
+                m = max(z)
+                value = sum(Decimal(v).exp() for v in z).ln()
+                self.assertLessEqual(Decimal(m), value)
+                self.assertLessEqual(value, Decimal(m)+Decimal(len(z)).ln())
