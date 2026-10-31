@@ -402,3 +402,7 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - 43 numerowane jednostki: 23 bloki definicyjno-dowodowe i kontrmodelowe oraz 20 rozwiązanych zadań. Materiał dotyczy dobrze określonych działań na klasach par, znaków, porządku, dzielników zera, dzielenia z resztą, NWD i uniwersalności Z.
 - **Status:** źródło opublikowane; nie uruchomiono w tej sesji kompilacji PDF ani testów matematycznych; nie wykonano niezależnej recenzji. Objętość PDF niezweryfikowana. To suplement, nie gotowy rozdział scalonej księgi.
 - **Blokada:** brak rzeczywistego źródła monolitu 0.20; licznik **585/1222 bez zmian**. Wstęp historyczny i istniejące rozdziały nietknięte. Bez końcowego spisu treści i bez Tomu II.
+
+- **Kontynuacja F17.2:** cztery aneksy, w tym dowód dobrze określonego iloczynu w N, dzielenie przez ujemny dzielnik, przypadki NWD oraz 10 dalszych zadań (razem 30). Commit `1ad07240bb5361769534f017a8316bc4bb2e508a` na `main`.
+- **Weryfikacja ograniczona:** sześć lokalnych testów pomocniczych przeszło (arytmetyka par, przykłady, reszty, skracanie); nie uruchomiono dokładnego testu z repozytorium. Próba pobrania aktualnego źródła do środowiska PDF zakończyła się błędem sieciowym. Wygenerowany lokalnie jednostronicowy PDF zawierał wyłącznie techniczny nagłówek i **nie jest podglądem manuskryptu**. Nie raportować go jako skompilowanego suplementu.
+- **Integracja:** 585/1222 bez zmian; brak źródła monolitu 0.20.
