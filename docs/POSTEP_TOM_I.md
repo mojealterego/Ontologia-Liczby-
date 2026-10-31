@@ -480,3 +480,13 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Podgląd źródła identycznego z `main`:** Pandoc/XeLaTeX, A4, 11 pt, margines 20 mm, **15 stron**, wszystkie z tekstem, 0 słów poza bezpieczną granicą 8 pt; PDF SHA-256 `1bd4e73b5c22583e4130a8e011840c48da7bcc508fa3b331e0cda6e085c46b54`. Ostatnia strona częściowo wypełniona. PDF lokalny, nie binarnie opublikowany w repo.
 - **Dokumentacja:** `docs/DOWODY_F17_3_2026-10-31.md`, commit `4fdb5dcb81441731c50d4dc587d9bf6bf630b1b2`, korekta formatowania `2e7830f9f87766584bc2feadbab6cea519124b81`.
 - **Ograniczenia:** brak pełnej regresji repozytorium, potwierdzonego GitHub CI, formalnej mechanizacji i niezależnej recenzji. Brak źródła monolitu 0.20 uniemożliwia scalanie. **585/1222 bez zmian**. Historyczny wstęp i poprzednie rozdziały nienaruszone; bez finalnego spisu treści i bez Tomu II.
+
+
+## F17.3 — energia Dirichleta i zadania brzegowe (31 października 2026)
+
+- **Zapis na main:** bezpośrednio rozszerzono istniejący F17.3 (bez nowego równoległego suplementu), commit **9fc8c64cbe8aed20d6fdd335424e071a52906eab**, blob **7642634d347fb3a1bfc0b196f2364e39ddc90cd6**. Dotychczasowy tekst pozostał niezmienionym prefiksem źródła. Nowe sekcje: D19–D24, T59–T71, K27–K33, Z63–Z74 (6 definicji, 13 twierdzeń z dowodami, 7 kontrprzykładów, 12 zadań rozwiązanych).
+- **Zakres całego F17.3:** D1–D24, T1–T71 (łącznie z wnioskami), K1–K33, Z1–Z74; pełną numerację sprawdza test. Rozwinięto energię dyskretną, problem Dirichleta, laplasjan, tożsamość i jądro Greena, równanie Poissona oraz ważone minimum energii.
+- **Testy na main:** tests/test_f173_dirichlet_green.py, commit **a576588610d800ce2da34cd09596851f55fdf197**, blob **96b7f9c3e30a0ad3ecb906b6fc7ad7eae9ce226c**. Identyczne lokalne źródła: pytest **14/14**, unittest **14/14**, compileall OK; testy na dokładnych ułamkach i skończonych przypadkach, nie formalne dowody.
+- **Podgląd całego F17.3:** Pandoc/XeLaTeX, A4, 11 pt, FreeSerif, margines 20 mm, **19 stron**, każda 2019–3681 znaków tekstu, 0 słów poza granicą 8 pt. PDF SHA-256 **afc3f9d7052c9b021c27b7ccf26ca9ac1459dc7ed81640582765420ff18ce978**. PDF lokalny, nie binarnie zapisany na main.
+- **Dowody:** docs/DOWODY_F17_3_2026-10-31.md, aktualizacja commit **37f1aac5fd71d45b562b77a73aada8a56b80d2ff**. Dla commitu testów brak statusów GitHub CI. Nie przeprowadzono pełnej regresji ani niezależnej recenzji.
+- **Integracja:** brak kompletnego źródła rzeczywistego monolitu 0.20; **585/1222 stron bez zmian**. Wstęp historyczny i inne rozdziały nietknięte. Nie utworzono końcowego spisu treści ani Tomu II.
