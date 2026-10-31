@@ -406,3 +406,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Kontynuacja F17.2:** cztery aneksy, w tym dowód dobrze określonego iloczynu w N, dzielenie przez ujemny dzielnik, przypadki NWD oraz 10 dalszych zadań (razem 30). Commit `1ad07240bb5361769534f017a8316bc4bb2e508a` na `main`.
 - **Weryfikacja ograniczona:** sześć lokalnych testów pomocniczych przeszło (arytmetyka par, przykłady, reszty, skracanie); nie uruchomiono dokładnego testu z repozytorium. Próba pobrania aktualnego źródła do środowiska PDF zakończyła się błędem sieciowym. Wygenerowany lokalnie jednostronicowy PDF zawierał wyłącznie techniczny nagłówek i **nie jest podglądem manuskryptu**. Nie raportować go jako skompilowanego suplementu.
 - **Integracja:** 585/1222 bez zmian; brak źródła monolitu 0.20.
+
+## F17.2 — pogłębienie i kontrole (31 października 2026)
+
+- **Na main:** `manuscript/tom-01/F17/F17.2_PAKIET_WERYFIKACYJNY.md` (6 definicji, 13 twierdzeń z dowodami, 8 kontrprzykładów, 12 zadań rozwiązanych; commit `a8656201c068d5c5b00cd69bed9d49758c0b72f5`); `manuscript/tom-01/F17/F17.2_CERTYFIKATY_C11_C14.md` (4 certyfikaty, commit `b205ebac00fa5b933da2c1f384dd685b5120f167`).
+- **Testy na main:** `tests/test_f172_extended.py` (commit `b96c973ef65c4b0c7a6d94f5418381f791c2c288`, blob `f9323365ffa5755d3731d68c02605fb66498aa59`). Lokalna kopia o identycznym Git blob SHA: unittest **12/12 OK**, pytest **12 passed**, compileall OK. Testy skończone, nie zastępują dowodów.
+- **Podgląd lokalny:** osobny, **szerszy wariant roboczy** F17.2 (6 definicji, 18 twierdzeń, 10 kontrprzykładów, 24 zadania i 4 certyfikaty) skompilowano do **10 stron A4**, SHA-256 `43f1a7eadb66d62371dc77fa968c21cdfda94b872427ae7d5555cb76a5cac5a6`, bez słów poza bezpiecznym marginesem. **Nie jest to podgląd identyczny z publikowanym pakietem MD**; pełny wariant lokalny nie został zapisany na main i nie jest zintegrowany.
+- **Dokumentacja:** `docs/DOWODY_F17_2_2026-10-31.md`, commit `6a1b38c0cb54dcf8d4628a21cd65097ba0794f9d`.
+- **Ograniczenia:** brak CI (0 commit statuses), pełnej regresji, formalnej mechanizacji i niezależnej recenzji. Brak rzeczywistego monolitu 0.20 blokuje integrację. Historyczny wstęp i dotychczasowy manuskrypt nienaruszone. **585/1222 bez zmian**; bez finalnego spisu treści i bez Tomu II.
