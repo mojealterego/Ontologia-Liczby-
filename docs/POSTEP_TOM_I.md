@@ -545,3 +545,14 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Następny punkt:** F19.2 „Dlaczego pojawia się okres?” — opracować uzupełnienia wykraczające poza już obecne twierdzenie o automacie reszt i rzędzie multiplikatywnym, bez dublowania dowodów.
 
 - **Korekta definicji F19.1:** commit **77eabb329faf6447d817c4c2b53c5c9c07c7c6b4** doprecyzowuje prefiks pusty i ogranicza definicję przedokresu do rozwinięć ostatecznie okresowych; po korekcie powtórzono 12/12 unittest, 12/12 pytest i kompilację 3-stronicowego PDF. Blob i SHA-256 w powyższej sekcji odpowiadają wersji skorygowanej.
+
+
+## F19.2 — orbity reszt, symetrie i certyfikaty okresu (31 października 2026)
+
+- **Punkt wyjścia:** odczytano F19.2 „Dlaczego pojawia się okres?” ze stron 204–205 bibliotecznego, 764-stronicowego \`ONTOLOGIA_LICZBY_AKTUALNY_MONOLIT.pdf\` oraz aktualny rejestr. W oryginale istnieją już argument skończonego automatu reszt, rząd multiplikatywny i granica Eulera; nowe uzupełnienie nie powtarza tych dowodów. Wskazano korektę zapisu \`1/11=0,(09)\` i \`1/13=0,(076923)\` bez modyfikowania oryginału.
+- **Nowy manuskrypt na \`main\`:** \`manuscript/tom-01/F19/F19.2_UZUPELNIENIE_ORBITY_I_OKRESY.md\`; commity \`f635f0eee3182ddb31bb067734f86c2dc499d94e\` i \`de4031def9ff3e423458053d6ddadbd9bed7a786\`; końcowy Git blob \`6bc2f6185a5c6f36962bbb03f16f39633c6be298\`. Zawiera **6 definicji, 10 twierdzeń z dowodami, 6 kontrprzykładów i 12 rozwiązanych zadań**. Zakres: orbity reszt, obrót okresu, certyfikaty minimalności, granica Carmichaela, komplementarne połowy, częstość cyfr, rekonstrukcja mianownika oraz dwa kompletne ślady dzielenia.
+- **Testy na \`main\`:** \`tests/test_f192_period_orbits.py\`, commity \`be0882dda135a46dc569423ae2771a3b307307f7\` i \`8f1b395d4fe7d663990048c21b76134a4d87f9ca\`; Git blob \`bfd8e25f26f54021b9bca66b0b0a45b1aa10c765\`. Lokalnie **15/15 unittest**, **15/15 pytest**, compileall bez błędów. Potwierdzono zgodność blobów z GitHub. Combined statuses puste — **brak potwierdzonego CI**. Testy skończonych przypadków nie zastępują formalnej weryfikacji wszystkich dowodów.
+- **Podgląd lokalny:** Pandoc/XeLaTeX, **4 strony A4**, tekst na stronach **3098 / 3233 / 2929 / 2365** znaków; PyMuPDF: **0 słów poza marginesem 8 pt**; SHA-256 PDF \`9264e49bbf1a4081194c9186473b7f715d9c381b43ff3e3cefe5deadddcdce27\`. PDF nie jest binarium na GitHub.
+- **Dowody:** \`docs/DOWODY_F19_2_2026-10-31.md\`, commit \`c183221c207d7fd47fda93bcbc2a940d18b0529b\`.
+- **Integracja i bilans:** nie wykonano integracji z wydaniem 0.20 (brak kompletnego źródła i binarium w repo). **585/1222 stron bez zmian**; czterech stron podglądu nie doliczono. Historyczny wstęp i poprzednie rozdziały nienaruszone. Nie utworzono finalnego spisu treści ani nie rozpoczęto Tomu II.
+- **Następny punkt:** F19.3 „Zaokrąglenie i błąd”; przed opracowaniem porównać z F19.1 i F18.2, aby nie powielać certyfikatów błędów.
