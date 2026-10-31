@@ -361,3 +361,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja niezależna lokalna:** uruchomiono `/mnt/data/ontologia_f162/verify.py`, 33 489 kombinacji kanonicznych ułamków; wszystkie zgodne z `fractions.Fraction`, podzielnością mianownika przez NWW i granicą wysokości. To nie jest pełny wynik testów repozytorium.
 - **PDF:** Pandoc i XeLaTeX są zainstalowane, ale próba pobrania opublikowanego źródła zakończyła się błędem DNS `Could not resolve host: raw.githubusercontent.com`; **kompilacji podglądu nie wykonano**, brak zweryfikowanej liczby stron PDF.
 - **Ograniczenia:** brak potwierdzonego CI, niezależnej recenzji, pełnej regresji i integracji z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i dotychczasowe źródła pozostają nienaruszone. Bez końcowego spisu treści i bez Tomu II.
+
+
+## F16.3 — Mnożenie i dzielenie: skracanie krzyżowe (31 października 2026)
+
+- **Źródło na main:** `manuscript/tom-01/F16/F16.3_UZUPELNIENIE_MNOZENIE_DZIELENIE.md`, commit `bd89786240deabe9ebc6fe5130c7ce71090f7000`. 4 definicje, 10 twierdzeń z dowodami, 6 kontrprzykładów i 12 zadań rozwiązanych. Zagadnienia: kanoniczne skracanie krzyżowe, zero, kryterium dopuszczalności dzielenia, ograniczenie wysokości i certyfikat iloczynu.
+- **Testy opublikowane:** `tests/test_f163.py`, commit `bd79b37726e1129ec3119ef8714daf3e1329abc0`. Pięć metod: enumeracja mnożenia i dzielenia, przykłady, zero, niepoprawne dane. **Uruchomienie dokładnego pliku repozytoryjnego niepotwierdzone**; brak potwierdzonego CI.
+- **PDF:** nie skompilowano w tej sesji. Nie ma zweryfikowanego podglądu ani liczby stron.
+- **Stan wydawniczy:** brak integracji z rzeczywistym monolitem 0.20, **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały bez zmian. Brak niezależnej recenzji naukowej i pełnej regresji; bez końcowego spisu treści i bez Tomu II.
