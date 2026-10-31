@@ -84,7 +84,13 @@ class F171Tests(unittest.TestCase):
         self.assertEqual((2 * 0, 3 * 0), (0, 0))
         self.assertGreater(-8, -12)
         self.assertEqual(6 % 6, 0)
-        self.assertTrue(all(n < 1000 for n in range(10)))
+        # In the leading-coefficient order on Z[t], t - n is positive.
+        def positive_polynomial(coefficients: tuple[int, ...]) -> bool:
+            return next((c > 0 for c in reversed(coefficients) if c != 0), False)
+
+        for n in range(1000):
+            self.assertTrue(positive_polynomial((-n, 1)))
+            self.assertFalse(positive_polynomial((n, -1)))
 
     def test_exercises(self) -> None:
         self.assertEqual(normal(4, 11), (0, 7))
