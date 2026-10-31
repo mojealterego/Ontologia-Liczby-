@@ -519,3 +519,5 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Podgląd źródła identycznego z main:** Pandoc/XeLaTeX, FreeSerif, A4, 11 pt, margines 20 mm; **3 strony** z tekstem, 0 słów poza granicą bezpieczeństwa 8 pt; PDF SHA-256 64455340fc7628b71cdbd059cfc24b9abab6d4e2a1879d86e08a704008c57fe8. PDF lokalny, nie opublikowany binarnie w repo.
 - **Dokumentacja dowodowa:** docs/DOWODY_F18_1_2026-10-31.md, commit debf4efb99003f812644a08c21779fdd8a68b3b4.
 - **Ograniczenia:** GitHub combined statuses dla commitu testów puste; brak potwierdzonego CI, pełnej regresji i niezależnej recenzji matematycznej. Brak źródła monolitu 0.20 blokuje integrację. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nienaruszone; bez finalnego spisu treści i bez Tomu II.
+
+- **Korekta testu F18.1:** usunięto możliwość cichego pominięcia testu numeracji w układzie repozytoryjnym; commit 0b6ec979fb0b2199135541a2711f28c40c508eaa, blob 6dcd9ab0c829c6dd965dc410f27ac76dec509d1e. Po zmianie lokalne unittest 12/12 OK, pytest 12 passed, compileall kod 0. Wcześniejszy blob testu był przejściowy.
