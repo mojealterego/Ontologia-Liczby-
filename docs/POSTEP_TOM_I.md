@@ -451,3 +451,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Podgląd PDF:** z dokładnie tego źródła Markdown skompilowano lokalnie Pandoc/XeLaTeX **7 stron A4**; każda zawiera 3053–3440 znaków wyekstrahowanego tekstu; PyMuPDF wykazał 0 słów poza granicą 8 pt. SHA-256 PDF `cd3240131b5e44f83e28f644238054f366744d2fe917f97b8e8d81510d0ebdb3`. PDF nie został opublikowany binarnie na `main`.
 - **Dokumentacja dowodowa:** `docs/DOWODY_F17_3_2026-10-31.md`, commit `ea2714142fa01298eb84068d0fd94705554d211a`.
 - **Ograniczenia:** kontrole skończone nie zastępują pełnej recenzji matematycznej ani mechanizacji; brak kompletnego źródła monolitu 0.20 uniemożliwia integrację i finalną paginację. **585/1222 bez zmian.** Historyczny wstęp i poprzednie rozdziały bez ingerencji. Bez końcowego spisu treści i bez Tomu II.
+
+
+## F17.3 — bezpośrednia rozbudowa istniejącego rozdziału (31 października 2026)
+
+- **Nie tworzono kolejnego równoległego suplementu:** rozszerzono istniejący `manuscript/tom-01/F17/F17.3_UZUPELNIENIE_GEOMETRIA_DYSKRETNA.md` o wypukłość porządkową, twierdzenie Helly'ego na osi, odległości od krat arytmetycznych i różnice skończone. Zachowano dotychczasowy tekst. Commit `d49ea956171c0ce240b36b62747b0aec58e54bb4`, blob `aed288a385383e909c66d6dcc7b1e4ee0cec51f6`. Nowa część: **3 definicje, 11 twierdzeń z dowodami, 4 kontrprzykłady, 12 rozwiązanych zadań**; całe F17.3: D1–D10, T1–T37, K1–K14, Z1–Z38.
+- **Testy opublikowane na main:** `tests/test_f173_order_convexity.py`, commit `69e97f823b46c2859c75f7e2180f07afbd0397ae`, blob `a0c8f0e9d783870fd8f3aef062bb7660d670d9b1`; lokalnie identyczny blob: `unittest` **11/11 OK**, `pytest` **11 passed**. Testy skończone, bez formalnej mechanizacji.
+- **Podgląd dokładnie źródła z main:** Git blob identyczny z lokalnym źródłem; Pandoc/XeLaTeX **9 stron A4**, 11 pt, margines 2,0 cm, wszystkie strony z rzeczywistą treścią, 0 słów poza bezpieczną granicą 8 pt. SHA-256 PDF `52f60a45d73335057162d3d372a8f434216eae6c5d26360f447198085495966d`. PDF tylko lokalny, bez binarnego uploadu na main.
+- **Dowody wykonania:** `docs/DOWODY_F17_3_2026-10-31.md`, aktualizacja commit `c4a369350e29791d87b3bc41a56500a86033255a`. Nie przeprowadzono pełnej regresji, GitHub CI ani formalnej recenzji matematycznej.
+- **Bilans monolitu 0.20:** **585/1222 bez zmian**. Brak kompletnego źródła monolitu blokuje scalanie; bez ingerencji w historyczny wstęp, bez finalnego spisu treści i bez Tomu II.
