@@ -460,3 +460,13 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Podgląd dokładnie źródła z main:** Git blob identyczny z lokalnym źródłem; Pandoc/XeLaTeX **9 stron A4**, 11 pt, margines 2,0 cm, wszystkie strony z rzeczywistą treścią, 0 słów poza bezpieczną granicą 8 pt. SHA-256 PDF `52f60a45d73335057162d3d372a8f434216eae6c5d26360f447198085495966d`. PDF tylko lokalny, bez binarnego uploadu na main.
 - **Dowody wykonania:** `docs/DOWODY_F17_3_2026-10-31.md`, aktualizacja commit `c4a369350e29791d87b3bc41a56500a86033255a`. Nie przeprowadzono pełnej regresji, GitHub CI ani formalnej recenzji matematycznej.
 - **Bilans monolitu 0.20:** **585/1222 bez zmian**. Brak kompletnego źródła monolitu blokuje scalanie; bez ingerencji w historyczny wstęp, bez finalnego spisu treści i bez Tomu II.
+
+
+## F17.3 — rozbudowa bezpośrednia do 12 stron podglądu (31 października 2026)
+
+- **Plik istniejącego rozdziału rozszerzony bez usuwania wcześniejszej treści:** `manuscript/tom-01/F17/F17.3_UZUPELNIENIE_GEOMETRIA_DYSKRETNA.md`; commit `c1cedc519e8f1aac6fc2e99f42185ee194c670c6`, Git blob `7072d5fdfcaba50b8e5486b1606398b099c3fefe`.
+- **Nowe fragmenty:** D11–D14 (centra minimaksowe, koercywność, silna wypukłość, ważone sumy odległości), T38–T48 (pełne dowody), K15–K20 (kontrprzykłady), Z39–Z52 (rozwiązania). Cały punkt: 14 definicji, 48 twierdzeń/wniosków, 20 kontrprzykładów, 52 zadania rozwiązane.
+- **Testy repozytoryjne:** `tests/test_f173_centers_convex_paths.py`, commit `0a54df8cfafbbe23957bf8b0e579e9e721d18367`; lokalnie **11/11 unittest**, **11/11 pytest**, compileall OK. Git blob testu `5d70293d4b229059279222396af355ee0632493e`, zgodny z lokalnym.
+- **Podgląd:** źródło identyczne z GitHub na podstawie Git blob; Pandoc/XeLaTeX **12 stron A4**, bez pustych stron i bez wykrytych słów poza marginesem bezpieczeństwa 8 pt. PDF SHA-256 `790c6718dc48c346f9606bd1a0dff0ca6862bde60082243ee6780b6b1c66397f`. PDF lokalny, nie w repo.
+- **Dowody techniczne:** `docs/DOWODY_F17_3_2026-10-31.md`, aktualizacja commit `881595c06137b137a91b68f4a60575a30172fd6e`. Brak potwierdzonego CI (puste statusy i workflow runs dla commitu testów); brak pełnej regresji i formalnej recenzji.
+- **Integracja:** monolit 0.20 nieobecny w repo; **585/1222 bez zmian**. Nie edytowano historycznego wstępu ani poprzednich rozdziałów. Nie tworzono końcowego spisu treści ani Tomu II.
