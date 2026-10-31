@@ -499,3 +499,13 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Podgląd dokładnego pełnego źródła F17.3:** Pandoc/XeLaTeX, FreeSerif, A4, 11 pt, margines 20 mm; **22 strony**, bez pustych stron i bez wykrytych słów poza granicą bezpieczeństwa 8 pt. PDF SHA-256 442b4a0f6f845be73d143502b729d0c602554ce348730c344a9c0126e71567c7. Zgodność źródła PDF z main potwierdza Git blob SHA. PDF jest artefaktem lokalnym.
 - **Dowody techniczne:** docs/DOWODY_F17_3_2026-10-31.md, commit 85e94242899b131778ead051f7d9d69ad280673f. Brak potwierdzonego GitHub CI (pusta lista statusów), pełnej regresji, mechanizacji i niezależnej recenzji.
 - **Blokada integracji:** źródło monolitu 0.20 nieobecne w repo. **585/1222 stron bez zmian**. Historyczny wstęp i pozostałe rozdziały nietknięte. Bez finalnego spisu treści i bez Tomu II.
+
+
+## F17.3 — dodatniość semigrupy cieplnej, wymuszenie i Euler (31 października 2026)
+
+- **Zapis na `main`:** bezpośrednie rozszerzenie istniejącego `manuscript/tom-01/F17/F17.3_UZUPELNIENIE_GEOMETRIA_DYSKRETNA.md` o sekcje 22–24, bez usunięcia wcześniejszego prefiksu; commity `7f787ae5430f8bea630f9c86210c4d8a38f44f34` oraz `7ee6d8663e416a7b03a29226e29cdcf1ede8c21c`. Końcowy Git blob `2e501f099b5d83deb78adfa7e12706a25c8b7068`.
+- **Nowa treść:** D29–D32, T81–T89 (9 twierdzeń z dowodami), K39–K44, Z86–Z97 (12 rozwiązanych zadań). Cały F17.3: **32 definicje, 89 twierdzeń/wniosków, 44 kontrprzykłady, 97 zadań rozwiązanych**. Dodatniość, substochastyczność i symetria jądra cieplnego, zasada porównania, kontrakcja, jawny Euler, wzór Duhamela, wymuszenie i równowaga Greena.
+- **Testy na `main`:** `tests/test_f173_heat_semigroup.py`, commit `7d82c6c76088236aba1b7dfae4f6ea70706324c4`, blob `c8bc34e076a9b48d8c7f6e4ab25b6187b7ed02a1`, zgodny z lokalnym. `unittest` **15/15 OK**, `pytest` **15 passed**, `compileall` kod 0. Kontrole skończone, nie formalna mechanizacja.
+- **Podgląd całego F17.3:** dokładne źródło z `main` (zgodny Git blob), Pandoc/XeLaTeX, A4, 11 pt, FreeSerif, margines 20 mm, **24 strony**, wszystkie z tekstem, 0 słów poza granicą 8 pt; PDF SHA-256 `aef3db5dc1be9c95c4cab266c5f74b5a9fb00d87aea8e037287ae13e0adf2014`. PDF pozostaje lokalny, nie opublikowano go binarnie na GitHub.
+- **Dowody:** `docs/DOWODY_F17_3_CIEPLO_2026-10-31.md`, commit `47ecd7c432ccd19d272a8979398044eefdfc96e6`. Dla commitu testów GitHub zwrócił pustą listę combined statuses; brak potwierdzonego CI, pełnej regresji i niezależnej recenzji.
+- **Integracja:** brak kompletnego źródła rzeczywistego monolitu 0.20. **585/1222 stron bez zmian.** Wstęp historyczny i wcześniejsze rozdziały bez ingerencji; bez finalnego spisu treści i bez Tomu II.
