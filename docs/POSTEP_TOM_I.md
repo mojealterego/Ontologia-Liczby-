@@ -470,3 +470,13 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Podgląd:** źródło identyczne z GitHub na podstawie Git blob; Pandoc/XeLaTeX **12 stron A4**, bez pustych stron i bez wykrytych słów poza marginesem bezpieczeństwa 8 pt. PDF SHA-256 `790c6718dc48c346f9606bd1a0dff0ca6862bde60082243ee6780b6b1c66397f`. PDF lokalny, nie w repo.
 - **Dowody techniczne:** `docs/DOWODY_F17_3_2026-10-31.md`, aktualizacja commit `881595c06137b137a91b68f4a60575a30172fd6e`. Brak potwierdzonego CI (puste statusy i workflow runs dla commitu testów); brak pełnej regresji i formalnej recenzji.
 - **Integracja:** monolit 0.20 nieobecny w repo; **585/1222 bez zmian**. Nie edytowano historycznego wstępu ani poprzednich rozdziałów. Nie tworzono końcowego spisu treści ani Tomu II.
+
+
+## F17.3 — rozbudowa istniejącego rozdziału o brzeg grafowy i wariację (31 października 2026)
+
+- **Źródło zaktualizowane bez usuwania wcześniejszych fragmentów:** `manuscript/tom-01/F17/F17.3_UZUPELNIENIE_GEOMETRIA_DYSKRETNA.md`. Commit `25bf3ea48b7a806b7cfa3a6da0eed7597fd20079`, normalizacja końca sekcji `89814d0c04aa950f7b4c8b32b05d0aef7552a77e`; Git blob SHA `5df8134803d68e2f28dc67e32ba9126710724bda` identyczny z lokalnym źródłem podglądu.
+- **Nowa treść:** 4 definicje D15–D18, 10 twierdzeń z dowodami T49–T58, 6 kontrprzykładów K21–K26 i 10 rozwiązanych zadań Z53–Z62. Całość F17.3: **18 definicji, 58 twierdzeń/wniosków, 26 kontrprzykładów i 62 rozwiązane zadania**. Zakres: brzeg krawędziowy, składowe, wariacja całkowita, nierówność izoperymetryczna, sumowanie przez części i formuła warstwowa.
+- **Testy na `main`:** `tests/test_f173_boundary_variation.py`, commit `2956265f9efba6fa77be196d53e1b8c60298d51e`, blob `7f81df19fc194b7ac1f46373a47a804375dd03cc`, identyczny z lokalnym. **11/11 unittest**, **11/11 pytest**, `compileall` OK; kontrole enumeracyjne i deterministyczne losowe, nie formalna mechanizacja.
+- **Podgląd źródła identycznego z `main`:** Pandoc/XeLaTeX, A4, 11 pt, margines 20 mm, **15 stron**, wszystkie z tekstem, 0 słów poza bezpieczną granicą 8 pt; PDF SHA-256 `1bd4e73b5c22583e4130a8e011840c48da7bcc508fa3b331e0cda6e085c46b54`. Ostatnia strona częściowo wypełniona. PDF lokalny, nie binarnie opublikowany w repo.
+- **Dokumentacja:** `docs/DOWODY_F17_3_2026-10-31.md`, commit `4fdb5dcb81441731c50d4dc587d9bf6bf630b1b2`, korekta formatowania `2e7830f9f87766584bc2feadbab6cea519124b81`.
+- **Ograniczenia:** brak pełnej regresji repozytorium, potwierdzonego GitHub CI, formalnej mechanizacji i niezależnej recenzji. Brak źródła monolitu 0.20 uniemożliwia scalanie. **585/1222 bez zmian**. Historyczny wstęp i poprzednie rozdziały nienaruszone; bez finalnego spisu treści i bez Tomu II.
