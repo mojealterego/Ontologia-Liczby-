@@ -431,3 +431,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Podgląd dokładnie opublikowanego źródła:** lokalny Pandoc/XeLaTeX, FreeSerif, **4 strony A4**, kod wyjścia 0, bez ostrzeżeń o brakujących glifach i bez słów poza marginesem bezpieczeństwa 9 pt. Zweryfikowano identyczność Markdown przez Git blob SHA; PDF SHA-256 `8bc2d583deb2f9b832c30b7beba07088bd93b0bf7be3c4274b297911e5baf179`. PDF pozostaje artefaktem lokalnym, **nie opublikowano binarnego PDF na main**.
 - **CI:** dla commitu testów GitHub zwrócił pustą listę commit statuses; brak potwierdzonego uruchomienia CI i pełnej regresji. Brak niezależnej recenzji i formalnej mechanizacji dowodów.
 - **Stan wydawniczy:** źródło nie jest zintegrowane z rzeczywistym monolitem 0.20; **585/1222 bez zmian**. Historyczny wstęp i dotychczasowy manuskrypt bez ingerencji. Bez końcowego spisu treści i bez Tomu II.
+
+
+## F17.2 — Kongruencje wielomianowe i podnoszenie (31 października 2026)
+
+- **Na main:** `manuscript/tom-01/F17/F17.2_PIERWIASTKI_MODULARNE_PODNOSZENIE.md`, commit `e5d963b218463ee807f4f4960231d7371fb121e0`, korekta kontrprzykładu K1 commit `0679d8bebffb6f50bdd6038f8eab94134be3141f`.
+- **Zakres:** 5 definicji, 12 twierdzeń z dowodami, 6 kontrprzykładów, 12 rozwiązanych zadań; kongruencje wielomianowe, liniaryzacja, podnoszenie prostych pierwiastków, CRT, wartościowanie i zliczanie pierwiastków.
+- **Weryfikacja:** lokalny skrypt Python zaliczył kontrole liczby rozwiązań x²≡0 dla p∈{2,3,5,7}, k=1..5, pierwiastków x²≡1 dla p∈{3,5,7,11}, k=1..4, zliczanie CRT dla czterech par modułów i trzech wielomianów oraz przykłady modulo 49 i 15. To skończone sprawdzenia, bez pełnej regresji i formalnej mechanizacji. Błąd K1 wykryto i poprawiono.
+- **PDF:** kompilacja dokładnego opublikowanego źródła nie została wykonana, ponieważ środowisko kontenerowe nie mogło rozwiązać nazwy `raw.githubusercontent.com` (curl exit 6). Nie deklarować podglądu ani liczby stron.
+- **Stan wydawniczy:** brak integracji z monolitem 0.20; **585/1222 bez zmian**. Nie zmieniono historycznego wstępu i wcześniejszych rozdziałów; bez końcowego spisu treści i bez Tomu II.
