@@ -532,3 +532,14 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Dowody techniczne:** docs/DOWODY_F18_2_2026-10-31.md, commit [26e552c](https://github.com/mojealterego/Ontologia-Liczby-/commit/26e552cc870f89ecba04a0e257751ca45c0b839b).
 - **Braki:** brak pełnej regresji repozytorium, potwierdzonego GitHub CI, niezależnej recenzji matematycznej i źródłowego monolitu wydania 0.20. Nie zmieniono wcześniejszych rozdziałów ani historycznego wstępu.
 - **Integracja:** **nie wykonano**. Stan części merytorycznej Tomu I nadal **585/1222 stron według historycznego rejestru**. Trzy strony osobnego PDF nie powiększają tej liczby. Bez końcowego spisu treści i bez Tomu II.
+
+
+## F19.1 — kanoniczne rozwinięcia pozycyjne i certyfikaty cyfr (31 października 2026)
+
+- **Oryginał sprawdzony:** F19.1 „Zapis dziesiętny” na stronach 202–203 roboczego, 764-stronicowego pliku ONTOLOGIA_LICZBY_AKTUALNY_MONOLIT.pdf. Nie jest to źródło ani binarny monolit 0.20. Istniejące kryterium skończonego zapisu w podstawie 10 pozostawiono bez zmian.
+- **Nowy materiał na main:** manuscript/tom-01/F19/F19.1_UZUPELNIENIE_KANONICZNE_CYFRY.md; commit **befb20faa97840e8957f29ca0965717d903d4f52**, Git blob **a1e0929695e1067a2c30366b3d2592ae8971926c**. Zawiera **7 definicji, 10 twierdzeń z dowodami, 6 kontrprzykładów i 12 rozwiązanych zadań**. Zakres: zachłanny automat reszt, dokładny minimalny przedokres, rząd multiplikatywny, kanoniczność zapisu, cylindry prefiksów, certyfikaty całkowitoliczbowe i zmiana podstawy.
+- **Testy na main:** tests/test_f191_base_expansions.py; commit **f404ed2b0013aad1fef8450ea3444c8236f568e1**, Git blob **72a32a66263270533ab72764e7062e45d7afe9be**. Lokalnie **12/12 unittest**, **12/12 pytest**, compileall kod 0. Sprawdzono dokładne przypadki na Fraction, podstawy 2–13, mianowniki do 99 oraz przykłady okresów i niejednoznaczności. Nie przeprowadzono pełnej regresji repozytorium ani mechanizacji wszystkich dowodów.
+- **Podgląd lokalny:** Pandoc/XeLaTeX, FreeSerif 11 pt, A4, margines 20 mm, **3 strony**, liczba znaków tekstu 3129, 3134, 2430; PyMuPDF: 0 słów poza granicą 8 pt. SHA-256 PDF **1b75c4f658d8eb39fe10241cbb16efc9906d45e6ccbb4c0ba97094a9ad837fbb**. Git blob źródła podglądu identyczny z odczytanym z main. PDF pozostaje lokalny.
+- **Dokumentacja:** docs/DOWODY_F19_1_2026-10-31.md, commit **f63a77c41b5b9bd7ae844d652c33d7c8cee53b29**. GitHub zwrócił puste combined statuses i workflow runs dla commitu testowego; nie potwierdzono CI.
+- **Integracja i bilans:** nie wykonano integracji z monolitem 0.20 (brak kompletnego źródła w repozytorium). **585/1222 stron bez zmian**; trzech stron podglądu nie doliczono. Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i bez Tomu II.
+- **Następny punkt:** F19.2 „Dlaczego pojawia się okres?” — opracować uzupełnienia wykraczające poza już obecne twierdzenie o automacie reszt i rzędzie multiplikatywnym, bez dublowania dowodów.
