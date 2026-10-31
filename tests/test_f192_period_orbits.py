@@ -4,12 +4,14 @@ These tests do not constitute a formal proof of the manuscript's theorems.
 from __future__ import annotations
 
 from fractions import Fraction
-from math import gcd, lcm
+from math import gcd
 from pathlib import Path
 import re
 import unittest
 
-SOURCE = Path(__file__).with_name("F19.2_UZUPELNIENIE_ORBITY_I_OKRESY.md")
+SOURCE = Path(__file__).resolve().parents[1] / "manuscript/tom-01/F19/F19.2_UZUPELNIENIE_ORBITY_I_OKRESY.md"
+if not SOURCE.exists():
+    SOURCE = Path(__file__).with_name("F19.2_UZUPELNIENIE_ORBITY_I_OKRESY.md")
 
 
 def order(b: int, q: int) -> int:
