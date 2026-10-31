@@ -509,3 +509,13 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Podgląd całego F17.3:** dokładne źródło z `main` (zgodny Git blob), Pandoc/XeLaTeX, A4, 11 pt, FreeSerif, margines 20 mm, **24 strony**, wszystkie z tekstem, 0 słów poza granicą 8 pt; PDF SHA-256 `aef3db5dc1be9c95c4cab266c5f74b5a9fb00d87aea8e037287ae13e0adf2014`. PDF pozostaje lokalny, nie opublikowano go binarnie na GitHub.
 - **Dowody:** `docs/DOWODY_F17_3_CIEPLO_2026-10-31.md`, commit `47ecd7c432ccd19d272a8979398044eefdfc96e6`. Dla commitu testów GitHub zwrócił pustą listę combined statuses; brak potwierdzonego CI, pełnej regresji i niezależnej recenzji.
 - **Integracja:** brak kompletnego źródła rzeczywistego monolitu 0.20. **585/1222 stron bez zmian.** Wstęp historyczny i wcześniejsze rozdziały bez ingerencji; bez finalnego spisu treści i bez Tomu II.
+
+
+## F18.1 — postać kanoniczna, wysokość, medianty i rozwinięcia pozycyjne (31 października 2026)
+
+- **Zbadano oryginał:** biblioteczny ONTOLOGIA_LICZBY_AKTUALNY_MONOLIT.pdf, strony 195–197 (wydanie robocze 764 stron, nie monolit 0.20). Kolejny punkt po F17.3 to F18.1 „Konstrukcja ciała Q”. Zamiast kontynuować nadmiernie rozbudowany F17.3, przygotowano nowy materiał do F18.1 bez powtarzania oryginalnej konstrukcji klas par.
+- **Zapis na main:** manuscript/tom-01/F18/F18.1_UZUPELNIENIE_STRUKTURALNE_Q.md, commit f6d0cb8704e0bc704538a5275e10f395c4cc9635, Git blob c4991e670b83d1a91cee61f074c841624224962e. Zakres: **8 definicji, 12 twierdzeń z dowodami, 6 kontrprzykładów, 12 rozwiązanych zadań**.
+- **Testy na main:** tests/test_f181_rationals.py, commit 22b85c5a9f8165f117308275e05c6de16a9075ee, Git blob 734f39b1005b3535231d204598167cbc44fbc79e. Lokalne unittest **12/12 OK**, pytest **12 passed**, compileall kod 0. Testy skończone nie zastępują dowodów ogólnych.
+- **Podgląd źródła identycznego z main:** Pandoc/XeLaTeX, FreeSerif, A4, 11 pt, margines 20 mm; **3 strony** z tekstem, 0 słów poza granicą bezpieczeństwa 8 pt; PDF SHA-256 64455340fc7628b71cdbd059cfc24b9abab6d4e2a1879d86e08a704008c57fe8. PDF lokalny, nie opublikowany binarnie w repo.
+- **Dokumentacja dowodowa:** docs/DOWODY_F18_1_2026-10-31.md, commit debf4efb99003f812644a08c21779fdd8a68b3b4.
+- **Ograniczenia:** GitHub combined statuses dla commitu testów puste; brak potwierdzonego CI, pełnej regresji i niezależnej recenzji matematycznej. Brak źródła monolitu 0.20 blokuje integrację. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nienaruszone; bez finalnego spisu treści i bez Tomu II.
