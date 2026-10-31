@@ -414,3 +414,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Podgląd lokalny:** osobny, **szerszy wariant roboczy** F17.2 (6 definicji, 18 twierdzeń, 10 kontrprzykładów, 24 zadania i 4 certyfikaty) skompilowano do **10 stron A4**, SHA-256 `43f1a7eadb66d62371dc77fa968c21cdfda94b872427ae7d5555cb76a5cac5a6`, bez słów poza bezpiecznym marginesem. **Nie jest to podgląd identyczny z publikowanym pakietem MD**; pełny wariant lokalny nie został zapisany na main i nie jest zintegrowany.
 - **Dokumentacja:** `docs/DOWODY_F17_2_2026-10-31.md`, commit `6a1b38c0cb54dcf8d4628a21cd65097ba0794f9d`.
 - **Ograniczenia:** brak CI (0 commit statuses), pełnej regresji, formalnej mechanizacji i niezależnej recenzji. Brak rzeczywistego monolitu 0.20 blokuje integrację. Historyczny wstęp i dotychczasowy manuskrypt nienaruszone. **585/1222 bez zmian**; bez finalnego spisu treści i bez Tomu II.
+
+
+## F17.2 — Kongruencje i CRT (31 października 2026)
+
+- Opublikowano `manuscript/tom-01/F17/F17.2_KONGRUENCJE_CRT_ROZSZERZENIE.md` na `main`, commit `b6790e02af4c31c8544731a11a1fb2710af086bd`.
+- Zakres: 5 definicji, 10 twierdzeń z dowodami, 6 kontrprzykładów i 12 rozwiązanych zadań; dobrze określone działania na klasach, jądro redukcji, jednostki, kongruencje liniowe, uogólnione CRT, rząd addytywny i nilpotenty.
+- W tej sesji **nie uruchomiono testów ani kompilacji PDF**; brak formalnej recenzji i pełnej regresji. Liczba stron niepotwierdzona.
+- Suplement niezintegrowany z monolitem 0.20. **585/1222 bez zmian**. Wstęp historyczny i wcześniejszy manuskrypt nietknięte. Bez finalnego spisu treści i bez Tomu II.
