@@ -422,3 +422,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Zakres: 5 definicji, 10 twierdzeń z dowodami, 6 kontrprzykładów i 12 rozwiązanych zadań; dobrze określone działania na klasach, jądro redukcji, jednostki, kongruencje liniowe, uogólnione CRT, rząd addytywny i nilpotenty.
 - W tej sesji **nie uruchomiono testów ani kompilacji PDF**; brak formalnej recenzji i pełnej regresji. Liczba stron niepotwierdzona.
 - Suplement niezintegrowany z monolitem 0.20. **585/1222 bez zmian**. Wstęp historyczny i wcześniejszy manuskrypt nietknięte. Bez finalnego spisu treści i bez Tomu II.
+
+
+## F17.2 — Struktura iloczynowa, idempotenty i certyfikaty CRT (31 października 2026)
+
+- **Nowe źródło na main:** `manuscript/tom-01/F17/F17.2_IDEMPOTENTY_CRT_CERTYFIKATY.md`, commit `a5e6aedb45bd9ce22af552b5de2d515c272381d8`, Git blob SHA `c0e4857672221023c630761e31ebb50aa546abb9`. **7 definicji, 12 twierdzeń z dowodami, 8 kontrprzykładów, 12 rozwiązanych zadań.** Zakres: certyfikaty Bézouta, rozwiązywalność CRT, projektory ortogonalne, izomorfizm pierścieni, grupa jednostek, funkcja Eulera, idempotenty, nilpotenty i pierwiastki wielomianów. W odróżnieniu od poprzedniego suplementu nacisk na dekompozycję pierścienia i sprawdzalne certyfikaty.
+- **Testy na main:** `tests/test_f172_crt_certificates.py`, commit `7d59d73cb125ce97a4d41ddfc8be5f5938e57750`, Git blob SHA `f36a9c066f92509600086542ec9ae6103a2b3b72`. Identyczny blob lokalny potwierdzono `git hash-object`. Wynik: `python -m unittest -q` **9/9 OK**, `python -m pytest -q` **9 passed**, `compileall` OK. Testy obejmują 176 400 kombinacji CRT, wyczerpujące sprawdzanie projektorów, przykłady, idempotenty i nilpotenty dla małych modułów. Kontrole skończone nie zastępują dowodów.
+- **Podgląd dokładnie opublikowanego źródła:** lokalny Pandoc/XeLaTeX, FreeSerif, **4 strony A4**, kod wyjścia 0, bez ostrzeżeń o brakujących glifach i bez słów poza marginesem bezpieczeństwa 9 pt. Zweryfikowano identyczność Markdown przez Git blob SHA; PDF SHA-256 `8bc2d583deb2f9b832c30b7beba07088bd93b0bf7be3c4274b297911e5baf179`. PDF pozostaje artefaktem lokalnym, **nie opublikowano binarnego PDF na main**.
+- **CI:** dla commitu testów GitHub zwrócił pustą listę commit statuses; brak potwierdzonego uruchomienia CI i pełnej regresji. Brak niezależnej recenzji i formalnej mechanizacji dowodów.
+- **Stan wydawniczy:** źródło nie jest zintegrowane z rzeczywistym monolitem 0.20; **585/1222 bez zmian**. Historyczny wstęp i dotychczasowy manuskrypt bez ingerencji. Bez końcowego spisu treści i bez Tomu II.
