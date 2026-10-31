@@ -352,3 +352,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Dokumentacja dowodowa:** `docs/DOWODY_F16_1_2026-10-31.md`, commity `700c763cd1a912c273df20c5825e2ee970152dbe`, `9a1422d8ffde4ddd328f18574bd2015ed22cdcbc`.
 - **Ograniczenia:** brak potwierdzonego GitHub CI (statusy commitu testowego puste), pełnej regresji repozytorium, niezależnej recenzji naukowej oraz kompletnego źródła i binarnego monolitu 0.20. Nie integrowano stron. **585/1222 bez zmian**. Wstęp historyczny i poprzednie rozdziały nienaruszone; nie utworzono końcowego spisu treści ani Tomu II.
 - **Kolejny punkt:** F16.2 „Dodawanie i odejmowanie” (referencyjne strony 183–184). Przed rozbudową porównać z F14.3 i F16.1, skupić się na ścisłych algorytmach redukcji liczb pośrednich i weryfikowalnych rachunkach, bez ponownego dowodzenia elementarnego wzoru sumy.
+
+
+## F16.2 — Dodawanie i odejmowanie: redukcja pośrednia (31 października 2026)
+
+- **Stan na main:** `manuscript/tom-01/F16/F16.2_UZUPELNIENIE_DODAWANIE_REDUKCJA.md`, commit `d733560161697671db28b058b906a36136d64617`. Materiał zawiera 4 definicje, 10 twierdzeń z dowodami, 6 kontrprzykładów i 12 rozwiązanych zadań. Koncentruje się na NWW mianowników, certyfikacie skracania, ograniczeniu wysokości i rachunku wyłącznie całkowitoliczbowym; nie powtarza konstrukcji ciała wymiernych z F14.3.
+- **Testy na main:** `tests/test_f162.py`, commit `5ecfa40b25d5262a350fced4e9c5bf4d3460d160`. Obejmują enumerację sum i różnic, przykłady, wysokość, przemienność i walidację wejścia. **Nie uruchomiono dokładnie tego pliku z repozytorium** z powodu braku pobrania do środowiska lokalnego.
+- **Weryfikacja niezależna lokalna:** uruchomiono `/mnt/data/ontologia_f162/verify.py`, 33 489 kombinacji kanonicznych ułamków; wszystkie zgodne z `fractions.Fraction`, podzielnością mianownika przez NWW i granicą wysokości. To nie jest pełny wynik testów repozytorium.
+- **PDF:** Pandoc i XeLaTeX są zainstalowane, ale próba pobrania opublikowanego źródła zakończyła się błędem DNS `Could not resolve host: raw.githubusercontent.com`; **kompilacji podglądu nie wykonano**, brak zweryfikowanej liczby stron PDF.
+- **Ograniczenia:** brak potwierdzonego CI, niezależnej recenzji, pełnej regresji i integracji z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i dotychczasowe źródła pozostają nienaruszone. Bez końcowego spisu treści i bez Tomu II.
