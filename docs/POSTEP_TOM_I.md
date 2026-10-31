@@ -556,3 +556,14 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Dowody:** `docs/DOWODY_F19_2_2026-10-31.md`, commit `c183221c207d7fd47fda93bcbc2a940d18b0529b`.
 - **Integracja i bilans:** nie wykonano integracji z wydaniem 0.20 (brak kompletnego źródła i binarium w repo). **585/1222 stron bez zmian**; czterech stron podglądu nie doliczono. Historyczny wstęp i poprzednie rozdziały nienaruszone. Nie utworzono finalnego spisu treści ani nie rozpoczęto Tomu II.
 - **Następny punkt:** F19.3 „Zaokrąglenie i błąd”; przed opracowaniem porównać z F19.1 i F18.2, aby nie powielać certyfikatów błędów.
+
+
+## F19.3 — zaokrąglanie do parzystej, stabilność i propagacja błędów (31 października 2026)
+
+- **Oryginał:** odczytano F19.3 „Zaokrąglenie i błąd” na stronach 206–207 bibliotecznego, 764-stronicowego roboczego `ONTOLOGIA_LICZBY_AKTUALNY_MONOLIT.pdf` (nie jest to wydanie 0.20). Porównano F18.2, F19.1 i F19.2; nie powielono ich podstawowych konstrukcji. Rozwinięto regułę ties-to-even, komórki kwantyzacji, certyfikaty stabilności, podwójne zaokrąglenie, uwarunkowanie odejmowania, zewnętrzne otoczki siatkowe i propagację błędu.
+- **Manuskrypt zapisany na `main`:** `manuscript/tom-01/F19/F19.3_UZUPELNIENIE_ZAOKRAGLENIE_I_STABILNOSC.md`; commit [aa3f058](https://github.com/mojealterego/Ontologia-Liczby-/commit/aa3f05869c3e46c0c56127d2d49a50d27db11f43), Git blob **f0428cb3f733ca5b3817573e01b735c4ed9d265a**, zgodny z lokalnym źródłem podglądu. **8 definicji, 12 twierdzeń z dowodami, 6 kontrprzykładów, 12 rozwiązanych zadań**.
+- **Testy na `main`:** `tests/test_f193_rounding_stability.py`; commit [9a3f420](https://github.com/mojealterego/Ontologia-Liczby-/commit/9a3f4208a386d5ebf26dc259d75a7d6cc11082a2), Git blob **9bfe48bb2a661b9541a4d8719075b11d84167efa**. Lokalne **17/17 unittest**, **17/17 pytest**, `compileall` kod 0; weryfikacja na dokładnych ułamkach i w strukturze repozytorium. Testy skończone nie zastępują dowodów ogólnych.
+- **Podgląd:** Pandoc/XeLaTeX, FreeSerif 11 pt, A4, margines 20 mm, **4 strony**, każda zawiera tekst, 0 słów poza marginesem bezpieczeństwa 8 pt; PDF SHA-256 **09da9a07ac3dba923ff26ede5e842ec913acb6922b3b376eade4a6aa9a5d69dd**. PDF lokalny, nie binarnie opublikowany na GitHub.
+- **Dokumentacja dowodowa:** `docs/DOWODY_F19_3_2026-10-31.md`, commit [c08edd1](https://github.com/mojealterego/Ontologia-Liczby-/commit/c08edd10baa180dd9779b1663c8c086be6761035).
+- **Niezweryfikowane:** puste GitHub combined statuses, brak potwierdzonego CI, pełnej regresji repozytorium, formalnej mechanizacji i niezależnej recenzji. Brak kompletnego źródła rzeczywistego monolitu 0.20 blokuje integrację.
+- **Bilans:** **585/1222 stron bez zmian**; czterech stron podglądu nie doliczono. Historyczny wstęp i poprzednie rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II. Następny punkt należy wybrać po ponownym odczycie aktualnego rejestru i roboczego manuskryptu.
