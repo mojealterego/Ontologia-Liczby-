@@ -604,4 +604,4 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Dokumentacja dowodowa:** `docs/DOWODY_F20_3_2026-10-31.md`, commit [3105de3](https://github.com/mojealterego/Ontologia-Liczby-/commit/3105de3bac78a326fc672e919835baa5564246a5).
 - **CI:** combined statuses oraz workflow runs dla commitu testowego zwróciły puste listy; brak potwierdzonego CI. Brak pełnej regresji repozytorium, formalnej mechanizacji i niezależnej recenzji matematycznej.
 - **Integracja:** brak kompletnego źródła rzeczywistego monolitu 0.20. **585/1222 stron bez zmian**; 3 stron podglądu nie doliczono. Historyczny wstęp i wcześniejsze rozdziały nienaruszone. Nie utworzono końcowego spisu treści i nie rozpoczęto Tomu II.
-- **Następny punkt:** wyznaczyć po sprawdzeniu roboczego manuskryptu, bez pomijania lub powielania już ukończonych fragmentów.
+- **Następny punkt:** F21.1 „Potęgowanie” (strona 214 roboczego manuskryptu, sprawdzona po zakończeniu F20.3). Nie powielać istniejących dowodów praw potęgowania; zweryfikować zakres dla monoidów nieprzemiennych, wykładników ujemnych i wymiernych.
