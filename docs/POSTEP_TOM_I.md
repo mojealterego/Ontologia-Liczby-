@@ -737,3 +737,15 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Blokada integracji:** brak kompletnego źródła i binarnego monolitu wydania 0.20. **585/1222 stron bez zmian**, trzech stron podglądu nie doliczono. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
 - **Następny punkt:** F24.2 „Pola figur”, od s. 285 roboczego manuskryptu; najpierw porównać z już istniejącymi Heronem, wzorem sznurowadła i determinantem.
 
+
+
+## F24.2 — certyfikaty pól, wielokąty kratowe i obszary z otworami (1 listopada 2026)
+
+- **Oryginał:** odczytano s. 285–289 bibliotecznego roboczego `ONTOLOGIA_LICZBY_AKTUALNY_MONOLIT.pdf` (764 strony; nie monolit 0.20). Są już Heron, wzór sznurowadła, skala pola, całka zorientowana i 24 zadania; ich treści nie nadpisano.
+- **Manuskrypt na `main`:** `manuscript/tom-01/F24/F24.2_UZUPELNIENIE_CERTYFIKATY_POLA_I_SIATKA.md`; commit [2cc9fff](https://github.com/mojealterego/Ontologia-Liczby-/commit/2cc9fffd987858e03b484c8e7a9b15870128ab70), Git blob `1012bcbc9ec213bc1c1c5716844b9152e214d54c`. **8 definicji, 10 twierdzeń z dowodami, 6 kontrprzykładów, 12 rozwiązanych zadań.** Zakres: dokładna orientacja, brzegi kratowe, Pick, otwory, transformacje unimodularne, certyfikowane błędy współrzędnych.
+- **Testy na `main`:** `tests/test_f242_area_certificates.py`; commit [8d3957f](https://github.com/mojealterego/Ontologia-Liczby-/commit/8d3957ffaf401aa200c5297618ea9f8450aed5ca), Git blob `448b400d00aa5c236263ba6b2d9f241b07f0d476`. **35/35 unittest OK, 35/35 pytest passed, compileall kod 0**. Regresja lokalna F24.1 + F24.2: **65/65 passed**. Bloby obu plików potwierdzono ponownym odczytem GitHub i lokalnym `git hash-object`.
+- **PDF lokalny:** Pandoc/XeLaTeX z bajtowo identycznego źródła `main`; **3 strony A4**, 4847 / 4447 / 1248 znaków, 0 słów poza marginesem 8 pt; SHA-256 `aa37d74c36e19529ab91f21654ec64b78caff5766fb1dcd1141f85131797edc4`. PDF nie został opublikowany binarnie na GitHub.
+- **Dowody techniczne:** `docs/DOWODY_F24_2_2026-11-01.md`, commit [805e62c](https://github.com/mojealterego/Ontologia-Liczby-/commit/805e62cd929da69afea8bdbd09e67bf8646373a2).
+- **Niezweryfikowane:** brak pełnej regresji repozytorium, mechanizacji wszystkich dowodów i niezależnej recenzji matematycznej; combined statuses 0 i PR-filtered workflow runs 0 dla commitu testowego, więc **CI niepotwierdzone**.
+- **Blokada:** brak kompletnego źródła i binarnego monolitu 0.20. **585/1222 stron bez zmian**, 3 stron podglądu nie doliczono. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez finalnego spisu treści i bez Tomu II.
+- **Następny punkt:** F24.3 „Objętości i skala”, od s. 290 roboczego manuskryptu; przed rozbudową sprawdzić istniejące wzory walca, kuli i prawo skali.
