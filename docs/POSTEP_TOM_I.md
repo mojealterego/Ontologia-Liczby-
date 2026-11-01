@@ -946,3 +946,5 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Niepotwierdzone:** CI i jego pełny PDF, minimum 4 stron teorii i 4 stron ćwiczeń, kompletna weryfikacja matematyczna, integracja z monolitem 0.20. Szczegóły w docs/DOWODY_E0_04_2026-11-01.md.
 - **Bilans:** **585/1222 stron bez zmian**. Wstęp historyczny i poprzednie rozdziały bez ingerencji; bez finalnego spisu treści i bez Tomu II.
 - **Następny punkt:** E0-05 — Figury i przestrzeń; przed opracowaniem wykonać kontrolę już istniejącej geometrii.
+
+- **E0-04 — kontrola duplikacji:** porównano F13.2 (prostokąty i siatki) oraz F20.3 (skala, wymiary, niepewność); dopisano do E0-04 odsyłacze zamiast przepisywania zaawansowanych treści, commit [66c9d99](https://github.com/mojealterego/Ontologia-Liczby-/commit/66c9d9948de4d457553948434a52cd9cb792795c), zaktualizowano protokół [e034624](https://github.com/mojealterego/Ontologia-Liczby-/commit/e034624d6f8e67271c3b0f0cce4c7838e8296144). Bilans stron bez zmian.
