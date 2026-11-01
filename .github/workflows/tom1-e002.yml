@@ -56,9 +56,14 @@ jobs:
           pages=p.read_text(encoding="utf-8").split("\f")
           pages=[x for x in pages if x.strip()]
           assert len(pages)>=8, f"At least 8 actual pages expected, got {len(pages)}"
-          assert sum("Zadanie" in x for x in pages)>=3, "Exercises must span several pages"
+          exercise_starts=[i for i,p in enumerate(pages) if "Ćwiczenia z pełnymi rozwiązaniami" in p]
+          assert len(exercise_starts)==1, "Exercise section heading must occur once"
+          split=exercise_starts[0]
+          assert split>=4, f"At least 4 theory pages required; got {split}"
+          assert len(pages)-split>=4, f"At least 4 exercise pages required; got {len(pages)-split}"
+          assert sum("Zadanie" in x for x in pages[split:])>=4, "At least four exercise-bearing pages required"
           assert all(len(x.strip())>300 for x in pages), "Empty or artificial page detected"
-          print(f"Pages: {len(pages)}; exercise-bearing pages: {sum('Zadanie' in x for x in pages)}")
+          print(f"Pages: {len(pages)}; theory: {split}; exercise: {len(pages)-split}")
           PY
       - name: Upload exact-source PDF
         uses: actions/upload-artifact@v4
