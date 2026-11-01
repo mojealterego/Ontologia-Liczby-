@@ -1,0 +1,68 @@
+name: Tom I — E0-02 natural numbers
+on:
+  push:
+    branches: [main]
+    paths:
+      - "manuscript/tom-01/E0/E0-02_LICZBY_NATURALNE.md"
+      - "tests/test_e002_natural_numbers.py"
+      - ".github/workflows/tom1-e002.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-e002:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify finite-model properties
+        run: python -m unittest discover -s tests -p 'test_e002_natural_numbers.py' -v
+      - name: Validate manuscript inventory
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          p = Path("manuscript/tom-01/E0/E0-02_LICZBY_NATURALNE.md")
+          text = p.read_text(encoding="utf-8")
+          assert len(re.findall(r"\*\*Twierdzenie \d+ ", text)) == 14
+          assert len(re.findall(r"\*\*Zadanie \d+\.", text)) == 36
+          assert len(re.findall(r"\*\*Kontrprzykład \d+", text)) == 6
+          assert "Część A." in text and "Część B." in text
+          print(f"Inventory OK; {len(text)} Unicode characters")
+          PY
+      - name: Install XeLaTeX and PDF utilities
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends pandoc texlive-xetex texlive-fonts-recommended poppler-utils
+      - name: Compile exact main source
+        run: |
+          mkdir -p build/tom-01
+          pandoc manuscript/tom-01/E0/E0-02_LICZBY_NATURALNE.md \
+            --from markdown+tex_math_dollars+yaml_metadata_block \
+            --pdf-engine=xelatex -V papersize:a4 -V geometry:margin=18mm \
+            -V fontsize=11pt -o build/tom-01/E0-02_PODGLAD_A4.pdf
+          pdfinfo build/tom-01/E0-02_PODGLAD_A4.pdf | grep -E 'Pages:|Page size:'
+      - name: Check substantive content of pages
+        run: |
+          pdftotext -layout build/tom-01/E0-02_PODGLAD_A4.pdf build/tom-01/E0-02.txt
+          python - <<'PY'
+          from pathlib import Path
+          p=Path("build/tom-01/E0-02.txt")
+          pages=p.read_text(encoding="utf-8").split("\f")
+          pages=[x for x in pages if x.strip()]
+          assert len(pages)>=8, f"At least 8 actual pages expected, got {len(pages)}"
+          assert sum("Zadanie" in x for x in pages)>=3, "Exercises must span several pages"
+          assert all(len(x.strip())>300 for x in pages), "Empty or artificial page detected"
+          print(f"Pages: {len(pages)}; exercise-bearing pages: {sum('Zadanie' in x for x in pages)}")
+          PY
+      - name: Upload exact-source PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: tom-i-e002-pdf
+          path: build/tom-01/E0-02_PODGLAD_A4.pdf
+          if-no-files-found: error
