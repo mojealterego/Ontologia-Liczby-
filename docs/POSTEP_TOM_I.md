@@ -690,3 +690,15 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Niezweryfikowane:** brak pełnej regresji repozytorium i mechanizacji wszystkich dowodów. GitHub combined statuses dla commitu testowego: pusta lista — **CI niepotwierdzone**. Lokalne testy nie zastępują dowodów ogólnych.
 - **Blokada integracji:** brak kompletnego źródła i binarnego monolitu wydania 0.20. **585/1222 stron bez zmian**, 3 stron podglądu nie doliczono. Historyczny wstęp i poprzednie rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
 - **Następny punkt:** F23.2 „Równanie kwadratowe” od strony 250 roboczego manuskryptu. Najpierw porównać z istniejącymi dowodami wyróżnika, Viète’a i przypadków zdegenerowanych.
+
+
+## F23.2 — ślad, charakterystyka 2 i podnoszenie modularne (1 listopada 2026)
+
+- **Oryginał:** zweryfikowano strony 250–259 bibliotecznego 764-stronicowego ONTOLOGIA_LICZBY_AKTUALNY_MONOLIT.pdf, który nie jest monolitem wydania 0.20. Oryginał ma już klasyczny wzór kwadratowy, Viète’a, pierwiastki zespolone, elementy arytmetyki modularnej i bisekcji. Nie modyfikowano oryginału ani wstępu historycznego.
+- **Manuskrypt na main:** manuscript/tom-01/F23/F23.2_UZUPELNIENIE_CIALA_SKONCZONE_I_LIFTING.md; commit [92f0422](https://github.com/mojealterego/Ontologia-Liczby-/commit/92f0422461dfe2f6ce469afa5eb75f12579b14cd); Git blob 0438fdc808a7f622b8fa0a07a1cebea9b7d9cdb0. **6 definicji, 11 twierdzeń z dowodami, 6 kontrprzykładów, 12 rozwiązanych zadań.** Nowe rozszerzenie: ślad i Artin–Schreier w charakterystyce 2, rozdzielność, Hensel dla prostych pierwiastków, certyfikaty przedziałowe.
+- **Testy na main:** tests/test_f232_quadratic_certificates.py; commit [9e27522](https://github.com/mojealterego/Ontologia-Liczby-/commit/9e275229c6880c05160bf0ca7080e14f74dfab54); Git blob 34c9cd9a60a0d416cc28535a302348c9ad2d210f. Lokalnie **24/24 unittest OK, 24/24 pytest passed, compileall kod 0**; porównanie Git blob z lokalnym git hash-object potwierdziło zgodność.
+- **PDF lokalny:** Pandoc/XeLaTeX, FreeSerif 10 pt, A4, margines 18 mm; **3 strony**, tekst 4259 / 3931 / 2318 znaków, **0 słów poza granicą 8 pt**. SHA-256 PDF 99e2a7a4b7db75e8d858386a3843160d6a951acda40a2ec53382acaaec462e46. PDF nie został opublikowany jako binarium na GitHub.
+- **Protokół dowodowy:** docs/DOWODY_F23_2_2026-11-01.md; commit [a8c810d](https://github.com/mojealterego/Ontologia-Liczby-/commit/a8c810d958535dc44f886e780e09bc1cf5ec826c).
+- **Niezweryfikowane:** brak pełnej regresji repozytorium, niezależnej recenzji matematycznej i formalnej mechanizacji dowodów. GitHub combined status dla commitu testowego: pending, 0 statusów; Actions workflow runs: 0 — **brak potwierdzonego CI**.
+- **Blokada integracji:** brak źródła i binarnego monolitu wydania 0.20. **585/1222 stron bez zmian**, trzech stron podglądu nie doliczono. Historyczny wstęp i poprzednie rozdziały nietknięte; bez finalnego spisu treści i bez Tomu II.
+- **Następny punkt:** sprawdzić F23.3 w rzeczywistym roboczym manuskrypcie przed opracowaniem, nie powielać wyników już obecnych w F23.2.
