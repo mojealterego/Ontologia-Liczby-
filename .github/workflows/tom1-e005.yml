@@ -40,9 +40,9 @@ jobs:
           PY
       - name: Typeset exact repository source with XeLaTeX
         run: |
-          pandoc manuscript/tom-01/E0/E0-05_FIGURY_I_PRZESTRZEN.md -o artifacts/e005/E0-05_PODGLAD_A4.pdf --pdf-engine=xelatex
-          pandoc artifacts/e005/theory.md -o artifacts/e005/theory.pdf --pdf-engine=xelatex
-          pandoc artifacts/e005/exercises.md -o artifacts/e005/exercises.pdf --pdf-engine=xelatex
+          pandoc manuscript/tom-01/E0/E0-05_FIGURY_I_PRZESTRZEN.md -o artifacts/e005/E0-05_PODGLAD_A4.pdf --pdf-engine=xelatex -V papersize:a4 -V mainfont='DejaVu Serif'
+          pandoc artifacts/e005/theory.md -o artifacts/e005/theory.pdf --pdf-engine=xelatex -V papersize:a4 -V mainfont='DejaVu Serif'
+          pandoc artifacts/e005/exercises.md -o artifacts/e005/exercises.pdf --pdf-engine=xelatex -V papersize:a4 -V mainfont='DejaVu Serif'
       - name: Validate nonempty pages and minima
         run: |
           python3 - <<'PY'
