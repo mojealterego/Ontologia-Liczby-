@@ -900,3 +900,14 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Zidentyfikowano wstępne mapowania F27.2/F27.3 → E2-06, F28.1 → E2-13, F28.2 → E2-13/MA-08; są to kandydatury, nie dowody ukończenia punktów.
 - Przywrócono priorytet kolejności E0-01 → dalsze punkty według taksonomii; nie zaliczać suplementów jako gotowych jednostek bez audytu treści i rzeczywistej paginacji.
 - Bilans **585/1222 bez zmian**; historyczny wstęp bez zmian; nie utworzono finalnego spisu treści ani Tomu II.
+
+## E0-01 — Klasyfikacja i relacje, poziom I (1 listopada 2026)
+
+- **Kolejność taksonomiczna:** rozpoczęto od E0-01, nie od kolejnego numeru F. W repo nie odnaleziono wcześniej samodzielnej monografii E0-01. Wykorzystano istniejące F9.1 jako kontekst, bez modyfikacji wcześniejszych tekstów.
+- **Źródło na main:** `manuscript/tom-01/E0/E0-01_KLASYFIKACJA_I_RELACJE.md`, commit `af0a52275acd8d725003330a2c19fe0364b51051`, rozszerzenie `08a19b5a3ed0fe62f3e9a1a6bc9deb537fc9c12e`; 10 definicji, 12 twierdzeń, 6 kontrprzykładów i 36 rozwiązanych zadań.
+- **Testy:** `tests/test_e001_classification_relations.py`, commit `7a546a8bd4985f261fd3f3b5381857a534823519`; 12 testów modelowych. Lokalny analog 12/12 OK; wykonanie dokładnego pliku przez GitHub CI niepotwierdzone.
+- **Automatyzacja:** `.github/workflows/tom1-e001.yml`, commit `f3b39c3cf6375fa35d2a9600eb334fdff0c03f9b`, kompiluje PDF ze źródła main po uruchomieniu workflow. Zielony CI i wynikowy PDF z tego workflow pozostają **niepotwierdzone**.
+- **Lokalny podgląd:** rozbudowany wariant lokalny E0-01, 9 stron A4, Pandoc/XeLaTeX, 0 słów poza marginesem 8 pt; **wariant nie jest bajtowo identyczny z treścią na main**, dlatego nie potwierdza jej paginacji. SHA-256 PDF: `a3dab65f9521ecd42a44cac963e0ebcc59acabf976e87384af48e8c5d2af07b8`.
+- **Protokół:** `docs/DOWODY_E0_01_2026-11-01.md`, commit `e8c85083203459180a50ed833df4647b25ffd675`.
+- **Otwarte:** kompilacja i kontrola wymaganych stron *dokładnej wersji repozytoryjnej*, kontrola ścisłości, integracja z monolitem 0.20. Punkt E0-01 ma status **opracowany źródłowo, nieodebrany wydawniczo**.
+- **Bilans:** **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze punkty nienaruszone. Bez finalnego spisu treści i bez Tomu II.
