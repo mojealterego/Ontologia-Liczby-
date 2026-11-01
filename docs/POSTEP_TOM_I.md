@@ -911,3 +911,14 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Protokół:** `docs/DOWODY_E0_01_2026-11-01.md`, commit `e8c85083203459180a50ed833df4647b25ffd675`.
 - **Otwarte:** kompilacja i kontrola wymaganych stron *dokładnej wersji repozytoryjnej*, kontrola ścisłości, integracja z monolitem 0.20. Punkt E0-01 ma status **opracowany źródłowo, nieodebrany wydawniczo**.
 - **Bilans:** **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze punkty nienaruszone. Bez finalnego spisu treści i bez Tomu II.
+
+
+## E0-02 — Liczby naturalne: liczebność, zapis pozycyjny, porównania i oszacowania (1 listopada 2026)
+
+- **Kolejność:** po E0-01, według taksonomii poziomu I; przegląd istniejących F8.2, F10.1, F10.2 wykazał pokrewne, bardziej zaawansowane treści, których nie nadpisano. Nie stwierdzono wcześniejszego samodzielnego opracowania E0-02.
+- **Manuskrypt na main:** manuscript/tom-01/E0/E0-02_LICZBY_NATURALNE.md, commit [9fb18f1](https://github.com/mojealterego/Ontologia-Liczby-/commit/9fb18f1887fe922a0ec6d27edb4763f4e6e1f19c), blob e2bddfad59a45d540eca9af30eacbf731031803f; 9 definicji, 14 twierdzeń z dowodami, 6 kontrprzykładów, 36 rozwiązanych zadań i 4 problemy syntetyczne z rozwiązaniami.
+- **Testy:** tests/test_e002_natural_numbers.py, commit [5a1547f](https://github.com/mojealterego/Ontologia-Liczby-/commit/5a1547f216d7b1f1bcb2e17603dc0a797d1f0a28), blob 52f1ed1667747acf3b9d2d36ba5781e8da0a760b. W lokalnym, nieidentycznym bajtowo odpowiedniku wykonano **26/26 unittest OK**. Wykonanie dokładnego pliku GitHub przez CI pozostaje niepotwierdzone.
+- **Skład:** .github/workflows/tom1-e002.yml, commit [95a2311](https://github.com/mojealterego/Ontologia-Liczby-/commit/95a231194810fad6157bc88d79b298a9029ffeea), blob 0136afdb7af930f82ce7a56e5ba15bb4d7e114bc; workflow przewiduje XeLaTeX/Pandoc, kontrolę niepustych stron i publikację artefaktu PDF. Wynik workflow i liczba stron **niepotwierdzone**; 0 PR-filtered runs i 0 combined statuses nie są dowodem braku uruchomienia push workflow.
+- **Protokół:** docs/DOWODY_E0_02_2026-11-01.md, commit [9cc1e63](https://github.com/mojealterego/Ontologia-Liczby-/commit/9cc1e632ab54f796f55aee16766c1284cf696230).
+- **Status:** E0-02 opracowany źródłowo, **nieodebrany wydawniczo**. Bez zweryfikowanego PDF nie potwierdzono minimalnych 4 stron teorii i 4 stron ćwiczeń. Brak kompletnego źródła monolitu 0.20 blokuje integrację.
+- **Bilans:** **585/1222 stron bez zmian**. Historyczny wstęp i wszystkie wcześniejsze rozdziały bez ingerencji; bez końcowego spisu treści i bez Tomu II. Kolejny punkt E0-03 „Działania arytmetyczne”.
