@@ -832,3 +832,15 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Niezweryfikowane:** pełna regresja repozytorium i formalna mechanizacja twierdzeń. GitHub: 0 statusów CI i 0 PR-filtered workflow runs dla commitu testowego — **CI niepotwierdzone**.
 - **Blokada integracji:** brak kompletnego źródła i binarnego monolitu wydania 0.20. **585/1222 stron bez zmian**; 3 stron podglądu nie doliczono. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
 - **Następny punkt:** F27.1 „Ciąg jako funkcja” od strony 330 roboczego manuskryptu; przed opracowaniem porównać istniejące wyniki o ciągach i zbieżności.
+
+
+## F27.1 — certyfikaty iteracji i stabilności (1 listopada 2026)
+
+- **Oryginał:** odczytano strony 330–334 bibliotecznego roboczego `ONTOLOGIA_LICZBY_AKTUALNY_MONOLIT.pdf` (764 strony; nie monolit 0.20). Istniejące definicje ciągu, sumy geometryczne, monotoniczność, rekurencje i 24 zadania pozostawiono bez zmian.
+- **Manuskrypt na `main`:** `manuscript/tom-01/F27/F27.1_UZUPELNIENIE_CERTYFIKATY_ITERACJI.md`; commity [40847b1](https://github.com/mojealterego/Ontologia-Liczby-/commit/40847b19f9e02d5a041f4adca458d19ced164ee8), [f2a488b](https://github.com/mojealterego/Ontologia-Liczby-/commit/f2a488b3a5319d688def483f10ee38c37e5ae681), Git blob `6e81c9e0de06caa0433f01735d63509962700d9c`. **8 definicji, 10 twierdzeń z dowodami, 6 kontrprzykładów, 12 rozwiązanych zadań**; certyfikaty zbieżności, propagacja błędu, kontrakcje i stabilność.
+- **Testy na `main`:** `tests/test_f271_iteration_certificates.py`, commit [3415052](https://github.com/mojealterego/Ontologia-Liczby-/commit/3415052d21b9b03915cce10ba5c4fd9e6d7d3397), Git blob `7314269e7a25b2d134fa1b5148144f47bc6d02b4`. Lokalnie **36/36 unittest OK, 36/36 pytest passed, compileall bez błędów**. Regresja dziesięciu lokalnych modułów F24.1–F27.1: **337/337 pytest passed**. Testy nie zastępują formalnych dowodów.
+- **PDF lokalny:** Pandoc/XeLaTeX, **3 strony A4**, FreeSerif 10 pt, margines 18 mm; 2870 / 3554 / 1627 znaków, PyMuPDF: **0 słów poza marginesem bezpieczeństwa 8 pt**. SHA-256 `7664f651c983dbacc96b381fc66533c0efd7bb2b34ac2fe1e10248adfa0fd6ee`. PDF nie opublikowano binarnie w repozytorium.
+- **Protokół:** `docs/DOWODY_F27_1_2026-11-01.md`, commit [e15773f](https://github.com/mojealterego/Ontologia-Liczby-/commit/e15773f24f2e524bbb23d28c1743d6b11e676cb1).
+- **Niezweryfikowane:** pełna regresja repozytorium, mechanizacja dowodów, niezależna recenzja. GitHub: 0 statusów CI, 0 przebiegów Actions dla commitu testowego — **CI niepotwierdzone**.
+- **Blokada integracji:** brak kompletnego źródła i binarnego monolitu wydania 0.20. **585/1222 stron bez zmian**; 3 stron podglądu nie doliczono. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
+- **Następny punkt:** F27.2 „Definicja granicy” od strony 334 roboczego manuskryptu; sprawdzić istniejące dowody epsilon–N i dodać wyniki niepowtarzające oryginału.
