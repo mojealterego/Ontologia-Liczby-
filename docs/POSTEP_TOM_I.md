@@ -749,3 +749,15 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Niezweryfikowane:** brak pełnej regresji repozytorium, mechanizacji wszystkich dowodów i niezależnej recenzji matematycznej; combined statuses 0 i PR-filtered workflow runs 0 dla commitu testowego, więc **CI niepotwierdzone**.
 - **Blokada:** brak kompletnego źródła i binarnego monolitu 0.20. **585/1222 stron bez zmian**, 3 stron podglądu nie doliczono. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez finalnego spisu treści i bez Tomu II.
 - **Następny punkt:** F24.3 „Objętości i skala”, od s. 290 roboczego manuskryptu; przed rozbudową sprawdzić istniejące wzory walca, kuli i prawo skali.
+
+
+## F24.3 — objętości i skala, certyfikaty wyznacznikowe (1 listopada 2026)
+
+- **Weryfikacja źródła:** odczytano s. 290–294 bibliotecznego roboczego `ONTOLOGIA_LICZBY_AKTUALNY_MONOLIT.pdf` (764 strony, nie wydanie 0.20). Oryginał zawiera już bryły elementarne, Cavalieriego, skale oraz 24 zadania o walcach i stożkach. Nie nadpisano go.
+- **Manuskrypt na `main`:** `manuscript/tom-01/F24/F24.3_UZUPELNIENIE_CERTYFIKATY_OBJETOSCI.md`, commit [add460c](https://github.com/mojealterego/Ontologia-Liczby-/commit/add460cc54a733b5301379c49eb11591fcc23627), Git blob `00cc87dc27494d2907a41784fa14f24b77fa7d87`. **8 definicji, 10 twierdzeń z dowodami, 6 kontrprzykładów, 12 rozwiązanych zadań.** Zakres: miara objętości, determinanty, triangulacja czworościanami, przekształcenia afiniczne, przekroje, ścięte ostrosłupy, elipsoidy i certyfikaty błędów.
+- **Testy na `main`:** `tests/test_f243_volume_certificates.py`, commit [369efad](https://github.com/mojealterego/Ontologia-Liczby-/commit/369efad8f5845735c2ec5274bfec814d00776816), Git blob `712c00a003828c522a3487f02ff5cfa2297e4600`. **37/37 unittest OK, 37/37 pytest passed, compileall kod 0**. Lokalna regresja F24.1–F24.3: **102/102 passed**. Oba bloby zweryfikowano ponownym odczytem i lokalnym `git hash-object`.
+- **PDF lokalny:** Pandoc/XeLaTeX z bajtowo identycznego źródła `main`; **3 strony A4**, 3062 / 3145 / 2482 znaków, 0 słów poza marginesem 8 pt; SHA-256 `3bcb8d93733545d357c7e4f2e062e2cf5a57f3310623f71ae4608ffdb36504b6`. PDF nie został zapisany binarnie na GitHub.
+- **Protokół dowodowy:** `docs/DOWODY_F24_3_2026-11-01.md`, commit [cd40420](https://github.com/mojealterego/Ontologia-Liczby-/commit/cd40420679b10cf61114e2ecaed5b201e31f1245), Git blob `6a45dcbbd24328957bd808f16c99a8a1f5cceaed`.
+- **Niezweryfikowane:** brak pełnej regresji całego repozytorium, mechanizacji wszystkich dowodów i niezależnej recenzji matematycznej; 0 combined statuses i 0 PR-filtered workflow runs dla commitu testowego, dlatego **CI niepotwierdzone**.
+- **Blokada integracji:** brak kompletnego źródła i binarnego monolitu wydania 0.20. **585/1222 stron bez zmian**; trzech stron podglądu nie doliczono. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez finalnego spisu treści i bez Tomu II.
+- **Następny punkt:** po weryfikacji roboczego manuskryptu opracować F25.1, bez powtarzania istniejących dowodów.
