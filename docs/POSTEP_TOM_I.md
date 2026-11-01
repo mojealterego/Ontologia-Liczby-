@@ -773,3 +773,14 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Niezweryfikowane:** brak pełnej regresji repozytorium i formalnej mechanizacji twierdzeń; combined statuses 0, PR-filtered workflow runs 0 dla commitu testowego — **CI niepotwierdzone**. Testy skończonych instancji nie dowodzą ogólnych kwantyfikatorów.
 - **Blokada integracji:** brak kompletnego źródła i binarnego monolitu 0.20. **585/1222 stron bez zmian**, trzech stron podglądu nie doliczono. Historyczny wstęp i poprzednie rozdziały nienaruszone; bez finalnego spisu treści i bez Tomu II.
 - **Następny punkt:** F25.2 „Zupełność i supremum”, po porównaniu z istniejącym oryginałem; nie powielać definicji Cauchy’ego i standardowych dowodów.
+
+## F25.2 — certyfikowane kresy i optymalizacja przedziałowa (1 listopada 2026)
+
+- **Źródło porównawcze:** strony 300–304 bibliotecznego roboczego `ONTOLOGIA_LICZBY_AKTUALNY_MONOLIT.pdf` (764 strony, nie monolit 0.20). Oryginał zawiera już supremum, Archimedesa, przedziały zagnieżdżone, Bolzana–Weierstrassa, bisekcję i pierwiastki. Bez zmian w oryginale i historycznym wstępie.
+- **Nowy manuskrypt na `main`:** `manuscript/tom-01/F25/F25.2_UZUPELNIENIE_KRESY_CERTYFIKATY_OPTYMALIZACJI.md`; commity [7878241](https://github.com/mojealterego/Ontologia-Liczby-/commit/78782411c9251ff37e9c08b236cc82c51f5cb600), [22432e3](https://github.com/mojealterego/Ontologia-Liczby-/commit/22432e302ae3e3f4153e4f95e779929e82bb60bd), Git blob `b79d398cc3b1c34ac59fefb4b8faaf8ef193d233`. **8 definicji, 10 twierdzeń z dowodami, 6 kontrprzykładów, 12 rozwiązanych zadań.**
+- **Testy na `main`:** `tests/test_f252_supremum_certificates.py`; commit [e691e4b](https://github.com/mojealterego/Ontologia-Liczby-/commit/e691e4b53f1935c4b0e469a79ce5356815de80f9), Git blob `96c58a10a45864f233af9ccff0c1688ea832d0e7`. Lokalnie **40/40 unittest OK, 40/40 pytest passed, compileall kod 0**; regresja F24.1–F24.3 + F25.1–F25.2: **182/182 pytest passed**. Bloby manuskryptu i testów identyczne lokalnie i na GitHub.
+- **Podgląd PDF:** lokalny Pandoc/XeLaTeX z dokładnego źródła `main`, **3 strony A4**, 10 pt FreeSerif, margines 18 mm, PyMuPDF: **0 słów poza marginesem bezpieczeństwa 8 pt**; SHA-256 `beda71de294759dd2fdf7ca071df254a54458bd3ceabc80156a3e1142a336bf2`. PDF nie opublikowano binarnie na GitHub.
+- **Protokół:** `docs/DOWODY_F25_2_2026-11-01.md`, commit [8a42b54](https://github.com/mojealterego/Ontologia-Liczby-/commit/8a42b5497444877bdc97a2047326505461893685).
+- **Niezweryfikowane:** pełna regresja całego repozytorium, formalna mechanizacja twierdzeń, niezależna recenzja matematyczna. GitHub combined statuses 0, PR-filtered workflow runs 0 — **CI niepotwierdzone**.
+- **Blokada integracji:** brak kompletnego źródła i binarnego monolitu 0.20. **585/1222 stron bez zmian**; trzech stron podglądu nie doliczono. Bez końcowego spisu treści i bez Tomu II.
+- **Następny punkt:** F25.3 po odczycie istniejącego oryginału, bez powielania wyników.
