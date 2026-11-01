@@ -666,3 +666,15 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Niezweryfikowane:** brak pełnej regresji repozytorium, niezależnej recenzji i mechanizacji wszystkich dowodów; GitHub combined statuses 0, PR-filtered workflow runs 0, więc **CI niepotwierdzone**.
 - **Blokada:** brak kompletnego źródła i binarnego monolitu 0.20. **585/1222 stron bez zmian**, trzech stron podglądu nie doliczono. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
 - **Następny punkt:** F22.3 „Przykład rozkładu” — zbadać oryginał przed dalszym opracowaniem.
+
+
+## F22.3 — pierwotność wielomianów i certyfikaty rozkładu (1 listopada 2026)
+
+- **Oryginał:** odczytano strony 240–244 bibliotecznego, 764-stronicowego roboczego `ONTOLOGIA_LICZBY_AKTUALNY_MONOLIT.pdf` (nie monolit wydania 0.20). W oryginale są już wzory Viète’a, pierwiastki wymierne, twierdzenie o reszcie, krotności, rozkłady kwadratowe i 24 zadania. Nowy suplement nie nadpisuje ani nie przedstawia ich jako nowych.
+- **Manuskrypt na `main`:** `manuscript/tom-01/F22/F22.3_UZUPELNIENIE_ROZKLAD_CERTYFIKATY.md`; utworzenie [49ae618](https://github.com/mojealterego/Ontologia-Liczby-/commit/49ae61804a9d99d5f9c68ce310394e01fbf4b78e), korekta [face7ac](https://github.com/mojealterego/Ontologia-Liczby-/commit/face7ace294acabd75e8a4c2a7ab97d27d719232), Git blob `90450a7b4ac0ee091309b7fca9ed98ecf1ccd511`. **8 definicji, 10 twierdzeń z dowodami, 6 kontrprzykładów, 12 rozwiązanych zadań**. Tematy: lemat Gaussa, redukcja modulo p, Eisenstein, NWD z pochodną, charakterystyka p, część liniowa i certyfikaty Bézouta.
+- **Testy na `main`:** `tests/test_f223_factor_certificates.py`, commit [361b6c1](https://github.com/mojealterego/Ontologia-Liczby-/commit/361b6c1df1a92340a35bdad0dd9b63f4940026ff), Git blob `567a171ac77ed69be61beb6700712e4f03927841`. Lokalnie **24/24 unittest OK**, **24/24 pytest passed**, `compileall` kod 0; SymPy 1.14.0 i dokładne operacje na wielomianach. Bloby lokalne zgodne z ponownie odczytanymi z GitHub. Testy skończonych przykładów nie stanowią mechanizacji dowodów.
+- **Podgląd lokalny:** Pandoc/XeLaTeX, A4, FreeSerif 10 pt, margines 18 mm, **3 strony**; PyMuPDF: 0 słów poza granicą bezpieczeństwa 8 pt. SHA-256 PDF `4e1a3aa21cc98740a43a5f821892f7a5f8e3310d0e5126d2b5cc0a32ad560689`. PDF lokalny, nie zapisany binarnie w repozytorium.
+- **Dokumentacja dowodowa:** `docs/DOWODY_F22_3_2026-11-01.md`, commit [0523d2e](https://github.com/mojealterego/Ontologia-Liczby-/commit/0523d2ebe103733c0dc5ae3705415803c624b898).
+- **Niezweryfikowane:** brak pełnej regresji repozytorium, niezależnej recenzji matematycznej i mechanizacji wszystkich dowodów. GitHub combined statuses i powiązane workflow runs dla commitu testowego puste — **CI niepotwierdzone**.
+- **Blokada integracji:** brak kompletnego źródła i binarnego monolitu 0.20. **585/1222 stron bez zmian**; 3 stron podglądu nie doliczono. Historyczny wstęp, wcześniejsze rozdziały i oryginalny PDF nietknięte; bez końcowego spisu treści i bez Tomu II.
+- **Następny punkt:** F23.1 „Równanie liniowe”; sprawdzić oryginalne ujęcie przed dalszym rozwinięciem.
