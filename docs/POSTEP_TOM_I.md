@@ -654,3 +654,15 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Niezweryfikowane:** brak pełnej regresji całego repozytorium, mechanizacji wszystkich dowodów i niezależnej recenzji. GitHub combined statuses: 0; PR-filtered workflow runs: 0 — **brak potwierdzonego CI**.
 - **Blokada integracji:** brak kompletnego źródła i binarnego monolitu wydania 0.20. **585/1222 stron bez zmian**; 3 stron nowego podglądu nie doliczono. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
 - **Następny punkt:** F22.2 „Upraszczanie i dziedzina” od strony 235 roboczego oryginału. W źródle już są usuwalne osobliwości i warunki skracania; rozwinąć teorię bez ich powielania.
+
+
+## F22.2 — dziedziny składniowe i certyfikaty przekształceń (1 listopada 2026)
+
+- **Oryginał:** strony 235–239 bibliotecznego, 764-stronicowego `ONTOLOGIA_LICZBY_AKTUALNY_MONOLIT.pdf` (nie wydanie 0.20). Zastane: skracanie z wyłączeniami, usuwalne i nieusuwalne osobliwości, równania wymierne, pierwiastki i powtarzalne zadania. Nie modyfikowano oryginału.
+- **Manuskrypt na `main`:** `manuscript/tom-01/F22/F22.2_UZUPELNIENIE_DZIEDZINY_I_CERTYFIKATY.md`; commit [3bf10bd](https://github.com/mojealterego/Ontologia-Liczby-/commit/3bf10bdfac1083cb180786acb02e769888860c3a), Git blob `4727c5fc14b98ee924c29ac02404c42c9131345d`. **8 definicji, 10 twierdzeń z dowodami, 6 kontrprzykładów, 12 zadań rozwiązanych.** Zakres: funkcje częściowe, certyfikaty wyłączeń, normalizacja i jej jednoznaczność, rzędy zer, równoważność strzeżona, rozwiązania równań wymiernych, analiza znaków.
+- **Testy na `main`:** `tests/test_f222_domains.py`; commit [4423f89](https://github.com/mojealterego/Ontologia-Liczby-/commit/4423f89e7d88a7345e2138567c92598b3deab73c), Git blob `a52870d096f4cf705d776654ed0232d8f7211ed4`. Lokalnie **20/20 unittest OK**, **20/20 pytest passed**, `compileall` kod 0. Odczytane z GitHub bloby zgodne z lokalnymi `git hash-object`. Testy przypadków nie zastępują recenzji matematycznej.
+- **Podgląd lokalny:** Pandoc/XeLaTeX, FreeSerif 10 pt, A4, margines 17 mm; **3 strony**, tekst **3498 / 3721 / 1545** znaków; **0 słów poza marginesem 8 pt**. SHA-256 PDF `9b2c222e110d07ab7bdd00f48fa778462182ab6d5b44edf94e3d984de4625775`. PDF nie został opublikowany binarnie w repozytorium.
+- **Protokół dowodowy:** `docs/DOWODY_F22_2_2026-11-01.md`; commit [d3c16f7](https://github.com/mojealterego/Ontologia-Liczby-/commit/d3c16f741dee689f9be10e94d64866c59df0ab21).
+- **Niezweryfikowane:** brak pełnej regresji repozytorium, niezależnej recenzji i mechanizacji wszystkich dowodów; GitHub combined statuses 0, PR-filtered workflow runs 0, więc **CI niepotwierdzone**.
+- **Blokada:** brak kompletnego źródła i binarnego monolitu 0.20. **585/1222 stron bez zmian**, trzech stron podglądu nie doliczono. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
+- **Następny punkt:** F22.3 „Przykład rozkładu” — zbadać oryginał przed dalszym opracowaniem.
