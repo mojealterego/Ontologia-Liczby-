@@ -725,3 +725,15 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Niezweryfikowane:** brak pełnej regresji repozytorium i formalnej mechanizacji wszystkich dowodów; GitHub combined statuses 0 i Actions runs dla commitu testowego 0, więc **CI niepotwierdzone**.
 - **Blokada integracji:** brak kompletnego źródła i binarnego monolitu wydania 0.20. **585/1222 stron bez zmian**; 3 stron podglądu nie doliczono. Historyczny wstęp, wcześniejsze rozdziały i oryginalny PDF niezmienione; bez końcowego spisu treści i bez Tomu II.
 - **Następny punkt:** F24.1 „Odcinek i kąt” od strony 280 roboczego manuskryptu, po sprawdzeniu istniejącego ujęcia Pitagorasa, Talesa, podobieństwa i pomiaru.
+
+## F24.1 — dokładne predykaty geometrii płaskiej (1 listopada 2026)
+
+- **Oryginał:** odczytano s. 280–284 bibliotecznego roboczego `ONTOLOGIA_LICZBY_AKTUALNY_MONOLIT.pdf` (764 strony; nie monolit wydania 0.20). Są tam już Pitagoras, Tales, podobieństwo, cosinusy, kąty wpisane i 24 zadania; suplement nie powiela ich wyprowadzeń.
+- **Manuskrypt na `main`:** `manuscript/tom-01/F24/F24.1_UZUPELNIENIE_PREDYKATY_GEOMETRII.md`; commit [161f71e](https://github.com/mojealterego/Ontologia-Liczby-/commit/161f71e0a48431211133a7021e80d8e8ec56acf2), Git blob `4c44516145d9e1210f63eae346b54dadaefdc7a0`. **8 definicji, 10 twierdzeń z dowodami, 6 kontrprzykładów, 12 rozwiązanych zadań.** Zakres: orientacja, tożsamość Grama, dokładne rzuty, przecięcia odcinków, środek okręgu opisanego.
+- **Testy na `main`:** `tests/test_f241_geometry_predicates.py`; commit [9a3586a](https://github.com/mojealterego/Ontologia-Liczby-/commit/9a3586a87337a8840ec90f75b7962a8b61bc9b4b), Git blob `c468e3ffb821a8b60f153e54f4acee38c0cf3039`. Lokalnie **30/30 unittest OK, 30/30 pytest passed, compileall kod 0**; Git blob identyczny z lokalnym `git hash-object`.
+- **Podgląd lokalny:** Pandoc/XeLaTeX z dokładnego opublikowanego źródła, A4, 10 pt, margines 18 mm; **3 strony**, 0 słów poza granicą 8 pt. SHA-256 PDF `86389836cecae9148e9baf4b69637b5840d1393fe3c7cdf48cf07829e82696fb`. PDF nie został zapisany binarnie na GitHub.
+- **Protokół:** `docs/DOWODY_F24_1_2026-11-01.md`; commit [ed1c11d](https://github.com/mojealterego/Ontologia-Liczby-/commit/ed1c11dfe8aa9537e8dd6285f7a6029befb15237).
+- **Niezweryfikowane:** brak pełnej regresji, formalnej mechanizacji dowodów i niezależnej recenzji; brak potwierdzonego CI (combined statuses 0, PR-filtered workflow runs 0).
+- **Blokada integracji:** brak kompletnego źródła i binarnego monolitu wydania 0.20. **585/1222 stron bez zmian**, trzech stron podglądu nie doliczono. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
+- **Następny punkt:** F24.2 „Pola figur”, od s. 285 roboczego manuskryptu; najpierw porównać z już istniejącymi Heronem, wzorem sznurowadła i determinantem.
+
