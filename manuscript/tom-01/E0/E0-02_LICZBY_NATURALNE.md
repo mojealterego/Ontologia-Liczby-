@@ -20,7 +20,7 @@ geometry: margin=18mm
 
 **Twierdzenie 1 (niezależność liczebności od kolejności).** Jeżeli elementy skończonego zbioru $A$ policzono bez pominięć i powtórzeń w dwóch różnych kolejnościach, to wynik liczenia jest taki sam.
 
-*Dowód.* Każda poprawna kolejność jest bijekcją $[n]\to A$. Złożenie jednej bijekcji z odwrotnością drugiej daje bijekcję między $[n]$ i $[m]$. Skończone zbiory początkowych liczb naturalnych są równoliczne tylko dla $n=m$: dla $n<m$ w $[m]$ pozostałby co najmniej jeden element bez partnera. Stąd oba wyniki są równe. $\square$
+*Dowód.* Każda poprawna kolejność jest bijekcją $[n]\to A$. Złożenie jednej bijekcji z odwrotnością drugiej daje bijekcję $f:[n]\to[m]$. Wykażmy indukcyjnie, że wtedy $n=m$. Gdy $n=0$, zbiór $[n]$ jest pusty, więc surjektywność wymusza $m=0$. Gdy $n>0$, musi też zachodzić $m>0$. Możemy zamienić miejscami dwie wartości w zbiorze docelowym tak, aby $f(n)=m$; nadal otrzymujemy bijekcję. Jej ograniczenie do $[n-1]$ jest wtedy bijekcją na $[m-1]$. Z założenia indukcyjnego $n-1=m-1$, czyli $n=m$. Zatem wynik liczenia nie zależy od kolejności. $\square$
 
 **Przykład.** Pięć kamieni liczymy od lewej lub od prawej. Każdy kamień ma inny numer porządkowy, ale zbiór ma w obu przypadkach pięć elementów. **Kontrprzykład 1 (liczenie z powtórzeniem).** Wskazanie tego samego kamienia dwa razy może dać pozornie sześć wskazań. Nie jest to poprawne liczenie pięciu obiektów.
 
