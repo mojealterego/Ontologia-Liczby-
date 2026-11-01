@@ -892,3 +892,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Niezweryfikowane:** pełna regresja 67 plików testowych repozytorium, formalna mechanizacja dowodów, niezależna recenzja. GitHub: 0 combined statuses i 0 workflow runs w sprawdzonym zakresie; **CI niepotwierdzone**.
 - **Blokada integracji:** brak kompletnego źródła i binarnego monolitu wydania 0.20. **585/1222 stron bez zmian**, trzech stron podglądu nie doliczono. Historyczny wstęp i poprzednie rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
 - **Następny punkt:** F29.1 „Od sum prostokątów do całki”, od s. 356 roboczego manuskryptu; najpierw zweryfikować definicje całkowalności i istniejące przykłady.
+
+
+## Korekta metody redakcyjnej — audyt taksonomiczny (1 listopada 2026)
+
+- Utworzono `docs/AUDYT_ZGODNOSCI_TAKSONOMICZNEJ_2026-11-01.md`, commit `180104ab6aecf7d99a4bf8234121979ef9134189`.
+- Zidentyfikowano wstępne mapowania F27.2/F27.3 → E2-06, F28.1 → E2-13, F28.2 → E2-13/MA-08; są to kandydatury, nie dowody ukończenia punktów.
+- Przywrócono priorytet kolejności E0-01 → dalsze punkty według taksonomii; nie zaliczać suplementów jako gotowych jednostek bez audytu treści i rzeczywistej paginacji.
+- Bilans **585/1222 bez zmian**; historyczny wstęp bez zmian; nie utworzono finalnego spisu treści ani Tomu II.
