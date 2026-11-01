@@ -1,0 +1,42 @@
+name: Tom I — E0-01 verification
+on:
+  push:
+    branches: [main]
+    paths:
+      - "manuscript/tom-01/E0/E0-01_KLASYFIKACJA_I_RELACJE.md"
+      - "tests/test_e001_classification_relations.py"
+      - ".github/workflows/tom1-e001.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-e001:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Finite-model regression
+        run: python -m unittest discover -s tests -p 'test_e001_classification_relations.py' -v
+      - name: Install PDF toolchain
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends pandoc texlive-xetex texlive-fonts-recommended poppler-utils
+      - name: Compile source on main
+        run: |
+          mkdir -p build/tom-01
+          pandoc manuscript/tom-01/E0/E0-01_KLASYFIKACJA_I_RELACJE.md \
+            --from markdown+tex_math_dollars+yaml_metadata_block \
+            --pdf-engine=xelatex -V papersize:a4 -V geometry:margin=18mm \
+            -V fontsize=11pt -o build/tom-01/E0-01_PODGLAD_A4.pdf
+          pdfinfo build/tom-01/E0-01_PODGLAD_A4.pdf | grep -E 'Pages:|Page size:'
+      - name: Upload verified PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: tom-i-e001-pdf
+          path: build/tom-01/E0-01_PODGLAD_A4.pdf
+          if-no-files-found: error
