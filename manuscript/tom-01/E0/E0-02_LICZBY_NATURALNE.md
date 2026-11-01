@@ -122,6 +122,8 @@ $$|(R_q(x)+R_q(y))-(x+y)|\leq q.$$
 
 **Uwaga o zakresie.** Twierdzenia 1–14 formułujemy formalnie, ale ich modele (kamienie, oś, wiązki, karty z cyframi) są przeznaczone do edukacji wczesnoszkolnej. Materiał F10.1 zawiera osobną, znacznie bardziej zaawansowaną teorię kodowania i nie jest tu kopiowany. Bibliografia metodyczna: tekst źródłowy taksonomii (część 1, sekcja E0), klasyczne zasady arytmetyki pozycyjnej; odwołania do MSC 11 i 97 są tematyczne, nie identyfikują tego punktu jako MSC.
 
+\newpage
+
 # Część B. Ćwiczenia z pełnymi rozwiązaniami
 
 Poniższe ćwiczenia są samodzielnym materiałem dydaktycznym: obejmują zadania konkretne, rozumowanie na modelach, poprawność zapisu, dowody proste i kontrolę błędów. Nie zastępują dowodów z części A.
