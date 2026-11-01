@@ -173,3 +173,107 @@ class F282Certificates(unittest.TestCase):
             l, u = bisect_derivative(g, F(0), F(1), n)
             c = (l+u)/2
             self.assertLessEqual((c-F(3, 7))**2, F(2)*(u-l)**2/8)
+
+    def test_tangent_lower_bound_exact(self):
+        for a in range(1, 5):
+            for r in range(-2, 3):
+                for c in range(-2, 3):
+                    lo, hi = F(-3), F(3)
+                    f_c = quadratic(F(a), F(r), F(1), F(c))
+                    g_c = derivative(F(a), F(r), F(c))
+                    lower = quadratic_lower_bound(f_c, g_c, F(2*a), F(c), lo, hi)
+                    z = project(F(r), lo, hi)
+                    self.assertEqual(lower, quadratic(F(a), F(r), F(1), z))
+
+    def test_tangent_lower_bound_nonlinear(self):
+        f = lambda x: x**4+x*x
+        g = lambda x: 4*x**3+2*x
+        lo, hi, c = F(-1), F(1), F(1, 2)
+        lower = quadratic_lower_bound(f(c), g(c), F(2), c, lo, hi)
+        for j in range(-20, 21):
+            self.assertLessEqual(lower, f(F(j, 20)))
+
+    def test_lower_bound_invalid_curvature(self):
+        with self.assertRaises(ValueError): quadratic_lower_bound(0, 0, 0, 0, -1, 1)
+
+    def test_lower_bound_invalid_center(self):
+        with self.assertRaises(ValueError): quadratic_lower_bound(0, 0, 1, 3, -1, 1)
+
+    def test_prune_strict(self):
+        self.assertTrue(can_prune(F(5), F(3)))
+
+    def test_prune_tie_not_safe(self):
+        self.assertFalse(can_prune(F(0), F(0)))
+
+    def test_prune_lower_not_enough(self):
+        self.assertFalse(can_prune(F(2), F(3)))
+
+    def test_noisy_gradient_distance(self):
+        m, true_g, measured, delta = F(4), F(1, 4), F(1, 5), F(1, 10)
+        self.assertLessEqual(abs(true_g)/m, (abs(measured)+delta)/m)
+        self.assertLessEqual(abs(true_g-measured), delta)
+
+    def test_noisy_gradient_gap(self):
+        g, measured, delta, m = F(1, 4), F(1, 5), F(1, 10), F(4)
+        self.assertLessEqual(g*g/(2*m), (abs(measured)+delta)**2/(2*m))
+
+    def test_noisy_sign_bracket(self):
+        ml, mu, dl, du = F(-3), F(5), F(1), F(1)
+        self.assertLessEqual(ml+dl, 0)
+        self.assertGreaterEqual(mu-du, 0)
+
+    def test_noisy_sign_bracket_not_certified(self):
+        ml, mu, dl, du = F(-1, 10), F(1, 10), F(1, 5), F(1, 5)
+        self.assertGreater(ml+dl, 0)
+        self.assertLess(mu-du, 0)
+
+    def test_gap_to_distance(self):
+        eps, m = F(1, 50), F(4)
+        self.assertEqual(2*eps/m, F(1, 100))
+
+    def test_endpoint_gap_bound(self):
+        # f=x+x², x*=0, f'(0)=1, m=2; T5 still holds at the boundary.
+        for j in range(11):
+            x = F(j, 10)
+            f = x+x*x
+            g = 1+2*x
+            self.assertLessEqual(f, g*g/F(4))
+            self.assertGreaterEqual(f, x*x)
+
+    def test_strict_pruning_counterexample(self):
+        for j in range(11):
+            self.assertEqual(F(0), F(0)*j)
+        self.assertFalse(can_prune(0, 0))
+
+    def test_wrong_curvature_counterexample(self):
+        f = lambda x: -x*x
+        self.assertLess(f(F(1)), f(F(0)))
+
+    def test_small_gap_large_distance_counterexample(self):
+        for k in range(1, 8):
+            eps = F(1, 10**k)
+            self.assertEqual(eps*F(1)**2, eps)
+            self.assertEqual(abs(F(1)-F(0)), 1)
+
+    def test_z1(self):
+        self.assertEqual(quadratic(F(3), F(2), F(7), F(2)), 7)
+
+    def test_z5(self):
+        self.assertEqual(derivative_localization(F(-2), F(4), F(2), F(2), F(0), F(3)), (F(1), F(1)))
+
+    def test_z7(self):
+        self.assertEqual(quadratic_lower_bound(F(5), F(4), F(4), F(2), F(2), F(3)), F(5))
+
+    def test_z9(self):
+        self.assertEqual((F(1, 5)+F(1, 10))/F(4), F(3, 40))
+        self.assertEqual((F(3, 10)**2)/(F(8)), F(9, 800))
+
+    def test_z11(self):
+        self.assertEqual(2*F(1, 50)/F(4), F(1, 100))
+
+    def test_z12(self):
+        self.assertEqual(F(8)*F(1, 2)**2/F(8), F(1, 4))
+
+
+if __name__ == '__main__':
+    unittest.main()
