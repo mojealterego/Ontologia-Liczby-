@@ -140,7 +140,72 @@ geometry: margin=18mm
 
 **Zadanie 24.** Cztery obiekty mają kolory zielony, zielony, żółty, czerwony. Podaj liczbę obiektów, klas i par o jednakowym kolorze. *Rozwiązanie:* odpowiednio \(4,3,2^2+1^2+1^2=6\).
 
-# 5. Weryfikacja i powiązania
+# 5. Rozwinięte zadania diagnostyczne i dowodowe
+
+Poniższe zadania rozbudowują blok ćwiczeń o przypadki, w których sam wynik liczbowy nie wystarcza: należy podać regułę, wskazać przesłanki i skontrolować przypadki brzegowe.
+
+**Zadanie 25 (klasy po zmianie kryterium).** Pięć kart ma kolory \(r,r,b,b,r\) i kształty \(k,t,k,t,k\). Wyznacz klasy według koloru, kształtu i obu cech naraz. Uzasadnij, dlaczego liczba klas niepustych może wzrosnąć.
+
+*Rozwiązanie.* Klasy kolorów: \(\{1,2,5\}\), \(\{3,4\}\). Klasy kształtów: \(\{1,3,5\}\), \(\{2,4\}\). Klasy par: \(\{1,5\}\) dla \((r,k)\), \(\{2\}\) dla \((r,t)\), \(\{3\}\) dla \((b,k)\) i \(\{4\}\) dla \((b,t)\). Każda klasa par mieści się w jednej klasie koloru i jednej klasie kształtu, lecz nie każda klasa koloru mieści się w jednej klasie kształtu. Cztery klasy par nie są „czterema nowymi obiektami”; jest ich nadal pięć. Kontrola: \(2+1+1+1=5\).
+
+**Zadanie 26 (test klasyfikacji z pustą wartością).** Przyjmij \(X=\{a,b,c\}\), \(V=\{0,1,2\}\) oraz \(c(a)=0\), \(c(b)=0\), \(c(c)=2\). Oblicz wszystkie \(C_v\), także puste, i podaj liczbę klas niepustych.
+
+*Rozwiązanie.* \(C_0=\{a,b\}\), \(C_1=\varnothing\), \(C_2=\{c\}\). Istnieją dwie klasy niepuste, chociaż zbiór dopuszczalnych wartości ma trzy elementy. Suma liczebności wszystkich klas wynosi \(2+0+1=3\). Nie należy utożsamiać liczby możliwych etykiet z liczbą faktycznie utworzonych grup.
+
+**Zadanie 27 (sprawdź trzy własności).** Na \(X=\{a,b,c\}\) relacja \(R\) zawiera wszystkie pary \((x,x)\) oraz \((a,b),(b,a)\). Czy jest równoważnością? Wyznacz jej klasy.
+
+*Rozwiązanie.* Zwrotność wynika z obecności trzech par diagonalnych. Symetria: obie pary między \(a,b\) występują, pozostałe pary są diagonalne. Przechodniość: relacja zachodzi dokładnie wtedy, gdy oba elementy należą do \(\{a,b\}\), albo gdy oba są równe \(c\). Każdy łańcuch dwóch takich relacji pozostaje w tej samej grupie. Klasy to \(\{a,b\}\) i \(\{c\}\).
+
+**Zadanie 28 (brak symetrii).** Na \(\{1,2,3\}\) zdefiniuj \(xRy\) wtedy i tylko wtedy, gdy \(x\le y\). Podaj świadectwo, że relacja nie jest symetryczna, i wyjaśnij, dlaczego nadal może być porządkiem.
+
+*Rozwiązanie.* \(1R2\), lecz nie \(2R1\); symetria zawodzi. Porządek nie wymaga symetrii, tylko antysymetrii. Dla zwykłej nierówności \(x\le y\) i \(y\le x\) implikują \(x=y\). Zwrotność i przechodniość są standardowymi własnościami nierówności. Zatem relacja jest porządkiem liniowym, ale nie równoważnością.
+
+**Zadanie 29 (liczba par relacji).** Zbiór ośmiu obiektów podzielono na klasy równoważności o liczebnościach \(3,3,2\). Ile par uporządkowanych \((x,y)\) spełnia \(x\sim y\)? Ile par spełnia \(x\not\sim y\)?
+
+*Rozwiązanie.* W klasie trzyelementowej można wybrać pierwszy i drugi element na \(3\cdot3=9\) sposobów, a w klasie dwuelementowej na \(2\cdot2=4\) sposoby. Łącznie \(9+9+4=22\) par równoważnych. Wszystkich par jest \(8^2=64\), więc pozostałych \(64-22=42\). Uwaga: pary \((x,y)\) i \((y,x)\) liczymy oddzielnie, jeśli \(x\ne y\).
+
+**Zadanie 30 (dwa porządki).** Na \(X=\{1,2,3,6\}\) porównaj porządek zwykły \(\le\) i porządek podzielności \(\mid\). Wskaż element najmniejszy i największy, o ile istnieją.
+
+*Rozwiązanie.* W porządku liczbowym najmniejszy jest \(1\), największy \(6\). W porządku podzielności \(1\) dzieli każdy element, więc jest najmniejszy; każdy element dzieli \(6\), więc \(6\) jest największy. Zgodność wyników w tym przykładzie nie oznacza równości relacji: \(2\le3\), ale \(2\nmid3\). Dlatego właściwości porządku trzeba sprawdzać względem wskazanej relacji.
+
+**Zadanie 31 (nieporównywalność a brak błędu).** W zbiorze \(\{\{a\},\{b\},\{a,b\}\}\) ktoś twierdzi, że nie da się wybrać najmniejszego elementu względem zawierania, ponieważ \(\{a\}\) i \(\{b\}\) nie są porównywalne. Czy to błąd definicji porządku?
+
+*Rozwiązanie.* Nie. Zawieranie jest poprawnym porządkiem częściowym; definicja nie wymaga porównywalności wszystkich par. Dwa zbiory jednoelementowe są minimalne, ale nie ma elementu najmniejszego. To nie sprzeczność, lecz istotna różnica między minimalnością a najmniejszością.
+
+**Zadanie 32 (zaprojektuj regułę z wyjątkiem).** Początek wzoru to \(A,B,A,B\). Reguła pierwsza mówi „naprzemiennie na wszystkich pozycjach”. Reguła druga mówi „naprzemiennie do pozycji 3, a potem zawsze \(C\)”. Jakie są piąte i szóste symbole w obu przypadkach?
+
+*Rozwiązanie.* Przy numeracji od zera pierwsza reguła daje na pozycjach 4 i 5 symbole \(A,B\). Druga daje \(C,C\). Obie reguły zachowują cztery podane symbole. Bez informacji o regule nie da się logicznie wyznaczyć dalszego ciągu. Uczniowska hipoteza „na pewno \(A\)” jest rozsądnym zgadywaniem wzoru, lecz nie dowodem.
+
+**Zadanie 33 (grupowanie i zmiana etykiet).** Obiekty mają etykiety \(u,u,v,w,v\). Zastąp \(u\mapsto 1\), \(v\mapsto 2\), \(w\mapsto 3\). Czy zmieni się relacja „ma tę samą etykietę”? Następnie zastąp \(u,v\mapsto 1\), \(w\mapsto 2\).
+
+*Rozwiązanie.* Pierwsza zmiana jest bijekcją na zbiorze używanych etykiet, więc zachowuje wszystkie porównania równości. Klasy pozostają \(\{1,2\}\), \(\{3,5\}\), \(\{4\}\). Druga zmiana scala dwie pierwsze klasy w \(\{1,2,3,5\}\). Liczba obiektów pozostaje pięć, choć liczba klas zmienia się z trzech na dwie.
+
+**Zadanie 34 (weryfikacja podziału).** Ktoś deklaruje podział \(X=\{a,b,c,d,e\}\) na \(\{a,b\}\), \(\{b,c\}\) i \(\{d,e\}\). Wykaż dwa odrębne błędy logiczne w nazwaniu tego podziałem.
+
+*Rozwiązanie.* Wszystkie obiekty są pokryte, ale klasy nie są rozłączne: element \(b\) należy do dwóch grup. Suma ich liczebności wynosi \(2+2+2=6\), choć \(|X|=5\). Druga obserwacja jest liczbowym skutkiem pierwszej, lecz sama suma nie wskazuje, gdzie wystąpiło podwójne zaliczenie. Poprawny podział wymaga jednocześnie pokrycia i rozłączności.
+
+**Zadanie 35 (wielkość i obiekt).** Dwie różne deski mają jednakową długość. Zdefiniuj relację „ma taką samą długość jak” i relację „jest nie dłuższa niż”. Która jest równoważnością, a która może nie być porządkiem na samych deskach?
+
+*Rozwiązanie.* Równość długości jest zwrotna, symetryczna i przechodnia, zatem jest równoważnością. „Nie dłuższa niż” jest zwrotna i przechodnia, ale na różnych deskach jednakowej długości zawodzi antysymetria: każda jest nie dłuższa od drugiej, mimo że deski są różne. Po przejściu do klas jednakowej długości otrzymujemy poprawny porządek.
+
+**Zadanie 36 (zadanie kontrolne).** Ustalono podział dziewięciu obiektów na trzy niepuste klasy o rozmiarach \(2,3,4\). Oblicz liczbę par uporządkowanych o tej samej klasie, a następnie wykaż, że każda klasa jest mniejsza od całej kolekcji.
+
+*Rozwiązanie.* Liczba par równoważnych wynosi \(2^2+3^2+4^2=4+9+16=29\). Każda klasa ma co najwyżej cztery elementy, a cała kolekcja dziewięć. Żadna klasa nie jest równa całości, bo istnieją co najmniej dwie pozostałe klasy niepuste. Wynik nie wynika wyłącznie z nierówności \(4<9\), ale także z założenia o trzech niepustych, rozłącznych klasach.
+
+# 6. Dodatkowe twierdzenia i dowody
+
+**Twierdzenie 11 (liczba par w relacji cechy).** Jeżeli niepuste klasy cechy \(c\) mają liczebności \(n_1,\ldots,n_r\), to liczba uporządkowanych par \((x,y)\) spełniających \(c(x)=c(y)\) wynosi \(\sum_{i=1}^r n_i^2\).
+
+*Dowód.* Każda para o równej wartości cechy ma oba końce w dokładnie jednej klasie. Dla klasy o \(n_i\) elementach istnieje \(n_i\) wyborów pierwszego i \(n_i\) wyborów drugiego końca, czyli \(n_i^2\) par. Zbiory par pochodzące z różnych klas są rozłączne; sumujemy ich liczebności. \(\square\)
+
+**Twierdzenie 12 (przemianowanie etykiet).** Jeżeli \(c:X\to V\) jest cechą, a \(h:V\to W\) jest iniekcją, to cechy \(c\) i \(h\circ c\) wyznaczają ten sam podział \(X\).
+
+*Dowód.* Dla dowolnych \(x,y\) z równości \(c(x)=c(y)\) wynika \(h(c(x))=h(c(y))\). Odwrotnie, iniektywność \(h\) pozwala z \(h(c(x))=h(c(y))\) wywnioskować \(c(x)=c(y)\). Zatem obie cechy uznają za równoważne dokładnie te same pary obiektów, więc ich klasy są identyczne. \(\square\)
+
+**Granica Twierdzenia 12.** Gdy \(h\) nie jest iniekcją, dwie różne wartości mogą otrzymać tę samą etykietę, co scala klasy. Nie należy przedstawiać dowolnego przemianowania jako zachowującego podział.
+
+
+# 7. Weryfikacja i powiązania
 
 Na poziomie wczesnoszkolnym najpierw pracujemy na przedmiotach, parach i grupach; język funkcji i relacji jest warstwą ścisłego uzasadnienia. Należy oddzielić poprawność reguły klasyfikacji od poprawności zliczania i od umiejętności wyjaśnienia, dlaczego wynik jest jednoznaczny. Dla pustej kolekcji istnieje zero klas niepustych; dla kolekcji jednoelementowej jedna klasa niepusta. Zamiana nazw etykiet bijekcją nie zmienia podziału, natomiast scalenie etykiet może go zmienić.
 
