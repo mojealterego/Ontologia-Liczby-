@@ -713,3 +713,15 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Protokół:** docs/DOWODY_F23_3_2026-11-01.md, commit [54bc00e](https://github.com/mojealterego/Ontologia-Liczby-/commit/54bc00eab13487a995c3152616851aa4b88edae7). Nie potwierdzono zielonego GitHub CI, pełnej regresji, formalnej mechanizacji ani niezależnej recenzji matematycznej.
 - **Bilans:** brak rzeczywistego źródła i binarnego monolitu 0.20. **585/1222 stron bez zmian**, bez doliczania 3 stron podglądu. Historyczny wstęp i poprzednie rozdziały nienaruszone; bez końcowego spisu treści i bez Tomu II.
 - **Następny punkt:** F23.4 „Układ dwóch równań”, od strony 270 roboczego manuskryptu; przed uzupełnieniem sprawdzić już istniejące eliminację Gaussa, jądro, rząd i rozkład LU.
+
+
+## F23.4 — układy całkowitoliczbowe i certyfikaty Smitha (1 listopada 2026)
+
+- **Oryginał:** odczytano s. 270–279 bibliotecznego roboczego ONTOLOGIA_LICZBY_AKTUALNY_MONOLIT.pdf (764 strony, nie monolit wydania 0.20). Wcześniej opisano już eliminację Gaussa, Cramera, rząd, jądro, LU/QR, Schura i uwarunkowanie; nowe opracowanie rozpatruje całkowitoliczbowe zbiory rozwiązań.
+- **Manuskrypt na main:** manuscript/tom-01/F23/F23.4_UZUPELNIENIE_UKLADY_CALKOWITOLICZBOWE.md, commit [549b25c](https://github.com/mojealterego/Ontologia-Liczby-/commit/549b25cf7e0f840c64cbc7e94199011231ea97f7), Git blob 267cbd8c7961f6bb6f72a7d277aac031aed57aca. **8 definicji, 11 twierdzeń z dowodami, 6 kontrprzykładów i 12 rozwiązanych zadań.** Zakres: postać Smitha 2×2, kryteria podzielności, kraty, przypadek rzędu jeden, certyfikaty modularne, mianowniki wymiernych rozwiązań.
+- **Testy na main:** tests/test_f234_integer_systems.py, commit [864dec2](https://github.com/mojealterego/Ontologia-Liczby-/commit/864dec22bb6570976b6173db5a434c3bd5f30a06), Git blob 70ab6a75f5d03284026f519c91bd7fdf083ec12f. Lokalnie **29/29 unittest OK, 29/29 pytest passed, compileall kod 0**; weryfikacja 625 macierzy 2×2 względem SymPy Smith normal form. Bajtowa zgodność źródeł z main potwierdzona Git blob SHA.
+- **PDF lokalny:** Pandoc/XeLaTeX z dokładnego opublikowanego źródła; **3 strony A4** (595,28 × 841,89 pt), 3957 / 4218 / 1148 znaków, 0 słów poza marginesem bezpieczeństwa 8 pt. SHA-256 PDF 33cf3f6e44d71749b64758e626285752235c43beb26e0ac460037a2b93533a64. PDF nie został opublikowany binarnie w repozytorium.
+- **Protokół dowodowy:** docs/DOWODY_F23_4_2026-11-01.md, commit [3e12ada](https://github.com/mojealterego/Ontologia-Liczby-/commit/3e12adae87fa297cd39abd66fb665552ed9ce3df).
+- **Niezweryfikowane:** brak pełnej regresji repozytorium i formalnej mechanizacji wszystkich dowodów; GitHub combined statuses 0 i Actions runs dla commitu testowego 0, więc **CI niepotwierdzone**.
+- **Blokada integracji:** brak kompletnego źródła i binarnego monolitu wydania 0.20. **585/1222 stron bez zmian**; 3 stron podglądu nie doliczono. Historyczny wstęp, wcześniejsze rozdziały i oryginalny PDF niezmienione; bez końcowego spisu treści i bez Tomu II.
+- **Następny punkt:** F24.1 „Odcinek i kąt” od strony 280 roboczego manuskryptu, po sprawdzeniu istniejącego ujęcia Pitagorasa, Talesa, podobieństwa i pomiaru.
