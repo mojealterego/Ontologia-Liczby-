@@ -936,3 +936,13 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Niepotwierdzone:** wymagane minimum stron teorii i ćwiczeń w składzie PDF, wynik CI, pełna regresja, formalna weryfikacja wszystkich dowodów. Nie kompilowano PDF w tej sesji; brak lokalnego silnika składu w dostępnym środowisku.
 - **Bilans:** **585/1222 bez zmian** do integracji z rzeczywistym monolitem 0.20. Wstęp historyczny i poprzednie rozdziały nienaruszone; bez finalnego spisu treści i bez Tomu II.
 - **Następny punkt:** E0-04 — Pomiar; przed napisaniem sprawdzić istniejące rozdziały o jednostkach, skali, długości, masie, polu i czasie.
+
+
+## E0-04 — Pomiar (1 listopada 2026)
+
+- **Zapis na main:** manuskrypt [c4af8d9](https://github.com/mojealterego/Ontologia-Liczby-/commit/c4af8d93b9d0fae402b867fa947035202eb5ff83), testy [05cebe0](https://github.com/mojealterego/Ontologia-Liczby-/commit/05cebe0ad5d0be92fb2a7ff8d92e9d35d66070dc), workflow PDF [aaf4398](https://github.com/mojealterego/Ontologia-Liczby-/commit/aaf43986739ee927bda0dc9f61481aa502a52449), protokół [86aa1a4](https://github.com/mojealterego/Ontologia-Liczby-/commit/86aa1a487064fb809af1e970f47132e2d87a748f).
+- **Dokładny manuskrypt GitHub:** 11 definicji, 16 twierdzeń z dowodami, 7 kontrprzykładów, 40 rozwiązanych ćwiczeń i 4 problemy przekrojowe. Wszystkie trzy pliki źródłowe ponownie odczytano z main.
+- **Kontrole wykonane:** 8/8 testów Python w lokalnym równoważnym wariancie; lokalnie wygenerowany i sprawdzony dwustronicowy PDF jest wyłącznie podglądem fragmentów, nie kompilacją dokładnego manuskryptu.
+- **Niepotwierdzone:** CI i jego pełny PDF, minimum 4 stron teorii i 4 stron ćwiczeń, kompletna weryfikacja matematyczna, integracja z monolitem 0.20. Szczegóły w docs/DOWODY_E0_04_2026-11-01.md.
+- **Bilans:** **585/1222 stron bez zmian**. Wstęp historyczny i poprzednie rozdziały bez ingerencji; bez finalnego spisu treści i bez Tomu II.
+- **Następny punkt:** E0-05 — Figury i przestrzeń; przed opracowaniem wykonać kontrolę już istniejącej geometrii.
