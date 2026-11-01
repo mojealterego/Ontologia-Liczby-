@@ -922,3 +922,5 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Protokół:** docs/DOWODY_E0_02_2026-11-01.md, commit [9cc1e63](https://github.com/mojealterego/Ontologia-Liczby-/commit/9cc1e632ab54f796f55aee16766c1284cf696230).
 - **Status:** E0-02 opracowany źródłowo, **nieodebrany wydawniczo**. Bez zweryfikowanego PDF nie potwierdzono minimalnych 4 stron teorii i 4 stron ćwiczeń. Brak kompletnego źródła monolitu 0.20 blokuje integrację.
 - **Bilans:** **585/1222 stron bez zmian**. Historyczny wstęp i wszystkie wcześniejsze rozdziały bez ingerencji; bez końcowego spisu treści i bez Tomu II. Kolejny punkt E0-03 „Działania arytmetyczne”.
+
+- **E0-02 — korekta składu:** podział części A/B i bramka 4+4 stron: commit [09bc142](https://github.com/mojealterego/Ontologia-Liczby-/commit/09bc1426bd4ead828139912457011954794a49e9), [f902122](https://github.com/mojealterego/Ontologia-Liczby-/commit/f902122f1fd2471016e3263e667a0a7dc313255c); aktualizacja protokołu [8355e19](https://github.com/mojealterego/Ontologia-Liczby-/commit/8355e19b2db0009a8c9f42128b2455ef77dec577). Niepotwierdzona kompilacja PDF i objętość — nie doliczać stron.
