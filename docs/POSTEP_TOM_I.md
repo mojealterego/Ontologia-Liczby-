@@ -784,3 +784,15 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Niezweryfikowane:** pełna regresja całego repozytorium, formalna mechanizacja twierdzeń, niezależna recenzja matematyczna. GitHub combined statuses 0, PR-filtered workflow runs 0 — **CI niepotwierdzone**.
 - **Blokada integracji:** brak kompletnego źródła i binarnego monolitu 0.20. **585/1222 stron bez zmian**; trzech stron podglądu nie doliczono. Bez końcowego spisu treści i bez Tomu II.
 - **Następny punkt:** F25.3 po odczycie istniejącego oryginału, bez powielania wyników.
+
+
+## F25.3 — dokładne certyfikaty odległości i pokrycia (1 listopada 2026)
+
+- **Źródło porównawcze:** strony 305–309 bibliotecznego roboczego `ONTOLOGIA_LICZBY_AKTUALNY_MONOLIT.pdf` (764 strony; nie jest wydaniem 0.20). Istniejące definicje topologiczne, zwartość i spójność nie zostały powtórzone ani zmodyfikowane.
+- **Manuskrypt na `main`:** `manuscript/tom-01/F25/F25.3_UZUPELNIENIE_CERTYFIKATY_ODLEGLOSCI.md`; commit [5836d02](https://github.com/mojealterego/Ontologia-Liczby-/commit/5836d021b3ec69e7964dd32631c345d7709394d6); Git blob `0db4bd68103b979ce971e214a549a4f47e12a558`. **8 definicji, 10 twierdzeń z dowodami, 6 kontrprzykładów, 12 rozwiązanych zadań.** Tematy: dokładna normalizacja sum przedziałów, rzut, dylatacja, erozja, promień niepokrycia, certyfikaty pokrycia i stabilność Hausdorffa.
+- **Testy na `main`:** `tests/test_f253_interval_distance_certificates.py`; commit [44084a3](https://github.com/mojealterego/Ontologia-Liczby-/commit/44084a3edc586c82067b58edba9f69c08d0e95ef); Git blob `2b43409e23fe21602d2405e364bd479041d9825a`. Lokalnie **28/28 unittest OK, 28/28 pytest passed**, regresja lokalna F24.1–F25.3 **210/210 passed**, `compileall` kod 0. Git blob zgodny z lokalnym `git hash-object`.
+- **PDF lokalny:** Pandoc/XeLaTeX z bajtowo identycznego źródła `main`; **3 strony A4**, FreeSerif 10 pt, margines 18 mm; PyMuPDF: **0 słów poza marginesem 8 pt**; SHA-256 `77c921e4d0df8d5d6cd62d3048175b4b765ded15ca22e3ae354e6805a8541b14`. PDF nie opublikowano binarnie w repozytorium.
+- **Protokół:** `docs/DOWODY_F25_3_2026-11-01.md`, commit [b02cfc9](https://github.com/mojealterego/Ontologia-Liczby-/commit/b02cfc9890c286e641e3dd68d1db294bc6fb8e17).
+- **Niezweryfikowane:** pełna regresja całego repozytorium, formalna mechanizacja dowodów i niezależna recenzja matematyczna. GitHub: 0 combined statuses i 0 workflow runs dla commitu testowego; **CI niepotwierdzone**.
+- **Blokada integracji:** brak źródła i binarnego monolitu wydania 0.20. **585/1222 stron bez zmian**, trzech stron podglądu nie doliczono. Historyczny wstęp i poprzednie rozdziały nietknięte; bez finalnego spisu treści i bez Tomu II.
+- **Następny punkt:** F26.1 „Dziedzina, przeciwdziedzina i obraz” po weryfikacji oryginału roboczego; nie dublować gotowych definicji.
