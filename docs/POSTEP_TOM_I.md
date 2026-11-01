@@ -678,3 +678,15 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Niezweryfikowane:** brak pełnej regresji repozytorium, niezależnej recenzji matematycznej i mechanizacji wszystkich dowodów. GitHub combined statuses i powiązane workflow runs dla commitu testowego puste — **CI niepotwierdzone**.
 - **Blokada integracji:** brak kompletnego źródła i binarnego monolitu 0.20. **585/1222 stron bez zmian**; 3 stron podglądu nie doliczono. Historyczny wstęp, wcześniejsze rozdziały i oryginalny PDF nietknięte; bez końcowego spisu treści i bez Tomu II.
 - **Następny punkt:** F23.1 „Równanie liniowe”; sprawdzić oryginalne ujęcie przed dalszym rozwinięciem.
+
+
+## F23.1 — włókna przekształceń, kongruencje i certyfikaty (1 listopada 2026)
+
+- **Oryginał:** F23.1 „Równanie liniowe”, strony 245–249 bibliotecznego roboczego `ONTOLOGIA_LICZBY_AKTUALNY_MONOLIT.pdf` (764 strony; **nie** monolit wydania 0.20). Istniejące przypadki nad ciałem, równoważność przekształceń, parametry, nierówności i 24 zadania nie zostały powielone ani nadpisane.
+- **Manuskrypt na `main`:** `manuscript/tom-01/F23/F23.1_UZUPELNIENIE_WLOKNA_I_KONGRUENCJE.md`, commit [2db4b77](https://github.com/mojealterego/Ontologia-Liczby-/commit/2db4b770c456f67651d3c6aaba0ef19af42aef62), Git blob `3d5a855de3d8f28dd11173be4f35811bf023e806`. **8 definicji, 12 twierdzeń z dowodami, 6 kontrprzykładów, 12 rozwiązanych zadań.** Zakres: anihilator i włókno, osiągalność w pierścieniach, kongruencje liniowe, certyfikaty Bézouta, CRT, błąd wsteczny i stabilność.
+- **Testy na `main`:** `tests/test_f231_linear_fibers.py`, commit [26baee0](https://github.com/mojealterego/Ontologia-Liczby-/commit/26baee0f20c15201470caa58d8d17c8399014042), Git blob `d92b43054326cb43a39ddd6b32dbd4243f575680`. Lokalnie **26/26 unittest OK**, **26/26 pytest passed**, `compileall` kod 0. Obejmują dokładne `Fraction`, pełne małe przestrzenie reszt i certyfikaty. Ponowny odczyt z GitHub potwierdził identyczność blobów z lokalnym `git hash-object`.
+- **Podgląd lokalny:** Pandoc/XeLaTeX, FreeSerif 11 pt, A4, margines 18 mm, **3 strony**, tekst **3115 / 2966 / 2461** znaków, **0 słów poza granicą 8 pt**. SHA-256 PDF `d8f4cb767c4b09adfe31ad9419dc1eec2f4b031da629bd4e8f659fec6ae741b0`. PDF lokalny, nie opublikowany binarnie na GitHub.
+- **Protokół dowodowy:** `docs/DOWODY_F23_1_2026-11-01.md`, commit [3e6d927](https://github.com/mojealterego/Ontologia-Liczby-/commit/3e6d9274ca5a871d6b0dc48f90e97a84751954c0).
+- **Niezweryfikowane:** brak pełnej regresji repozytorium i mechanizacji wszystkich dowodów. GitHub combined statuses dla commitu testowego: pusta lista — **CI niepotwierdzone**. Lokalne testy nie zastępują dowodów ogólnych.
+- **Blokada integracji:** brak kompletnego źródła i binarnego monolitu wydania 0.20. **585/1222 stron bez zmian**, 3 stron podglądu nie doliczono. Historyczny wstęp i poprzednie rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
+- **Następny punkt:** F23.2 „Równanie kwadratowe” od strony 250 roboczego manuskryptu. Najpierw porównać z istniejącymi dowodami wyróżnika, Viète’a i przypadków zdegenerowanych.
