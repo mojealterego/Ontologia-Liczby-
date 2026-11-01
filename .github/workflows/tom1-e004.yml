@@ -1,0 +1,64 @@
+name: Tom I E0-04 measurement tests and PDF
+on:
+  push:
+    branches: [main]
+    paths:
+      - manuscript/tom-01/E0/E0-04_POMIAR.md
+      - tests/test_e004_measurement.py
+      - .github/workflows/tom1-e004.yml
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PDF dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-lang-polish texlive-latex-extra poppler-utils
+      - name: Unit tests
+        run: python3 -m unittest discover -s tests -p 'test_e004_measurement.py' -v
+      - name: Extract sections and validate source structure
+        run: |
+          mkdir -p artifacts/e004
+          python3 - <<'PY'
+          from pathlib import Path
+          src = Path("manuscript/tom-01/E0/E0-04_POMIAR.md").read_text(encoding="utf-8")
+          assert src.count("# Część A.") == 1 and src.count("# Część B.") == 1
+          theory, exercises = src.split("# Część B.", 1)
+          assert theory.count("**Twierdzenie ") >= 15
+          assert theory.count("*Dowód.") >= 15
+          assert theory.count("**Definicja ") >= 11
+          assert exercises.count("**Zadanie ") == 40
+          assert exercises.count("**Problem ") == 4
+          Path("artifacts/e004/theory.md").write_text(theory, encoding="utf-8")
+          metadata = src.split("---", 2)[1]
+          Path("artifacts/e004/exercises.md").write_text("---" + metadata + "---\n# Część B. Ćwiczenia rozwiązane\n" + exercises, encoding="utf-8")
+          PY
+      - name: Typeset exact GitHub manuscript and sections
+        run: |
+          pandoc manuscript/tom-01/E0/E0-04_POMIAR.md -o artifacts/e004/E0-04_PODGLAD_A4.pdf --pdf-engine=xelatex
+          pandoc artifacts/e004/theory.md -o artifacts/e004/theory.pdf --pdf-engine=xelatex
+          pandoc artifacts/e004/exercises.md -o artifacts/e004/exercises.pdf --pdf-engine=xelatex
+      - name: Enforce nonempty theory and exercise pages
+        run: |
+          python3 - <<'PY'
+          import re, subprocess
+          from pathlib import Path
+          from collections import Counter
+          for name, minimum in (("theory.pdf", 4), ("exercises.pdf", 4)):
+              pdf = Path("artifacts/e004") / name
+              info = subprocess.check_output(["pdfinfo", str(pdf)], text=True)
+              pages = int(re.search(r"^Pages:\s*(\d+)", info, re.M).group(1))
+              text = subprocess.check_output(["pdftotext", "-layout", str(pdf), "-"], text=True)
+              sections = text.split("\f")
+              nonempty = sum(len(s.strip()) >= 100 for s in sections)
+              print(f"{name}: pages={pages}; nonempty>=100 chars={nonempty}")
+              assert pages >= minimum and nonempty >= minimum, f"{name}: fewer than {minimum} substantive pages"
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tom1-e004-pdf
+          path: artifacts/e004/*.pdf
+          if-no-files-found: error
