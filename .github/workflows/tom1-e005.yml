@@ -1,0 +1,65 @@
+name: Tom I E0-05 geometry tests and exact-source PDF
+on:
+  push:
+    branches: [main]
+    paths:
+      - manuscript/tom-01/E0/E0-05_FIGURY_I_PRZESTRZEN.md
+      - tests/test_e005_geometry.py
+      - .github/workflows/tom1-e005.yml
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PDF dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-lang-polish texlive-latex-extra poppler-utils
+      - name: Run exact-source Python tests
+        run: python3 -m unittest discover -s tests -p 'test_e005_geometry.py' -v
+      - name: Extract theory and exercises from exact source
+        run: |
+          mkdir -p artifacts/e005
+          python3 - <<'PY'
+          from pathlib import Path
+          src = Path("manuscript/tom-01/E0/E0-05_FIGURY_I_PRZESTRZEN.md").read_text(encoding="utf-8")
+          assert src.count("# Część A.") == 1
+          assert src.count("# Część B.") == 1
+          theory, exercises = src.split("# Część B.", 1)
+          assert theory.count("**Definicja ") >= 15
+          assert theory.count("**Twierdzenie ") >= 16
+          assert theory.count("*Dowód.") >= 16
+          assert theory.count("**Kontrprzykład ") >= 9
+          assert exercises.count("**Zadanie ") == 40
+          assert exercises.count("**Problem ") == 4
+          metadata = src.split("---", 2)[1]
+          Path("artifacts/e005/theory.md").write_text(theory, encoding="utf-8")
+          Path("artifacts/e005/exercises.md").write_text("---" + metadata + "---\n# Część B. Ćwiczenia i rozwiązania\n" + exercises, encoding="utf-8")
+          PY
+      - name: Typeset exact repository source with XeLaTeX
+        run: |
+          pandoc manuscript/tom-01/E0/E0-05_FIGURY_I_PRZESTRZEN.md -o artifacts/e005/E0-05_PODGLAD_A4.pdf --pdf-engine=xelatex
+          pandoc artifacts/e005/theory.md -o artifacts/e005/theory.pdf --pdf-engine=xelatex
+          pandoc artifacts/e005/exercises.md -o artifacts/e005/exercises.pdf --pdf-engine=xelatex
+      - name: Validate nonempty pages and minima
+        run: |
+          python3 - <<'PY'
+          import re
+          import subprocess
+          from pathlib import Path
+          for name, minimum in (("theory.pdf", 4), ("exercises.pdf", 4)):
+              pdf = Path("artifacts/e005") / name
+              info = subprocess.check_output(["pdfinfo", str(pdf)], text=True)
+              pages = int(re.search(r"^Pages:\s*(\d+)", info, re.M).group(1))
+              text = subprocess.check_output(["pdftotext", "-layout", str(pdf), "-"], text=True)
+              nonempty = sum(len(page.strip()) >= 100 for page in text.split("\f"))
+              print(f"{name}: pages={pages}, nonempty_pages={nonempty}")
+              assert pages >= minimum and nonempty >= minimum
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tom1-e005-pdf
+          path: artifacts/e005/*.pdf
+          if-no-files-found: error
