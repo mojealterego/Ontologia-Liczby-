@@ -261,3 +261,9 @@ geometry: margin=18mm
 ## Uwagi do kontroli wydawniczej
 
 Twierdzenia są elementarnymi wnioskami w idealnym modelu matematycznym; nie stanowią certyfikacji rzeczywistych przyrządów. Podział na część A i B służy niezależnej kontroli minimum treści teoretycznej i ćwiczeniowej. Dopiero skład dokładnego źródła oraz ocena niepustych stron pozwolą potwierdzić objętość. **Nie dodawać stron do bilansu 585/1222 przed integracją z monolitem 0.20.**
+
+## Powiązania z zachowanym manuskryptem
+
+- **F20.3 — Skala i wymiar:** istniejący rozdział obejmuje typowaną algebrę wymiarów, homotetię, skalowanie wielkości i certyfikaty błędu na poziomie bardziej formalnym. E0-04 wykorzystuje te same podstawowe prawa w zakresie wczesnoszkolnym, bez przepisywania zaawansowanych konstrukcji F20.3.
+- **F13.2 — Model prostokątny:** istniejący rozdział obejmuje enumerację podprostokątów i certyfikaty siatki. E0-04 ogranicza się do interpretacji pola prostokąta przez kwadraty jednostkowe, wymaganej na poziomie I.
+- Przed integracją redakcyjną należy skontrolować, czy przykłady nie dublują tekstu wcześniejszego monolitu, i pozostawić tylko potrzebne dydaktycznie odesłania. Żadnego z wymienionych rozdziałów nie zmieniono.
