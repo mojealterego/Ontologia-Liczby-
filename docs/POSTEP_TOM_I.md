@@ -820,3 +820,15 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Niezweryfikowane:** pełna regresja całego repozytorium, mechanizacja wszystkich dowodów, niezależna recenzja. GitHub combined statuses: 0; PR-filtered workflow runs: 0; **CI niepotwierdzone**.
 - **Blokada integracji:** brak źródła i binarnego monolitu 0.20. **585/1222 stron bez zmian**; 3 stron podglądu nie doliczono. Historyczny wstęp i poprzednie rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
 - **Następny punkt:** F26.3 „Złożenie i odwrotność”, od s. 325 roboczego manuskryptu; sprawdzić oryginalne warunki dziedzin i typowania przed rozszerzeniem.
+
+
+## F26.3 — funkcje częściowe, ścisłe dziedziny i odwracalność (1 listopada 2026)
+
+- **Oryginał:** zbadano strony 325–329 bibliotecznego roboczego `ONTOLOGIA_LICZBY_AKTUALNY_MONOLIT.pdf` (764 strony, nie wydanie 0.20); F27.1 zaczyna się na s. 330. W oryginale są już podstawy składania, odwrotności, przeciwobrazów, funkcji ułamkowo-liniowych i 24 zadania; nie powielono tych treści.
+- **Manuskrypt na `main`:** `manuscript/tom-01/F26/F26.3_UZUPELNIENIE_FUNKCJE_CZESCIOWE_I_ODWRACALNOSC.md`; commity [111d0d4](https://github.com/mojealterego/Ontologia-Liczby-/commit/111d0d408423d25279dbb5966d7aeb50d343d476), [a6a1514](https://github.com/mojealterego/Ontologia-Liczby-/commit/a6a151492ca582b8b0c69d5847fff3b931f9479a); Git blob `fb89d44d22a9c4e7c8d86a8e7a9bfdf09705adf7`. **9 definicji, 12 twierdzeń z dowodami, 6 kontrprzykładów, 12 rozwiązanych zadań.**
+- **Testy na `main`:** `tests/test_f263_partial_composition.py`; commit [c63641a](https://github.com/mojealterego/Ontologia-Liczby-/commit/c63641a2ac11a7a002dfa1d79bb3293a401c91e6); Git blob `731fa57410a9e79c27a296b0da92df9d07280825`. Lokalnie **31/31 unittest OK, 31/31 pytest passed**, `compileall` bez błędów. Regresja dziewięciu dostępnych modułów F24.1–F26.3: **301/301 pytest passed**. Bloby zgodne z lokalnym `git hash-object`.
+- **PDF lokalny:** Pandoc/XeLaTeX, **3 strony A4**, FreeSerif 10 pt, margines 18 mm; tekst 3400 / 4080 / 2800 znaków, **0 słów poza marginesem 8 pt**. SHA-256 `d00e51195df49054d92899d1af325fe4655781430962ab3b4b31c8662a0402e2`. Podgląd nie został dodany binarnie do repozytorium.
+- **Protokół dowodowy:** `docs/DOWODY_F26_3_2026-11-01.md`, commit [c3b0dda](https://github.com/mojealterego/Ontologia-Liczby-/commit/c3b0ddae4fc33074c0ab02f47633c9eb9388aedc).
+- **Niezweryfikowane:** pełna regresja repozytorium i formalna mechanizacja twierdzeń. GitHub: 0 statusów CI i 0 PR-filtered workflow runs dla commitu testowego — **CI niepotwierdzone**.
+- **Blokada integracji:** brak kompletnego źródła i binarnego monolitu wydania 0.20. **585/1222 stron bez zmian**; 3 stron podglądu nie doliczono. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
+- **Następny punkt:** F27.1 „Ciąg jako funkcja” od strony 330 roboczego manuskryptu; przed opracowaniem porównać istniejące wyniki o ciągach i zbieżności.
