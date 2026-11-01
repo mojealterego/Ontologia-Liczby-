@@ -926,3 +926,13 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **E0-02 — korekta składu:** podział części A/B i bramka 4+4 stron: commit [09bc142](https://github.com/mojealterego/Ontologia-Liczby-/commit/09bc1426bd4ead828139912457011954794a49e9), [f902122](https://github.com/mojealterego/Ontologia-Liczby-/commit/f902122f1fd2471016e3263e667a0a7dc313255c); aktualizacja protokołu [8355e19](https://github.com/mojealterego/Ontologia-Liczby-/commit/8355e19b2db0009a8c9f42128b2455ef77dec577). Niepotwierdzona kompilacja PDF i objętość — nie doliczać stron.
 
 - **E0-02 — dowód:** pełna indukcja w Twierdzeniu 1 (niezależność liczebności od kolejności), commit [e85d27d](https://github.com/mojealterego/Ontologia-Liczby-/commit/e85d27db5dcb3aa32a1ec0e3c36296fd81b18964), protokół [32b9398](https://github.com/mojealterego/Ontologia-Liczby-/commit/32b93983d0a1ddd992bd0a7cc31392c0d9a05934). PDF i integracja nadal otwarte.
+
+
+## E0-03 — Działania arytmetyczne (1 listopada 2026)
+
+- **Taksonomia:** E0-03, poziom I; zgodnie z kolejnością po E0-02. Wykorzystano odniesienie do wcześniejszego F10.2, bez ingerencji w jego zawartość.
+- **Manuskrypt:** `manuscript/tom-01/E0/E0-03_DZIALANIA_ARYTMETYCZNE.md`, commit [98c1281](https://github.com/mojealterego/Ontologia-Liczby-/commit/98c12812851e1d0c7bf79499efe93ee7665892ea), Git blob `bba766b06eb953cd10c2fe4e62e3b787f1ff6138`; 10 definicji, 15 twierdzeń z dowodami, 6 kontrprzykładów, 40 rozwiązanych ćwiczeń, 4 rozwiązane problemy syntetyczne.
+- **Testy:** `tests/test_e003_arithmetic.py`, commit [2fc8771](https://github.com/mojealterego/Ontologia-Liczby-/commit/2fc8771f1500b46fc5b1eb736d9876153ddd387b); plik testowy zapisany, **nie uruchomiony w Pythonie** w tej sesji. Wykonano niezależne sprawdzenie 600 par (dzielna 0–49, dzielnik 1–12) w JS, 0 błędów; sprawdzono zdalny tekst: 10 definicji, 15 twierdzeń, 40 ćwiczeń i 4 problemy.
+- **Niepotwierdzone:** wymagane minimum stron teorii i ćwiczeń w składzie PDF, wynik CI, pełna regresja, formalna weryfikacja wszystkich dowodów. Nie kompilowano PDF w tej sesji; brak lokalnego silnika składu w dostępnym środowisku.
+- **Bilans:** **585/1222 bez zmian** do integracji z rzeczywistym monolitem 0.20. Wstęp historyczny i poprzednie rozdziały nienaruszone; bez finalnego spisu treści i bez Tomu II.
+- **Następny punkt:** E0-04 — Pomiar; przed napisaniem sprawdzić istniejące rozdziały o jednostkach, skali, długości, masie, polu i czasie.
