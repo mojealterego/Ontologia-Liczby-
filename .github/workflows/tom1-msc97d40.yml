@@ -7,6 +7,7 @@ on:
       - 'manuscript/tom-01/MSC97/97D40_METODY_NAUCZANIA_MATEMATYKI.md'
       - 'tests/test_msc97d40_teaching.py'
       - 'tests/test_msc97d40_advanced.py'
+      - 'tests/test_msc97d40_information.py'
       - '.github/workflows/tom1-msc97d40.yml'
   workflow_dispatch:
 
@@ -29,6 +30,7 @@ jobs:
         run: |
           python3 -m unittest discover -s tests -p 'test_msc97d40_teaching.py' -v
           python3 -m unittest discover -s tests -p 'test_msc97d40_advanced.py' -v
+          python3 -m unittest discover -s tests -p 'test_msc97d40_information.py' -v
       - name: Compile full 97D40 manuscript
         shell: bash
         run: |
@@ -43,6 +45,8 @@ jobs:
           grep -q 'Metody nauczania matematyki' out/CONTENT.txt
           grep -q 'Z20' out/CONTENT.txt
           grep -q 'K10' out/CONTENT.txt
+          grep -q 'T32' out/CONTENT.txt
+          grep -q 'Z40' out/CONTENT.txt
           pages=$(awk '/^Pages:/ {print $2}' out/PDFINFO.txt)
           test "$pages" -ge 4
           test "$(stat -c '%s' "$dst")" -lt 99000000
