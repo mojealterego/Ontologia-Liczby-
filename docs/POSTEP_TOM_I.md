@@ -1002,3 +1002,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **PDF:** lokalny podgląd *wybranych fragmentów*, Pandoc/XeLaTeX, **2 niepuste strony A4**, SHA-256 `e28040ad2bd89befa464906657b5cb4e86cc110353449b165def3eb7ecae12c8`. Nie jest pełnym składem źródła. [Workflow pełnego źródła E1-04](../.github/workflows/tom1-e104.yml), commit [260ede5](https://github.com/mojealterego/Ontologia-Liczby-/commit/260ede51590dfce96ff69d517e3ba9f6aa76ed5b), zapisany; jego wynik CI, pełna paginacja i odbiór minimum 4 stron **niepotwierdzone**.
 - **Dowody:** [DOWODY_E1_04_2026-11-02.md](DOWODY_E1_04_2026-11-02.md), commit [6c4a7ff](https://github.com/mojealterego/Ontologia-Liczby-/commit/6c4a7ff2e1b69a17b3a322307f164875651d1bf5).
 - **Stan kanoniczny:** **585/1222 stron bez zmian** do rzeczywistej integracji z monolitem 0.20. Bez końcowego spisu treści i bez Tomu II. **Następny punkt E1-05 — Równania liniowe**.
+
+
+## Dyrektywa wydawnicza — 2026-11-02: limit rozmiaru tomów
+
+- **Nie obowiązuje sztywne 1222 stron na tom.** Tom może liczyć mniej stron, jeżeli jego zawartość jest kompletna i spełnia wymagania merytoryczne oraz redakcyjne. Dawne `585/1222` jest wyłącznie historycznym wskaźnikiem wcześniejszego planu, nie aktualnym kryterium ukończenia.
+- **Twardy limit artefaktu:** każdy końcowy PDF pojedynczego tomu musi mieć rozmiar **ściśle mniejszy niż 99 MB** (konserwatywnie przyjmować 99 000 000 bajtów jako górny próg, a test odbiorczy wymaga `size < 99000000`).
+- Kontrola rozmiaru następuje po ostatecznym składzie, osadzeniu fontów, grafik i optymalizacji. Preferować tekst i wzory wektorowe; obrazy kompresować z zachowaniem czytelności. Gdy optymalizacja nie wystarcza, dzielić materiał na logiczne tomy bez pomijania treści.
+- Liczba stron w nowych materiałach pozostaje niezaliczona do kanonicznego Tomu I przed rzeczywistą integracją z monolitem 0.20. Wstęp historyczny pozostaje bez zmian; nie tworzyć końcowego spisu treści przed ukończeniem Tomu I.
