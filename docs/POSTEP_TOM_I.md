@@ -1045,3 +1045,14 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Dowody:** [protokół E1-08/E1-09](DOWODY_E1_08_E1_09_2026-11-02.md), commit [e29dc7c](https://github.com/mojealterego/Ontologia-Liczby-/commit/e29dc7cc6f7b969fbdd10bec35a4c3c616afb9d2).
 - **Blokady:** brak potwierdzonego zielonego CI, pełnego składu dokładnego źródła, formalnej recenzji wszystkich dowodów i integracji z monolitem 0.20. Historycznie zintegrowane **585 stron bez zmian**; 1222 nie jest już progiem wymaganym. Nie zmieniono wstępu historycznego, nie utworzono finalnego spisu treści i nie rozpoczęto Tomu II.
 - **Następny punkt:** E1-10 — Prawdopodobieństwo elementarne.
+
+
+## 2026-11-02 — E1-10 Prawdopodobieństwo elementarne i naprawa CI
+
+- **Źródło:** [E1-10](../manuscript/tom-01/E1/E1-10_PRAWDOPODOBIENSTWO_ELEMENTARNE.md), commit [c08c9a3](https://github.com/mojealterego/Ontologia-Liczby-/commit/c08c9a3378cf329e083f9071763295f6d71628bd), Git blob `b7241e9c7c6708d7231881c44bc9f2c0d071b8f8`. Ponowny odczyt z `main`: 17 133 znaki, **16 definicji, 20 twierdzeń z dowodami, 12 kontrprzykładów, 52 rozwiązane zadania, 5 problemów przekrojowych**. Materiał E1-10 poziomu I, po E1-09; bez ingerencji w wcześniejsze teksty.
+- **Testy:** [test_e110_probability.py](../tests/test_e110_probability.py), końcowy blob `29f4504fb41b8e5777ca3e775f60e5957fe26795`, poprawka [a19ffbe](https://github.com/mojealterego/Ontologia-Liczby-/commit/a19ffbe89ec8b1495df951dd6c97d56dd6a6db65). **12/12 lokalnie OK**, identyczny `git hash-object` uruchomionego pliku i GitHub; wyczerpująca enumeracja zdarzeń i próbek, arytmetyka dokładna `Fraction`.
+- **PDF lokalny:** Pandoc/XeLaTeX, **3 strony A4**, 60 896 bajtów, SHA-256 `94e040892ed4db19b786bbdc256df8032078b592354f0a2a6b14b442562b74b4`. Wyłącznie podgląd wybranych fragmentów, **nie pełny skład**.
+- **CI:** [workflow E1-10](../.github/workflows/tom1-e110.yml) zapisany; sprawdza pełne źródło, minimum 4 strony, obecność tekstu, rozmiar <99 000 000 bajtów i SHA-256. Poprzednie CI E1-08/E1-09 [#41395104462](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41395104462) rzeczywiście zawiodło przez brak `lmodern.sty`. Zapisano poprawkę instalacji `lmodern` na `main` w siedmiu workflow (E1-01, E1-02, E1-04, E1-05, E1-06/E1-07, E1-08/E1-09, E1-10). **Wyniki nowych przebiegów niepotwierdzone w chwili zapisu tego wpisu**.
+- **Protokół:** [DOWODY_E1_10_2026-11-02.md](DOWODY_E1_10_2026-11-02.md), commit [9674b99](https://github.com/mojealterego/Ontologia-Liczby-/commit/9674b990a68f67224216b4d9a63b78c5b183e743).
+- **Stan odbioru:** pełny skład i formalna recenzja wszystkich dowodów, zielone CI oraz integracja z monolitem 0.20 pozostają otwarte. **585 stron bez zmian**; 1222 stron nie jest już wymaganym celem. Każdy finalny tom PDF musi mieć mniej niż 99 MB (technicznie <99 000 000 bajtów). Historyczny wstęp bez ingerencji; bez finalnego spisu treści i bez Tomu II.
+- **Następny punkt:** E1-11 — Modelowanie.
