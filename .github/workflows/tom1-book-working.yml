@@ -1,0 +1,84 @@
+name: Tom I — continuous working book from E0 E1 and MSC 00A08
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'manuscript/tom-01/E0/**'
+      - 'manuscript/tom-01/E1/**'
+      - 'manuscript/tom-01/MSC00/**'
+      - 'scripts/assemble_tom1.py'
+      - 'tests/test_assemble_tom1.py'
+      - 'tests/test_msc00a08_recreation.py'
+      - 'docs/TOM_I_KORPUS_ROBOCZY.md'
+      - '.github/workflows/tom1-book-working.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - name: Checkout exact main revision
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Install PDF and Python toolchain
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends pandoc texlive-xetex lmodern texlive-latex-recommended texlive-fonts-recommended fonts-dejavu-core poppler-utils
+          python3 -m pip install --user --disable-pip-version-check pypdf==5.9.0 reportlab==4.4.9
+      - name: Test book assembler and recreational mathematics
+        run: |
+          python3 -m unittest discover -s tests -p 'test_assemble_tom1.py' -v
+          python3 -m unittest discover -s tests -p 'test_msc00a08_recreation.py' -v
+      - name: Compile continuous working corpus from exact Markdown
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out/chapters
+          common=(--standalone --from markdown+tex_math_dollars+tex_math_single_backslash --pdf-engine=xelatex -V mainfont="DejaVu Serif" -V sansfont="DejaVu Sans" -V geometry:margin=18mm -V papersize=a4 -V lang=pl-PL)
+          pandoc docs/TOM_I_KORPUS_ROBOCZY.md "${common[@]}" -o out/chapters/00_PRZEDMOWA_KORPUSU.pdf
+          mapfile -t sources < <(
+            find manuscript/tom-01/E0 manuscript/tom-01/E1 manuscript/tom-01/MSC00 \
+              -maxdepth 1 -type f -name '*.md' | LC_ALL=C sort
+          )
+          test "${#sources[@]}" -eq 17
+          chapters=(out/chapters/00_PRZEDMOWA_KORPUSU.pdf)
+          for src in "${sources[@]}"; do
+            name=$(basename "${src%.md}")
+            dst="out/chapters/${name}.pdf"
+            pandoc "$src" "${common[@]}" -o "$dst"
+            test -s "$dst"
+            chapters+=("$dst")
+          done
+          args=()
+          for chapter in "${chapters[@]}"; do args+=(--chapter "$chapter"); done
+          python3 scripts/assemble_tom1.py --mode supplements "${args[@]}" \
+            --output out/ONTOLOGIA_LICZBY_TOM_I_KORPUS_ROBOCZY.pdf \
+            --manifest out/ASSEMBLY_MANIFEST.json
+          pdfinfo out/ONTOLOGIA_LICZBY_TOM_I_KORPUS_ROBOCZY.pdf > out/PDFINFO.txt
+          pdftotext out/ONTOLOGIA_LICZBY_TOM_I_KORPUS_ROBOCZY.pdf out/CONTENT.txt
+          grep -q 'Modelowanie matematyczne' out/CONTENT.txt
+          grep -q 'Matematyka rekreacyjna' out/CONTENT.txt
+          grep -q 'Z24' out/CONTENT.txt
+          pages=$(awk '/^Pages:/ {print $2}' out/PDFINFO.txt)
+          test "$pages" -ge 70
+          bytes=$(stat -c '%s' out/ONTOLOGIA_LICZBY_TOM_I_KORPUS_ROBOCZY.pdf)
+          test "$bytes" -lt 99000000
+          sha256sum docs/TOM_I_KORPUS_ROBOCZY.md "${sources[@]}" out/ONTOLOGIA_LICZBY_TOM_I_KORPUS_ROBOCZY.pdf > out/SHA256SUMS.txt
+          printf 'working_corpus_chapters=%s pages=%s bytes=%s canonical_0.20_included=false\n' "${#sources[@]}" "$pages" "$bytes" | tee out/METRICS.txt
+      - name: Publish working book artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tom1-continuous-working-book-e0-e1-msc00a08
+          path: |
+            out/ONTOLOGIA_LICZBY_TOM_I_KORPUS_ROBOCZY.pdf
+            out/ASSEMBLY_MANIFEST.json
+            out/SHA256SUMS.txt
+            out/METRICS.txt
+            out/PDFINFO.txt
+          if-no-files-found: error
