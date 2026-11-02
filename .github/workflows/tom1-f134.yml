@@ -1,0 +1,53 @@
+name: Tom I F13.4 algebraic supplement verification
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'manuscript/tom-01/F13/F13.4_SUPLEMENT_SPLOT_MOMENTY.md'
+      - 'tests/test_f134.py'
+      - '.github/workflows/tom1-f134.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Run mathematical tests
+        run: python3 -m unittest discover -s tests -p 'test_f134.py' -v
+      - name: Install PDF toolchain
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends pandoc texlive-xetex texlive-latex-recommended lmodern fonts-dejavu-core poppler-utils
+      - name: Compile complete F13.4 supplement
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          src=manuscript/tom-01/F13/F13.4_SUPLEMENT_SPLOT_MOMENTY.md
+          dst=out/F13_4_PELNY_SUPLEMENT.pdf
+          pandoc "$src" --standalone --from markdown+tex_math_dollars+tex_math_single_backslash --pdf-engine=xelatex -V mainfont="DejaVu Serif" -V geometry:margin=18mm -V papersize=a4 -o "$dst"
+          test -s "$dst"
+          pdftotext "$dst" out/CONTENT.txt
+          python3 - <<'PY'
+          from pathlib import Path
+          text=Path("out/CONTENT.txt").read_text(encoding="utf-8")
+          for token in ("T1", "T5", "T10", "K4", "Z9"):
+              if token not in text:
+                  raise SystemExit("Missing marker: "+token)
+          PY
+          pdfinfo "$dst" > out/PDFINFO.txt
+          test "$(stat -c %s "$dst")" -lt 99000000
+          sha256sum "$src" "$dst" > out/SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tom1-f134-full-supplement
+          path: |
+            out/F13_4_PELNY_SUPLEMENT.pdf
+            out/PDFINFO.txt
+            out/SHA256SUMS.txt
+          if-no-files-found: error
