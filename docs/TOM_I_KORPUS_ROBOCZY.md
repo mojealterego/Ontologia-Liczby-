@@ -12,7 +12,7 @@ geometry: margin=20mm
 
 **Wydanie robocze — nie jest kanonicznym Tomem I ani zamiennikiem wydania 0.20.**
 
-Niniejszy plik łączy w jeden, ciągły dokument PDF nowo opracowane rozdziały edukacyjne E0-01–E0-05, E1-01–E1-11 oraz punkt MSC2020 00A08. Rozdziały ułożono zgodnie z wewnętrzną mapą źródłowej taksonomii. Zachowano pełne źródła rozdziałów; nie tworzono końcowego spisu treści.
+Niniejszy plik łączy w jeden, ciągły dokument PDF nowo opracowane rozdziały edukacyjne E0-01–E0-05, E1-01–E1-11 oraz punkty MSC2020 00A08, 00A09 i 97C20. Rozdziały ułożono zgodnie z wewnętrzną mapą źródłowej taksonomii. Zachowano pełne źródła rozdziałów; nie tworzono końcowego spisu treści.
 
 **Historyczny wstęp** „O początkach liczby: między genezą a statusem bytowym” jest chroniony i nie jest odtwarzany ani parafrazowany w tym korpusie. Znajduje się w odrębnym wydaniu źródłowym 0.20. Aby otrzymać wydanie robocze obejmujące również oryginalny wstęp, trzeba podać oryginalny PDF 0.20 i potwierdzić jego sumę SHA-256.
 
@@ -22,4 +22,4 @@ Zawarte twierdzenia i dowody wymagają odrębnej recenzji matematycznej. Testy a
 
 ---
 
-**Kolejność w tym wydaniu roboczym:** E0 (wczesna edukacja) → E1 (szkoła podstawowa) → MSC 00A08 (matematyka rekreacyjna). To opis struktury, **nie końcowy spis treści Tomu I**.
+**Kolejność w tym wydaniu roboczym:** E0 (wczesna edukacja) → E1 (szkoła podstawowa) → MSC 00A08 (matematyka rekreacyjna) → MSC 00A09 (popularyzacja matematyki) → MSC 97C20 (afektywne aspekty edukacji matematycznej). To opis struktury, **nie końcowy spis treści Tomu I**.
