@@ -1,0 +1,61 @@
+name: Tom I MSC 97C30 — procesy poznawcze i pelny PDF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'manuscript/tom-01/MSC97/97C30_PROCESY_POZNAWCZE_I_TEORIE_UCZENIA.md'
+      - 'tests/test_msc97c30_cognition.py'
+      - '.github/workflows/tom1-msc97c30.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Install PDF toolchain
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends pandoc texlive-xetex lmodern texlive-latex-recommended texlive-fonts-recommended fonts-dejavu-core poppler-utils
+      - name: Verify exact checked-out test file
+        run: |
+          python3 -m compileall -q tests/test_msc97c30_cognition.py
+          python3 -m unittest discover -s tests -p 'test_msc97c30_cognition.py' -v
+      - name: Compile complete source, check pages and mathematics markers
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          src=manuscript/tom-01/MSC97/97C30_PROCESY_POZNAWCZE_I_TEORIE_UCZENIA.md
+          pdf=out/97C30_PROCESY_POZNAWCZE_I_TEORIE_UCZENIA.pdf
+          pandoc "$src" --standalone --from markdown+tex_math_dollars+tex_math_single_backslash \
+            --pdf-engine=xelatex -V mainfont="DejaVu Serif" -V sansfont="DejaVu Sans" \
+            -V geometry:margin=18mm -V papersize=a4 -V lang=pl-PL -o "$pdf"
+          pdfinfo "$pdf" > out/PDFINFO.txt
+          pdftotext "$pdf" out/CONTENT.txt
+          grep -q 'T16' out/CONTENT.txt
+          grep -q 'K10' out/CONTENT.txt
+          grep -q 'Z20' out/CONTENT.txt
+          pages=$(awk '/^Pages:/ {print $2}' out/PDFINFO.txt)
+          test "$pages" -ge 4
+          bytes=$(stat -c '%s' "$pdf")
+          test "$bytes" -lt 99000000
+          sha256sum "$src" "$pdf" > out/SHA256SUMS.txt
+          printf 'pages=%s bytes=%s\n' "$pages" "$bytes" > out/METRICS.txt
+      - name: Publish complete chapter artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tom1-msc97c30-full-pdf
+          path: |
+            out/97C30_PROCESY_POZNAWCZE_I_TEORIE_UCZENIA.pdf
+            out/PDFINFO.txt
+            out/SHA256SUMS.txt
+            out/METRICS.txt
+          if-no-files-found: error
