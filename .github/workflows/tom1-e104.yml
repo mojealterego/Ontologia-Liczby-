@@ -29,7 +29,7 @@ jobs:
       - name: Typeset complete E1-04 source
         run: |
           mkdir -p build/e104
-          pandoc manuscript/tom-01/E1/E1-04_ALGEBRA_ELEMENTARNA.md \
+          pandoc --from markdown+tex_math_dollars+tex_math_single_backslash manuscript/tom-01/E1/E1-04_ALGEBRA_ELEMENTARNA.md \
             --pdf-engine=xelatex \
             -V papersize=a4 -V mainfont="Noto Serif" -V sansfont="Noto Sans" \
             -V geometry:margin=18mm \
