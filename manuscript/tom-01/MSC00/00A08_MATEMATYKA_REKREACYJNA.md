@@ -86,7 +86,7 @@ geometry: margin=18mm
 
 **T12 (charakterystyka grafów dwudzielnych).** Skończony graf jest dwudzielny wtedy i tylko wtedy, gdy nie ma cyklu nieparzystej długości.
 
-*Dowód.* W grafie dwudzielnym kolejne wierzchołki cyklu zmieniają część, więc powrót do początku wymaga parzystej liczby krawędzi. Odwrotnie, w każdej składowej wybierzmy korzeń i podzielmy wierzchołki według parzystości odległości od korzenia. Gdyby krawędź łączyła wierzchołki tej samej parzystości, dwie najkrótsze ścieżki do korzenia po usunięciu wspólnego prefiksu, wraz z tą krawędzią, tworzyłyby cykl nieparzysty. Sprzeczność. $\square$
+*Dowód.* W grafie dwudzielnym kolejne wierzchołki cyklu zmieniają część, więc powrót do początku wymaga parzystej liczby krawędzi. Odwrotnie, w każdej składowej wybierzmy korzeń i podzielmy wierzchołki według parzystości odległości od korzenia. Wybieramy drzewo najkrótszych ścieżek (BFS). Gdyby krawędź łączyła wierzchołki tej samej parzystości, dwie jednoznaczne ścieżki drzewa od ich najniższego wspólnego przodka, wraz z tą krawędzią, tworzyłyby cykl nieparzysty. Sprzeczność. $\square$
 
 **T13 (wzór Eulera dla grafów płaskich).** Dla spójnego grafu narysowanego na płaszczyźnie bez przecięć krawędzi poza wierzchołkami zachodzi $V-E+F=2$, gdzie $F$ obejmuje także obszar nieograniczony.
 
