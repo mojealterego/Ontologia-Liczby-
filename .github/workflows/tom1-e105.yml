@@ -1,0 +1,59 @@
+name: Tom I — E1-05 mathematical tests, full PDF and 99 MB gate
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'manuscript/tom-01/E1/E1-05_ROWNANIA_LINIOWE.md'
+      - 'tests/test_e105_linear_equations.py'
+      - '.github/workflows/tom1-e105.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run exact repository test file
+        run: python -m unittest discover -s tests -p test_e105_linear_equations.py -v
+      - name: Install PDF dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-latex-extra texlive-lang-european fonts-noto-core poppler-utils
+      - name: Compile complete E1-05 source
+        run: |
+          mkdir -p build/e105
+          pandoc manuscript/tom-01/E1/E1-05_ROWNANIA_LINIOWE.md \
+            --pdf-engine=xelatex \
+            -V papersize=a4 -V mainfont="Noto Serif" -V sansfont="Noto Sans" \
+            -V geometry:margin=19mm \
+            -o build/e105/E1-05_PELNY_PODGLAD_A4.pdf
+      - name: Validate complete PDF, A4, and size
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import subprocess
+          p=Path('build/e105/E1-05_PELNY_PODGLAD_A4.pdf')
+          assert p.is_file(), 'PDF missing'
+          size=p.stat().st_size
+          assert 10000 < size < 99000000, f'PDF size outside limits: {size} bytes'
+          info=subprocess.check_output(['pdfinfo',str(p)],text=True)
+          assert '595.28 x 841.89 pts (A4)' in info, 'Expected A4'
+          text=subprocess.check_output(['pdftotext','-layout',str(p),'-'],text=True)
+          pages=[page for page in text.split('\f') if page.strip()]
+          assert len(pages)>=4, f'Fewer than four pages: {len(pages)}'
+          assert all(len(page.strip())>100 for page in pages), 'Blank or nearly blank page'
+          assert 'Część' in text or ('Teoria' in text and 'zadania' in text), 'Content extraction sanity check'
+          print(f'Validated {len(pages)} A4 pages; {size} bytes (<99,000,000)')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tom1-e105-full-source-a4
+          path: build/e105/E1-05_PELNY_PODGLAD_A4.pdf
+          if-no-files-found: error
