@@ -19,6 +19,12 @@ class HigherMoments(unittest.TestCase):
                     expected=sum(math.comb(r,j)*moment(a,j)*moment(b,r-j) for j in range(r+1))
                     self.assertEqual(moment(product,r),expected)
 
+    def test_vandermonde_boundary(self):
+        for n in range(1,9):
+            d=[(-1)**i*math.comb(n,i) for i in range(n+1)]
+            self.assertEqual([moment(d,r) for r in range(n)],[0]*n)
+            self.assertNotEqual(moment(d,n),0)
+
     def test_example(self):
         self.assertEqual(moment([3,10,8],3),74)
 
