@@ -447,7 +447,7 @@ Poniższe zadania są samodzielne. W każdym wskazano wynik i podstawę rachunku
 
 *Rozwiązanie.* $n$ musi być wielokrotnością NWW$(12,20)=60$, więc $n=60k$ z $k\ge1$. Ponieważ $60\equiv4\pmod7$, warunek brzmi $4k\equiv4\pmod7$, czyli $k\equiv1\pmod7$. Najmniejsze dodatnie $k$ to 1, stąd $n=60$; kontrola $60=7\cdot8+4$.
 
-**Problem H (model i ograniczenia).** Wyjaśnij różnicę między dzieleniem 47 przedmiotów na 6 równych grup a pakowaniem 47 przedmiotów do pudełek mieszczących najwyżej 6 sztuk.
+**Problem H (model i ograniczenia).** Wyjaśnij różnicę między dzieleniem 47 przedmiotów na grupy po dokładnie 6 sztuk a pakowaniem 47 przedmiotów do pudełek mieszczących najwyżej 6 sztuk.
 
 *Rozwiązanie.* Dzielenie z resztą daje $47=6\cdot7+5$. Przy siedmiu pełnych grupach pozostaje pięć przedmiotów, więc nie da się utworzyć sześciu grup o jednakowej całkowitej liczebności obejmujących wszystkie 47. Przy pakowaniu po maksymalnie sześć sztuk potrzeba ośmiu pudełek: siedem pełnych i jedno z pięcioma. Iloraz 7 nie jest liczbą wszystkich potrzebnych pudełek.
 
