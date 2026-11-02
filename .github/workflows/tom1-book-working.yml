@@ -73,6 +73,7 @@ jobs:
           python3 scripts/assemble_tom1.py --mode supplements "${args[@]}" \
             --output out/ONTOLOGIA_LICZBY_TOM_I_KORPUS_ROBOCZY.pdf \
             --manifest out/ASSEMBLY_MANIFEST.json
+          python3 scripts/pdf_bounds.py out/ONTOLOGIA_LICZBY_TOM_I_KORPUS_ROBOCZY.pdf --repair
           python3 scripts/pdf_bounds.py out/ONTOLOGIA_LICZBY_TOM_I_KORPUS_ROBOCZY.pdf
           pdfinfo out/ONTOLOGIA_LICZBY_TOM_I_KORPUS_ROBOCZY.pdf > out/PDFINFO.txt
           pdftotext out/ONTOLOGIA_LICZBY_TOM_I_KORPUS_ROBOCZY.pdf out/CONTENT.txt
