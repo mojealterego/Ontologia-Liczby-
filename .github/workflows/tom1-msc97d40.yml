@@ -52,7 +52,7 @@ jobs:
           grep -q 'T42' out/CONTENT.txt
           grep -q 'Z50' out/CONTENT.txt
           pages=$(awk '/^Pages:/ {print $2}' out/PDFINFO.txt)
-          test "$pages" -ge 4
+          test "$pages" -ge 10
           test "$(stat -c '%s' "$dst")" -lt 99000000
           sha256sum "$src" "$dst" > out/SHA256SUMS.txt
           printf 'chapter=MSC97D40 pages=%s bytes=%s canonical_0.20_included=false\n' "$pages" "$(stat -c '%s' "$dst")" > out/METRICS.txt
