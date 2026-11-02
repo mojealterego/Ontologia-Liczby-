@@ -959,3 +959,14 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Dowody i ograniczenia:** [docs/DOWODY_E0_05_2026-11-02.md](https://github.com/mojealterego/Ontologia-Liczby-/blob/main/docs/DOWODY_E0_05_2026-11-02.md), commit [fa33ec7](https://github.com/mojealterego/Ontologia-Liczby-/commit/fa33ec7ea52acb5620526ef6c392c4ad707b2948).
 - **Status:** opracowanie źródłowe zapisane; pełna paginacja, minimalna objętość i integracja z monolitem 0.20 nadal niepotwierdzone. **585/1222 bez zmian**. Wstęp historyczny i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
 - **Następny punkt taksonomii:** E1-01 — Ułamki i liczby wymierne, po kontroli materiałów już istniejących.
+
+
+## E1-01 — Ułamki i liczby wymierne (2 listopada 2026)
+
+- **Taksonomia:** E1-01, poziom I; po E0-05. Opracowano ułamki, proporcje, liczby dziesiętne, procenty, stosunki oraz błędy przybliżeń. Sprawdzono F14.3, F10.1 i F19.1; zachowano je bez zmian.
+- **Dokładne źródło na main:** [E1-01](https://github.com/mojealterego/Ontologia-Liczby-/blob/main/manuscript/tom-01/E1/E1-01_ULAMKI_I_LICZBY_WYMIERNE.md), finalny commit [49b1dcb](https://github.com/mojealterego/Ontologia-Liczby-/commit/49b1dcb1078299fbe0cae047d2668f9f15040fda), Git blob `5839e75196b47a6ab76bfe7b028d17aeac28234e`; 14 definicji, 21 twierdzeń z 21 dowodami, 12 kontrprzykładów, 60 zadań i 8 problemów z rozwiązaniami.
+- **Testy:** [test_e101_rationals.py](https://github.com/mojealterego/Ontologia-Liczby-/blob/main/tests/test_e101_rationals.py), commit [8e1ff69](https://github.com/mojealterego/Ontologia-Liczby-/commit/8e1ff6983eab4094028848abaf35fec6c396e25a); wykonano lokalnie **8/8 unittest OK** na pliku bajtowo identycznym z GitHub (blob `f582ab8a0dc1b2ba2abb348989e13c6778b32d09`).
+- **Skład:** Pandoc/XeLaTeX skompilował dokładne źródło z GitHub do **9-stronicowego A4 PDF**; 5 stron teorii (ostatnia częściowa), 4 strony zadań (ostatnia częściowa), brak pustych stron; lokalna bramka `pdftotext` zaliczona. PDF jest podglądem samodzielnym, **nie** integracją z monolitem 0.20. [Workflow CI](https://github.com/mojealterego/Ontologia-Liczby-/blob/main/.github/workflows/tom1-e101.yml) zapisany na main, **wynik CI niepotwierdzony**.
+- **Dowody:** [docs/DOWODY_E1_01_2026-11-02.md](https://github.com/mojealterego/Ontologia-Liczby-/blob/main/docs/DOWODY_E1_01_2026-11-02.md), commit [c379ed1](https://github.com/mojealterego/Ontologia-Liczby-/commit/c379ed10d9f151ea4b76982c66545a1d21c74115). Podano SHA-256 lokalnego PDF i źródła, Git blob oraz ograniczenia.
+- **Status:** opracowanie źródłowe i lokalna kompilacja **potwierdzone**; CI, pełna recenzja matematyczna i integracja globalna **otwarte**. **585/1222 stron bez zmian**. Wstęp historyczny i wcześniejsze rozdziały nietknięte; bez finalnego spisu treści i bez Tomu II.
+- **Następny punkt:** E1-02 — Podzielność; sprawdzić istniejące dowody NWD/NWW i algorytmu Euklidesa.
