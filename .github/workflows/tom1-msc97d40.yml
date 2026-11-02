@@ -10,7 +10,9 @@ on:
       - 'tests/test_msc97d40_information.py'
       - 'tests/test_msc97d40_uncertainty.py'
       - 'tests/test_msc97d40_optimization.py'
+      - 'tests/test_msc97d40_measurement.py'
       - 'manuscript/tom-01/MSC97/97D40_IIID_OPTYMALIZACJA_PROGRAMU_ZAJEC.md'
+      - 'manuscript/tom-01/MSC97/97D40_IIIE_RZETELNOSC_POMIARU.md'
       - '.github/workflows/tom1-msc97d40.yml'
   workflow_dispatch:
 
@@ -36,6 +38,7 @@ jobs:
           python3 -m unittest discover -s tests -p 'test_msc97d40_information.py' -v
           python3 -m unittest discover -s tests -p 'test_msc97d40_uncertainty.py' -v
           python3 -m unittest discover -s tests -p 'test_msc97d40_optimization.py' -v
+          python3 -m unittest discover -s tests -p 'test_msc97d40_measurement.py' -v
       - name: Compile full 97D40 manuscript
         shell: bash
         run: |
@@ -43,8 +46,9 @@ jobs:
           mkdir -p out
           src=manuscript/tom-01/MSC97/97D40_METODY_NAUCZANIA_MATEMATYKI.md
           supp=manuscript/tom-01/MSC97/97D40_IIID_OPTYMALIZACJA_PROGRAMU_ZAJEC.md
+          supp2=manuscript/tom-01/MSC97/97D40_IIIE_RZETELNOSC_POMIARU.md
           dst=out/MSC97D40_PELNY_ROZDZIAL.pdf
-          pandoc "$src" "$supp" --standalone --from markdown+tex_math_dollars+tex_math_single_backslash --pdf-engine=xelatex -V mainfont="DejaVu Serif" -V sansfont="DejaVu Sans" -V geometry:margin=18mm -V papersize=a4 -V lang=pl-PL -o "$dst"
+          pandoc "$src" "$supp" "$supp2" --standalone --from markdown+tex_math_dollars+tex_math_single_backslash --pdf-engine=xelatex -V mainfont="DejaVu Serif" -V sansfont="DejaVu Sans" -V geometry:margin=18mm -V papersize=a4 -V lang=pl-PL -o "$dst"
           test -s "$dst"
           pdfinfo "$dst" > out/PDFINFO.txt
           pdftotext "$dst" out/CONTENT.txt
@@ -57,10 +61,12 @@ jobs:
           grep -q 'Z50' out/CONTENT.txt
           grep -q 'T55' out/CONTENT.txt
           grep -q 'Z64' out/CONTENT.txt
+          grep -q 'T65' out/CONTENT.txt
+          grep -q 'Z80' out/CONTENT.txt
           pages=$(awk '/^Pages:/ {print $2}' out/PDFINFO.txt)
-          test "$pages" -ge 14
+          test "$pages" -ge 17
           test "$(stat -c '%s' "$dst")" -lt 99000000
-          sha256sum "$src" "$supp" "$dst" > out/SHA256SUMS.txt
+          sha256sum "$src" "$supp" "$supp2" "$dst" > out/SHA256SUMS.txt
           printf 'chapter=MSC97D40 pages=%s bytes=%s canonical_0.20_included=false\n' "$pages" "$(stat -c '%s' "$dst")" > out/METRICS.txt
       - name: Upload verified full chapter PDF
         uses: actions/upload-artifact@v4
