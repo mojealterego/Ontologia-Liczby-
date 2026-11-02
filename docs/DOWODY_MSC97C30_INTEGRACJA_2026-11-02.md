@@ -23,7 +23,7 @@ Repozytorium: mojealterego/Ontologia-Liczby-, wyłącznie gałąź main. Przed z
 
 ## Granice dowodów i blokady
 
-- **CI GitHub Actions:** [rozdział 97C30, run 41438424204](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41438424204) oraz [książka 20 rozdziałów, run 41438448699](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41438448699) uruchomione; w chwili sporządzania protokołu wynik końcowy niepotwierdzony. Nie oznaczać ich jako zielonych bez odczytu zakończonego przebiegu.
+- **CI rozdziału potwierdzone:** [run 41438424204](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41438424204), zakończony **success** na commit f36c769713e8ab8b6e5b8b33b816427a0a85d603. Log zadania 125253930609 potwierdza **28/28 testów** i poprawną kompilację pełnego źródła; artefakt PDF: ID **13137857119**. [Książka 20 rozdziałów, run 41438448699](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41438448699) nadal w trakcie ostatniej kontroli; nie oznaczać jako zielonej przed zakończeniem.
 - **Niekanoniczny monolit 629 stron** nie jest binarnie tożsamy z wydaniem 0.20 (według wcześniejszej dokumentacji 864 strony, SHA-256 ea888d112cc255856c03cead7428d4f817ad2c692d0e6e6d61f46ae17738dd43). Wersja 641 stron jest *podglądem roboczym*, nie oficjalną integracją 0.20. Jej PDF nie został wysłany do repozytorium.
 - Formalna recenzja wszystkich dowodów i empiryczna walidacja modeli dydaktycznych pozostają otwarte. Testy skończone nie stanowią ich zamiennika.
 - Historyczny bilans **585 stron** niezmieniony. Dawne 1222 stron nie jest obowiązkowym limitem. Końcowy PDF tomu musi mieć **<99 000 000 B**. Wstęp historyczny i wszystkie poprzednie strony bez ingerencji. Bez końcowego spisu treści i bez Tomu II.
