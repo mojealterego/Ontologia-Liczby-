@@ -260,3 +260,91 @@ $$0\le\sum_{u\in V}w_up_u\le\sum_{u\in V}w_u.$$
 **Z30.** W K12 przy $B=100$, $\varepsilon=0{,}1$ oblicz iloraz wartości zachłannej do optymalnej. **Rozwiązanie:** $(1{,}1)/100=0{,}011$.
 
 **Granica walidacji rozszerzenia III-A.** Dowody T17–T24 są argumentami skończonej matematyki dyskretnej. T20 dotyczy ograniczenia liczby zadań, **nie** ogólnego ograniczenia czasowego; K12 pokazuje, dlaczego tych warunków nie można utożsamiać. Rzeczywista diagnoza wymaga badania jakości pytań, błędów pomiaru, etyki i trafności interwencji.
+
+
+## 6. Rozszerzenie III-B: diagnoza adaptacyjna i niezawodność oceniania
+
+**D20 (drzewo diagnostyczne).** Skończone binarne drzewo decyzyjne przypisuje węzłom wewnętrznym pytania o odpowiedziach $0,1$, a liściom rozpoznane stany. Długość ścieżki do liścia jest liczbą zadanych pytań.
+
+**D21 (test bezbłędny).** Test adaptacyjny jest bezbłędny na $X$, jeśli różnym stanom przypisuje różne liście; dla $x\in X$ oznaczmy liczbę pytań przez $\ell(x)$.
+
+**D22 (rozkład stanów).** Wektor $p=(p_x)_{x\in X}$ spełnia $p_x>0$ oraz $\sum_xp_x=1$. Średnia liczba pytań to $L=\sum_xp_x\ell(x)$.
+
+**D23 (entropia diagnozy).** $H(p)=-\sum_xp_x\log_2p_x$ bitów.
+
+**D24 (koszt pomyłki).** Dla decyzji $a\in A$, stanu $x\in X$ i funkcji strat $\lambda(a,x)\ge0$ ryzyko decyzji przy rozkładzie $p$ to $R(a;p)=\sum_xp_x\lambda(a,x)$.
+
+**D25 (reguła Bayesa).** Dla skończonego $A$ decyzja $a^*(p)$ minimalizuje $R(a;p)$.
+
+**D26 (informacja zwrotna z obserwacji).** Dla wyniku $Y=y$ o dodatnim prawdopodobieństwie aktualizujemy $p_x^{(y)}=P(X=x\mid Y=y)$.
+
+**D27 (straty po informacji).** Ryzyko z informacją to $\sum_yP(Y=y)\min_aR(a;p^{(y)})$; bez informacji $\min_aR(a;p)$.
+
+**T25 (nierówność Krafta).** Długości liści bezbłędnego binarnego drzewa diagnostycznego spełniają $\sum_{x\in X}2^{-\ell(x)}\le1$.
+
+*Dowód.* Każdy liść na głębokości $\ell$ wyznacza cylinder nieskończonych ciągów binarnych o mierze $2^{-\ell}$ w miarze uczciwych niezależnych bitów. Cylindry różnych liści są rozłączne, gdyż żaden liść nie jest przodkiem innego liścia. Suma ich miar nie przekracza $1$. $\square$
+
+**T26 (dolna granica średniej długości diagnozy).** Każde bezbłędne drzewo spełnia $L\ge H(p)$.
+
+*Dowód.* Niech $K=\sum_x2^{-\ell(x)}\le1$ z T25 i $q_x=2^{-\ell(x)}/K$. Z nieujemności dywergencji $D(p\Vert q)=\sum_xp_x\log_2(p_x/q_x)\ge0$ otrzymujemy
+$$0\le -H(p)+L+\log_2K.$$
+Ponieważ $\log_2K\le0$, mamy $L\ge H(p)-\log_2K\ge H(p)$. Nieujemność dywergencji wynika z $\ln t\le t-1$ po podstawieniu $t=q_x/p_x$ i zsumowaniu. $\square$
+
+**T27 (konstrukcja bliska optimum).** Jeśli wolno zadawać dowolne abstrakcyjne pytania binarne o stan, istnieje bezbłędny test o średniej liczbie pytań $L<H(p)+1$ dla co najmniej dwóch stanów.
+
+*Dowód.* Dla każdego stanu wybieramy długość $\ell_x=\lceil-\log_2p_x\rceil$. Wtedy $\sum_x2^{-\ell_x}\le\sum_xp_x=1$. Z twierdzenia Krafta–McMillana o kodach prefiksowych istnieje binarne drzewo z liśćmi o tych długościach. Ponieważ $\ell_x<-\log_2p_x+1$, po pomnożeniu przez $p_x$ i zsumowaniu mamy $L<H(p)+1$. Konstrukcja jest abstrakcyjna: nie gwarantuje, że pytania odpowiadają sensownym zadaniom szkolnym. $\square$
+
+**T28 (informacja nie zwiększa optymalnego ryzyka).** Dla skończonych $X,A,Y$ zachodzi
+$$\sum_yP(Y=y)\min_aR(a;p^{(y)})\le\min_aR(a;p).$$
+
+*Dowód.* Niech $a_0$ minimalizuje ryzyko bez obserwacji. Dla każdego $y$ minimum ryzyka warunkowego nie przewyższa ryzyka decyzji $a_0$. Po zważeniu przez $P(Y=y)$ i zsumowaniu prawa całkowitego prawdopodobieństwa otrzymujemy $\sum_yP(Y=y)R(a_0;p^{(y)})=R(a_0;p)$. $\square$
+
+**T29 (nieujemność wartości informacji).** Definiując $V=\min_aR(a;p)-\sum_yP(Y=y)\min_aR(a;p^{(y)})$, otrzymujemy $V\ge0$.
+
+*Dowód.* Bezpośrednio z T28. $\square$
+
+**T30 (diagnostyka bez informacji).** Jeśli $X$ i $Y$ są niezależne, to $V=0$.
+
+*Dowód.* Dla każdego $y$ z dodatnim prawdopodobieństwem posterior $p^{(y)}=p$, więc wszystkie minima w T29 są równe. $\square$
+
+**T31 (decyzja przy stracie zero–jeden).** Jeśli $A=X$ i $\lambda(a,x)=\mathbf 1_{\{a\ne x\}}$, reguła Bayesa wybiera dowolny stan o największym $p_x$, a minimalne ryzyko wynosi $1-\max_xp_x$.
+
+*Dowód.* $R(a;p)=\sum_{x\ne a}p_x=1-p_a$. Minimalizacja jest równoważna maksymalizacji $p_a$. $\square$
+
+**T32 (dokładna diagnoza usuwa stratę klasyfikacyjną).** Przy stracie zero–jeden i obserwacji $Y=X$ ryzyko z informacją wynosi $0$, a wartość informacji wynosi $1-\max_xp_x$.
+
+*Dowód.* Po obserwacji $y$ posterior przypisuje prawdopodobieństwo $1$ stanowi $y$. Wybór $a=y$ ma stratę zerową; wynik wynika z T31. $\square$
+
+### Kontrprzykłady i granice
+
+**K15.** Granica entropijna nie gwarantuje dopuszczalności pedagogicznej pytań: przy dwóch stanach identycznie odpowiadających na każde dostępne pytanie nie istnieje bezbłędny test, choć $H(p)\le1$.
+
+**K16.** Obserwacja może nie mieć wartości: przy niezależnych $X$ i $Y$ otrzymujemy $V=0$, nawet gdy wynik $Y$ ma wysoką entropię.
+
+**K17.** Więcej informacji nie oznacza zawsze poprawy każdej indywidualnej decyzji: T28 dotyczy *średniego optymalnego ryzyka*, nie wyniku każdego ucznia.
+
+**K18.** Dla strat asymetrycznych wybór najczęstszego stanu nie musi minimalizować ryzyka: przy $P(X=1)=0{,}4$, koszt fałszywego alarmu $1$ i koszt przeoczenia $10$, decyzja „1” ma ryzyko $0{,}6$, a decyzja „0” ma ryzyko $4$.
+
+### Zadania z rozwiązaniami
+
+**Z31.** Cztery stany o równych prawdopodobieństwach. **Rozwiązanie:** $H=2$ bity; drzewo o czterech liściach na głębokości $2$ daje $L=2$.
+
+**Z32.** Dwa stany o prawdopodobieństwach $1/2,1/2$. **Rozwiązanie:** $H=1$ i jedno pytanie binarne wystarcza.
+
+**Z33.** Długości liści $(1,2,2)$. **Rozwiązanie:** suma Krafta wynosi $1/2+1/4+1/4=1$.
+
+**Z34.** Długości $(1,1,2)$. **Rozwiązanie:** suma Krafta wynosi $1/2+1/2+1/4=5/4>1$; takie długości nie tworzą bezbłędnego drzewa.
+
+**Z35.** Rozkład $(1/2,1/4,1/4)$ i długości $(1,2,2)$. **Rozwiązanie:** $L=1/2+1/2+1/2=3/2$; entropia także wynosi $3/2$.
+
+**Z36.** Dwa stany o prawdopodobieństwach $0{,}8$ i $0{,}2$ przy stracie zero–jeden. **Rozwiązanie:** wybieramy stan pierwszy, ryzyko $0{,}2$.
+
+**Z37.** W Z36 obserwacja ujawnia stan bezbłędnie. **Rozwiązanie:** ryzyko po obserwacji $0$, wartość informacji $0{,}2$.
+
+**Z38.** Przy $p=(1/3,1/3,1/3)$ i stracie zero–jeden. **Rozwiązanie:** minimalne ryzyko $1-1/3=2/3$.
+
+**Z39.** Przy $X\perp Y$ i dowolnej skończonej funkcji strat. **Rozwiązanie:** posterior równy prior, zatem wartość informacji $V=0$.
+
+**Z40.** Przy $P(X=1)=0{,}4$, stracie przeoczenia $10$ i fałszywego alarmu $1$. **Rozwiązanie:** przewidywanie „1” daje $0{,}6$, przewidywanie „0” daje $4$, więc optymalna jest decyzja „1”.
+
+**Granica zastosowania.** T25–T32 opisują modele informacji i decyzji. Użycie ich do rzeczywistych uczniów wymaga osobnej oceny rzetelności testów, ochrony danych, uczciwości pomiaru i skutków błędnych decyzji. Twierdzenie o istnieniu kodu prefiksowego nie dowodzi istnienia odpowiedniego zestawu pytań dydaktycznych.
