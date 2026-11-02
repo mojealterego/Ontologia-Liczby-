@@ -1,6 +1,8 @@
 # MSC 97D40 — Metody nauczania matematyki i techniki pracy w klasie
 
-**Tom I · poziom autorski I · opracowanie matematyczne i metodyczne.** Niniejszy tekst jest nowym rozdziałem, nie zastępuje wstępu historycznego ani wcześniejszych rozdziałów F. Twierdzenia dotyczą jawnie zdefiniowanych modeli; nie stanowią bez badań empirycznych dowodów skuteczności metod dydaktycznych.
+**Tom I · poziom III MSC2020 · opracowanie matematyczne i metodyczne, wersja częściowa.** Niniejszy tekst jest nowym rozdziałem, nie zastępuje wstępu historycznego ani wcześniejszych rozdziałów F. Twierdzenia dotyczą jawnie zdefiniowanych modeli; nie stanowią bez badań empirycznych dowodów skuteczności metod dydaktycznych.
+
+**Nota redakcyjna (2026-11-02).** Weryfikacja oficjalnego MSC2020 potwierdziła kod 97D40 i poziom III, pominięty wcześniej w lokalnym indeksie taksonomii. Wymagane minimum tego poziomu w projekcie to 44 strony. Obecny materiał nie został jeszcze przyjęty jako pełne opracowanie 44-stronicowe; nie wolno utożsamiać przejścia testów z ukończeniem kategorii.
 
 ## 1. Definicje
 
