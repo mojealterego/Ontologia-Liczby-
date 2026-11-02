@@ -52,3 +52,11 @@ Pełen dokument źródłowy: **„TAKSONOMIA_MATEMATYKI_WYDANIE_JEDNOLITE_PELNE_
 - Zachować ciągłość wersji i pełną historię zmian.
 
 **Uwaga:** repo zainicjowano tekstową dokumentacją. Brak binarnych plików PDF w danym commicie nie oznacza, że ich upload został wykonany.
+
+
+## Dyrektywa wydawnicza — 2026-11-02: limit rozmiaru tomów
+
+- **Nie obowiązuje sztywne 1222 stron na tom.** Tom może liczyć mniej stron, jeżeli jego zawartość jest kompletna i spełnia wymagania merytoryczne oraz redakcyjne. Dawne `585/1222` jest wyłącznie historycznym wskaźnikiem wcześniejszego planu, nie aktualnym kryterium ukończenia.
+- **Twardy limit artefaktu:** każdy końcowy PDF pojedynczego tomu musi mieć rozmiar **ściśle mniejszy niż 99 MB** (konserwatywnie przyjmować 99 000 000 bajtów jako górny próg, a test odbiorczy wymaga `size < 99000000`).
+- Kontrola rozmiaru następuje po ostatecznym składzie, osadzeniu fontów, grafik i optymalizacji. Preferować tekst i wzory wektorowe; obrazy kompresować z zachowaniem czytelności. Gdy optymalizacja nie wystarcza, dzielić materiał na logiczne tomy bez pomijania treści.
+- Liczba stron w nowych materiałach pozostaje niezaliczona do kanonicznego Tomu I przed rzeczywistą integracją z monolitem 0.20. Wstęp historyczny pozostaje bez zmian; nie tworzyć końcowego spisu treści przed ukończeniem Tomu I.
