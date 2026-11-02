@@ -1156,3 +1156,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - [MSC 97C30, run 41438424204](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41438424204) **success**: **28/28 testów**, pełny PDF ze źródła main, artefakt ID 13137857119.
 - [Ciągły korpus, run 41438448699](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41438448699) **success**: **20 rozdziałów, 140 stron A4, 1 743 342 B**, artefakt ID 13137322247, **97/97 testów** (11 + 20 + 18 + 20 + 28). To **niekanoniczny** korpus E0/E1/MSC bez historycznego wstępu.
 - Niezależny lokalny **641-stronicowy podgląd** z dostarczonego monolitu 629 stron i dwóch suplementów 97C20/97C30 zachowuje wszystkie oryginalne strony, ale **nie jest wydaniem 0.20**. Historyczne 585 stron bez zmian. Szczegóły w [protokole](DOWODY_MSC97C30_INTEGRACJA_2026-11-02.md).
+
+
+## MSC 97D40 — Metody nauczania matematyki (2026-11-02)
+
+- **Nowy rozdział na main:** [97D40](../manuscript/tom-01/MSC97/97D40_METODY_NAUCZANIA_MATEMATYKI.md), commit [569e303f](https://github.com/mojealterego/Ontologia-Liczby-/commit/569e303f9c4ebd08e5fd8bfa8f6d1e767118ed23). Zawartość: 15 definicji, 16 twierdzeń z dowodami, 10 kontrprzykładów, 20 rozwiązanych zadań. Modelowe twierdzenia matematyczne nie są empirycznym dowodem skuteczności pedagogicznej.
+- **Testy zapisane na main:** [test_msc97d40_teaching.py](../tests/test_msc97d40_teaching.py), commit [08f87d8e](https://github.com/mojealterego/Ontologia-Liczby-/commit/08f87d8e9540a9245eb2c8133532db368625b5c0), 17 przypadków unittest; **uruchomienie CI i pełnego testu tego pliku niepotwierdzone na etapie tego wpisu**.
+- **Stan integracji:** źródłowy monolit 629 stron (SHA-256 cd2e5e9ef0adefc3344ff8a7a1bcaa4befd2e1b85b4a711a36c3a0c179cb1309) pozostaje odrębny od kanonicznego wydania 0.20 (864 strony według dokumentacji). Nie doliczono stron do historycznego bilansu 585; nie ingerowano w historyczny wstęp i dotychczasowy materiał. Nie tworzono końcowego spisu treści ani Tomu II.
+- **Otwarte:** pełna kompilacja nowego rozdziału, testy CI, recenzja dowodów i docelowa integracja z 0.20. Limit końcowego PDF: rozmiar <99 000 000 B.
