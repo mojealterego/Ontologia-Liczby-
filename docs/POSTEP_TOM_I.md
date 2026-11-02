@@ -1272,3 +1272,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Materiał: 2 definicje, 4 twierdzenia z dowodami, 3 kontrprzykłady, 4 zadania rozwiązane. Splot skończony, masa, pierwszy moment, łączność i ograniczenia kontroli sumy.
 - Testy automatyczne i kompilacja PDF suplementu nie zostały wykonane. Bez integracji z monolitem 0.20; bilans 585/1222 bez zmian.
 - Historyczny wstęp i wcześniejszy manuskrypt bez zmian. Bez końcowego spisu treści i bez Tomu II.
+
+
+### Weryfikacja F13.4 — 2 listopada 2026
+
+- Dodano `tests/test_f134.py` na `main`, commit `2af44f3bec79c696fb9a7f00fd51adb058fa9b2d`.
+- Lokalny zestaw 5 testów jednostkowych: **5/5 OK** (masa splotu, pierwszy moment, łączność, przykłady i kontrprzykłady).
+- Wygenerowano lokalny **2-stronicowy podgląd kontrolny** PDF A4, 24 941 B, SHA-256 `b2c5839607080ebf120f9e20e4c13a6a5df83ebe7facc678d36a5c829a1bf7f0`. Podgląd jest redakcyjnym streszczeniem suplementu, nie pełnym składem źródła i nie jest zapisany w repozytorium.
+- Nie potwierdzono CI, formalnego dowodzenia ani integracji z monolitem 0.20. Historyczny bilans 585/1222 bez zmian.
