@@ -1,0 +1,61 @@
+name: Tom I — E1-06 and E1-07 full-source PDF verification
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'manuscript/tom-01/E1/E1-06_PLANIMETRIA.md'
+      - 'manuscript/tom-01/E1/E1-07_STEREOMETRIA.md'
+      - 'tests/test_e106_planimetry.py'
+      - 'tests/test_e107_stereometry.py'
+      - '.github/workflows/tom1-e106-e107.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run exact committed regression tests
+        run: |
+          python -m unittest discover -s tests -p 'test_e106_planimetry.py' -v
+          python -m unittest discover -s tests -p 'test_e107_stereometry.py' -v
+      - name: Install PDF toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-latex-extra texlive-lang-european fonts-noto-core poppler-utils
+      - name: Compile both complete manuscripts from main
+        run: |
+          mkdir -p build/e106-e107
+          pandoc manuscript/tom-01/E1/E1-06_PLANIMETRIA.md --pdf-engine=xelatex -V papersize=a4 -V mainfont="Noto Serif" -V sansfont="Noto Sans" -V geometry:margin=18mm -o build/e106-e107/E1-06_PELNY_PODGLAD_A4.pdf
+          pandoc manuscript/tom-01/E1/E1-07_STEREOMETRIA.md --pdf-engine=xelatex -V papersize=a4 -V mainfont="Noto Serif" -V sansfont="Noto Sans" -V geometry:margin=18mm -o build/e106-e107/E1-07_PELNY_PODGLAD_A4.pdf
+      - name: Validate actual PDFs and strict 99 MB limit
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import subprocess
+          for name in ('E1-06_PELNY_PODGLAD_A4.pdf', 'E1-07_PELNY_PODGLAD_A4.pdf'):
+              p = Path('build/e106-e107') / name
+              assert p.is_file(), f'Missing PDF: {p}'
+              size = p.stat().st_size
+              assert 10000 < size < 99000000, f'{name}: size {size} exceeds strict limit or suspiciously small'
+              info = subprocess.check_output(['pdfinfo', str(p)], text=True)
+              assert 'A4' in info, f'{name}: not A4'
+              extracted = subprocess.check_output(['pdftotext', '-layout', str(p), '-'], text=True)
+              pages = [part for part in extracted.split('\f') if part.strip()]
+              assert len(pages) >= 4, f'{name}: fewer than 4 nonempty pages ({len(pages)})'
+              assert len(extracted) > 5000, f'{name}: incomplete or empty extraction'
+              assert 'Zadanie 50' in extracted and 'Twierdzenie' in extracted, f'{name}: missing late exercises or theory'
+              print(f'{name}: {len(pages)} nonempty A4 pages, {size} bytes; PASS')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tom1-e106-e107-complete-a4
+          path: build/e106-e107/*.pdf
+          if-no-files-found: error
