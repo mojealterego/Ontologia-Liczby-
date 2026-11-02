@@ -1,0 +1,55 @@
+name: Tom I — E1-01 verified PDF
+on:
+  push:
+    branches: [main]
+    paths:
+      - manuscript/tom-01/E1/E1-01_ULAMKI_I_LICZBY_WYMIERNE.md
+      - tests/test_e101_rationals.py
+      - .github/workflows/tom1-e101.yml
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Exact repository tests
+        run: python -m unittest -v tests/test_e101_rationals.py
+      - name: Install LaTeX toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-latex-extra texlive-lang-european poppler-utils
+      - name: Compile exact manuscript to A4
+        run: |
+          mkdir -p build/e101
+          pandoc manuscript/tom-01/E1/E1-01_ULAMKI_I_LICZBY_WYMIERNE.md \
+            --pdf-engine=xelatex -o build/e101/E1-01_PELNY_PODGLAD_A4.pdf
+      - name: Validate pages and substantive coverage
+        run: |
+          python - <<'PY'
+          import subprocess
+          from pathlib import Path
+          pdf=Path('build/e101/E1-01_PELNY_PODGLAD_A4.pdf')
+          assert pdf.is_file() and pdf.stat().st_size>10000
+          raw=subprocess.check_output(['pdftotext','-layout',str(pdf),'-']).decode('utf-8')
+          pages=[p for p in raw.split('\f') if p.strip()]
+          assert len(pages)>=8, f'Insufficient pages: {len(pages)}'
+          for i,p in enumerate(pages,1):
+              assert len(p.strip())>100, f'Empty/near-empty page: {i}'
+          exercise_start=next((i for i,p in enumerate(pages) if 'Część B.' in p),None)
+          assert exercise_start is not None
+          assert exercise_start>=4, f'Less than four theory pages: {exercise_start}'
+          assert len(pages)-exercise_start>=4, f'Less than four exercise pages: {len(pages)-exercise_start}'
+          print(f'Validated {len(pages)} A4 pages; theory={exercise_start}; exercises={len(pages)-exercise_start}')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tom1-e101-exact-a4
+          path: build/e101/E1-01_PELNY_PODGLAD_A4.pdf
+          if-no-files-found: error
