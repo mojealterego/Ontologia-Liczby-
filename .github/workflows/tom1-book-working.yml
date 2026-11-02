@@ -1,4 +1,4 @@
-name: Tom I — continuous working book from E0 E1 and MSC 00A08-00A09 97C20
+name: Tom I — continuous working book from E0 E1 and MSC 00A08-00A09 97C20-97C30
 
 on:
   push:
@@ -14,6 +14,7 @@ on:
       - 'tests/test_msc00a08_recreation.py'
       - 'tests/test_msc00a09_popularization.py'
       - 'tests/test_msc97c20_affective.py'
+      - 'tests/test_msc97c30_cognition.py'
       - 'docs/TOM_I_KORPUS_ROBOCZY.md'
       - '.github/workflows/tom1-book-working.yml'
   workflow_dispatch:
@@ -35,12 +36,13 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y --no-install-recommends pandoc texlive-xetex lmodern texlive-latex-recommended texlive-fonts-recommended fonts-dejavu-core poppler-utils
           python3 -m pip install --user --disable-pip-version-check pypdf==5.9.0 reportlab==4.4.9 pymupdf==1.26.5
-      - name: Test book assembler and MSC 00A08-00A09 97C20
+      - name: Test book assembler and MSC 00A08-00A09 97C20-97C30
         run: |
           python3 -m unittest discover -s tests -p 'test_assemble_tom1.py' -v
           python3 -m unittest discover -s tests -p 'test_msc00a08_recreation.py' -v
           python3 -m unittest discover -s tests -p 'test_msc00a09_popularization.py' -v
           python3 -m unittest discover -s tests -p 'test_msc97c20_affective.py' -v
+          python3 -m unittest discover -s tests -p 'test_msc97c30_cognition.py' -v
       - name: Compile continuous working corpus from exact Markdown
         shell: bash
         run: |
@@ -52,7 +54,7 @@ jobs:
             find manuscript/tom-01/E0 manuscript/tom-01/E1 manuscript/tom-01/MSC00 manuscript/tom-01/MSC97 \
               -maxdepth 1 -type f -name '*.md' | LC_ALL=C sort
           )
-          test "${#sources[@]}" -eq 19
+          test "${#sources[@]}" -eq 20
           chapters=(out/chapters/00_PRZEDMOWA_KORPUSU.pdf)
           for src in "${sources[@]}"; do
             name=$(basename "${src%.md}")
@@ -74,6 +76,7 @@ jobs:
           grep -q 'Matematyka rekreacyjna' out/CONTENT.txt
           grep -q 'Popularyzacja matematyki' out/CONTENT.txt
           grep -q 'Emocje, motywacja i rzetelność pomiaru' out/CONTENT.txt
+          grep -q 'Procesy poznawcze i matematyczne modele uczenia się' out/CONTENT.txt
           grep -q 'Z18' out/CONTENT.txt
           grep -q 'Z24' out/CONTENT.txt
           grep -q 'Z20' out/CONTENT.txt
@@ -86,7 +89,7 @@ jobs:
       - name: Publish working book artifact
         uses: actions/upload-artifact@v4
         with:
-          name: tom1-continuous-working-book-e0-e1-msc00a08-00a09-97c20
+          name: tom1-continuous-working-book-e0-e1-msc00a08-00a09-97c20-97c30
           path: |
             out/ONTOLOGIA_LICZBY_TOM_I_KORPUS_ROBOCZY.pdf
             out/ASSEMBLY_MANIFEST.json
