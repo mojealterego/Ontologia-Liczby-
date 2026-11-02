@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Exact repository tests
-        run: python -m unittest -v tests/test_e101_rationals.py
+        run: python -m unittest discover -s tests -p test_e101_rationals.py -v
       - name: Install LaTeX toolchain
         run: |
           sudo apt-get update
