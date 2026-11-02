@@ -1,6 +1,6 @@
 # ONTOLOGIA LICZBY — kontrola rzeczywistego postępu Tomu I
 
-**Data aktualizacji:** 30 października 2026  
+**Data aktualizacji:** 2 listopada 2026  
 **Gałąź:** `main`  
 **Zasada redakcyjna:** finalny spis treści dopiero po kompletnym opracowaniu i zamknięciu Tomu I. Taksonomia służy wyłącznie jako wewnętrzna mapa pracy.
 
@@ -1351,3 +1351,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Workflow na main:** [tom1-f282c.yml](../.github/workflows/tom1-f282c.yml), commit [a83a6399](https://github.com/mojealterego/Ontologia-Liczby-/commit/a83a63996ef192dab572fef4cbe133418d45a6ea). [Run 41519792887](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41519792887) uruchomiony; pierwszy odczyt potwierdził sukces testów, lecz cały workflow był jeszcze in_progress. Nie oznaczać zielonego CI przed completed/success.
 - **Protokół:** [DOWODY_F28_2C_2026-11-02.md](DOWODY_F28_2C_2026-11-02.md), commit [405d1954](https://github.com/mojealterego/Ontologia-Liczby-/commit/405d19546979a0f633913237b9b7b535b5c5b055).
 - **Integracja:** brak oryginalnego binarnego monolitu 0.20; **585/1222 bez zmian**. Historyczny wstęp i wcześniejszy manuskrypt nietknięte. Bez końcowego spisu treści i bez Tomu II.
+
+
+### Zamknięcie CI F28.2-C — potwierdzone (2 listopada 2026)
+
+- [GitHub Actions run 41519792887](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41519792887), commit a83a63996ef192dab572fef4cbe133418d45a6ea: **completed/success**.
+- Testy wymierne, instalacja zależności, kompilacja pełnego PDF, kontrola A4 i znaczników oraz publikacja artefaktu: wszystkie kroki **success**.
+- Artefakt: **tom1-f282c-full-supplement**, ID **13177925067**, 60 579 B, nieprzeterminowany.
+- Zaktualizowany [protokół dowodowy](DOWODY_F28_2C_2026-11-02.md), commit [9238c49d](https://github.com/mojealterego/Ontologia-Liczby-/commit/9238c49d8f85710441b1787a65dcd9752dff13a5).
+- To potwierdzenie testów i składu dla wskazanego SHA, **nie** formalna mechanizacja dowodów ani integracja monolitu 0.20. Historyczne **585/1222 bez zmian**, bez finalnego spisu treści i Tomu II.
