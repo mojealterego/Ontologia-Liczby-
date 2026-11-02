@@ -348,3 +348,111 @@ $$\sum_yP(Y=y)\min_aR(a;p^{(y)})\le\min_aR(a;p).$$
 **Z40.** Przy $P(X=1)=0{,}4$, stracie przeoczenia $10$ i fałszywego alarmu $1$. **Rozwiązanie:** przewidywanie „1” daje $0{,}6$, przewidywanie „0” daje $4$, więc optymalna jest decyzja „1”.
 
 **Granica zastosowania.** T25–T32 opisują modele informacji i decyzji. Użycie ich do rzeczywistych uczniów wymaga osobnej oceny rzetelności testów, ochrony danych, uczciwości pomiaru i skutków błędnych decyzji. Twierdzenie o istnieniu kodu prefiksowego nie dowodzi istnienia odpowiedniego zestawu pytań dydaktycznych.
+
+
+## 7. Rozszerzenie III-C: niepewność pomiaru, odporność i sprawiedliwość oceniania
+
+### 7.1. Modele i definicje
+
+**D28 (strata ograniczona).** Dla ucznia lub zadania obserwujemy zmienną losową $Z\in[0,1]$. Może to być błąd predykcji lub znormalizowany koszt decyzji; zakres musi być ustalony przed analizą.
+
+**D29 (ryzyko populacyjne).** Dla rozkładu $P$ i straty $Z$ ryzykiem jest $R(P)=\mathbb E_P[Z]$.
+
+**D30 (ryzyko empiryczne).** Dla obserwacji $Z_1,\ldots,Z_n$ i $n\ge1$ przyjmujemy $\widehat R_n=n^{-1}\sum_{i=1}^nZ_i$.
+
+**D31 (promień niepewności Czebyszewa).** Dla niezależnych, jednakowo rozłożonych strat z $[0,1]$, przy poziomie błędu $\delta\in(0,1)$, definiujemy $r(n,\delta)=1/(2\sqrt{n\delta})$.
+
+**D32 (różnica ryzyka grup).** Dla dwóch populacji $A,B$ różnica wynosi $\Delta=|R_A-R_B|$; jej estymator to $\widehat\Delta=|\widehat R_A-\widehat R_B|$.
+
+**D33 (odległość całkowitej wariacji).** Dla rozkładów $P,Q$ na skończonym $X$ definiujemy $\operatorname{TV}(P,Q)=\tfrac12\sum_{x\in X}|P(x)-Q(x)|$.
+
+**D34 (ryzyko odporne).** Dla rodziny rozkładów $\mathcal P$ i funkcji straty $\ell:X\to[0,1]$ przyjmujemy $R_{\rm rob}(\ell;\mathcal P)=\sup_{P\in\mathcal P}\mathbb E_P[\ell(X)]$.
+
+**D35 (mieszanina grup).** Gdy $G$ przyjmuje wartości $1,\ldots,k$ z prawdopodobieństwami $\pi_g\ge0$, $\sum_g\pi_g=1$, rozkład populacji jest mieszaniną rozkładów warunkowych $P_g=P(X\in\cdot\mid G=g)$.
+
+**D36 (zależność obserwacji).** Próba jest niezależna, jeśli jej rozkład łączny jest iloczynem rozkładów brzegowych; wielokrotne powtórzenie tej samej odpowiedzi nie tworzy niezależnych danych.
+
+### 7.2. Twierdzenia i dowody
+
+**T33 (nieobciążoność średniej).** Jeśli wszystkie $Z_i$ mają wartość oczekiwaną $\mu$, to $\mathbb E[\widehat R_n]=\mu$, nawet bez niezależności.
+
+*Dowód.* Liniowość wartości oczekiwanej daje $\mathbb E[\widehat R_n]=n^{-1}\sum_i\mathbb E[Z_i]=n^{-1}n\mu=\mu$. $\square$
+
+**T34 (ograniczenie wariancji straty).** Dla dowolnego $Z\in[0,1]$ zachodzi $\operatorname{Var}(Z)\le1/4$.
+
+*Dowód.* Ponieważ $(Z-\tfrac12)^2\le\tfrac14$ punktowo, mamy $\mathbb E[(Z-\tfrac12)^2]\le\tfrac14$. Wartość $\operatorname{Var}(Z)=\min_{a\in\mathbb R}\mathbb E[(Z-a)^2]$ nie przekracza wartości dla $a=\tfrac12$. $\square$
+
+**T35 (elementarna granica błędu estymacji).** Jeżeli $Z_1,\ldots,Z_n$ są niezależne, jednakowo rozłożone i należą do $[0,1]$, to dla $\varepsilon>0$:
+$$P(|\widehat R_n-R|\ge\varepsilon)\le\min\!\left(1,\frac{1}{4n\varepsilon^2}\right).$$
+
+*Dowód.* Z niezależności $\operatorname{Var}(\widehat R_n)=n^{-2}\sum_i\operatorname{Var}(Z_i)\le1/(4n)$ na mocy T34. Nierówność Czebyszewa daje $P(|\widehat R_n-R|\ge\varepsilon)\le\operatorname{Var}(\widehat R_n)/\varepsilon^2$. Prawdopodobieństwo nie przekracza też $1$. $\square$
+
+**T36 (jednoczesna kontrola wielu miar).** Niech $m$ estymatorów, każdy oparty na $n$ niezależnych w obrębie własnej próby stratach z $[0,1]$, spełnia założenia T35. Wówczas:
+$$P\!\left(\max_{1\le j\le m}|\widehat R_j-R_j|\ge\varepsilon\right)
+\le\min\!\left(1,\frac{m}{4n\varepsilon^2}\right).$$
+
+*Dowód.* Zdarzenie po lewej jest sumą zdarzeń $E_j=\{|\widehat R_j-R_j|\ge\varepsilon\}$. Nierówność sumy prawdopodobieństw i T35 dają $P(\cup_jE_j)\le\sum_jP(E_j)\le m/(4n\varepsilon^2)$. Niezależność między różnymi estymatorami nie jest wymagana. $\square$
+
+**T37 (błąd różnicy między grupami).** Jeżeli $|\widehat R_A-R_A|\le\varepsilon_A$ i $|\widehat R_B-R_B|\le\varepsilon_B$, to
+$$|\widehat\Delta-\Delta|\le\varepsilon_A+\varepsilon_B.$$
+
+*Dowód.* Nierówność odwrotna trójkąta daje $||a|-|b||\le|a-b|$ dla $a=\widehat R_A-\widehat R_B$, $b=R_A-R_B$. Następnie zwykła nierówność trójkąta daje tezę. $\square$
+
+**T38 (odporność na przesunięcie rozkładu).** Dla rozkładów $P,Q$ na skończonym $X$ oraz $\ell:X\to[0,1]$:
+$$|\mathbb E_P\ell-\mathbb E_Q\ell|\le\operatorname{TV}(P,Q).$$
+
+*Dowód.* Niech $d_x=P(x)-Q(x)$ i $A=\{x:d_x\ge0\}$. Ponieważ $\sum_xd_x=0$, mamy $\sum_{x\in A}d_x=\operatorname{TV}(P,Q)$ oraz $\sum_{x\notin A}d_x=-\operatorname{TV}(P,Q)$. Z $0\le\ell\le1$ wynika $\sum_xd_x\ell(x)\le\sum_{x\in A}d_x=\operatorname{TV}(P,Q)$. Analogicznie dolna granica wynosi $-\operatorname{TV}(P,Q)$. $\square$
+
+**T39 (stabilność wobec błędu modelu straty).** Jeśli dla każdego $x$ zachodzi $|\ell(x)-\widetilde\ell(x)|\le\eta$, to dla każdego rozkładu $P$:
+$$|\mathbb E_P\ell-\mathbb E_P\widetilde\ell|\le\eta.$$
+
+*Dowód.* Z nierówności trójkąta i liniowości oczekiwania:
+$|\sum_xP(x)(\ell(x)-\widetilde\ell(x))|\le\sum_xP(x)\eta=\eta$. $\square$
+
+**T40 (ryzyko w mieszaninie).** Dla mieszaniny z D35:
+$$R=\sum_{g=1}^k\pi_gR_g.$$
+
+*Dowód.* Rozwijamy $\mathbb E[Z]$ względem rozłącznych zdarzeń $G=g$ i stosujemy prawo całkowitego prawdopodobieństwa. $\square$
+
+**T41 (przedział odpornego ryzyka).** Jeżeli $\mathcal P=\{Q:\operatorname{TV}(P,Q)\le\rho\}$ dla $\rho\ge0$ i $\ell\in[0,1]$, to
+$$R(P)\le R_{\rm rob}(\ell;\mathcal P)\le\min(1,R(P)+\rho).$$
+
+*Dowód.* $P\in\mathcal P$, więc supremum jest co najmniej $R(P)$. Dla każdego $Q\in\mathcal P$, T38 daje $R(Q)\le R(P)+\rho$; ponadto $R(Q)\le1$. Przechodzimy do supremum. $\square$
+
+**T42 (próba zależna nie zyskuje automatycznie precyzji).** Nie istnieje uniwersalna granica $\operatorname{Var}(\widehat R_n)\le1/(4n)$ bez założenia niezależności.
+
+*Dowód.* Niech $U$ będzie zmienną Bernoulliego z parametrem $1/2$ i $Z_1=\cdots=Z_n=U$. Wówczas $\widehat R_n=U$, więc $\operatorname{Var}(\widehat R_n)=1/4$ dla każdego $n$, co przekracza $1/(4n)$, gdy $n>1$. $\square$
+
+### 7.3. Kontrprzykłady i błędne interpretacje
+
+**K19 (pozorna liczebność).** Sto kopii jednego wyniku Bernoulliego nie stanowi próby stu niezależnych obserwacji; T42 obala automatyczne zastosowanie T35.
+
+**K20 (paradoks agregacji).** Metoda A może mieć mniejszą stratę niż B w każdej z dwóch grup, a mimo to większą stratę łączną przy innych wagach grup. Na przykład w grupie trudnej $R_{A,1}=0{,}8<R_{B,1}=0{,}9$, a w łatwej $R_{A,2}=0{,}1<R_{B,2}=0{,}2$. Jeśli udział grupy trudnej wynosi dla A $0{,}9$, a dla B $0{,}1$, to $R_A=0{,}73>R_B=0{,}27$. Porównanie wymaga uzgodnienia populacji odniesienia.
+
+**K21 (brak równoważności między metrykami).** Równość średnich strat dwóch grup nie oznacza równości rozkładów błędów: rozkłady $(0,1)$ i $(1/2,1/2)$ mają tę samą średnią, lecz różną wariancję.
+
+**K22 (ograniczenie wariacji nie daje zerowego ryzyka).** Nawet przy $\rho=0$ ryzyko odporne jest równe $R(P)$, które może być dodatnie.
+
+### 7.4. Zadania z pełnymi rozwiązaniami
+
+**Z41.** Dla próby strat $(0,1,0,1)$ oblicz $\widehat R_4$. **Rozwiązanie:** $(0+1+0+1)/4=1/2$.
+
+**Z42.** Dla $n=100$ oblicz górne ograniczenie wariancji średniej z T35. **Rozwiązanie:** $1/(4n)=1/400=0{,}0025$.
+
+**Z43.** Dla $n=100$, $\varepsilon=0{,}2$ oszacuj prawdopodobieństwo błędu. **Rozwiązanie:** T35 daje $1/(4\cdot100\cdot0{,}04)=1/16=0{,}0625$.
+
+**Z44.** Dla $m=3$, $n=100$, $\varepsilon=0{,}2$ wyznacz granicę jednoczesną. **Rozwiązanie:** T36 daje $3/16=0{,}1875$.
+
+**Z45.** Jeśli estymatory dwóch grup mają błędy co najwyżej $0{,}03$ i $0{,}04$, ogranicz błąd różnicy. **Rozwiązanie:** T37 daje $0{,}07$.
+
+**Z46.** Dla $P=(0{,}7,0{,}3)$ i $Q=(0{,}4,0{,}6)$ oblicz TV. **Rozwiązanie:** $\tfrac12(|0{,}3|+|-0{,}3|)=0{,}3$.
+
+**Z47.** Dla $\ell=(0,1)$ oraz rozkładów z Z46 oblicz różnicę ryzyka. **Rozwiązanie:** $R(P)=0{,}3$, $R(Q)=0{,}6$, więc różnica $0{,}3$ osiąga granicę T38.
+
+**Z48.** Grupy mają wagi $(0{,}2,0{,}8)$ i ryzyka $(0{,}9,0{,}1)$. **Rozwiązanie:** $R=0{,}2\cdot0{,}9+0{,}8\cdot0{,}1=0{,}26$.
+
+**Z49.** Przy $R(P)=0{,}4$ i $\rho=0{,}1$ ogranicz ryzyko odporne. **Rozwiązanie:** T41 daje $0{,}4\le R_{\rm rob}\le0{,}5$.
+
+**Z50.** Dla $n=10$ idealnie skorelowanych powtórzeń Bernoulliego $(1/2)$ porównaj wariancje. **Rozwiązanie:** rzeczywista wariancja średniej wynosi $1/4$, natomiast fałszywie zastosowana granica niezależności wynosiłaby $1/40$.
+
+**Wniosek metodologiczny.** Powyższe granice są poprawne tylko przy wymienionych założeniach. Nawet istotna różnica statystyczna nie przesądza o przyczynowym efekcie dydaktycznym. Szczególnie ważne są jednostka niezależności, losowanie, zgodność populacji odniesienia, jakość miary straty, odpowiedzialność za decyzje o uczniach oraz ochrona ich danych.
