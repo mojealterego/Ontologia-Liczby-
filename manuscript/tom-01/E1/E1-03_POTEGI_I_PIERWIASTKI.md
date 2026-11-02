@@ -8,7 +8,7 @@ fontsize: 11pt
 geometry: margin=18mm
 ---
 
-**Taksonomia:** E1-03, poziom II. Rozdział dydaktyczny obejmuje potęgi o wykładnikach naturalnych i całkowitych, pierwiastki kwadratowe i sześcienne, uproszczenia, oszacowania i zastosowania. Istniejące F21.1 zawiera już zaawansowaną teorię monoidów, wartościowań i wykładników wymiernych: niniejszy rozdział jej nie zastępuje ani nie przypisuje sobie jej rezultatów. **Status:** materiał źródłowy przed pełnym składem i odbiorem objętościowym.
+**Taksonomia:** E1-03, poziom I (minimum 4 rzeczywiste strony na punkt; źródło: taksonomia, s. 9/637). Rozdział dydaktyczny obejmuje potęgi o wykładnikach naturalnych i całkowitych, pierwiastki kwadratowe i sześcienne, uproszczenia, oszacowania i zastosowania. Istniejące F21.1 zawiera już zaawansowaną teorię monoidów, wartościowań i wykładników wymiernych: niniejszy rozdział jej nie zastępuje ani nie przypisuje sobie jej rezultatów. **Status:** materiał źródłowy przed pełnym składem i odbiorem objętościowym.
 
 # Część A. Teoria, twierdzenia i dowody
 
