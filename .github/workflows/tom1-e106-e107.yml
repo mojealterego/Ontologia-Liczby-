@@ -33,8 +33,8 @@ jobs:
       - name: Compile both complete manuscripts from main
         run: |
           mkdir -p build/e106-e107
-          pandoc manuscript/tom-01/E1/E1-06_PLANIMETRIA.md --pdf-engine=xelatex -V papersize=a4 -V mainfont="Noto Serif" -V sansfont="Noto Sans" -V geometry:margin=18mm -o build/e106-e107/E1-06_PELNY_PODGLAD_A4.pdf
-          pandoc manuscript/tom-01/E1/E1-07_STEREOMETRIA.md --pdf-engine=xelatex -V papersize=a4 -V mainfont="Noto Serif" -V sansfont="Noto Sans" -V geometry:margin=18mm -o build/e106-e107/E1-07_PELNY_PODGLAD_A4.pdf
+          pandoc --from markdown+tex_math_dollars+tex_math_single_backslash manuscript/tom-01/E1/E1-06_PLANIMETRIA.md --pdf-engine=xelatex -V papersize=a4 -V mainfont="Noto Serif" -V sansfont="Noto Sans" -V geometry:margin=18mm -o build/e106-e107/E1-06_PELNY_PODGLAD_A4.pdf
+          pandoc --from markdown+tex_math_dollars+tex_math_single_backslash manuscript/tom-01/E1/E1-07_STEREOMETRIA.md --pdf-engine=xelatex -V papersize=a4 -V mainfont="Noto Serif" -V sansfont="Noto Sans" -V geometry:margin=18mm -o build/e106-e107/E1-07_PELNY_PODGLAD_A4.pdf
       - name: Validate actual PDFs and strict 99 MB limit
         run: |
           python - <<'PY'
