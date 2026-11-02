@@ -1010,3 +1010,14 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Twardy limit artefaktu:** każdy końcowy PDF pojedynczego tomu musi mieć rozmiar **ściśle mniejszy niż 99 MB** (konserwatywnie przyjmować 99 000 000 bajtów jako górny próg, a test odbiorczy wymaga `size < 99000000`).
 - Kontrola rozmiaru następuje po ostatecznym składzie, osadzeniu fontów, grafik i optymalizacji. Preferować tekst i wzory wektorowe; obrazy kompresować z zachowaniem czytelności. Gdy optymalizacja nie wystarcza, dzielić materiał na logiczne tomy bez pomijania treści.
 - Liczba stron w nowych materiałach pozostaje niezaliczona do kanonicznego Tomu I przed rzeczywistą integracją z monolitem 0.20. Wstęp historyczny pozostaje bez zmian; nie tworzyć końcowego spisu treści przed ukończeniem Tomu I.
+
+
+## E1-05 — Równania liniowe (2 listopada 2026)
+
+- **Kolejność taksonomiczna:** po E1-04, przed E1-06. Poziom I. Sprawdzono istniejące F12.3 dotyczące odwracalności; pozostaje bez zmian.
+- **Źródło:** [E1-05_ROWNANIA_LINIOWE.md](../manuscript/tom-01/E1/E1-05_ROWNANIA_LINIOWE.md), commit [ac19245](https://github.com/mojealterego/Ontologia-Liczby-/commit/ac19245fd64c80988362f8ab16208b8c678d3ab2), Git blob `d7250bad5058cd3ae6b4b9c089c2ebb3db043cc8`. Zweryfikowano ponownym odczytem: 19 523 znaki, 10 definicji, 18 twierdzeń z dowodami, 12 kontrprzykładów, 60 rozwiązanych zadań, 4 problemy syntetyczne.
+- **Testy:** [test_e105_linear_equations.py](../tests/test_e105_linear_equations.py), commit [5fe7a69](https://github.com/mojealterego/Ontologia-Liczby-/commit/5fe7a69f4b7badf53dab47a1b3010503531cd20c). **11/11 OK** lokalnie; Git blob testu zgodny z lokalnym `git hash-object` (`597c65ac09d92b88f80b9553feb45285b42c9f69`).
+- **PDF:** lokalnie skompilowany ReportLab **podgląd fragmentów**, 4 niepuste strony A4, 51 943 bajty, SHA-256 `aa7236de1f0816bb4b1face95a4a44690f0c1a4509441fc19255c519920c2b17`. **Nie** jest to pełny skład dokładnego źródła. Workflow [tom1-e105.yml](../.github/workflows/tom1-e105.yml), commit [65e7b4b](https://github.com/mojealterego/Ontologia-Liczby-/commit/65e7b4bb6d6f32fb4bd357ba097daa8addfbaffa), kompiluje pełne źródło i wymusza PDF <99 000 000 bajtów; wynik CI i pełna paginacja niepotwierdzone.
+- **Protokół:** [DOWODY_E1_05_2026-11-02.md](DOWODY_E1_05_2026-11-02.md), commit [283e039](https://github.com/mojealterego/Ontologia-Liczby-/commit/283e039687217dc89ce63ecd84d31ac3143e135c).
+- **Stan kanoniczny:** 585 stron w historycznym bilansie, bez doliczania E1-05 do monolitu 0.20. **1222 nie jest już wymaganym celem**, a limit końcowego PDF to <99 MB. Historyczny wstęp i wcześniejsze rozdziały zachowane; bez finalnego spisu treści i bez Tomu II.
+- **Następny punkt:** E1-06 — Planimetria; przed rozbudową sprawdzić istniejące rozdziały geometrii.
