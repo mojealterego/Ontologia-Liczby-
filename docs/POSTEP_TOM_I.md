@@ -1319,3 +1319,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Dodano `tests/test_f134_reconstruction.py`, commit `641c1190266e1cf6c2c21b1c32460af47813d1ee`. Lokalnie **3/3 testy OK**, w tym pełna enumeracja **3905/3905** ciągów długości 1–5, współczynniki -2..2, rekonstrukcja dokładna `fractions.Fraction`. Z testami wyższych momentów łącznie **7/7 OK**.
 - Workflow F13.4 rozszerzono o test rekonstrukcji i kontrolę znaczników T19/K10/Z18: commit `d4f10a182134cb59948ce916a35d8a69954168bc`. Zielony CI i pełny PDF z aktualnego źródła **niepotwierdzone**.
 - Historyczne 585 stron bez zmian. Integracja z binarnym monolitem 0.20 pozostaje otwarta; bez końcowego spisu treści i Tomu II.
+
+## F13.4 — korekta statusu i T19 (2026-11-02)
+
+- Commit `c7b49e4e9a240b0a302bee73ab1fcf66991db92c` precyzuje historyczny status pierwszej wersji suplementu i oddziela dokładność algebraiczną od nieudowodnionej stabilności numerycznej T19.
+- Lokalny zestaw `test_f134_higher.py` + `test_f134_reconstruction.py` uruchomiony ponownie: **7/7 unittest OK**; testy lokalne są szersze niż obecne testy zapisane w repozytorium.
+- **Otwarte:** pełny PDF z bieżącego manuskryptu, potwierdzony GitHub Actions `completed/success` dla aktualnego SHA, formalna recenzja matematyczna i integracja z monolitem 0.20. Bilans historyczny 585 stron bez zmian; bez Tomu II.
