@@ -20,8 +20,8 @@ class PowersRoots(unittest.TestCase):
         self.assertEqual(6*6*3, 108)
 
     def test_exact_rational_powers(self):
-        self.assertEqual(27 ** (2/3), 9.0)
-        self.assertEqual(16 ** (3/4), 8.0)
+        self.assertAlmostEqual(27 ** (2/3), 9.0, places=12)
+        self.assertAlmostEqual(16 ** (3/4), 8.0, places=12)
 
     def test_interval_certificates(self):
         self.assertLess(Fraction(141,100)**2, 2)
