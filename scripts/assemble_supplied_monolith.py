@@ -9,6 +9,7 @@ import hashlib
 import json
 from pathlib import Path
 import fitz
+from pypdf import PdfWriter
 
 BASE_SHA256 = 'cd2e5e9ef0adefc3344ff8a7a1bcaa4befd2e1b85b4a711a36c3a0c179cb1309'
 BASE_PAGES = 629
@@ -54,23 +55,27 @@ def assemble(base: Path, chapters: list[Path], output: Path, manifest: Path) -> 
                 raise ValueError(f'Chapter marker {marker} already exists in base')
         old_text = [text_sha(page) for page in original]
         old_render = {i: render_sha(original[i]) for i in CHECK_RENDER_PAGES}
-        combined = fitz.open()
-        combined.insert_pdf(original, links=True, annots=True)
-        supplements = []
-        for marker, path in zip(('97C20', '97C30'), chapters):
-            with fitz.open(path) as chapter:
-                if not len(chapter) or any(not p.get_text().strip() for p in chapter):
-                    raise ValueError(f'Blank chapter: {path}')
-                if marker not in ''.join(p.get_text() for p in chapter):
-                    raise ValueError(f'Wrong chapter for {marker}: {path}')
-                combined.insert_pdf(chapter)
-                supplements.append({'marker': marker, 'sha256': sha256(path), 'pages': len(chapter)})
-        combined.set_metadata({'title': 'ONTOLOGIA LICZBY — Tom I — robocza integracja 629 + suplementy',
-                               'author': 'Andrzej Mikulski',
-                               'subject': 'Niekanoniczny podglad; bez koncowego spisu tresci'})
-        output.parent.mkdir(parents=True, exist_ok=True)
-        combined.save(output, garbage=3, deflate=True)
-        combined.close()
+        old_toc = original.get_toc()
+        old_links = sum(len(page.get_links()) for page in original)
+    supplements = []
+    writer = PdfWriter()
+    writer.append(str(base), import_outline=True)
+    for marker, path in zip(('97C20', '97C30'), chapters):
+        with fitz.open(path) as chapter:
+            if not len(chapter) or any(not p.get_text().strip() for p in chapter):
+                raise ValueError(f'Blank chapter: {path}')
+            if marker not in ''.join(p.get_text() for p in chapter):
+                raise ValueError(f'Wrong chapter for {marker}: {path}')
+            supplements.append({'marker': marker, 'sha256': sha256(path), 'pages': len(chapter)})
+        writer.append(str(path), import_outline=False)
+    parent = writer.add_outline_item('Suplementy robocze (niekanoniczne)', BASE_PAGES)
+    writer.add_outline_item('MSC 97C20 — Afektywne aspekty edukacji matematycznej', BASE_PAGES, parent=parent)
+    writer.add_outline_item('MSC 97C30 — Procesy poznawcze i modele uczenia się', BASE_PAGES + supplements[0]['pages'], parent=parent)
+    writer.add_metadata({'/Title': 'ONTOLOGIA LICZBY — Tom I — robocza integracja 629 + suplementy',
+                         '/Author': 'Andrzej Mikulski',
+                         '/Subject': 'Niekanoniczny podglad; bez koncowego spisu tresci'})
+    output.parent.mkdir(parents=True, exist_ok=True)
+    writer.write(str(output))
     if output.stat().st_size >= MAX_BYTES:
         output.unlink(missing_ok=True)
         raise ValueError('PDF exceeds strict 99 MB limit')
@@ -81,9 +86,14 @@ def assemble(base: Path, chapters: list[Path], output: Path, manifest: Path) -> 
             raise ValueError('Original page text changed')
         if any(render_sha(verified[i]) != old_render[i] for i in CHECK_RENDER_PAGES):
             raise ValueError('Original page rendering changed')
+        if verified.get_toc()[:len(old_toc)] != old_toc:
+            raise ValueError('Original PDF bookmarks changed')
+        if sum(len(verified[i].get_links()) for i in range(BASE_PAGES)) != old_links:
+            raise ValueError('Original PDF links changed')
         result = {'status': 'verified_noncanonical_preview', 'canonical_0_20_verified': False,
                   'base_sha256': BASE_SHA256, 'base_pages_preserved': BASE_PAGES,
                   'sampled_original_render_pages': [i + 1 for i in CHECK_RENDER_PAGES],
+                  'original_bookmarks_preserved': len(old_toc), 'original_links_preserved': old_links,
                   'supplements': supplements, 'result_pages': len(verified),
                   'historical_scientific_pages': 585, 'canonical_pages_added': 0,
                   'final_table_of_contents_created': False, 'bytes': output.stat().st_size,
