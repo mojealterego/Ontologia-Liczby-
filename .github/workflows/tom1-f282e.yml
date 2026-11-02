@@ -1,0 +1,60 @@
+name: Tom I F28.2-E inexact proximal certificates
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'manuscript/tom-01/F28/F28.2E_NIEDOKLADNE_ITERACJE_I_CERTYFIKATY.md'
+      - 'tests/test_f282e_inexact.py'
+      - '.github/workflows/tom1-f282e.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Exact rational tests
+        run: python3 -m unittest discover -s tests -p 'test_f282e_inexact.py' -v
+      - name: Install PDF toolchain
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends pandoc texlive-xetex texlive-latex-recommended texlive-fonts-recommended lmodern fonts-dejavu-core poppler-utils
+      - name: Compile and verify A4 supplement
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          src=manuscript/tom-01/F28/F28.2E_NIEDOKLADNE_ITERACJE_I_CERTYFIKATY.md
+          dst=out/F28_2E_PELNY_SUPLEMENT.pdf
+          pandoc "$src" --from markdown+tex_math_dollars --pdf-engine=xelatex \
+            -V papersize=a4 -V mainfont="DejaVu Serif" \
+            -V geometry:margin=21mm -V fontsize=11pt -V linestretch=1.14 \
+            -V colorlinks=false -o "$dst"
+          test -s "$dst"
+          test "$(stat -c %s "$dst")" -lt 99000000
+          pdfinfo "$dst" > out/PDFINFO.txt
+          grep -q '(A4)' out/PDFINFO.txt
+          pdftotext "$dst" out/CONTENT.txt
+          python3 - <<'PY'
+          import re
+          from pathlib import Path
+          text = Path("out/CONTENT.txt").read_text(encoding="utf-8")
+          for prefix, total in (("D",8),("T",10),("K",6),("Z",12)):
+              for i in range(1,total+1):
+                  marker=f"{prefix}{i}"
+                  if re.search(r"\b"+marker+r"\b",text) is None:
+                      raise SystemExit("Missing marker: "+marker)
+          PY
+          sha256sum "$src" tests/test_f282e_inexact.py "$dst" > out/SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tom1-f282e-full-supplement
+          path: |
+            out/F28_2E_PELNY_SUPLEMENT.pdf
+            out/PDFINFO.txt
+            out/SHA256SUMS.txt
+          if-no-files-found: error
