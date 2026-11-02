@@ -21,7 +21,8 @@ def aggregate(successes, trials):
 
 class PopularizationMathematicsTests(unittest.TestCase):
     def test_t01_counterexample(self):
-        self.assertFalse(all(n % 2 == 1 and n % 2 != 0 and n % 3 != 0 for n in [3, 5, 7, 9]))
+        self.assertTrue(all(n % 2 == 1 for n in [3, 5, 7, 9]))
+        self.assertTrue(any(n > 1 and any(n % d == 0 for d in range(2, n)) for n in [3, 5, 7, 9]))
 
     def test_t02_exhaustive_finite(self):
         s = set(range(12))
