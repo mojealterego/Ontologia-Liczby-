@@ -6,6 +6,7 @@ on:
       - 'manuscript/tom-01/F13/F13.4_SUPLEMENT_SPLOT_MOMENTY.md'
       - 'tests/test_f134.py'
       - 'tests/test_f134_higher.py'
+      - 'tests/test_f134_reconstruction.py'
       - '.github/workflows/tom1-f134.yml'
   workflow_dispatch:
 permissions:
@@ -22,6 +23,7 @@ jobs:
         run: |
           python3 -m unittest discover -s tests -p 'test_f134.py' -v
           python3 -m unittest discover -s tests -p 'test_f134_higher.py' -v
+          python3 -m unittest discover -s tests -p 'test_f134_reconstruction.py' -v
       - name: Install PDF toolchain
         run: |
           sudo apt-get update -qq
@@ -39,7 +41,7 @@ jobs:
           python3 - <<'PY'
           from pathlib import Path
           text=Path("out/CONTENT.txt").read_text(encoding="utf-8")
-          for token in ("T1", "T5", "T10", "T16", "K7", "Z15"):
+          for token in ("T1", "T5", "T10", "T16", "T19", "K10", "Z18"):
               if token not in text:
                   raise SystemExit("Missing marker: "+token)
           PY
