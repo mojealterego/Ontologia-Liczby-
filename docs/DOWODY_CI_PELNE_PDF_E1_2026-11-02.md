@@ -27,3 +27,12 @@ Zielony przebieg oznacza poprawną kompilację **pełnego pliku źródłowego** 
 - E1-03: brak istniejącego workflow `tom1-e103.yml`; rozdział i testy istnieją, lecz pełny CI nie został potwierdzony.
 - Powyższe strony są stronami **samodzielnych PDF poszczególnych rozdziałów**, a nie zintegrowanego Tomu I. **Historyczny bilans 585 stron nie został zwiększony.** Obowiązuje limit końcowego PDF tomu <99 000 000 bajtów; 1222 strony nie są obowiązkowym celem.
 - Formalna recenzja każdego dowodu matematycznego oraz integracja z kanonicznym monolitem 0.20 pozostają otwarte. Wstęp historyczny i wcześniejszy manuskrypt nie zostały zmienione; bez finalnego spisu treści i bez Tomu II.
+
+
+## Aneks końcowy tej tury — wszystkie E1-01–E1-10 mają zielone CI (2026-11-02)
+
+- **E1-03:** dodano brakujący [workflow](../.github/workflows/tom1-e103.yml), commit [83346ab](https://github.com/mojealterego/Ontologia-Liczby-/commit/83346ab67f5865426fe6f18967385132ca8b4074); [przebieg 41401029789](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41401029789) `success`: **8/8 testów**, pełny PDF **7 stron A4, 74 898 B**, SHA-256 `a572670345cf6d42b8b9bb3092b7780893c77463512ed988d2bae16f2bba3cc5`.
+- **E1-04:** [przebieg 41400610631](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41400610631) `success`: **9/9 testów**, pełny PDF **5 stron A4, 62 945 B**, SHA-256 `88cd2e3cea3e2ad57d448c629bd26914ac90765d2d4527ecad019251c8f909c8`.
+- **E1-01:** [przebieg 41400317753](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41400317753) `success`: **8/8 testów**, pełny PDF **9 stron A4, 80 446 B**, SHA-256 `871c7e974f609139e16e8f4508cf44d7b114133fd21b0f434b1ecf10e8dd4cc9`.
+- **Wszystkie E1-01 do E1-10:** każdy z dziesięciu rozdziałów ma w tej turze **potwierdzony zielony przebieg GitHub Actions**, testy i kompletny osobny PDF A4. Z artefaktów pobrano wszystkie dziesięć PDF, sprawdzono `pdfinfo`, `pdftotext`, SHA-256 i brak pustych stron; łącznie **71 stron w osobnych plikach**, NIE w kanonicznym monolicie. Opracowano lokalny pakiet ZIP z 10 PDF i manifestem SHA-256 (702 955 B), bez publikowania finalnego Tomu I.
+- **Ograniczenie:** wynik zielonego CI potwierdza kompilację i testy arytmetyczne, lecz nie formalną recenzję każdego dowodu ani integrację z monolitem 0.20. **Historyczne 585 stron bez zmian.** Nie tworzono końcowego spisu treści ani Tomu II.
