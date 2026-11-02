@@ -368,7 +368,7 @@ $$\sum_yP(Y=y)\min_aR(a;p^{(y)})\le\min_aR(a;p).$$
 
 **D34 (ryzyko odporne).** Dla rodziny rozkładów $\mathcal P$ i funkcji straty $\ell:X\to[0,1]$ przyjmujemy $R_{\rm rob}(\ell;\mathcal P)=\sup_{P\in\mathcal P}\mathbb E_P[\ell(X)]$.
 
-**D35 (mieszanina grup).** Gdy $G$ przyjmuje wartości $1,\ldots,k$ z prawdopodobieństwami $\pi_g\ge0$, $\sum_g\pi_g=1$, rozkład populacji jest mieszaniną rozkładów warunkowych $P_g=P(X\in\cdot\mid G=g)$.
+**D35 (mieszanina grup).** Gdy $G$ przyjmuje wartości $1,\ldots,k$ z prawdopodobieństwami $\pi_g\ge0$, $\sum_g\pi_g=1$, rozkład populacji jest mieszaniną rozkładów warunkowych $P_g=P(X\in\cdot\mid G=g)$ dla $\pi_g>0$; dla $\pi_g=0$ wybór $P_g$ nie wpływa na mieszaninę.
 
 **D36 (zależność obserwacji).** Próba jest niezależna, jeśli jej rozkład łączny jest iloczynem rozkładów brzegowych; wielokrotne powtórzenie tej samej odpowiedzi nie tworzy niezależnych danych.
 
@@ -429,7 +429,7 @@ $$R(P)\le R_{\rm rob}(\ell;\mathcal P)\le\min(1,R(P)+\rho).$$
 
 **K20 (paradoks agregacji).** Metoda A może mieć mniejszą stratę niż B w każdej z dwóch grup, a mimo to większą stratę łączną przy innych wagach grup. Na przykład w grupie trudnej $R_{A,1}=0{,}8<R_{B,1}=0{,}9$, a w łatwej $R_{A,2}=0{,}1<R_{B,2}=0{,}2$. Jeśli udział grupy trudnej wynosi dla A $0{,}9$, a dla B $0{,}1$, to $R_A=0{,}73>R_B=0{,}27$. Porównanie wymaga uzgodnienia populacji odniesienia.
 
-**K21 (brak równoważności między metrykami).** Równość średnich strat dwóch grup nie oznacza równości rozkładów błędów: rozkłady $(0,1)$ i $(1/2,1/2)$ mają tę samą średnią, lecz różną wariancję.
+**K21 (brak równoważności między metrykami).** Równość średnich strat dwóch grup nie oznacza równości rozkładów błędów: próbki strat $(0,1)$ i $(1/2,1/2)$ mają tę samą średnią empiryczną $1/2$, lecz różne wariancje empiryczne (odpowiednio $1/4$ i $0$, z mianownikiem $n$).
 
 **K22 (ograniczenie wariacji nie daje zerowego ryzyka).** Nawet przy $\rho=0$ ryzyko odporne jest równe $R(P)$, które może być dodatnie.
 
