@@ -1370,3 +1370,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Workflow:** [tom1-f282d.yml](../.github/workflows/tom1-f282d.yml), końcowy commit konfiguracji [08c60a5a](https://github.com/mojealterego/Ontologia-Liczby-/commit/08c60a5a68315e362817d473e14d07e34167d0c3). [Run 41528949712](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41528949712) był `in_progress` przy zapisie tego wpisu; **nie oznaczać CI jako zielonego bez osobnego potwierdzenia**.
 - **Protokół dowodowy:** [DOWODY_F28_2D_2026-11-02.md](DOWODY_F28_2D_2026-11-02.md), korekta formatowania commit [48dbfae3](https://github.com/mojealterego/Ontologia-Liczby-/commit/48dbfae3c16a76c05a6ebe0008b1c43882e63a82).
 - **Otwarte:** niezależna recenzja matematyczna, mechanizacja dowodów, pełny lokalny zestaw testów całego repozytorium, oryginalny binarny monolit 0.20 i integracja. Historyczne **585/1222 stron bez zmian**; historyczny wstęp i wcześniejszy tekst nietknięte; bez końcowego spisu treści i bez Tomu II.
+
+
+### Odbiór CI F28.2-D — potwierdzony (2 listopada 2026)
+
+- [GitHub Actions run 41528949712](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41528949712), przypięty commit `08c60a5a68315e362817d473e14d07e34167d0c3`: **completed/success**. Wszystkie kroki, w tym **14 testów**, pełny skład PDF, kontrola A4/znaczników i publikacja artefaktu — **success**.
+- Artefakt `tom1-f282d-full-supplement`, ID `13181935223`, 68 068 B, `expired=false`.
+- Protokół [DOWODY_F28_2D_2026-11-02.md](DOWODY_F28_2D_2026-11-02.md) uzupełniony w commicie [165fb3ad](https://github.com/mojealterego/Ontologia-Liczby-/commit/165fb3adf7eb237980ce13f66d425a6d1397bd8f).
+- Zielony CI potwierdza proces testowania i kompilacji **dla wskazanego SHA**, nie formalny dowód matematyczny. Bez monolitu 0.20 brak kanonicznej integracji; **585/1222 bez zmian**, bez końcowego spisu treści i Tomu II.
