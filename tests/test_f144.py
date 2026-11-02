@@ -93,6 +93,27 @@ class TestF144(unittest.TestCase):
         self.assertEqual(Fraction(415,93)-Fraction(58,13), Fraction(1,1209))
         self.assertEqual(abs(Fraction(7,5)-Fraction(3,2)), Fraction(1,10))
 
+    def test_tail_identity(self):
+        for b in range(2, 24):
+            for a in range(-35, 36):
+                x = Fraction(a, b)
+                terms = continued_fraction(x)
+                cv = convergents(terms)
+                for n in range(len(cv) - 1):
+                    tail = Fraction(*convergents(terms[n+1:])[-1])
+                    p, q = cv[n]
+                    pp, qq = cv[n-1] if n else (1, 0)
+                    self.assertEqual(x, Fraction(p*tail+pp, q*tail+qq))
+
+    def test_adjacent_convergent_distance(self):
+        for b in range(1, 25):
+            for a in range(-35, 36):
+                cv = convergents(continued_fraction(Fraction(a, b)))
+                for n in range(1, len(cv)):
+                    p, q = cv[n]
+                    pp, qq = cv[n-1]
+                    self.assertEqual(abs(Fraction(p,q)-Fraction(pp,qq)), Fraction(1,q*qq))
+
     def test_invalid_input(self):
         with self.assertRaises(TypeError):
             continued_fraction(0.5)
