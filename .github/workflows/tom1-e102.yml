@@ -25,7 +25,7 @@ jobs:
       - name: Install typesetting dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex texlive-latex-extra texlive-lang-european poppler-utils
+          sudo apt-get install -y pandoc texlive-xetex lmodern texlive-latex-extra texlive-lang-european poppler-utils
       - name: Typeset complete E1-02 source
         run: |
           mkdir -p build/e102
