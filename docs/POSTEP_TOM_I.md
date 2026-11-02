@@ -1264,3 +1264,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Roboczy Tom I:** **667 stron, 8 139 550 B**, SHA-256 `79aa2fa6cc5fd13e3a0950e87dde2728855672e2f36d770eb44780327c78a08f`: 663 wcześniejsze strony robocze + 4 pełne strony III-I. Kontrola: tekst **663/663** wcześniejszych stron i **4/4** nowych zgodny, **4/4** odsyłacze, **589/589** wcześniejszych zakładek zachowanych (łącznie 590). **Nie jest to pełna kompilacja aktualnego MSC 97D40 ani wydanie 0.20.**
 - **Protokół dowodowy:** [DOWODY_MSC97D40_IIII_2026-11-02.md](DOWODY_MSC97D40_IIII_2026-11-02.md), commit [dcece442](https://github.com/mojealterego/Ontologia-Liczby-/commit/dcece442b43cba7fb015ae14601b7012ed6b9a2a).
 - **Otwarte:** 44 strony poziomu III, pełny zielony CI na aktualnym HEAD, pełny skład wszystkich części MSC 97D40, formalna recenzja, właściwy binarny monolit 0.20 (864 strony według rejestru). Historyczne **585 stron bez zmian**; PDF końcowy <99 000 000 B; bez końcowego spisu treści i bez Tomu II.
+
+
+## Suplement F13.4 — 2 listopada 2026
+
+- Dodano `manuscript/tom-01/F13/F13.4_SUPLEMENT_SPLOT_MOMENTY.md` na `main`, commit `737f826fc348a2c32b8f6a6d2e7d752493bd3f38`.
+- Materiał: 2 definicje, 4 twierdzenia z dowodami, 3 kontrprzykłady, 4 zadania rozwiązane. Splot skończony, masa, pierwszy moment, łączność i ograniczenia kontroli sumy.
+- Testy automatyczne i kompilacja PDF suplementu nie zostały wykonane. Bez integracji z monolitem 0.20; bilans 585/1222 bez zmian.
+- Historyczny wstęp i wcześniejszy manuskrypt bez zmian. Bez końcowego spisu treści i bez Tomu II.
