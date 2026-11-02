@@ -150,7 +150,6 @@ papersize: a4
 **Uwaga metodologiczna.** Procent może opisywać udział w skończonej populacji, zmianę wielkości, stopę procentową albo prawdopodobieństwo; sens podstawy i jednostek trzeba ustalić osobno. Wzory ułamkowe są dokładne, lecz dane pomiarowe mogą być przybliżone. Konstrukcja ciała $\mathbb Q$ i okresowość rozwinięć w dowolnej podstawie zostały już opracowane w F14.3 i F19.1; ten punkt pozostaje wykładem szkolnym, nie duplikatem monografii algebraicznej.
 
 
-
 ## 7. Gęstość liczb wymiernych i pułapka reprezentacji
 
 **Definicja 13 (przedział wymierny).** Dla liczb wymiernych $a<b$ otwarty przedział $(a,b)$ zawiera te liczby $x$, które spełniają obie nierówności $a<x$ oraz $x<b$. Zapis nie wskazuje liczby elementów przedziału.
