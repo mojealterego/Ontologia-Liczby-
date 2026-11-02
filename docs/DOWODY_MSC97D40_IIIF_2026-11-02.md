@@ -19,3 +19,11 @@
 - Podgląd 649 stron **nie jest pełną kompilacją aktualnego HEAD rozdziału**: zawiera wcześniejsze 647 stron i **wybrane** fragmenty III-F, a nie całość III-D/III-E/III-F w jednym nowym składzie. Pełny skład ma być weryfikowany przez GitHub Actions.
 - Wcześniejszy CI `41468837230` zakończył się **failure** w kroku kontroli skompilowanego PDF mimo zielonych testów; uruchomiono diagnostykę. Wpis nie potwierdza zielonego CI nowej wersji.
 - Brakuje kanonicznego binarnego monolitu 0.20, opisanego jako 864 strony; dostarczony plik źródłowy ma 629 stron. Historyczne **585 stron nie zwiększono**. Minimum poziomu III: **44 strony** — nadal otwarte. Bez końcowego spisu treści i bez Tomu II.
+
+
+## Aneks odbiorczy — pełny PDF z CI, 19 stron
+
+- **GitHub Actions:** [run 41474366935](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41474366935), commit źródłowy `9b3cd21309241d0f7a93a752e4c5b091ad707565`, wynik **success**. Z logów pobrano siedem wyników unittest: 17+10+7+10+8+8+6 = **66/66 testów OK**. Kompilacja XeLaTeX/Pandoc, kontrola 13 znaczników manuskryptu bez braków. Artefakt GitHub Actions ID **13157635325**.
+- **Pełny MSC 97D40:** `MSC97D40_PELNY_ROZDZIAL.pdf` z artefaktu CI, **19 stron A4, 153 890 B**, SHA-256 `8e8940ab95a178e6f0c212c3c55e5f6842ed7880fe3531dad8e4066ff5aae634`. W składzie znajdują się główny manuskrypt i części III-D, III-E, III-F. Przekroczono wcześniejszy etap wybranych fragmentów; to kompilacja całego aktualnego rozdziału, choć minimum 44 stron poziomu III pozostaje otwarte.
+- **Nowa książka robocza:** 641 stron wcześniejszego podglądu (629 oryginalnych + 6 MSC 97C20 + 6 MSC 97C30) + **19 stron pełnego 97D40 z CI** = **660 stron**, **8 088 173 B**, SHA-256 `1e31fa92a4f3d09d7c99fa0464198ffd405e577a5910961db9d978e532f34a44`. Sprawdzono **641/641** stron bazowych i **19/19** stron nowego rozdziału tekstowo, 588/588 zakładek, 4/4 odsyłacze, 0 naruszeń marginesu 5 pt na nowych stronach. Przejrzano wizualnie ostatnią stronę.
+- **Granica kanoniczna:** nadal brak binarnego 0.20, dlatego 660-stronicowa książka jest wydaniem **roboczym**, nie wydaniem 0.20. Historyczny bilans 585 stron nie został zmieniony. Bez końcowego spisu treści i bez Tomu II.
