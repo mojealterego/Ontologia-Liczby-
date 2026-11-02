@@ -1280,3 +1280,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Lokalny zestaw 5 testów jednostkowych: **5/5 OK** (masa splotu, pierwszy moment, łączność, przykłady i kontrprzykłady).
 - Wygenerowano lokalny **2-stronicowy podgląd kontrolny** PDF A4, 24 941 B, SHA-256 `b2c5839607080ebf120f9e20e4c13a6a5df83ebe7facc678d36a5c829a1bf7f0`. Podgląd jest redakcyjnym streszczeniem suplementu, nie pełnym składem źródła i nie jest zapisany w repozytorium.
 - Nie potwierdzono CI, formalnego dowodzenia ani integracji z monolitem 0.20. Historyczny bilans 585/1222 bez zmian.
+
+
+## F13.4-B — drugi moment, wielomiany tworzące i przesunięcia (2026-11-02)
+
+- **Manuskrypt rozszerzony na main:** [F13.4](../manuscript/tom-01/F13/F13.4_SUPLEMENT_SPLOT_MOMENTY.md), commit [7adaea51](https://github.com/mojealterego/Ontologia-Liczby-/commit/7adaea51128ac2cf55ea0eaea92e68db438f7651). Dodano D3–D6, T5–T10 (dowody), K4–K6, Z5–Z9. Poprzednia treść i historyczny wstęp nietknięte. **Uwaga:** przyrost to 4 definicje, 6 twierdzeń, 3 kontrprzykłady i 5 zadań.
+- **Testy:** [test_f134.py](../tests/test_f134.py) rozbudowano o drugi moment, pochodne formalne, przesunięcia i niejednoznaczność momentów, commit [6d1488fe](https://github.com/mojealterego/Ontologia-Liczby-/commit/6d1488fec5c95241174c4d205d06d9ec68289077). Lokalnie niezależna enumeracja **1521/1521** przypadków T5 OK; **pełny zestaw unittest w repo nie został w tym przebiegu wykonany**.
+- **CI:** nowy [workflow F13.4](../.github/workflows/tom1-f134.yml), commit [17d7d28d](https://github.com/mojealterego/Ontologia-Liczby-/commit/17d7d28d4576273b3c6a2b07e8ddc9411aff64d2), uruchamia unittest i kompiluje pełny suplement Pandoc/XeLaTeX z kontrolą znaczników i sum SHA-256. **Zielony przebieg CI niepotwierdzony; pełny PDF nie został jeszcze pobrany ani lokalnie zweryfikowany.**
+- **Otwarte:** zielony CI, odbiór pełnego PDF, formalna recenzja matematyczna, integracja z rzeczywistym binarnym monolitem 0.20. Historyczny bilans **585/1222 bez zmian**; nie tworzono końcowego spisu treści ani Tomu II.
