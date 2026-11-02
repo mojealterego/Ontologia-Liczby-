@@ -171,3 +171,92 @@
 Graf wymagań jest hipotezą modelową, a nie automatycznie prawdziwym opisem rozwoju ucznia. Zadania mogą sprawdzać wiele kompetencji jednocześnie, a pojedyncza odpowiedź może mieć wiele przyczyn. Pokrycie, zysk i optymalizacja czasu są obliczeniowymi narzędziami projektowania zajęć, nie zamiennikami badań skuteczności. W szczególności średnia różnica przed–po nie pozwala wykluczyć efektów dojrzewania, selekcji, powtarzania testu ani zdarzeń zewnętrznych. Przy interpretacji empirycznej potrzebny jest projekt badawczy z właściwą grupą porównawczą, miarami niepewności i kontrolą błędów.
 
 **Literatura kontekstowa:** G. Pólya, *How to Solve It* (1945); J. Bruner, *The Process of Education* (1960); L. S. Vygotsky, *Mind in Society* (1978); P. Black, D. Wiliam, *Assessment and Classroom Learning* (1998). Pozycje wskazują tradycje dydaktyczne; nie dowodzą poprawności dowolnego modelu przyjętego w tym rozdziale.
+
+
+## 6. Rozszerzenie III-A: optymalizacja pokrycia i granice diagnozy
+
+Poniższe twierdzenia rozwijają D04–D10. W odróżnieniu od zaleceń dydaktycznych są formalnymi własnościami skończonych modeli. **Nie stanowią dowodu skuteczności konkretnej interwencji edukacyjnej.**
+
+**D16 (ważona funkcja pokrycia).** Dla rodziny zadań indeksowanych zbiorem skończonym $N$ i wag $w_u\ge 0$ określamy
+$$f(I)=\sum_{u\in\bigcup_{i\in I}C_i}w_u,\qquad I\subseteq N.$$
+Przyjmujemy $f(\varnothing)=0$.
+
+**D17 (zachłanny plan kardynalny).** Dla całkowitego $1\le k\le |N|$ algorytm zaczyna od $G_0=\varnothing$ i w kroku $t$ wybiera zadanie $j\notin G_t$ o największym $f(G_t\cup\{j\})-f(G_t)$, po czym definiuje $G_{t+1}=G_t\cup\{j\}$. W razie remisów dopuszczalny jest dowolny deterministyczny wybór.
+
+**D18 (optimum kardynalne).** $O$ jest optymalne dla budżetu liczby zadań $k$, gdy $|O|\le k$ i $f(O)=\max_{|I|\le k}f(I)$. Maksimum istnieje, ponieważ $N$ jest skończony.
+
+**D19 (deterministyczny test binarny).** Dla skończonej klasy stanów $X$ test $T:X\to\{0,1\}^m$ ma $m$ pytań. Nie utożsamiamy $m$ z liczbą niezależnych informacji w przypadku odpowiedzi skorelowanych.
+
+**T17 (normalizacja i monotoniczność).** Funkcja $f$ spełnia $f(\varnothing)=0$ oraz $I\subseteq J\implies f(I)\le f(J)$.
+
+*Dowód.* Pierwsza równość wynika z pustej sumy. Zawieranie $I\subseteq J$ implikuje $C(I)\subseteq C(J)$, a wszystkie wagi są nieujemne. $\square$
+
+**T18 (submodularność).** Dla $A\subseteq B\subseteq N$ i $j\notin B$:
+$$f(A\cup\{j\})-f(A)\ \ge\ f(B\cup\{j\})-f(B).$$
+
+*Dowód.* Nowe elementy pokrywane po dodaniu $j$ to odpowiednio $C_j\setminus C(A)$ oraz $C_j\setminus C(B)$. Drugi zbiór zawiera się w pierwszym. Wagi są nieujemne, więc jego suma nie jest większa. $\square$
+
+**T19 (oszacowanie postępu algorytmu zachłannego).** Niech $O$ będzie optimum z D18. Dla każdego $0\le t<k$:
+$$f(G_{t+1})-f(G_t)\ge \frac{f(O)-f(G_t)}{k}.$$
+
+*Dowód.* Z monotoniczności $f(O)\le f(O\cup G_t)$. Dodawanie elementów $O\setminus G_t$ po kolei i zastosowanie T18 daje
+$$f(O\cup G_t)-f(G_t)\le\sum_{j\in O\setminus G_t}[f(G_t\cup\{j\})-f(G_t)].$$
+W sumie jest co najwyżej $k$ nieujemnych składników, więc co najmniej jeden z nich jest nie mniejszy niż $(f(O)-f(G_t))/k$, o ile różnica jest dodatnia. Jeśli różnica nie jest dodatnia, teza wynika z nieujemności zysku. Algorytm wybiera największy dostępny zysk, co kończy dowód. $\square$
+
+**T20 (gwarancja zachłanna).** Po $k$ krokach:
+$$f(G_k)\ge\left(1-\left(1-\frac1k\right)^k\right)f(O)\ge(1-e^{-1})f(O).$$
+
+*Dowód.* Niech $r_t=f(O)-f(G_t)$. Z T19 mamy $r_{t+1}\le(1-1/k)r_t$. Ponieważ $f(G_0)=0$, $r_0=f(O)$, a więc $r_k\le(1-1/k)^k f(O)$. Stąd pierwsza nierówność. Druga wynika z $1-x\le e^{-x}$ dla $x\ge0$, zastosowanej do $x=1/k$. $\square$
+
+**T21 (dolna granica długości diagnozy).** Jeśli deterministyczny test $T:X\to\{0,1\}^m$ identyfikuje wszystkie $n=|X|\ge1$ stany, to
+$$2^m\ge n,\qquad m\ge\lceil\log_2 n\rceil.$$
+
+*Dowód.* Różnowartościowość $T$ wymaga co najmniej $n$ różnych wektorów odpowiedzi. W zbiorze $\{0,1\}^m$ istnieje dokładnie $2^m$ takich wektorów. Logarytmujemy dodatnie liczby. $\square$
+
+**T22 (osiągalność granicy kodowej).** Dla dowolnego $n\ge1$ istnieje abstrakcyjny test deterministyczny identyfikujący $n$ stanów przy $m=\lceil\log_2 n\rceil$ pytaniach binarnych.
+
+*Dowód.* Numerujemy stany od $0$ do $n-1$ i przypisujemy im różne zapisy binarne o długości $m$ (z zerami wiodącymi). Ponieważ $n\le2^m$, kodowanie jest różnowartościowe. Konstrukcja nie gwarantuje istnienia pedagogicznie sensownych pytań realizujących każdy bit. $\square$
+
+**T23 (oczekiwana wartość pokrycia).** Jeśli $Y_u$ jest wskaźnikiem losowym zdarzenia, że umiejętność $u$ została rzeczywiście pokryta, a $p_u=P(Y_u=1)$, to dla skończonego $V$:
+$$\mathbb E\!\left[\sum_{u\in V}w_uY_u\right]=\sum_{u\in V}w_up_u.$$
+
+*Dowód.* Liniowość wartości oczekiwanej i $\mathbb E[Y_u]=p_u$. Nie jest potrzebna niezależność zmiennych $Y_u$. $\square$
+
+**T24 (ograniczenie oczekiwanego pokrycia).** Dla $0\le p_u\le1$ i $w_u\ge0$:
+$$0\le\sum_{u\in V}w_up_u\le\sum_{u\in V}w_u.$$
+
+*Dowód.* Każdy składnik $w_up_u$ leży w przedziale $[0,w_u]$; sumujemy nierówności. $\square$
+
+### Kontrprzykłady do rozszerzenia
+
+**K11 (zachłanność nie zawsze optymalna).** Dla $k=2$, równych wag i pokryć $C_A=\{1,2,3,4\}$, $C_B=\{1,2,5\}$, $C_C=\{3,4,6\}$ zachłanny wybiera najpierw $A$ (wartość $4$), a potem $B$ lub $C$ (łącznie $5$). Optimum $\{B,C\}$ pokrywa wszystkie $6$ elementów.
+
+**K12 (iloraz zysku do kosztu nie wystarcza).** Budżet czasu $B\ge3$; zadanie $A$ kosztuje $B$ i ma wartość $B$, zadanie $C$ kosztuje $1$ i ma wartość $1+\varepsilon$ dla $\varepsilon>0$. Zachłanny algorytm wybierający największe $v_i/c_i$ zaczyna od $C$, po czym nie może wybrać $A$. Jego wartość wynosi $1+\varepsilon$, a optimum dla $B>1+\varepsilon$ ma wartość $B$. Iloraz wyników dąży do zera przy $B\to\infty$.
+
+**K13 (granica informacyjna nie gwarantuje sensowności pytań).** Dla $n=4$ dwa abstrakcyjne bity wystarczają do zakodowania stanów, ale jeśli oba pytania mają identyczną odpowiedź dla dwóch stanów, rzeczywisty test nie jest różnowartościowy.
+
+**K14 (niezależność nie jest konieczna dla T23).** Niech $Y_a=Y_b$ będzie tą samą zmienną Bernoulliego z parametrem $1/2$, a $w_a=w_b=1$. Zmienne są doskonale zależne, lecz oczekiwana suma nadal wynosi $1$.
+
+### Zadania rozwiązane do rozszerzenia
+
+**Z21.** Dla $C_1=\{a,b\}$, $C_2=\{b,c\}$ i wag $w_a=2,w_b=3,w_c=5$ oblicz $f(\{1,2\})$. **Rozwiązanie:** pokrycie to $\{a,b,c\}$, zatem $f=2+3+5=10$.
+
+**Z22.** W Z21 oblicz zysk dołączenia zadania $2$ po zadaniu $1$. **Rozwiązanie:** nowa jest tylko umiejętność $c$, więc zysk wynosi $5$.
+
+**Z23.** Dla $k=2$ oblicz współczynnik gwarancji T20. **Rozwiązanie:** $1-(1-1/2)^2=3/4$.
+
+**Z24.** Dla $k=3$ oblicz współczynnik gwarancji T20. **Rozwiązanie:** $1-(2/3)^3=19/27$.
+
+**Z25.** Ile binarnych pytań potrzeba do rozróżnienia $9$ stanów w modelu T21? **Rozwiązanie:** $m\ge\lceil\log_2 9\rceil=4$, ponieważ $2^3=8<9\le16=2^4$.
+
+**Z26.** Zakoduj cztery stany dwoma bitami. **Rozwiązanie:** przypisz kolejno $00,01,10,11$; każdy stan ma unikatowy wektor.
+
+**Z27.** Dla dwóch umiejętności o wagach $2$ i $5$, z prawdopodobieństwami pokrycia $1/2$ i $4/5$, oblicz oczekiwane pokrycie. **Rozwiązanie:** $2\cdot(1/2)+5\cdot(4/5)=1+4=5$.
+
+**Z28.** Wykaż, że w K11 wynik zachłanny jest gorszy od optimum. **Rozwiązanie:** $f(\{A,B\})=f(\{A,C\})=5$, natomiast $f(\{B,C\})=6$.
+
+**Z29.** Dla $k=1$ sprawdź T20. **Rozwiązanie:** współczynnik wynosi $1-(1-1)^1=1$, co odpowiada wyborowi najlepszego pojedynczego zadania.
+
+**Z30.** W K12 przy $B=100$, $\varepsilon=0{,}1$ oblicz iloraz wartości zachłannej do optymalnej. **Rozwiązanie:** $(1{,}1)/100=0{,}011$.
+
+**Granica walidacji rozszerzenia III-A.** Dowody T17–T24 są argumentami skończonej matematyki dyskretnej. T20 dotyczy ograniczenia liczby zadań, **nie** ogólnego ograniczenia czasowego; K12 pokazuje, dlaczego tych warunków nie można utożsamiać. Rzeczywista diagnoza wymaga badania jakości pytań, błędów pomiaru, etyki i trafności interwencji.
