@@ -8,6 +8,7 @@ on:
       - 'tests/test_msc97d40_teaching.py'
       - 'tests/test_msc97d40_advanced.py'
       - 'tests/test_msc97d40_information.py'
+      - 'tests/test_msc97d40_uncertainty.py'
       - '.github/workflows/tom1-msc97d40.yml'
   workflow_dispatch:
 
@@ -31,6 +32,7 @@ jobs:
           python3 -m unittest discover -s tests -p 'test_msc97d40_teaching.py' -v
           python3 -m unittest discover -s tests -p 'test_msc97d40_advanced.py' -v
           python3 -m unittest discover -s tests -p 'test_msc97d40_information.py' -v
+          python3 -m unittest discover -s tests -p 'test_msc97d40_uncertainty.py' -v
       - name: Compile full 97D40 manuscript
         shell: bash
         run: |
@@ -47,6 +49,8 @@ jobs:
           grep -q 'K10' out/CONTENT.txt
           grep -q 'T32' out/CONTENT.txt
           grep -q 'Z40' out/CONTENT.txt
+          grep -q 'T42' out/CONTENT.txt
+          grep -q 'Z50' out/CONTENT.txt
           pages=$(awk '/^Pages:/ {print $2}' out/PDFINFO.txt)
           test "$pages" -ge 4
           test "$(stat -c '%s' "$dst")" -lt 99000000
