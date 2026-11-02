@@ -5,10 +5,20 @@ import unittest
 
 class MeasurementReliability(unittest.TestCase):
     def test_mse_bias_variance(self):
+        # A two-point estimator theta + bias +/- sqrt(variance)
+        # has exact expectation theta+bias and exact MSE variance+bias**2.
         for variance in range(10):
-            for bias in range(-5,6):
-                self.assertEqual(variance+bias*bias,variance+bias*bias)
-        self.assertEqual(4+3*3,13)
+            for bias in range(-5, 6):
+                theta = 7.0
+                values = [theta + bias - math.sqrt(variance),
+                          theta + bias + math.sqrt(variance)]
+                expectation = sum(values) / 2
+                actual_variance = sum((x - expectation)**2 for x in values) / 2
+                actual_mse = sum((x - theta)**2 for x in values) / 2
+                self.assertAlmostEqual(expectation-theta, bias)
+                self.assertAlmostEqual(actual_variance, variance)
+                self.assertAlmostEqual(actual_mse, variance + bias*bias)
+        self.assertEqual(4+3*3, 13)
     def test_equicorrelation_bounds(self):
         for n in range(2,15):
             for k in range(-100,101):
