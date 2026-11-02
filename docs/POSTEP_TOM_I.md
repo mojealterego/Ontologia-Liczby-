@@ -1021,3 +1021,16 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Protokół:** [DOWODY_E1_05_2026-11-02.md](DOWODY_E1_05_2026-11-02.md), commit [283e039](https://github.com/mojealterego/Ontologia-Liczby-/commit/283e039687217dc89ce63ecd84d31ac3143e135c).
 - **Stan kanoniczny:** 585 stron w historycznym bilansie, bez doliczania E1-05 do monolitu 0.20. **1222 nie jest już wymaganym celem**, a limit końcowego PDF to <99 MB. Historyczny wstęp i wcześniejsze rozdziały zachowane; bez finalnego spisu treści i bez Tomu II.
 - **Następny punkt:** E1-06 — Planimetria; przed rozbudową sprawdzić istniejące rozdziały geometrii.
+
+
+## E1-06 i E1-07 — Planimetria oraz Stereometria (2 listopada 2026)
+
+**Znaczący przyrost źródłowy:** dwa następujące po sobie punkty taksonomii poziomu I, bez ingerencji w historyczny wstęp i wcześniejsze rozdziały.
+
+- **E1-06 Planimetria:** [manuskrypt](../manuscript/tom-01/E1/E1-06_PLANIMETRIA.md), commit [63fe49d](https://github.com/mojealterego/Ontologia-Liczby-/commit/63fe49d80ea7f1613eb03abe6ba2010b54a52395), Git blob `f093c53b4a37402093f9341b10d192d4e94d1495`. 19 172 znaków, 15 definicji, 20 twierdzeń z dowodami, 9 kontrprzykładów, 50 rozwiązanych zadań i 6 problemów.
+- **E1-07 Stereometria:** [manuskrypt](../manuscript/tom-01/E1/E1-07_STEREOMETRIA.md), commit [cf0bf95](https://github.com/mojealterego/Ontologia-Liczby-/commit/cf0bf95112f6cebb1a1a156d883ffb86e08425ee), Git blob `480fa5f5fc9ec2bfe87f88dc8bfe192f0aa06f24`. 18 498 znaków, 15 definicji, 18 twierdzeń z dowodami, 9 kontrprzykładów, 50 rozwiązanych zadań i 6 problemów.
+- **Testy:** [E1-06](../tests/test_e106_planimetry.py), [E1-07](../tests/test_e107_stereometry.py). **25/25 lokalnie OK** na plikach o blob SHA zgodnych z GitHub; w E1-06 naprawiono dokładność obliczeń testu kątów (commit [3602c74](https://github.com/mojealterego/Ontologia-Liczby-/commit/3602c740e6bb8d34789385913bad7a1cae531ed2)).
+- **PDF:** dwa lokalnie skompilowane i wyrenderowane podglądy wybranych fragmentów, po **2 strony A4** (E1-06: 43 493 bajty; E1-07: 42 733 bajty). Nie są pełnym składem manuskryptów. [Workflow](../.github/workflows/tom1-e106-e107.yml), commit [fa45060](https://github.com/mojealterego/Ontologia-Liczby-/commit/fa4506021f21ea07d98aca7c89b901512f9ca78d), kompiluje dokładne źródła i sprawdza **<99 000 000 bajtów**, lecz wynik CI pozostaje niepotwierdzony.
+- **Protokół dowodowy:** [DOWODY_E1_06_E1_07_2026-11-02.md](DOWODY_E1_06_E1_07_2026-11-02.md), commit [92d30ca](https://github.com/mojealterego/Ontologia-Liczby-/commit/92d30caadb32ebc6cd6eabdd0fafbf3ef110b9ef).
+- **Odbiór:** pełna paginacja, formalny przegląd wszystkich dowodów, zielony CI i integracja z monolitem 0.20 pozostają otwarte. **Historyczne 585 stron bez zmian; 1222 nie jest już wymaganym celem.** Wstęp i wcześniejsze rozdziały nienaruszone, bez końcowego spisu treści i bez Tomu II.
+- **Następny punkt:** E1-08 — Geometria współrzędnych.
