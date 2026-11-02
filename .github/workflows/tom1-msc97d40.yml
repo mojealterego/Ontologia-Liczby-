@@ -5,7 +5,6 @@ on:
     branches: [main]
     paths:
       - 'manuscript/tom-01/MSC97/97D40_METODY_NAUCZANIA_MATEMATYKI.md'
-      - 'tests/test_msc97d40_advanced.py'
       - 'tests/test_msc97d40_teaching.py'
       - 'tests/test_msc97d40_advanced.py'
       - '.github/workflows/tom1-msc97d40.yml'
@@ -27,7 +26,9 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y --no-install-recommends pandoc texlive-xetex lmodern texlive-latex-recommended texlive-fonts-recommended fonts-dejavu-core poppler-utils
       - name: Run 97D40 mathematical tests
-        run: python3 -m unittest discover -s tests -p 'test_msc97d40_teaching.py' -v
+        run: |
+          python3 -m unittest discover -s tests -p 'test_msc97d40_teaching.py' -v
+          python3 -m unittest discover -s tests -p 'test_msc97d40_advanced.py' -v
       - name: Compile full 97D40 manuscript
         shell: bash
         run: |
