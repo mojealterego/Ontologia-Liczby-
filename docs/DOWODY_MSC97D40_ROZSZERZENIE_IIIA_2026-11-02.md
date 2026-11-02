@@ -23,3 +23,12 @@
 - Pełna recenzja matematyczna i walidacja empiryczna modeli dydaktycznych pozostają otwarte. W szczególności gwarancja zachłanna dotyczy ograniczenia liczby zadań, a nie arbitralnego budżetu czasu.
 
 **Granice wydawnicze:** bez Tomu II, bez końcowego spisu treści, 585 stron w rejestrze bez zmian, 1222 stron nie jest obowiązkowym celem, limit końcowego PDF poniżej 99 MB.
+
+
+## Aneks odbiorczy: pełny PDF i 647-stronicowa książka (2026-11-02)
+
+- Lokalnie wykonano **27/27 testów** na plikach dokładnie zgodnych z blobami `main`: bazowy `d669beb6d57ac20ac3359cc4fe0aef38495aa6d8` (17 testów) i rozszerzony `3c15046856534c0126fae1572b922a1db6396e79` (10 testów). Dodatkowe 3436 niezależnych kontroli zachowuje odrębny status.
+- [GitHub Actions — pełny rozdział 97D40, run 41445051738](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41445051738): **success**, commit `bb4ce0f0cac3397f64a5d25bdbe75ea39e596b7a`, artefakt **13141781622**. Z pobranego artefaktu odczytano **6 stron, 83 793 B**, SHA-256 `6f5392d53c5f6ef0ad6c45584a58295629108edb214f40ba97170d78d54be20a`; SHA-256 źródła Markdown w artefakcie: `d4c4209c97f75888032c56b71141cf939cfb73fae5d575024c4644776c3c3bd4`.
+- **Rzeczywista integracja pełnego rozdziału**: sklonowano wcześniejszy podgląd 641 stron (zawierający niezmienione 629 stron przekazanego monolitu i pełne 97C20/97C30), dołączono sześć stron pełnego PDF 97D40 z CI, zachowując zakładki i odsyłacze za pomocą `pypdf.PdfWriter.clone_document_from_reader` i `append`. Wynik **647 stron, 8 187 625 B**, SHA-256 `d6bc2d8b3964b05ac598f8541d79f38b1ba967fd0178784b9866cce4e07288d7`. Zweryfikowano zgodność tekstową **629/629 stron** z oryginałem, **641/641 stron** z poprzednim podglądem, **6/6 stron** z artefaktem CI, zgodność pięciu renderów źródłowych, **589 zakładek**, **4 oryginalne odsyłacze**, brak pustych stron w nowej części i limit 99 MB.
+- **Nie jest to kanoniczne 0.20**: oryginał 629 stron różni się od opisanego w repo wydania 0.20 (864 strony). Nowe strony nie są doliczane do historycznych 585.
+- [CI korpusu 21 rozdziałów, run 41445046049](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41445046049) **failure** po pomyślnych testach i złożeniu 146 stron: końcowy `pdf_bounds.py` wykrył **jedno słowo poza marginesem bezpieczeństwa**. Workflow skorygowano, dodając `--repair` przed końcową walidacją, commit [601c8bdf](https://github.com/mojealterego/Ontologia-Liczby-/commit/601c8bdf7600f7f69f8030c342179b9ac0580aa9). Zielony odbiór tego poprawionego workflow wymaga osobnego potwierdzenia.
