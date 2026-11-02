@@ -1396,3 +1396,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Testy dokładne, instalacja narzędzi, pełny skład PDF, kontrola A4/znaczników i publikacja artefaktu — wszystkie kroki **success**.
 - Artefakt `tom1-f282e-full-supplement`, ID `13185162442`, 63 487 B, `expired=false`.
 - Protokół uzupełniony w commicie [`39aa7a92`](https://github.com/mojealterego/Ontologia-Liczby-/commit/39aa7a9225a7350295e0e3cd9490320ae3b9c15e). CI nie stanowi formalnego dowodu matematycznego. Monolit 0.20 nadal niezweryfikowany; **585/1222 bez zmian**, bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-F — Metoda gradientu (3 listopada 2026)
+
+- Nowy plik `manuscript/tom-01/F28/F28.2F_METODA_GRADIENTU_I_CERTYFIKATY.md`, commit `03cfb738357f4e4c363e763f39f4f3c8df4c73bf`: 5 definicji, 6 twierdzeń z dowodami, 5 kontrprzykładów, 12 rozwiązanych zadań. Nie zmieniano F28.2–F28.2-E ani wstępu historycznego.
+- Testy repozytoryjne `tests/test_f282f_gradient.py`, commit `0803ee95f833b05d82d828c465a72514e4ca83a4`. Lokalnie wykonano 8/8 testów na odrębnym, szerszym zestawie; testów wersji opublikowanej na GitHub jeszcze nie uruchomiono. Nie deklarować zielonego CI.
+- Lokalny podgląd PDF A4: 2 strony, 64 325 B, kompilacja Pandoc/XeLaTeX. **Uwaga:** podgląd sporządzono z pełniejszego lokalnego wariantu tekstu; nie stanowi on dowodu bajtowej zgodności z krótszym plikiem opublikowanym na main. Pełny skład pliku GitHub wymaga osobnej kompilacji.
+- Nie ma integracji z monolitem 0.20 ani niezależnej recenzji matematycznej. Kanoniczny licznik **585/1222** pozostaje bez zmian. Bez końcowego spisu treści i bez Tomu II.
