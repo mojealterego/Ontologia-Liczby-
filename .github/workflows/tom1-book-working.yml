@@ -9,6 +9,7 @@ on:
       - 'manuscript/tom-01/MSC00/**'
       - 'manuscript/tom-01/MSC97/**'
       - 'scripts/assemble_tom1.py'
+      - 'scripts/pdf_bounds.py'
       - 'tests/test_assemble_tom1.py'
       - 'tests/test_msc00a08_recreation.py'
       - 'tests/test_msc00a09_popularization.py'
@@ -33,7 +34,7 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y --no-install-recommends pandoc texlive-xetex lmodern texlive-latex-recommended texlive-fonts-recommended fonts-dejavu-core poppler-utils
-          python3 -m pip install --user --disable-pip-version-check pypdf==5.9.0 reportlab==4.4.9
+          python3 -m pip install --user --disable-pip-version-check pypdf==5.9.0 reportlab==4.4.9 pymupdf==1.26.5
       - name: Test book assembler and MSC 00A08-00A09 97C20
         run: |
           python3 -m unittest discover -s tests -p 'test_assemble_tom1.py' -v
@@ -58,6 +59,7 @@ jobs:
             dst="out/chapters/${name}.pdf"
             pandoc "$src" "${common[@]}" -o "$dst"
             test -s "$dst"
+            python3 scripts/pdf_bounds.py "$dst" --repair
             chapters+=("$dst")
           done
           args=()
@@ -65,6 +67,7 @@ jobs:
           python3 scripts/assemble_tom1.py --mode supplements "${args[@]}" \
             --output out/ONTOLOGIA_LICZBY_TOM_I_KORPUS_ROBOCZY.pdf \
             --manifest out/ASSEMBLY_MANIFEST.json
+          python3 scripts/pdf_bounds.py out/ONTOLOGIA_LICZBY_TOM_I_KORPUS_ROBOCZY.pdf
           pdfinfo out/ONTOLOGIA_LICZBY_TOM_I_KORPUS_ROBOCZY.pdf > out/PDFINFO.txt
           pdftotext out/ONTOLOGIA_LICZBY_TOM_I_KORPUS_ROBOCZY.pdf out/CONTENT.txt
           grep -q 'Modelowanie matematyczne' out/CONTENT.txt
