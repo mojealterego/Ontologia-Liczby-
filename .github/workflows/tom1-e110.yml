@@ -26,7 +26,7 @@ jobs:
       - name: Install exact-source PDF toolchain
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y --no-install-recommends pandoc texlive-xetex texlive-latex-recommended texlive-fonts-recommended fonts-dejavu-core poppler-utils
+          sudo apt-get install -y --no-install-recommends pandoc texlive-xetex lmodern texlive-latex-recommended texlive-fonts-recommended fonts-dejavu-core poppler-utils
       - name: Compile, validate and fingerprint full manuscript
         shell: bash
         run: |
