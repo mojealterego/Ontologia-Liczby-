@@ -1,4 +1,4 @@
-name: Tom I — continuous working book from E0 E1 and MSC 00A08
+name: Tom I — continuous working book from E0 E1 and MSC 00A08-00A09
 
 on:
   push:
@@ -10,6 +10,7 @@ on:
       - 'scripts/assemble_tom1.py'
       - 'tests/test_assemble_tom1.py'
       - 'tests/test_msc00a08_recreation.py'
+      - 'tests/test_msc00a09_popularization.py'
       - 'docs/TOM_I_KORPUS_ROBOCZY.md'
       - '.github/workflows/tom1-book-working.yml'
   workflow_dispatch:
@@ -31,10 +32,11 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y --no-install-recommends pandoc texlive-xetex lmodern texlive-latex-recommended texlive-fonts-recommended fonts-dejavu-core poppler-utils
           python3 -m pip install --user --disable-pip-version-check pypdf==5.9.0 reportlab==4.4.9
-      - name: Test book assembler and recreational mathematics
+      - name: Test book assembler and MSC 00A08-00A09
         run: |
           python3 -m unittest discover -s tests -p 'test_assemble_tom1.py' -v
           python3 -m unittest discover -s tests -p 'test_msc00a08_recreation.py' -v
+          python3 -m unittest discover -s tests -p 'test_msc00a09_popularization.py' -v
       - name: Compile continuous working corpus from exact Markdown
         shell: bash
         run: |
@@ -46,7 +48,7 @@ jobs:
             find manuscript/tom-01/E0 manuscript/tom-01/E1 manuscript/tom-01/MSC00 \
               -maxdepth 1 -type f -name '*.md' | LC_ALL=C sort
           )
-          test "${#sources[@]}" -eq 17
+          test "${#sources[@]}" -eq 18
           chapters=(out/chapters/00_PRZEDMOWA_KORPUSU.pdf)
           for src in "${sources[@]}"; do
             name=$(basename "${src%.md}")
@@ -64,6 +66,8 @@ jobs:
           pdftotext out/ONTOLOGIA_LICZBY_TOM_I_KORPUS_ROBOCZY.pdf out/CONTENT.txt
           grep -q 'Modelowanie matematyczne' out/CONTENT.txt
           grep -q 'Matematyka rekreacyjna' out/CONTENT.txt
+          grep -q 'Popularyzacja matematyki' out/CONTENT.txt
+          grep -q 'Z18' out/CONTENT.txt
           grep -q 'Z24' out/CONTENT.txt
           pages=$(awk '/^Pages:/ {print $2}' out/PDFINFO.txt)
           test "$pages" -ge 70
@@ -74,7 +78,7 @@ jobs:
       - name: Publish working book artifact
         uses: actions/upload-artifact@v4
         with:
-          name: tom1-continuous-working-book-e0-e1-msc00a08
+          name: tom1-continuous-working-book-e0-e1-msc00a08-00a09
           path: |
             out/ONTOLOGIA_LICZBY_TOM_I_KORPUS_ROBOCZY.pdf
             out/ASSEMBLY_MANIFEST.json
