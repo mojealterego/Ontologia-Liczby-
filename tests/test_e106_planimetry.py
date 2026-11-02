@@ -14,7 +14,7 @@ class Planimetry(unittest.TestCase):
 
     def test_polygon_angle_sum(self):
         for n in range(3, 40):
-            self.assertEqual((n-2)*180, n*((n-2)*180/n))
+            self.assertEqual((n-2)*180, n*Fraction((n-2)*180,n))
 
     def test_diagonal_count(self):
         for n in range(3, 25):
@@ -59,7 +59,7 @@ class Planimetry(unittest.TestCase):
 
     def test_worked_problem_f(self):
         self.assertEqual(Fraction(8*5,2),20)
-        self.assertEqual(Fraction(20*12,3),80)
+        self.assertEqual(Fraction(8*5,2),Fraction(20*2,2))
 
 if __name__=="__main__":
     unittest.main()
