@@ -29,7 +29,7 @@ jobs:
       - name: Typeset complete E1-02 source
         run: |
           mkdir -p build/e102
-          pandoc manuscript/tom-01/E1/E1-02_PODZIELNOSC.md \
+          pandoc --from markdown+tex_math_dollars+tex_math_single_backslash manuscript/tom-01/E1/E1-02_PODZIELNOSC.md \
             --pdf-engine=xelatex -o build/e102/E1-02_PELNY_PODGLAD_A4.pdf
       - name: Validate theory, exercises and nonempty pages
         run: |
