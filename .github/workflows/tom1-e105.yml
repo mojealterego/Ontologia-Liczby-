@@ -29,7 +29,7 @@ jobs:
       - name: Compile complete E1-05 source
         run: |
           mkdir -p build/e105
-          pandoc manuscript/tom-01/E1/E1-05_ROWNANIA_LINIOWE.md \
+          pandoc --from markdown+tex_math_dollars+tex_math_single_backslash manuscript/tom-01/E1/E1-05_ROWNANIA_LINIOWE.md \
             --pdf-engine=xelatex \
             -V papersize=a4 -V mainfont="Noto Serif" -V sansfont="Noto Sans" \
             -V geometry:margin=19mm \
