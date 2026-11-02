@@ -102,11 +102,13 @@ class ElementaryProbabilityTests(unittest.TestCase):
         for n in range(2, 12):
             for r in range(n+1):
                 for draws in range(n+1):
-                    k = min(draws, n-r)
-                    numerator = comb(n-r, draws) if draws <= n-r else 0
-                    self.assertEqual(F(numerator, comb(n, draws)),
-                                     F(comb(n-r, draws), comb(n, draws))
-                                     if draws <= n-r else F(0))
+                    from itertools import combinations
+                    samples = list(combinations(range(n), draws))
+                    observed = F(sum(all(x >= r for x in sample)
+                                     for sample in samples), len(samples))
+                    predicted = (F(comb(n-r, draws), comb(n, draws))
+                                 if draws <= n-r else F(0))
+                    self.assertEqual(observed, predicted)
 
     def test_total_probability_and_bayes(self):
         prior = F(1, 100)
