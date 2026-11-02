@@ -18,6 +18,7 @@ on:
       - 'tests/test_msc97d40_teaching.py'
       - 'tests/test_msc97d40_advanced.py'
       - 'tests/test_msc97d40_information.py'
+      - 'tests/test_msc97d40_uncertainty.py'
       - 'docs/TOM_I_KORPUS_ROBOCZY.md'
       - '.github/workflows/tom1-book-working.yml'
   workflow_dispatch:
@@ -49,6 +50,7 @@ jobs:
           python3 -m unittest discover -s tests -p 'test_msc97d40_teaching.py' -v
           python3 -m unittest discover -s tests -p 'test_msc97d40_advanced.py' -v
           python3 -m unittest discover -s tests -p 'test_msc97d40_information.py' -v
+          python3 -m unittest discover -s tests -p 'test_msc97d40_uncertainty.py' -v
       - name: Compile continuous working corpus from exact Markdown
         shell: bash
         run: |
