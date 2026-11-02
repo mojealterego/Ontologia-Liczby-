@@ -36,7 +36,7 @@ jobs:
           set -euo pipefail
           mkdir -p out
           for chapter in E1-08_GEOMETRIA_WSPOLRZEDNYCH E1-09_STATYSTYKA_OPISOWA; do
-            pandoc "manuscript/tom-01/E1/${chapter}.md" --standalone --from markdown+tex_math_dollars --pdf-engine=xelatex -V mainfont="DejaVu Serif" -V sansfont="DejaVu Sans" -V geometry:margin=18mm -V lang=pl-PL -o "out/${chapter}.pdf"
+            pandoc "manuscript/tom-01/E1/${chapter}.md" --standalone --from markdown+tex_math_dollars+tex_math_single_backslash --pdf-engine=xelatex -V mainfont="DejaVu Serif" -V sansfont="DejaVu Sans" -V geometry:margin=18mm -V lang=pl-PL -o "out/${chapter}.pdf"
             test -s "out/${chapter}.pdf"
             pages=$(pdfinfo "out/${chapter}.pdf" | awk '/^Pages:/ {print $2}')
             test "${pages}" -ge 4
