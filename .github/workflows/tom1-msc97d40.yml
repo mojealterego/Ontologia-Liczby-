@@ -13,10 +13,12 @@ on:
       - 'tests/test_msc97d40_measurement.py'
       - 'tests/test_msc97d40_sampling.py'
       - 'tests/test_msc97d40_selection.py'
+      - 'tests/test_msc97d40_matching.py'
       - 'manuscript/tom-01/MSC97/97D40_IIID_OPTYMALIZACJA_PROGRAMU_ZAJEC.md'
       - 'manuscript/tom-01/MSC97/97D40_IIIE_RZETELNOSC_POMIARU.md'
       - 'manuscript/tom-01/MSC97/97D40_IIIF_LOSOWANIE_I_WNIOSKOWANIE.md'
       - 'manuscript/tom-01/MSC97/97D40_IIIG_DOBOR_ZADAN_NIEPEWNOSC.md'
+      - 'manuscript/tom-01/MSC97/97D40_IIIH_PRZYDZIAL_I_SPRAWIEDLIWOSC.md'
       - '.github/workflows/tom1-msc97d40.yml'
   workflow_dispatch:
 
@@ -45,6 +47,7 @@ jobs:
           python3 -m unittest discover -s tests -p 'test_msc97d40_measurement.py' -v
           python3 -m unittest discover -s tests -p 'test_msc97d40_sampling.py' -v
           python3 -m unittest discover -s tests -p 'test_msc97d40_selection.py' -v
+          python3 -m unittest discover -s tests -p 'test_msc97d40_matching.py' -v
       - name: Compile full 97D40 manuscript
         shell: bash
         run: |
@@ -55,15 +58,16 @@ jobs:
           supp2=manuscript/tom-01/MSC97/97D40_IIIE_RZETELNOSC_POMIARU.md
           supp3=manuscript/tom-01/MSC97/97D40_IIIF_LOSOWANIE_I_WNIOSKOWANIE.md
           supp4=manuscript/tom-01/MSC97/97D40_IIIG_DOBOR_ZADAN_NIEPEWNOSC.md
+          supp5=manuscript/tom-01/MSC97/97D40_IIIH_PRZYDZIAL_I_SPRAWIEDLIWOSC.md
           dst=out/MSC97D40_PELNY_ROZDZIAL.pdf
-          pandoc "$src" "$supp" "$supp2" "$supp3" "$supp4" --standalone --from markdown+tex_math_dollars+tex_math_single_backslash --pdf-engine=xelatex -V mainfont="DejaVu Serif" -V sansfont="DejaVu Sans" -V geometry:margin=18mm -V papersize=a4 -V lang=pl-PL -o "$dst"
+          pandoc "$src" "$supp" "$supp2" "$supp3" "$supp4" "$supp5" --standalone --from markdown+tex_math_dollars+tex_math_single_backslash --pdf-engine=xelatex -V mainfont="DejaVu Serif" -V sansfont="DejaVu Sans" -V geometry:margin=18mm -V papersize=a4 -V lang=pl-PL -o "$dst"
           test -s "$dst"
           pdfinfo "$dst" > out/PDFINFO.txt
           pdftotext "$dst" out/CONTENT.txt
           python3 - <<'PY'
           from pathlib import Path
           text = Path("out/CONTENT.txt").read_text(encoding="utf-8")
-          tokens = ["Metody nauczania matematyki", "Z20", "K10", "T32", "Z40", "T42", "Z50", "T55", "Z64", "T65", "Z80", "T76", "Z96", "T84", "Z108"]
+          tokens = ["Metody nauczania matematyki", "Z20", "K10", "T32", "Z40", "T42", "Z50", "T55", "Z64", "T65", "Z80", "T76", "Z96", "T84", "Z108", "T96", "Z128"]
           missing = [token for token in tokens if token not in text]
           print("MSC 97D40 markers checked:", len(tokens), "missing:", missing, flush=True)
           if missing:
@@ -73,7 +77,7 @@ jobs:
           echo "Compiled full MSC97D40 pages=$pages"
           test "$pages" -ge 10
           test "$(stat -c '%s' "$dst")" -lt 99000000
-          sha256sum "$src" "$supp" "$supp2" "$supp3" "$supp4" "$dst" > out/SHA256SUMS.txt
+          sha256sum "$src" "$supp" "$supp2" "$supp3" "$supp4" "$supp5" "$dst" > out/SHA256SUMS.txt
           printf 'chapter=MSC97D40 pages=%s bytes=%s canonical_0.20_included=false\n' "$pages" "$(stat -c '%s' "$dst")" > out/METRICS.txt
       - name: Upload verified full chapter PDF
         uses: actions/upload-artifact@v4
