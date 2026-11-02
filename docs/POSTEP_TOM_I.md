@@ -1312,3 +1312,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Lokalny, szerszy zestaw kontrolny `/mnt/data/f134_work/test_f134_higher.py` uruchomiono przez `python -m unittest -v`: **4/4 OK**. Jest to oddzielny plik lokalny; nie oznacza potwierdzenia wyniku GitHub Actions.
 - Poprawiono instalację czcionek TeX w workflow F13.4: commit `8b627f39187374bb482b81fffc9544d34189f666`. Zielony przebieg CI po tej poprawce i pełny PDF nadal wymagają weryfikacji.
 - Historyczne 585 stron bez zmian. Brak integracji z kanonicznym monolitem 0.20; bez końcowego spisu treści i bez Tomu II.
+
+## F13.4-D — rekonstrukcja z momentów silniowych (2026-11-02)
+
+- Rozszerzono manuskrypt na `main`: commit `8a3bf2f69fef4a3f76e6dfe74328e70cbcc5b37c`, definicja D11, twierdzenia T17–T19 z dowodami, kontrprzykład K10, zadania Z16–Z18.
+- Dodano `tests/test_f134_reconstruction.py`, commit `641c1190266e1cf6c2c21b1c32460af47813d1ee`. Lokalnie **3/3 testy OK**, w tym pełna enumeracja **3905/3905** ciągów długości 1–5, współczynniki -2..2, rekonstrukcja dokładna `fractions.Fraction`. Z testami wyższych momentów łącznie **7/7 OK**.
+- Workflow F13.4 rozszerzono o test rekonstrukcji i kontrolę znaczników T19/K10/Z18: commit `d4f10a182134cb59948ce916a35d8a69954168bc`. Zielony CI i pełny PDF z aktualnego źródła **niepotwierdzone**.
+- Historyczne 585 stron bez zmian. Integracja z binarnym monolitem 0.20 pozostaje otwarta; bez końcowego spisu treści i Tomu II.
