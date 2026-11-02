@@ -1,0 +1,57 @@
+name: Tom I — E1-04 source PDF and mathematical tests
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'manuscript/tom-01/E1/E1-04_ALGEBRA_ELEMENTARNA.md'
+      - 'tests/test_e104_elementary_algebra.py'
+      - '.github/workflows/tom1-e104.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run exact repository tests
+        run: python -m unittest discover -s tests -p test_e104_elementary_algebra.py -v
+      - name: Install PDF dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-latex-extra texlive-lang-european fonts-noto-core poppler-utils
+      - name: Typeset complete E1-04 source
+        run: |
+          mkdir -p build/e104
+          pandoc manuscript/tom-01/E1/E1-04_ALGEBRA_ELEMENTARNA.md \
+            --pdf-engine=xelatex \
+            -V papersize=a4 -V mainfont="Noto Serif" -V sansfont="Noto Sans" \
+            -V geometry:margin=18mm \
+            -o build/e104/E1-04_PELNY_PODGLAD_A4.pdf
+      - name: Validate A4 and actual page count
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import subprocess, re
+          p=Path('build/e104/E1-04_PELNY_PODGLAD_A4.pdf')
+          assert p.is_file() and p.stat().st_size>10000, 'Missing/empty PDF'
+          info=subprocess.check_output(['pdfinfo',str(p)],text=True)
+          assert '595.28 x 841.89 pts (A4)' in info, 'Expected A4'
+          data=subprocess.check_output(['pdftotext','-layout',str(p),'-'],text=True)
+          pages=[x for x in data.split('\f') if x.strip()]
+          assert len(pages)>=4, f'Fewer than 4 real pages: {len(pages)}'
+          assert all(len(x.strip())>100 for x in pages), 'Blank or near-blank page'
+          assert 'Część A' in data and 'Część B' in data, 'Missing theory/exercises'
+          print('A4 pages:',len(pages),'nonempty pages:',len(pages))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tom1-e104-full-source-a4
+          path: build/e104/E1-04_PELNY_PODGLAD_A4.pdf
+          if-no-files-found: error
