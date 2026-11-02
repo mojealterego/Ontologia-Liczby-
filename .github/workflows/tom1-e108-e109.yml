@@ -1,0 +1,54 @@
+name: Tom I E1-08 E1-09 — exact-source PDF and math tests
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'manuscript/tom-01/E1/E1-08_GEOMETRIA_WSPOLRZEDNYCH.md'
+      - 'manuscript/tom-01/E1/E1-09_STATYSTYKA_OPISOWA.md'
+      - 'tests/test_e108_coordinates.py'
+      - 'tests/test_e109_statistics.py'
+      - '.github/workflows/tom1-e108-e109.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout exact main source
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Install PDF toolchain
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends pandoc texlive-xetex texlive-latex-recommended texlive-fonts-recommended fonts-dejavu-core poppler-utils
+      - name: Execute repository Python tests
+        run: |
+          python3 -m unittest discover -s tests -p 'test_e10[89]*.py' -v
+      - name: Compile exact markdown sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          for chapter in E1-08_GEOMETRIA_WSPOLRZEDNYCH E1-09_STATYSTYKA_OPISOWA; do
+            pandoc "manuscript/tom-01/E1/${chapter}.md" --standalone --from markdown+tex_math_dollars --pdf-engine=xelatex -V mainfont="DejaVu Serif" -V sansfont="DejaVu Sans" -V geometry:margin=18mm -V lang=pl-PL -o "out/${chapter}.pdf"
+            test -s "out/${chapter}.pdf"
+            pages=$(pdfinfo "out/${chapter}.pdf" | awk '/^Pages:/ {print $2}')
+            test "${pages}" -ge 4
+            pdftotext "out/${chapter}.pdf" - | grep -q '[[:alnum:]]'
+            bytes=$(stat -c '%s' "out/${chapter}.pdf")
+            test "${bytes}" -lt 99000000
+            printf '%s pages=%s bytes=%s\n' "${chapter}" "${pages}" "${bytes}"
+          done
+          sha256sum out/*.pdf | tee out/SHA256SUMS.txt
+      - name: Upload proof artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: tom1-e108-e109-source-pdfs
+          path: out/
+          if-no-files-found: error
