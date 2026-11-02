@@ -1,0 +1,56 @@
+name: Tom I — E1-02 full-source PDF and tests
+on:
+  push:
+    branches: [main]
+    paths:
+      - manuscript/tom-01/E1/E1-02_PODZIELNOSC.md
+      - tests/test_e102_divisibility.py
+      - .github/workflows/tom1-e102.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Execute exact repository tests
+        run: python -m unittest discover -s tests -p test_e102_divisibility.py -v
+      - name: Install typesetting dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-latex-extra texlive-lang-european poppler-utils
+      - name: Typeset complete E1-02 source
+        run: |
+          mkdir -p build/e102
+          pandoc manuscript/tom-01/E1/E1-02_PODZIELNOSC.md \
+            --pdf-engine=xelatex -o build/e102/E1-02_PELNY_PODGLAD_A4.pdf
+      - name: Validate theory, exercises and nonempty pages
+        run: |
+          python - <<'PY'
+          import subprocess
+          from pathlib import Path
+          pdf = Path('build/e102/E1-02_PELNY_PODGLAD_A4.pdf')
+          assert pdf.exists() and pdf.stat().st_size > 10000
+          raw = subprocess.check_output(['pdftotext', '-layout', str(pdf), '-']).decode('utf-8')
+          pages = [p for p in raw.split('\f') if p.strip()]
+          assert len(pages) >= 8, f'Fewer than 8 pages: {len(pages)}'
+          for i, p in enumerate(pages, 1):
+              assert len(p.strip()) >= 100, f'Nearly empty page {i}'
+          start = next((i for i,p in enumerate(pages) if 'Część B.' in p), None)
+          assert start is not None, 'Missing exercise section'
+          assert start >= 4, f'Theory fewer than 4 pages: {start}'
+          assert len(pages) - start >= 4, f'Exercises fewer than 4 pages: {len(pages)-start}'
+          print(f'Validated {len(pages)} nonempty pages; theory={start}; exercises={len(pages)-start}')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tom1-e102-full-source-a4
+          path: build/e102/E1-02_PELNY_PODGLAD_A4.pdf
+          if-no-files-found: error
