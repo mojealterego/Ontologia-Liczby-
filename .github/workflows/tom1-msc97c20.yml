@@ -1,0 +1,60 @@
+name: Tom I MSC 97C20 — matematyka edukacji i pelny PDF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'manuscript/tom-01/MSC97/97C20_AFEKTYWNE_ASPEKTY_EDUKACJI_MATEMATYCZNEJ.md'
+      - 'tests/test_msc97c20_affective.py'
+      - '.github/workflows/tom1-msc97c20.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Install PDF toolchain
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends pandoc texlive-xetex lmodern texlive-latex-recommended texlive-fonts-recommended fonts-dejavu-core poppler-utils
+      - name: Execute exact source tests
+        run: |
+          python3 -m compileall -q tests/test_msc97c20_affective.py
+          python3 -m unittest discover -s tests -p 'test_msc97c20_affective.py' -v
+      - name: Compile full chapter and verify output
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          src=manuscript/tom-01/MSC97/97C20_AFEKTYWNE_ASPEKTY_EDUKACJI_MATEMATYCZNEJ.md
+          pdf=out/97C20_AFEKTYWNE_ASPEKTY_EDUKACJI_MATEMATYCZNEJ.pdf
+          pandoc "$src" --standalone --from markdown+tex_math_dollars+tex_math_single_backslash \
+            --pdf-engine=xelatex -V mainfont="DejaVu Serif" -V sansfont="DejaVu Sans" \
+            -V geometry:margin=18mm -V papersize=a4 -V lang=pl-PL -o "$pdf"
+          pdfinfo "$pdf" > out/PDFINFO.txt
+          pdftotext "$pdf" out/CONTENT.txt
+          grep -q 'Z20' out/CONTENT.txt
+          grep -q 'T16' out/CONTENT.txt
+          pages=$(awk '/^Pages:/ {print $2}' out/PDFINFO.txt)
+          test "$pages" -ge 4
+          bytes=$(stat -c '%s' "$pdf")
+          test "$bytes" -lt 99000000
+          sha256sum "$src" "$pdf" > out/SHA256SUMS.txt
+          printf 'pages=%s bytes=%s\n' "$pages" "$bytes" > out/METRICS.txt
+      - name: Upload complete chapter PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: tom1-msc97c20-full-pdf
+          path: |
+            out/97C20_AFEKTYWNE_ASPEKTY_EDUKACJI_MATEMATYCZNEJ.pdf
+            out/PDFINFO.txt
+            out/SHA256SUMS.txt
+            out/METRICS.txt
+          if-no-files-found: error
