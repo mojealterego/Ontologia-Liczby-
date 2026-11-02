@@ -1305,3 +1305,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Odbiór etapowy CI po poprawce:** przebieg [41501440744](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41501440744), commit f5c14828: kroki **Exact rational tests**, **Install PDF toolchain** i **Build and inspect complete F14.4 PDF** mają status success; na chwilę odczytu krok publikacji artefaktu pozostaje in_progress, a wynik całego workflow nie jest jeszcze ustalony. Nie oznaczać tego przebiegu jako zielonego przed statusem completed/success.
 
 - **Zamknięcie CI F14.4 (potwierdzone):** [GitHub Actions run 41501440744](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41501440744) dla przypiętego SHA **f5c1482868d86c6b62df47e949b9cd754be23b8a** zakończył się **completed/success**. Wszystkie kroki (testy, instalacja, kompilacja pełnego PDF, kontrola A4 i znaczników, upload) mają status success. Artefakt **tom1-f144-full-supplement**, GitHub artifact ID **13168668005**, 64 456 B, nieprzeterminowany. To dowód poprawnego wykonania workflow dla wskazanego SHA, a nie formalnej recenzji twierdzeń ani integracji monolitu 0.20. Kolejne commity aktualizujące wyłącznie rejestr postępu nie były osobno objęte workflow ograniczonym filtrami ścieżek.
+
+## F13.4-C — kontrola granicy momentów (2026-11-02)
+
+- Zaktualizowano `tests/test_f134_higher.py` na `main`: commit `eef81dc9e1505192c6e5e46d8b3439567bb0493e`. Dodano test granicy znikania momentów konstrukcji dwumianowej dla n=1..8. Plik testowy jest objęty workflow `tom1-f134.yml`.
+- Lokalny, szerszy zestaw kontrolny `/mnt/data/f134_work/test_f134_higher.py` uruchomiono przez `python -m unittest -v`: **4/4 OK**. Jest to oddzielny plik lokalny; nie oznacza potwierdzenia wyniku GitHub Actions.
+- Poprawiono instalację czcionek TeX w workflow F13.4: commit `8b627f39187374bb482b81fffc9544d34189f666`. Zielony przebieg CI po tej poprawce i pełny PDF nadal wymagają weryfikacji.
+- Historyczne 585 stron bez zmian. Brak integracji z kanonicznym monolitem 0.20; bez końcowego spisu treści i bez Tomu II.
