@@ -1056,3 +1056,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Protokół:** [DOWODY_E1_10_2026-11-02.md](DOWODY_E1_10_2026-11-02.md), commit [9674b99](https://github.com/mojealterego/Ontologia-Liczby-/commit/9674b990a68f67224216b4d9a63b78c5b183e743).
 - **Stan odbioru:** pełny skład i formalna recenzja wszystkich dowodów, zielone CI oraz integracja z monolitem 0.20 pozostają otwarte. **585 stron bez zmian**; 1222 stron nie jest już wymaganym celem. Każdy finalny tom PDF musi mieć mniej niż 99 MB (technicznie <99 000 000 bajtów). Historyczny wstęp bez ingerencji; bez finalnego spisu treści i bez Tomu II.
 - **Następny punkt:** E1-11 — Modelowanie.
+
+
+## Aneks dowodowy: potwierdzone GitHub Actions i pełny PDF (2026-11-02)
+
+- **Zielony CI E1-10:** [przebieg 41400277877](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41400277877), `success` na commit `51c53cc691e46470115e07c5d846969c570561d9`. Wykonano dokładny repozytoryjny plik testów: **12/12 OK**; wykonano kompilację **całego** źródła z `main` przez Pandoc/XeLaTeX.
+- **Pełny PDF E1-10:** **7 stron A4**, **74 142 bajty**, SHA-256 `514252e11b2677acc85168f644e8e6f428f0b73cee12e8eea85a3674357603c2`. SHA-256 wejściowego Markdown: `f39450e586fbc530e2f8b5660424ec8fac25d93243581de4c523ff7b79156459`. [Artefakt GitHub Actions](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41400277877) `tom1-e110-complete-pdf` (ID 13120248942). ZIP pobrano i rozpakowano lokalnie; SHA-256 rozpakowanego PDF zgodne z logiem CI, `pdfinfo` wskazuje A4 i 7 stron; `pdftotext` potwierdza obecność końcowego Problem P5. Każda strona zawiera ponad 1600 znaków wyekstrahowanego tekstu.
+- **Wynik:** E1-10 ma potwierdzoną kompilację pełnego źródła i spełnia techniczny limit 99 MB. **Nie oznacza to jeszcze integracji z monolitem 0.20 ani pełnej recenzji wszystkich dowodów.**
+- **Dodatkowa naprawa procesu:** [E1-08/E1-09, przebieg 41400284879](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41400284879), `success`, 25/25 testów, dwa pełne PDF A4 po 6 stron (70 837 i 70 877 bajtów). Wcześniejsza blokada `lmodern.sty` usunięta w tych workflow. [E1-01, przebieg 41400317753](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41400317753) również zakończył się `success`.
