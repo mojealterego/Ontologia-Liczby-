@@ -1,0 +1,58 @@
+name: Tom I E1-11 — mathematical modeling exact-source PDF and tests
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'manuscript/tom-01/E1/E1-11_MODELOWANIE.md'
+      - 'tests/test_e111_modeling.py'
+      - '.github/workflows/tom1-e111.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout main without persisted credentials
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Run exact mathematical regression tests
+        run: python3 -m unittest discover -s tests -p 'test_e111_modeling.py' -v
+      - name: Install exact-source PDF toolchain
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends pandoc texlive-xetex lmodern texlive-latex-recommended texlive-fonts-recommended fonts-dejavu-core poppler-utils
+      - name: Compile and validate full manuscript
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          src=manuscript/tom-01/E1/E1-11_MODELOWANIE.md
+          dst=out/E1-11_MODELOWANIE.pdf
+          pandoc "$src" --standalone --from markdown+tex_math_dollars+tex_math_single_backslash --pdf-engine=xelatex \
+            -V mainfont="DejaVu Serif" -V sansfont="DejaVu Sans" \
+            -V geometry:margin=18mm -V papersize=a4 -V lang=pl-PL -o "$dst"
+          test -s "$dst"
+          pages=$(pdfinfo "$dst" | awk '/^Pages:/ {print $2}')
+          test "$pages" -ge 4
+          pdftotext "$dst" out/text.txt
+          grep -q 'Modelowanie matematyczne' out/text.txt
+          grep -q 'P5' out/text.txt
+          bytes=$(stat -c '%s' "$dst")
+          test "$bytes" -lt 99000000
+          sha256sum "$src" "$dst" | tee out/SHA256SUMS.txt
+          printf 'E1-11 pages=%s bytes=%s\n' "$pages" "$bytes" | tee out/METRICS.txt
+      - name: Upload verified complete PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: tom1-e111-complete-pdf
+          path: |
+            out/E1-11_MODELOWANIE.pdf
+            out/SHA256SUMS.txt
+            out/METRICS.txt
+          if-no-files-found: error
