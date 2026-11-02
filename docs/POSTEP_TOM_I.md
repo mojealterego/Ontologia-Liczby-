@@ -981,3 +981,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Protokół:** [DOWODY_E1_02_2026-11-02.md](https://github.com/mojealterego/Ontologia-Liczby-/blob/main/docs/DOWODY_E1_02_2026-11-02.md), commit [892d987](https://github.com/mojealterego/Ontologia-Liczby-/commit/892d98753c09957b6cbd76bc22eb26bdc0ec7477).
 - **Status:** opracowanie źródłowe i dokładny plik testów potwierdzone; pełny PDF, paginacja, CI i integracja niepotwierdzone. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nienaruszone; bez finalnego spisu treści i bez Tomu II.
 - **Następny punkt:** E1-03 — Potęgi i pierwiastki; najpierw sprawdzić istniejące F21.1 i powiązane materiały.
+
+
+## E1-03 — Potęgi i pierwiastki (2 listopada 2026)
+
+- **Taksonomia:** E1-03, poziom II; rozdział po E1-02, z odniesieniem do istniejącego F21.1, którego nie zmieniono.
+- **Manuskrypt:** [`manuscript/tom-01/E1/E1-03_POTEGI_I_PIERWIASTKI.md`](../manuscript/tom-01/E1/E1-03_POTEGI_I_PIERWIASTKI.md), commit [1f9efa4](https://github.com/mojealterego/Ontologia-Liczby-/commit/1f9efa4668cfead40b1a4590792c292e086a6b36), Git blob `b69d3f4bd6c5e6efd439d570d64a72e218adb597`; odczyt z main potwierdził 16059 znaków, 11 definicji, 19 twierdzeń z dowodami, 60 rozwiązanych zadań i 4 problemy przekrojowe.
+- **Testy:** [`tests/test_e103_powers_roots.py`](../tests/test_e103_powers_roots.py), commit [84f43ff](https://github.com/mojealterego/Ontologia-Liczby-/commit/84f43ffcc01c21885ca5bde009f56bfe0f2a4e8f). **Nie uruchomiono** jeszcze dokładnego pliku testów w Pythonie; nie potwierdzono CI.
+- **Skład:** nie skompilowano pełnego PDF E1-03; próba pobrania dokładnego źródła do środowiska składu przez raw.githubusercontent.com zakończyła się błędem sieci (HTTP 000). Minimum 11 stron i wymagania ćwiczeniowe pozostają niepotwierdzone.
+- **Status:** źródło zapisane i odczytane z main; nieodebrane wydawniczo. Historyczny wstęp i wcześniejsze rozdziały nienaruszone. Bez końcowego spisu treści i bez Tomu II. **585/1222 stron bez zmian** do integracji z rzeczywistym monolitem 0.20.
