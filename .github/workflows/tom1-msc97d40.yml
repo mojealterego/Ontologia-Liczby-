@@ -5,7 +5,9 @@ on:
     branches: [main]
     paths:
       - 'manuscript/tom-01/MSC97/97D40_METODY_NAUCZANIA_MATEMATYKI.md'
+      - 'tests/test_msc97d40_advanced.py'
       - 'tests/test_msc97d40_teaching.py'
+      - 'tests/test_msc97d40_advanced.py'
       - '.github/workflows/tom1-msc97d40.yml'
   workflow_dispatch:
 
