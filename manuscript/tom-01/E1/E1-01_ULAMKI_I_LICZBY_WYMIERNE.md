@@ -149,6 +149,52 @@ papersize: a4
 
 **Uwaga metodologiczna.** Procent może opisywać udział w skończonej populacji, zmianę wielkości, stopę procentową albo prawdopodobieństwo; sens podstawy i jednostek trzeba ustalić osobno. Wzory ułamkowe są dokładne, lecz dane pomiarowe mogą być przybliżone. Konstrukcja ciała $\mathbb Q$ i okresowość rozwinięć w dowolnej podstawie zostały już opracowane w F14.3 i F19.1; ten punkt pozostaje wykładem szkolnym, nie duplikatem monografii algebraicznej.
 
+
+
+## 7. Gęstość liczb wymiernych i pułapka reprezentacji
+
+**Definicja 13 (przedział wymierny).** Dla liczb wymiernych $a<b$ otwarty przedział $(a,b)$ zawiera te liczby $x$, które spełniają obie nierówności $a<x$ oraz $x<b$. Zapis nie wskazuje liczby elementów przedziału.
+
+**Twierdzenie 17 (liczba wymierna pomiędzy dwiema wymiernymi).** Dla dowolnych $a,b\in\mathbb Q$ z $a<b$ istnieje $c\in\mathbb Q$ spełniające $a<c<b$.
+
+*Dowód.* Wybieramy $c=(a+b)/2$. Liczby wymierne są zamknięte na dodawanie i dzielenie przez niezerową liczbę całkowitą 2, zatem $c$ jest wymierna. Ponieważ $b-a>0$, mamy $c-a=(b-a)/2>0$ oraz $b-c=(b-a)/2>0$. $\square$
+
+**Twierdzenie 18 (nieskończenie wiele wymiernych w przedziale).** Dla $a<b$ wymiernych przedział $(a,b)$ zawiera nieskończenie wiele różnych liczb wymiernych.
+
+*Dowód.* Dla każdego $n\ge2$ przyjmijmy $c_n=a+(b-a)/n$. Wówczas $a<c_n<b$. Gdy $n<m$, mamy $(b-a)/n>(b-a)/m$, a więc $c_n>c_m$. Wszystkie wybrane liczby są różne; takich indeksów jest nieskończenie wiele. $\square$
+
+**Przykład 9.** Między $1/2$ i $3/5$ leżą m.in. $11/20=0,55$ oraz $17/30\approx0,5667$. Wskazanie jednej liczby nie wyczerpuje przedziału.
+
+**Kontrprzykład 10.** Między kolejnymi liczbami naturalnymi 4 i 5 nie ma liczby naturalnej, ale jest nieskończenie wiele liczb wymiernych. Własność „sąsiedztwa” zależy od rozpatrywanego zbioru.
+
+## 8. Skąd bierze się okres rozwinięcia dziesiętnego?
+
+**Definicja 14 (reszta w dzieleniu pisemnym).** Dla nieskracalnego ułamka $a/b$ z $0\le a<b$ i $b>0$ kolejne reszty wyznaczamy przez $r_0=a$, $d_n=\lfloor10r_{n-1}/b\rfloor$ i $r_n=10r_{n-1}-bd_n$. Każda reszta spełnia $0\le r_n<b$, a $d_n$ jest cyfrą dziesiętną.
+
+**Twierdzenie 19 (skończoność albo okresowość).** Rozwinięcie dziesiętne dowolnego nieujemnego ułamka wymiernego jest skończone albo od pewnego miejsca okresowe.
+
+*Dowód.* Część całkowitą oddzielamy przez dzielenie z resztą, więc wystarczy ułamek właściwy. W algorytmie z definicji 14 reszta jest jedną z $b$ liczb $0,1,\ldots,b-1$. Jeśli reszta stanie się zerem, dalsze cyfry są zerami i zapis się kończy. Jeśli zero nigdy nie wystąpi, wśród pierwszych $b+1$ reszt pewne dwie są równe. Następna cyfra i reszta zależą jednoznacznie od poprzedniej reszty, więc od powtórzenia cały ciąg cyfr i reszt się powtarza. $\square$
+
+**Przykład 10.** Dla $1/7$ reszty po kolejnych cyfrach to $3,2,6,4,5,1$, a następnie ponownie $3$; zapis wynosi $0,(142857)$. Długość okresu 6 nie jest liczbą cyfr mianownika, lecz wynika z cyklu reszt.
+
+**Kontrprzykład 11.** Nieskończony zapis dziesiętny nie musi oznaczać liczby niewymiernej. $1/7$ ma nieskończenie wiele cyfr, lecz jest wymierna. Z kolei liczby niewymierne nie mają rozwinięć ostatecznie okresowych.
+
+**Twierdzenie 20 (odwrotność: okresowy zapis jest wymierny).** Jeżeli po $m$ cyfrach po przecinku następuje blok $k$ cyfr powtarzany bez końca, to reprezentowana liczba jest wymierna.
+
+*Dowód.* Niech $x$ oznacza część ułamkową, $A$ — wartość pierwszych $m$ cyfr, a $B$ — wartość powtarzanego bloku długości $k$ (dopuszczamy zera wiodące). Wtedy $x=A/10^m+B/(10^m(10^k-1))$. Jest to suma dwóch liczb wymiernych. Wzór wynika z szeregu geometrycznego $1+10^{-k}+10^{-2k}+\cdots=1/(1-10^{-k})$. $\square$
+
+**Przykład 11.** $0,(27)=27/99=3/11$. Zapis $0,1(6)$ oznacza $1/10+6/(10\cdot9)=1/6$. Nawias oznacza powtarzanie, a nie mnożenie.
+
+## 9. Kontrola podstawy procentowania
+
+**Twierdzenie 21 (zmiana podstawy).** Jeśli wielkość wzrosła z $A>0$ do $B>A$, to procent wzrostu względem $A$ wynosi $100(B-A)/A$, a procent spadku przy powrocie z $B$ do $A$ wynosi $100(B-A)/B$. Pierwszy procent jest większy.
+
+*Dowód.* Wzory wynikają z definicji procentu. Ponieważ $0<A<B$ i $B-A>0$, zachodzi $(B-A)/A>(B-A)/B$. $\square$
+
+**Przykład 12.** Zmiana z 80 na 100 to wzrost o 25%; powrót z 100 na 80 to spadek o 20%. W obu przypadkach różnica bezwzględna wynosi 20, ale podstawa procentowania jest inna.
+
+**Kontrprzykład 12.** Nie wolno wyznaczać procentowej zmiany przez samo odjęcie dwóch procentowych wskaźników bez określenia podstaw. Zmiana udziału z 15% na 18% to 3 punkty procentowe, ale 20% wzrostu względem początkowych 15%.
+
 \newpage
 
 # Część B. Zadania rozwiązane
