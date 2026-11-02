@@ -1414,3 +1414,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **CI:** [tom1-f282g.yml](../.github/workflows/tom1-f282g.yml), commit [7be358d1](https://github.com/mojealterego/Ontologia-Liczby-/commit/7be358d11d75a75d22e634ea41fcd0dfec6eeccd); [uruchomienie 41547061512](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41547061512) przy pierwszej kontroli **in_progress**, nie deklarować zielonego wyniku bez odczytu.
 - **Dowody:** [DOWODY_F28_2G_2026-11-03.md](DOWODY_F28_2G_2026-11-03.md), commit [fabee1ce](https://github.com/mojealterego/Ontologia-Liczby-/commit/fabee1ceb8ad79c7ed0ad01a377becd421c30199).
 - **Otwarte:** pełny lokalny test suite, mechanizacja dowodów, niezależna recenzja, oryginalny monolit 0.20 i integracja. Nie zmieniano wstępu ani wcześniejszych rozdziałów. **585/1222 bez zmian**; bez końcowego spisu treści i bez Tomu II.
+
+
+### Odbiór CI F28.2-G — potwierdzony (3 listopada 2026)
+
+- [Run 41547061512](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41547061512), SHA `7be358d11d75a75d22e634ea41fcd0dfec6eeccd`: **completed/success**; wszystkie kroki testów, instalacji narzędzi, składu A4, walidacji i publikacji artefaktu zakończone `success`.
+- Artefakt `tom1-f282g-full-supplement`, ID `13189805286`, 67 897 B, `expired=false`.
+- Protokół dowodowy uzupełniony commitem [42b4510b](https://github.com/mojealterego/Ontologia-Liczby-/commit/42b4510bd05a7d96f4697ce2369d287a677bc3b5).
+- Zielony CI nie zastępuje formalnej mechanizacji twierdzeń ani integracji z oryginalnym monolitem 0.20. **585/1222** bez zmian; bez końcowego spisu treści i Tomu II.
