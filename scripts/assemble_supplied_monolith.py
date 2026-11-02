@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Append verified supplements to the supplied 629-page book without changing its pages.
+"""Append verified ordered supplements (97C20, 97C30, optionally 97D40) to the supplied 629-page book.
 
 This is explicitly NOT canonical release 0.20 (864 pages). No final TOC is made.
 """
@@ -34,8 +34,10 @@ def render_sha(page) -> str:
 
 
 def assemble(base: Path, chapters: list[Path], output: Path, manifest: Path) -> dict:
-    if len(chapters) != 2:
-        raise ValueError('Exactly two supplements (97C20 and 97C30) are required')
+    markers = ('97C20', '97C30', '97D40')
+    if len(chapters) not in (2, 3):
+        raise ValueError('Expected two or three ordered supplements: 97C20, 97C30, [97D40]')
+    markers = markers[:len(chapters)]
     inputs = [base, *chapters]
     if any(not p.is_file() for p in inputs):
         raise FileNotFoundError('Input PDF missing')
@@ -60,7 +62,7 @@ def assemble(base: Path, chapters: list[Path], output: Path, manifest: Path) -> 
     supplements = []
     writer = PdfWriter()
     writer.append(str(base), import_outline=True)
-    for marker, path in zip(('97C20', '97C30'), chapters):
+    for marker, path in zip(markers, chapters):
         with fitz.open(path) as chapter:
             if not len(chapter) or any(not p.get_text().strip() for p in chapter):
                 raise ValueError(f'Blank chapter: {path}')
@@ -69,8 +71,15 @@ def assemble(base: Path, chapters: list[Path], output: Path, manifest: Path) -> 
             supplements.append({'marker': marker, 'sha256': sha256(path), 'pages': len(chapter)})
         writer.append(str(path), import_outline=False)
     parent = writer.add_outline_item('Suplementy robocze (niekanoniczne)', BASE_PAGES)
-    writer.add_outline_item('MSC 97C20 — Afektywne aspekty edukacji matematycznej', BASE_PAGES, parent=parent)
-    writer.add_outline_item('MSC 97C30 — Procesy poznawcze i modele uczenia się', BASE_PAGES + supplements[0]['pages'], parent=parent)
+    chapter_titles = {
+        '97C20': 'MSC 97C20 — Afektywne aspekty edukacji matematycznej',
+        '97C30': 'MSC 97C30 — Procesy poznawcze i modele uczenia się',
+        '97D40': 'MSC 97D40 — Metody nauczania matematyki',
+    }
+    offset = BASE_PAGES
+    for item in supplements:
+        writer.add_outline_item(chapter_titles[item['marker']], offset, parent=parent)
+        offset += item['pages']
     writer.add_metadata({'/Title': 'ONTOLOGIA LICZBY — Tom I — robocza integracja 629 + suplementy',
                          '/Author': 'Andrzej Mikulski',
                          '/Subject': 'Niekanoniczny podglad; bez koncowego spisu tresci'})
