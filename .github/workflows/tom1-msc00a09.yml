@@ -1,0 +1,58 @@
+name: Tom I MSC 00A09 — mathematical popularization, verification and full PDF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'manuscript/tom-01/MSC00/00A09_POPULARYZACJA_MATEMATYKI.md'
+      - 'tests/test_msc00a09_popularization.py'
+      - '.github/workflows/tom1-msc00a09.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout exact main revision
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Verify mathematical properties
+        run: python3 -m unittest discover -s tests -p 'test_msc00a09_popularization.py' -v
+      - name: Install PDF toolchain
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends pandoc texlive-xetex lmodern texlive-latex-recommended texlive-fonts-recommended fonts-dejavu-core poppler-utils
+      - name: Compile exact chapter and validate minimum pagination
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          src=manuscript/tom-01/MSC00/00A09_POPULARYZACJA_MATEMATYKI.md
+          dst=out/MSC_00A09_POPULARYZACJA_MATEMATYKI.pdf
+          pandoc "$src" --standalone --from markdown+tex_math_dollars+tex_math_single_backslash --pdf-engine=xelatex \
+            -V mainfont="DejaVu Serif" -V sansfont="DejaVu Sans" \
+            -V geometry:margin=18mm -V papersize=a4 -V lang=pl-PL -o "$dst"
+          test -s "$dst"
+          pages=$(pdfinfo "$dst" | awk '/^Pages:/ {print $2}')
+          test "$pages" -ge 4
+          pdftotext "$dst" out/text.txt
+          grep -q 'Popularyzacja matematyki' out/text.txt
+          grep -q 'Z18' out/text.txt
+          bytes=$(stat -c '%s' "$dst")
+          test "$bytes" -lt 99000000
+          sha256sum "$src" "$dst" > out/SHA256SUMS.txt
+          printf 'MSC 00A09 pages=%s bytes=%s\n' "$pages" "$bytes" > out/METRICS.txt
+      - name: Publish complete chapter PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: tom1-msc00a09-complete-pdf
+          path: |
+            out/MSC_00A09_POPULARYZACJA_MATEMATYKI.pdf
+            out/SHA256SUMS.txt
+            out/METRICS.txt
+          if-no-files-found: error
