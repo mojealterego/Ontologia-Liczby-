@@ -1388,3 +1388,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **CI:** [tom1-f282e.yml](../.github/workflows/tom1-f282e.yml), commit [`ac4b88fb`](https://github.com/mojealterego/Ontologia-Liczby-/commit/ac4b88fbc3ab9af797601ef5880d9a66b99fe926). [GitHub Actions run 41537770449](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41537770449) uruchomiony dla tego SHA. W ostatnim odczycie testy w CI zakończyły się sukcesem, instalacja zależności była `in_progress`. **Nie oznaczać pełnego CI jako `success` przed osobnym potwierdzeniem.**
 - **Protokół dowodowy:** [DOWODY_F28_2E_2026-11-02.md](DOWODY_F28_2E_2026-11-02.md), ostatni commit redakcyjny [`509efb43`](https://github.com/mojealterego/Ontologia-Liczby-/commit/509efb439883117c4939cf5aef4e6641a254e322).
 - **Otwarte:** mechanizacja dowodów, niezależna recenzja, pełny lokalny zestaw testów całego repozytorium, oryginalny monolit 0.20 i integracja. **Historyczne 585/1222 stron bez zmian.** Wstęp historyczny i wcześniejszy manuskrypt nietknięte. Bez końcowego spisu treści i bez Tomu II.
+
+
+### Odbiór CI F28.2-E — potwierdzony (2 listopada 2026)
+
+- [GitHub Actions run 41537770449](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41537770449), przypięty SHA `ac4b88fbc3ab9af797601ef5880d9a66b99fe926`: **completed/success**.
+- Testy dokładne, instalacja narzędzi, pełny skład PDF, kontrola A4/znaczników i publikacja artefaktu — wszystkie kroki **success**.
+- Artefakt `tom1-f282e-full-supplement`, ID `13185162442`, 63 487 B, `expired=false`.
+- Protokół uzupełniony w commicie [`39aa7a92`](https://github.com/mojealterego/Ontologia-Liczby-/commit/39aa7a9225a7350295e0e3cd9490320ae3b9c15e). CI nie stanowi formalnego dowodu matematycznego. Monolit 0.20 nadal niezweryfikowany; **585/1222 bez zmian**, bez końcowego spisu treści i bez Tomu II.
