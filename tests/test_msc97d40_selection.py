@@ -30,7 +30,7 @@ class TaskSelection(unittest.TestCase):
         self.assertEqual(max(means)-means[0],0)
     def test_example_values(self):
         self.assertAlmostEqual(math.sqrt(math.log(40)/200),.13581015157406195)
-        self.assertAlmostEqual(math.sqrt(2*math.log(40)/200),.19206455709588153)
+        self.assertAlmostEqual(math.sqrt(2*math.log(40)/200),.19206455826398416)
     def test_budget(self):
         self.assertEqual(4*25,100)
 
