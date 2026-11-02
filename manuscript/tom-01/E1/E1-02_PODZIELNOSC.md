@@ -449,7 +449,7 @@ Poniższe zadania są samodzielne. W każdym wskazano wynik i podstawę rachunku
 
 **Problem H (model i ograniczenia).** Wyjaśnij różnicę między dzieleniem 47 przedmiotów na grupy po dokładnie 6 sztuk a pakowaniem 47 przedmiotów do pudełek mieszczących najwyżej 6 sztuk.
 
-*Rozwiązanie.* Dzielenie z resztą daje $47=6\cdot7+5$. Przy siedmiu pełnych grupach pozostaje pięć przedmiotów, więc nie da się utworzyć sześciu grup o jednakowej całkowitej liczebności obejmujących wszystkie 47. Przy pakowaniu po maksymalnie sześć sztuk potrzeba ośmiu pudełek: siedem pełnych i jedno z pięcioma. Iloraz 7 nie jest liczbą wszystkich potrzebnych pudełek.
+*Rozwiązanie.* Dzielenie z resztą daje $47=6\cdot7+5$. Przy siedmiu pełnych grupach pozostaje pięć przedmiotów, więc nie da się podzielić wszystkich 47 na pełne grupy po dokładnie 6 sztuk bez reszty. Przy pakowaniu po maksymalnie sześć sztuk potrzeba ośmiu pudełek: siedem pełnych i jedno z pięcioma. Iloraz 7 nie jest liczbą wszystkich potrzebnych pudełek.
 
 ## Kontrola źródeł i status wydawniczy
 
