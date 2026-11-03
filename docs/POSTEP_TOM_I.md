@@ -1602,3 +1602,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na main:** `tests/test_f282z_phase_orbits.py`, commit `1725b0667fdfe37027d106ff68e22e4a2a3c1f8e`. Lokalnie uruchomiono **5/5 OK** w równoważnym skrypcie `/mnt/data/ontologia_z/test_f282z.py`, w tym 400 kombinacji parametrów w arytmetyce dokładnej `Fraction`. Nie jest to uruchomienie opublikowanego pliku ani pełnego CI.
 - **PDF:** lokalny wyciąg `/mnt/data/ontologia_z/F28_2Z_PODGLAD_KONTROLNY.pdf`, ReportLab, 1 strona A4, 2236 B, sprawdzony przez `pdfinfo`. Nie jest pełnym składem opublikowanego źródła.
 - **Otwarte:** wykonanie opublikowanych testów, CI, pełna kompilacja kanonicznego źródła, niezależna recenzja, formalizacja oraz integracja z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały nietknięte. **585/1222 bez zmian**, bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-AA — Stabilność orbit fazowych przy perturbacji operatorów (3 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2AA_STABILNOSC_ORBIT_PERTURBACJE.md`, commit `ee2b32b52f898166ef653bad31e82e2ba072574a`. Cztery definicje, siedem twierdzeń z dowodami, cztery kontrprzykłady i sześć zadań rozwiązanych. Lokalny dryf operatorów mierzony na orbicie odniesienia; ostre oszacowanie fazowe `e_i <= B_i/(1-Q)`, nie wymagające globalnej normy różnicy operatorów.
+- **Testy na main:** `tests/test_f282aa_phase_perturbations.py`, commit `f15398ad1005f7026ef5e2f442020d7b62e89fec`. Lokalnie wykonano 6/6 testów równoważnego pliku w `/mnt/data/ontologia_aa/test_f282aa.py`, w tym 64 kombinacje parametrów i 28 przykładów braku jednostajnej kontrakcji; arytmetyka dokładna `Fraction`. Nie jest to wykonanie bajtowo identycznego pliku z GitHub.
+- **PDF:** lokalny podgląd redakcyjny `/mnt/data/ontologia_aa/F28_2AA_PODGLAD.pdf`, Pandoc/XeLaTeX, 2 strony A4; SHA-256 `a283ebe1c3b6d74f76cdace900e2323fa41121c3987a4a155f9e850b53dbb471`. Podgląd wykonano z lokalnego, obszerniejszego opracowania; nie jest składem dokładnie opublikowanego źródła.
+- **Otwarte:** testy uruchomione bezpośrednio z repozytorium, GitHub Actions, niezależna recenzja i formalizacja dowodów, kanoniczny skład, integracja z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały bez zmian. **585/1222 bez zmian**; bez końcowego spisu treści i bez Tomu II.
