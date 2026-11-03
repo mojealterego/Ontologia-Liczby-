@@ -1610,3 +1610,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na main:** `tests/test_f282aa_phase_perturbations.py`, commit `f15398ad1005f7026ef5e2f442020d7b62e89fec`. Lokalnie wykonano 6/6 testów równoważnego pliku w `/mnt/data/ontologia_aa/test_f282aa.py`, w tym 64 kombinacje parametrów i 28 przykładów braku jednostajnej kontrakcji; arytmetyka dokładna `Fraction`. Nie jest to wykonanie bajtowo identycznego pliku z GitHub.
 - **PDF:** lokalny podgląd redakcyjny `/mnt/data/ontologia_aa/F28_2AA_PODGLAD.pdf`, Pandoc/XeLaTeX, 2 strony A4; SHA-256 `a283ebe1c3b6d74f76cdace900e2323fa41121c3987a4a155f9e850b53dbb471`. Podgląd wykonano z lokalnego, obszerniejszego opracowania; nie jest składem dokładnie opublikowanego źródła.
 - **Otwarte:** testy uruchomione bezpośrednio z repozytorium, GitHub Actions, niezależna recenzja i formalizacja dowodów, kanoniczny skład, integracja z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały bez zmian. **585/1222 bez zmian**; bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-AB — Stabilność cykli przy przejściowej ekspansji (3 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2AB_STABILNOSC_PRZEJSCIOWA_EKSPANSJA.md`, commit `a5a153ee41c5a61a6aea0d533336fbdfcb19149e`. Cztery definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Nowy warunek: iloczyn stałych Lipschitza pełnego cyklu Q<1, mimo dopuszczalnej ekspansji pojedynczych faz.
+- **Testy na main:** `tests/test_f282ab_transient_expansion.py`, commit `8bbf4723703766459b65a329cfff90fa68b517e0`. Lokalnie wykonano **6/6** testów równoważnego pliku `/mnt/data/ontologia_ab/test_f282ab.py` w arytmetyce dokładnej Fraction; nie wykonano bajtowo identycznego pliku pobranego z GitHub ani pełnego CI.
+- **PDF lokalny:** `/mnt/data/ontologia_ab/F28_2AB.pdf`, Pandoc/XeLaTeX, **2 strony A4, 55 712 B**, SHA-256 `504c28354a07aca127f8435026d77d9be74f5e521fb3e523df5abfe12c8a335d`. Powstał z lokalnej pełniejszej redakcji, nie z bajtowo identycznego źródła repo.
+- **Otwarte:** niezależna recenzja, uruchomienie opublikowanego testu, GitHub Actions, kanoniczna kompilacja i integracja z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały nietknięte. **585/1222 bez zmian**, bez końcowego spisu treści i bez Tomu II.
