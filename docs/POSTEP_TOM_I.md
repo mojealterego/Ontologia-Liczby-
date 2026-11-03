@@ -1561,3 +1561,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na main:** `tests/test_f282u_trajectory_certificates.py`, commit `204658ae60ac6de074841fed9114108c7e993c2e`. Lokalny skrypt z równoważnymi dziewięcioma metodami `unittest` zakończył się wynikiem **9/9 OK** (Python 3.13.5, Fraction); nie wykonano jeszcze pliku pobranego z GitHub ani pełnego CI.
 - **Podgląd PDF:** `/mnt/data/ontologia_u/F28_2U_PELNY_PODGLAD.pdf`, Pandoc/XeLaTeX, **2 strony A4, 54 089 bajtów**, SHA-256 `aa47f3348d5589ae5ee9a32cac38cbcf4875e10caa952610e5bc0a7f1ecbd9fd`. PDF powstał z lokalnej pełniejszej wersji redakcyjnej, nie z dokładnych bajtów manuskryptu zapisanych na GitHub; pełny kanoniczny skład pozostaje do wykonania.
 - **Otwarte:** zielony CI, pełna niezależna recenzja, mechanizacja dowodów, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Nie sporządzono końcowego spisu treści ani nie rozpoczęto Tomu II.
+
+
+### F28.2-V — Certyfikaty zaburzeń z opóźnioną obserwacją (3 listopada 2026)
+
+- **Manuskrypt na `main`:** `manuscript/tom-01/F28/F28.2V_CERTYFIKATY_OPOZNIONYCH_OBSERWACJI.md`, commit `d71173e5f80d260a30511e425f00b64471552da2`. 6 definicji, 8 twierdzeń z dowodami, 5 kontrprzykładów, 10 rozwiązanych zadań. Rozszerzenie F28.2-U o pomiary opóźnione, minimum wielu certyfikatów i stabilność granic błędu.
+- **Testy na `main`:** `tests/test_f282v_delayed_observations.py`, commit `f4e59aa712c77c1d13ed1eb63ab32cbef0d3b4df`, 8 metod unittest z arytmetyką `Fraction`. **Nie wykonano opublikowanego pliku testowego** — kontener nie rozwiązuje DNS `raw.githubusercontent.com`. Wykonano **2/2 lokalne testy równoważnego fragmentu**: przykłady Z2/Z6/Z8 i 48 kombinacji ostrości T8; oba OK. Nie utożsamiać tego z wynikiem ośmiu testów repo.
+- **PDF:** lokalny **wyciąg kontrolny**, nie pełny skład źródła GitHub: `/mnt/data/ontologia_v/F28_2V_PODGLAD.pdf`, Pandoc/XeLaTeX, **1 strona A4, 29 956 bajtów**, SHA-256 `6c4e7c383511fd5d88d9c74c3d33a09ad3efae392ba60d01b366de7d9f342cec`.
+- **Otwarte:** uruchomienie oryginalnych 8 metod testowych, pełny CI, niezależna recenzja i mechanizacja dowodów, kanoniczny pełny PDF, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały bez ingerencji; bez końcowego spisu treści i bez Tomu II.
