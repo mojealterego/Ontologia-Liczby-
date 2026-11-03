@@ -1474,3 +1474,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy `main`:** `tests/test_f282l_contractions.py`, commit `5d2951d926a3084dfcdebd5b48a70546dd0d2df5`. Lokalny skrypt o równoważnych przypadkach: **6/6 unittest OK** (Fraction). Nie uruchomiono pobranego pliku GitHub ani całego zestawu CI.
 - **Podgląd PDF:** `F28_2L_PODGLAD_KONTROLNY.pdf`, ReportLab, 1 strona A4, 24 350 B; weryfikacja przez PyMuPDF. Jest to **podgląd selektywny**, nie pełny skład opublikowanego manuskryptu.
 - **Otwarte:** pełny skład z repo, testy CI, niezależna recenzja, mechanizacja dowodów. Brak monolitu 0.20 do integracji; **585/1222 bez zmian**. Nie zmieniano wstępu historycznego ani wcześniejszych rozdziałów; bez końcowego spisu treści i Tomu II.
+
+
+### F28.2-M — Certyfikaty a posteriori dla iteracji niedokładnych (3 listopada 2026)
+
+- **Manuskrypt na `main`:** `manuscript/tom-01/F28/F28.2M_CERTYFIKATY_A_POSTERIORI.md`, commit `4c31db34fa3a9a1303e19ba353fe5f51a8478206`, korekta dowodu ostrości T7 commit `db046799bf3c1c7fda081323646c4227e595587a`. 6 definicji, 8 twierdzeń z dowodami, 6 kontrprzykładów, 12 zadań rozwiązanych. Dwustronny certyfikat resztowy uwzględnia certyfikowany błąd operatora δ.
+- **Testy zapisane na `main`:** `tests/test_f282m_certificates.py`, commit `7bb0498fdb857bc5d2eff393f68bc8cb2c8de9ca`; testy Fraction ostrości i przykładów. **Nie uruchomiono testów**: lokalne środowiska `container.exec` i `python.exec` zwracały `ConnectionError` podczas tej sesji. Nie deklarować wyniku testów ani CI.
+- **PDF:** **nie skompilowano** z powodu niedostępności środowiska wykonawczego; nie ma zweryfikowanego nowego pliku do pobrania. Wymagany ponowny przebieg testów i kompilacja pełnego źródła.
+- **Otwarte:** uruchomienie testów, CI, pełny skład PDF, mechanizacja i niezależna recenzja. Brak integracji z monolitem 0.20; **585/1222 bez zmian**. Wstęp historyczny i wcześniejsze rozdziały bez ingerencji, bez końcowego spisu treści i Tomu II.
