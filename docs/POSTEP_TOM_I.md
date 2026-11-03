@@ -1422,3 +1422,13 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Artefakt `tom1-f282g-full-supplement`, ID `13189805286`, 67 897 B, `expired=false`.
 - Protokół dowodowy uzupełniony commitem [42b4510b](https://github.com/mojealterego/Ontologia-Liczby-/commit/42b4510bd05a7d96f4697ce2369d287a677bc3b5).
 - Zielony CI nie zastępuje formalnej mechanizacji twierdzeń ani integracji z oryginalnym monolitem 0.20. **585/1222** bez zmian; bez końcowego spisu treści i Tomu II.
+
+
+### F28.2-H — Projekcje naprzemienne (3 listopada 2026)
+
+- **Rozwinięcie manuskryptu:** [F28.2H](../manuscript/tom-01/F28/F28.2H_PROJEKCJE_NAPRZEMIENNE_I_CERTYFIKATY.md), commit [b507d1a7](https://github.com/mojealterego/Ontologia-Liczby-/commit/b507d1a739d1d1b493ea41001a7c436830660ad9). 7 definicji, 10 twierdzeń z pisemnymi dowodami, 7 kontrprzykładów i 14 rozwiązanych zadań. Tematy: rzuty naprzemienne, spadek Fejéra, suma residuów, zbieżność w skończonym wymiarze, dokładne tempo dla prostych i warunek błędu.
+- **Testy:** [test_f282h_alternating_projections.py](../tests/test_f282h_alternating_projections.py), commit [6a40a9b9](https://github.com/mojealterego/Ontologia-Liczby-/commit/6a40a9b9e935812d4f91ca4c885c24f8585f95e2). Lokalnie **19/19 unittest OK**, Fraction. Manuskrypt i testy odczytane ponownie z GitHub; ich SHA Git blob zgadzają się z lokalnymi git hash-object.
+- **Pełny lokalny PDF:** Pandoc/XeLaTeX, **3 strony A4, 65 218 B**, SHA-256 b6618164e9471c106788d28d49a62269ca2a0b11b0efc569f646b0bdc7981f3c. Źródło PDF jest bajtowo zgodne z opublikowanym manuskryptem. Kontrola tekstu: D1–D7, T1–T10, K1–K7, Z1–Z14; bez bloków poza obszarem bezpiecznym.
+- **CI:** [tom1-f282h.yml](../.github/workflows/tom1-f282h.yml), commit [28d69c4c](https://github.com/mojealterego/Ontologia-Liczby-/commit/28d69c4c9a61d08ebac66755cc7f3dd415dbf177); [run 41553387551](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41553387551) początkowo in_progress. Wymaga potwierdzenia końcowego statusu.
+- **Protokół:** [DOWODY_F28_2H_2026-11-03.md](DOWODY_F28_2H_2026-11-03.md), commit [d66f78fa](https://github.com/mojealterego/Ontologia-Liczby-/commit/d66f78fabc66cde5023b912d6f95066fb078788a).
+- **Otwarte:** mechanizacja dowodów, niezależna recenzja, pełny lokalny zestaw testów całego repozytorium, monolit 0.20 i integracja. Historyczne **585/1222 bez zmian**. Wstęp historyczny i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
