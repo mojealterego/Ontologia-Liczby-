@@ -1529,3 +1529,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na main:** `tests/test_f282q_operator_drift.py`, commit `03051cbe31e09b00fcbd4fe13ac244ae3371984d`. Lokalny skrypt o tych samych 7 przypadkach: `python -m unittest discover -s /mnt/data/ontologia_f282q -p 'test_*.py' -v` — **7/7 OK** (Fraction). Nie uruchomiono pobranego pliku testów ani CI.
 - **PDF:** `/mnt/data/ontologia_f282q/F28_2Q_PODGLAD.pdf`, Pandoc/XeLaTeX, 1 strona A4, 34 179 B, SHA-256 `f41472e27b1e96d936c3e3364c93be7faac9cfa8d098bd56f6713c34993fa4e0`. **Podgląd wyciągu**, nie pełny skład źródła GitHub; środowisko kontenera nie mogło pobrać raw GitHub (błąd DNS).
 - **Otwarte:** pełny PDF z kanonicznego manuskryptu, pełny test suite, CI, niezależna recenzja, mechanizacja dowodów oraz integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**; historyczny wstęp i poprzednie rozdziały nietknięte, bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-R — Lokalne certyfikaty dryfu punktów stałych (3 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2R_LOKALNE_CERTYFIKATY_DRYFU.md`, commit początkowy `36883c5675233da3665060a5db6db2c98aac0095`, korekta kontrprzykładu K1 `7847d3ec979fd459e57c37998b33d62a829295cf`. 6 definicji, 7 twierdzeń z dowodami, 5 kontrprzykładów i 8 rozwiązanych zadań. T1 ogranicza dryf celu przez lokalną zmianę operatora w starym punkcie stałym; T5 wymaga jednostajnej kontrakcji.
+- **Testy na main:** `tests/test_f282r_drift.py`, commit `ebb3bae1e93b6aef1d9d6b3962b49689119d1491`. Wykonano lokalny skrypt z dziewięcioma równoważnymi testami Fraction: **9/9 OK** (Python unittest). Nie uruchomiono jeszcze opublikowanego pliku z GitHub ani pełnego CI.
+- **PDF:** `/mnt/data/ontologia_f282r/F28_2R_PODGLAD_KONTROLNY.pdf`, ReportLab, **1 strona A4**, SHA-256 `732314a2278c1b5f704f11ebb5c7905524be580323b4cadd56920cb3d05b65d4`. Sprawdzono w PyMuPDF i wyrenderowano stronę. **Wyciąg kontrolny, nie pełny skład kanonicznego manuskryptu**. Próba git ls-remote z kontenera nie powiodła się z powodu błędu DNS.
+- **Otwarte:** niezależna recenzja dowodów, testy uruchomione bezpośrednio z repo, zielony CI, pełny skład PDF i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały niezmienione, bez końcowego spisu treści i bez Tomu II.
