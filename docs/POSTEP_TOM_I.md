@@ -1458,3 +1458,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **PDF:** `/mnt/data/ONTOLOGIA_F28_2J_PODGLAD.pdf`, ReportLab, 1 strona A4, 24 669 bajtów, skontrolowany rozmiar strony przez PyMuPDF. Jest to **skrót redakcyjny**, nie pełny skład pliku źródłowego z GitHub.
 - **Niezweryfikowane:** formalna mechanizacja dowodów, pełny PDF źródła repo, niezależna recenzja, pełne testy repo i GitHub Actions.
 - **Blokada:** brak potwierdzonej integracji z oryginalnym monolitem 0.20. Licznik **585/1222** pozostaje bez zmian. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-K — Projekcje z błędami sumowalnymi (3 listopada 2026)
+
+- **Manuskrypt na `main`:** `manuscript/tom-01/F28/F28.2K_PROJEKCJE_ZABURZENIA_SUMOWALNE.md`, commit `a7b8883146ae0be318f6e0853d6866df7d8603ee`. 6 definicji, 9 twierdzeń z pisemnymi dowodami, 6 kontrprzykładów, 12 zadań z rozwiązaniami. Zachowano rozróżnienie między zbieżnością odległości (T5) a zbieżnością iteratów przy dodatkowej kontrakcji (T8).
+- **Testy na `main`:** `tests/test_f282k_perturbations.py`, commit `5f359200af46470fe200d79ff497e13afcce67a8`. W osobnym lokalnym skrypcie wykonano **34/34 sprawdzeń arytmetyki dokładnej**; nie uruchomiono jeszcze opublikowanego pliku testowego ani całego CI. Nie deklarować zielonego CI.
+- **Lokalny PDF:** `F28_2K_PODGLAD_KONTROLNY.pdf`, ReportLab, **1 strona A4, 2161 B**. Jest to **streszczenie kontrolne**, nie pełny skład źródła GitHub. Brak potwierdzenia kompletnego PDF.
+- **Otwarte:** formalizacja dowodów, pełna kompilacja manuskryptu, pełne testy repozytorium, CI, niezależna recenzja. Brak integracji z oryginalnym monolitem 0.20; **585/1222 bez zmian**. Wstęp historyczny i poprzednie rozdziały bez ingerencji. Bez końcowego spisu treści i bez Tomu II.
