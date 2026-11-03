@@ -1635,3 +1635,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **PDF:** lokalny wyciąg kontrolny `/mnt/data/ontologia_ad/F28_2AD_PODGLAD_KONTROLNY.pdf` (ReportLab), 1 strona A4, 24 493 bajty, parametry sprawdzone przez `pdfinfo`. **Nie jest to pełny skład opublikowanego źródła**.
 - **Niezweryfikowane:** pełne CI, mechaniczna formalizacja dowodów, niezależna recenzja, wykonanie testów bezpośrednio z checkout repozytorium, kanoniczny pełny PDF.
 - **Integracja:** nie scalono z rzeczywistym monolitem 0.20. Wstęp historyczny i wcześniejsze rozdziały nie były zmieniane. **585/1222 bez zmian**, bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-AE — Minimax jednoczesnej kontroli wielu faz (3 listopada 2026)
+
+- **Źródło na main:** `manuscript/tom-01/F28/F28.2AE_MINIMAKS_WIELU_FAZ.md`, commit `81b35236a6ca24e3561f544d130f63082270793c`. Cztery definicje, siedem twierdzeń z dowodami, cztery kontrprzykłady i sześć zadań rozwiązanych. Rozszerzenie F28.2-AD z pojedynczej fazy na minimaks wielu faz, równoważność programowi liniowemu, wypukłość wartości budżetowej, wymianę przy dominacji i dolne oszacowanie przez mieszankę faz.
+- **Testy na main:** `tests/test_f282ae_minimax.py`, commit `7dd406721779466e789df627a015c0d0a0eebe52`; siedem metod `unittest` w arytmetyce dokładnej `Fraction`. Sam zapis nie stanowi potwierdzenia wykonania ani CI.
+- **Granice:** nie przeprowadzono integracji z rzeczywistym monolitem 0.20 ani niezależnej recenzji matematycznej. Wstęp historyczny i wcześniejsze rozdziały nie były edytowane. Bilans **585/1222** bez zmian; nie tworzyć końcowego spisu treści ani Tomu II.
