@@ -1553,3 +1553,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na main:** `tests/test_f282t_two_residual_drift.py`, commit `566dd73bd1aadd90061cc825177642d5322c0c67`. 7 metod unittest z arytmetyką dokładną Fraction, w tym rodziny parametryczne. **Nie wykonano**: lokalny Python i kontener zgłosiły `ConnectionError`; brak dowodu zielonego CI. Nie przypisywać statusu PASS.
 - **PDF:** nie wygenerowano ani nie zweryfikowano: środowisko kontenera niedostępne. Pełna kompilacja i niezależna recenzja pozostają otwarte.
 - **Ograniczenia:** poprzednie rozdziały i wstęp historyczny bez ingerencji; monolit 0.20 niezintegrowany; **585/1222 bez zmian**; bez końcowego spisu treści i Tomu II.
+
+
+### F28.2-U — Certyfikaty kumulacji zaburzeń (3 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2U_CERTYFIKATY_KUMULACJI_ZABURZEN.md`, commit `bb27d1f5d990fde0079157720c7effcf4e6634d7`. 6 definicji, 8 twierdzeń z dowodami, 5 kontrprzykładów i 8 rozwiązanych zadań. Wcześniejsze źródła i historyczny wstęp pozostawiono nietknięte.
+- **Testy na main:** `tests/test_f282u_trajectory_certificates.py`, commit `204658ae60ac6de074841fed9114108c7e993c2e`. Lokalny skrypt z równoważnymi dziewięcioma metodami `unittest` zakończył się wynikiem **9/9 OK** (Python 3.13.5, Fraction); nie wykonano jeszcze pliku pobranego z GitHub ani pełnego CI.
+- **Podgląd PDF:** `/mnt/data/ontologia_u/F28_2U_PELNY_PODGLAD.pdf`, Pandoc/XeLaTeX, **2 strony A4, 54 089 bajtów**, SHA-256 `aa47f3348d5589ae5ee9a32cac38cbcf4875e10caa952610e5bc0a7f1ecbd9fd`. PDF powstał z lokalnej pełniejszej wersji redakcyjnej, nie z dokładnych bajtów manuskryptu zapisanych na GitHub; pełny kanoniczny skład pozostaje do wykonania.
+- **Otwarte:** zielony CI, pełna niezależna recenzja, mechanizacja dowodów, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Nie sporządzono końcowego spisu treści ani nie rozpoczęto Tomu II.
