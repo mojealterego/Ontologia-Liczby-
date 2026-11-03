@@ -1577,3 +1577,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na main:** `tests/test_f282w_noisy_residuals.py`, commit `85e40a5f480b310407f506e03e529ea76af45cbe`. Lokalnie wykonano 10/10 testów analogicznego pliku `/mnt/data/ontologia_w/test_f282w.py`, Python unittest/Fraction. Plik lokalny i opublikowany nie są bajtowo identyczne; testy opublikowanego pliku oraz CI nie zostały wykonane.
 - **PDF:** `/mnt/data/ontologia_w/F28_2W_PODGLAD_KONTROLNY.pdf`, Pandoc/XeLaTeX, 1 strona A4, 35 741 B, SHA-256 `0d6ed9d8006b14906b8e510c218208ade4e58e9ac14fb0c5c1734d8a6f30a2ca`. **To skrócony podgląd kontrolny, nie pełny skład źródła z GitHub.** Kontener nie rozwiązuje DNS raw.githubusercontent.com.
 - **Otwarte:** pełny PDF dokładnego źródła repozytorium, uruchomienie opublikowanego testu, pełne CI, niezależna recenzja matematyczna i integracja z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały bez ingerencji. **585/1222 bez zmian**, bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-X — Certyfikaty niepewności kalibracji (3 listopada 2026)
+
+- **Manuskrypt na `main`:** `manuscript/tom-01/F28/F28.2X_CERTYFIKATY_NIEPEWNOSCI_KALIBRACJI.md`, commit `e88e58b6ddd50bf3c01e4bd94d60a7434d1afbd3`. 3 definicje, 7 twierdzeń z dowodami, 5 kontrprzykładów i 8 zadań rozwiązanych. Przedział błędu dla niepewnego współczynnika kontrakcji, wielokrotne pomiary, ostrość, stabilność kalibracji i rekurencja zaburzeń.
+- **Testy zapisane na `main`:** `tests/test_f282x_calibration.py`, commit `4eb33f746466aeef41729c3dcf96fc29f0cbd1dc`, 10 metod `unittest` w arytmetyce `Fraction`. **Brak potwierdzonego uruchomienia**: lokalny kontener jest niedostępny; nie przypisywać statusu PASS ani zielonego CI.
+- **PDF:** **nie skompilowano** — środowisko kontenera zwróciło błąd usługi; brak potwierdzonego podglądu. Nie należy podawać liczby stron nowego suplementu.
+- **Otwarte:** wykonanie testów repozytorium, kompilacja PDF, niezależna recenzja dowodów, CI i integracja z rzeczywistym monolitem 0.20. Historyczny wstęp i poprzednie rozdziały pozostawiono bez zmian. **585/1222 bez zmian**. Bez końcowego spisu treści i bez Tomu II.
