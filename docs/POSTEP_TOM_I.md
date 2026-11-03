@@ -1432,3 +1432,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **CI:** [tom1-f282h.yml](../.github/workflows/tom1-f282h.yml), commit [28d69c4c](https://github.com/mojealterego/Ontologia-Liczby-/commit/28d69c4c9a61d08ebac66755cc7f3dd415dbf177); [run 41553387551](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41553387551) początkowo in_progress. Wymaga potwierdzenia końcowego statusu.
 - **Protokół:** [DOWODY_F28_2H_2026-11-03.md](DOWODY_F28_2H_2026-11-03.md), commit [d66f78fa](https://github.com/mojealterego/Ontologia-Liczby-/commit/d66f78fabc66cde5023b912d6f95066fb078788a).
 - **Otwarte:** mechanizacja dowodów, niezależna recenzja, pełny lokalny zestaw testów całego repozytorium, monolit 0.20 i integracja. Historyczne **585/1222 bez zmian**. Wstęp historyczny i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
+
+
+### Odbiór CI F28.2-H — potwierdzony (3 listopada 2026)
+
+- [Run 41553387551](https://github.com/mojealterego/Ontologia-Liczby-/actions/runs/41553387551), SHA 28d69c4c9a61d08ebac66755cc7f3dd415dbf177: **completed/success**. Testy, instalacja narzędzi, skład PDF A4, kontrola znaczników i publikacja artefaktu — wszystkie kroki success.
+- Artefakt tom1-f282h-full-supplement, ID 13192823251, 65 348 B, expired=false.
+- Uaktualniony [protokół F28.2-H](DOWODY_F28_2H_2026-11-03.md), commit [1a733cc8](https://github.com/mojealterego/Ontologia-Liczby-/commit/1a733cc866eb03aa0f7ccae3cae6fde619f3045d).
+- Nadal otwarte: niezależna recenzja, mechanizacja dowodów, pełny lokalny test suite repozytorium i integracja z oryginalnym monolitem 0.20. **585/1222 bez zmian**. Nie modyfikowano wstępu historycznego, nie utworzono końcowego spisu treści ani Tomu II.
