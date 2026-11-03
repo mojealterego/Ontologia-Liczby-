@@ -1505,3 +1505,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy zapisane na `main`:** `tests/test_f282o_variable_contractions.py`, commit `a6a8d0970425d2d3a2fa5b3c233fa6f84c753f6b`. Siedem metod unittest z arytmetyką Fraction, sprawdzających zadania Z1–Z4, Z6–Z7, ostrość i certyfikat resztowy. **Nie wykonano testów** w tej sesji; kontener wykonawczy zwrócił `redis.exceptions.ConnectionError`. Nie deklarować 7/7 OK ani zielonego CI.
 - **PDF:** próba dostępu do środowiska kompilacji i instrukcji PDF przez `container.exec` zakończyła się `ConnectionError`; **brak nowego skompilowanego podglądu F28.2-O**. Należy wrócić do pełnej kompilacji i kontroli matematycznej.
 - **Otwarte:** uruchomienie testów z repo, PDF, CI, formalna mechanizacja i niezależna recenzja, integracja z oryginalnym monolitem 0.20. **585/1222 bez zmian**; wstęp historyczny i wcześniejsze rozdziały bez ingerencji; bez końcowego spisu treści i Tomu II.
+
+
+### F28.2-O — wykonanie testów i przygotowanie CI (3 listopada 2026)
+
+- Odczytano z `main` manuskrypt F28.2-O oraz `tests/test_f282o_variable_contractions.py`. Odtworzono bajtowo treść testów w lokalnym pliku `test_f282o.py` i wykonano `python -m unittest discover -s /mnt/data/ontologia_f282o -p test_f282o.py -v`: **7/7 testów OK**, Python 3.13.5, Fraction. Nie jest to jeszcze wykonanie testów na runnerze GitHub.
+- Dodano workflow `.github/workflows/tom1-f282o.yml`, commit `eebf81715bf096a4a6236d510f709e275ed91fb9`: uruchamia test repozytoryjny, instaluje Pandoc/XeLaTeX, kompiluje **pełny** PDF A4 ze źródła `main`, kontroluje znaczniki D1–D7/T1–T8/K1–K7/Z1–Z14, limit 99 MB i publikuje artefakt. **Status wykonania workflow niepotwierdzony**; nie deklarować zielonego CI ani pełnego PDF bez artefaktu.
+- Lokalnie wygenerowano selektywny PDF kontrolny `F28_2O_PODGLAD_KONTROLNY.pdf` (ReportLab, **1 strona A4, 23 849 B**, kontrola PyMuPDF). To **nie jest** pełny skład manuskryptu.
+- Pozostaje odbiór CI, weryfikacja pełnego PDF, recenzja dowodów i integracja z oryginalnym monolitem 0.20. **585/1222 bez zmian**; nie zmieniano wstępu ani wcześniejszych rozdziałów, nie utworzono końcowego spisu treści ani Tomu II.
