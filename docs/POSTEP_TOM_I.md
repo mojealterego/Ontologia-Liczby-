@@ -1513,3 +1513,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Dodano workflow `.github/workflows/tom1-f282o.yml`, commit `eebf81715bf096a4a6236d510f709e275ed91fb9`: uruchamia test repozytoryjny, instaluje Pandoc/XeLaTeX, kompiluje **pełny** PDF A4 ze źródła `main`, kontroluje znaczniki D1–D7/T1–T8/K1–K7/Z1–Z14, limit 99 MB i publikuje artefakt. **Status wykonania workflow niepotwierdzony**; nie deklarować zielonego CI ani pełnego PDF bez artefaktu.
 - Lokalnie wygenerowano selektywny PDF kontrolny `F28_2O_PODGLAD_KONTROLNY.pdf` (ReportLab, **1 strona A4, 23 849 B**, kontrola PyMuPDF). To **nie jest** pełny skład manuskryptu.
 - Pozostaje odbiór CI, weryfikacja pełnego PDF, recenzja dowodów i integracja z oryginalnym monolitem 0.20. **585/1222 bez zmian**; nie zmieniano wstępu ani wcześniejszych rozdziałów, nie utworzono końcowego spisu treści ani Tomu II.
+
+
+### F28.2-P — Ruchome punkty stałe i certyfikaty śledzenia (3 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2P_RUCHOME_PUNKTY_STALE.md`, commit `2b7800c9b84033cf76bf79d1fdcf44ab550c36ac`. Osiem twierdzeń z dowodami, siedem definicji, cztery kontrprzykłady i osiem rozwiązanych zadań. Rozróżniono śledzenie ruchomego punktu stałego od zbieżności do nieruchomego celu.
+- **Testy na main:** `tests/test_f282p_tracking.py`, commit `a366e00478cf1052d1730de86b07f5b5c2fc6e62`. Lokalnie wykonano **8/8 unittest OK**, Python 3.13.5, arytmetyka `fractions.Fraction`. Nie uruchomiono pełnego zestawu repo ani CI.
+- **Pełny podgląd lokalny:** Pandoc/XeLaTeX z pełnego lokalnego źródła F28.2-P: `F28_2P_PELNY_PODGLAD.pdf`, **2 strony A4, 47 013 B**, SHA-256 `3cbc922a905b8bd8be13fec960363a087567b42621a55cb5e98327aef803fcb8`. Kontrola `pdfinfo` potwierdziła format i rozmiar. PDF nie jest zintegrowany z monolitem; nie jest artefaktem GitHub CI.
+- **Otwarte:** niezależna recenzja, formalna mechanizacja, pełne CI i integracja z oryginalnym monolitem 0.20. **585/1222 bez zmian**. Wstęp historyczny i wcześniejsze rozdziały nietknięte, bez końcowego spisu treści i bez Tomu II.
