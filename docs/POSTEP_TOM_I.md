@@ -1466,3 +1466,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na `main`:** `tests/test_f282k_perturbations.py`, commit `5f359200af46470fe200d79ff497e13afcce67a8`. W osobnym lokalnym skrypcie wykonano **34/34 sprawdzeń arytmetyki dokładnej**; nie uruchomiono jeszcze opublikowanego pliku testowego ani całego CI. Nie deklarować zielonego CI.
 - **Lokalny PDF:** `F28_2K_PODGLAD_KONTROLNY.pdf`, ReportLab, **1 strona A4, 2161 B**. Jest to **streszczenie kontrolne**, nie pełny skład źródła GitHub. Brak potwierdzenia kompletnego PDF.
 - **Otwarte:** formalizacja dowodów, pełna kompilacja manuskryptu, pełne testy repozytorium, CI, niezależna recenzja. Brak integracji z oryginalnym monolitem 0.20; **585/1222 bez zmian**. Wstęp historyczny i poprzednie rozdziały bez ingerencji. Bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-L — Kontrakcje z zaburzeniami (3 listopada 2026)
+
+- **Manuskrypt `main`:** `manuscript/tom-01/F28/F28.2L_KONTRAKCJE_ZABURZENIA_I_CERTYFIKATY.md`, commit `dcff7fd630a7478aef39ab7048f9166691980c06`: 6 definicji, 8 twierdzeń z dowodami, 6 kontrprzykładów i 12 rozwiązanych zadań. Udowodniono m.in. certyfikat resztowy, ostrość oszacowania i zbieżność przy zanikających zaburzeniach kontrakcji.
+- **Testy `main`:** `tests/test_f282l_contractions.py`, commit `5d2951d926a3084dfcdebd5b48a70546dd0d2df5`. Lokalny skrypt o równoważnych przypadkach: **6/6 unittest OK** (Fraction). Nie uruchomiono pobranego pliku GitHub ani całego zestawu CI.
+- **Podgląd PDF:** `F28_2L_PODGLAD_KONTROLNY.pdf`, ReportLab, 1 strona A4, 24 350 B; weryfikacja przez PyMuPDF. Jest to **podgląd selektywny**, nie pełny skład opublikowanego manuskryptu.
+- **Otwarte:** pełny skład z repo, testy CI, niezależna recenzja, mechanizacja dowodów. Brak monolitu 0.20 do integracji; **585/1222 bez zmian**. Nie zmieniano wstępu historycznego ani wcześniejszych rozdziałów; bez końcowego spisu treści i Tomu II.
