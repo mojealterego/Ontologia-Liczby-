@@ -1618,3 +1618,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na main:** `tests/test_f282ab_transient_expansion.py`, commit `8bbf4723703766459b65a329cfff90fa68b517e0`. Lokalnie wykonano **6/6** testów równoważnego pliku `/mnt/data/ontologia_ab/test_f282ab.py` w arytmetyce dokładnej Fraction; nie wykonano bajtowo identycznego pliku pobranego z GitHub ani pełnego CI.
 - **PDF lokalny:** `/mnt/data/ontologia_ab/F28_2AB.pdf`, Pandoc/XeLaTeX, **2 strony A4, 55 712 B**, SHA-256 `504c28354a07aca127f8435026d77d9be74f5e521fb3e523df5abfe12c8a335d`. Powstał z lokalnej pełniejszej redakcji, nie z bajtowo identycznego źródła repo.
 - **Otwarte:** niezależna recenzja, uruchomienie opublikowanego testu, GitHub Actions, kanoniczna kompilacja i integracja z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały nietknięte. **585/1222 bez zmian**, bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-AC — Certyfikaty fazowe z reszt pomiarowych (3 listopada 2026)
+
+- Źródło: `manuscript/tom-01/F28/F28.2AC_CERTYFIKATY_FAZOWE_Z_RESZT_POMIAROWYCH.md`, commit `16c4b395409132f0a83bf816e46fc3a37a01d9f7`; 4 definicje, 6 twierdzeń z dowodami, 5 kontrprzykładów i 8 rozwiązanych zadań.
+- Testy: `tests/test_f282ac_phase_residuals.py`, commit `677ca9d58ba723f6fe4e8e5299e61e7318be36a7`; sześć metod unittest, w tym 25 przypadków parametrycznych w arytmetyce Fraction. Sam zapis testów nie oznacza ich wykonania.
+- Kluczowy warunek: iloczyn stałych Lipschitza całego cyklu Q<1; certyfikat fazowy B_i/(1−Q) uwzględnia niepewność obserwacji.
+- Brak integracji z rzeczywistym monolitem 0.20; licznik **585/1222 bez zmian**. Wstęp historyczny i wcześniejsze rozdziały niezmienione; nie tworzono końcowego spisu treści ani Tomu II.
