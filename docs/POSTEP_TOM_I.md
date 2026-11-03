@@ -1585,3 +1585,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy zapisane na `main`:** `tests/test_f282x_calibration.py`, commit `4eb33f746466aeef41729c3dcf96fc29f0cbd1dc`, 10 metod `unittest` w arytmetyce `Fraction`. **Brak potwierdzonego uruchomienia**: lokalny kontener jest niedostępny; nie przypisywać statusu PASS ani zielonego CI.
 - **PDF:** **nie skompilowano** — środowisko kontenera zwróciło błąd usługi; brak potwierdzonego podglądu. Nie należy podawać liczby stron nowego suplementu.
 - **Otwarte:** wykonanie testów repozytorium, kompilacja PDF, niezależna recenzja dowodów, CI i integracja z rzeczywistym monolitem 0.20. Historyczny wstęp i poprzednie rozdziały pozostawiono bez zmian. **585/1222 bez zmian**. Bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-Y — Certyfikaty złożenia kontrakcji (3 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2Y_CERTYFIKATY_ZLOZEN_KONTRAKCJI.md`, commit `877452bc771ef5c92b94c32bf8e7db5493a8a80f`. Cztery definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady i cztery zadania rozwiązane. Rozróżnia punkt stały cyklu od punktów stałych jego składników; uwzględnia ważone błędy obliczeniowe.
+- **Testy na main:** `tests/test_f282y_composition.py`, commit `5e8c7bad1d5fcb5f05a2f1715e6fdf9e237e5851`. Sześć metod unittest, w tym 36 przypadków parametrycznych Fraction. Status wykonania należy potwierdzić niezależnie od samego zapisu kodu.
+- **Otwarte:** integracja z rzeczywistym monolitem 0.20, pełny CI i niezależna recenzja. **585/1222 bez zmian**. Nie zmieniono historycznego wstępu, wcześniejszych rozdziałów ani nie utworzono końcowego spisu treści; bez Tomu II.
