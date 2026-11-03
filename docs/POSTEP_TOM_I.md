@@ -1521,3 +1521,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na main:** `tests/test_f282p_tracking.py`, commit `a366e00478cf1052d1730de86b07f5b5c2fc6e62`. Lokalnie wykonano **8/8 unittest OK**, Python 3.13.5, arytmetyka `fractions.Fraction`. Nie uruchomiono pełnego zestawu repo ani CI.
 - **Pełny podgląd lokalny:** Pandoc/XeLaTeX z pełnego lokalnego źródła F28.2-P: `F28_2P_PELNY_PODGLAD.pdf`, **2 strony A4, 47 013 B**, SHA-256 `3cbc922a905b8bd8be13fec960363a087567b42621a55cb5e98327aef803fcb8`. Kontrola `pdfinfo` potwierdziła format i rozmiar. PDF nie jest zintegrowany z monolitem; nie jest artefaktem GitHub CI.
 - **Otwarte:** niezależna recenzja, formalna mechanizacja, pełne CI i integracja z oryginalnym monolitem 0.20. **585/1222 bez zmian**. Wstęp historyczny i wcześniejsze rozdziały nietknięte, bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-Q — Obserwowalny dryf operatora (3 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2Q_OBSERWOWALNY_DRYF_OPERATORA.md`, commit `ac01b5284065102d400a2d6c3431122066a7e0ba`: 5 definicji, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Lokalny certyfikat dryfu wykorzystuje różnicę operatorów w punkcie stałym; globalny certyfikat wymaga udowodnionego supremum.
+- **Testy na main:** `tests/test_f282q_operator_drift.py`, commit `03051cbe31e09b00fcbd4fe13ac244ae3371984d`. Lokalny skrypt o tych samych 7 przypadkach: `python -m unittest discover -s /mnt/data/ontologia_f282q -p 'test_*.py' -v` — **7/7 OK** (Fraction). Nie uruchomiono pobranego pliku testów ani CI.
+- **PDF:** `/mnt/data/ontologia_f282q/F28_2Q_PODGLAD.pdf`, Pandoc/XeLaTeX, 1 strona A4, 34 179 B, SHA-256 `f41472e27b1e96d936c3e3364c93be7faac9cfa8d098bd56f6713c34993fa4e0`. **Podgląd wyciągu**, nie pełny skład źródła GitHub; środowisko kontenera nie mogło pobrać raw GitHub (błąd DNS).
+- **Otwarte:** pełny PDF z kanonicznego manuskryptu, pełny test suite, CI, niezależna recenzja, mechanizacja dowodów oraz integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**; historyczny wstęp i poprzednie rozdziały nietknięte, bez końcowego spisu treści i bez Tomu II.
