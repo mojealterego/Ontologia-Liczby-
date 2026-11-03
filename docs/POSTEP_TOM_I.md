@@ -1440,3 +1440,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Artefakt tom1-f282h-full-supplement, ID 13192823251, 65 348 B, expired=false.
 - Uaktualniony [protokół F28.2-H](DOWODY_F28_2H_2026-11-03.md), commit [1a733cc8](https://github.com/mojealterego/Ontologia-Liczby-/commit/1a733cc866eb03aa0f7ccae3cae6fde619f3045d).
 - Nadal otwarte: niezależna recenzja, mechanizacja dowodów, pełny lokalny test suite repozytorium i integracja z oryginalnym monolitem 0.20. **585/1222 bez zmian**. Nie modyfikowano wstępu historycznego, nie utworzono końcowego spisu treści ani Tomu II.
+
+
+### F28.2-I — Projekcje naprzemienne i liniowa regularność (3 listopada 2026)
+
+- **Manuskrypt zapisany na `main`:** `manuscript/tom-01/F28/F28.2I_PROJEKCJE_REGULARNOSC_I_CERTYFIKATY.md`, commit `b48023913da6b7fbb564eede33e5116916161445`: 6 definicji, 8 twierdzeń z pisemnymi dowodami, 6 kontrprzykładów, 12 rozwiązanych zadań. Założenia globalnej regularności i punktu początkowego w A jawnie ograniczają T5–T6.
+- **Testy na `main`:** `tests/test_f282i_projections.py`, commit `eb197e61525bd8b565adb19765b74e0f299bcc6c`. **Lokalnie wykonano 4/4 testy w osobnym skrypcie kontrolnym** (projekcje przedziałowe, oszacowania wymierne, nieekspansywność w siatce). Nie potwierdzono uruchomienia testu opublikowanego na GitHub ani CI.
+- **Podgląd lokalny:** `F28_2I_PODGLAD_KONTROLNY.pdf`, ReportLab, 1 strona A4, 25 272 B; poprawna kontrola rozmiaru strony i ekstrakcji tekstu. **Jest skrótem kontrolnym, nie pełnym składem manuskryptu z repo.**
+- **Niezweryfikowane:** pełny suite repo, CI, formalizacja dowodów, niezależna recenzja, pełny skład z opublikowanego źródła.
+- **Blokada:** brak oryginalnego monolitu 0.20 do integracji. **585/1222 bez zmian**, wstęp historyczny nietknięty, bez końcowego spisu treści i bez Tomu II.
