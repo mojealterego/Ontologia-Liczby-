@@ -1594,3 +1594,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Otwarte:** integracja z rzeczywistym monolitem 0.20, pełny CI i niezależna recenzja. **585/1222 bez zmian**. Nie zmieniono historycznego wstępu, wcześniejszych rozdziałów ani nie utworzono końcowego spisu treści; bez Tomu II.
 
 - **Weryfikacja lokalna wykonana:** odtworzono kod sześciu metod testowych w `/mnt/data/ontologia_y/test_f282y.py` i uruchomiono `python -m unittest discover -s /mnt/data/ontologia_y -p 'test_*.py' -v`: **6/6 OK**, w tym 36 przypadków parametrycznych. Nie jest to uruchomienie pliku pobranego z GitHub ani zielony CI. Lokalny podgląd kontrolny `F28_2Y_PODGLAD_KONTROLNY.pdf` (ReportLab, 1 strona A4, 24 157 bajtów, pdfinfo) zawiera wyciąg wyników, nie pełne źródło. Kontener nie rozwiązuje DNS github.com; kanoniczna kompilacja pozostaje otwarta.
+
+
+### F28.2-Z — Cykliczne orbity i certyfikaty fazowe (3 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2Z_CYKLICZNE_ORBITY_FAZOWE.md`, commit `18a8b57adf9cbdc0621dd6e4132d38d2d89077bf`. Cztery definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady, sześć zadań rozwiązanych. Wynik: jednoznaczna orbita fazowa oraz ostre certyfikaty `C_i=B_i/(1-Q)` dla reszt cyklicznych.
+- **Testy na main:** `tests/test_f282z_phase_orbits.py`, commit `1725b0667fdfe37027d106ff68e22e4a2a3c1f8e`. Lokalnie uruchomiono **5/5 OK** w równoważnym skrypcie `/mnt/data/ontologia_z/test_f282z.py`, w tym 400 kombinacji parametrów w arytmetyce dokładnej `Fraction`. Nie jest to uruchomienie opublikowanego pliku ani pełnego CI.
+- **PDF:** lokalny wyciąg `/mnt/data/ontologia_z/F28_2Z_PODGLAD_KONTROLNY.pdf`, ReportLab, 1 strona A4, 2236 B, sprawdzony przez `pdfinfo`. Nie jest pełnym składem opublikowanego źródła.
+- **Otwarte:** wykonanie opublikowanych testów, CI, pełna kompilacja kanonicznego źródła, niezależna recenzja, formalizacja oraz integracja z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały nietknięte. **585/1222 bez zmian**, bez końcowego spisu treści i bez Tomu II.
