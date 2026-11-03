@@ -1545,3 +1545,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na `main`:** `tests/test_f282s_computable_drift.py`, commit `9311730269a069aa4c7fdc9e910fd7479985fef8`. Lokalnie wykonano 9/9 testów Python unittest w pliku `/mnt/data/ontologia_s/test_f282s.py`, w tym 144 dokładne przypadki parametryczne `Fraction`. Lokalny skrypt ma równoważną logikę, lecz nie jest pobranym plikiem z GitHub. Nie zweryfikowano CI.
 - **PDF:** `/mnt/data/ontologia_s/F28_2S_PELNY_PODGLAD.pdf`, Pandoc/XeLaTeX, **2 strony A4, 48 653 bajty**, SHA-256 `afedbd34ecb8128214d827ee991a5d018998bbd9a23a6deed366d6fbfc979fb4`. Powstał z **lokalnej rozszerzonej wersji redakcyjnej** F28.2-S; nie jest binarnym składem dokładnej wersji źródłowej z GitHub. `pdfinfo` potwierdził rozmiar A4.
 - **Otwarte:** pełny skład kanonicznego pliku GitHub, uruchomienie testów bezpośrednio z repo, CI, niezależna recenzja i mechanizacja dowodów. Kontener nie rozwiązuje DNS `github.com`, ale connector GitHub umożliwił rzeczywisty zapis na `main`. Brak integracji z oryginalnym monolitem 0.20; **585/1222 bez zmian**. Wstęp historyczny i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-T — Dwuresztowe certyfikaty dryfu (3 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2T_DWURESZTOWE_CERTYFIKATY_DRYFU.md`, commit `8a5f326ce588ba0c1cc7738257f3384e00876dbc`; korekta rachunków przykładów K3/Z9: `636fdfa0a4ef9dfa0677c30a376ebb4445e44543`. 7 definicji, 8 twierdzeń z dowodami, 6 przykładów granicznych/kontrprzykładów, 10 rozwiązanych zadań. Certyfikat łączy dwie reszty z dwiema kierunkowymi granicami lokalnego porównania operatorów.
+- **Testy na main:** `tests/test_f282t_two_residual_drift.py`, commit `566dd73bd1aadd90061cc825177642d5322c0c67`. 7 metod unittest z arytmetyką dokładną Fraction, w tym rodziny parametryczne. **Nie wykonano**: lokalny Python i kontener zgłosiły `ConnectionError`; brak dowodu zielonego CI. Nie przypisywać statusu PASS.
+- **PDF:** nie wygenerowano ani nie zweryfikowano: środowisko kontenera niedostępne. Pełna kompilacja i niezależna recenzja pozostają otwarte.
+- **Ograniczenia:** poprzednie rozdziały i wstęp historyczny bez ingerencji; monolit 0.20 niezintegrowany; **585/1222 bez zmian**; bez końcowego spisu treści i Tomu II.
