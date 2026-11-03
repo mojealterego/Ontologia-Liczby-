@@ -1482,3 +1482,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy zapisane na `main`:** `tests/test_f282m_certificates.py`, commit `7bb0498fdb857bc5d2eff393f68bc8cb2c8de9ca`; testy Fraction ostrości i przykładów. **Nie uruchomiono testów**: lokalne środowiska `container.exec` i `python.exec` zwracały `ConnectionError` podczas tej sesji. Nie deklarować wyniku testów ani CI.
 - **PDF:** **nie skompilowano** z powodu niedostępności środowiska wykonawczego; nie ma zweryfikowanego nowego pliku do pobrania. Wymagany ponowny przebieg testów i kompilacja pełnego źródła.
 - **Otwarte:** uruchomienie testów, CI, pełny skład PDF, mechanizacja i niezależna recenzja. Brak integracji z monolitem 0.20; **585/1222 bez zmian**. Wstęp historyczny i wcześniejsze rozdziały bez ingerencji, bez końcowego spisu treści i Tomu II.
+
+
+### Weryfikacja uzupełniająca F28.2-M — 3 listopada 2026
+
+- Przywrócono działanie lokalnego środowiska Python 3.13.5. Odtworzono lokalnie treść pięciu testów odczytanych z `tests/test_f282m_certificates.py` (GitHub `main`) i wykonano `python -m unittest discover -s /mnt/data/ontologia_f282m_verified -p 'test_*.py' -v`: **5/5 OK**. Lokalna kopia testu: SHA-256 `ed5895c7b457dd1b4393a2787dca3623e017b4f56c1d3849f49bcd6e8407bc03`. Nie jest to uruchomienie CI ani test całego repozytorium.
+- Utworzono **kontrolny PDF** ReportLab `/mnt/data/ontologia_f282m_verified/F28_2M_CERTYFIKATY_PODGLAD.pdf`: **1 strona A4, 25 072 B**, SHA-256 `3a46c9ef6724a631dd1f9e01c1b4143ea6b235d15ba77e635561216a99d1f9aa`. Kontrola PyMuPDF: tekst 1472 znaków, ostatni blok tekstu kończy się na y=741.2 pt przy wysokości strony 841.9 pt. **PDF zawiera wybrane wyniki, nie jest pełnym składem manuskryptu**.
+- Weryfikacja manuskryptu źródłowego: ponowny odczyt F28.2-M z `main`; poprzedni tekst i wstęp historyczny bez zmian. Pozostają otwarte: pełny skład PDF z opublikowanego źródła, pełny CI, formalna i niezależna recenzja, integracja z oryginalnym monolitem 0.20. **585/1222 bez zmian**, bez końcowego spisu treści i Tomu II.
