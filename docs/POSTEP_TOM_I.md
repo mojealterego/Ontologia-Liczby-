@@ -1642,3 +1642,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Źródło na main:** `manuscript/tom-01/F28/F28.2AE_MINIMAKS_WIELU_FAZ.md`, commit `81b35236a6ca24e3561f544d130f63082270793c`. Cztery definicje, siedem twierdzeń z dowodami, cztery kontrprzykłady i sześć zadań rozwiązanych. Rozszerzenie F28.2-AD z pojedynczej fazy na minimaks wielu faz, równoważność programowi liniowemu, wypukłość wartości budżetowej, wymianę przy dominacji i dolne oszacowanie przez mieszankę faz.
 - **Testy na main:** `tests/test_f282ae_minimax.py`, commit `7dd406721779466e789df627a015c0d0a0eebe52`; siedem metod `unittest` w arytmetyce dokładnej `Fraction`. Sam zapis nie stanowi potwierdzenia wykonania ani CI.
 - **Granice:** nie przeprowadzono integracji z rzeczywistym monolitem 0.20 ani niezależnej recenzji matematycznej. Wstęp historyczny i wcześniejsze rozdziały nie były edytowane. Bilans **585/1222** bez zmian; nie tworzyć końcowego spisu treści ani Tomu II.
+
+
+### F28.2-AF — Dualne certyfikaty optymalności minimaksowej (3 listopada 2026)
+
+- **Manuskrypt:** `manuscript/tom-01/F28/F28.2AF_DUALNE_CERTYFIKATY_MINIMAKSU.md`, commit `0147beafc4c0a9f66f4b8fd6d21d9ea5ca2f5a20`. Trzy definicje, pięć twierdzeń z dowodami (w tym silna dualność oparta na klasycznym twierdzeniu LP), cztery kontrprzykłady i sześć zadań z rozwiązaniami.
+- **Testy na main:** `tests/test_f282af_dual_minimax.py`, commit `7792bb2884a30d1706d4cab0c2701724ce75e410`; sześć metod `unittest` w arytmetyce dokładnej `Fraction`. **Nie wykonano pobranego pliku testowego:** kontener nie rozwiązuje DNS raw.githubusercontent.com. Lokalnie sprawdzono osobno pięć wartości symetrycznego przykładu wymiernego (5/5); nie jest to wynik 6/6 opublikowanych testów.
+- **PDF:** lokalny skrócony podgląd kontrolny `/mnt/data/ontologia_af/F28_2AF_PODGLAD_KONTROLNY.pdf`, ReportLab, jedna strona A4; nie jest pełnym składem źródła GitHub.
+- **Otwarte:** pełna kompilacja opublikowanego manuskryptu, uruchomienie wszystkich testów repozytorium i CI, niezależna recenzja dowodów, integracja z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały nie były edytowane. **585/1222 bez zmian**. Bez finalnego spisu treści i bez Tomu II.
