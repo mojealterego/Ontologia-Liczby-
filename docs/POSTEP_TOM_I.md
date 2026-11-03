@@ -1449,3 +1449,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Podgląd lokalny:** `F28_2I_PODGLAD_KONTROLNY.pdf`, ReportLab, 1 strona A4, 25 272 B; poprawna kontrola rozmiaru strony i ekstrakcji tekstu. **Jest skrótem kontrolnym, nie pełnym składem manuskryptu z repo.**
 - **Niezweryfikowane:** pełny suite repo, CI, formalizacja dowodów, niezależna recenzja, pełny skład z opublikowanego źródła.
 - **Blokada:** brak oryginalnego monolitu 0.20 do integracji. **585/1222 bez zmian**, wstęp historyczny nietknięty, bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-J — Zbieżność projekcji w Rⁿ i perturbacje (3 listopada 2026)
+
+- **Manuskrypt:** `manuscript/tom-01/F28/F28.2J_ZBIEZNOSC_PROJEKCJI_I_BLEDY.md`, commit pierwotny `36d558dbd7ab28c1dda5c2ecb702f26ae2c60d28`, korekta kontrprzykładu K5 `6e0283a3fe65d310facc0678e13db28317457833`. Zawiera 6 definicji, 8 twierdzeń z dowodami, 6 kontrprzykładów i 12 zadań z rozwiązaniami. Dowód zbieżności wykorzystuje skończony wymiar, domkniętość, wypukłość i niepuste przecięcie.
+- **Testy na `main`:** `tests/test_f282j_convergence.py`, commit `4269fc1034d8dc68fc4cf2a28f7fc42ad5750995`. Lokalnie uruchomiono **5/5** testów pokrywających projekcje przedziałowe, nierówność pitagorejską, nieekspansywność i sumę geometryczną (plik lokalny `test_f282j.py`); ponadto **4/4** testy lokalne poprzedniego F28.2-I. Testów z pliku GitHub F28.2-J ani pełnego CI nie uruchomiono; nie deklarować zielonego CI.
+- **PDF:** `/mnt/data/ONTOLOGIA_F28_2J_PODGLAD.pdf`, ReportLab, 1 strona A4, 24 669 bajtów, skontrolowany rozmiar strony przez PyMuPDF. Jest to **skrót redakcyjny**, nie pełny skład pliku źródłowego z GitHub.
+- **Niezweryfikowane:** formalna mechanizacja dowodów, pełny PDF źródła repo, niezależna recenzja, pełne testy repo i GitHub Actions.
+- **Blokada:** brak potwierdzonej integracji z oryginalnym monolitem 0.20. Licznik **585/1222** pozostaje bez zmian. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
