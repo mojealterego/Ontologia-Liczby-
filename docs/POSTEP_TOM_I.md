@@ -1626,3 +1626,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Testy: `tests/test_f282ac_phase_residuals.py`, commit `677ca9d58ba723f6fe4e8e5299e61e7318be36a7`; sześć metod unittest, w tym 25 przypadków parametrycznych w arytmetyce Fraction. Sam zapis testów nie oznacza ich wykonania.
 - Kluczowy warunek: iloczyn stałych Lipschitza całego cyklu Q<1; certyfikat fazowy B_i/(1−Q) uwzględnia niepewność obserwacji.
 - Brak integracji z rzeczywistym monolitem 0.20; licznik **585/1222 bez zmian**. Wstęp historyczny i wcześniejsze rozdziały niezmienione; nie tworzono końcowego spisu treści ani Tomu II.
+
+
+### F28.2-AD — Certyfikaty przedziałowe i optymalizacja budżetu (3 listopada 2026)
+
+- **Źródło na main:** `manuscript/tom-01/F28/F28.2AD_CERTYFIKATY_PRZEDZIALOWE_OPTYMALIZACJA.md`, commit `62eb0504e40691fadeb900101e4b3b0f064a0211`. Cztery definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Kontynuacja F28.2-AC: reszty przedziałowe, dolne nierówności między fazami, monotoniczność certyfikatu, optymalny przydział ograniczonego budżetu redukcji reszt oraz ostrość.
+- **Testy na main:** `tests/test_f282ad_interval_budget.py`, commit `df9fecdba09cbf05715ca228eacf528436ccbe9b`, pięć metod unittest z arytmetyką `Fraction`. **Lokalnie wykonano 5/5 OK** na skrypcie o analogicznej treści `/mnt/data/ontologia_ad/test_f282ad.py`, w tym 64 pary parametrów; nie jest to uruchomienie bajtowo identycznego pliku pobranego z repozytorium. Polecenie repo: `python -m unittest discover -s tests -p 'test_f282ad_interval_budget.py' -v`.
+- **PDF:** lokalny wyciąg kontrolny `/mnt/data/ontologia_ad/F28_2AD_PODGLAD_KONTROLNY.pdf` (ReportLab), 1 strona A4, 24 493 bajty, parametry sprawdzone przez `pdfinfo`. **Nie jest to pełny skład opublikowanego źródła**.
+- **Niezweryfikowane:** pełne CI, mechaniczna formalizacja dowodów, niezależna recenzja, wykonanie testów bezpośrednio z checkout repozytorium, kanoniczny pełny PDF.
+- **Integracja:** nie scalono z rzeczywistym monolitem 0.20. Wstęp historyczny i wcześniejsze rozdziały nie były zmieniane. **585/1222 bez zmian**, bez końcowego spisu treści i bez Tomu II.
