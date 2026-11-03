@@ -1650,3 +1650,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na main:** `tests/test_f282af_dual_minimax.py`, commit `7792bb2884a30d1706d4cab0c2701724ce75e410`; sześć metod `unittest` w arytmetyce dokładnej `Fraction`. **Nie wykonano pobranego pliku testowego:** kontener nie rozwiązuje DNS raw.githubusercontent.com. Lokalnie sprawdzono osobno pięć wartości symetrycznego przykładu wymiernego (5/5); nie jest to wynik 6/6 opublikowanych testów.
 - **PDF:** lokalny skrócony podgląd kontrolny `/mnt/data/ontologia_af/F28_2AF_PODGLAD_KONTROLNY.pdf`, ReportLab, jedna strona A4; nie jest pełnym składem źródła GitHub.
 - **Otwarte:** pełna kompilacja opublikowanego manuskryptu, uruchomienie wszystkich testów repozytorium i CI, niezależna recenzja dowodów, integracja z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały nie były edytowane. **585/1222 bez zmian**. Bez finalnego spisu treści i bez Tomu II.
+
+
+### F28.2-AG — Wrażliwość minimaksu na budżet (4 listopada 2026)
+
+- Manuskrypt: `manuscript/tom-01/F28/F28.2AG_WRAZLIWOSC_BUDZETU.md`, commit `88a25455f7a437aa4c7caa0a5bf5a12b75e0301e`; 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Wyniki: monotoniczność, wypukłość, odcinkowa afiniczność, dualne proste wspierające, oszacowanie Lipschitza.
+- Testy: `tests/test_f282ag_budget_sensitivity.py`, commit `362246d8e61a134ec4a361d02e04656c095067e6`; 5 metod `unittest` w arytmetyce `Fraction`. Nie przypisywać statusu PASS bez wykonania opublikowanego pliku.
+- Bez zmian w poprzednich rozdziałach i wstępie historycznym. Nie scalono z monolitem 0.20. Bilans **585/1222** bez zmian. Nie utworzono końcowego spisu treści ani Tomu II.
