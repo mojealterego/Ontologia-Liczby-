@@ -1809,3 +1809,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy zapisane na main:** `tests/test_f282ay_gap_decomposition.py`, commit `acc4530627bbbc00fd14c54a1b77464441cc5450`. Pięć metod unittest, w tym 1024 porównania porządku na 256 wektorach i czterech poziomach alfa. **Testów nie wykonano:** lokalny Python i kontener zwróciły błąd usługi `redis.exceptions.ResponseError`. Nie deklarować PASS.
 - **PDF:** nie skompilowano z powodu niedostępności lokalnego środowiska wykonawczego. Niezależna recenzja matematyczna, pełne GitHub Actions i kanoniczny skład pozostają otwarte.
 - **Bilans:** 585/1222 bez zmian, do integracji z rzeczywistym monolitem 0.20. Wstęp historyczny i wcześniejsze rozdziały nieedytowane; bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-AZ — Certyfikat odchylenia dodatniego dla utraty CVaR (4 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2AZ_CERTYFIKAT_ODCHYLENIA_CVAR.md`, commit `09e4d2e204ba461668e9d59f66894da544a31b00`. Trzy definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady, sześć zadań rozwiązanych. Główny wynik: `0≤C_α(X)−C_α(T_PX)≤min(||X−T_PX||∞, E[(X−T_PX)_+]/(1−α))`. Wykazano ostrość współczynnika, rozkład blokowy i stabilność.
+- **Testy na main:** `tests/test_f282az_deviation_certificate.py`, commit `cb59e0f79a8ab2896a94075c33d5a5782d65e8cd`. Cztery metody unittest, arytmetyka `Fraction`. Lokalny równoważny zestaw w `/mnt/data/ontologia_az/test_f282az.py` zakończył się **4/4 OK**; **nie jest to wykonanie bajtowo identycznego pliku z checkout GitHub ani pełnego CI**.
+- **PDF lokalny:** `/mnt/data/ontologia_az/F28_2AZ_PODGLAD.pdf`, ReportLab, 2 strony A4, SHA-256 `346d42942df25cedd70f8b2fdea0575f773c5c10a212959a485143a055220bfe`. Skład z lokalnej redakcji; nie jest kanoniczną kompilacją opublikowanego źródła.
+- **Otwarte:** niezależna recenzja dowodów, wykonanie dokładnie opublikowanych testów, pełne GitHub Actions, kanoniczny skład i integracja z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały nieedytowane. **585/1222 bez zmian**; bez końcowego spisu treści i bez Tomu II.
