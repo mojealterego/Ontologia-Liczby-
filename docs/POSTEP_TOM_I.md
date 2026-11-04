@@ -1714,3 +1714,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na main:** `tests/test_f282an_thresholds.py`, commit `2d04f0a0130d4ddf1b7dbf5fb86153179b1eb4c1`. Siedem metod unittest w arytmetyce Fraction; **lokalnie uruchomiono 7/7 OK na analogicznym pliku**, obejmującym 255 punktów kontrolnych granic (15 przedziałów × 17 punktów). Nie jest to wykonanie pobranego z GitHub pliku ani pełnego CI.
 - **PDF lokalny:** `/mnt/data/ontologia_an/F28_2AN_PODGLAD.pdf`, Pandoc/XeLaTeX, 2 strony A4; skompilowany z lokalnej redakcji o tym samym zakresie matematycznym, ale nie z bajtowo identycznego pliku opublikowanego na GitHub.
 - **Otwarte:** niezależna recenzja, kanoniczna kompilacja opublikowanego źródła, pełny GitHub Actions, integracja z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały nie były edytowane. **585/1222 bez zmian**; bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-AO — Ścisłe przekroczenie CVaR i margines bezpieczeństwa (4 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2AO_SCISLE_PRZEKROCZENIE_CVAR.md`, commit `ea75b45ccd7c6c7e7e4692a5e25a6bbc9c492810`. Cztery definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Rozróżniono osiągnięcie progu `C=τ` i ścisłe przekroczenie `C>τ`, otwarty brzeg zbioru promieni naruszenia, ciągły margines bezpieczeństwa i certyfikaty błędu numerycznego.
+- **Testy na main:** `tests/test_f282ao_strict_cvar.py`, commit `fb969ab2f872f3a8364293cdf5cd70b465d82572`. Osiem metod `unittest` opartych na dokładnej arytmetyce `Fraction`. **Lokalnie przed publikacją uruchomiono odpowiadający logicznie plik: 8/8 OK**; brak potwierdzenia uruchomienia bajtowo identycznego pliku z checkout GitHub i brak potwierdzenia GitHub Actions.
+- **Podgląd:** lokalny `/mnt/data/ontologia_ao/F28_2AO_PODGLAD.pdf`, Pandoc/XeLaTeX, 2 strony A4. PDF jest kompilacją lokalnej wersji redakcyjnej, **nie** opublikowanego bajtowo identycznego źródła.
+- **Otwarte:** niezależna recenzja wszystkich dowodów, kanoniczna kompilacja opublikowanego manuskryptu, pełny CI i integracja z rzeczywistym monolitem 0.20. Wstęp historyczny i wcześniejsze rozdziały nieedytowane. **585/1222 bez zmian**. Bez finalnego spisu treści i bez Tomu II.
