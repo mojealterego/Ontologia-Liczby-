@@ -1825,3 +1825,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na main:** `tests/test_f282ba_adaptive_certificates.py`, commit `05958b6e9bc2c12e8b11666bea40002257ba657d`. Lokalny odpowiednik `/mnt/data/ontologia_ba/test_f282ba.py`: `python -m unittest discover -s /mnt/data/ontologia_ba -p 'test_*.py' -v` — 3/3 OK, 1500 dokładnych porównań `Fraction`. Nie uruchomiono bajtowo identycznego pliku z repozytorium ani pełnego GitHub Actions.
 - **PDF:** lokalny wyciąg kontrolny `/mnt/data/ontologia_ba/F28_2BA_PODGLAD.pdf`, ReportLab, 1 strona A4; nie jest kanonicznym składem opublikowanego źródła.
 - **Otwarte:** niezależna recenzja, uruchomienie dokładnego testu z checkout, pełne CI, kanoniczny skład i integracja z monolitem 0.20. Wstęp historyczny i wcześniejsze rozdziały nietknięte; **585/1222 bez zmian**. Bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-BB — Dwustronne certyfikaty CVaR z agregacji (4 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2BB_DWUSTRONNE_CERTYFIKATY_CVAR.md`, commit `9a13fdf66d74f02949c0a8298cfaea5ecb12a61b`. Dwie definicje certyfikatów, sześć twierdzeń z dowodami, cztery kontrprzykłady/ograniczenia oraz sześć rozwiązanych zadań. Dokładna otoczka L≤CVaR(X)≤U i monotoniczne zacieśnianie granic podczas refinacji.
+- **Testy zapisane na main:** `tests/test_f282bb_two_sided_certificates.py`, commit `8b6fd744b001d93fbb701991a90d1526b6c8be6f`. Trzy metody unittest, w tym 375 dokładnych przypadków w arytmetyce Fraction. **Lokalnie wykonano 375/375 PASS na oddzielnym logicznie równoważnym skrypcie** `/mnt/data/ontologia_bb/check.py`. Nie wykonano bajtowo identycznego testu z checkout GitHub.
+- **PDF kontrolny:** `/mnt/data/ontologia_bb/F28_2BB_PODGLAD.pdf`, ReportLab, 1 strona A4, 24567 bajtów; wyciąg, nie kanoniczna kompilacja pełnego źródła.
+- **Niezweryfikowane:** pełny GitHub Actions, niezależna recenzja wszystkich dowodów, wykonanie testu bezpośrednio z checkout, kanoniczny skład manuskryptu.
+- **Integracja:** brak scalenia z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Wstęp historyczny i wcześniejsze rozdziały nieedytowane. Bez finalnego spisu treści i bez Tomu II.
