@@ -1730,3 +1730,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na main:** `tests/test_f282ap_confidence_cvar.py`, commit `83f289ea6f9fe88483abd8114a0b2e97078cf2b0`. Sześć metod unittest w arytmetyce dokładnej Fraction. **Lokalnie wykonano 6/6 OK** na pliku o tej samej treści logicznej; nie wykonano bajtowo identycznego pliku pobranego z repozytorium ani GitHub Actions.
 - **Podgląd:** lokalny `/mnt/data/ontologia_ap/F28_2AP_PODGLAD.pdf`, Pandoc/XeLaTeX, 2 strony A4. PDF z pełniejszej lokalnej redakcji, **nie** z bajtowo identycznego pliku opublikowanego na GitHub.
 - **Niezweryfikowane:** niezależna recenzja wszystkich dowodów, pełny CI, kanoniczna kompilacja opublikowanego źródła i integracja z rzeczywistym monolitem 0.20. Wstęp historyczny i wcześniejsze rozdziały nieedytowane. **585/1222 bez zmian**; bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-AQ — Kwantyle krytyczne i odwrotna kalibracja CVaR (4 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2AQ_ODWROTNA_KALIBRACJA_CVAR.md`, commit `0cbe67c3290eb36e993baa543353176afc58205b`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady, sześć zadań rozwiązanych. Klasyfikacja profilu, dokładny zbiór bezpiecznych poziomów, odwrotna kalibracja masy, stabilność i próg minimalny.
+- **Testy na main:** `tests/test_f282aq_inverse_cvar.py`, commit `4309b9e8e8d8185ccd2d1b5ea7d6e8af044c1664`, sześć metod `unittest`. Lokalnie wykonano **1100** dokładnych porównań wymiernych w oddzielnym skrypcie `/mnt/data/ontologia_aq/check.py` — PASS. **Nie jest to wykonanie bajtowo identycznego pliku repozytorium ani pełnego CI.**
+- **PDF:** lokalny kontrolny wyciąg `/mnt/data/ontologia_aq/F28_2AQ_PODGLAD.pdf`, Pandoc/XeLaTeX, 1 strona A4; nie jest kanonicznym składem pełnego opublikowanego źródła.
+- **Niezweryfikowane:** uruchomienie opublikowanych sześciu testów z checkout, GitHub Actions, niezależna recenzja dowodów, kanoniczny skład i integracja z monolitem 0.20.
+- **Bilans:** **585/1222 bez zmian** do integracji z rzeczywistym monolitem 0.20; historyczny wstęp i wcześniejsze rozdziały nieedytowane; bez finalnego spisu treści i bez Tomu II.
