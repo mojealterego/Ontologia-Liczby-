@@ -1792,3 +1792,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **PDF lokalny:** `/mnt/data/ontologia_aw/F28_2AW_PODGLAD.pdf`, 2 strony A4, ReportLab. Podgląd powstał z lokalnej redakcji pełnego suplementu, nie z bajtowo identycznego źródła repozytorium; nie jest kanonicznym składem.
 - **Otwarte:** niezależna recenzja wszystkich dowodów, wykonanie opublikowanego testu z checkout, GitHub Actions, kanoniczny skład i integracja z rzeczywistym monolitem 0.20.
 - **Bilans:** **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nieedytowane; bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-AX — Dokładna luka CVaR przy agregacji dwublokowej (4 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2AX_DOKLADNA_LUKA_AGREGACJI_CVAR.md`, commit `1073dfa2e5a7b1a3fc0f2c607548f5125cc1d9b2`. Trzy definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Dokładny wzór luki dla dwupunktowej agregacji, nieujemność, oszacowanie maksimum, przypadek alfa=0, jednorodność i brak ścisłej monotoniczności.
+- **Testy zapisane na main:** `tests/test_f282ax_aggregation_gap.py`, commit `7d6c391a2de35d1f651185df5802b207625b01ea`. Pięć metod unittest, dokładna arytmetyka Fraction. Status wykonania i PDF należy raportować osobno; sam zapis nie dowodzi PASS.
+- **Bilans:** 585/1222 bez zmian, bez integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały nieedytowane. Bez końcowego spisu treści i bez Tomu II.
