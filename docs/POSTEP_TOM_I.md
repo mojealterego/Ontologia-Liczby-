@@ -1666,3 +1666,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **PDF:** lokalny wyciąg kontrolny `/mnt/data/ontologia_ah/F28_2AH_PODGLAD.pdf`, Pandoc/XeLaTeX, **1 strona A4**, **40 362 B**, SHA-256 `105fe72aabbd56d03da6b1275376b167d21c7e6b9bdb63b697eb17a353ac9660`. **To nie pełny skład opublikowanego źródła**.
 - **Granice:** nie wykonano niezależnej recenzji wszystkich dowodów, formalizacji w asystencie dowodowym, GitHub Actions ani integracji z rzeczywistym monolitem 0.20. Kontener nie rozwiązuje DNS github.com; dostęp do źródeł uzyskano przez autoryzowany konektor GitHub. Wstęp historyczny i wcześniejsze rozdziały nie zostały edytowane.
 - **Bilans:** **585/1222 bez zmian** do czasu scalania i rzeczywistej paginacji monolitu 0.20. Nie utworzono końcowego spisu treści ani Tomu II.
+
+
+### F28.2-AI — Ryzyko ogonowe i CVaR (4 listopada 2026)
+
+- **Źródło na main:** `manuscript/tom-01/F28/F28.2AI_SCENARIUSZE_LOSOWE_CVAR.md`, commit `6d455cc5aa5bb54140464eeb97eb9e9f70d7f2a9`. Trzy definicje (VaR, CVaR, kontrola ryzyka), pięć twierdzeń z dowodami, cztery kontrprzykłady, osiem zadań rozwiązanych. Wyniki obejmują dokładną linearyzację CVaR, dualną otoczkę prawdopodobieństw, granicę najgorszego przypadku, wypukłość budżetową i stabilność względem błędów scenariuszy.
+- **Testy na main:** `tests/test_f282ai_cvar.py`, commit `3ddc260c828518b38557974cc81fa76b1fc75c0d`. Osiem metod unittest z arytmetyką `Fraction`; ich opublikowany plik nie został jeszcze wykonany z checkout GitHub. Osobny lokalny skrypt sprawdzający osiem analogicznych własności dał **8/8 OK**, co nie jest formalną weryfikacją dowodów ani wynikiem CI.
+- **Status:** brak integracji z rzeczywistym monolitem 0.20, pełnej kompilacji kanonicznej i niezależnej recenzji. Historyczny wstęp i wcześniejsze rozdziały pozostawiono bez zmian. **585/1222 bez zmian**. Bez końcowego spisu treści i bez Tomu II.
