@@ -1817,3 +1817,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na main:** `tests/test_f282az_deviation_certificate.py`, commit `cb59e0f79a8ab2896a94075c33d5a5782d65e8cd`. Cztery metody unittest, arytmetyka `Fraction`. Lokalny równoważny zestaw w `/mnt/data/ontologia_az/test_f282az.py` zakończył się **4/4 OK**; **nie jest to wykonanie bajtowo identycznego pliku z checkout GitHub ani pełnego CI**.
 - **PDF lokalny:** `/mnt/data/ontologia_az/F28_2AZ_PODGLAD.pdf`, ReportLab, 2 strony A4, SHA-256 `346d42942df25cedd70f8b2fdea0575f773c5c10a212959a485143a055220bfe`. Skład z lokalnej redakcji; nie jest kanoniczną kompilacją opublikowanego źródła.
 - **Otwarte:** niezależna recenzja dowodów, wykonanie dokładnie opublikowanych testów, pełne GitHub Actions, kanoniczny skład i integracja z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały nieedytowane. **585/1222 bez zmian**; bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-BA — Certyfikaty a posteriori i adaptacyjna agregacja CVaR (4 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2BA_CERTYFIKATY_ADAPTACYJNE_CVAR.md`, commit `ab0700cc4af8fcbb4014e3aec54e72088cda6b41`. Pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Certyfikat resztowy `0≤G≤min(||X−T_PX||∞, B(P)/(1−α))`, wierzchołkowa reprezentacja dualna i skończona refinacja partycji.
+- **Testy na main:** `tests/test_f282ba_adaptive_certificates.py`, commit `05958b6e9bc2c12e8b11666bea40002257ba657d`. Lokalny odpowiednik `/mnt/data/ontologia_ba/test_f282ba.py`: `python -m unittest discover -s /mnt/data/ontologia_ba -p 'test_*.py' -v` — 3/3 OK, 1500 dokładnych porównań `Fraction`. Nie uruchomiono bajtowo identycznego pliku z repozytorium ani pełnego GitHub Actions.
+- **PDF:** lokalny wyciąg kontrolny `/mnt/data/ontologia_ba/F28_2BA_PODGLAD.pdf`, ReportLab, 1 strona A4; nie jest kanonicznym składem opublikowanego źródła.
+- **Otwarte:** niezależna recenzja, uruchomienie dokładnego testu z checkout, pełne CI, kanoniczny skład i integracja z monolitem 0.20. Wstęp historyczny i wcześniejsze rozdziały nietknięte; **585/1222 bez zmian**. Bez końcowego spisu treści i bez Tomu II.
