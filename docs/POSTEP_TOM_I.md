@@ -1706,3 +1706,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy zapisane na main:** `tests/test_f282am_interval_transport_cvar.py`, commit `5ccf7fd420079768fb135d4a05262f2007b6c5b8`; sześć metod `unittest`, dokładna arytmetyka `Fraction`. **Nie wykonano testów:** kontener i Python zwracają błąd usługi. Brak podstaw do statusu PASS i do deklaracji zielonego CI.
 - **PDF:** nie skompilowano, ponieważ kontener/Python są niedostępne (błąd usługi). Pełny skład i niezależna recenzja matematyczna pozostają otwarte.
 - **Integracja:** bez rzeczywistego monolitu 0.20; **585/1222 bez zmian**. Wstęp historyczny i wcześniejsze rozdziały nieedytowane. Bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-AN — Certyfikaty progowe CVaR przy przedziałowej niepewności masy (4 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2AN_CERTYFIKATY_PROGOWE_CVAR.md`, commit `7d28acedcfdf220b07504c047e299a90ddaf59d6`. Cztery definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Dokładna otoczka mas, warunek bezpieczeństwa progu i najmniejszy promień osiągnięcia.
+- **Testy na main:** `tests/test_f282an_thresholds.py`, commit `2d04f0a0130d4ddf1b7dbf5fb86153179b1eb4c1`. Siedem metod unittest w arytmetyce Fraction; **lokalnie uruchomiono 7/7 OK na analogicznym pliku**, obejmującym 255 punktów kontrolnych granic (15 przedziałów × 17 punktów). Nie jest to wykonanie pobranego z GitHub pliku ani pełnego CI.
+- **PDF lokalny:** `/mnt/data/ontologia_an/F28_2AN_PODGLAD.pdf`, Pandoc/XeLaTeX, 2 strony A4; skompilowany z lokalnej redakcji o tym samym zakresie matematycznym, ale nie z bajtowo identycznego pliku opublikowanego na GitHub.
+- **Otwarte:** niezależna recenzja, kanoniczna kompilacja opublikowanego źródła, pełny GitHub Actions, integracja z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały nie były edytowane. **585/1222 bez zmian**; bez końcowego spisu treści i bez Tomu II.
