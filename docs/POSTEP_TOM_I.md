@@ -1766,3 +1766,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Podgląd lokalny:** `/mnt/data/ontologia_at/F28_2AT_PODGLAD.pdf`, ReportLab, 1 strona A4, 24 871 bajtów, SHA-256 `eb53a6a1361977ea8e7e1f95701986a944d46b0f22054dc213ac478e7a6705a1`. Wyciąg kontrolny, nie kanoniczna kompilacja pełnego opublikowanego manuskryptu.
 - **Niezweryfikowane:** niezależna recenzja wszystkich dowodów, uruchomienie opublikowanego testu z checkout, pełny GitHub Actions, kanoniczny skład całego źródła i integracja z rzeczywistym monolitem 0.20.
 - **Bilans:** **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nieedytowane; bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-AU — Spójność CVaR i granice addytywności (4 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2AU_SPOJNOSC_CVAR.md`, commit `3b6726ce9d3dab1471d89616704211cdcd4dabf3`. Trzy definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady i sześć zadań rozwiązanych. Wykazano reprezentację dualną, monotoniczność, translację, dodatnią jednorodność, subaddytywność, warunek równości i stabilność.
+- **Testy na main:** `tests/test_f282au_coherence_cvar.py`, commit `4f04474901cf34ec3e5da519e1ce7165b581f2d5`. Sześć metod unittest w arytmetyce Fraction. **Lokalnie uruchomiono oddzielny logicznie równoważny skrypt:** `python -m unittest discover -s /mnt/data/ontologia_au -p 'test_*.py' -v` — **6/6 OK**. Nie uruchomiono bajtowo identycznego pliku z checkout GitHub ani pełnego CI.
+- **PDF:** `/mnt/data/ontologia_au/F28_2AU_PODGLAD.pdf`, ReportLab, 1 strona A4, 24 619 bajtów, SHA-256 `f42c40ff859e5497c497a8109347d6b7b59db9225b9f0089a637b0f210ca9b9b`. To wyciąg kontrolny, nie kanoniczna kompilacja pełnego źródła.
+- **Otwarte:** niezależna recenzja dowodów, test opublikowanego pliku z checkout, GitHub Actions, pełny skład i integracja z rzeczywistym monolitem 0.20.
+- **Bilans:** **585/1222 bez zmian**. Wstęp historyczny i wcześniejsze rozdziały nieedytowane; bez końcowego spisu treści i bez Tomu II.
