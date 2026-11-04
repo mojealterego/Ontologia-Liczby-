@@ -1698,3 +1698,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Podgląd lokalny:** `/mnt/data/ontologia_al/F28_2AL.pdf`, Pandoc/XeLaTeX, 2 strony A4, kompilacja poprawna. Jest to pełniejsza lokalna redakcja, **nie** kompilacja bajtowo identycznego źródła opublikowanego na GitHub. Weryfikacja typograficzna wymaga ponownego składu z opublikowanego pliku.
 - **Niezweryfikowane:** pełne CI, niezależna recenzja dowodów, wykonanie testów dokładnie z checkout, kanoniczna kompilacja i integracja z rzeczywistym monolitem 0.20.
 - **Bilans:** **585/1222 bez zmian**; wcześniejsze rozdziały i wstęp historyczny nieedytowane. Bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-AM — Przedziałowa niepewność masy i odwrotne certyfikaty CVaR (4 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2AM_PRZEDZIALOWA_NIEPEWNOSC_CVAR.md`, commit `09e3bac54acb9eb5c14a80a190cbbdf540869543`. Cztery definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Przedziałowa otoczka transportowa, dokładne krańce CVaR, odwrotny promień osiągnięcia progu, promień bezpieczeństwa oraz oszacowanie Lipschitza.
+- **Testy zapisane na main:** `tests/test_f282am_interval_transport_cvar.py`, commit `5ccf7fd420079768fb135d4a05262f2007b6c5b8`; sześć metod `unittest`, dokładna arytmetyka `Fraction`. **Nie wykonano testów:** kontener i Python zwracają błąd usługi. Brak podstaw do statusu PASS i do deklaracji zielonego CI.
+- **PDF:** nie skompilowano, ponieważ kontener/Python są niedostępne (błąd usługi). Pełny skład i niezależna recenzja matematyczna pozostają otwarte.
+- **Integracja:** bez rzeczywistego monolitu 0.20; **585/1222 bez zmian**. Wstęp historyczny i wcześniejsze rozdziały nieedytowane. Bez końcowego spisu treści i bez Tomu II.
