@@ -1657,3 +1657,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Manuskrypt: `manuscript/tom-01/F28/F28.2AG_WRAZLIWOSC_BUDZETU.md`, commit `88a25455f7a437aa4c7caa0a5bf5a12b75e0301e`; 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Wyniki: monotoniczność, wypukłość, odcinkowa afiniczność, dualne proste wspierające, oszacowanie Lipschitza.
 - Testy: `tests/test_f282ag_budget_sensitivity.py`, commit `362246d8e61a134ec4a361d02e04656c095067e6`; 5 metod `unittest` w arytmetyce `Fraction`. Nie przypisywać statusu PASS bez wykonania opublikowanego pliku.
 - Bez zmian w poprzednich rozdziałach i wstępie historycznym. Nie scalono z monolitem 0.20. Bilans **585/1222** bez zmian. Nie utworzono końcowego spisu treści ani Tomu II.
+
+
+### F28.2-AH — Odporny minimaks scenariuszowy (4 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2AH_ODPORNY_MINIMAKS_SCENARIUSZE.md`, commit `a29ad1c6bb65fc9e1207e5dc0728852903239aa5`. Trzy definicje, sześć twierdzeń z dowodami, pięć kontrprzykładów, osiem zadań rozwiązanych. Skończone scenariusze, dokładna linearyzacja LP, rozróżnienie decyzji odpornej i adaptacyjnej, granica Lipschitza, dualny certyfikat mieszanki scenariuszy.
+- **Testy na main:** `tests/test_f282ah_robust_scenarios.py`, commit `105577a48ab6755ef7391fed17c6a74f85b225ff`. Lokalny skrypt o tej samej treści logicznej uruchomiono: `python -m unittest discover -s /mnt/data/ontologia_ah -p 'test_*.py' -v`, **8/8 OK**. Sprawdzono m.in. 121 par wypukłości i 231 par nierówności Lipschitza w arytmetyce `Fraction`. **Nie wykonano bezpośrednio pobranego pliku repozytorium ani pełnego CI.**
+- **PDF:** lokalny wyciąg kontrolny `/mnt/data/ontologia_ah/F28_2AH_PODGLAD.pdf`, Pandoc/XeLaTeX, **1 strona A4**, **40 362 B**, SHA-256 `105fe72aabbd56d03da6b1275376b167d21c7e6b9bdb63b697eb17a353ac9660`. **To nie pełny skład opublikowanego źródła**.
+- **Granice:** nie wykonano niezależnej recenzji wszystkich dowodów, formalizacji w asystencie dowodowym, GitHub Actions ani integracji z rzeczywistym monolitem 0.20. Kontener nie rozwiązuje DNS github.com; dostęp do źródeł uzyskano przez autoryzowany konektor GitHub. Wstęp historyczny i wcześniejsze rozdziały nie zostały edytowane.
+- **Bilans:** **585/1222 bez zmian** do czasu scalania i rzeczywistej paginacji monolitu 0.20. Nie utworzono końcowego spisu treści ani Tomu II.
