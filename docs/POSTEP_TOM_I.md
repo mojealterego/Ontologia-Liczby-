@@ -1801,3 +1801,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Bilans:** 585/1222 bez zmian, bez integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały nieedytowane. Bez końcowego spisu treści i bez Tomu II.
 
 - **Kontrola lokalna (oddzielny skrypt):** `/mnt/data/ontologia_ax/check.py` — 512/512 dokładnych porównań wymiernych PASS. Nie jest to wykonanie bajtowo identycznego testu repozytorium. **Podgląd:** `/mnt/data/ontologia_ax/F28_2AX_PODGLAD.pdf`, ReportLab, 1 strona A4; wyciąg kontrolny, nie kanoniczny skład pełnego źródła. GitHub Actions i niezależna recenzja niezweryfikowane.
+
+
+### F28.2-AY — Rozkład luki CVaR w hierarchii agregacji (4 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2AY_ROZKLAD_LUKI_CVAR.md`, commit `34f9626f641dfe8e220e61363ded247c58933273`. Trzy definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Dokładna teleskopowość luk w hierarchii partycji, nieujemność, dualny warunek równości, oszacowanie skokowe, przypadek alfa=0, niezależność od ścieżki.
+- **Testy zapisane na main:** `tests/test_f282ay_gap_decomposition.py`, commit `acc4530627bbbc00fd14c54a1b77464441cc5450`. Pięć metod unittest, w tym 1024 porównania porządku na 256 wektorach i czterech poziomach alfa. **Testów nie wykonano:** lokalny Python i kontener zwróciły błąd usługi `redis.exceptions.ResponseError`. Nie deklarować PASS.
+- **PDF:** nie skompilowano z powodu niedostępności lokalnego środowiska wykonawczego. Niezależna recenzja matematyczna, pełne GitHub Actions i kanoniczny skład pozostają otwarte.
+- **Bilans:** 585/1222 bez zmian, do integracji z rzeczywistym monolitem 0.20. Wstęp historyczny i wcześniejsze rozdziały nieedytowane; bez końcowego spisu treści i bez Tomu II.
