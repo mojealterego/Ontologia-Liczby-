@@ -1681,3 +1681,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na main:** `tests/test_f282aj_cvar_distribution.py`, commit `5d58c3894e6b37e3a7fe58d027a6ec901059fccc`. Siedem metod `unittest`, arytmetyka dokładna `Fraction`. **Nie potwierdzono wykonania testów:** środowisko kontenera zwróciło błąd usługi. Brak podstaw do deklaracji PASS i zielonego CI.
 - **PDF:** nie skompilowano z powodu błędu usługi kontenera. Kanoniczny podgląd i niezależna recenzja pozostają otwarte.
 - **Ograniczenia:** wcześniejsze rozdziały i historyczny wstęp nieedytowane; brak integracji z rzeczywistym monolitem 0.20; **585/1222 bez zmian**; bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-AK — CVaR i certyfikaty transportowe (4 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2AK_CVAR_TRANSPORT_CERTYFIKATY.md`, commit `f2a3c645885e551ee219d7d0e946235d8f466198`. Cztery definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Rozwinięto F28.2-AJ o odległość transportową Wassersteina-1, certyfikat błędu CVaR, ostrość współczynnika i wypukłość ryzyka decyzyjnego.
+- **Testy zapisane na main:** `tests/test_f282ak_transport_cvar.py`, commit `97c6e2d812b9e6e41a4159de5e1d3b9aa547b01e`; sześć metod `unittest` opartych na `Fraction`. **Nie wykonano bajtowo identycznego pliku repozytorium**: lokalny kontener nie rozwiązuje DNS `raw.githubusercontent.com`. Lokalnie wykonano 5/5 testów analogicznego skryptu `/mnt/data/ontologia_ak/test_local.py`, w tym 324 porównania transportowe, wszystkie OK. Nie oznaczać opublikowanych testów ani CI jako PASS.
+- **PDF:** `/mnt/data/ontologia_ak/F28_2AK_PODGLAD.pdf`; Pandoc/XeLaTeX, 1 strona A4, SHA-256 `fff521ea9977ab8ca2fdd3e48fc24ba857e7333529900943c9a8002cc6e4e535`. To wyciąg kontrolny, **nie** kompilacja pełnego manuskryptu pobranego z GitHub.
+- **Otwarte:** wykonanie dokładnie opublikowanych testów, GitHub Actions, niezależna recenzja wszystkich dowodów, kanoniczna kompilacja pełnego źródła, integracja z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały bez ingerencji. **585/1222 bez zmian**. Bez końcowego spisu treści i bez Tomu II.
