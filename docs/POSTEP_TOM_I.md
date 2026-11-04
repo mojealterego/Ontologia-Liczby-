@@ -1739,3 +1739,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **PDF:** lokalny kontrolny wyciąg `/mnt/data/ontologia_aq/F28_2AQ_PODGLAD.pdf`, Pandoc/XeLaTeX, 1 strona A4; nie jest kanonicznym składem pełnego opublikowanego źródła.
 - **Niezweryfikowane:** uruchomienie opublikowanych sześciu testów z checkout, GitHub Actions, niezależna recenzja dowodów, kanoniczny skład i integracja z monolitem 0.20.
 - **Bilans:** **585/1222 bez zmian** do integracji z rzeczywistym monolitem 0.20; historyczny wstęp i wcześniejsze rozdziały nieedytowane; bez finalnego spisu treści i bez Tomu II.
+
+
+### F28.2-AR — Dokładna CVaR dla trzech scenariuszy (4 listopada 2026)
+
+- **Źródło na main:** `manuscript/tom-01/F28/F28.2AR_CVAR_TRZY_SCENARIUSZE.md`, commit `1ed461d98480755523f735d05faba1187556640b`. Trzy definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady i sześć zadań z rozwiązaniami. Wyprowadzono dokładną trzygałęziową formułę ogona dla trzech uporządkowanych strat, monotoniczność, certyfikat progu oraz stabilność względem perturbacji strat.
+- **Testy zapisane na main:** `tests/test_f282ar_three_scenario_cvar.py`, commit `e15848207f01284e7dd6f615be0b69e89e3b6060`, pięć metod `unittest` w arytmetyce `Fraction`. **Nie uruchomiono bajtowo identycznego pliku z repozytorium**: lokalne pobranie `raw.githubusercontent.com` zakończyło się błędem DNS. Lokalnie uruchomiono oddzielny skrypt `/mnt/data/check_ar.py`: **3/3 grupy OK**, w tym 900 porównań wzoru zamkniętego i algorytmu ogonowego. Wynik lokalny nie jest wynikiem testów repozytorium ani GitHub Actions.
+- **PDF kontrolny:** lokalny `/mnt/data/F28_2AR_PODGLAD.pdf`, Pandoc/XeLaTeX, **1 strona A4**. Jest to wyciąg, nie pełna kompilacja kanonicznego źródła opublikowanego na GitHub.
+- **Niezweryfikowane:** opublikowany test uruchomiony z checkout, pełne CI, niezależna recenzja dowodów, pełny skład źródła oraz integracja z rzeczywistym monolitem 0.20.
+- **Bilans:** **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nie były edytowane; bez końcowego spisu treści i bez Tomu II.
