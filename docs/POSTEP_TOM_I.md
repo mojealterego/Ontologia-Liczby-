@@ -1859,3 +1859,5 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na main:** `tests/test_f282be_tail_reconstruction.py`, commit `c9ce5b077a96fa288453cc3ff8403204e8c6f7f5`; sześć metod unittest, dokładna arytmetyka Fraction. Sam zapis nie dowodzi wykonania testów ani CI.
 - **Integracja:** bez ingerencji w historyczny wstęp i wcześniejsze rozdziały. **585/1222 bez zmian** aż do rzeczywistej integracji z monolitem 0.20. Nie tworzono końcowego spisu treści ani Tomu II.
 - **Do weryfikacji:** wykonanie dokładnie opublikowanego pliku testowego, pełny GitHub Actions, niezależna recenzja i kanoniczny skład całego źródła.
+
+- **Kontrola lokalna:** oddzielny skrypt `/mnt/data/ontologia_be/check.py` — 4125/4125 asercji w arytmetyce `Fraction` PASS (translacja, monotoniczność, stabilność na 125 wektorach i 11 poziomach t). **Nie jest to wykonanie bajtowo identycznego pliku testowego z GitHub**: `git clone` zablokowany przez DNS. PDF kontrolny `/mnt/data/ontologia_be/F28_2BE_PODGLAD.pdf`, 1 strona A4, SHA-256 `288402c31dc006f38316ab98caf9c5fd7884fcae20d64153a5c476e9f7899d92`; wyciąg, nie pełny skład źródła.
