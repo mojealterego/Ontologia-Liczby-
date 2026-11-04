@@ -1834,3 +1834,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **PDF kontrolny:** `/mnt/data/ontologia_bb/F28_2BB_PODGLAD.pdf`, ReportLab, 1 strona A4, 24567 bajtów; wyciąg, nie kanoniczna kompilacja pełnego źródła.
 - **Niezweryfikowane:** pełny GitHub Actions, niezależna recenzja wszystkich dowodów, wykonanie testu bezpośrednio z checkout, kanoniczny skład manuskryptu.
 - **Integracja:** brak scalenia z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Wstęp historyczny i wcześniejsze rozdziały nieedytowane. Bez finalnego spisu treści i bez Tomu II.
+
+
+### F28.2-BC — Zależność CVaR od poziomu ufności (4 listopada 2026)
+
+- **Manuskrypt zapisany na main:** `manuscript/tom-01/F28/F28.2BC_CZULOSC_POZIOMU_CVAR.md`, commit `ccab2b4011bde86b10f43fbd40a472c2595e0a00`. Trzy definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Zbadano kwantyle, dokładną postać przedziałową, ciągłość, monotoniczność, pochodne jednostronne, oszacowanie czułości i przekształcenia afiniczne.
+- **Testy zapisane na main:** `tests/test_f282bc_confidence_sensitivity.py`, commit `63090cbf5ce8f38209304fcd050d8bcdf092fc27`. Cztery metody unittest w arytmetyce Fraction, w tym 125 trójscenariuszowych wektorów i 20 poziomów alfa. **Nie uruchomiono:** lokalne narzędzia wykonawcze zwróciły `redis.exceptions.ResponseError`; brak podstaw do deklaracji PASS.
+- **PDF:** nie skompilowano, środowisko lokalne niedostępne (ResponseError). Brak kanonicznego składu, pełnego CI i niezależnej recenzji dowodów.
+- **Integracja:** monolit 0.20 nie został scalony. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały nieedytowane. Bez końcowego spisu treści i bez Tomu II.
