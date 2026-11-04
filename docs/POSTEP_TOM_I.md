@@ -1673,3 +1673,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Źródło na main:** `manuscript/tom-01/F28/F28.2AI_SCENARIUSZE_LOSOWE_CVAR.md`, commit `6d455cc5aa5bb54140464eeb97eb9e9f70d7f2a9`. Trzy definicje (VaR, CVaR, kontrola ryzyka), pięć twierdzeń z dowodami, cztery kontrprzykłady, osiem zadań rozwiązanych. Wyniki obejmują dokładną linearyzację CVaR, dualną otoczkę prawdopodobieństw, granicę najgorszego przypadku, wypukłość budżetową i stabilność względem błędów scenariuszy.
 - **Testy na main:** `tests/test_f282ai_cvar.py`, commit `3ddc260c828518b38557974cc81fa76b1fc75c0d`. Osiem metod unittest z arytmetyką `Fraction`; ich opublikowany plik nie został jeszcze wykonany z checkout GitHub. Osobny lokalny skrypt sprawdzający osiem analogicznych własności dał **8/8 OK**, co nie jest formalną weryfikacją dowodów ani wynikiem CI.
 - **Status:** brak integracji z rzeczywistym monolitem 0.20, pełnej kompilacji kanonicznej i niezależnej recenzji. Historyczny wstęp i wcześniejsze rozdziały pozostawiono bez zmian. **585/1222 bez zmian**. Bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-AJ — Odporność CVaR na błędy rozkładu (4 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2AJ_ODPORNOSC_CVAR_ROZKLADY.md`, commit `9e75ce59092c4418ce4a2f8e3dd52d585947261d`. Cztery definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Nowe wyniki: oszacowanie TV z czynnikiem `1/(1-alpha)`, jego ostrość, certyfikat dla kuli niepewności rozkładu i stabilność łączna.
+- **Testy na main:** `tests/test_f282aj_cvar_distribution.py`, commit `5d58c3894e6b37e3a7fe58d027a6ec901059fccc`. Siedem metod `unittest`, arytmetyka dokładna `Fraction`. **Nie potwierdzono wykonania testów:** środowisko kontenera zwróciło błąd usługi. Brak podstaw do deklaracji PASS i zielonego CI.
+- **PDF:** nie skompilowano z powodu błędu usługi kontenera. Kanoniczny podgląd i niezależna recenzja pozostają otwarte.
+- **Ograniczenia:** wcześniejsze rozdziały i historyczny wstęp nieedytowane; brak integracji z rzeczywistym monolitem 0.20; **585/1222 bez zmian**; bez końcowego spisu treści i bez Tomu II.
