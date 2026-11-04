@@ -1775,3 +1775,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **PDF:** `/mnt/data/ontologia_au/F28_2AU_PODGLAD.pdf`, ReportLab, 1 strona A4, 24 619 bajtów, SHA-256 `f42c40ff859e5497c497a8109347d6b7b59db9225b9f0089a637b0f210ca9b9b`. To wyciąg kontrolny, nie kanoniczna kompilacja pełnego źródła.
 - **Otwarte:** niezależna recenzja dowodów, test opublikowanego pliku z checkout, GitHub Actions, pełny skład i integracja z rzeczywistym monolitem 0.20.
 - **Bilans:** **585/1222 bez zmian**. Wstęp historyczny i wcześniejsze rozdziały nieedytowane; bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-AV — Kontrakcja informacji i dywersyfikacja CVaR (4 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2AV_KONTRAKCJA_INFORMACJI_CVAR.md`, commit `0d29fa41d1b3db14d73f1b222a1d4fb8281c150b`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Główny wynik: CVaR nie wzrasta przy uśrednieniu warunkowym względem partycji scenariuszy; ponadto ustalono granice ryzyka i warunek zerowego marginesu dywersyfikacji.
+- **Testy zapisane na main:** `tests/test_f282av_conditional_cvar.py`, commit `45d8e766020d847d857fed554a4debee4b4294dc`; sześć metod unittest w arytmetyce dokładnej Fraction. **Brak potwierdzenia wykonania testów**: lokalny kontener zgłosił `SessionLimitReachedError`. Nie deklarować PASS ani zielonego CI.
+- **PDF:** nie skompilowano; kontener niedostępny (`SessionLimitReachedError`). Niezależna recenzja matematyczna, pełny GitHub Actions i kanoniczny skład pozostają otwarte.
+- **Integracja:** nie scalono z rzeczywistym monolitem 0.20. **585/1222 bez zmian**; historyczny wstęp i wcześniejsze rozdziały nieedytowane. Bez końcowego spisu treści i bez Tomu II.
