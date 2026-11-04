@@ -1757,3 +1757,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Podgląd lokalny:** `/mnt/data/ontologia_as/F28_2AS_PODGLAD.pdf`, ReportLab, 1 strona A4, 24 136 B. Jest to wyciąg kontrolny, **nie pełny skład kanonicznego źródła**.
 - **Otwarte:** uruchomienie dokładnego testu z checkout, GitHub Actions, niezależna recenzja wszystkich dowodów, pełny skład i integracja z rzeczywistym monolitem 0.20.
 - **Bilans:** **585/1222 bez zmian**. Wstęp historyczny i wcześniejsze rozdziały nieedytowane; bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-AT — Dokładna odporność CVaR na przedziałowe błędy strat (4 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2AT_ODPORNOSC_PRZEDZIALOWA_STRAT.md`, commit `74fb982d7f4dee5c40d74b892e073d85760454e9`. Trzy definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Dokładne ekstrema CVaR w prostokątnym zbiorze niepewności strat, certyfikat progowy, stabilność w normie maksimum i ważonej normie L1, niezmienniczość remisów.
+- **Testy na main:** `tests/test_f282at_interval_loss_cvar.py`, commit `98e9e244dec466502a216d32145c5b27fab81a17`, sześć metod unittest opartych na Fraction. Lokalnie uruchomiono **6/6 OK na oddzielnym logicznie równoważnym skrypcie** `/mnt/data/ontologia_at/test.py`, w tym 225 skończonych przypadków monotoniczności. **Nie jest to wykonanie bajtowo identycznego testu opublikowanego na GitHub ani wynik GitHub Actions.**
+- **Podgląd lokalny:** `/mnt/data/ontologia_at/F28_2AT_PODGLAD.pdf`, ReportLab, 1 strona A4, 24 871 bajtów, SHA-256 `eb53a6a1361977ea8e7e1f95701986a944d46b0f22054dc213ac478e7a6705a1`. Wyciąg kontrolny, nie kanoniczna kompilacja pełnego opublikowanego manuskryptu.
+- **Niezweryfikowane:** niezależna recenzja wszystkich dowodów, uruchomienie opublikowanego testu z checkout, pełny GitHub Actions, kanoniczny skład całego źródła i integracja z rzeczywistym monolitem 0.20.
+- **Bilans:** **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nieedytowane; bez końcowego spisu treści i bez Tomu II.
