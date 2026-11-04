@@ -1851,3 +1851,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **PDF kontrolny:** `/mnt/data/ontologia_bd/F28_2BD_PODGLAD.pdf`, ReportLab, 1 strona A4, SHA-256 `6b2dbd10b82e5a401f6c9acb6bbde2f340e2d2b2afaf0859791bda8dd4d1bd5a`. Wyciąg kontrolny, nie pełny kanoniczny skład źródła.
 - **Otwarte:** uruchomienie testów z checkout, pełne GitHub Actions, niezależna recenzja dowodów, kanoniczny skład i integracja z rzeczywistym monolitem 0.20.
 - **Bilans:** **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nieedytowane; bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-BE — Rekonstrukcja rozkładu z funkcji budżetu ogonowego (5 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2BE_REKONSTRUKCJA_ROZKLADU_Z_BUDZETU_OGONOWEGO.md`, commit `3b2724be1ba676752f87abd2900c47933ec330bb`. Trzy definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady i sześć zadań rozwiązanych. Wynik: sygnatura H(t)=t CVaR_(1-t) jednoznacznie wyznacza skończenie wspierany rozkład; podano charakteryzację funkcji realizowalnych, porządek ogonowy i stabilność.
+- **Testy na main:** `tests/test_f282be_tail_reconstruction.py`, commit `c9ce5b077a96fa288453cc3ff8403204e8c6f7f5`; sześć metod unittest, dokładna arytmetyka Fraction. Sam zapis nie dowodzi wykonania testów ani CI.
+- **Integracja:** bez ingerencji w historyczny wstęp i wcześniejsze rozdziały. **585/1222 bez zmian** aż do rzeczywistej integracji z monolitem 0.20. Nie tworzono końcowego spisu treści ani Tomu II.
+- **Do weryfikacji:** wykonanie dokładnie opublikowanego pliku testowego, pełny GitHub Actions, niezależna recenzja i kanoniczny skład całego źródła.
