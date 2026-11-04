@@ -1842,3 +1842,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy zapisane na main:** `tests/test_f282bc_confidence_sensitivity.py`, commit `63090cbf5ce8f38209304fcd050d8bcdf092fc27`. Cztery metody unittest w arytmetyce Fraction, w tym 125 trójscenariuszowych wektorów i 20 poziomów alfa. **Nie uruchomiono:** lokalne narzędzia wykonawcze zwróciły `redis.exceptions.ResponseError`; brak podstaw do deklaracji PASS.
 - **PDF:** nie skompilowano, środowisko lokalne niedostępne (ResponseError). Brak kanonicznego składu, pełnego CI i niezależnej recenzji dowodów.
 - **Integracja:** monolit 0.20 nie został scalony. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały nieedytowane. Bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-BD — Funkcja budżetu ogonowego i jej wklęsłość (4 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2BD_BUDZET_OGONOWY_CVAR.md`, commit `9490126ef9af4d6f0f9effa304e946f54952fa6e`. Trzy definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady i sześć zadań rozwiązanych. Funkcja H(t)=t·CVaR_(1−t) jest wklęsła, odcinkami liniowa; uzyskano profil marginalny, porządek ogonowy, nieujemność nadmiaru nad średnią i stabilność.
+- **Test opublikowany na main:** `tests/test_f282bd_tail_budget.py`, commit `e8aaddd68898ca25ebce189ea291c4252f535abe`. Sześć metod unittest. **Nie wykonano bajtowo identycznego testu z GitHub:** lokalne pobranie raw.githubusercontent.com zakończyło się błędem DNS. Lokalnie wykonano oddzielny skrypt `/mnt/data/ontologia_bd/check.py`: **742/742 dokładne porównania Fraction PASS**. Nie jest to wynik CI ani uruchomienie opublikowanego testu.
+- **PDF kontrolny:** `/mnt/data/ontologia_bd/F28_2BD_PODGLAD.pdf`, ReportLab, 1 strona A4, SHA-256 `6b2dbd10b82e5a401f6c9acb6bbde2f340e2d2b2afaf0859791bda8dd4d1bd5a`. Wyciąg kontrolny, nie pełny kanoniczny skład źródła.
+- **Otwarte:** uruchomienie testów z checkout, pełne GitHub Actions, niezależna recenzja dowodów, kanoniczny skład i integracja z rzeczywistym monolitem 0.20.
+- **Bilans:** **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nieedytowane; bez końcowego spisu treści i bez Tomu II.
