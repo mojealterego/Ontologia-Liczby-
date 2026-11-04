@@ -1783,3 +1783,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy zapisane na main:** `tests/test_f282av_conditional_cvar.py`, commit `45d8e766020d847d857fed554a4debee4b4294dc`; sześć metod unittest w arytmetyce dokładnej Fraction. **Brak potwierdzenia wykonania testów**: lokalny kontener zgłosił `SessionLimitReachedError`. Nie deklarować PASS ani zielonego CI.
 - **PDF:** nie skompilowano; kontener niedostępny (`SessionLimitReachedError`). Niezależna recenzja matematyczna, pełny GitHub Actions i kanoniczny skład pozostają otwarte.
 - **Integracja:** nie scalono z rzeczywistym monolitem 0.20. **585/1222 bez zmian**; historyczny wstęp i wcześniejsze rozdziały nieedytowane. Bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-AW — Hierarchia informacji i certyfikaty kontrakcji CVaR (4 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2AW_HIERARCHIA_INFORMACJI_CVAR.md`, commit `9e752f8d46d9f379bd5938d4a6b40ae653ac4cf1`. Cztery definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Prawo wieży dla partycji, monotoniczność CVaR przy agregacji, dokładny dualny certyfikat równości, oszacowanie oscylacyjne, przypadek α=0 oraz niezmienniczość permutacyjna.
+- **Testy na main:** `tests/test_f282aw_information_hierarchy.py`, commit `408dae92b95ef60a6cbd3d23662aac23cee5163e`. Sześć metod unittest, w tym 500 dokładnych przypadków porządku CVaR (125 wektorów × 4 poziomy ogona). Lokalnie wykonano 6/6 OK na osobnym pliku o równoważnej logice `/mnt/data/ontologia_aw/test_f282aw.py`. **Nie wykonano bajtowo identycznego pliku pobranego z GitHub ani pełnego CI.**
+- **PDF lokalny:** `/mnt/data/ontologia_aw/F28_2AW_PODGLAD.pdf`, 2 strony A4, ReportLab. Podgląd powstał z lokalnej redakcji pełnego suplementu, nie z bajtowo identycznego źródła repozytorium; nie jest kanonicznym składem.
+- **Otwarte:** niezależna recenzja wszystkich dowodów, wykonanie opublikowanego testu z checkout, GitHub Actions, kanoniczny skład i integracja z rzeczywistym monolitem 0.20.
+- **Bilans:** **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nieedytowane; bez końcowego spisu treści i bez Tomu II.
