@@ -1722,3 +1722,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na main:** `tests/test_f282ao_strict_cvar.py`, commit `fb969ab2f872f3a8364293cdf5cd70b465d82572`. Osiem metod `unittest` opartych na dokładnej arytmetyce `Fraction`. **Lokalnie przed publikacją uruchomiono odpowiadający logicznie plik: 8/8 OK**; brak potwierdzenia uruchomienia bajtowo identycznego pliku z checkout GitHub i brak potwierdzenia GitHub Actions.
 - **Podgląd:** lokalny `/mnt/data/ontologia_ao/F28_2AO_PODGLAD.pdf`, Pandoc/XeLaTeX, 2 strony A4. PDF jest kompilacją lokalnej wersji redakcyjnej, **nie** opublikowanego bajtowo identycznego źródła.
 - **Otwarte:** niezależna recenzja wszystkich dowodów, kanoniczna kompilacja opublikowanego manuskryptu, pełny CI i integracja z rzeczywistym monolitem 0.20. Wstęp historyczny i wcześniejsze rozdziały nieedytowane. **585/1222 bez zmian**. Bez finalnego spisu treści i bez Tomu II.
+
+
+### F28.2-AP — Wrażliwość CVaR na poziom ufności (4 listopada 2026)
+
+- **Źródło na main:** `manuscript/tom-01/F28/F28.2AP_WRAZLIWOSC_CVAR_POZIOM_UFNOSCI.md`, commit `2d1a790ee8c77cb40fbc136daa1bf2f50da6df47`. Cztery definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Profil R(α), punkt nasycenia, dokładny zbiór dopuszczalnych poziomów, stabilność wspólna masy i poziomu ufności.
+- **Testy na main:** `tests/test_f282ap_confidence_cvar.py`, commit `83f289ea6f9fe88483abd8114a0b2e97078cf2b0`. Sześć metod unittest w arytmetyce dokładnej Fraction. **Lokalnie wykonano 6/6 OK** na pliku o tej samej treści logicznej; nie wykonano bajtowo identycznego pliku pobranego z repozytorium ani GitHub Actions.
+- **Podgląd:** lokalny `/mnt/data/ontologia_ap/F28_2AP_PODGLAD.pdf`, Pandoc/XeLaTeX, 2 strony A4. PDF z pełniejszej lokalnej redakcji, **nie** z bajtowo identycznego pliku opublikowanego na GitHub.
+- **Niezweryfikowane:** niezależna recenzja wszystkich dowodów, pełny CI, kanoniczna kompilacja opublikowanego źródła i integracja z rzeczywistym monolitem 0.20. Wstęp historyczny i wcześniejsze rozdziały nieedytowane. **585/1222 bez zmian**; bez końcowego spisu treści i bez Tomu II.
