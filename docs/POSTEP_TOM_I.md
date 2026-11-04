@@ -1748,3 +1748,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **PDF kontrolny:** lokalny `/mnt/data/F28_2AR_PODGLAD.pdf`, Pandoc/XeLaTeX, **1 strona A4**. Jest to wyciąg, nie pełna kompilacja kanonicznego źródła opublikowanego na GitHub.
 - **Niezweryfikowane:** opublikowany test uruchomiony z checkout, pełne CI, niezależna recenzja dowodów, pełny skład źródła oraz integracja z rzeczywistym monolitem 0.20.
 - **Bilans:** **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nie były edytowane; bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-AS — CVaR dla n scenariuszy: porządkowanie i remisy (4 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2AS_CVAR_N_SCENARIUSZY.md`, commit `4710f988ceb67ffd1bb8c28b3596ea6e9385e33e`. Cztery definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady i sześć zadań rozwiązanych. Uogólniono F28.2-AR na skończone n, remisy strat i masy zerowe; podano certyfikat progowy i złożoność algorytmu.
+- **Testy na main:** `tests/test_f282as_n_scenario_cvar.py`, commit `f0f49b741cfdfbf5ddc4b8f2f8a57e6635870bf0`. Sześć metod unittest; arytmetyka Fraction, enumeracja scenariuszy, porównanie zachłannej reprezentacji z minimalizacją primal. **Lokalnie uruchomiono oddzielny logicznie równoważny skrypt**: 6/6 OK. **Nie uruchomiono bajtowo identycznego pliku pobranego z GitHub; CI niezweryfikowane.**
+- **Podgląd lokalny:** `/mnt/data/ontologia_as/F28_2AS_PODGLAD.pdf`, ReportLab, 1 strona A4, 24 136 B. Jest to wyciąg kontrolny, **nie pełny skład kanonicznego źródła**.
+- **Otwarte:** uruchomienie dokładnego testu z checkout, GitHub Actions, niezależna recenzja wszystkich dowodów, pełny skład i integracja z rzeczywistym monolitem 0.20.
+- **Bilans:** **585/1222 bez zmian**. Wstęp historyczny i wcześniejsze rozdziały nieedytowane; bez końcowego spisu treści i bez Tomu II.
