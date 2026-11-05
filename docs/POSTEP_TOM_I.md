@@ -2241,3 +2241,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** niezależny skrypt `/mnt/data/ontologia_ea/test_f28_2ea.py` — **PASS, 4527 asercji** w dokładnej arytmetyce wymiernej. Test zapisany w GitHub obejmuje również kontrprzykład; jego uruchomienie w GitHub Actions niepotwierdzone.
 - **Podgląd PDF:** lokalny `/mnt/data/ontologia_ea/F28_2EA_PODGLAD.pdf`, 1 strona A4, 24516 B, SHA-256 `4c9c129dc1c69b51861371d2137c7b3b923fc6a2ac5e1a5daebac1393c2b4419`, otwarcie i render PyMuPDF PASS. Jest to **skrócony podgląd**, nie wierna kompilacja całego manuskryptu i nie został umieszczony w repo.
 - **Stan:** kanoniczne **585/1222 bez zmian**; brak integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały niezmienione. Bez końcowego spisu treści i bez Tomu II. Pełne CI, niezależna recenzja i audyt typograficzny nadal otwarte.
+
+
+### Tom I — F28.2-EB: dokładne programowanie dynamiczne kwantyzacji (2026-11-05)
+- **Na main:** `manuscript/tom-i/F28_2EB.md`, commit `d277ba0aab6a8249d9fe0722d165bda620577d02`; `tests/test_f28_2eb.py`, commit `5cb4e51bcb6631c504a18b78feeb293b4120d722`.
+- **Zakres:** definicja kosztu, 5 twierdzeń z dowodami, 4 kontrprzykłady i 6 rozwiązanych zadań. Dokładna rekurencja optimum globalnego dla kolejnych komórek, koszt z sum prefiksowych, monotoniczność i złożoność O(kn²).
+- **Lokalna weryfikacja:** odpowiednik testu wykonano w Pythonie z fractions.Fraction: PASS, 2180 dokładnych asercji; py_compile PASS. Wykonanie testu repozytoryjnego w CI niepotwierdzone.
+- **PDF:** lokalny podgląd pełnego zakresu redakcyjnego `/mnt/data/ontologia_eb/F28_2EB_PODGLAD.pdf`, 2 strony A4, SHA-256 `733fa75175ddff354f5f33e1f83640dd59ed629348fd153538f85048b5424389`, otwarcie i render PyMuPDF PASS. PDF przygotowano z lokalnego wariantu, nie jest wierną kompilacją bajtową manuskryptu GitHub.
+- **Stan:** 585/1222 bez zmian; brak integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsza treść niezmienione. Bez końcowego spisu treści i Tomu II. CI, niezależna recenzja i audyt typograficzny otwarte.
