@@ -2180,3 +2180,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Zakres: 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Wyniki: W₁≤W₂, W₂²≤D W₁, certyfikat kwantyzacji W₂²≤hD²/4, kontrakcja uśredniania komórkowego.
 - Weryfikacja lokalna: 1109 asercji w dokładnej arytmetyce wymiernej PASS; kompilacja testu Python PASS. Nie wykonano niezależnej recenzji ani pełnego CI.
 - Brak integracji z rzeczywistym monolitem 0.20: licznik kanoniczny 585/1222 bez zmian. Historyczny wstęp i dotychczasowe rozdziały niezmienione; brak końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-DT: kwantyzacja medianowa W1 (2026-11-05)
+- **Zapis na main:** `manuscript/tom-i/F28_2DT.md` — commit `805cbbd77a2985884c6288ead79e0677891e8550`; `tests/test_f28_2dt.py` — commit `ddc92d2fc48c02cfbe46476d4f87da5b8fef49eb`.
+- **Zakres:** 3 definicje, 4 twierdzenia z dowodami, 4 kontrprzykłady i 6 rozwiązanych zadań. Mediana komórkowa minimalizuje błąd L1; ostry certyfikat `W1 ≤ (1/2) Σ Δ_i d_i ≤ h(b-a)/2`; stabilność dla normy supremum i kontrprzykład nieciągłości operatora próbkowania w L1.
+- **Test lokalny:** `python test_f28_2dt.py` — PASS, **78 164** asercje w arytmetyce wymiernej (test enumeracyjny na dyskretnych niemalejących kwantylach). Pełne CI i niezależna recenzja dowodów niepotwierdzone.
+- **Podgląd lokalny:** `/mnt/data/ontologia_dt/F28_2DT_PODGLAD.pdf`, 1 strona A4, SHA-256 `8f75e4ab6ffa7ce1a0ed6d991098055b84093321eb1a09d31c51242138f16bf6`, render PyMuPDF PASS. To skrócony podgląd, **nie** wierna kompilacja repozytoryjnego manuskryptu; binarny PDF nie został umieszczony w repozytorium.
+- **Stan kanoniczny:** **585/1222 bez zmian**, bez integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsza treść niezmienione. Bez końcowego spisu treści i Tomu II.
