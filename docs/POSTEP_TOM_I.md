@@ -1990,3 +1990,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - V9 zachowuje 659 stron V8 i dodaje 2 strony rozdziału F28.2-BV „Certyfikaty ryzyka ogonowego przy brakujących obserwacjach” (3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań). Wersja lokalna: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V9.pdf`; źródło: `build_bv.py`.
 - **Kontrola:** 661/661 stron wyrenderowano bez błędów; porównanie renderów wszystkich pierwszych 659 stron z V8 nie wykazało różnic; strony 660–661 wyrenderowano osobno. Rozmiar poniżej limitu 99 MB.
 - PDF nie został opublikowany w GitHub; repozytorium jest dziennikiem postępu. Pozostają niezależna recenzja matematyczna i pełna kontrola typograficzna.
+
+### Tom I PDF V10 — F28.2-BW (5 listopada 2026)
+- PDF główny: `ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V10.pdf`; **663 strony A4**, **8 623 771 B**, SHA-256 `589729f15d571b83a69da85738cc5c5e0954d4d0f18cb385e7af423ee6e58400`.
+- Zachowano 661 stron V9 i dołączono 2 strony rozdziału F28.2-BW o próbkach ważonych: 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań.
+- Plik roboczy: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V10.pdf`; skrypt: `build_bw.py`; osobny rozdział: `F28_2BW_PELNY_ROZDZIAL.pdf`.
+- Weryfikacja: 663/663 stron wyrenderowano bez wyjątków PyMuPDF; obie nowe strony wyrenderowano osobno; rozmiar <99 MB. Niezależna recenzja matematyczna i całościowa kontrola typograficzna nadal otwarte.
+- PDF jest artefaktem rozmowy, nie przesłano go do GitHub. Repozytorium przechowuje dziennik postępu.
