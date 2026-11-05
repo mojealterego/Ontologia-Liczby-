@@ -2045,3 +2045,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Lokalny artefakt: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V17.pdf`; źródło `build_cd.py`, rozdział `F28_2CD_PELNY_ROZDZIAL.pdf`.
 - PyMuPDF wyrenderował 684/684 stron bez wyjątku; nowe strony 682–684 osobno, obejrzano stronę 683. Rozmiar <99 MB. Niezależna recenzja matematyczna i kompleksowa kontrola typograficzna pozostają otwarte.
 - PDF udostępniony jako artefakt rozmowy, nie wgrany do GitHub.
+
+### Tom I PDF-first V18 — F28.2-CE (5 listopada 2026)
+- Główny PDF `ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V18.pdf`: **686 stron A4**, **9 037 746 B**, SHA-256 `211ab63d6c1df429b8e241c83353ad5a5a8f4ce8c800b0fab9845a295e63715f`.
+- Zachowano 684 strony V17 i dodano 2 strony rozdziału F28.2-CE „Dokładna identyfikacja ryzyka na siatce i błędy przybliżeń” (3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 zadań rozwiązanych). Główny wynik: `0 ≤ H(t)−L(t) ≤ (b−a)h/4`.
+- Artefakty robocze: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V18.pdf`, `build_ce.py`, `F28_2CE_PELNY_ROZDZIAL.pdf`.
+- Kontrola: PyMuPDF wyrenderował 686/686 stron bez wyjątków, nowe strony 685–686 zapisano jako PNG; stronę 685 sprawdzono wizualnie. Rozmiar poniżej 99 MB. Niezależna recenzja matematyczna i pełny audyt typograficzny pozostają otwarte.
+- PDF udostępniono jako artefakt rozmowy, nie wgrano do GitHub.
