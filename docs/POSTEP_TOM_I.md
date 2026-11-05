@@ -1919,3 +1919,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test repozytoryjny wykonany lokalnie:** `tests/test_f282bk_combined_contamination.py` — **4/4 PASS**, w tym 72 kombinacje certyfikatu. Lokalna kopia i odczytana wersja na main mają ten sam Git blob SHA-1 `6bba72d2a71e36e9a2fffbc573b962bd117bb53d`. Wcześniejsza adnotacja o braku uruchomienia opublikowanego testu jest tym wpisem zaktualizowana.
 - **Korekta PDF:** istniejący plik `/mnt/data/ontologia_bk/F28_2BK_PODGLAD.pdf` zweryfikowano przez `sha256sum` i `pdfinfo`: **48 823 bajty, 1 strona**, SHA-256 `cbabcf37cba69f4f0d3244a79e4dd131ae4c8bf2547d4c8093ca04b83adff2be`. Poprzednio podane 23 875 bajtów i SHA-256 `cdddf275f8e9c2f5f407b1b69f089c025640be8c89f8befe956f96f4063570d7` były nieprawidłowe i nie powinny być wykorzystywane.
 - **Nadal niezweryfikowane:** pełne CI GitHub Actions, niezależna recenzja matematyczna, pełny kanoniczny skład oraz integracja z monolitem 0.20. Licznik **585/1222 bez zmian**.
+
+
+### F28.2-BL — Dualność budżetu ogonowego i certyfikaty progowe (5 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2BL_DUALNOSC_BUDZETU_OGONOWEGO.md`, commit `6c32d219c5e692dce22d7ab8e06e1e2aba1912c0`. Trzy definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Dokładna dualność `H(t)=max_{0≤w_i≤p_i,Σw_i=t}Σw_ix_i=min_z[t z+Σp_i(x_i-z)_+]`, warunek optymalności progu i luka certyfikatu.
+- **Testy na main:** `tests/test_f282bl_duality.py`, commit `d262f3f77d3f1a81b5159e71a314f89bbd457697`; **4/4 unittest OK**, w tym 36 przypadków dokładnej dualności w arytmetyce Fraction. Lokalny Git blob SHA-1 `c915a20a6c639fdba0dd5822cc83b8f07b65b02b`; repozytoryjny Git blob SHA-1 `c915a20a6c639fdba0dd5822cc83b8f07b65b02b`. Zgodność bajtowa potwierdzona.
+- **PDF kontrolny:** `/mnt/data/ontologia_bl/F28_2BL_PODGLAD.pdf`, 1 strona A4, 24 936 bajtów, SHA-256 `fd806a1658bede06d00f9129b3af1b94d76816f882e5766726f84c05b8beb77f`. To wyciąg wyników, nie kanoniczny skład całego rozdziału.
+- **Otwarte:** GitHub Actions, niezależna recenzja dowodów, pełny skład manuskryptu i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**; bez edycji historycznego wstępu, końcowego spisu treści i Tomu II.
