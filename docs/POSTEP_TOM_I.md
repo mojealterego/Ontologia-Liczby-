@@ -1877,3 +1877,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na main:** `tests/test_f282bg_tail_transport.py`, commit `21aab1c027b213e691c89a7abe7cce585667807b`. Lokalnie uruchomiono cztery metody `unittest` z równoważnego skryptu: **4/4 OK**, w tym 36 przypadków transportowych; nie potwierdzono ponownego uruchomienia pliku pobranego z GitHub ani GitHub Actions.
 - **Podgląd PDF:** `/mnt/data/ontologia_bg/F28_2BG_PODGLAD.pdf`, 1 strona A4, 24491 bajtów, SHA-256 `de47d2b8021f4cc077c1c028cc477da5db1f4a7344443753697fba5a29550dab`. Skrót kontrolny, nie kanoniczny skład pełnego źródła.
 - **Otwarte:** pełne CI, niezależna recenzja dowodów, kanoniczny skład i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**; wstęp historyczny i wcześniejsze rozdziały nieedytowane. Bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-BH — Transport dyskretny, CDF i siatki aproksymacyjne (5 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2BH_TRANSPORT_DYSKRETNY_CDF_I_SIATKI.md`, commit `0695edd29805c15046d9b440c5ab2af96d3027e6`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Dokładna formuła `W1=sum_j |Fμ(zj)-Fν(zj)|(z(j+1)-zj)` oraz certyfikaty kwantyzacji.
+- **Testy na main:** `tests/test_f282bh_cdf_transport.py`, commit `a3f8c7e7bdd9115882c0adf19a3ddfdaf6557447`. Lokalnie wykonano **4/4 unittest OK** z dokładną kopią kodu zapisanego na GitHub, bez ponownego pobrania i porównania bajtowego. Brak potwierdzonego GitHub Actions.
+- **Podgląd PDF:** `/mnt/data/ontologia_bh/F28_2BH_PODGLAD.pdf`, 1 strona A4, 24040 bajtów, SHA-256 `7c2403df8901098e04cfce7aa5de8471f1e9653900ede0b99cd0a4a4c30298ac`. Wyciąg kontrolny, nie pełny skład manuskryptu.
+- **Otwarte:** uruchomienie testu z checkout, CI, niezależna recenzja, pełny skład i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**; historyczny wstęp i wcześniejsze rozdziały nieedytowane; bez końcowego spisu treści i bez Tomu II.
