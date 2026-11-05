@@ -2031,3 +2031,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Lokalny artefakt: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V15.pdf`; źródło: `build_cb.py`; rozdział: `F28_2CB_PELNY_ROZDZIAL.pdf`.
 - Kontrola: PyMuPDF wyrenderował 678/678 stron bez wyjątków; nowe strony 676–678 osobno, stronę 677 obejrzano. Limit 99 MB spełniony. Niezależna recenzja matematyczna i kompleksowa kontrola typograficzna pozostają otwarte.
 - PDF jest artefaktem rozmowy, repozytorium rejestruje postęp.
+
+### Tom I PDF-first V16 — F28.2-CC (5 listopada 2026)
+- Główny PDF: `ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V16.pdf`; **681 stron A4**, **8 935 456 bajtów**, SHA-256 `5c6faaa4911925a35e940530174f553b61baf1836bd9a76eb10ff235995d0eed`.
+- Zachowano 678 stron V15 i dodano 3 strony rozdziału F28.2-CC „Geometria zbioru zgodnych rozkładów i identyfikowalność”: 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 zadań rozwiązanych.
+- Artefakty lokalne: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V16.pdf`, `F28_2CC_PELNY_ROZDZIAL.pdf`, `build_cc.py`.
+- Weryfikacja: PyMuPDF wyrenderował 681/681 stron bez wyjątku; nowe strony 679–681 wyrenderowano osobno. Limit 99 MB spełniony. Niezależna recenzja matematyczna i pełna kontrola typograficzna nadal otwarte.
+- PDF jest artefaktem rozmowy, repozytorium rejestruje postęp.
