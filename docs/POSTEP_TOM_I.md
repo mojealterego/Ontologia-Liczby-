@@ -2267,3 +2267,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** wykonano `python /mnt/data/ontologia_ed/test_f28_2ed.py`: PASS, 49 003 dokładne asercje wymierne; `python -m py_compile`: PASS. Skrypt lokalny jest równoważny treści testu zapisanego na GitHub, ale nie został pobrany z GitHub; GitHub Actions CI niepotwierdzone.
 - **PDF:** lokalny skrócony podgląd `/mnt/data/ontologia_ed/F28_2ED_PODGLAD.pdf`, 1 strona A4, 24 138 bajtów, SHA-256 `394601033e1ab3db375b5d806b12c12d9b489c2a0d8593d68b6a466cdb67beb4`. PyMuPDF otwarcie i render 1/1 PASS. To nie jest wierna kompilacja całego manuskryptu; nie zapisano PDF na GitHub.
 - **Otwarte:** niezależna recenzja dowodów, pełne CI, integracja z rzeczywistym monolitem 0.20 i audyt typograficzny. Historyczny wstęp i wcześniejsze rozdziały niezmienione. **Kanoniczny licznik 585/1222 bez zmian**; bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-EE: audyt algorytmu dziel i zwyciężaj (2026-11-06)
+- **Na main:** `manuscript/tom-i/F28_2EE.md`, commit `ea83800a54ea900432f16cf5ad92a4af87f949a6`; `tests/test_f28_2ee.py`, commit `8a393bb43525e4f3215d816649bde76167a318d5`.
+- **Zakres:** 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 zadań rozwiązanych. Koszt blokowy, rekonstrukcja świadka, kryterium różnicowe, niezmienniczość afiniczna i granice testowania.
+- **Lokalna weryfikacja:** `python -m py_compile /mnt/data/ontologia_ee/check.py` PASS; `python /mnt/data/ontologia_ee/check.py` PASS: **77 328 asercji wymiernych**, porównanie referencyjnego DP i przyspieszonego divide-and-conquer, kontrola dopuszczalności i kosztu świadka. Jest to **lokalny odpowiednik**, nie uruchomienie pobranego z GitHub `tests/test_f28_2ee.py` (DNS raw.githubusercontent.com niedostępny). GitHub Actions CI niepotwierdzone.
+- **Podgląd PDF:** `/mnt/data/ontologia_ee/F28_2EE_PODGLAD.pdf`, 1 strona A4, SHA-256 `86b8931f71b0371dbac90d74b5123e59cfb125f0fea278a70e3a31a34e933585`; otwarcie i render PyMuPDF PASS. Skrócona redakcja, nie wierna kompilacja pełnego manuskryptu GitHub; PDF nie jest zapisany w repozytorium.
+- **Stan:** 585/1222 bez zmian; brak integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały niezmienione. Bez końcowego spisu treści i bez Tomu II. Niezależna recenzja matematyczna i pełne CI pozostają otwarte.
