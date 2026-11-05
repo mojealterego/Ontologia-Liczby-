@@ -2146,3 +2146,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test wykonany lokalnie:** niezależny skrypt `/mnt/data/ontologia_do/check.py` — PASS, 37 dokładnych asercji na liczbach wymiernych. Test repozytoryjny `tests/test_f28_2do.py` zapisano, ale jego uruchomienie w CI **niepotwierdzone**.
 - **Podgląd PDF:** `/mnt/data/ontologia_do/F28_2DO_PODGLAD.pdf` — 1 strona A4, 25 596 B, SHA-256 `9b0e5d6dacabbed77df4f49a517984f155f837ca2831b69be70a4197e6bfb201`; render PyMuPDF PASS. Podgląd jest skróconą lokalną redakcją, nie wierną kompilacją repozytoryjnego Markdown; nie zapisano binarnego PDF w repo.
 - **Status:** kanoniczne **585/1222 bez zmian**. Brak integracji z monolitem 0.20, historyczny wstęp bez ingerencji, bez końcowego spisu treści i bez Tomu II. Pełne CI, niezależna recenzja i weryfikacja integracyjna pozostają otwarte.
+
+
+### Tom I — F28.2-DP: rekonstrukcja kwantylowa i ostry błąd transportowy (5 listopada 2026)
+- **Zapisane na main:** `manuscript/tom-i/F28_2DP.md` — commit `0a41fa785be9d52df7ce917216867c96c46a3a66`; `tests/test_f28_2dp.py` — commit `23245d6e4b9ec76337082fbde73b9a5cfb828966`.
+- **Zakres:** 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Ostre oszacowanie `W1(μ,μ_P)≤(b−a)h/2` i stabilność na błędy średnich komórkowych.
+- **Test lokalny:** Python `fractions.Fraction`, PASS, 758 asercji w wariancie roboczym (test repozytoryjny zawiera podzbiór tych kontroli; jego wykonanie w CI niepotwierdzone). Uwaga: wariant roboczy zawiera dodatkowe kontrole monotoniczności; kod testu repozytoryjnego zapisano osobno.
+- **Podgląd lokalny:** `/mnt/data/ontologia_dp/F28_2DP_PODGLAD.pdf` — 2 strony A4, 29 766 B, render PyMuPDF 2/2 PASS. Podgląd wygenerowany z pełniejszej lokalnej redakcji, nie jest wierną kompilacją pliku z repozytorium. Binarnego PDF nie wgrano do GitHub.
+- **Stan kanoniczny:** 585/1222 bez zmian; brak integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i dotychczasowe rozdziały niezmienione; nie utworzono końcowego spisu treści ani Tomu II. Otwarte: pełne CI, niezależna recenzja matematyczna i audyt typograficzny.
