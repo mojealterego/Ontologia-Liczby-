@@ -2188,3 +2188,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test lokalny:** `python test_f28_2dt.py` — PASS, **78 164** asercje w arytmetyce wymiernej (test enumeracyjny na dyskretnych niemalejących kwantylach). Pełne CI i niezależna recenzja dowodów niepotwierdzone.
 - **Podgląd lokalny:** `/mnt/data/ontologia_dt/F28_2DT_PODGLAD.pdf`, 1 strona A4, SHA-256 `8f75e4ab6ffa7ce1a0ed6d991098055b84093321eb1a09d31c51242138f16bf6`, render PyMuPDF PASS. To skrócony podgląd, **nie** wierna kompilacja repozytoryjnego manuskryptu; binarny PDF nie został umieszczony w repozytorium.
 - **Stan kanoniczny:** **585/1222 bez zmian**, bez integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsza treść niezmienione. Bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-DU: projekcje kwantylowe na zagnieżdżonych partycjach (2026-11-05)
+- **Na main:** `manuscript/tom-i/F28_2DU.md` commit `efd8a2060950a890545cdb21dc71f1848a1324bb`; `tests/test_f28_2du.py` commit `8913da7eca34c4e8149ff63b10db04b09b70236c`.
+- **Zakres:** 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 zadań rozwiązanych. Dokładny bilans Pitagorasa dla W2 przy zagnieżdżonych partycjach, monotoniczność błędu, certyfikat zbieżności i dekompozycja wariancji.
+- **Weryfikacja:** test regresyjny zapisano w repozytorium; jego wykonanie w CI i pełna kompilacja PDF **niepotwierdzone**. Materiał wymaga niezależnej recenzji matematycznej.
+- **Kanoniczny licznik:** 585/1222 bez zmian; bez integracji z rzeczywistym monolitem 0.20, bez ingerencji w historyczny wstęp, bez końcowego spisu treści i bez Tomu II.
