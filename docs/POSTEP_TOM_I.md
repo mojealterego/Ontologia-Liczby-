@@ -2101,3 +2101,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Artefakty: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V25.pdf`, `build_cl.py`, `F28_2CL_PELNY_ROZDZIAL.pdf`.
 - Kontrola: 703/703 stron wyrenderowano PyMuPDF bez wyjątków; nowe strony 702–703 wyrenderowano osobno, stronę 703 sprawdzono wizualnie. Limit 99 MB spełniony. Niezależna recenzja matematyczna i pełny audyt typograficzny pozostają otwarte.
 - PDF jest artefaktem rozmowy; repozytorium rejestruje postęp.
+
+### Tom I PDF-first V26 — F28.2-CM (5 listopada 2026)
+- PDF `ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V26.pdf`: **706 stron A4**, **9 442 288 B**, SHA-256 `72baa25712ac14b595085f43e70936e21d9a33981ababfb649f437dd07a4c3d7`.
+- Zachowano 703 strony V25 i dodano 3 strony rozdziału F28.2-CM „Stabilność funkcji stop-loss i certyfikaty transportowe”: 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań.
+- Artefakty lokalne: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V26.pdf`, `build_cm.py`, `F28_2CM_PELNY_ROZDZIAL.pdf`.
+- Weryfikacja: PyMuPDF wyrenderował 706/706 stron bez wyjątków; trzy nowe strony zapisano jako PNG, stronę 705 obejrzano wizualnie. Limit 99 MB spełniony. Niezależna recenzja matematyczna i całościowa kontrola typograficzna nadal otwarte.
+- PDF pozostaje artefaktem rozmowy, repozytorium rejestruje postęp.
