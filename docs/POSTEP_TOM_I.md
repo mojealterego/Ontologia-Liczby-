@@ -2087,3 +2087,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Artefakty: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V23.pdf`, `build_cj.py`, `F28_2CJ_PELNY_ROZDZIAL.pdf`.
 - Kontrola: PyMuPDF wyrenderował 698/698 stron bez wyjątków; nowe strony 697–698 wyrenderowano osobno, stronę 697 sprawdzono wizualnie. Limit 99 MB spełniony. Niezależna recenzja matematyczna i pełny audyt typograficzny pozostają otwarte.
 - PDF jest artefaktem rozmowy, repozytorium rejestruje postęp.
+
+### Tom I PDF-first V24 — F28.2-CK (5 listopada 2026)
+- Główny PDF: `ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V24.pdf`; **701 stron A4**, **9 341 478 B**, SHA-256 `e0c18fb325633c99cb3a61a330bc131502485a599ba1cce5ec2f480b38972bf9`.
+- Zachowano 698 stron V23 i dodano 3 strony rozdziału F28.2-CK „Przedziałowe ceny stop-loss i certyfikaty zgodności”: 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Uwzględniono test wykonalności, konstrukcję atomową i oszacowanie błędu interpolacji.
+- Artefakty: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V24.pdf`, `build_ck.py`, `F28_2CK_PELNY_ROZDZIAL.pdf`.
+- Weryfikacja: PyMuPDF wyrenderował 701/701 stron bez wyjątków; nowe strony 699–701 wyrenderowano osobno; stronę 700 sprawdzono wizualnie. Limit 99 MB spełniony. Niezależna recenzja matematyczna i pełna kontrola typograficzna pozostają otwarte.
+- PDF jest artefaktem rozmowy, repozytorium rejestruje postęp.
