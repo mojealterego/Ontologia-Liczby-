@@ -1997,3 +1997,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Plik roboczy: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V10.pdf`; skrypt: `build_bw.py`; osobny rozdział: `F28_2BW_PELNY_ROZDZIAL.pdf`.
 - Weryfikacja: 663/663 stron wyrenderowano bez wyjątków PyMuPDF; obie nowe strony wyrenderowano osobno; rozmiar <99 MB. Niezależna recenzja matematyczna i całościowa kontrola typograficzna nadal otwarte.
 - PDF jest artefaktem rozmowy, nie przesłano go do GitHub. Repozytorium przechowuje dziennik postępu.
+
+### Tom I PDF-first V11 — F28.2-BX (5 listopada 2026)
+- Główny PDF: `ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V11.pdf`; **666 stron A4**, **8 675 664 B**, SHA-256 `545c1c53fc1afb5ba424548428946d5fe744a85cabc29c61c6287de712d082eb`.
+- Zachowano 663 strony V10 i dodano 3 strony rozdziału F28.2-BX „Rekonstrukcja rozkładu z pomiarów budżetu ogonowego” (3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań).
+- Źródło: `build_bx.py`; samodzielny rozdział: `F28_2BX_PELNY_ROZDZIAL.pdf` w `/mnt/data/ontologia_aktualizacja/`.
+- Preflight: PyMuPDF wyrenderował **666/666 stron** bez wyjątków, nowe strony 664–666 wyrenderowano osobno, wizualnie sprawdzono stronę 665. Rozmiar poniżej 99 MB.
+- PDF pozostaje artefaktem rozmowy; repozytorium rejestruje postęp. Niezależna recenzja matematyczna i pełna kontrola typograficzna pozostają otwarte.
