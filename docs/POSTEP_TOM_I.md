@@ -2017,3 +2017,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Dodano 3 strony rozdziału „Rekonstrukcja rozkładu przy zaszumionych pomiarach” (F28.2-BZ): 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 zadań rozwiązanych.
 - Lokalny artefakt: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V13.pdf`; źródło: `build_bz.py`.
 - Sprawdzono liczbę stron, rozmiar, sumę SHA-256 i render nowych stron. Pełna recenzja matematyczna i kontrola typograficzna pozostają otwarte.
+
+### Tom I PDF-first V14 — F28.2-CA (5 listopada 2026)
+- Główny PDF: `ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V14.pdf`; **675 stron A4**, **8 831 348 B**, SHA-256 `83429a1c43937d2c59176e617dfa53be7686f17fb569f7a1e525adba0315b10c`.
+- Zachowano 672 strony V13 i dodano 3 strony rozdziału F28.2-CA „Ostre przedziały CVaR z niepewnych pomiarów węzłowych” (3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 zadań rozwiązanych).
+- Artefakty lokalne: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V14.pdf`, `F28_2CA_PELNY_ROZDZIAL.pdf`, `build_ca.py`.
+- Kontrola: 675/675 stron wyrenderowano PyMuPDF bez wyjątków; nowe strony 673–675 wyrenderowano osobno, wizualnie sprawdzono stronę 674. Rozmiar poniżej 99 MB. Niezależna recenzja matematyczna i pełny audyt typograficzny nadal otwarte.
+- PDF jest artefaktem rozmowy; repozytorium rejestruje postęp.
