@@ -2154,3 +2154,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test lokalny:** Python `fractions.Fraction`, PASS, 758 asercji w wariancie roboczym (test repozytoryjny zawiera podzbiór tych kontroli; jego wykonanie w CI niepotwierdzone). Uwaga: wariant roboczy zawiera dodatkowe kontrole monotoniczności; kod testu repozytoryjnego zapisano osobno.
 - **Podgląd lokalny:** `/mnt/data/ontologia_dp/F28_2DP_PODGLAD.pdf` — 2 strony A4, 29 766 B, render PyMuPDF 2/2 PASS. Podgląd wygenerowany z pełniejszej lokalnej redakcji, nie jest wierną kompilacją pliku z repozytorium. Binarnego PDF nie wgrano do GitHub.
 - **Stan kanoniczny:** 585/1222 bez zmian; brak integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i dotychczasowe rozdziały niezmienione; nie utworzono końcowego spisu treści ani Tomu II. Otwarte: pełne CI, niezależna recenzja matematyczna i audyt typograficzny.
+
+### Aktualizacja PDF Tom I — V28 i V29 (2026-11-05)
+- V28: 711 stron, 9 542 773 B; F28.2-CO „Spready stop-loss i identyfikacja masy w przedziałach”; SHA-256 `f3a0c3709210dd6ddf7bc8b0e62c628b54eb4d9a96bd8c7de4dba90d9f243c04`.
+- V29: 713 stron, 9 593 065 B; F28.2-CP „Stabilna rekonstrukcja dystrybuanty z zaszumionych cen stop-loss”; SHA-256 `0dff942bf32ca95de0a912c1129f8432d1cdffa926e0092f5218cfd912a032d4`.
+- Główny PDF V29: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V29.pdf`. Zachowano 711 stron V28 i dołączono dwie strony F28.2-CP. Test PyMuPDF: 713/713 stron bez błędów; strona 713 obejrzana. Limit 99 MB spełniony.
+- To zapis lokalnej redakcji PDF; nie potwierdza umieszczenia binarnego PDF w repozytorium ani zastąpienia odrębnego monolitu repozytoryjnego. Niezależna recenzja matematyczna i audyt typograficzny nadal otwarte.
