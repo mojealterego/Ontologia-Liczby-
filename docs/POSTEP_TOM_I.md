@@ -2160,3 +2160,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - V29: 713 stron, 9 593 065 B; F28.2-CP „Stabilna rekonstrukcja dystrybuanty z zaszumionych cen stop-loss”; SHA-256 `0dff942bf32ca95de0a912c1129f8432d1cdffa926e0092f5218cfd912a032d4`.
 - Główny PDF V29: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V29.pdf`. Zachowano 711 stron V28 i dołączono dwie strony F28.2-CP. Test PyMuPDF: 713/713 stron bez błędów; strona 713 obejrzana. Limit 99 MB spełniony.
 - To zapis lokalnej redakcji PDF; nie potwierdza umieszczenia binarnego PDF w repozytorium ani zastąpienia odrębnego monolitu repozytoryjnego. Niezależna recenzja matematyczna i audyt typograficzny nadal otwarte.
+
+### Tom I — F28.2-DQ: kwantylowa aproksymacja komórkowa (2026-11-05)
+- **Zapis na main:** `manuscript/tom-i/F28_2DQ.md` commit `8fdbf3c855ac10757b0b661412c8a3cd1bf8d8cf`; `tests/test_f28_2dq.py` commit `bff6f0ee856c09a30303a38340063c709f754616`.
+- **Zakres:** 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 zadań rozwiązanych. Oszacowanie `W1(μ,μ_P)≤ΣΔᵢdᵢ/2≤(b−a)h/2`, ostrość, zachowanie średniej, stabilność szumowa, test funkcji Lipschitza.
+- **Lokalne sprawdzenie:** `python test_f28_2dq.py` PASS (501 kontroli raportowanych przez skrypt); `python -m py_compile` PASS. Testy algebraiczne nie stanowią pełnej weryfikacji dowodów.
+- **PDF lokalny:** `/mnt/data/ontologia_dq/F28_2DQ_PODGLAD.pdf`, 2 strony A4, 29204 B, SHA-256 `7edc10447ae5e5cf83c2df9fa23cf5074b536a17da09a5136618c0684da29b86`; PyMuPDF wyrenderował 2/2 stron. PDF pochodzi z lokalnego, nieidentycznego bajtowo wariantu manuskryptu; nie jest kompilacją GitHub 1:1 ani nie został wgrany do repozytorium.
+- **Stan kanoniczny:** 585/1222 bez zmian. Brak integracji z monolitem 0.20. Historyczny wstęp i dotychczasowe rozdziały bez zmian. Brak końcowego spisu treści i Tomu II. Otwarte: pełne CI, niezależna recenzja matematyczna, audyt typograficzny.
