@@ -2066,3 +2066,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Lokalny artefakt `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V20.pdf`; skrypt `build_cg.py`, rozdział `F28_2CG_PELNY_ROZDZIAL.pdf`.
 - Kontrola: 690/690 stron wyrenderowano PyMuPDF bez wyjątków; nowe strony 689–690 wyrenderowano osobno, stronę 689 obejrzano. Limit 99 MB spełniony. Niezależna recenzja matematyczna i pełna kontrola typograficzna pozostają otwarte.
 - PDF pozostaje artefaktem rozmowy, repozytorium rejestruje postęp.
+
+### Tom I PDF-first V21 — F28.2-CH (5 listopada 2026)
+- Główny PDF `ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V21.pdf`: **693 strony A4**, **9 190 016 B**, SHA-256 `0bb557b8c5078f4c05703bddf97fd502a487ceff7f3b5bd4cfd7c46114ca6fcd`.
+- Zachowano 690 stron V20 i dodano 3 strony rozdziału F28.2-CH „Porządek wypukły i dominacja budżetów ogonowych”: 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 zadań rozwiązanych.
+- Lokalny artefakt `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V21.pdf`; skrypt `build_ch.py`, rozdział `F28_2CH_PELNY_ROZDZIAL.pdf`.
+- Kontrola: PyMuPDF wyrenderował 693/693 stron bez wyjątku; nowe strony 691–693 zapisano jako PNG. Limit 99 MB spełniony. Niezależna recenzja matematyczna i pełna kontrola typograficzna pozostają otwarte.
+- PDF jest artefaktem rozmowy, repozytorium rejestruje postęp.
