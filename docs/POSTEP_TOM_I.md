@@ -1958,3 +1958,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Tom I V3: 649 stron; F28.2-BP dodany do 647 stron; SHA-256 ec09bd1fbf3b449bf8117a408c3ecc7b6f9df368b10f36220d6c7b71b61c3f7b; 8278569 B.
 - PDF V3: /mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V3.pdf. Źródło składu BP: /mnt/data/ontologia_aktualizacja/build_bp.py.
 - Artefakty PDF utworzono lokalnie, nie opublikowano w GitHub. Nadal otwarte: pełny preflight, recenzja matematyczna, zamiana skrótów F28.2 na pełne rozdziały.
+
+### PDF-first F28.2-BQ — 5 listopada 2026
+- Wersja główna V4: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V4.pdf` — **651 stron A4**, **8 327 892 B**, SHA-256 `760d634939f2742a2704a9eda5696eb8796f43c8476e8c15472f2b497ac59d85`.
+- Zachowano 649 stron V3 i dodano 2 strony pełnego rozdziału F28.2-BQ „Rekonstrukcja budżetu ogonowego z próbek”: 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań.
+- PDF rozdziału: `/mnt/data/ontologia_aktualizacja/F28_2BQ_PELNY_ROZDZIAL.pdf`; skrypt składu: `/mnt/data/ontologia_aktualizacja/build_bq.py`.
+- Weryfikacja: PyMuPDF i pdfinfo potwierdzają 651 stron, A4 i 8 327 892 B; kontrolnie wyrenderowano strony 1, 629, 649, 650, 651. Nie wykonano pełnego preflight ani niezależnej recenzji matematycznej. PDF pozostaje artefaktem rozmowy, nie został opublikowany do repozytorium.
