@@ -2094,3 +2094,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Artefakty: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V24.pdf`, `build_ck.py`, `F28_2CK_PELNY_ROZDZIAL.pdf`.
 - Weryfikacja: PyMuPDF wyrenderował 701/701 stron bez wyjątków; nowe strony 699–701 wyrenderowano osobno; stronę 700 sprawdzono wizualnie. Limit 99 MB spełniony. Niezależna recenzja matematyczna i pełna kontrola typograficzna pozostają otwarte.
 - PDF jest artefaktem rozmowy, repozytorium rejestruje postęp.
+
+### Tom I PDF-first V25 — F28.2-CL (5 listopada 2026)
+- Główny PDF `ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V25.pdf`: **703 strony A4**, **9 391 640 B**, SHA-256 `d9032de5da004c3a39e46566e6878855c8275d38b920189e20fb3296b65c1aac`.
+- Zachowano 701 stron V24 i dodano 2 strony rozdziału F28.2-CL „Minimalna korekta sprzecznych cen stop-loss”: 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań.
+- Artefakty: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V25.pdf`, `build_cl.py`, `F28_2CL_PELNY_ROZDZIAL.pdf`.
+- Kontrola: 703/703 stron wyrenderowano PyMuPDF bez wyjątków; nowe strony 702–703 wyrenderowano osobno, stronę 703 sprawdzono wizualnie. Limit 99 MB spełniony. Niezależna recenzja matematyczna i pełny audyt typograficzny pozostają otwarte.
+- PDF jest artefaktem rozmowy; repozytorium rejestruje postęp.
