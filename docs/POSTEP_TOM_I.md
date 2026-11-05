@@ -1952,3 +1952,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Nowa robocza kompilacja PDF:** `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_WERSJA_ROBOCZA_2026-11-05.pdf` — **644 strony A4**, **8 177 960 bajtów**, SHA-256 `a98d33165d7ad8a3df13d46cfe5954f78c1774957c4ed195e352824b156734ac`. Zachowano 629 stron bazowych i dołączono 15 stron istniejących PDF-ów F28.2 (BA, BB, BD, BE, BF, BG, BH, BI, BJ, BK, BL, BM, BN). Odczytano metadane PDF i wyrenderowano kontrolnie strony 1, 101, 629, 630 i 644.
 - **Istotne ograniczenie:** część dołączonych plików to **skrótowe podglądy**, nie pełny skład manuskryptów. Wersja 644-stronicowa jest **kompilacją roboczą**, nie pełną, ostatecznie zredagowaną książką. Podczas scalania MuPDF zgłaszał brakujące obiekty xref w źródłach; kontrolne strony wyrenderowały się, lecz wymagany jest pełny preflight.
 - **Dalsza praca:** zamiast kolejnych samodzielnych jednostronicowych PDF należy przygotować pełne rozdziały i aktualizować scalony tom, z kontrolą paginacji i limitu 99 MB. Plik wynikowy znajduje się w przestrzeni roboczej, **nie został opublikowany do GitHub**.
+
+### PDF-first: BO i BP — 5 listopada 2026
+- Tom I V2: 647 stron; F28.2-BO dodany do 644 stron; SHA-256 d78074f4a3de8ce091f9c20bf9e93ef37ee087130210585ad026d3c2eb331c3e; 8228365 B.
+- Tom I V3: 649 stron; F28.2-BP dodany do 647 stron; SHA-256 ec09bd1fbf3b449bf8117a408c3ecc7b6f9df368b10f36220d6c7b71b61c3f7b; 8278569 B.
+- PDF V3: /mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V3.pdf. Źródło składu BP: /mnt/data/ontologia_aktualizacja/build_bp.py.
+- Artefakty PDF utworzono lokalnie, nie opublikowano w GitHub. Nadal otwarte: pełny preflight, recenzja matematyczna, zamiana skrótów F28.2 na pełne rozdziały.
