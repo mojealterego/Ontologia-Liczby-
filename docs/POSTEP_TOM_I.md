@@ -2080,3 +2080,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Artefakty lokalne: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V22.pdf`, `build_ci.py`, `F28_2CI_PELNY_ROZDZIAL.pdf`.
 - Weryfikacja: 696/696 stron wyrenderowano PyMuPDF bez wyjątków; nowe strony 694–696 wyrenderowano osobno, wizualnie sprawdzono stronę 695. Limit 99 MB spełniony. Niezależna recenzja matematyczna i całościowa kontrola typograficzna pozostają otwarte.
 - PDF udostępniony jako artefakt rozmowy, nie wgrany do GitHub.
+
+### Tom I PDF-first V23 — F28.2-CJ (5 listopada 2026)
+- Główny PDF: `ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V23.pdf`; **698 stron A4**, **9 290 211 B**, SHA-256 `737c9c06759fadeb57afc7c5e198679d8d5c97b50d5620dee144edb9844d91ec`.
+- Zachowano 696 stron V22 i dodano 2 strony rozdziału F28.2-CJ „Odtwarzanie rozkładu z dyskretnych cen stop-loss”: 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 zadań rozwiązanych. Udowodniono m.in. warunki zgodności nachyleń i błąd interpolacji ≤h/4.
+- Artefakty: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V23.pdf`, `build_cj.py`, `F28_2CJ_PELNY_ROZDZIAL.pdf`.
+- Kontrola: PyMuPDF wyrenderował 698/698 stron bez wyjątków; nowe strony 697–698 wyrenderowano osobno, stronę 697 sprawdzono wizualnie. Limit 99 MB spełniony. Niezależna recenzja matematyczna i pełny audyt typograficzny pozostają otwarte.
+- PDF jest artefaktem rozmowy, repozytorium rejestruje postęp.
