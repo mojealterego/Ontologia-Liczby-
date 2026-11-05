@@ -2258,3 +2258,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Lokalna kontrola niezależna:** `/mnt/data/ontologia_ec/check.py`, dokładna arytmetyka `fractions.Fraction`: **5726 kontroli PASS**; obejmuje Monge'a, monotoniczność punktów cięcia i porównanie optimum DP z pełną enumeracją dla małych uporządkowanych próbek. **Nie jest to wykonanie pobranego pliku testowego z GitHub ani niezależna recenzja dowodów.**
 - **Podgląd lokalny PDF:** `/mnt/data/ontologia_ec/F28_2EC_PODGLAD.pdf`, 2 strony A4, 25381 bajtów, SHA-256 `595a0ac71ad04818b4eb261f605a147e426166987de729b9f837b4a0eff42f4e`, otwarcie i render PyMuPDF poprawne. To **skrócona redakcja**, nie wierna kompilacja całego manuskryptu GitHub.
 - **Ograniczenia:** CI GitHub niepotwierdzone; brak niezależnej recenzji matematycznej; brak integracji z rzeczywistym monolitem 0.20. Wcześniejsza treść i historyczny wstęp nietknięte. **Kanoniczny licznik 585/1222 bez zmian**, bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-ED: algorytm dziel i zwyciężaj (2026-11-05)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2ED.md`, commit `2beae7d99b9d39a8bb0692e6329b460097753404`.
+- **Test na main:** `tests/test_f28_2ed.py`, commit `ada6e99f1a7f7fabd9507b0e74c7371f550500ca`.
+- **Zakres:** 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady i 6 zadań z rozwiązaniami. Rekurencja Bellmana, nierówność Monge'a, monotoniczność najmniejszego minimalizatora, algorytm dziel i zwyciężaj O(kn log n).
+- **Weryfikacja lokalna:** wykonano `python /mnt/data/ontologia_ed/test_f28_2ed.py`: PASS, 49 003 dokładne asercje wymierne; `python -m py_compile`: PASS. Skrypt lokalny jest równoważny treści testu zapisanego na GitHub, ale nie został pobrany z GitHub; GitHub Actions CI niepotwierdzone.
+- **PDF:** lokalny skrócony podgląd `/mnt/data/ontologia_ed/F28_2ED_PODGLAD.pdf`, 1 strona A4, 24 138 bajtów, SHA-256 `394601033e1ab3db375b5d806b12c12d9b489c2a0d8593d68b6a466cdb67beb4`. PyMuPDF otwarcie i render 1/1 PASS. To nie jest wierna kompilacja całego manuskryptu; nie zapisano PDF na GitHub.
+- **Otwarte:** niezależna recenzja dowodów, pełne CI, integracja z rzeczywistym monolitem 0.20 i audyt typograficzny. Historyczny wstęp i wcześniejsze rozdziały niezmienione. **Kanoniczny licznik 585/1222 bez zmian**; bez końcowego spisu treści i bez Tomu II.
