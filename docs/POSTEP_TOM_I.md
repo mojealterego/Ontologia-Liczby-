@@ -1964,3 +1964,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Zachowano 649 stron V3 i dodano 2 strony pełnego rozdziału F28.2-BQ „Rekonstrukcja budżetu ogonowego z próbek”: 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań.
 - PDF rozdziału: `/mnt/data/ontologia_aktualizacja/F28_2BQ_PELNY_ROZDZIAL.pdf`; skrypt składu: `/mnt/data/ontologia_aktualizacja/build_bq.py`.
 - Weryfikacja: PyMuPDF i pdfinfo potwierdzają 651 stron, A4 i 8 327 892 B; kontrolnie wyrenderowano strony 1, 629, 649, 650, 651. Nie wykonano pełnego preflight ani niezależnej recenzji matematycznej. PDF pozostaje artefaktem rozmowy, nie został opublikowany do repozytorium.
+
+### PDF-first F28.2-BR — 5 listopada 2026
+- **Tom I V5:** `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V5.pdf`; **653 strony A4**, **8 376 875 bajtów**, SHA-256 `774b4f3677183802f5ab694cb5ce533711e187a0de79be12980a3c1270d56b0f`.
+- Zachowano 651 stron V4 i dodano 2 strony pełnego rozdziału F28.2-BR „Rekonstrukcja ogona przy zaszumionych pomiarach”: 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Podstawowy certyfikat: `-epsilon <= H(t)-Lhat(t) <= (b-a)h/4+epsilon`.
+- PDF rozdziału: `/mnt/data/ontologia_aktualizacja/F28_2BR_PELNY_ROZDZIAL.pdf`; skrypt: `/mnt/data/ontologia_aktualizacja/build_br.py`.
+- Sprawdzono przez PyMuPDF 653 strony, rozmiar i SHA-256; wyrenderowano kontrolnie strony 1, 629, 649, 651, 652 i 653; wizualnie obejrzano stronę 652. PDF poniżej limitu 99 MB.
+- **Ograniczenia:** nie wykonano pełnego preflight 653 stron ani niezależnej recenzji matematycznej; wcześniejsze skróty rozdziałów nadal wymagają zastąpienia pełnymi tekstami. PDF jest artefaktem rozmowy, nie opublikowano go do GitHub.
