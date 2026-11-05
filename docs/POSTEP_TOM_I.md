@@ -1971,3 +1971,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - PDF rozdziału: `/mnt/data/ontologia_aktualizacja/F28_2BR_PELNY_ROZDZIAL.pdf`; skrypt: `/mnt/data/ontologia_aktualizacja/build_br.py`.
 - Sprawdzono przez PyMuPDF 653 strony, rozmiar i SHA-256; wyrenderowano kontrolnie strony 1, 629, 649, 651, 652 i 653; wizualnie obejrzano stronę 652. PDF poniżej limitu 99 MB.
 - **Ograniczenia:** nie wykonano pełnego preflight 653 stron ani niezależnej recenzji matematycznej; wcześniejsze skróty rozdziałów nadal wymagają zastąpienia pełnymi tekstami. PDF jest artefaktem rozmowy, nie opublikowano go do GitHub.
+
+### Tom I PDF-first V6 — F28.2-BS (5 listopada 2026)
+- Wygenerowano `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V6.pdf`: **655 stron**, **8 425 652 B**, SHA-256 `016ff1e893efccf6cf70f4e2853f7012591ee32257e9b53f21fc40a3c769e403`.
+- Zachowano 653 strony V5 i dołączono 2 strony rozdziału F28.2-BS „Stabilność CVaR przy zmianie poziomu ogona” (3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań). Pliki źródłowe w przestrzeni roboczej: `build_bs.py`, `F28_2BS_PELNY_ROZDZIAL.pdf`.
+- **Preflight renderowania:** PyMuPDF wyrenderował **655/655 stron bez wyjątku** w skali 0.35; 1. strona bez ekstraktowalnego tekstu (prawdopodobnie graficzna). Obejrzano obraz strony 655. To nie zastępuje niezależnej recenzji matematycznej ani pełnej kontroli typograficznej.
+- PDF jest artefaktem rozmowy, nie został umieszczony w repozytorium. Priorytet: rozwijać i aktualizować książkę PDF, a rejestr GitHub utrzymywać jako dziennik postępu.
