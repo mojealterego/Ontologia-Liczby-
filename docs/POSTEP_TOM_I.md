@@ -2011,3 +2011,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Plik PDF w przestrzeni roboczej: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V12.pdf`; skrypt składu: `build_by.py`; samodzielny rozdział: `F28_2BY_PELNY_ROZDZIAL.pdf`.
 - Weryfikacja: 669/669 stron wyrenderowano PyMuPDF bez wyjątków; nowe strony 667–669 wyrenderowano osobno. Limit 99 MB spełniony. Niezależna recenzja matematyczna i kompleksowa kontrola typograficzna pozostają otwarte.
 - PDF pozostaje artefaktem rozmowy; repozytorium przechowuje dziennik postępu.
+
+### PDF Tom I V13 — F28.2-BZ (2026-11-05)
+- Główny PDF V13: 672 strony, 8 778 668 B, SHA-256 `0b775240f6775e3b2f6e501e8596e2bb2f404787d166ae541e3a236854d9bec5`.
+- Dodano 3 strony rozdziału „Rekonstrukcja rozkładu przy zaszumionych pomiarach” (F28.2-BZ): 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 zadań rozwiązanych.
+- Lokalny artefakt: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V13.pdf`; źródło: `build_bz.py`.
+- Sprawdzono liczbę stron, rozmiar, sumę SHA-256 i render nowych stron. Pełna recenzja matematyczna i kontrola typograficzna pozostają otwarte.
