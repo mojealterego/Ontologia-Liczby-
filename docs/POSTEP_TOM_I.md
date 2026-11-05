@@ -2226,3 +2226,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** niezależnie od pliku GitHub uruchomiono odpowiednik enumeracyjnego testu w `fractions.Fraction`: **790 przypadków, 1580 dokładnych asercji PASS**. Nie uruchomiono bezpośrednio pobranego testu z repozytorium (brak DNS do raw.githubusercontent.com), a GitHub Actions CI niepotwierdzone.
 - **Podgląd PDF:** lokalny skrót redakcyjny `/mnt/data/ontologia_dy/F28_2DY_PODGLAD.pdf`, 1 strona A4, 2984 B, SHA-256 `5d621be1d5f6b52a33119e2632038dc046572d9f3c036aa8e65adb2e2947a881`. Poprawnie otwarty i wyrenderowany w PyMuPDF. **Nie jest wierną kompilacją pełnego manuskryptu** i nie został umieszczony na GitHub.
 - **Ograniczenia:** niezależna recenzja matematyczna, pełne CI, wierna kompilacja źródła i integracja z rzeczywistym monolitem 0.20 nadal otwarte. Historyczny wstęp i wcześniejsza treść niezmienione; bez końcowego spisu treści i bez Tomu II. Kanoniczny licznik **585/1222 bez zmian**.
+
+
+### Tom I — F28.2-DZ: certyfikaty a posteriori z hierarchii projekcji (2026-11-05)
+- **Zapis na main:** `manuscript/tom-i/F28_2DZ.md` — commit `8f29d176794a471e8c7f069e8fe9b3918556b113`, korekta zapisu wykładników `bbe57768f0e605d20d1afcb8208f6c2e02d249c3`; `tests/test_f28_2dz.py` — commit `c540f4455ed7b4f484ec0fd487932153d2752d02`.
+- **Zakres:** 4 twierdzenia z dowodami, 4 kontrprzykłady, 6 zadań rozwiązanych. Dokładny ogon energii E(P_n)=Σ_{k≥n}D_k, przedziałowy certyfikat po skończonej refinacji, niemożność oszacowania reszty przez pojedynczy przyrost.
+- **Weryfikacja:** przygotowano test w arytmetyce wymiernej; jego wykonanie lokalne i CI **niepotwierdzone** z powodu błędu narzędzia wykonawczego. Kompilacja PDF **nieprzeprowadzona** z tej samej przyczyny. Nie przypisywać statusu PASS.
+- **Stan:** kanoniczny licznik 585/1222 bez zmian; brak integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały niezmienione. Bez końcowego spisu treści i bez Tomu II. Otwarta niezależna recenzja matematyczna.
