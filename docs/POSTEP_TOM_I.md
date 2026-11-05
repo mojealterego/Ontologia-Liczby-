@@ -2210,3 +2210,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Zakres:** 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Dokładny certyfikat błędu W₂²≤Σw_I(B_I−A_I)²/4, formuła zysku rozszczepienia, bezpieczne zatrzymanie i zbieżność przy drobniejącej siatce.
 - **Weryfikacja:** niezależny lokalny skrypt Python z `fractions.Fraction` wykonał 420 kontroli tożsamości zysku i 84 kontrole certyfikatu — PASS. Test zapisany na main zawiera również kontrolę przypadku liniowego; wykonanie tego pliku w GitHub Actions niepotwierdzone. Testy nie zastępują recenzji matematycznej.
 - **Integracja:** brak dostępu do rzeczywistego monolitu 0.20; licznik **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały bez ingerencji. Bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-DX: zbieżność certyfikatów dyadycznych (2026-11-05)
+- **Zapis na main:** `manuscript/tom-i/F28_2DX.md` commit `5a292c97f476f43541621662fb59e555bbea736c`; `tests/test_f28_2dx.py` commit początkowy `7ad42b7e3144509b5621697b255a3cec215d3d6b`, poprawka formuły testu `a5c819faac21f9b818d6fa513111e86206cde558`.
+- **Zakres:** 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Zbieżność dyadycznych projekcji kwantylowych, bilans energii, ograniczenia zakresowe i stabilność.
+- **Weryfikacja lokalna:** 826 asercji w dokładnej arytmetyce wymiernej (lokalny odpowiednik testu), PASS. Pierwsza wersja testu miała niepoprawną formułę dla poziomu refinacji i została poprawiona w osobnym commicie. CI i niezależna recenzja matematyczna niepotwierdzone.
+- **PDF:** lokalny skrócony podgląd `/mnt/data/ontologia_dx/F28_2DX_PODGLAD.pdf`, 1 strona A4, 25 661 B, SHA-256 `93aeeb859886ac4597abacb865dec7b3f9eaf80f30791f55e4879a6f2123afec`, render PyMuPDF PASS. Nie jest to pełna kompilacja Markdown ani integracja monolitu.
+- **Stan kanoniczny:** 585/1222 bez zmian; monolit 0.20 nie został zmodyfikowany. Historyczny wstęp i wcześniejsze rozdziały bez ingerencji. Bez końcowego spisu treści i bez Tomu II.
