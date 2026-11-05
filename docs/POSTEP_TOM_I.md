@@ -2233,3 +2233,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Zakres:** 4 twierdzenia z dowodami, 4 kontrprzykłady, 6 zadań rozwiązanych. Dokładny ogon energii E(P_n)=Σ_{k≥n}D_k, przedziałowy certyfikat po skończonej refinacji, niemożność oszacowania reszty przez pojedynczy przyrost.
 - **Weryfikacja:** przygotowano test w arytmetyce wymiernej; jego wykonanie lokalne i CI **niepotwierdzone** z powodu błędu narzędzia wykonawczego. Kompilacja PDF **nieprzeprowadzona** z tej samej przyczyny. Nie przypisywać statusu PASS.
 - **Stan:** kanoniczny licznik 585/1222 bez zmian; brak integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały niezmienione. Bez końcowego spisu treści i bez Tomu II. Otwarta niezależna recenzja matematyczna.
+
+
+### Tom I — F28.2-EA: zachłanna refinacja kwantylowa (2026-11-05)
+- **Zapis na main:** `manuscript/tom-i/F28_2EA.md` commit `dd7b3db6adc3a8ee2692010b5e5c05f0aa32e30e`, korekta kontrprzykładu `1398eb1c52fa08d14209b22f44ec84119f5b95a3`; `tests/test_f28_2ea.py` commit `bb30da3575f9c91ce23bdb9614a9f296a285bffb`.
+- **Zakres:** 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Lokalna optymalność maksymalnego zysku, skończona terminacja, ograniczenie zakresowe, rekurencja dynamicznego programowania oraz jawny kontrprzykład globalnej optymalności zachłannej dla `(0,0,1,2,4)`: `2/15 > 1/10`.
+- **Weryfikacja lokalna:** niezależny skrypt `/mnt/data/ontologia_ea/test_f28_2ea.py` — **PASS, 4527 asercji** w dokładnej arytmetyce wymiernej. Test zapisany w GitHub obejmuje również kontrprzykład; jego uruchomienie w GitHub Actions niepotwierdzone.
+- **Podgląd PDF:** lokalny `/mnt/data/ontologia_ea/F28_2EA_PODGLAD.pdf`, 1 strona A4, 24516 B, SHA-256 `4c9c129dc1c69b51861371d2137c7b3b923fc6a2ac5e1a5daebac1393c2b4419`, otwarcie i render PyMuPDF PASS. Jest to **skrócony podgląd**, nie wierna kompilacja całego manuskryptu i nie został umieszczony w repo.
+- **Stan:** kanoniczne **585/1222 bez zmian**; brak integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały niezmienione. Bez końcowego spisu treści i bez Tomu II. Pełne CI, niezależna recenzja i audyt typograficzny nadal otwarte.
