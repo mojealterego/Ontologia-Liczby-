@@ -1927,3 +1927,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na main:** `tests/test_f282bl_duality.py`, commit `d262f3f77d3f1a81b5159e71a314f89bbd457697`; **4/4 unittest OK**, w tym 36 przypadków dokładnej dualności w arytmetyce Fraction. Lokalny Git blob SHA-1 `c915a20a6c639fdba0dd5822cc83b8f07b65b02b`; repozytoryjny Git blob SHA-1 `c915a20a6c639fdba0dd5822cc83b8f07b65b02b`. Zgodność bajtowa potwierdzona.
 - **PDF kontrolny:** `/mnt/data/ontologia_bl/F28_2BL_PODGLAD.pdf`, 1 strona A4, 24 936 bajtów, SHA-256 `fd806a1658bede06d00f9129b3af1b94d76816f882e5766726f84c05b8beb77f`. To wyciąg wyników, nie kanoniczny skład całego rozdziału.
 - **Otwarte:** GitHub Actions, niezależna recenzja dowodów, pełny skład manuskryptu i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**; bez edycji historycznego wstępu, końcowego spisu treści i Tomu II.
+
+
+### F28.2-BM — Nachylenia budżetu ogonowego i identyfikacja atomów (5 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2BM_NACHYLENIA_BUDZETU_OGONOWEGO.md`, commit `1c1f7d498cb58994d9fc6ff635d1118783f0e290`. Trzy definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Rekonstrukcja atomów z długości odcinków liniowych i nachyleń funkcji budżetu ogonowego.
+- **Testy na main:** `tests/test_f282bm_tail_slopes.py`, commit `3dda49120bf7a35e38783ae86b0b217952db7e29`. **4/4 unittest PASS**, w tym 126 dokładnych sprawdzeń wklęsłości. Zgodność bajtowa lokalnego testu z GitHub potwierdzona przez Git blob SHA-1 `459a14858a8076f4d2e9312e7e59bb90315a685c`.
+- **PDF kontrolny:** `/mnt/data/ontologia_bm/F28_2BM_PODGLAD.pdf`, 1 strona A4, 24 233 bajty, SHA-256 `bd24c3586cc0de676d120577464f7830253bfc470ca22c8dd378691b955618f3`. Wygenerowano przez ReportLab, wyrenderowano do PNG. Jest to wyciąg wyników, nie pełny kanoniczny skład.
+- **Otwarte:** GitHub Actions, niezależna recenzja dowodów, kanoniczny skład i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**; bez zmian historycznego wstępu i wcześniejszych rozdziałów, bez końcowego spisu treści i bez Tomu II.
