@@ -1896,3 +1896,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Otwarte:** pełne CI, niezależna recenzja, kanoniczny skład, integracja z monolitem 0.20. **585/1222 bez zmian**; bez zmian w historycznym wstępie, bez końcowego spisu treści, bez Tomu II.
 
 - **Uzupełnienie weryfikacji F28.2-BI:** po zapisaniu testu na main lokalny plik dostosowano do dokładnej zawartości repozytorium; Git blob SHA-1 obu plików `335ff4ff3338eb688e395a9df01bbbd7cbad52d7`. Uruchomiono **dokładnie zgodny bajtowo test: 4/4 unittest OK**. Poprzednia adnotacja o nieidentycznym pierwowzorze pozostaje jako zapis chronologii.
+
+
+### F28.2-BJ — Skażenie rozkładu i odporność CVaR (5 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2BJ_SKAZENIE_ROZKLADU_I_ODPORNOSC_CVAR.md`, commit `f2412c116511709696f107d0886670953e5d700f`; trzy definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Wynik: `|CVaR_(1-t)(με)-CVaR_(1-t)(μ)|≤D min(1,ε/t)`, z dowodem ostrości.
+- **Testy na main:** `tests/test_f282bj_contamination.py`, commit `89ce5d576e3e013c5bb8aec11a0fea72e9f0252e`, Git blob SHA `9761c10c920e3f3ea770e5bfb161a493851ae97d`. Lokalny pierwowzór wykonano: **4/4 unittest OK**, w tym 108 przypadków wyczerpujących. Nie potwierdzono bajtowej zgodności z ponownie pobranym testem ani CI.
+- **PDF kontrolny:** `/mnt/data/ontologia_bj/F28_2BJ_PODGLAD.pdf`, 1 strona A4, 2803 bajty, SHA-256 `3ed8d5d5300a0dfe7767d3831fb7befbf915d1f0ed61c75cd2ba3249c49851e7`. Skrót, nie pełny skład źródła.
+- **Otwarte:** GitHub Actions, niezależna recenzja, kanoniczna kompilacja całego rozdziału, integracja z monolitem 0.20. **585/1222 bez zmian**; historyczny wstęp i wcześniejsze rozdziały nieedytowane; bez końcowego spisu treści i Tomu II.
