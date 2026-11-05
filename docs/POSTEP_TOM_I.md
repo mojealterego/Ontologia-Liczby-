@@ -2024,3 +2024,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Artefakty lokalne: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V14.pdf`, `F28_2CA_PELNY_ROZDZIAL.pdf`, `build_ca.py`.
 - Kontrola: 675/675 stron wyrenderowano PyMuPDF bez wyjątków; nowe strony 673–675 wyrenderowano osobno, wizualnie sprawdzono stronę 674. Rozmiar poniżej 99 MB. Niezależna recenzja matematyczna i pełny audyt typograficzny nadal otwarte.
 - PDF jest artefaktem rozmowy; repozytorium rejestruje postęp.
+
+### Tom I PDF-first V15 — F28.2-CB (5 listopada 2026)
+- PDF główny `ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V15.pdf`: **678 stron A4**, **8 883 390 B**, SHA-256 `e6a0774014914c0052c17dd8ae0a5eab50ab253c739447efab9543388fe98d9a`.
+- Zachowano 675 stron V14 i dodano 3 strony rozdziału F28.2-CB „Certyfikaty wykonalności i dualność ograniczeń pomiarowych”: 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 zadań rozwiązanych.
+- Lokalny artefakt: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V15.pdf`; źródło: `build_cb.py`; rozdział: `F28_2CB_PELNY_ROZDZIAL.pdf`.
+- Kontrola: PyMuPDF wyrenderował 678/678 stron bez wyjątków; nowe strony 676–678 osobno, stronę 677 obejrzano. Limit 99 MB spełniony. Niezależna recenzja matematyczna i kompleksowa kontrola typograficzna pozostają otwarte.
+- PDF jest artefaktem rozmowy, repozytorium rejestruje postęp.
