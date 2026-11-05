@@ -2174,3 +2174,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** `python test_f28_2dr.py` — PASS, 5350 dokładnych asercji wymiernych. Nie oznacza to formalnej weryfikacji wszystkich dowodów ani wykonania CI.
 - **Podgląd lokalny:** `/mnt/data/ontologia_dr/F28_2DR_PODGLAD.pdf`; 2 strony A4, 29 380 B, SHA-256 `8d170b5cfb517d4bb07b036156ef9b8bd2db7cdad90ef7c4d365d252f78915e8`; render PyMuPDF 2/2. Lokalny wariant redakcyjny PDF nie jest wierną kompilacją GitHub 1:1 i nie został wgrany do repozytorium.
 - **Stan kanoniczny:** 585/1222 bez zmian, ponieważ brak integracji z rzeczywistym monolitem 0.20. Historyczny wstęp nietknięty; brak końcowego spisu treści i Tomu II. Otwarte: pełne CI, niezależna recenzja matematyczna, integracja i audyt typograficzny.
+
+### Tom I — F28.2-DS: hierarchia metryk transportowych (2026-11-05)
+- Na gałęzi main: `manuscript/tom-i/F28_2DS.md`, commit `a88bce2abf1e37ce6eda6de0ac8d770b221516ad`; `tests/test_f28_2ds.py`, commit `052cf27241fd234f6a8dbdca5fc1dfe86567aae7`.
+- Zakres: 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Wyniki: W₁≤W₂, W₂²≤D W₁, certyfikat kwantyzacji W₂²≤hD²/4, kontrakcja uśredniania komórkowego.
+- Weryfikacja lokalna: 1109 asercji w dokładnej arytmetyce wymiernej PASS; kompilacja testu Python PASS. Nie wykonano niezależnej recenzji ani pełnego CI.
+- Brak integracji z rzeczywistym monolitem 0.20: licznik kanoniczny 585/1222 bez zmian. Historyczny wstęp i dotychczasowe rozdziały niezmienione; brak końcowego spisu treści i Tomu II.
