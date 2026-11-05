@@ -1885,3 +1885,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na main:** `tests/test_f282bh_cdf_transport.py`, commit `a3f8c7e7bdd9115882c0adf19a3ddfdaf6557447`. Lokalnie wykonano **4/4 unittest OK** z dokładną kopią kodu zapisanego na GitHub, bez ponownego pobrania i porównania bajtowego. Brak potwierdzonego GitHub Actions.
 - **Podgląd PDF:** `/mnt/data/ontologia_bh/F28_2BH_PODGLAD.pdf`, 1 strona A4, 24040 bajtów, SHA-256 `7c2403df8901098e04cfce7aa5de8471f1e9653900ede0b99cd0a4a4c30298ac`. Wyciąg kontrolny, nie pełny skład manuskryptu.
 - **Otwarte:** uruchomienie testu z checkout, CI, niezależna recenzja, pełny skład i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**; historyczny wstęp i wcześniejsze rozdziały nieedytowane; bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-BI — Lokalny certyfikat transportu ogonowego (5 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2BI_TRANSPORT_OGONOWY_CERTYFIKAT_LOKALNY.md`, commit `4c1e85e4444d0d0f6de28075568b4100730fb304`. Trzy definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Wynik: `|Hμ(t)-Hν(t)|≤T_t(μ,ν)≤W1(μ,ν)`.
+- **Testy na main:** `tests/test_f282bi_tail_transport.py`, commit `39bcd18a7787f51d243c4a43650e61c0efd0d543`. Lokalnie **4/4 unittest OK**, 36 przypadków wyczerpujących; plik testowy w GitHub ma SHA `335ff4ff3338eb688e395a9df01bbbd7cbad52d7`, a lokalny pierwowzór `fde1f8bddb769e8559cfb28fd23cbb8a1c8194a7`: nie są bajtowo identyczne (różnica nazwy zmiennej w generatorze), więc nie deklaruje się uruchomienia dokładnego pliku z repozytorium.
+- **PDF kontrolny:** `/mnt/data/ontologia_bi/F28_2BI_PODGLAD.pdf`, 1 strona A4, 23927 bajtów, SHA-256 `9865c37796aebe33920efb73a96c8fc94fa5788c908a2e266839a87b4ffc7dae`. Wyciąg kontrolny, nie pełny skład.
+- **Dodatkowa weryfikacja poprzedniego etapu:** test F28.2-BH odczytany z GitHub ma blob SHA `8282952baeb708773a4e5fe4a1484bedaa796895`; lokalny plik miał identyczny SHA i wykonano go z wynikiem **4/4 OK**.
+- **Otwarte:** pełne CI, niezależna recenzja, kanoniczny skład, integracja z monolitem 0.20. **585/1222 bez zmian**; bez zmian w historycznym wstępie, bez końcowego spisu treści, bez Tomu II.
