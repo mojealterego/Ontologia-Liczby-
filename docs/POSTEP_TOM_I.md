@@ -1894,3 +1894,5 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **PDF kontrolny:** `/mnt/data/ontologia_bi/F28_2BI_PODGLAD.pdf`, 1 strona A4, 23927 bajtów, SHA-256 `9865c37796aebe33920efb73a96c8fc94fa5788c908a2e266839a87b4ffc7dae`. Wyciąg kontrolny, nie pełny skład.
 - **Dodatkowa weryfikacja poprzedniego etapu:** test F28.2-BH odczytany z GitHub ma blob SHA `8282952baeb708773a4e5fe4a1484bedaa796895`; lokalny plik miał identyczny SHA i wykonano go z wynikiem **4/4 OK**.
 - **Otwarte:** pełne CI, niezależna recenzja, kanoniczny skład, integracja z monolitem 0.20. **585/1222 bez zmian**; bez zmian w historycznym wstępie, bez końcowego spisu treści, bez Tomu II.
+
+- **Uzupełnienie weryfikacji F28.2-BI:** po zapisaniu testu na main lokalny plik dostosowano do dokładnej zawartości repozytorium; Git blob SHA-1 obu plików `335ff4ff3338eb688e395a9df01bbbd7cbad52d7`. Uruchomiono **dokładnie zgodny bajtowo test: 4/4 unittest OK**. Poprzednia adnotacja o nieidentycznym pierwowzorze pozostaje jako zapis chronologii.
