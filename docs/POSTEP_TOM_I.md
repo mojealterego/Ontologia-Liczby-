@@ -2203,3 +2203,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** Python fractions.Fraction — PASS, 2100 dokładnych asercji dla niemalejących sześciopunktowych kwantyli; py_compile PASS. Pełne CI i niezależna recenzja niepotwierdzone.
 - **Podgląd PDF:** `/mnt/data/ontologia_dv/F28_2DV_PODGLAD.pdf`, 1 strona A4, SHA-256 `9b6ac3b813f283da2d1657099ab61595bd6a6fd6b94cd233f79210f3172c78a1`, render PyMuPDF PASS. To skrócona redakcja lokalna, nie wierna kompilacja GitHub 1:1; binarny PDF nie jest zapisany w repozytorium.
 - **Stan kanoniczny:** 585/1222 bez zmian, brak integracji z monolitem 0.20. Nie zmieniono historycznego wstępu ani wcześniejszych rozdziałów, nie utworzono końcowego spisu treści ani Tomu II.
+
+
+### Tom I — F28.2-DW: certyfikat zatrzymania adaptacyjnej kwantyzacji (2026-11-05)
+- **Na main:** `manuscript/tom-i/F28_2DW.md` — commit `8ea0ad8babf26bb96d2438191fec993e0cd7994b`; `tests/test_f28_2dw.py` — commit `16c8a54a72ca5ba690c22f73c99ff9877910074c`.
+- **Zakres:** 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Dokładny certyfikat błędu W₂²≤Σw_I(B_I−A_I)²/4, formuła zysku rozszczepienia, bezpieczne zatrzymanie i zbieżność przy drobniejącej siatce.
+- **Weryfikacja:** niezależny lokalny skrypt Python z `fractions.Fraction` wykonał 420 kontroli tożsamości zysku i 84 kontrole certyfikatu — PASS. Test zapisany na main zawiera również kontrolę przypadku liniowego; wykonanie tego pliku w GitHub Actions niepotwierdzone. Testy nie zastępują recenzji matematycznej.
+- **Integracja:** brak dostępu do rzeczywistego monolitu 0.20; licznik **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały bez ingerencji. Bez końcowego spisu treści i bez Tomu II.
