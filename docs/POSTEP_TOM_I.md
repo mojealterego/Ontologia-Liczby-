@@ -2108,3 +2108,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Artefakty lokalne: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V26.pdf`, `build_cm.py`, `F28_2CM_PELNY_ROZDZIAL.pdf`.
 - Weryfikacja: PyMuPDF wyrenderował 706/706 stron bez wyjątków; trzy nowe strony zapisano jako PNG, stronę 705 obejrzano wizualnie. Limit 99 MB spełniony. Niezależna recenzja matematyczna i całościowa kontrola typograficzna nadal otwarte.
 - PDF pozostaje artefaktem rozmowy, repozytorium rejestruje postęp.
+
+### Tom I PDF-first V27 — F28.2-CN (5 listopada 2026)
+- PDF: `ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V27.pdf`, **709 stron A4**, **9 493 086 B**, SHA-256 `93255cc9394a1849cc11624775f9009a24debd3dce4a891794e042a215ef7350`.
+- Zachowano 706 stron V26 i dodano 3 strony rozdziału F28.2-CN „Ostre ograniczenia funkcji stop-loss przy znanym nośniku”: 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady i 6 zadań rozwiązanych. Omówiono bariery Jensena i siecznej, kryterium węzłowe i ostry błąd interpolacji h/4.
+- Pliki robocze: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V27.pdf`, `build_cn.py`, `F28_2CN_PELNY_ROZDZIAL.pdf`.
+- Kontrola: 709/709 stron wyrenderowano PyMuPDF bez wyjątku; nowe strony 707–709 zapisano jako PNG. Limit 99 MB spełniony. Niezależna recenzja matematyczna i pełna kontrola typograficzna pozostają otwarte.
+- PDF jest artefaktem rozmowy, repozytorium rejestruje postęp.
