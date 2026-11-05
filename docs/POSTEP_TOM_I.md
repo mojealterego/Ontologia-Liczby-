@@ -2059,3 +2059,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Lokalny PDF: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V19.pdf`; źródło: `build_cf.py`; samodzielny rozdział: `F28_2CF_PELNY_ROZDZIAL.pdf`.
 - Kontrola: PyMuPDF wyrenderował 688/688 stron bez wyjątku; nowe strony 687–688 wyrenderowano osobno. Limit 99 MB spełniony. Niezależna recenzja matematyczna i pełna kontrola typograficzna pozostają otwarte.
 - PDF pozostaje artefaktem rozmowy, repozytorium rejestruje postęp.
+
+### Tom I PDF-first V20 — F28.2-CG (5 listopada 2026)
+- Główny PDF `ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V20.pdf`: **690 stron A4**, **9 139 521 B**, SHA-256 `09c1624cf421ac32a664e0646145f5ecb7b3baf20770efa2552683c35dc99280`.
+- Zachowano 688 stron V19, dodano 2 strony rozdziału F28.2-CG „Kwantyzacja rozkładów i certyfikaty błędu CVaR”: 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 zadań rozwiązanych. Zachowanie średniej i budżetu ogonowego w węzłach, zbieżność w W1.
+- Lokalny artefakt `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V20.pdf`; skrypt `build_cg.py`, rozdział `F28_2CG_PELNY_ROZDZIAL.pdf`.
+- Kontrola: 690/690 stron wyrenderowano PyMuPDF bez wyjątków; nowe strony 689–690 wyrenderowano osobno, stronę 689 obejrzano. Limit 99 MB spełniony. Niezależna recenzja matematyczna i pełna kontrola typograficzna pozostają otwarte.
+- PDF pozostaje artefaktem rozmowy, repozytorium rejestruje postęp.
