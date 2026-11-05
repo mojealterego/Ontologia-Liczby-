@@ -2249,3 +2249,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Lokalna weryfikacja:** odpowiednik testu wykonano w Pythonie z fractions.Fraction: PASS, 2180 dokładnych asercji; py_compile PASS. Wykonanie testu repozytoryjnego w CI niepotwierdzone.
 - **PDF:** lokalny podgląd pełnego zakresu redakcyjnego `/mnt/data/ontologia_eb/F28_2EB_PODGLAD.pdf`, 2 strony A4, SHA-256 `733fa75175ddff354f5f33e1f83640dd59ed629348fd153538f85048b5424389`, otwarcie i render PyMuPDF PASS. PDF przygotowano z lokalnego wariantu, nie jest wierną kompilacją bajtową manuskryptu GitHub.
 - **Stan:** 585/1222 bez zmian; brak integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsza treść niezmienione. Bez końcowego spisu treści i Tomu II. CI, niezależna recenzja i audyt typograficzny otwarte.
+
+
+### Tom I — F28.2-EC: nierówność Monge'a i monotoniczność cięć (2026-11-05)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2EC.md`, commit `01c8cb99cff10f1a2e5eb7ad6ea3c4a9a100d19f`.
+- **Test na main:** `tests/test_f28_2ec.py`, commit `e8e937e0809cd0d20add002ebce1d747ea1384cc`.
+- **Zakres:** 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady i 6 zadań z rozwiązaniami. Ważony koszt przedziału, wariacyjność średniej, wzór złączenia, nierówność Monge'a, monotoniczność najmniejszego minimalizatora w dynamicznym programowaniu i bezpieczne zawężanie zakresu poszukiwań.
+- **Lokalna kontrola niezależna:** `/mnt/data/ontologia_ec/check.py`, dokładna arytmetyka `fractions.Fraction`: **5726 kontroli PASS**; obejmuje Monge'a, monotoniczność punktów cięcia i porównanie optimum DP z pełną enumeracją dla małych uporządkowanych próbek. **Nie jest to wykonanie pobranego pliku testowego z GitHub ani niezależna recenzja dowodów.**
+- **Podgląd lokalny PDF:** `/mnt/data/ontologia_ec/F28_2EC_PODGLAD.pdf`, 2 strony A4, 25381 bajtów, SHA-256 `595a0ac71ad04818b4eb261f605a147e426166987de729b9f837b4a0eff42f4e`, otwarcie i render PyMuPDF poprawne. To **skrócona redakcja**, nie wierna kompilacja całego manuskryptu GitHub.
+- **Ograniczenia:** CI GitHub niepotwierdzone; brak niezależnej recenzji matematycznej; brak integracji z rzeczywistym monolitem 0.20. Wcześniejsza treść i historyczny wstęp nietknięte. **Kanoniczny licznik 585/1222 bez zmian**, bez końcowego spisu treści i bez Tomu II.
