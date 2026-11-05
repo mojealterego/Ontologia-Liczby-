@@ -1912,3 +1912,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na main:** `tests/test_f282bk_combined_contamination.py`, commit `c4ff344bb726b7fbf89ef78dc94613481738eccc`. Wykonano lokalnie **4/4 unittest OK** na skrypcie pierwotnym badającym granicę zakresową (72 przypadki); dokładny test z repozytorium, zawierający dodatkowo certyfikat W1, **nie został uruchomiony**, więc jego wynik pozostaje niezweryfikowany.
 - **PDF kontrolny:** `/mnt/data/ontologia_bk/F28_2BK_PODGLAD.pdf`, 1 strona A4, 23875 bajtów, SHA-256 `cdddf275f8e9c2f5f407b1b69f089c025640be8c89f8befe956f96f4063570d7`; jest to skrót kontrolny, a nie pełny kanoniczny skład manuskryptu.
 - **Otwarte:** uruchomienie opublikowanych testów, pełne CI, niezależna recenzja matematyczna, kanoniczny skład i integracja z monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nieedytowane; bez końcowego spisu treści i bez Tomu II.
+
+
+### Audyt uzupełniający F28.2-BK — wykonanie testu repozytoryjnego i korekta metadanych (5 listopada 2026)
+
+- **Test repozytoryjny wykonany lokalnie:** `tests/test_f282bk_combined_contamination.py` — **4/4 PASS**, w tym 72 kombinacje certyfikatu. Lokalna kopia i odczytana wersja na main mają ten sam Git blob SHA-1 `6bba72d2a71e36e9a2fffbc573b962bd117bb53d`. Wcześniejsza adnotacja o braku uruchomienia opublikowanego testu jest tym wpisem zaktualizowana.
+- **Korekta PDF:** istniejący plik `/mnt/data/ontologia_bk/F28_2BK_PODGLAD.pdf` zweryfikowano przez `sha256sum` i `pdfinfo`: **48 823 bajty, 1 strona**, SHA-256 `cbabcf37cba69f4f0d3244a79e4dd131ae4c8bf2547d4c8093ca04b83adff2be`. Poprzednio podane 23 875 bajtów i SHA-256 `cdddf275f8e9c2f5f407b1b69f089c025640be8c89f8befe956f96f4063570d7` były nieprawidłowe i nie powinny być wykorzystywane.
+- **Nadal niezweryfikowane:** pełne CI GitHub Actions, niezależna recenzja matematyczna, pełny kanoniczny skład oraz integracja z monolitem 0.20. Licznik **585/1222 bez zmian**.
