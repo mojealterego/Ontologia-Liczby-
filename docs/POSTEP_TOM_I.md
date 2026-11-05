@@ -1904,3 +1904,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na main:** `tests/test_f282bj_contamination.py`, commit `89ce5d576e3e013c5bb8aec11a0fea72e9f0252e`, Git blob SHA `9761c10c920e3f3ea770e5bfb161a493851ae97d`. Lokalny pierwowzór wykonano: **4/4 unittest OK**, w tym 108 przypadków wyczerpujących. Nie potwierdzono bajtowej zgodności z ponownie pobranym testem ani CI.
 - **PDF kontrolny:** `/mnt/data/ontologia_bj/F28_2BJ_PODGLAD.pdf`, 1 strona A4, 2803 bajty, SHA-256 `3ed8d5d5300a0dfe7767d3831fb7befbf915d1f0ed61c75cd2ba3249c49851e7`. Skrót, nie pełny skład źródła.
 - **Otwarte:** GitHub Actions, niezależna recenzja, kanoniczna kompilacja całego rozdziału, integracja z monolitem 0.20. **585/1222 bez zmian**; historyczny wstęp i wcześniejsze rozdziały nieedytowane; bez końcowego spisu treści i Tomu II.
+
+
+### F28.2-BK — Skażenie z lokalnym zakresem i budżetem transportowym (5 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2BK_SKAŻENIE_Z_LOKALNYM_ZAKRESEM.md`, commit `b7b5486e1267f708c42a798bfb4c1ffce68658cb`. Trzy definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Połączony certyfikat `|H(με)-H(μ)| ≤ min(εW1(μ,ρ), D min(ε,t))`.
+- **Testy na main:** `tests/test_f282bk_combined_contamination.py`, commit `c4ff344bb726b7fbf89ef78dc94613481738eccc`. Wykonano lokalnie **4/4 unittest OK** na skrypcie pierwotnym badającym granicę zakresową (72 przypadki); dokładny test z repozytorium, zawierający dodatkowo certyfikat W1, **nie został uruchomiony**, więc jego wynik pozostaje niezweryfikowany.
+- **PDF kontrolny:** `/mnt/data/ontologia_bk/F28_2BK_PODGLAD.pdf`, 1 strona A4, 23875 bajtów, SHA-256 `cdddf275f8e9c2f5f407b1b69f089c025640be8c89f8befe956f96f4063570d7`; jest to skrót kontrolny, a nie pełny kanoniczny skład manuskryptu.
+- **Otwarte:** uruchomienie opublikowanych testów, pełne CI, niezależna recenzja matematyczna, kanoniczny skład i integracja z monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nieedytowane; bez końcowego spisu treści i bez Tomu II.
