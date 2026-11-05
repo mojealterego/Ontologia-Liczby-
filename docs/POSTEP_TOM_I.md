@@ -2195,3 +2195,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Zakres:** 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 zadań rozwiązanych. Dokładny bilans Pitagorasa dla W2 przy zagnieżdżonych partycjach, monotoniczność błędu, certyfikat zbieżności i dekompozycja wariancji.
 - **Weryfikacja:** test regresyjny zapisano w repozytorium; jego wykonanie w CI i pełna kompilacja PDF **niepotwierdzone**. Materiał wymaga niezależnej recenzji matematycznej.
 - **Kanoniczny licznik:** 585/1222 bez zmian; bez integracji z rzeczywistym monolitem 0.20, bez ingerencji w historyczny wstęp, bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-DV: dokładny zysk adaptacyjnego rozszczepienia (2026-11-05)
+- **Zapis na main:** `manuscript/tom-i/F28_2DV.md` — commit `ebac4b9abe8d03e3e19c0f9cf4cba10afc2d7acb`; `tests/test_f28_2dv.py` — commit `3f77d785e9f0572df1fa99bb7b88bf90ad308796`.
+- **Zakres:** 2 definicje, 4 twierdzenia z dowodami, 4 kontrprzykłady i 6 rozwiązanych zadań. Zysk rozszczepienia `G=(w_L*w_R/(w_L+w_R))*(m_L-m_R)^2`, dokładny spadek W2², ostra bariera i optymalność pojedynczego kroku.
+- **Weryfikacja lokalna:** Python fractions.Fraction — PASS, 2100 dokładnych asercji dla niemalejących sześciopunktowych kwantyli; py_compile PASS. Pełne CI i niezależna recenzja niepotwierdzone.
+- **Podgląd PDF:** `/mnt/data/ontologia_dv/F28_2DV_PODGLAD.pdf`, 1 strona A4, SHA-256 `9b6ac3b813f283da2d1657099ab61595bd6a6fd6b94cd233f79210f3172c78a1`, render PyMuPDF PASS. To skrócona redakcja lokalna, nie wierna kompilacja GitHub 1:1; binarny PDF nie jest zapisany w repozytorium.
+- **Stan kanoniczny:** 585/1222 bez zmian, brak integracji z monolitem 0.20. Nie zmieniono historycznego wstępu ani wcześniejszych rozdziałów, nie utworzono końcowego spisu treści ani Tomu II.
