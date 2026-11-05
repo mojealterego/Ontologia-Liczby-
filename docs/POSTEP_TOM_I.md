@@ -1869,3 +1869,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Testy na main:** `tests/test_f282bf_quantile_transport.py`, commit `4cfaf6b54e9657e6fba7b978512bf2975da86e33`. Cztery metody `unittest`. Lokalny pierwowzór skryptu uruchomiono: **4/4 OK**, 1280 przypadków w teście exhaustive; plik repozytoryjny nie był ponownie pobrany i uruchomiony, brak wyniku CI.
 - **Podgląd PDF:** lokalnie wygenerowano `/mnt/data/ontologia_bf/F28_2BF_PODGLAD.pdf`, 2 strony A4, SHA-256 `b1f67b8181b0080bedbc78f4b29e14e286608f1cc1cc3d0d8e6bdc67b080bb68`. Jest to lokalny skład, nie kompilacja monolitu.
 - **Blokady:** niezależna recenzja, GitHub Actions, kanoniczna kompilacja pełnego źródła i integracja z monolitem 0.20 niepotwierdzone. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
+
+
+### F28.2-BG — Budżet ogonowy, transport i certyfikaty aproksymacji (5 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2BG_BUDZET_OGONOWY_TRANSPORT_I_CERTYFIKATY.md`, commit `c1357add252844a60534ae582e1b790e46ca65f9`. Trzy definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Ostrość ograniczeń `|Hμ(t)-Hν(t)|≤W1(μ,ν)` i `|CVaRμ-CVaRν|≤W1/t`.
+- **Testy na main:** `tests/test_f282bg_tail_transport.py`, commit `21aab1c027b213e691c89a7abe7cce585667807b`. Lokalnie uruchomiono cztery metody `unittest` z równoważnego skryptu: **4/4 OK**, w tym 36 przypadków transportowych; nie potwierdzono ponownego uruchomienia pliku pobranego z GitHub ani GitHub Actions.
+- **Podgląd PDF:** `/mnt/data/ontologia_bg/F28_2BG_PODGLAD.pdf`, 1 strona A4, 24491 bajtów, SHA-256 `de47d2b8021f4cc077c1c028cc477da5db1f4a7344443753697fba5a29550dab`. Skrót kontrolny, nie kanoniczny skład pełnego źródła.
+- **Otwarte:** pełne CI, niezależna recenzja dowodów, kanoniczny skład i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**; wstęp historyczny i wcześniejsze rozdziały nieedytowane. Bez końcowego spisu treści i bez Tomu II.
