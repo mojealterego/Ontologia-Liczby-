@@ -2038,3 +2038,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Artefakty lokalne: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V16.pdf`, `F28_2CC_PELNY_ROZDZIAL.pdf`, `build_cc.py`.
 - Weryfikacja: PyMuPDF wyrenderował 681/681 stron bez wyjątku; nowe strony 679–681 wyrenderowano osobno. Limit 99 MB spełniony. Niezależna recenzja matematyczna i pełna kontrola typograficzna nadal otwarte.
 - PDF jest artefaktem rozmowy, repozytorium rejestruje postęp.
+
+### Tom I PDF-first V17 — F28.2-CD (5 listopada 2026)
+- PDF: `ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V17.pdf`; **684 strony A4**, **8 987 307 bajtów**, SHA-256 `bdbebb855805f0702cdeacd370009242051fe46159794b205558176006e24139`.
+- Zachowano 681 stron V16 i dodano 3 strony rozdziału F28.2-CD „Granice identyfikowalności i certyfikaty interpolacji kwantylowej”: 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 zadań rozwiązanych.
+- Lokalny artefakt: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V17.pdf`; źródło `build_cd.py`, rozdział `F28_2CD_PELNY_ROZDZIAL.pdf`.
+- PyMuPDF wyrenderował 684/684 stron bez wyjątku; nowe strony 682–684 osobno, obejrzano stronę 683. Rozmiar <99 MB. Niezależna recenzja matematyczna i kompleksowa kontrola typograficzna pozostają otwarte.
+- PDF udostępniony jako artefakt rozmowy, nie wgrany do GitHub.
