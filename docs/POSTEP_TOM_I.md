@@ -2167,3 +2167,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Lokalne sprawdzenie:** `python test_f28_2dq.py` PASS (501 kontroli raportowanych przez skrypt); `python -m py_compile` PASS. Testy algebraiczne nie stanowią pełnej weryfikacji dowodów.
 - **PDF lokalny:** `/mnt/data/ontologia_dq/F28_2DQ_PODGLAD.pdf`, 2 strony A4, 29204 B, SHA-256 `7edc10447ae5e5cf83c2df9fa23cf5074b536a17da09a5136618c0684da29b86`; PyMuPDF wyrenderował 2/2 stron. PDF pochodzi z lokalnego, nieidentycznego bajtowo wariantu manuskryptu; nie jest kompilacją GitHub 1:1 ani nie został wgrany do repozytorium.
 - **Stan kanoniczny:** 585/1222 bez zmian. Brak integracji z monolitem 0.20. Historyczny wstęp i dotychczasowe rozdziały bez zmian. Brak końcowego spisu treści i Tomu II. Otwarte: pełne CI, niezależna recenzja matematyczna, audyt typograficzny.
+
+### Tom I — F28.2-DR: kwantyzacja kwantylowa w metryce kwadratowej (2026-11-05)
+- **Zapis na main:** `manuscript/tom-i/F28_2DR.md`, commit `26d5f76219d0d2aa08ec2b76651c45b76f169cb4`; `tests/test_f28_2dr.py`, commit `92bfc48115981aac230585c77c8dddb2d880d1f0`.
+- **Zakres:** 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 zadań rozwiązanych. Tożsamość `W₂²=ΣEᵢ`, certyfikat `W₂²≤ΣΔᵢdᵢ²/4≤h(b−a)²/4`, zachowanie średniej, dekompozycja drugiego momentu i stabilność przy monotonicznych zakłóceniach.
+- **Weryfikacja lokalna:** `python test_f28_2dr.py` — PASS, 5350 dokładnych asercji wymiernych. Nie oznacza to formalnej weryfikacji wszystkich dowodów ani wykonania CI.
+- **Podgląd lokalny:** `/mnt/data/ontologia_dr/F28_2DR_PODGLAD.pdf`; 2 strony A4, 29 380 B, SHA-256 `8d170b5cfb517d4bb07b036156ef9b8bd2db7cdad90ef7c4d365d252f78915e8`; render PyMuPDF 2/2. Lokalny wariant redakcyjny PDF nie jest wierną kompilacją GitHub 1:1 i nie został wgrany do repozytorium.
+- **Stan kanoniczny:** 585/1222 bez zmian, ponieważ brak integracji z rzeczywistym monolitem 0.20. Historyczny wstęp nietknięty; brak końcowego spisu treści i Tomu II. Otwarte: pełne CI, niezależna recenzja matematyczna, integracja i audyt typograficzny.
