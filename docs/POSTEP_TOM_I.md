@@ -2052,3 +2052,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Artefakty robocze: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V18.pdf`, `build_ce.py`, `F28_2CE_PELNY_ROZDZIAL.pdf`.
 - Kontrola: PyMuPDF wyrenderował 686/686 stron bez wyjątków, nowe strony 685–686 zapisano jako PNG; stronę 685 sprawdzono wizualnie. Rozmiar poniżej 99 MB. Niezależna recenzja matematyczna i pełny audyt typograficzny pozostają otwarte.
 - PDF udostępniono jako artefakt rozmowy, nie wgrano do GitHub.
+
+### Tom I PDF-first V19 — F28.2-CF (5 listopada 2026)
+- Główny PDF: `ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V19.pdf`; **688 stron A4**, **9 088 677 bajtów**, SHA-256 `9267a36627d8ea49299aa05a81d9041bc7120ff5b8d9726338e80c641ae698a1`.
+- Zachowano 686 stron V18 i dodano 2 strony rozdziału F28.2-CF „Transport optymalny i stabilność budżetu ogonowego” (3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań). Główny wynik: `|C_mu(t)-C_nu(t)| <= W1(mu,nu)/t` dla t>0.
+- Lokalny PDF: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V19.pdf`; źródło: `build_cf.py`; samodzielny rozdział: `F28_2CF_PELNY_ROZDZIAL.pdf`.
+- Kontrola: PyMuPDF wyrenderował 688/688 stron bez wyjątku; nowe strony 687–688 wyrenderowano osobno. Limit 99 MB spełniony. Niezależna recenzja matematyczna i pełna kontrola typograficzna pozostają otwarte.
+- PDF pozostaje artefaktem rozmowy, repozytorium rejestruje postęp.
