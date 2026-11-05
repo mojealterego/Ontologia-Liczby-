@@ -2004,3 +2004,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Źródło: `build_bx.py`; samodzielny rozdział: `F28_2BX_PELNY_ROZDZIAL.pdf` w `/mnt/data/ontologia_aktualizacja/`.
 - Preflight: PyMuPDF wyrenderował **666/666 stron** bez wyjątków, nowe strony 664–666 wyrenderowano osobno, wizualnie sprawdzono stronę 665. Rozmiar poniżej 99 MB.
 - PDF pozostaje artefaktem rozmowy; repozytorium rejestruje postęp. Niezależna recenzja matematyczna i pełna kontrola typograficzna pozostają otwarte.
+
+### Tom I PDF-first V12 — F28.2-BY (5 listopada 2026)
+- Aktualny PDF: `ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V12.pdf`; **669 stron A4**, **8 726 558 bajtów**, SHA-256 `78f59cd3dc8c1d4ff06ba0089ee482bba3f31566a3748a98526bc66e2029bd22`.
+- Zachowano 666 stron V11 i dołączono 3 strony rozdziału F28.2-BY „Ostre granice między węzłami budżetu ogonowego”: 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Rozróżniono lokalną ostrość od globalnej wykonalności.
+- Plik PDF w przestrzeni roboczej: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V12.pdf`; skrypt składu: `build_by.py`; samodzielny rozdział: `F28_2BY_PELNY_ROZDZIAL.pdf`.
+- Weryfikacja: 669/669 stron wyrenderowano PyMuPDF bez wyjątków; nowe strony 667–669 wyrenderowano osobno. Limit 99 MB spełniony. Niezależna recenzja matematyczna i kompleksowa kontrola typograficzna pozostają otwarte.
+- PDF pozostaje artefaktem rozmowy; repozytorium przechowuje dziennik postępu.
