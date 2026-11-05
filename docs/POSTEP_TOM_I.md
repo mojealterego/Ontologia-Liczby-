@@ -2073,3 +2073,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Lokalny artefakt `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V21.pdf`; skrypt `build_ch.py`, rozdział `F28_2CH_PELNY_ROZDZIAL.pdf`.
 - Kontrola: PyMuPDF wyrenderował 693/693 stron bez wyjątku; nowe strony 691–693 zapisano jako PNG. Limit 99 MB spełniony. Niezależna recenzja matematyczna i pełna kontrola typograficzna pozostają otwarte.
 - PDF jest artefaktem rozmowy, repozytorium rejestruje postęp.
+
+### Tom I PDF-first V22 — F28.2-CI (5 listopada 2026)
+- Główny PDF: `ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V22.pdf`; **696 stron A4**, **9 240 745 B**, SHA-256 `deaf494fdab3e459b4ebe2b95c460c024366383b17e2d154899cc2b357675408`.
+- Zachowano 693 strony V21 i dodano 3 strony rozdziału F28.2-CI „Funkcja stop-loss: odzyskiwanie rozkładu i stabilność”: 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 zadań rozwiązanych.
+- Artefakty lokalne: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V22.pdf`, `build_ci.py`, `F28_2CI_PELNY_ROZDZIAL.pdf`.
+- Weryfikacja: 696/696 stron wyrenderowano PyMuPDF bez wyjątków; nowe strony 694–696 wyrenderowano osobno, wizualnie sprawdzono stronę 695. Limit 99 MB spełniony. Niezależna recenzja matematyczna i całościowa kontrola typograficzna pozostają otwarte.
+- PDF udostępniony jako artefakt rozmowy, nie wgrany do GitHub.
