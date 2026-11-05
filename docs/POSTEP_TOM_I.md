@@ -1983,3 +1983,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Testy: `tests/test_f282bu_wasserstein_tail.py`, commit `d1460d83583c1f7b5b024225169eda932312d01a`. Lokalny odpowiednik: 3/3 unittest PASS, arytmetyka wymierna. Testów repozytoryjnych w CI nie uruchomiono.
 - PDF roboczy V8: `/mnt/data/ONTOLOGIA_LICZBY_TOM_I_V8_2026-11-05.pdf`, **658 stron**, **8 499 700 bajtów**, SHA-256 `7bfdc42b10571c851422d65d7adbbccc786262c99bc53467570f4b5b37c42de2`. Zachowano 657 stron V7, dodano jednostronicowy skład redakcyjny F28.2-BU, render ostatniej strony wykonany. PDF nie jest identycznym składem bajtowym repozytoryjnego Markdown i nie został opublikowany do GitHub.
 - Stan kanoniczny **585/1222 bez zmian**, do czasu integracji z monolitem 0.20. Wstęp historyczny i stare rozdziały nietknięte; bez końcowego spisu treści i Tomu II. Otwarta niezależna recenzja i pełny preflight V8.
+
+### PDF-first V7–V9 — 5 listopada 2026
+- V7: 657 stron, rozdział F28.2-BT; V8: 659 stron, rozdział F28.2-BU. Poprzednie próby zapisania tych etapów do rejestru były zablokowane.
+- **V9:** `ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V9.pdf`, **661 stron**, **8 573 006 bajtów**, SHA-256 `019fda1dbda3f77f253009cceee72a77161975e27582266bb0dd96313dab8c72`.
+- V9 zachowuje 659 stron V8 i dodaje 2 strony rozdziału F28.2-BV „Certyfikaty ryzyka ogonowego przy brakujących obserwacjach” (3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań). Wersja lokalna: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V9.pdf`; źródło: `build_bv.py`.
+- **Kontrola:** 661/661 stron wyrenderowano bez błędów; porównanie renderów wszystkich pierwszych 659 stron z V8 nie wykazało różnic; strony 660–661 wyrenderowano osobno. Rozmiar poniżej limitu 99 MB.
+- PDF nie został opublikowany w GitHub; repozytorium jest dziennikiem postępu. Pozostają niezależna recenzja matematyczna i pełna kontrola typograficzna.
