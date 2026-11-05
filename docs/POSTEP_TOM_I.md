@@ -1861,3 +1861,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Do weryfikacji:** wykonanie dokładnie opublikowanego pliku testowego, pełny GitHub Actions, niezależna recenzja i kanoniczny skład całego źródła.
 
 - **Kontrola lokalna:** oddzielny skrypt `/mnt/data/ontologia_be/check.py` — 4125/4125 asercji w arytmetyce `Fraction` PASS (translacja, monotoniczność, stabilność na 125 wektorach i 11 poziomach t). **Nie jest to wykonanie bajtowo identycznego pliku testowego z GitHub**: `git clone` zablokowany przez DNS. PDF kontrolny `/mnt/data/ontologia_be/F28_2BE_PODGLAD.pdf`, 1 strona A4, SHA-256 `288402c31dc006f38316ab98caf9c5fd7884fcae20d64153a5c476e9f7899d92`; wyciąg, nie pełny skład źródła.
+
+
+### F28.2-BF — Transport kwantylowy i stabilność CVaR (5 listopada 2026)
+
+- **Manuskrypt na main:** `manuscript/tom-01/F28/F28.2BF_TRANSPORT_KWANTYLOWY_CVAR.md`, commit `a386c188a86ac2824fc2114ac79d77e191d42d15`. Trzy definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Dokładny certyfikat `|CVaRα(μ)−CVaRα(ν)|≤W₁(μ,ν)/(1−α)` i ostrość stałej.
+- **Testy na main:** `tests/test_f282bf_quantile_transport.py`, commit `4cfaf6b54e9657e6fba7b978512bf2975da86e33`. Cztery metody `unittest`. Lokalny pierwowzór skryptu uruchomiono: **4/4 OK**, 1280 przypadków w teście exhaustive; plik repozytoryjny nie był ponownie pobrany i uruchomiony, brak wyniku CI.
+- **Podgląd PDF:** lokalnie wygenerowano `/mnt/data/ontologia_bf/F28_2BF_PODGLAD.pdf`, 2 strony A4, SHA-256 `b1f67b8181b0080bedbc78f4b29e14e286608f1cc1cc3d0d8e6bdc67b080bb68`. Jest to lokalny skład, nie kompilacja monolitu.
+- **Blokady:** niezależna recenzja, GitHub Actions, kanoniczna kompilacja pełnego źródła i integracja z monolitem 0.20 niepotwierdzone. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
