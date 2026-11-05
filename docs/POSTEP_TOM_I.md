@@ -2218,3 +2218,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** 826 asercji w dokładnej arytmetyce wymiernej (lokalny odpowiednik testu), PASS. Pierwsza wersja testu miała niepoprawną formułę dla poziomu refinacji i została poprawiona w osobnym commicie. CI i niezależna recenzja matematyczna niepotwierdzone.
 - **PDF:** lokalny skrócony podgląd `/mnt/data/ontologia_dx/F28_2DX_PODGLAD.pdf`, 1 strona A4, 25 661 B, SHA-256 `93aeeb859886ac4597abacb865dec7b3f9eaf80f30791f55e4879a6f2123afec`, render PyMuPDF PASS. Nie jest to pełna kompilacja Markdown ani integracja monolitu.
 - **Stan kanoniczny:** 585/1222 bez zmian; monolit 0.20 nie został zmodyfikowany. Historyczny wstęp i wcześniejsze rozdziały bez ingerencji. Bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-DY: dwustronne certyfikaty błędu kwantyzacji (2026-11-05)
+- **Na main:** `manuscript/tom-i/F28_2DY.md`, commit `75de05e755bf13af4ff9431ff79a6813f394bc7c`; `tests/test_f28_2dy.py`, commit `dfc482e5d72eae35d7311f6d2af6ea1d39a7afaa`.
+- **Zawartość:** 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Wynik: `B_P <= E_P = W2²(mu,mu_P) <= C_P`, gdzie `B_P=E_P-E_R` jest mierzalnym zyskiem refinacji. Wykazano, że nie istnieje dodatnie uniwersalne dolne oszacowanie `E_P >= c C_P`.
+- **Weryfikacja lokalna:** niezależnie od pliku GitHub uruchomiono odpowiednik enumeracyjnego testu w `fractions.Fraction`: **790 przypadków, 1580 dokładnych asercji PASS**. Nie uruchomiono bezpośrednio pobranego testu z repozytorium (brak DNS do raw.githubusercontent.com), a GitHub Actions CI niepotwierdzone.
+- **Podgląd PDF:** lokalny skrót redakcyjny `/mnt/data/ontologia_dy/F28_2DY_PODGLAD.pdf`, 1 strona A4, 2984 B, SHA-256 `5d621be1d5f6b52a33119e2632038dc046572d9f3c036aa8e65adb2e2947a881`. Poprawnie otwarty i wyrenderowany w PyMuPDF. **Nie jest wierną kompilacją pełnego manuskryptu** i nie został umieszczony na GitHub.
+- **Ograniczenia:** niezależna recenzja matematyczna, pełne CI, wierna kompilacja źródła i integracja z rzeczywistym monolitem 0.20 nadal otwarte. Historyczny wstęp i wcześniejsza treść niezmienione; bez końcowego spisu treści i bez Tomu II. Kanoniczny licznik **585/1222 bez zmian**.
