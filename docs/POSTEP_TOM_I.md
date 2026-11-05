@@ -2115,3 +2115,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Pliki robocze: `/mnt/data/ontologia_aktualizacja/ONTOLOGIA_LICZBY_TOM_I_AKTUALIZACJA_2026-11-05_V27.pdf`, `build_cn.py`, `F28_2CN_PELNY_ROZDZIAL.pdf`.
 - Kontrola: 709/709 stron wyrenderowano PyMuPDF bez wyjątku; nowe strony 707–709 zapisano jako PNG. Limit 99 MB spełniony. Niezależna recenzja matematyczna i pełna kontrola typograficzna pozostają otwarte.
 - PDF jest artefaktem rozmowy, repozytorium rejestruje postęp.
+
+### Tom I — F28.2-BW: ostre bariery budżetu ogonowego (5 listopada 2026)
+- **Na `main`**: `manuscript/tom-i/F28_2BW.md` (commit `50c00d340a74dba76d79475559ef9fb614af921a`), `tests/test_f28_2bw.py` (commit `44768b190a47787ca7a30d1bf5202bc74b387f5f`). Materiał: 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań.
+- **Test lokalny**: 4830 przypadków dla rozkładów dwupunktowych w dokładnej arytmetyce wymiernej, PASS. Testuje `tm ≤ H(t) ≤ min(tb,m−(1−t)a)` i przykłady rozróżniające rozkłady. Nie stanowi niezależnej recenzji wszystkich dowodów.
+- **Podgląd lokalny**: `/mnt/data/ontologia_run3/F28_2BW_PODGLAD.pdf`, 2 strony, 49 124 bajty, SHA-256 `1826ea27cfa5f1e1ea43fd592223dabb363cc6a066f4d6207d2dd92716996dc9`; wszystkie strony otwarte i wyrenderowane w PyMuPDF. Nie wgrano binarnego PDF do repozytorium.
+- **Status**: bez integracji z rzeczywistym monolitem 0.20; kanoniczny licznik **585/1222 bez zmian**. Nie zmieniono historycznego wstępu, nie utworzono końcowego spisu treści, nie rozpoczęto Tomu II. Niezależna recenzja, pełne CI i integracja monolitu pozostają otwarte.
