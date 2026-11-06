@@ -2472,3 +2472,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Lokalny odpowiednik testu: `python -m py_compile` PASS; `python /mnt/data/ontologia_fb/verify.py` PASS, 1 188 576 dokładnych asercji wymiernych, n=2..4, wagi 1,2, wartości -1,0,2, wszystkie pary podziałów. Nie uruchomiono bezpośrednio bajtowo pobranego pliku repozytoryjnego; CI i niezależna recenzja niepotwierdzone.
 - Podgląd PDF `/mnt/data/ontologia_fb/F28_2FB_PODGLAD.pdf`, 1 strona A4, SHA-256 `5d9622affe58306af50c8b119a92ec40f1b7c51bb5111f74b32fc7a90d45d8c9`, otwarcie i render PyMuPDF PASS. Skrót, nie pełny skład manuskryptu; PDF nie zapisany w repo.
 - Historyczny wstęp i wcześniejszy manuskrypt nietknięte. Brak integracji z monolitem 0.20; **585/1222 bez zmian**; bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-FC: naprzemienne rzuty blokowe (2026-11-07)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2FC.md`, commit `8e9c06b2a28689358e9591d1a02d9960a37cbc83`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Klasyczna zbieżność naprzemiennych rzutów w skończonym wymiarze, opracowana samodzielnie.
+- **Test na main:** `tests/test_f28_2fc.py`, commit `0c168a2f76e5c37789772ffde3c13d1d6fda4416`.
+- **Lokalna weryfikacja:** odpowiednik testu zapisany w `/mnt/data/ontologia_fc/test.py`: `python -m py_compile` PASS; `python test.py` PASS, **649** dokładnych kontroli wymiernych (216 kombinacji danych i wag, trzy kontrole każda, plus przypadek jawny). Pliku pobranego bajtowo z GitHub nie uruchomiono: DNS raw.githubusercontent.com niedostępny. CI i niezależna recenzja matematyczna niepotwierdzone.
+- **Podgląd PDF:** lokalny `/mnt/data/ontologia_fc/F28_2FC_PODGLAD.pdf`, 1 strona A4, SHA-256 `826e20725094b135b0855ea7c35f4a32758ae2b06edb1d0d95048d00213a5923`; otwarcie i render PyMuPDF PASS. Jest to skrót, nie pełny skład manuskryptu ani PDF repozytoryjny.
+- **Blokady:** brak integracji z rzeczywistym monolitem 0.20; licznik **585/1222 bez zmian**. Wstęp historyczny i wcześniejsza treść nietknięte; nie utworzono końcowego spisu treści ani nie rozpoczęto Tomu II.
