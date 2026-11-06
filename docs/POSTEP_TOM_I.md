@@ -2291,3 +2291,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** niezależny odpowiednik testu w `/mnt/data/ontologia_eg/verify.py` — 44 352 dokładne kontrole wymierne PASS, `py_compile` PASS. **Nie jest to wykonanie pliku pobranego z repozytorium** (DNS raw.githubusercontent.com niedostępny); GitHub Actions CI niepotwierdzone.
 - **Podgląd PDF:** `/mnt/data/ontologia_eg/F28_2EG_PODGLAD.pdf`, 1 strona A4, SHA-256 `052a2d7ab260677cc923d31701a1941f9aa8312f23e3a5b06e2e77b69649428a`; PyMuPDF otwarcie i render PASS. Skrócony podgląd, nie pełna kompilacja repozytoryjnego manuskryptu.
 - **Stan:** 585/1222 bez zmian, brak integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały niezmienione; bez końcowego spisu treści i Tomu II. Pełne CI i niezależna recenzja otwarte.
+
+
+### Tom I — F28.2-EH: parowe certyfikaty stabilności (2026-11-06)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2EH.md`, commit finalnej treści `d84bceee769a13b5acaebeb1a5fbd9a9be74ac86` (poprzedni commit `45e78ebade52b6c673cfe2ccfc84510218d3b5f2` zawierał wyłącznie tymczasową treść, zastąpioną w całości).
+- **Test na main:** `tests/test_f28_2eh.py`, commit `5dcc63d445bd044cc624fdd8481fc657028eb6cd`.
+- **Zakres:** 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 zadań rozwiązanych. Dokładna tożsamość perturbacyjna różnicy kosztów, norma różnicy rzutów ≤1, parowy certyfikat zachowania jednoznacznego optimum i konieczne oraz wystarczające kryterium dla konkretnego zaburzenia.
+- **Weryfikacja lokalna:** `python /mnt/data/ontologia_eh/test_f28_2eh.py` — PASS, **20 414** dokładnych asercji wymiernych; `python -m py_compile` PASS. Jest to lokalny odpowiednik testu na GitHub, a nie wykonanie pliku pobranego z repozytorium. Pierwsza próba z szerszą enumeracją przekroczyła limit czasu; zakres ograniczono do n=3,4.
+- **PDF:** lokalny `/mnt/data/ontologia_eh/F28_2EH.pdf`, 2 strony A4, wygenerowany z lokalnego Markdown przez ReportLab; nie jest wiernym typograficznie renderem matematycznym (wzory pozostają zapisem tekstowym). Plik nie został umieszczony na GitHub.
+- **Ograniczenia:** pełne GitHub Actions CI i niezależna recenzja matematyczna niepotwierdzone. Nie integrowano z rzeczywistym monolitem 0.20; **licznik 585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
