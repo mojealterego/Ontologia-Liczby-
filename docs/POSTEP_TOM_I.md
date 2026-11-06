@@ -2430,3 +2430,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** `python /mnt/data/ontologia_ew/test_f28_2ew.py` PASS, **269856 dokładnych asercji wymiernych**; `python -m py_compile` PASS. Lokalny odpowiednik testu; pliku repozytoryjnego nie uruchomiono bezpośrednio. CI i niezależna recenzja niepotwierdzone.
 - **Podgląd PDF:** `/mnt/data/ontologia_ew/F28_2EW_PODGLAD.pdf`, 1 strona A4, SHA-256 `c09a7fc6c2076d40458125568e24317b38f4dccc796c5e57f37e68211e378ff5`; otwarcie i render PyMuPDF PASS. Podgląd redakcyjny, nie pełna kompilacja pliku z GitHub.
 - **Otwarte:** brak integracji z rzeczywistym monolitem 0.20, pełnego CI i niezależnej recenzji. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-EX: ostre ograniczenia dyspersji międzyblokowej (2026-11-06)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2EX.md`, commit `64d152b9a9611bb5153b1851e043d38bba2e8dd1`. 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady i 6 rozwiązanych zadań. Ostre granice Popoviciu, dokładny defekt ekstremalny i certyfikat parowy; bez roszczenia do pierwszeństwa odkrycia.
+- **Test main:** `tests/test_f28_2ex.py`, commit `df6d9d3b75db74bfe2d9dbcf029cc3825250c0c8`.
+- **Weryfikacja lokalna:** `python /mnt/data/ontologia_ex/test_f28_2ex.py` PASS, 23360 dokładnych asercji wymiernych; `python -m py_compile` PASS. Skrypt lokalny ma treść zgodną z tekstem przekazanym do GitHub, ale nie wykonano pobranego bajtowo pliku z GitHub. CI i niezależna recenzja niepotwierdzone.
+- **PDF:** `/mnt/data/ontologia_ex/F28_2EX_PODGLAD.pdf`, 1 strona A4, 24319 B, SHA-256 `a3327336009782cc95d9ada4f4618b3c6fbfa17141e340d191428efdb7982a1e`; otwarcie i render PyMuPDF PASS. Jest to skrócony podgląd, nie pełna kompilacja repozytoryjnego manuskryptu.
+- **Otwarte:** brak integracji z rzeczywistym monolitem 0.20, pełnego CI i niezależnej recenzji. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
