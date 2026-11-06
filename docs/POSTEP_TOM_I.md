@@ -2372,3 +2372,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Zakres:** 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Dokładny wzór na karę scalenia, kryterium równości, teleskopowanie i afiniczna zmiana skali.
 - **Lokalny test niezależny:** `/mnt/data/ontologia_ep/test.py` PASS — 35460 dokładnych przypadków wymiernych, n=2..5; nie jest to uruchomienie pobranego testu GitHub. CI i niezależna recenzja niepotwierdzone.
 - **Monolit:** integracja 0.20 niewykonana, licznik **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-EQ: insercja i delecja w ważonej wariancji (2026-11-06)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2EQ.md`, commit `e48d5dac308d0a9754aaccd324c4591fb4bf13a0`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Zachowano historyczny wstęp i wcześniejsze rozdziały.
+- **Test main:** `tests/test_f28_2eq.py`, commit `e0144630a719ef8231a2ea03ba7c24119d4d0097`; korekta współczynnika w asercji odwracalności `45191ea1b5f13be2d3332bc1431ea67631bf12f4`. Pierwsza lokalna próba wykryła błąd asercji, następnie poprawiono test.
+- **Weryfikacja lokalna:** `/mnt/data/ontologia_eq/verify.py`, `py_compile` PASS, **36672** asercje na dokładnych ułamkach PASS; lokalny odpowiednik, nie uruchomienie pobranego pliku z GitHub. GitHub Actions CI niepotwierdzone.
+- **PDF:** `/mnt/data/ontologia_eq/F28_2EQ_PODGLAD.pdf`, 1 strona A4, SHA-256 `09c5921abbcfd82dd9baed7a9fffb5edc588842bf2a66d7ca879d415882de83d`, otwarcie i render PyMuPDF PASS. Skrócony podgląd, nie pełna kompilacja repozytoryjnego manuskryptu.
+- **Blokady:** brak integracji z rzeczywistym monolitem 0.20, brak niezależnej recenzji i potwierdzenia pełnego CI. **585/1222 bez zmian**, bez końcowego spisu treści, bez Tomu II.
