@@ -2300,3 +2300,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** `python /mnt/data/ontologia_eh/test_f28_2eh.py` — PASS, **20 414** dokładnych asercji wymiernych; `python -m py_compile` PASS. Jest to lokalny odpowiednik testu na GitHub, a nie wykonanie pliku pobranego z repozytorium. Pierwsza próba z szerszą enumeracją przekroczyła limit czasu; zakres ograniczono do n=3,4.
 - **PDF:** lokalny `/mnt/data/ontologia_eh/F28_2EH.pdf`, 2 strony A4, wygenerowany z lokalnego Markdown przez ReportLab; nie jest wiernym typograficznie renderem matematycznym (wzory pozostają zapisem tekstowym). Plik nie został umieszczony na GitHub.
 - **Ograniczenia:** pełne GitHub Actions CI i niezależna recenzja matematyczna niepotwierdzone. Nie integrowano z rzeczywistym monolitem 0.20; **licznik 585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-EI: kierunkowe promienie stabilności (2026-11-06)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2EI.md`, commit `05ce2566be991bde84b33233c54455374a6fc0f9`.
+- **Test na main:** `tests/test_f28_2ei.py`, commit `b50410c3ad57982eb3d9516cb8c0d86bc75c4330`.
+- **Zakres:** 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Dokładna kwadratowa tożsamość luki wzdłuż kierunku, pierwszy punkt remisu, stabilność ścisłego optimum, niezmienniczość afiniczna i dolny certyfikat promienia.
+- **Lokalne testy:** niezależnie przygotowany `/mnt/data/ontologia_ei/test_f28_2ei.py` — PASS, 137700 dokładnych tożsamości wymiernych i 3 kontrole brzegowe; `py_compile` PASS. Test repozytoryjny nie został uruchomiony z pobranego GitHub pliku, GitHub Actions CI niepotwierdzone.
+- **PDF:** lokalny `/mnt/data/ontologia_ei/F28_2EI_PODGLAD.pdf`, 2 strony A4, SHA-256 `17cee86ce85852bbf8bfe8fd8065d45cc36f8e5ab270f0a7f98633e35134ee81`; render 2/2 PASS. Jest to podgląd z lokalnego pełnego wariantu, a nie wierna kompilacja pliku GitHub.
+- **Stan:** 585/1222 bez zmian; brak integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsza treść niezmienione; bez końcowego spisu treści i bez Tomu II. Niezależna recenzja matematyczna oraz CI nadal otwarte.
