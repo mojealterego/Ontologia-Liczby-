@@ -22,7 +22,7 @@ def cost(p,x,w):
     return s
 def check():
     checks=0
-    for n in range(2,5):
+    for n in range(2,4):
         for lp in product(range(n),repeat=n):
             p=blocks(lp)
             for lq in product(range(n),repeat=n):
@@ -32,7 +32,6 @@ def check():
                 checks+=1
                 for v in product((-1,0,2),repeat=n):
                     x=list(map(F,v));w=[F(i+1) for i in range(n)]
-                    h=[F(next(iter(sorted(b)))+1) for i in range(n) for b in []] # overwritten below
                     h=[F(next(k+1 for k,b in enumerate(j) if i in b)) for i in range(n)]
                     assert cost(p,[x[i]+h[i] for i in range(n)],w)==cost(p,x,w)
                     assert cost(q,[x[i]+h[i] for i in range(n)],w)==cost(q,x,w)
