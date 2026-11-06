@@ -2446,3 +2446,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Weryfikacja lokalna: `/mnt/data/ontologia_ey/test_f28_2ey.py` PASS, **383040** dokładnych tożsamości wymiernych; kompilacja składniowa Python PASS. To test lokalny odpowiadający zapisanej treści, nie wykonanie bajtowo pobranego pliku GitHub. Pełne CI niepotwierdzone.
 - PDF: `/mnt/data/ontologia_ey/F28_2EY_PODGLAD.pdf`, 1 strona, SHA-256 `58f82ce8f43b523c3e1498dd2d5b0ab779a69c8c0d64c54e2b97586a4c98c892`, render PyMuPDF PASS; skrócony podgląd, nie pełny skład repozytoryjnego manuskryptu.
 - Bez integracji z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsza treść nietknięte. Bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-EZ: stabilność dyspersji międzyblokowej przy zaburzeniach wektorowych (2026-11-06)
+- Manuskrypt: `manuscript/tom-i/F28_2EZ.md`, commit `05e647c6a673bed8459bbee5b2d45115412dd488`.
+- Test regresyjny: `tests/test_f28_2ez.py`, commit `798909fc33160fd32e1f3b5dd5d2d1049d1688b4`.
+- Zakres: 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Dokładna polaryzacja, nierówność Cauchy'ego–Schwarza, jądro seminormy, ostre ograniczenie perturbacyjne, monotoniczność rafinacji.
+- Status przy zapisie: pliki manuskryptu i testu zapisane na `main`; GitHub Actions CI i niezależna recenzja matematyczna niepotwierdzone. Testu repozytoryjnego nie oznaczać jako wykonanego bez osobnego uruchomienia.
+- Bez integracji z rzeczywistym monolitem 0.20; **585/1222 bez zmian**. Historyczny wstęp i wcześniejszy manuskrypt nietknięte. Bez końcowego spisu treści i bez Tomu II.
