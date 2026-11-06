@@ -2454,3 +2454,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Zakres: 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Dokładna polaryzacja, nierówność Cauchy'ego–Schwarza, jądro seminormy, ostre ograniczenie perturbacyjne, monotoniczność rafinacji.
 - Status przy zapisie: pliki manuskryptu i testu zapisane na `main`; GitHub Actions CI i niezależna recenzja matematyczna niepotwierdzone. Testu repozytoryjnego nie oznaczać jako wykonanego bez osobnego uruchomienia.
 - Bez integracji z rzeczywistym monolitem 0.20; **585/1222 bez zmian**. Historyczny wstęp i wcześniejszy manuskrypt nietknięte. Bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-FA: porównanie dyspersji nieporównywalnych podziałów (2026-11-06)
+- Manuskrypt: `manuscript/tom-i/F28_2FA.md`, commity `8f0f512868f6f2bada76cc4c0627f95a17a83b5c` i korekta kontrprzykładu `d11ec0c30fa7bc6a476eca15099a8f4503aa27d7`.
+- Test: `tests/test_f28_2fa.py`, commit `08c299ce3679b3c4dd5273146d3114fb82a24614`.
+- Zakres: trzy definicje, cztery twierdzenia z dowodami, dwa kontrprzykłady, sześć rozwiązanych zadań. Dokładna polaryzacja rozbieżności, ograniczenia trójkątne, certyfikat wspólnego uszczegółowienia i stabilność.
+- Weryfikacja: pliki zapisane na `main`; **nie potwierdzono wykonania testu repozytoryjnego ani GitHub Actions CI**. Podgląd PDF niewykonany z powodu niedostępności środowiska kontenerowego (ServiceUnavailableError). Niezależna recenzja matematyczna otwarta.
+- Monolit 0.20 niezintegrowany; **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
