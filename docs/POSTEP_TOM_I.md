@@ -2335,3 +2335,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** `python /mnt/data/ontologia_el/test_f28_2el.py` PASS, **277830 dokładnych tożsamości wymiernych** dla n=2..4; `python -m py_compile` PASS. Jest to lokalny odpowiednik, a nie uruchomienie pliku pobranego z GitHub. GitHub Actions CI niepotwierdzone.
 - **PDF:** lokalny `/mnt/data/ontologia_el/F28_2EL_PODGLAD.pdf`, **2 strony A4**, 49444 B, SHA-256 `89b923c71fddefe6bcc2170a76c117e76c041f0dabc1fb3a974e32eb79425e20`; otwarcie i render 2/2 PASS. Podgląd z lokalnego manuskryptu, nie wierna kompilacja typograficzna tekstu na GitHub; PDF nie został zapisany na GitHub.
 - **Blokady:** niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20 i audyt typograficzny nadal otwarte. Historyczny wstęp i wcześniejsze rozdziały niezmienione. **Kanoniczny licznik 585/1222 bez zmian**; bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-EM: geometria rzutów i kierunki obojętne (2026-11-06)
+- Manuskrypt: `manuscript/tom-i/F28_2EM.md`, commit `b71307ef1d99183d92cf93fa0f61322f0469ea43`.
+- Test: `tests/test_f28_2em.py`, commit `345e35b3c502d85a6cbc58e5cac11f710b9dd2eb`.
+- Zakres: 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady i 6 rozwiązanych zadań. Rzuty ważone, jądro i rząd, półokreśloność macierzy Grama, symetria translacji.
+- Testy lokalne / CI / PDF: status niepotwierdzony na etapie zapisu; wymagają odrębnej weryfikacji. Brak integracji z monolitem 0.20; licznik 585/1222 bez zmian. Historyczny wstęp i poprzednie rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
