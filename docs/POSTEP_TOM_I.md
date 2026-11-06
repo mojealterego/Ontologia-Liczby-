@@ -2356,3 +2356,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 
 
 - **Uzupełnienie weryfikacji EN:** test ograniczono do n=2..3 (pełna enumeracja n=4 przekroczyła limit czasu), commit korekty `275a7ab9a64742df80f6e987407c4d31946108e9`. Lokalny odpowiednik `/mnt/data/ontologia_en/check.py`: **PASS, 40399 kontroli wymiernych**; nie jest to uruchomienie pliku pobranego z GitHub. `py_compile` lokalnego odpowiednika PASS. Podgląd `/mnt/data/ontologia_en/F28_2EN_PODGLAD.pdf`: 1 strona, 3381 B, SHA-256 `b61b0bced6287c0bdb34b1a4247562c6dd9dc18a1964c493d3a227d75779df80`, render PyMuPDF PASS. PDF jest skrótem, nie pełną kompilacją źródła. GitHub Actions CI i niezależna recenzja niepotwierdzone.
+
+
+### Tom I — F28.2-EO: prawo Pitagorasa rafinacji (2026-11-06)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2EO.md`, commit `6f1415dcf07854f193229b037d84761aed9791d0`.
+- **Test na main:** `tests/test_f28_2eo.py`, commit `aa7a53747cfebf9ab4a44402f327203e75fe99c0`.
+- **Zakres:** 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady i 6 zadań rozwiązanych. Ortogonalność przy rafinacji, dokładny rozkład energii, ścisłość zysku i addytywność w łańcuchach podziałów.
+- **Weryfikacja:** niezależny lokalny odpowiednik enumeracyjny dla n=2..4, wag 1 lub 2 i danych 0,1,3: PASS, 160920 dokładnych kontroli wymiernych. **Nie jest to wykonanie pobranego pliku repozytoryjnego**. CI i niezależna recenzja matematyczna niepotwierdzone.
+- **Monolit:** bez integracji z rzeczywistym monolitem 0.20; licznik **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i bez Tomu II.
