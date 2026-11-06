@@ -2275,3 +2275,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Lokalna weryfikacja:** `python -m py_compile /mnt/data/ontologia_ee/check.py` PASS; `python /mnt/data/ontologia_ee/check.py` PASS: **77 328 asercji wymiernych**, porównanie referencyjnego DP i przyspieszonego divide-and-conquer, kontrola dopuszczalności i kosztu świadka. Jest to **lokalny odpowiednik**, nie uruchomienie pobranego z GitHub `tests/test_f28_2ee.py` (DNS raw.githubusercontent.com niedostępny). GitHub Actions CI niepotwierdzone.
 - **Podgląd PDF:** `/mnt/data/ontologia_ee/F28_2EE_PODGLAD.pdf`, 1 strona A4, SHA-256 `86b8931f71b0371dbac90d74b5123e59cfb125f0fea278a70e3a31a34e933585`; otwarcie i render PyMuPDF PASS. Skrócona redakcja, nie wierna kompilacja pełnego manuskryptu GitHub; PDF nie jest zapisany w repozytorium.
 - **Stan:** 585/1222 bez zmian; brak integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały niezmienione. Bez końcowego spisu treści i bez Tomu II. Niezależna recenzja matematyczna i pełne CI pozostają otwarte.
+
+
+### Tom I — F28.2-EF: stabilność podziałów i certyfikat luki (2026-11-06)
+- Na main: `manuscript/tom-i/F28_2EF.md` commit `e1302690eb3d5643b881133248ca0aa4af3aab1b`; `tests/test_f28_2ef.py` commit `7dabb3a261c0557e972b41567ad609745292f6ec`.
+- Zakres: 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady i 6 rozwiązanych zadań. Jednostajny certyfikat `|E_y(P)-E_x(P)| <= 4WRδ+4Wδ²`, stabilność optimum i wystarczający warunek zachowania cięcia `γ>2K`.
+- Weryfikacja lokalna: skrypt Python fractions.Fraction PASS, 17 841 dokładnych asercji; py_compile PASS. Wykonanie repozytoryjnego testu w CI niepotwierdzone.
+- Podgląd lokalny: `/mnt/data/ontologia_ef/F28_2EF_PODGLAD.pdf`, 2 strony A4, SHA-256 `a57fb9bda675d0691b2373fad00d840d3f82c70b5a3786b59ff8676b5732d71a`, render 2/2. To lokalna redakcja, nie bajtowo wierna kompilacja GitHub.
+- Kanoniczny licznik **585/1222 bez zmian**; bez integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejszy manuskrypt bez zmian. Bez końcowego spisu treści i bez Tomu II. CI i niezależna recenzja pozostają otwarte.
