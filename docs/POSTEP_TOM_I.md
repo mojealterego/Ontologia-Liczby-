@@ -2406,3 +2406,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** odpowiednik testu w `/mnt/data/ontologia_et/test_f28_2et.py`: PASS, **9248 dokładnych porównań wymiernych**, `python -m py_compile` PASS. Testu pobranego bezpośrednio z repozytorium nie wykonano; GitHub Actions CI i niezależna recenzja matematyczna niepotwierdzone.
 - **PDF:** lokalny podgląd `/mnt/data/ontologia_et/F28_2ET_PODGLAD.pdf`, 2 strony, 27399 B, SHA-256 `1144083b612919a64c71d44fb7786aa3f6f5bc8097e25abb1fb0620de97d9697`; otwarcie i render PyMuPDF PASS. Jest to podgląd lokalnej wersji, nie pełna kompilacja pliku repozytoryjnego; nie zapisano go na GitHub.
 - **Stan:** bez integracji z monolitem 0.20, licznik **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-EU: bilans momentów transferów pakietowych (2026-11-06)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2EU.md`, commit `772f9d56c834a41b41650042f04249835a3eaef8`. 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Wzór salda pakietowego, niezmienność momentów globalnych, odwracalność, skalowanie afiniczne i skończoność ścisłego zejścia.
+- **Test main:** `tests/test_f28_2eu.py`, commit `bda1be8cca139ead0055353d8d3e3bc5468896c5`. Nie wykonano bezpośrednio pobranego pliku: DNS raw.githubusercontent.com niedostępny.
+- **Weryfikacja lokalna:** niezależny `/mnt/data/ontologia_eu/verify.py`, `py_compile` PASS, 36 288 dokładnych asercji wymiernych PASS. Pierwszy przebieg ujawnił błąd lokalnego wyrażenia kontrolnego (pominięto E(B)); poprawiono lokalną kontrolę i uruchomiono ponownie. Test repozytoryjny oraz GitHub Actions CI niepotwierdzone.
+- **PDF:** lokalny `/mnt/data/ontologia_eu/F28_2EU_PODGLAD.pdf`, 1 strona, SHA-256 `e52c9cf00ab512372a65885f349c855c3617824b8b63d2c3314ed4e7ae5dd7f0`; PyMuPDF otwarcie i render PASS. Skrócony podgląd, nie pełna kompilacja manuskryptu.
+- **Otwarte:** niezależna recenzja matematyczna, CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsza treść nietknięte; bez końcowego spisu treści i Tomu II.
