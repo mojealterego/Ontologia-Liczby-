@@ -2438,3 +2438,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** `python /mnt/data/ontologia_ex/test_f28_2ex.py` PASS, 23360 dokładnych asercji wymiernych; `python -m py_compile` PASS. Skrypt lokalny ma treść zgodną z tekstem przekazanym do GitHub, ale nie wykonano pobranego bajtowo pliku z GitHub. CI i niezależna recenzja niepotwierdzone.
 - **PDF:** `/mnt/data/ontologia_ex/F28_2EX_PODGLAD.pdf`, 1 strona A4, 24319 B, SHA-256 `a3327336009782cc95d9ada4f4618b3c6fbfa17141e340d191428efdb7982a1e`; otwarcie i render PyMuPDF PASS. Jest to skrócony podgląd, nie pełna kompilacja repozytoryjnego manuskryptu.
 - **Otwarte:** brak integracji z rzeczywistym monolitem 0.20, pełnego CI i niezależnej recenzji. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-EY: zaburzenie punktowe dyspersji międzyblokowej (2026-11-06)
+- Manuskrypt: `manuscript/tom-i/F28_2EY.md`, commit `f36ca55f7c0ba09b35fd372f10f2093439512337`. 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Dokładny wielomian zaburzenia, wypukłość, minimum, kryterium poprawy i stabilność.
+- Test: `tests/test_f28_2ey.py`, commit `36f7840dbf824434456aa6f37e6dbab6e7f4dec7`.
+- Weryfikacja lokalna: `/mnt/data/ontologia_ey/test_f28_2ey.py` PASS, **383040** dokładnych tożsamości wymiernych; kompilacja składniowa Python PASS. To test lokalny odpowiadający zapisanej treści, nie wykonanie bajtowo pobranego pliku GitHub. Pełne CI niepotwierdzone.
+- PDF: `/mnt/data/ontologia_ey/F28_2EY_PODGLAD.pdf`, 1 strona, SHA-256 `58f82ce8f43b523c3e1498dd2d5b0ab779a69c8c0d64c54e2b97586a4c98c892`, render PyMuPDF PASS; skrócony podgląd, nie pełny skład repozytoryjnego manuskryptu.
+- Bez integracji z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsza treść nietknięte. Bez końcowego spisu treści i bez Tomu II.
