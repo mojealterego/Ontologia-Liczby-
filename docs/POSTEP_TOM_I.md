@@ -2353,3 +2353,6 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Zakres: 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Tożsamość przestrzeni wspólnie obojętnych, wzór Grassmanna, nierówność kratowa, zachowanie energii i przemienność rzutów dla porównywalnych podziałów.
 - Stan weryfikacji przy zapisie: test repozytoryjny i GitHub Actions CI niepotwierdzone; podgląd PDF wykonywany osobno. Nie przypisywać PASS bez uruchomienia.
 - Monolit 0.20 niezmieniony; licznik **585/1222 bez zmian**. Historyczny wstęp nietknięty, bez końcowego spisu treści i bez Tomu II.
+
+
+- **Uzupełnienie weryfikacji EN:** test ograniczono do n=2..3 (pełna enumeracja n=4 przekroczyła limit czasu), commit korekty `275a7ab9a64742df80f6e987407c4d31946108e9`. Lokalny odpowiednik `/mnt/data/ontologia_en/check.py`: **PASS, 40399 kontroli wymiernych**; nie jest to uruchomienie pliku pobranego z GitHub. `py_compile` lokalnego odpowiednika PASS. Podgląd `/mnt/data/ontologia_en/F28_2EN_PODGLAD.pdf`: 1 strona, 3381 B, SHA-256 `b61b0bced6287c0bdb34b1a4247562c6dd9dc18a1964c493d3a227d75779df80`, render PyMuPDF PASS. PDF jest skrótem, nie pełną kompilacją źródła. GitHub Actions CI i niezależna recenzja niepotwierdzone.
