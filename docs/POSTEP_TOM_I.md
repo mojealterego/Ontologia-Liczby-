@@ -2283,3 +2283,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Weryfikacja lokalna: skrypt Python fractions.Fraction PASS, 17 841 dokładnych asercji; py_compile PASS. Wykonanie repozytoryjnego testu w CI niepotwierdzone.
 - Podgląd lokalny: `/mnt/data/ontologia_ef/F28_2EF_PODGLAD.pdf`, 2 strony A4, SHA-256 `a57fb9bda675d0691b2373fad00d840d3f82c70b5a3786b59ff8676b5732d71a`, render 2/2. To lokalna redakcja, nie bajtowo wierna kompilacja GitHub.
 - Kanoniczny licznik **585/1222 bez zmian**; bez integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejszy manuskrypt bez zmian. Bez końcowego spisu treści i bez Tomu II. CI i niezależna recenzja pozostają otwarte.
+
+
+### Tom I — F28.2-EG: ostre certyfikaty stabilności ważonej (2026-11-06)
+- **Zapis na main:** `manuscript/tom-i/F28_2EG.md`, commit `bdf56c55ae47cd1f91714391411f97ed4b376496`; `tests/test_f28_2eg.py`, commit `f97bc3db3b6917551a4d5d2905041382f1ba1528`.
+- **Zakres:** definicje kosztu i luki, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Ostry certyfikat `|sqrt(E_x(P))-sqrt(E_y(P))| <= ||x-y||_w`, stabilność pierwiastka optimum oraz kryterium zachowania jednoznacznego cięcia `gamma>2d(2||x||_w+d)`.
+- **Weryfikacja lokalna:** niezależny odpowiednik testu w `/mnt/data/ontologia_eg/verify.py` — 44 352 dokładne kontrole wymierne PASS, `py_compile` PASS. **Nie jest to wykonanie pliku pobranego z repozytorium** (DNS raw.githubusercontent.com niedostępny); GitHub Actions CI niepotwierdzone.
+- **Podgląd PDF:** `/mnt/data/ontologia_eg/F28_2EG_PODGLAD.pdf`, 1 strona A4, SHA-256 `052a2d7ab260677cc923d31701a1941f9aa8312f23e3a5b06e2e77b69649428a`; PyMuPDF otwarcie i render PASS. Skrócony podgląd, nie pełna kompilacja repozytoryjnego manuskryptu.
+- **Stan:** 585/1222 bez zmian, brak integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsze rozdziały niezmienione; bez końcowego spisu treści i Tomu II. Pełne CI i niezależna recenzja otwarte.
