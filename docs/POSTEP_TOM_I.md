@@ -2422,3 +2422,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Lokalna weryfikacja:** `/mnt/data/ontologia_ev/verify.py`: `py_compile` PASS i **22 720 dokładnych kontroli wymiernych PASS**. Skrypt lokalny odtworzono z treści testu, lecz nie wykonano pliku pobranego z GitHub: DNS raw.githubusercontent.com nie działał. GitHub Actions CI i niezależna recenzja niepotwierdzone.
 - **PDF:** lokalny `/mnt/data/ontologia_ev/F28_2EV_PODGLAD.pdf`, 1 strona, SHA-256 `a67ce0743b096f4ec39199133077d6dee1d4348e2078594bfc58b634812e7eb5`, otwarcie i render PyMuPDF PASS. Podgląd skrócony, nie pełna kompilacja repozytoryjnego manuskryptu.
 - **Otwarte:** integracja z rzeczywistym monolitem 0.20, pełne CI, niezależna recenzja i pełny skład PDF. **Licznik 585/1222 bez zmian.** Historyczny wstęp i wcześniejszy manuskrypt nietknięte. Bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-EW: dekompozycja dyspersji między blokami (2026-11-06)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2EW.md`, commit `6aeec30d800233acdab2efd3fff5fb52bfe886c3`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Klasyczna tożsamość ANOVA i jej wersja parowa, certyfikat parowy, kryterium równości, kowariancja afiniczna; bez roszczenia do pierwszeństwa odkrycia.
+- **Test main:** `tests/test_f28_2ew.py`, commit `d4c30d136671fe204ec3db622e6b494631c8a2d7`.
+- **Weryfikacja lokalna:** `python /mnt/data/ontologia_ew/test_f28_2ew.py` PASS, **269856 dokładnych asercji wymiernych**; `python -m py_compile` PASS. Lokalny odpowiednik testu; pliku repozytoryjnego nie uruchomiono bezpośrednio. CI i niezależna recenzja niepotwierdzone.
+- **Podgląd PDF:** `/mnt/data/ontologia_ew/F28_2EW_PODGLAD.pdf`, 1 strona A4, SHA-256 `c09a7fc6c2076d40458125568e24317b38f4dccc796c5e57f37e68211e378ff5`; otwarcie i render PyMuPDF PASS. Podgląd redakcyjny, nie pełna kompilacja pliku z GitHub.
+- **Otwarte:** brak integracji z rzeczywistym monolitem 0.20, pełnego CI i niezależnej recenzji. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
