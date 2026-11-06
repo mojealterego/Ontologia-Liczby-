@@ -2380,3 +2380,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** `/mnt/data/ontologia_eq/verify.py`, `py_compile` PASS, **36672** asercje na dokładnych ułamkach PASS; lokalny odpowiednik, nie uruchomienie pobranego pliku z GitHub. GitHub Actions CI niepotwierdzone.
 - **PDF:** `/mnt/data/ontologia_eq/F28_2EQ_PODGLAD.pdf`, 1 strona A4, SHA-256 `09c5921abbcfd82dd9baed7a9fffb5edc588842bf2a66d7ca879d415882de83d`, otwarcie i render PyMuPDF PASS. Skrócony podgląd, nie pełna kompilacja repozytoryjnego manuskryptu.
 - **Blokady:** brak integracji z rzeczywistym monolitem 0.20, brak niezależnej recenzji i potwierdzenia pełnego CI. **585/1222 bez zmian**, bez końcowego spisu treści, bez Tomu II.
+
+
+### Tom I — F28.2-ER: dokładny transfer obserwacji między blokami (2026-11-06)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2ER.md`, commit utworzenia `d2026d7b40de84f3ca8a44e36ff7fcd499d4a987`, korekta kontrprzykładów `b4f94f5734f89b3adae722fd84f41d84e6bd8997`.
+- **Test na main:** `tests/test_f28_2er.py`, commit `2218ed99c28bdaf5813b41890c5ffcd500b20691`.
+- **Zakres:** 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Dokładne saldo pojedynczego transferu, kryterium ścisłej poprawy, odwracalność, skalowanie afiniczne i skończone zakończenie ścisłego zejścia.
+- **Weryfikacja lokalna:** `/mnt/data/ontologia_er/test_f28_2er.py`: PASS 13 824 dokładnych asercji wymiernych dla n=3..4, `python -m py_compile` PASS. Próba n=3..6 przekroczyła limit czasu; zredukowano enumerację. Lokalny skrypt jest odpowiednikiem testu repozytoryjnego, nie bezpośrednim uruchomieniem pobranego pliku.
+- **Podgląd PDF:** `/mnt/data/ontologia_er/F28_2ER_PODGLAD.pdf`, 1 strona A4, SHA-256 `2310efef27a21d5f96c02b428891a4e1276c3fd05fc13380059e54315a477753`, otwarcie i render PyMuPDF PASS. Podgląd skrócony, nie pełna kompilacja repozytoryjnego Markdown.
+- **Otwarte:** GitHub Actions CI i niezależna recenzja matematyczna niepotwierdzone; brak integracji z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i poprzedni manuskrypt nietknięte. Bez końcowego spisu treści i bez Tomu II.
