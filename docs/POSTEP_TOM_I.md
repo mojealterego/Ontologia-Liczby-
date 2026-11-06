@@ -2345,3 +2345,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 
 - Weryfikacja lokalna niezależnego odpowiednika: `python -m py_compile /mnt/data/ontologia_em/verify.py` PASS; `python /mnt/data/ontologia_em/verify.py` PASS, 5420 dokładnych kontroli wymiernych. Nie wykonano pliku testowego pobranego z GitHub; CI niepotwierdzone.
 - Podgląd PDF lokalny: `/mnt/data/ontologia_em/F28_2EM_PODGLAD.pdf`, 1 strona A4, SHA-256 `3c829c40b96473d569721253fe8eec95f083274e8ac281e5b06a235b63ded8a0`, otwarcie i render PyMuPDF PASS. Skrót, nie pełna kompilacja źródła repozytoryjnego.
+
+
+### Tom I — F28.2-EN: krata podziałów i wspólne kierunki obojętne (2026-11-06)
+- Manuskrypt: `manuscript/tom-i/F28_2EN.md`, commit `e65ccb543ed5dafed683f4ee77c378cafe949aca`.
+- Test: `tests/test_f28_2en.py`, commit `dea43c50dd849dddff4987376a98769e191bd93f`.
+- Zakres: 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Tożsamość przestrzeni wspólnie obojętnych, wzór Grassmanna, nierówność kratowa, zachowanie energii i przemienność rzutów dla porównywalnych podziałów.
+- Stan weryfikacji przy zapisie: test repozytoryjny i GitHub Actions CI niepotwierdzone; podgląd PDF wykonywany osobno. Nie przypisywać PASS bez uruchomienia.
+- Monolit 0.20 niezmieniony; licznik **585/1222 bez zmian**. Historyczny wstęp nietknięty, bez końcowego spisu treści i bez Tomu II.
