@@ -2342,3 +2342,6 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Test: `tests/test_f28_2em.py`, commit `345e35b3c502d85a6cbc58e5cac11f710b9dd2eb`.
 - Zakres: 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady i 6 rozwiązanych zadań. Rzuty ważone, jądro i rząd, półokreśloność macierzy Grama, symetria translacji.
 - Testy lokalne / CI / PDF: status niepotwierdzony na etapie zapisu; wymagają odrębnej weryfikacji. Brak integracji z monolitem 0.20; licznik 585/1222 bez zmian. Historyczny wstęp i poprzednie rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
+
+- Weryfikacja lokalna niezależnego odpowiednika: `python -m py_compile /mnt/data/ontologia_em/verify.py` PASS; `python /mnt/data/ontologia_em/verify.py` PASS, 5420 dokładnych kontroli wymiernych. Nie wykonano pliku testowego pobranego z GitHub; CI niepotwierdzone.
+- Podgląd PDF lokalny: `/mnt/data/ontologia_em/F28_2EM_PODGLAD.pdf`, 1 strona A4, SHA-256 `3c829c40b96473d569721253fe8eec95f083274e8ac281e5b06a235b63ded8a0`, otwarcie i render PyMuPDF PASS. Skrót, nie pełna kompilacja źródła repozytoryjnego.
