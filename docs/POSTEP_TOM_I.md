@@ -2398,3 +2398,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Lokalna weryfikacja:** `python -m py_compile /mnt/data/ontologia_es/test_f28_2es.py` PASS; `python /mnt/data/ontologia_es/test_f28_2es.py` PASS, 20 736 asercji na ułamkach wymiernych. Lokalny skrypt odtworzono z odczytanej treści repozytoryjnego testu, ale nie pobrano bajtowo bezpośrednio z GitHub do kontenera; tożsamość plików bajt po bajcie nie została sprawdzona.
 - **Podgląd PDF:** lokalny `/mnt/data/ontologia_es/F28_2ES_PODGLAD.pdf`, 1 strona A4, SHA-256 `7bacc72fcc9a6ba7d4d1a78d375075f62fd4e5219cfa5f70997ccebe63db9b6b`; otwarcie i render PyMuPDF PASS. Skrócony podgląd, nie pełna kompilacja manuskryptu; nie zapisany na GitHub.
 - **Otwarte:** GitHub Actions CI, niezależna recenzja matematyczna, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-ET: wymiana równych wag i bilans momentów (2026-11-06)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2ET.md`, commit `9cc4dbda9490478f61068455135c507b1c6dbe35`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań.
+- **Test na main:** `tests/test_f28_2et.py`, commit `e0907d9f1429968b24b0add133bfd696bc7e86aa`.
+- **Weryfikacja lokalna:** odpowiednik testu w `/mnt/data/ontologia_et/test_f28_2et.py`: PASS, **9248 dokładnych porównań wymiernych**, `python -m py_compile` PASS. Testu pobranego bezpośrednio z repozytorium nie wykonano; GitHub Actions CI i niezależna recenzja matematyczna niepotwierdzone.
+- **PDF:** lokalny podgląd `/mnt/data/ontologia_et/F28_2ET_PODGLAD.pdf`, 2 strony, 27399 B, SHA-256 `1144083b612919a64c71d44fb7786aa3f6f5bc8097e25abb1fb0620de97d9697`; otwarcie i render PyMuPDF PASS. Jest to podgląd lokalnej wersji, nie pełna kompilacja pliku repozytoryjnego; nie zapisano go na GitHub.
+- **Stan:** bez integracji z monolitem 0.20, licznik **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
