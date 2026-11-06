@@ -2309,3 +2309,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Lokalne testy:** niezależnie przygotowany `/mnt/data/ontologia_ei/test_f28_2ei.py` — PASS, 137700 dokładnych tożsamości wymiernych i 3 kontrole brzegowe; `py_compile` PASS. Test repozytoryjny nie został uruchomiony z pobranego GitHub pliku, GitHub Actions CI niepotwierdzone.
 - **PDF:** lokalny `/mnt/data/ontologia_ei/F28_2EI_PODGLAD.pdf`, 2 strony A4, SHA-256 `17cee86ce85852bbf8bfe8fd8065d45cc36f8e5ab270f0a7f98633e35134ee81`; render 2/2 PASS. Jest to podgląd z lokalnego pełnego wariantu, a nie wierna kompilacja pliku GitHub.
 - **Stan:** 585/1222 bez zmian; brak integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsza treść niezmienione; bez końcowego spisu treści i bez Tomu II. Niezależna recenzja matematyczna oraz CI nadal otwarte.
+
+
+### Tom I — F28.2-EJ: promień zgodności porządku i pierwszy remis (2026-11-06)
+- **Na main:** `manuscript/tom-i/F28_2EJ.md` commit `da83a8d841b22570775a8baf532b1593793e0e77`, poprawka przykładu `cca580f668806a87c6130320a5710ca79ade2a6b`; `tests/test_f28_2ej.py` commit `a2caff185cd49ab126eeb572f2ba446ce78f9390`.
+- **Zakres:** 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 zadań rozwiązanych. Dokładna bariera zachowania uporządkowania x+th oraz pierwszy remis konkurencyjnego podziału, z rozróżnieniem remisu i granicy porządku.
+- **Weryfikacja lokalna:** niezależny odpowiednik testu `/mnt/data/ontologia_ej/check.py`: PASS, 49 815 dokładnych asercji wymiernych, `py_compile` PASS. To nie jest wykonanie pliku pobranego z GitHub; CI niepotwierdzone.
+- **PDF:** lokalny skrócony podgląd `/mnt/data/ontologia_ej/F28_2EJ_PODGLAD.pdf`, 1 strona A4, SHA-256 `32147c6906a5d7e9e8addd18d236207ca2518f4151447ff720e2d88062a21948`; otwarcie i render PyMuPDF PASS. Nie jest wierną kompilacją całego manuskryptu.
+- **Stan:** 585/1222 bez zmian, brak integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsza treść bez zmian; bez końcowego spisu treści i Tomu II. Niezależna recenzja matematyczna oraz pełne CI otwarte.
