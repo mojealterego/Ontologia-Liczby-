@@ -2364,3 +2364,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Zakres:** 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady i 6 zadań rozwiązanych. Ortogonalność przy rafinacji, dokładny rozkład energii, ścisłość zysku i addytywność w łańcuchach podziałów.
 - **Weryfikacja:** niezależny lokalny odpowiednik enumeracyjny dla n=2..4, wag 1 lub 2 i danych 0,1,3: PASS, 160920 dokładnych kontroli wymiernych. **Nie jest to wykonanie pobranego pliku repozytoryjnego**. CI i niezależna recenzja matematyczna niepotwierdzone.
 - **Monolit:** bez integracji z rzeczywistym monolitem 0.20; licznik **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-EP: dokładna kara scalenia bloków (2026-11-06)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2EP.md`, commit `4a7cf8802212f1e6ac5e29a720d1f3580b0b7d40`.
+- **Test na main:** `tests/test_f28_2ep.py`, commit `742b12e291f29cda96f976e5817b2bc99c316442`.
+- **Zakres:** 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Dokładny wzór na karę scalenia, kryterium równości, teleskopowanie i afiniczna zmiana skali.
+- **Lokalny test niezależny:** `/mnt/data/ontologia_ep/test.py` PASS — 35460 dokładnych przypadków wymiernych, n=2..5; nie jest to uruchomienie pobranego testu GitHub. CI i niezależna recenzja niepotwierdzone.
+- **Monolit:** integracja 0.20 niewykonana, licznik **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
