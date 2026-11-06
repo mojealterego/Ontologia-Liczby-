@@ -2317,3 +2317,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** niezależny odpowiednik testu `/mnt/data/ontologia_ej/check.py`: PASS, 49 815 dokładnych asercji wymiernych, `py_compile` PASS. To nie jest wykonanie pliku pobranego z GitHub; CI niepotwierdzone.
 - **PDF:** lokalny skrócony podgląd `/mnt/data/ontologia_ej/F28_2EJ_PODGLAD.pdf`, 1 strona A4, SHA-256 `32147c6906a5d7e9e8addd18d236207ca2518f4151447ff720e2d88062a21948`; otwarcie i render PyMuPDF PASS. Nie jest wierną kompilacją całego manuskryptu.
 - **Stan:** 585/1222 bez zmian, brak integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsza treść bez zmian; bez końcowego spisu treści i Tomu II. Niezależna recenzja matematyczna oraz pełne CI otwarte.
+
+
+### Tom I — F28.2-EK: komórki stabilności i wielokrotne remisy (2026-11-06)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2EK.md`, commit `8c9d9a97242da13b5c613e130f9a1760998c2c2a`.
+- **Test na main:** `tests/test_f28_2ek.py`, commit `b0ac9f888b78b12b6b09a56c3525e44b0aa45950`.
+- **Zakres:** definicje zbioru aktywnego, punktu przełączenia i remisu stycznego; 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Klasyfikacja kandydatów na przełączenia przez pierwiastki różnic kwadratowych kosztów.
+- **Weryfikacja lokalna:** `python -m py_compile` PASS; niezależny lokalny skrypt `/mnt/data/ontologia_ek/test_f28_2ek.py` PASS — 55 728 dokładnych tożsamości wymiernych. To nie jest uruchomienie pobranego pliku repozytoryjnego. GitHub Actions CI i niezależna recenzja matematyczna niepotwierdzone.
+- **PDF:** lokalny skrócony podgląd `/mnt/data/ontologia_ek/F28_2EK_PODGLAD.pdf`, 1 strona, SHA-256 `ae4ac81285a58d64c9bc66554ec6412b7f4b14718b4d35aeb26da88ad98d4e0f`; PyMuPDF otwarcie i render PASS. Nie jest wierną kompilacją pełnego manuskryptu; nie zapisano go na GitHub.
+- **Stan:** kanoniczne 585/1222 bez zmian; brak integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsza treść niezmienione; bez końcowego spisu treści i bez Tomu II.
