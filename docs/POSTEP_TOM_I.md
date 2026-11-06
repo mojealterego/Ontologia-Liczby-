@@ -2414,3 +2414,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** niezależny `/mnt/data/ontologia_eu/verify.py`, `py_compile` PASS, 36 288 dokładnych asercji wymiernych PASS. Pierwszy przebieg ujawnił błąd lokalnego wyrażenia kontrolnego (pominięto E(B)); poprawiono lokalną kontrolę i uruchomiono ponownie. Test repozytoryjny oraz GitHub Actions CI niepotwierdzone.
 - **PDF:** lokalny `/mnt/data/ontologia_eu/F28_2EU_PODGLAD.pdf`, 1 strona, SHA-256 `e52c9cf00ab512372a65885f349c855c3617824b8b63d2c3314ed4e7ae5dd7f0`; PyMuPDF otwarcie i render PASS. Skrócony podgląd, nie pełna kompilacja manuskryptu.
 - **Otwarte:** niezależna recenzja matematyczna, CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsza treść nietknięte; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-EV: tożsamość parowa dyspersji i certyfikaty rozszczepienia (2026-11-06)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2EV.md`, commit `6a4ab9d9739d9cecb60de8b007d7315b8f4d6783`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań; klasyczne tożsamości opracowane na nowo, bez roszczenia do pierwszeństwa odkrycia.
+- **Test main:** `tests/test_f28_2ev.py`, commit `1b08f88853fcd926c7ad8016a81959bf489b96c2`.
+- **Lokalna weryfikacja:** `/mnt/data/ontologia_ev/verify.py`: `py_compile` PASS i **22 720 dokładnych kontroli wymiernych PASS**. Skrypt lokalny odtworzono z treści testu, lecz nie wykonano pliku pobranego z GitHub: DNS raw.githubusercontent.com nie działał. GitHub Actions CI i niezależna recenzja niepotwierdzone.
+- **PDF:** lokalny `/mnt/data/ontologia_ev/F28_2EV_PODGLAD.pdf`, 1 strona, SHA-256 `a67ce0743b096f4ec39199133077d6dee1d4348e2078594bfc58b634812e7eb5`, otwarcie i render PyMuPDF PASS. Podgląd skrócony, nie pełna kompilacja repozytoryjnego manuskryptu.
+- **Otwarte:** integracja z rzeczywistym monolitem 0.20, pełne CI, niezależna recenzja i pełny skład PDF. **Licznik 585/1222 bez zmian.** Historyczny wstęp i wcześniejszy manuskrypt nietknięte. Bez końcowego spisu treści i Tomu II.
