@@ -20,7 +20,7 @@ def check():
                         assert W2==W+v
                         assert mu2==mu+v*(z-mu)/(W+v)
                         assert S2==S+W*v*(z-mu)**2/(W+v)
-                        assert S2-W*v*(z-mu2)**2/W==S
+                        assert S2-W2*v*(z-mu2)**2/W==S
                         count+=4
                 if n>1:
                     for i,(z,v) in enumerate(items):
