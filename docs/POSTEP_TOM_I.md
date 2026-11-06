@@ -2464,3 +2464,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Monolit 0.20 niezintegrowany; **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
 
 - **Uzupełnienie weryfikacji F28.2-FA:** niezależna lokalna enumeracja Python Fraction: PASS, 891432 dokładnych asercji dla n=2..4, wartości 0,1,2, wag 1,2 i wszystkich par podziałów; nie jest to wykonanie testu pobranego z GitHub. Lokalny skrócony PDF `/mnt/data/ontologia_fa/F28_2FA_PODGLAD.pdf`: 1 strona, 2975 B, SHA-256 `b97391f27a2a3efd1071788a34aea38b96982523ef73e4eadd950c56dc9fe081`, otwarcie i ekstrakcja tekstu PyMuPDF PASS. Korekta rozwiązania Z5 commit `56a25f0d83204ad7de67daa450e8b011944eff66`. CI nadal niepotwierdzone; PDF nie jest pełną kompilacją źródła.
+
+
+### Tom I — F28.2-FB: komutator rzutów blokowych (2026-11-06)
+- Manuskrypt `manuscript/tom-i/F28_2FB.md`, commit `e46d90303914f2e3b8d00cf0a2bd8ef6b38ac520`. Pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań; dwie definicje (komutator, defekt kolejności) oraz przypomnienie definicji rzutu ważonego.
+- Test `tests/test_f28_2fb.py`, commit `5472d7766c8b58151915896918f09b68ea20edd4`.
+- Lokalny odpowiednik testu: `python -m py_compile` PASS; `python /mnt/data/ontologia_fb/verify.py` PASS, 1 188 576 dokładnych asercji wymiernych, n=2..4, wagi 1,2, wartości -1,0,2, wszystkie pary podziałów. Nie uruchomiono bezpośrednio bajtowo pobranego pliku repozytoryjnego; CI i niezależna recenzja niepotwierdzone.
+- Podgląd PDF `/mnt/data/ontologia_fb/F28_2FB_PODGLAD.pdf`, 1 strona A4, SHA-256 `5d9622affe58306af50c8b119a92ec40f1b7c51bb5111f74b32fc7a90d45d8c9`, otwarcie i render PyMuPDF PASS. Skrót, nie pełny skład manuskryptu; PDF nie zapisany w repo.
+- Historyczny wstęp i wcześniejszy manuskrypt nietknięte. Brak integracji z monolitem 0.20; **585/1222 bez zmian**; bez końcowego spisu treści i bez Tomu II.
