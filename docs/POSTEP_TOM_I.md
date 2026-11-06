@@ -2326,3 +2326,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** `python -m py_compile` PASS; niezależny lokalny skrypt `/mnt/data/ontologia_ek/test_f28_2ek.py` PASS — 55 728 dokładnych tożsamości wymiernych. To nie jest uruchomienie pobranego pliku repozytoryjnego. GitHub Actions CI i niezależna recenzja matematyczna niepotwierdzone.
 - **PDF:** lokalny skrócony podgląd `/mnt/data/ontologia_ek/F28_2EK_PODGLAD.pdf`, 1 strona, SHA-256 `ae4ac81285a58d64c9bc66554ec6412b7f4b14718b4d35aeb26da88ad98d4e0f`; PyMuPDF otwarcie i render PASS. Nie jest wierną kompilacją pełnego manuskryptu; nie zapisano go na GitHub.
 - **Stan:** kanoniczne 585/1222 bez zmian; brak integracji z rzeczywistym monolitem 0.20. Historyczny wstęp i wcześniejsza treść niezmienione; bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-EL: wieloparametrowe komórki stabilności (2026-11-06)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2EL.md`, commit `15a1a235b9adbe92ed35b93ec8556cc3bfd4c8a5`.
+- **Test na main:** `tests/test_f28_2el.py`, commit `285bbcadfe1a8d573ea83890d28e6857faf526a4`.
+- **Zakres:** 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 zadań rozwiązanych. Wieloparametrowe kwadratowe koszty, półalgebraiczne komórki optimum, certyfikat kuli, kandydaci na przełączenia na prostych i wielościan zachowania porządku. Pierwszy kontrprzykład dotyczy abstrakcyjnych funkcji kosztu, nie konkretnych podziałów.
+- **Weryfikacja lokalna:** `python /mnt/data/ontologia_el/test_f28_2el.py` PASS, **277830 dokładnych tożsamości wymiernych** dla n=2..4; `python -m py_compile` PASS. Jest to lokalny odpowiednik, a nie uruchomienie pliku pobranego z GitHub. GitHub Actions CI niepotwierdzone.
+- **PDF:** lokalny `/mnt/data/ontologia_el/F28_2EL_PODGLAD.pdf`, **2 strony A4**, 49444 B, SHA-256 `89b923c71fddefe6bcc2170a76c117e76c041f0dabc1fb3a974e32eb79425e20`; otwarcie i render 2/2 PASS. Podgląd z lokalnego manuskryptu, nie wierna kompilacja typograficzna tekstu na GitHub; PDF nie został zapisany na GitHub.
+- **Blokady:** niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20 i audyt typograficzny nadal otwarte. Historyczny wstęp i wcześniejsze rozdziały niezmienione. **Kanoniczny licznik 585/1222 bez zmian**; bez końcowego spisu treści i bez Tomu II.
