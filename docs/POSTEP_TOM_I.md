@@ -2389,3 +2389,12 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** `/mnt/data/ontologia_er/test_f28_2er.py`: PASS 13 824 dokładnych asercji wymiernych dla n=3..4, `python -m py_compile` PASS. Próba n=3..6 przekroczyła limit czasu; zredukowano enumerację. Lokalny skrypt jest odpowiednikiem testu repozytoryjnego, nie bezpośrednim uruchomieniem pobranego pliku.
 - **Podgląd PDF:** `/mnt/data/ontologia_er/F28_2ER_PODGLAD.pdf`, 1 strona A4, SHA-256 `2310efef27a21d5f96c02b428891a4e1276c3fd05fc13380059e54315a477753`, otwarcie i render PyMuPDF PASS. Podgląd skrócony, nie pełna kompilacja repozytoryjnego Markdown.
 - **Otwarte:** GitHub Actions CI i niezależna recenzja matematyczna niepotwierdzone; brak integracji z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i poprzedni manuskrypt nietknięte. Bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-ES: dokładny bilans wymiany dwóch obserwacji (2026-11-06)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2ES.md`, commit utworzenia `231e46b577cd6a59504654a37d8ea79abbaee376`, korekta arytmetyczna `6cfbeca6d3c9b20a0dbaed922a3f6c03126c404a`.
+- **Test na main:** `tests/test_f28_2es.py`, commit `15b889bdc1c89619e6c6153e340d96c6cc3c8363`.
+- **Zakres:** 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady i 6 rozwiązanych zadań; dokładny bilans wymiany dwóch obserwacji, kryterium poprawy, odwracalność, skalowanie afiniczne, skończone zejście.
+- **Lokalna weryfikacja:** `python -m py_compile /mnt/data/ontologia_es/test_f28_2es.py` PASS; `python /mnt/data/ontologia_es/test_f28_2es.py` PASS, 20 736 asercji na ułamkach wymiernych. Lokalny skrypt odtworzono z odczytanej treści repozytoryjnego testu, ale nie pobrano bajtowo bezpośrednio z GitHub do kontenera; tożsamość plików bajt po bajcie nie została sprawdzona.
+- **Podgląd PDF:** lokalny `/mnt/data/ontologia_es/F28_2ES_PODGLAD.pdf`, 1 strona A4, SHA-256 `7bacc72fcc9a6ba7d4d1a78d375075f62fd4e5219cfa5f70997ccebe63db9b6b`; otwarcie i render PyMuPDF PASS. Skrócony podgląd, nie pełna kompilacja manuskryptu; nie zapisany na GitHub.
+- **Otwarte:** GitHub Actions CI, niezależna recenzja matematyczna, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i bez Tomu II.
