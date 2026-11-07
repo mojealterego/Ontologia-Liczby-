@@ -2551,3 +2551,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Test `tests/test_f28_2fm.py`, commit `ef971bb6f407ccc7277b9d6b85ae79d453393c38`. Lokalny odpowiednik: `python -m py_compile` PASS, **1200 dokładnych asercji wymiernych PASS**. Nie uruchomiono bajtowo pobranego testu z GitHub.
 - Lokalny skrócony podgląd `/mnt/data/ontologia_fm/F28_2FM_PODGLAD.pdf`: 1 strona, SHA-256 `79ae2c3e99edcbe44b94959127b11bc2749fe29363af94079cf919566c1af424`, otwarcie, ekstrakcja tekstu i render PASS. Nie jest to pełna kompilacja manuskryptu.
 - Niepotwierdzone: GitHub Actions CI, niezależna recenzja matematyczna, pełny skład źródła. Brak integracji z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsza treść nietknięte; bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-FN: granica stabilności bez jednostajnej kontrakcji (2026-11-07)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2FN.md`, commit `6cc816b86a0c5dcdeeb4656dbcc31260ef3d69a1`. 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady i 6 rozwiązanych zadań. Wariacja stałych, zanik pamięci, warunek sumowalnego szumu, ostre kryterium odporności na każde zanikające wymuszenie i warunek zbieżności pełnej iteracji.
+- **Test na main:** `tests/test_f28_2fn.py`, commit `c557bea69f9806277dc1426259c9c6e4943982f9`. Lokalny odpowiednik: `python -m py_compile` PASS i **1413 dokładnych asercji wymiernych PASS**. Nie wykonano bezpośrednio pliku pobranego z GitHub; GitHub Actions CI i niezależna recenzja niepotwierdzone.
+- **PDF:** lokalny skrócony podgląd `/mnt/data/ontologia_fn/F28_2FN_PODGLAD.pdf`, 1 strona A4, SHA-256 `78dbf515030f17cc991db842135504119d7f15640f78c03daa41aeea5cad002c`; otwarcie, ekstrakcja i rasteryzacja PyMuPDF PASS. Nie jest to pełna kompilacja manuskryptu.
+- **Otwarte:** pełne CI, niezależna recenzja matematyczna, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
