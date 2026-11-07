@@ -2494,3 +2494,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Test repozytoryjny: `tests/test_f28_2fe.py`, commit `5a0f6f60df923d3ca6c99b8933f2a11c3a7e076f`. Lokalny odpowiednik `/mnt/data/ontologia_fe/test_f28_2fe.py`: 119 dokładnych asercji wymiernych PASS; `python -m py_compile` PASS. Brak potwierdzenia uruchomienia pobranego bajtowo testu z repozytorium i pełnego GitHub Actions CI.
 - Lokalny podgląd PDF: `/mnt/data/ontologia_fe/F28_2FE_PODGLAD.pdf`, 1 strona A4, SHA-256 `5dacc172b23c90bad539bf4c8b2e5afcdc5c3941f388568699644e40d0c9adbd`; otwarcie, ekstrakcja tekstu i rasteryzacja PyMuPDF PASS. Podgląd jest skrótem, nie pełnym składem źródła.
 - Nie wykonano niezależnej recenzji matematycznej ani integracji z rzeczywistym monolitem 0.20. **585/1222 bez zmian**; historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez finalnego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-FF: dokładna szybkość naprzemiennych uśrednień (2026-11-07)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2FF.md`, commit `bad2a0e90702753f86c1653b4ab5d8b6355eb695`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Wprowadzono dokładną normę `||(Q_R Q_P)^k-E||=c^(2k-1)` dla `k>=1`, identyfikację `c` z kosinusem kąta głównego oraz certyfikat a posteriori.
+- **Test na main:** `tests/test_f28_2ff.py`, commit `5fc1732a344d58f12c8e5e111a6d937cdbc5f24b`. Lokalny odpowiednik `/mnt/data/ontologia_ff/check.py`: **8024** dokładne kontrole wymierne PASS; nie uruchomiono bezpośrednio pliku pobranego z GitHub. Test sprawdza zachowanie średniej, monotoniczność błędu i dokładny przykład, nie dowodzi całej teorii.
+- **Podgląd PDF:** lokalny `/mnt/data/ontologia_ff/F28_2FF_PODGLAD.pdf`, jedna strona A4, podgląd skrócony (nie pełna kompilacja źródła). Lokalna kompilacja ReportLab i otwarcie PyMuPDF zakończone poprawnie.
+- **Otwarte:** niezależna recenzja, pełne GitHub Actions CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**; historyczny wstęp i wcześniejsze rozdziały nietknięte, bez finalnego spisu treści i bez Tomu II.
