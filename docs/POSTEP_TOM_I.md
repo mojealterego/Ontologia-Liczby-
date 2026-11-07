@@ -2599,3 +2599,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2ft.py`, commit `bc50f691e356ab672fa345022a57d91ce46be17f`. Lokalna niezależna implementacja `/mnt/data/ontologia_ft/verify.py` — **537 dokładnych asercji wymiernych PASS**. Próba pobrania testu bezpośrednio przez HTTPS w kontenerze nie powiodła się (brak DNS); wykonania pliku repozytoryjnego ani GitHub CI nie potwierdzono.
 - **PDF:** lokalny skrócony podgląd `/mnt/data/ontologia_ft/F28_2FT_PODGLAD.pdf`, 1 strona A4; `pdfinfo` i `pdftotext` PASS; SHA-256 `e7a69a6623adfb2832798faaf08b49f22db79b5275e81f45fa34c69fe2ea5a5c`. Podgląd nie jest pełną kompilacją źródła.
 - **Ograniczenia:** niezależna recenzja matematyczna, CI i integracja z rzeczywistym monolitem 0.20 niewykonane. **585/1222 bez zmian**; nie zmieniano historycznego wstępu ani poprzednich rozdziałów, nie sporządzono finalnego spisu treści, nie rozpoczęto Tomu II.
+
+
+### Tom I — F28.2-FU: okresowe wymuszenie i cykl graniczny (2026-11-07)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2FU.md`, commit `cf3d764eb9be6961caec23ecf7576ef1c6a9c920`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań; dokładna formuła, okresowy cykl graniczny, przypadek niezerowej średniej i oszacowanie resztowe.
+- **Test main:** `tests/test_f28_2fu.py`, commit `6dbfd475320063f523752fdc3c8f70160d94fa60`. Lokalny odpowiednik Python Fraction: `py_compile` PASS, `unittest` 3/3 PASS. Pliku repozytoryjnego nie uruchomiono bezpośrednio; CI niepotwierdzone.
+- **PDF:** lokalny podgląd tekstowy `/mnt/data/ontologia_fu/F28_2FU_PODGLAD.pdf`, 2 strony A4, SHA-256 `b9e48731256622e1739dd032768ef7e22848481eb30735c6e42face9879402e4`; `pdfinfo` i `pdftotext` PASS. Zapis matematyczny w podglądzie jest tekstowym LaTeX, nie składem matematycznym.
+- **Otwarte:** niezależna recenzja, GitHub Actions CI, integracja z monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
