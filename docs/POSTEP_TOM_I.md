@@ -2608,3 +2608,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Otwarte:** niezależna recenzja, GitHub Actions CI, integracja z monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
 
 - **Korekta dowodu FU:** commit `ce10d8bfb9323480a6528ec4b0d24b3751bdb96b` — poprawiono współczynnik 2 przy średniej sum częściowych w T5; testy lokalne uruchomiono ponownie 3/3 PASS.
+
+
+### Tom I — F28.2-FV: wymuszenie harmoniczne i rezonans fazowy (2026-11-07)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2FV.md`, commit `b743cd964fad76e0148a0ef87dae2cbf8ba040d6`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Formuła dokładna, rezonans fazowy, profil oscylacyjny i zbiory skupienia.
+- **Test main:** `tests/test_f28_2fv.py`, commit `c9a7aa6a15111ee49a4dd516e296c1e9422731c3`. Lokalna równoważna implementacja Python Fraction: `py_compile` PASS, 49227 dokładnych porównań PASS. Test pliku pobranego bajtowo z repo i GitHub Actions CI niepotwierdzone.
+- **PDF lokalny:** `/mnt/data/ontologia_fv/F28_2FV_PODGLAD.pdf`, 2 strony A4, SHA-256 `fddaa22b1910f8179c3a776fe1174ff1754d366b3891008721b457d107e416b3`; `pdfinfo` i `pdftotext` PASS. Podgląd zawiera tekstowy zapis LaTeX, nie pełny skład matematyczny.
+- **Otwarte:** niezależna recenzja, pełne CI i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejszy manuskrypt nietknięte. Bez końcowego spisu treści i Tomu II.
