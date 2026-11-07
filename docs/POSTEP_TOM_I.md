@@ -2558,3 +2558,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test na main:** `tests/test_f28_2fn.py`, commit `c557bea69f9806277dc1426259c9c6e4943982f9`. Lokalny odpowiednik: `python -m py_compile` PASS i **1413 dokładnych asercji wymiernych PASS**. Nie wykonano bezpośrednio pliku pobranego z GitHub; GitHub Actions CI i niezależna recenzja niepotwierdzone.
 - **PDF:** lokalny skrócony podgląd `/mnt/data/ontologia_fn/F28_2FN_PODGLAD.pdf`, 1 strona A4, SHA-256 `78dbf515030f17cc991db842135504119d7f15640f78c03daa41aeea5cad002c`; otwarcie, ekstrakcja i rasteryzacja PyMuPDF PASS. Nie jest to pełna kompilacja manuskryptu.
 - **Otwarte:** pełne CI, niezależna recenzja matematyczna, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-FO: próg zaniku wymuszenia przy pamięci harmonicznej (2026-11-07)
+- Manuskrypt `manuscript/tom-i/F28_2FO.md`, commit `46f726e34f9b8da783d8c05fdb750196e245efab`: 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Iteracja harmoniczna, wariacja stałych, granica wymuszenia znormalizowanego i próg potęgowy p=1.
+- Test `tests/test_f28_2fo.py`, commit `1f68120418ffcc66518eb6b6aa1fc511902bd372`. Lokalna niezależna implementacja Python Fraction: `py_compile` PASS; 1545 dokładnych asercji PASS. Nie potwierdzono uruchomienia bajtowo pobranego skryptu repozytoryjnego ani GitHub Actions CI.
+- Lokalny skrócony podgląd PDF `/mnt/data/ontologia_fo/F28_2FO_PODGLAD.pdf`, 1 strona A4, SHA-256 `2203aecf40dfd05f3078fc05b67803ffc038dc7882e4091287caa59925bf7d73`, ekstrakcja tekstu i rasteryzacja PASS. Nie jest pełną kompilacją manuskryptu.
+- Niepotwierdzone: niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
