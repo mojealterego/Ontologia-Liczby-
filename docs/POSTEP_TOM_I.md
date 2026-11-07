@@ -2642,3 +2642,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Manuskrypt `manuscript/tom-i/F28_2FZ.md`, commit `99974d66d054a3106383e311132dcfe5962ce0d2`: 3 definicje, 4 twierdzenia z dowodami, 3 kontrprzykłady, 6 rozwiązanych zadań. Profil fazowy, oszacowanie jednostajne, stabilność i pochodna funkcjonalna.
 - Test `tests/test_f28_2fz.py`, commit `e064ca496769959a8e4527dde9b7b0579cf56ad9`: testy dokładnej reprezentacji, fazy stałej i profilu liniowego; stan wykonania lokalnego raportować osobno od CI.
 - Integracja z monolitem 0.20 niewykonana; **585/1222 bez zmian**. Historyczny wstęp i poprzedni manuskrypt niezmienione. Bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-GA: różniczkowalność profilu fazowego (2026-11-08)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2GA.md`, commit `50f8976b776971ea7b13667a87455b389a741b3e`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań; dokładna reprezentacja, dwie pochodne profilu i jawny certyfikat reszty Taylora.
+- **Test main:** `tests/test_f28_2ga.py`, commit `53384a09d9fde2ec1a51d4d99fe4ba108fe5236e`. Lokalna niezależna weryfikacja: **99 kontroli PASS** (69 teleskopowych dokładnych, 25 nierówności reszty dyskretnej, 5 nierówności reszty całkowej). Test repozytoryjny nie został uruchomiony bezpośrednio; GitHub Actions CI niepotwierdzone.
+- **Podgląd PDF:** lokalny `/mnt/data/ontologia_ga/F28_2GA_PODGLAD.pdf`, 1 strona A4, SHA-256 `81818f0f643051308f38700b37319f51ca14d2b5b42492f1e9896eda30360c61`; `pdfinfo` i `pdftotext` PASS. Skrót, nie pełny skład manuskryptu.
+- **Otwarte:** niezależna recenzja, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
