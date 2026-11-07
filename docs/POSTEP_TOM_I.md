@@ -2565,3 +2565,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Test `tests/test_f28_2fo.py`, commit `1f68120418ffcc66518eb6b6aa1fc511902bd372`. Lokalna niezależna implementacja Python Fraction: `py_compile` PASS; 1545 dokładnych asercji PASS. Nie potwierdzono uruchomienia bajtowo pobranego skryptu repozytoryjnego ani GitHub Actions CI.
 - Lokalny skrócony podgląd PDF `/mnt/data/ontologia_fo/F28_2FO_PODGLAD.pdf`, 1 strona A4, SHA-256 `2203aecf40dfd05f3078fc05b67803ffc038dc7882e4091287caa59925bf7d73`, ekstrakcja tekstu i rasteryzacja PASS. Nie jest pełną kompilacją manuskryptu.
 - Niepotwierdzone: niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-FP: próg logarytmiczny wymuszenia harmonicznego (2026-11-07)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2FP.md`, commit `c5893804dc28fe8306e1f1d04dc5e03bafe975bb`. 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady i 6 rozwiązanych zadań. Próg logarytmiczny q=0 przy wymuszeniu c/((n+2)(log(n+2))^q).
+- **Test na main:** `tests/test_f28_2fp.py`, commit `405101b03022ffd24bb5a15848c5310b87ae49b0`. Lokalna implementacja o tej samej treści: `python -m py_compile` PASS; `python test_f28_2fp.py` PASS, **1773 asercje (1764 dokładne wymierne i 9 numerycznych asymptotycznych)**. Nie potwierdzono wykonania bajtowo pobranego testu z GitHub ani pełnego CI.
+- **Podgląd PDF:** `/mnt/data/ontologia_fp/F28_2FP_PODGLAD.pdf`, 1 strona A4, SHA-256 `c44218940a583fa4bc4a6a58a453df051863758b62819c4ab6893b8526bff767`; otwarcie, ekstrakcja i rasteryzacja PyMuPDF PASS. Skrócony podgląd, nie pełny skład manuskryptu.
+- **Niepotwierdzone:** niezależna recenzja matematyczna, pełne GitHub Actions CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejszy manuskrypt nietknięte; bez finalnego spisu treści i bez Tomu II.
