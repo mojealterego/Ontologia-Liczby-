@@ -2537,3 +2537,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Manuskrypt `manuscript/tom-i/F28_2FK.md`, commit `8c85585c3855a37d505e6f9038dea158f5abbe9f`: 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań; wariacja stałych, dekompozycja ortogonalna, ostre oszacowanie zaburzeń i zbieżność dla błędów sumowalnych.
 - Test `tests/test_f28_2fk.py`, commit `61e1e0da9b7f34c0fb5ab6f736b488b403196db3`. Lokalny równoważny skrypt Python Fraction: `py_compile` PASS; **6480 dokładnych tożsamości wymiernych PASS**. Nie jest to wykonanie pobranego bajtowo pliku repozytoryjnego. CI i niezależna recenzja niepotwierdzone.
 - Podgląd PDF lokalny; bez integracji z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejszy manuskrypt nietknięte. Bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-FL: zakłócenia zachowujące średnią (2026-11-07)
+- Manuskrypt `manuscript/tom-i/F28_2FL.md`, commit `4d35fa634a6afd582e78a8544f0260c5df3604d5`. Definicje błędu stycznego/poprzecznego i budżetu, pięć twierdzeń z dowodami, cztery kontrprzykłady, sześć zadań rozwiązanych.
+- Test `tests/test_f28_2fl.py`, commit `8a56a643fbb49346fdaa816a5d3e7b4ff8ef3de0`. Lokalny odpowiednik `/mnt/data/ontologia_fl/verify.py`: `py_compile` PASS i **209952 dokładne asercje wymierne PASS**; nie uruchomiono bajtowo pobranego pliku GitHub.
+- PDF `/mnt/data/ontologia_fl/F28_2FL_PODGLAD.pdf`: 1 strona A4, SHA-256 `73dba18097f73fca289f68f49c95b1aa8ac4f0e204ac5b0eef872740c840ddce`, otwarcie, ekstrakcja tekstu i render PASS. Jest to skrócony podgląd, nie pełny skład manuskryptu.
+- Niepotwierdzone: GitHub Actions CI, niezależna recenzja, pełna kompilacja manuskryptu. Brak integracji z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsza treść nietknięte; bez końcowego spisu treści i Tomu II.
