@@ -2480,3 +2480,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Lokalna weryfikacja:** odpowiednik testu zapisany w `/mnt/data/ontologia_fc/test.py`: `python -m py_compile` PASS; `python test.py` PASS, **649** dokładnych kontroli wymiernych (216 kombinacji danych i wag, trzy kontrole każda, plus przypadek jawny). Pliku pobranego bajtowo z GitHub nie uruchomiono: DNS raw.githubusercontent.com niedostępny. CI i niezależna recenzja matematyczna niepotwierdzone.
 - **Podgląd PDF:** lokalny `/mnt/data/ontologia_fc/F28_2FC_PODGLAD.pdf`, 1 strona A4, SHA-256 `826e20725094b135b0855ea7c35f4a32758ae2b06edb1d0d95048d00213a5923`; otwarcie i render PyMuPDF PASS. Jest to skrót, nie pełny skład manuskryptu ani PDF repozytoryjny.
 - **Blokady:** brak integracji z rzeczywistym monolitem 0.20; licznik **585/1222 bez zmian**. Wstęp historyczny i wcześniejsza treść nietknięte; nie utworzono końcowego spisu treści ani nie rozpoczęto Tomu II.
+
+
+### Tom I — F28.2-FD: certyfikat zatrzymania naprzemiennych rzutów (2026-11-07)
+- Manuskrypt: `manuscript/tom-i/F28_2FD.md`, commit `15db88faf72ce5913e5dc78eadeecd182a20da7e`. 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Certyfikat ścisłej kontrakcji i oszacowanie błędu a posteriori.
+- Test repozytoryjny: `tests/test_f28_2fd.py`, commit `39c2c511de27c64d3e52e9ffc00464f2e079348c`. Lokalny niezależny odpowiednik: `/mnt/data/ontologia_fd/test.py`, `py_compile` PASS, 648 dokładnych asercji wymiernych PASS. **Nie wykonano bajtowo pobranego testu repozytoryjnego**.
+- Lokalny skrócony podgląd PDF: `/mnt/data/ontologia_fd/F28_2FD_PODGLAD.pdf`, 1 strona, SHA-256 `de9569c1ad5922efde7a0457b89cf70bf4915591ee36b4997e2e73aa624b6679`; render PASS. Nie jest to pełny skład repozytoryjnego manuskryptu.
+- Otwarte: pełne CI GitHub Actions, niezależna recenzja, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
