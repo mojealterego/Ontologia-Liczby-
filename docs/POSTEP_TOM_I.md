@@ -2501,3 +2501,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test na main:** `tests/test_f28_2ff.py`, commit `5fc1732a344d58f12c8e5e111a6d937cdbc5f24b`. Lokalny odpowiednik `/mnt/data/ontologia_ff/check.py`: **8024** dokładne kontrole wymierne PASS; nie uruchomiono bezpośrednio pliku pobranego z GitHub. Test sprawdza zachowanie średniej, monotoniczność błędu i dokładny przykład, nie dowodzi całej teorii.
 - **Podgląd PDF:** lokalny `/mnt/data/ontologia_ff/F28_2FF_PODGLAD.pdf`, jedna strona A4, podgląd skrócony (nie pełna kompilacja źródła). Lokalna kompilacja ReportLab i otwarcie PyMuPDF zakończone poprawnie.
 - **Otwarte:** niezależna recenzja, pełne GitHub Actions CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**; historyczny wstęp i wcześniejsze rozdziały nietknięte, bez finalnego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-FG: relaksowane naprzemienne uśrednianie (2026-11-07)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2FG.md`, commit `10b06ccfc9029d33ca0dd30920f41b0694b60143`. Definicje operatorów relaksacji, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Dokładny bilans energii, punkty stałe, zbieżność geometryczna, zachowanie średniej ważonej.
+- **Test main:** `tests/test_f28_2fg.py`, commit `73a6cf55def8015fa5d5a2aac8bb1521aba204a0`. Lokalny skrypt odpowiadający treści testu: `python /mnt/data/ontologia_fg/test_f28_2fg.py` PASS, **756 dokładnych asercji wymiernych**; `python -m py_compile` PASS. Nie wykonano bajtowo pobranego testu z GitHub; CI i niezależna recenzja niepotwierdzone.
+- **Podgląd PDF:** lokalny `/mnt/data/ontologia_fg/F28_2FG_PODGLAD.pdf`, 1 strona A4, SHA-256 `a1576bde60d5afd2ff9e9d8c5cbdc378affa936a290c2f444a0eac1c10be5db4`; otwarcie, ekstrakcja tekstu i rasteryzacja PyMuPDF PASS. Jest to skrót redakcyjny, nie pełny skład źródła.
+- **Otwarte:** pełne CI, niezależna recenzja i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsza treść nietknięte. Bez końcowego spisu treści i bez Tomu II.
