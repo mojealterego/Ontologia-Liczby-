@@ -2592,3 +2592,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Manuskrypt `manuscript/tom-i/F28_2FS.md`, commit `b10d59abb2eeb29044cd96fc7928caac112e74dd`: 3 definicje, 4 twierdzenia z dowodami, 3 kontrprzykłady, 4 rozwiązane zadania; ostry próg p=0, oszacowania ilościowe, kryterium średniej ważonej.
 - Test `tests/test_f28_2fs.py`, commit `9c0299068b25de458ed0214ee7e34f9cffdd41e2`: dokładne kontrole wymierne; stan wykonania lokalnego i PDF należy raportować osobno, nie przypisywać im CI.
 - Integracja z monolitem 0.20 niewykonana; **585/1222 bez zmian**. Historyczny wstęp i wcześniejsza treść niezmienione; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-FT: oscylacje o ograniczonej wariacji (2026-11-07)
+- **Źródło main:** `manuscript/tom-i/F28_2FT.md`, commit `55419fbf6ea210c5253c8e7449b14e1e9ba0a787`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań; sumowanie przez części Abela, wariacja stałych, warunek zaniku wymuszenia oscylacyjnego, potęgowe tempo tłumienia.
+- **Test main:** `tests/test_f28_2ft.py`, commit `bc50f691e356ab672fa345022a57d91ce46be17f`. Lokalna niezależna implementacja `/mnt/data/ontologia_ft/verify.py` — **537 dokładnych asercji wymiernych PASS**. Próba pobrania testu bezpośrednio przez HTTPS w kontenerze nie powiodła się (brak DNS); wykonania pliku repozytoryjnego ani GitHub CI nie potwierdzono.
+- **PDF:** lokalny skrócony podgląd `/mnt/data/ontologia_ft/F28_2FT_PODGLAD.pdf`, 1 strona A4; `pdfinfo` i `pdftotext` PASS; SHA-256 `e7a69a6623adfb2832798faaf08b49f22db79b5275e81f45fa34c69fe2ea5a5c`. Podgląd nie jest pełną kompilacją źródła.
+- **Ograniczenia:** niezależna recenzja matematyczna, CI i integracja z rzeczywistym monolitem 0.20 niewykonane. **585/1222 bez zmian**; nie zmieniano historycznego wstępu ani poprzednich rozdziałów, nie sporządzono finalnego spisu treści, nie rozpoczęto Tomu II.
