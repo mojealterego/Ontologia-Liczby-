@@ -2622,3 +2622,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2fw.py`, commit `0e51b00aa173e7417be8e0a9d471f2588d353cd1`. Lokalny test równoważnej treści: `python -m unittest discover -s /mnt/data/ontologia_fw -v` — **3/3 PASS**; `py_compile` PASS. Testów GitHub Actions CI nie zweryfikowano.
 - **PDF:** lokalny skrócony podgląd `/mnt/data/ontologia_fw/F28_2FW_PODGLAD.pdf`, 1 strona A4, SHA-256 `bccd08680aa7cdbf4996f8042583c15f265d5fcf428b1be3b0a9d6f515ce8643`; `pdfinfo` i `pdftotext` PASS. Nie jest to pełny skład manuskryptu.
 - **Otwarte:** niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-FX: profil czasowy bliskiego rezonansu (2026-11-07)
+- Manuskrypt `manuscript/tom-i/F28_2FX.md`: T1–T5, D1–D3, K1–K3, Z1–Z6. Commit pierwotny `1e1e218de61af61675354bb7a38b718ce6d3d56a`, korekta T4 `3b95045a7efe6ed1c60321d698ab341d3f124c17`.
+- Test `tests/test_f28_2fx.py`: commit `ca1ae84d1865794c29218d3bb50ff9558e34d505`. Testy repozytoryjne i CI wymagają niezależnego uruchomienia; nie przypisywać statusu PASS bez wykonania.
+- Wynik: jednostajny limit na [δ,1] przy b_N=o(N²), na [0,1] przy b_N=o(N); równanie profilu i stabilność względem częstotliwości.
+- **Licznik 585/1222 bez zmian** do integracji z rzeczywistym monolitem 0.20. Wstęp historyczny i wcześniejsze rozdziały bez ingerencji. Bez końcowego spisu treści i bez Tomu II.
