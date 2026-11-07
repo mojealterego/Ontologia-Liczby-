@@ -2523,3 +2523,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2fi.py`, commit `1dcca51ca6ed9e8e89b036687782d846806b0f5f`. Niezależna lokalna enumeracja Python Fraction: **8208 dokładnych asercji PASS**; nie uruchomiono bajtowo pobranego testu z repozytorium. GitHub Actions CI niepotwierdzone.
 - **PDF:** lokalny skrócony podgląd `/mnt/data/ontologia_fi/F28_2FI_PODGLAD.pdf`, 1 strona A4, SHA-256 `04ced85a8505c21328b7896818c9255729c8c58dcfc85fa944d3c6a13c6392ac`, otwarcie, ekstrakcja tekstu i rasteryzacja PyMuPDF PASS. Nie jest to pełny skład manuskryptu.
 - **Otwarte:** pełne CI, niezależna recenzja matematyczna, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-FJ: skończone zatrzymanie i stabilność niestacjonarnej relaksacji (2026-11-07)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2FJ.md`, commit `3172d676e02a751cf947d654b878d491d2e1b428`. Trzy definicje, sześć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Dokładne kryterium skończonego zatrzymania, bilans energii, propagacja zakłóceń poprzecznych i wrażliwość na parametry.
+- **Test main:** `tests/test_f28_2fj.py`, commit `906491058c474873aa840072d18550eac2841640`.
+- **Weryfikacja lokalna:** równoważny lokalny skrypt `/mnt/data/ontologia_fj/test.py`: `python -m py_compile` PASS; `python test.py` PASS, **6776 dokładnych asercji wymiernych**. Nie wykonano bezpośrednio bajtowo pobranego skryptu z GitHub. CI i niezależna recenzja matematyczna niepotwierdzone.
+- **Podgląd PDF:** lokalny `/mnt/data/ontologia_fj/F28_2FJ_PODGLAD.pdf`, 1 strona A4, SHA-256 `f49acfe2f5b2afb282f44a197a2618a6b1f387c7b6b9aee44b4f9c2cc763ce1a`; otwarcie, ekstrakcja i render PyMuPDF PASS. Podgląd skrócony, nie pełna kompilacja manuskryptu.
+- **Otwarte:** integracja z rzeczywistym monolitem 0.20, pełne CI i niezależna recenzja. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
