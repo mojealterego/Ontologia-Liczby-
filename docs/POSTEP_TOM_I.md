@@ -2487,3 +2487,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Test repozytoryjny: `tests/test_f28_2fd.py`, commit `39c2c511de27c64d3e52e9ffc00464f2e079348c`. Lokalny niezależny odpowiednik: `/mnt/data/ontologia_fd/test.py`, `py_compile` PASS, 648 dokładnych asercji wymiernych PASS. **Nie wykonano bajtowo pobranego testu repozytoryjnego**.
 - Lokalny skrócony podgląd PDF: `/mnt/data/ontologia_fd/F28_2FD_PODGLAD.pdf`, 1 strona, SHA-256 `de9569c1ad5922efde7a0457b89cf70bf4915591ee36b4997e2e73aa624b6679`; render PASS. Nie jest to pełny skład repozytoryjnego manuskryptu.
 - Otwarte: pełne CI GitHub Actions, niezależna recenzja, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-FE: kryterium zakończenia po jednym cyklu (2026-11-07)
+- Manuskrypt: `manuscript/tom-i/F28_2FE.md`, commit `edbdf104c362bec309459905a666041b899aaac4`. 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady i 6 rozwiązanych zadań. Kryterium przemienności rzutów, identyfikacja wspólnej przestrzeni, przykład zbieżności bez skończonego zatrzymania, bilans energii.
+- Test repozytoryjny: `tests/test_f28_2fe.py`, commit `5a0f6f60df923d3ca6c99b8933f2a11c3a7e076f`. Lokalny odpowiednik `/mnt/data/ontologia_fe/test_f28_2fe.py`: 119 dokładnych asercji wymiernych PASS; `python -m py_compile` PASS. Brak potwierdzenia uruchomienia pobranego bajtowo testu z repozytorium i pełnego GitHub Actions CI.
+- Lokalny podgląd PDF: `/mnt/data/ontologia_fe/F28_2FE_PODGLAD.pdf`, 1 strona A4, SHA-256 `5dacc172b23c90bad539bf4c8b2e5afcdc5c3941f388568699644e40d0c9adbd`; otwarcie, ekstrakcja tekstu i rasteryzacja PyMuPDF PASS. Podgląd jest skrótem, nie pełnym składem źródła.
+- Nie wykonano niezależnej recenzji matematycznej ani integracji z rzeczywistym monolitem 0.20. **585/1222 bez zmian**; historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez finalnego spisu treści i bez Tomu II.
