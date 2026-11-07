@@ -2531,3 +2531,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** równoważny lokalny skrypt `/mnt/data/ontologia_fj/test.py`: `python -m py_compile` PASS; `python test.py` PASS, **6776 dokładnych asercji wymiernych**. Nie wykonano bezpośrednio bajtowo pobranego skryptu z GitHub. CI i niezależna recenzja matematyczna niepotwierdzone.
 - **Podgląd PDF:** lokalny `/mnt/data/ontologia_fj/F28_2FJ_PODGLAD.pdf`, 1 strona A4, SHA-256 `f49acfe2f5b2afb282f44a197a2618a6b1f387c7b6b9aee44b4f9c2cc763ce1a`; otwarcie, ekstrakcja i render PyMuPDF PASS. Podgląd skrócony, nie pełna kompilacja manuskryptu.
 - **Otwarte:** integracja z rzeczywistym monolitem 0.20, pełne CI i niezależna recenzja. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-FK: addytywne zaburzenia niestacjonarnej relaksacji (2026-11-07)
+- Manuskrypt `manuscript/tom-i/F28_2FK.md`, commit `8c85585c3855a37d505e6f9038dea158f5abbe9f`: 3 definicje, 6 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań; wariacja stałych, dekompozycja ortogonalna, ostre oszacowanie zaburzeń i zbieżność dla błędów sumowalnych.
+- Test `tests/test_f28_2fk.py`, commit `61e1e0da9b7f34c0fb5ab6f736b488b403196db3`. Lokalny równoważny skrypt Python Fraction: `py_compile` PASS; **6480 dokładnych tożsamości wymiernych PASS**. Nie jest to wykonanie pobranego bajtowo pliku repozytoryjnego. CI i niezależna recenzja niepotwierdzone.
+- Podgląd PDF lokalny; bez integracji z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejszy manuskrypt nietknięte. Bez końcowego spisu treści i bez Tomu II.
