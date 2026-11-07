@@ -2586,3 +2586,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Test: `tests/test_f28_2fr.py`, commit `28f49cf139901c200718a0fd628867b45c9e68d8`. Lokalny odpowiednik: `python -m py_compile` PASS; `python test_f28_2fr.py` PASS, 2/2 testy, 864 dokładne tożsamości wymierne oraz 99 dodatkowych kontroli postaci zamkniętej. Test repozytoryjny nie został bezpośrednio pobrany i uruchomiony; pełne GitHub Actions CI niepotwierdzone.
 - PDF: lokalny skrócony podgląd `/mnt/data/ontologia_fr/F28_2FR_PODGLAD.pdf`, 1 strona A4, SHA-256 `d52b8d2e15ffdb4002f536773eb01ea20b688ad3d49bbbdf13b58dab19539b51`. `pdfinfo` i `pdftotext` PASS. Nie jest to pełna kompilacja manuskryptu.
 - Otwarte: niezależna recenzja analityczna, pełne CI i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały niezmienione. Bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-FS: oscylacyjne wymuszenie harmoniczne (2026-11-07)
+- Manuskrypt `manuscript/tom-i/F28_2FS.md`, commit `b10d59abb2eeb29044cd96fc7928caac112e74dd`: 3 definicje, 4 twierdzenia z dowodami, 3 kontrprzykłady, 4 rozwiązane zadania; ostry próg p=0, oszacowania ilościowe, kryterium średniej ważonej.
+- Test `tests/test_f28_2fs.py`, commit `9c0299068b25de458ed0214ee7e34f9cffdd41e2`: dokładne kontrole wymierne; stan wykonania lokalnego i PDF należy raportować osobno, nie przypisywać im CI.
+- Integracja z monolitem 0.20 niewykonana; **585/1222 bez zmian**. Historyczny wstęp i wcześniejsza treść niezmienione; bez końcowego spisu treści i Tomu II.
