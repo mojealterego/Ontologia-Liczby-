@@ -2615,3 +2615,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2fv.py`, commit `c9a7aa6a15111ee49a4dd516e296c1e9422731c3`. Lokalna równoważna implementacja Python Fraction: `py_compile` PASS, 49227 dokładnych porównań PASS. Test pliku pobranego bajtowo z repo i GitHub Actions CI niepotwierdzone.
 - **PDF lokalny:** `/mnt/data/ontologia_fv/F28_2FV_PODGLAD.pdf`, 2 strony A4, SHA-256 `fddaa22b1910f8179c3a776fe1174ff1754d366b3891008721b457d107e416b3`; `pdfinfo` i `pdftotext` PASS. Podgląd zawiera tekstowy zapis LaTeX, nie pełny skład matematyczny.
 - **Otwarte:** niezależna recenzja, pełne CI i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejszy manuskrypt nietknięte. Bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-FW: przejście bliskiego rezonansu (2026-11-07)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2FW.md`, commit `69779e26e465689c872e9447d9d4408aea181c30`. Trzy definicje, trzy twierdzenia z dowodami, trzy kontrprzykłady, cztery rozwiązane zadania. Dla częstotliwości λ/N wykazano profil całkowy H(λ) i jawny błąd O((1+|λ|)/N), przy b_N=o(N²).
+- **Test main:** `tests/test_f28_2fw.py`, commit `0e51b00aa173e7417be8e0a9d471f2588d353cd1`. Lokalny test równoważnej treści: `python -m unittest discover -s /mnt/data/ontologia_fw -v` — **3/3 PASS**; `py_compile` PASS. Testów GitHub Actions CI nie zweryfikowano.
+- **PDF:** lokalny skrócony podgląd `/mnt/data/ontologia_fw/F28_2FW_PODGLAD.pdf`, 1 strona A4, SHA-256 `bccd08680aa7cdbf4996f8042583c15f265d5fcf428b1be3b0a9d6f515ce8643`; `pdfinfo` i `pdftotext` PASS. Nie jest to pełny skład manuskryptu.
+- **Otwarte:** niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
