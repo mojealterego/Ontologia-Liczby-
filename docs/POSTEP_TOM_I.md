@@ -2516,3 +2516,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** odpowiednik testu `/mnt/data/ontologia_fh/verify.py`, `python -m py_compile` PASS, `python verify.py` PASS: **3528 dokładnych asercji wymiernych**. Nie wykonano bezpośrednio pliku pobranego bajtowo z GitHub; GitHub Actions CI niepotwierdzone.
 - **PDF:** lokalny skrócony podgląd `/mnt/data/ontologia_fh/F28_2FH_PODGLAD.pdf`, 1 strona A4, SHA-256 `0f9018916a99f8753145fdca9b132c6a86fa2cbca36a330996485272553bfbbb`, otwarcie i rasteryzacja PyMuPDF PASS. Nie jest to pełna kompilacja manuskryptu.
 - **Otwarte:** niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejszy manuskrypt nietknięte. Bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-FI: relaksacja z parametrem zmiennym (2026-11-07)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2FI.md`, commit `3eefab096a87d4575ae5ced3e074835e53106260`. 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady i 6 rozwiązanych zadań. Dokładny iloczyn współczynników, kryterium zbieżności, bilans energii, certyfikat resztowy.
+- **Test main:** `tests/test_f28_2fi.py`, commit `1dcca51ca6ed9e8e89b036687782d846806b0f5f`. Niezależna lokalna enumeracja Python Fraction: **8208 dokładnych asercji PASS**; nie uruchomiono bajtowo pobranego testu z repozytorium. GitHub Actions CI niepotwierdzone.
+- **PDF:** lokalny skrócony podgląd `/mnt/data/ontologia_fi/F28_2FI_PODGLAD.pdf`, 1 strona A4, SHA-256 `04ced85a8505c21328b7896818c9255729c8c58dcfc85fa944d3c6a13c6392ac`, otwarcie, ekstrakcja tekstu i rasteryzacja PyMuPDF PASS. Nie jest to pełny skład manuskryptu.
+- **Otwarte:** pełne CI, niezależna recenzja matematyczna, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i bez Tomu II.
