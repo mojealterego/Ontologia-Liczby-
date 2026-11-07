@@ -2544,3 +2544,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Test `tests/test_f28_2fl.py`, commit `8a56a643fbb49346fdaa816a5d3e7b4ff8ef3de0`. Lokalny odpowiednik `/mnt/data/ontologia_fl/verify.py`: `py_compile` PASS i **209952 dokładne asercje wymierne PASS**; nie uruchomiono bajtowo pobranego pliku GitHub.
 - PDF `/mnt/data/ontologia_fl/F28_2FL_PODGLAD.pdf`: 1 strona A4, SHA-256 `73dba18097f73fca289f68f49c95b1aa8ac4f0e204ac5b0eef872740c840ddce`, otwarcie, ekstrakcja tekstu i render PASS. Jest to skrócony podgląd, nie pełny skład manuskryptu.
 - Niepotwierdzone: GitHub Actions CI, niezależna recenzja, pełna kompilacja manuskryptu. Brak integracji z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsza treść nietknięte; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-FM: dryf styczny i zanikające zakłócenia (2026-11-07)
+- Manuskrypt `manuscript/tom-i/F28_2FM.md`, commit `5839281836e5ef80fba4b685f88efb11b879303a`: pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Rozdział dryfu stycznego i szumu poprzecznego, konieczny i wystarczający warunek zbieżności przy jednostajnej kontrakcji, certyfikat błędu.
+- Test `tests/test_f28_2fm.py`, commit `ef971bb6f407ccc7277b9d6b85ae79d453393c38`. Lokalny odpowiednik: `python -m py_compile` PASS, **1200 dokładnych asercji wymiernych PASS**. Nie uruchomiono bajtowo pobranego testu z GitHub.
+- Lokalny skrócony podgląd `/mnt/data/ontologia_fm/F28_2FM_PODGLAD.pdf`: 1 strona, SHA-256 `79ae2c3e99edcbe44b94959127b11bc2749fe29363af94079cf919566c1af424`, otwarcie, ekstrakcja tekstu i render PASS. Nie jest to pełna kompilacja manuskryptu.
+- Niepotwierdzone: GitHub Actions CI, niezależna recenzja matematyczna, pełny skład źródła. Brak integracji z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsza treść nietknięte; bez końcowego spisu treści i bez Tomu II.
