@@ -2604,5 +2604,7 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 ### Tom I — F28.2-FU: okresowe wymuszenie i cykl graniczny (2026-11-07)
 - **Manuskrypt main:** `manuscript/tom-i/F28_2FU.md`, commit `cf3d764eb9be6961caec23ecf7576ef1c6a9c920`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań; dokładna formuła, okresowy cykl graniczny, przypadek niezerowej średniej i oszacowanie resztowe.
 - **Test main:** `tests/test_f28_2fu.py`, commit `6dbfd475320063f523752fdc3c8f70160d94fa60`. Lokalny odpowiednik Python Fraction: `py_compile` PASS, `unittest` 3/3 PASS. Pliku repozytoryjnego nie uruchomiono bezpośrednio; CI niepotwierdzone.
-- **PDF:** lokalny podgląd tekstowy `/mnt/data/ontologia_fu/F28_2FU_PODGLAD.pdf`, 2 strony A4, SHA-256 `b9e48731256622e1739dd032768ef7e22848481eb30735c6e42face9879402e4`; `pdfinfo` i `pdftotext` PASS. Zapis matematyczny w podglądzie jest tekstowym LaTeX, nie składem matematycznym.
+- **PDF:** lokalny podgląd tekstowy `/mnt/data/ontologia_fu/F28_2FU_PODGLAD.pdf`, 2 strony A4, SHA-256 `03a7d07eb9f50231417d9653bba06ab6a3e4d3ecbb8636519211209f6dcc6241`; `pdfinfo` i `pdftotext` PASS. Zapis matematyczny w podglądzie jest tekstowym LaTeX, nie składem matematycznym.
 - **Otwarte:** niezależna recenzja, GitHub Actions CI, integracja z monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
+
+- **Korekta dowodu FU:** commit `ce10d8bfb9323480a6528ec4b0d24b3751bdb96b` — poprawiono współczynnik 2 przy średniej sum częściowych w T5; testy lokalne uruchomiono ponownie 3/3 PASS.
