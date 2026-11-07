@@ -2636,3 +2636,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2fy.py`, commit `5cac520aa27831056ea770eeccd13e7cefa2326e`. Lokalny niezależny odpowiednik `/mnt/data/ontologia_fy/test_fy.py`: `py_compile` PASS, `unittest` 3/3 PASS (dokładne kontrole wymierne, przypadek zerowej fazy, numeryczna asymptotyka). Nie wykonano bajtowo pobranego testu GitHub; pełne CI niepotwierdzone.
 - **PDF:** `/mnt/data/ontologia_fy/F28_2FY_PODGLAD.pdf`, 1 strona A4, SHA-256 `c515e9a0d22926f7a2152faed07e646acd8d918e374436100160b267973f5e6e`; `pdfinfo` i `pdftotext` PASS. Skrócony podgląd, nie pełna kompilacja manuskryptu.
 - **Otwarte:** niezależna recenzja, GitHub Actions CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-FZ: stabilność profilu wobec modulacji fazy (2026-11-07)
+- Manuskrypt `manuscript/tom-i/F28_2FZ.md`, commit `99974d66d054a3106383e311132dcfe5962ce0d2`: 3 definicje, 4 twierdzenia z dowodami, 3 kontrprzykłady, 6 rozwiązanych zadań. Profil fazowy, oszacowanie jednostajne, stabilność i pochodna funkcjonalna.
+- Test `tests/test_f28_2fz.py`, commit `e064ca496769959a8e4527dde9b7b0579cf56ad9`: testy dokładnej reprezentacji, fazy stałej i profilu liniowego; stan wykonania lokalnego raportować osobno od CI.
+- Integracja z monolitem 0.20 niewykonana; **585/1222 bez zmian**. Historyczny wstęp i poprzedni manuskrypt niezmienione. Bez końcowego spisu treści i bez Tomu II.
