@@ -2508,3 +2508,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2fg.py`, commit `73a6cf55def8015fa5d5a2aac8bb1521aba204a0`. Lokalny skrypt odpowiadający treści testu: `python /mnt/data/ontologia_fg/test_f28_2fg.py` PASS, **756 dokładnych asercji wymiernych**; `python -m py_compile` PASS. Nie wykonano bajtowo pobranego testu z GitHub; CI i niezależna recenzja niepotwierdzone.
 - **Podgląd PDF:** lokalny `/mnt/data/ontologia_fg/F28_2FG_PODGLAD.pdf`, 1 strona A4, SHA-256 `a1576bde60d5afd2ff9e9d8c5cbdc378affa936a290c2f444a0eac1c10be5db4`; otwarcie, ekstrakcja tekstu i rasteryzacja PyMuPDF PASS. Jest to skrót redakcyjny, nie pełny skład źródła.
 - **Otwarte:** pełne CI, niezależna recenzja i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsza treść nietknięte. Bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-FH: optymalna relaksacja pojedynczego rzutu (2026-11-07)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2FH.md`, commit `988bf767c7efa5913c6278a1f5772322a371ad27`. 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 zadań rozwiązanych. Dokładny wzór iteracji, zakres zbieżności, optymalność jednego kroku, bilans energii i certyfikat resztowy.
+- **Test main:** `tests/test_f28_2fh.py`, commit `ac14500cded814060cab8cbd62d1e8d7ce327a64`.
+- **Weryfikacja lokalna:** odpowiednik testu `/mnt/data/ontologia_fh/verify.py`, `python -m py_compile` PASS, `python verify.py` PASS: **3528 dokładnych asercji wymiernych**. Nie wykonano bezpośrednio pliku pobranego bajtowo z GitHub; GitHub Actions CI niepotwierdzone.
+- **PDF:** lokalny skrócony podgląd `/mnt/data/ontologia_fh/F28_2FH_PODGLAD.pdf`, 1 strona A4, SHA-256 `0f9018916a99f8753145fdca9b132c6a86fa2cbca36a330996485272553bfbbb`, otwarcie i rasteryzacja PyMuPDF PASS. Nie jest to pełna kompilacja manuskryptu.
+- **Otwarte:** niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejszy manuskrypt nietknięte. Bez końcowego spisu treści i bez Tomu II.
