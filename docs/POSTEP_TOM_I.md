@@ -2782,3 +2782,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test na main:** `tests/test_f28_2gt.py`, commit `42aba62335bcceb80d310a6585f68fc80b83c789`. Lokalny skrypt o tej samej treści: `python -m py_compile` PASS, `unittest` 3/3 PASS; dokładna enumeracja wymierna. Nie potwierdzono wykonania testu pobranego bezpośrednio z GitHub ani pełnego CI.
 - **Podgląd PDF:** `/mnt/data/ontologia_gt/F28_2GT_PODGLAD.pdf`, 1 strona A4, `pdfinfo` PASS; SHA-256 `9b24fb2726599914d6cfddcfa65f74a8f137239139fa776573599f6ece55d7a9`. Podgląd skrócony, nie pełny skład.
 - **Otwarte:** niezależna recenzja, CI, integracja z monolitem 0.20. **585/1222 bez zmian**; wstęp historyczny i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-GU: progi przełączeń parametrycznej alokacji (2026-11-08)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2GU.md`, commit `68f7d70a922bda5c15eeb35a8dfb142d62f6139e`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Wklęsła odcinkowo liniowa funkcja wartości, monotoniczność przydziału, pochodne jednostronne, skończone progi i przedziały stabilności.
+- **Test main:** `tests/test_f28_2gu.py`, commit `0ab798a0c910134e888e4d14ed89ba893e320f6c`. Bezpośrednie wykonanie pliku pobranego z GitHub niepotwierdzone.
+- **Weryfikacja lokalna:** niezależny skrypt `/tmp/verify_gu.py`: `py_compile` PASS, 2772 dokładne kontrole wymierne PASS. Nie utożsamiać z uruchomieniem testu repozytoryjnego.
+- **PDF:** `/mnt/data/ontologia_gu/F28_2GU_PODGLAD.pdf`, jednostronicowy A4, `pdfinfo` PASS, SHA-256 `adcc3c60d19c8ded1a0b933b67a1bb01d75800b834f9fcd578404369feb6c53b`. Skrócony podgląd, nie pełny skład.
+- **Otwarte:** pełne CI, niezależna recenzja matematyczna, integracja z monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i poprzednie rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
