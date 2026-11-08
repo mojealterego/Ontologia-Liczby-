@@ -2693,3 +2693,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Status:** brak integracji z monolitem 0.20; **585/1222 bez zmian**. Historyczny wstęp i poprzedni manuskrypt bez ingerencji. Bez końcowego spisu treści i Tomu II.
 
 - **Weryfikacja lokalna 2026-11-08:** niezależny skrypt `/mnt/data/ontologia_gg/verify.py`: `py_compile` PASS, `unittest` 4/4 PASS (dokładne wariancje, certyfikat koncentracji, nierówności całkowe, zależne próbki). Podgląd PDF `/mnt/data/ontologia_gg/F28_2GG_PODGLAD.pdf`: A4, 1 strona, `pdfinfo` PASS, SHA-256 `36f3cff6a305df99ffeb38de30949b0d3c6a59fcab917b51fcd01fd8e53ad464`. PDF skrócony, nie pełny skład. Pliku testowego GitHub nie uruchomiono bezpośrednio; CI niepotwierdzone.
+
+
+### Tom I — F28.2-GH: antytetyczna kwadratura warstwowa (2026-11-08)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2GH.md`, commit `7ae05be611770d44b864faaa37e06793fe2e5c9b`. 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Nieobciążoność, dokładność afiniczna, deterministyczny błąd M/(6N²), koncentracja 2exp(-32N⁵ε²/M²), wariancja ≤ M²/(64N⁵).
+- **Test repozytoryjny main:** `tests/test_f28_2gh.py`, commit `fc5f27e09a6bb3c9463185bc5522fc9af779c702`. Lokalny odpowiednik `/mnt/data/ontologia_gh/verify.py`: `py_compile` PASS, `unittest` 3/3 PASS (dokładność afiniczna, kwadratowa, oszacowanie krzywizny fazy). **Nie uruchomiono bezpośrednio pobranego pliku testowego z GitHub**; pełne GitHub Actions CI niepotwierdzone.
+- **PDF lokalny:** `/mnt/data/ontologia_gh/F28_2GH_PODGLAD.pdf`, 1 strona A4, `pdfinfo` PASS, SHA-256 `6deaa4a0f513bd3e7a82be3ae1cd3aeb0be63f6cadcd7bb4177102aaeac31e19`. Jest to skrócony podgląd, nie pełny skład manuskryptu.
+- **Otwarte:** niezależna recenzja matematyczna, CI i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**; historyczny wstęp i wcześniejsze rozdziały niezmienione; bez końcowego spisu treści i bez Tomu II.
