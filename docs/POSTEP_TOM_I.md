@@ -2706,3 +2706,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Manuskrypt main:** `manuscript/tom-i/F28_2GI.md`, commit `9505d0ce90a038b9c53fb46df7944257c0b0b048`. 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady i 6 zadań rozwiązanych. Poprawa wariancji do M²/(720N⁵), stała optymalna dla funkcji kwadratowej; wzmocnienie wykładnika Hoeffdinga z 32 do 128.
 - **Test main:** `tests/test_f28_2gi.py`, commit `72841098f45fb611df1f98a7c409c15d8055f18d`. Lokalna odtworzona implementacja `/mnt/data/ontologia_gi/test_f28_2gi.py`: `py_compile` PASS, `unittest` 4/4 PASS. Bezpośrednie uruchomienie pobranego testu repozytoryjnego i pełne Actions CI niepotwierdzone.
 - **Otwarte:** niezależna recenzja matematyczna, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-GJ: nierówne warstwy antytetyczne (2026-11-08)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2GJ.md`, commit `9e66a5c5e0527f7eec15a8e437d6e149a7a36647`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Ostry certyfikat Var(T_P)≤M²Σh_i⁶/720, osiągalny dla funkcji kwadratowych; równa siatka minimalizuje najgorszy certyfikat wśród N warstw.
+- **Test main:** `tests/test_f28_2gj.py`, commit `83873e0432e39becf88b35e3e0a08745657ac567`. Pięć klas kontroli na dokładnych ułamkach: optymalność, wariancja, nierówna siatka, zależność próbek i dokładność afiniczna. Status bezpośredniego uruchomienia testu repozytoryjnego oraz CI należy raportować wyłącznie po wykonaniu.
+- **Otwarte:** niezależna recenzja matematyczna, GitHub Actions CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Wstęp historyczny i poprzednie rozdziały nietknięte. Bez końcowego spisu treści i bez Tomu II.
