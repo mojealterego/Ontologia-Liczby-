@@ -2662,3 +2662,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2gc.py`, commit `3d634e82a078e40da371b79f203c7fa8ad4532c3`. Lokalnie wykonano równoważny zestaw `/mnt/data/ontologia_gc/test_gc.py`: 4/4 testy PASS (dokładne ułamki, certyfikat, faza liniowa, aliasing). Nie jest to bezpośrednie uruchomienie bajtowo pobranego pliku z GitHub ani pełne CI.
 - **PDF lokalny:** `/mnt/data/ontologia_gc/F28_2GC_PODGLAD.pdf`, 1 strona A4, SHA-256 `71711747a203cae3d08df9f936f4ac6f345a66b78c8ec202a555905c9230a71c`. Skrócony podgląd ReportLab, nie pełna kompilacja źródła.
 - **Otwarte:** pełne GitHub Actions CI, niezależna recenzja matematyczna, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i poprzednie rozdziały niezmienione. Bez finalnego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-GD: kwadratura środkowa profilu fazowego (2026-11-08)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2GD.md`, commit `ea627dc57713c5a2a3eab279a476cac90f3d3f94`, korekta stałej w K1 `df75bef006ef45e407300b4d8877fd493e49d04e`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć zadań rozwiązanych. Certyfikat Lipschitza O(N^-1), certyfikat C2 O(N^-2), stabilność i błąd próbek.
+- **Test repozytoryjny:** `tests/test_f28_2gd.py`, commit `0c15358ea3efc324aff9253422c7b9f437992c0d`. Lokalna niezależna implementacja `/mnt/data/ontologia_gd/verify.py`: `py_compile` PASS; `unittest` 3/3 PASS (100 dokładnych sum wymiernych, 20 oszacowań faz liniowych, 4 tożsamości namiotowe). Bezpośrednie uruchomienie pobranego pliku z GitHub i pełne Actions CI **niepotwierdzone**.
+- **PDF lokalny:** `/mnt/data/ontologia_gd/F28_2GD_PODGLAD.pdf`, 1 strona A4, SHA-256 `c705b18fe8494652bf2b7fb49212d91ca15c38db5f9a821a867ff91d11789b73`; `pdfinfo` PASS. Podgląd skrócony, nie pełna kompilacja manuskryptu.
+- **Otwarte:** niezależna recenzja analityczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały niezmienione. Bez końcowego spisu treści i Tomu II.
