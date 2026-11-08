@@ -2805,3 +2805,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test na main:** `tests/test_f28_2gw.py`, commit `0fc71f4b15ea097af9f16064b72a4190c90878c7`. Niezależny lokalny odpowiednik: `python -m py_compile` PASS i 900 dokładnych przypadków wymiernych PASS. Test opublikowany na GitHub nie był wykonywany bezpośrednio; nie deklarować jego PASS ani CI.
 - **Podgląd PDF:** `/mnt/data/ontologia_gw/F28_2GW_PODGLAD.pdf`; 1 strona A4, `pdfinfo` PASS; SHA-256 `b10f7de258c5fde445a5b844065b2a22781909db2097e3b9960bcf096d03e279`. Podgląd skrócony, nie pełny skład.
 - **Otwarte:** niezależna recenzja, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i poprzednie rozdziały niezmienione. Bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-GX: certyfikaty progów przełączeń i remisów (2026-11-08)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2GX.md`, commit `221010e1004dfe982d5910973f3f1d9ed7b74cb2`. 3 definicje, 5 twierdzeń z dowodami, 3 kontrprzykłady (dwa geometryczne, jeden modelowy), 5 rozwiązanych zadań. Redukcja do profili, certyfikaty aktywności, monotoniczność, pochodne jednostronne i skończone przełączenia.
+- **Test main:** `tests/test_f28_2gx.py`, commit `ed56bbf9c3207f370ae8f11a8957557e11bd36d8`. Identyczny kod testu wykonany lokalnie: `PASS 1872` dokładnych przypadków wymiernych; `python -m py_compile` PASS. Nie jest to przebieg GitHub Actions CI.
+- **Podgląd PDF:** `/mnt/data/ontologia_gx/F28_2GX_PODGLAD.pdf`, 1 strona A4, `pdfinfo` PASS, SHA-256 `2dc99b1d0263278e89e46eb46b2305002a40ff29b13b0643d9f44a2f259faff2`. Skrócony podgląd, nie pełny skład.
+- **Otwarte:** niezależna recenzja, CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsza treść nietknięte; bez końcowego spisu treści i Tomu II.
