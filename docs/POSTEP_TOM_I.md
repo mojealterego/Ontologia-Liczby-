@@ -2727,3 +2727,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2gl.py`, commit `7017adff031ef7f31190bec6940639a0c7d113f8`. Lokalny niezależny skrypt `/mnt/data/ontologia_gl/verify.py`: `py_compile` PASS; 2040 przypadków wyczerpującej enumeracji wymiernej PASS, przykłady PASS. **Nie jest to uruchomienie repozytoryjnego testu**. Lokalny `git ls-remote` zablokowany przez DNS github.com; pełne Actions CI niepotwierdzone.
 - **Podgląd PDF:** `/mnt/data/ontologia_gl/F28_2GL_PODGLAD.pdf`, 1 strona A4, `pdfinfo` PASS, SHA-256 `fdc0f31bcfc3bc4a48510c0a9589ed0c46da107d4b5c33abc0f71b4a23360d04`. Skrót wyników, nie pełny skład matematyczny manuskryptu.
 - **Otwarte:** niezależna recenzja, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsza treść nietknięte. Bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-GM: stabilność alokacji przy niepewnych wagach (2026-11-08)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2GM.md`, commit `f95232874231e4abb1dc0f90b4b610d4b585c84e`. 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 6 rozwiązanych zadań. Kryterium wymianowe, dokładny certyfikat odporności na niezależne przedziały wag, kontrola wartości i żalu, próg jednoznaczności.
+- **Test main:** `tests/test_f28_2gm.py`, commit `c8fd7da118a9e96ca32779556780f043ffd9ad92`. Lokalny odpowiednik `/mnt/data/ontologia_gm/verify.py`: `py_compile` PASS, `unittest` 3/3 PASS, 1764 dokładne przypadki enumeracji. Bezpośrednie wykonanie bajtowo identycznego testu repozytoryjnego i GitHub Actions CI niepotwierdzone.
+- **PDF:** `/mnt/data/ontologia_gm/F28_2GM_PODGLAD.pdf`, A4, 1 strona, SHA-256 `f84486bbc1a6f376511621b9c15c552c2590e8977f8fc5a65c2e872a4faad2a8`. Skrócony podgląd, nie pełny skład manuskryptu.
+- **Otwarte:** niezależna recenzja, CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
