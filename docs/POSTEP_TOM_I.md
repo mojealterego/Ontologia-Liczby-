@@ -2685,3 +2685,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test na main:** `tests/test_f28_2gf.py`, commit `fda0bc85998443530505af303794e0e27bd8fdae`. Lokalny niezależny odpowiednik `/mnt/data/ontologia_gf/verify.py`: `py_compile` PASS, `unittest` **5/5 PASS**. Nie uruchomiono bezpośrednio bajtowo identycznego pliku z GitHub; GitHub Actions CI niepotwierdzone.
 - **PDF lokalny:** `/mnt/data/ontologia_gf/F28_2GF_PODGLAD.pdf`, 1 strona A4, `pdfinfo` PASS; SHA-256 `87920fb98ec1f7396cbfbf92895eedce46cb85d17a916027b2f595b1c64a6cf0`. Skrócony podgląd, nie pełny skład matematyczny manuskryptu.
 - **Otwarte:** niezależna recenzja dowodów, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Wstęp historyczny i wcześniejsza treść bez ingerencji; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-GG: przedziały ufności i siatki faz (2026-11-08)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2GG.md`, commit `336b5525a71d982d9f9626960785b6d4a9cdf7e5`, korekta stałej T4 commit `bd5c8554b99503051994949145736dc477aa556a`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Certyfikat Hoeffdinga, rodzina skończona, siatka faz z bezpiecznym współczynnikiem 3η/2, oszacowanie deterministyczne.
+- **Test main:** `tests/test_f28_2gg.py`, commit `0ecff36a92cc401dac7185d880b5c65267aa062d`. Bezpośrednie wykonanie testu repozytoryjnego i pełne GitHub Actions CI wymagają weryfikacji; nie deklarować PASS bez dowodu.
+- **Status:** brak integracji z monolitem 0.20; **585/1222 bez zmian**. Historyczny wstęp i poprzedni manuskrypt bez ingerencji. Bez końcowego spisu treści i Tomu II.
