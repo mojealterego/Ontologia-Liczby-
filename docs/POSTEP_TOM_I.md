@@ -2775,3 +2775,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Manuskrypt main:** `manuscript/tom-i/F28_2GS.md`, commit `40cacf48897f2da9b653c1cdc638b7489d65f93c`. 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady i 6 rozwiązanych zadań. Monotoniczność własnego przydziału przy zwiększeniu jednej wagi, optymalność zachłanna, stabilność bez remisów.
 - **Test main:** `tests/test_f28_2gs.py`, commit `46f061ad1b3c0089ee4ef53fcb59dbd6e77ea2c0`. Niezależna lokalna enumeracja: 216 kontroli globalnego optimum i 594 kontroli monotoniczności PASS; bezpośredni przebieg pobranego testu repozytoryjnego i GitHub Actions CI niepotwierdzone.
 - **Status:** brak integracji z rzeczywistym monolitem 0.20; **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały bez ingerencji. Bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-GT: monotoniczność krzyżowa alokacji (2026-11-08)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2GT.md`, commit `4516b14010823b22647ff89829b11c0e8e0ccaff`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Optymalność zachłanna, monotoniczność krzyżowa przy zmianie pojedynczej wagi, przedziały przyrostu wartości i oszacowanie Lipschitza.
+- **Test na main:** `tests/test_f28_2gt.py`, commit `42aba62335bcceb80d310a6585f68fc80b83c789`. Lokalny skrypt o tej samej treści: `python -m py_compile` PASS, `unittest` 3/3 PASS; dokładna enumeracja wymierna. Nie potwierdzono wykonania testu pobranego bezpośrednio z GitHub ani pełnego CI.
+- **Podgląd PDF:** `/mnt/data/ontologia_gt/F28_2GT_PODGLAD.pdf`, 1 strona A4, `pdfinfo` PASS; SHA-256 `9b24fb2726599914d6cfddcfa65f74a8f137239139fa776573599f6ece55d7a9`. Podgląd skrócony, nie pełny skład.
+- **Otwarte:** niezależna recenzja, CI, integracja z monolitem 0.20. **585/1222 bez zmian**; wstęp historyczny i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
