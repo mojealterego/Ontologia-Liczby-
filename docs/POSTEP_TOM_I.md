@@ -2756,3 +2756,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Lokalna weryfikacja:** niezależny `/mnt/data/ontologia_gp/test_f28_2gp.py` zakończył `py_compile` PASS i `unittest` 3/3 PASS; wersja lokalna bada wystarczalność certyfikatu, a test opublikowany bada również jego konieczność na skończonej siatce. Nie utożsamiać tych zakresów.
 - **PDF lokalny:** `/mnt/data/ontologia_gp/F28_2GP_PODGLAD.pdf`, jednostronicowy A4, `pdfinfo` PASS, SHA-256 `f92a368e588a510897d06aa819af19c32951b71d087e313a1d5b85be7016f2fd`. Skrót, nie pełny skład.
 - **Blokady:** niezależna recenzja matematyczna, bezpośredni przebieg repozytoryjnego testu i pełne CI niepotwierdzone; brak rzeczywistej integracji z monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i poprzednie rozdziały bez ingerencji, bez finalnego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-GQ: geometria komórek stabilności alokacji (2026-11-08)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2GQ.md`, commit `d3353bcf0de2970287343e690716087c282fa87a`. 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady i 6 rozwiązanych zadań. Komórki optymalności jako wypukłe stożki, ścisła jednoznaczność, odporność na zaburzenia wag, wklęsłość i regularność funkcji wartości.
+- **Test main:** `tests/test_f28_2gq.py`, commit `5d0cd39b36fddbd1b227d536b1cc660b0475430a`. Lokalny niezależny skrypt `/mnt/data/ontologia_gq/test_f28_2gq.py`: `py_compile` PASS, `unittest` 3/3 PASS, 1080 przypadków dokładnej enumeracji wymiernej; bezpośrednie wykonanie opublikowanego pliku repozytoryjnego i pełne GitHub Actions CI niepotwierdzone.
+- **PDF lokalny:** `/mnt/data/ontologia_gq/F28_2GQ_PODGLAD.pdf`, 1 strona A4, `pdfinfo` PASS, SHA-256 `503116557d6ee47cd35f3a5f8649fd87ef39227e2e1944aee2fa0e2916338dbe`. Skrócony podgląd, nie pełny skład manuskryptu.
+- **Otwarte:** niezależna recenzja dowodów, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
