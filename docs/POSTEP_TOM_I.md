@@ -2763,3 +2763,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2gq.py`, commit `5d0cd39b36fddbd1b227d536b1cc660b0475430a`. Lokalny niezależny skrypt `/mnt/data/ontologia_gq/test_f28_2gq.py`: `py_compile` PASS, `unittest` 3/3 PASS, 1080 przypadków dokładnej enumeracji wymiernej; bezpośrednie wykonanie opublikowanego pliku repozytoryjnego i pełne GitHub Actions CI niepotwierdzone.
 - **PDF lokalny:** `/mnt/data/ontologia_gq/F28_2GQ_PODGLAD.pdf`, 1 strona A4, `pdfinfo` PASS, SHA-256 `503116557d6ee47cd35f3a5f8649fd87ef39227e2e1944aee2fa0e2916338dbe`. Skrócony podgląd, nie pełny skład manuskryptu.
 - **Otwarte:** niezależna recenzja dowodów, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-GR: pochodne kierunkowe i nadgradienty funkcji wartości (2026-11-08)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2GR.md`, commit `fcdfb1778c7d5b051c7c725df2d552b2945e543e`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Formuła pochodnej kierunkowej jako minimum po aktywnych alokacjach; kryterium różniczkowalności, zbiór nadgradientów, regularność i promień stabilności.
+- **Test main:** `tests/test_f28_2gr.py`, commit `70adc9e2d8406967654c4c0c2cedff41d874e165`. Wymaga bezpośredniego uruchomienia i potwierdzenia; nie deklarować PASS bez wykonania.
+- **Otwarte:** niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
