@@ -2741,3 +2741,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test na main:** `tests/test_f28_2gn.py`, commit `7942625f9f033c477604b0013807f8085ca34e40`. Lokalny odpowiednik `/mnt/data/ontologia_gn/test_f28_2gn.py`: `python -m py_compile` PASS, `unittest` 3/3 PASS, **1665 przypadków dokładnej enumeracji wymiernej**. Nie jest to uruchomienie bajtowo identycznego testu pobranego z repozytorium ani GitHub Actions CI.
 - **Podgląd lokalny:** `/mnt/data/ontologia_gn/F28_2GN_PODGLAD.pdf`, 1 strona A4, `pdfinfo` PASS, SHA-256 `cfb0228487ea81dcd5b1d6e313c2c2f56f80e3f6e01e502fb377e283e12101a4`. Podgląd skrócony, nie pełny skład manuskryptu.
 - **Otwarte:** niezależna recenzja, pełne CI i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i poprzednie rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-GO: ścieżka alokacji przy rosnącym budżecie (2026-11-08)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2GO.md`, commit `357fc84bec07bd49872070dd67f7873bb1e60941`, korekta certyfikatu drugiego optimum `02136235854b61f2cf80783ef54b5583d8c08295`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Zagnieżdżona ścieżka optymalna, malejące oszczędności, dokładna druga wartość oraz niezmienniczość skali.
+- **Test main:** `tests/test_f28_2go.py`, commit `43f95c3b52ac6423bbc44d46a7290e0bd9ab1bc4`. Test zawiera 252 przypadki wyczerpującej enumeracji, kontrolę zagnieżdżenia i dokładnej drugiej wartości. Status uruchomienia oraz CI raportować wyłącznie po wykonaniu.
+- **Otwarte:** integracja z rzeczywistym monolitem 0.20, niezależna recenzja i pełne CI. **585/1222 bez zmian.** Historyczny wstęp i poprzednie rozdziały bez ingerencji; bez końcowego spisu treści i Tomu II.
