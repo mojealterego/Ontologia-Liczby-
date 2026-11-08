@@ -2798,3 +2798,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** niezależny `/mnt/data/ontologia_gv/verify.py`: `py_compile` PASS i **2325 dokładnych przypadków enumeracji wymiernej PASS**. Nie jest to dowód wszystkich twierdzeń ani przebieg CI.
 - **Podgląd PDF lokalny:** `/mnt/data/ontologia_gv/F28_2GV_PODGLAD.pdf`, 1 strona A4, `pdfinfo` PASS, SHA-256 `08aed933048e16403f78717d1476209b620828c900bf9e1d59dbdac57d899db6`. Skrócony podgląd, nie pełny skład.
 - **Blokady:** brak niezależnej recenzji matematycznej, bezpośredniego uruchomienia testu repozytoryjnego, potwierdzonego CI i integracji z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsza treść bez ingerencji; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-GW: dolna obwiednia profili parametrycznych (2026-11-08)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2GW.md`; utworzenie `99b4483f4b87733fac8e770b1b9a73b4a44a1859`, korekta kontrprzykładu K1 `38812b7840bb7152989f19aff7468fedc0f62b5d`. Trzy definicje, pięć twierdzeń z dowodami, dwa kontrprzykłady i cztery zadania rozwiązane. Dokładna redukcja do dolnej obwiedni, certyfikaty przedziałów, monotoniczność, pochodne jednostronne i algorytm dokładny.
+- **Test na main:** `tests/test_f28_2gw.py`, commit `0fc71f4b15ea097af9f16064b72a4190c90878c7`. Niezależny lokalny odpowiednik: `python -m py_compile` PASS i 900 dokładnych przypadków wymiernych PASS. Test opublikowany na GitHub nie był wykonywany bezpośrednio; nie deklarować jego PASS ani CI.
+- **Podgląd PDF:** `/mnt/data/ontologia_gw/F28_2GW_PODGLAD.pdf`; 1 strona A4, `pdfinfo` PASS; SHA-256 `b10f7de258c5fde445a5b844065b2a22781909db2097e3b9960bcf096d03e279`. Podgląd skrócony, nie pełny skład.
+- **Otwarte:** niezależna recenzja, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i poprzednie rozdziały niezmienione. Bez końcowego spisu treści i Tomu II.
