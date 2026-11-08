@@ -2700,3 +2700,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test repozytoryjny main:** `tests/test_f28_2gh.py`, commit `fc5f27e09a6bb3c9463185bc5522fc9af779c702`. Lokalny odpowiednik `/mnt/data/ontologia_gh/verify.py`: `py_compile` PASS, `unittest` 3/3 PASS (dokładność afiniczna, kwadratowa, oszacowanie krzywizny fazy). **Nie uruchomiono bezpośrednio pobranego pliku testowego z GitHub**; pełne GitHub Actions CI niepotwierdzone.
 - **PDF lokalny:** `/mnt/data/ontologia_gh/F28_2GH_PODGLAD.pdf`, 1 strona A4, `pdfinfo` PASS, SHA-256 `6deaa4a0f513bd3e7a82be3ae1cd3aeb0be63f6cadcd7bb4177102aaeac31e19`. Jest to skrócony podgląd, nie pełny skład manuskryptu.
 - **Otwarte:** niezależna recenzja matematyczna, CI i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**; historyczny wstęp i wcześniejsze rozdziały niezmienione; bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-GI: ostre certyfikaty wariancji antytetycznej (2026-11-08)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2GI.md`, commit `9505d0ce90a038b9c53fb46df7944257c0b0b048`. 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady i 6 zadań rozwiązanych. Poprawa wariancji do M²/(720N⁵), stała optymalna dla funkcji kwadratowej; wzmocnienie wykładnika Hoeffdinga z 32 do 128.
+- **Test main:** `tests/test_f28_2gi.py`, commit `72841098f45fb611df1f98a7c409c15d8055f18d`. Lokalna odtworzona implementacja `/mnt/data/ontologia_gi/test_f28_2gi.py`: `py_compile` PASS, `unittest` 4/4 PASS. Bezpośrednie uruchomienie pobranego testu repozytoryjnego i pełne Actions CI niepotwierdzone.
+- **Otwarte:** niezależna recenzja matematyczna, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
