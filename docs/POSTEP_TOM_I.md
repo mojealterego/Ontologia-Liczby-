@@ -2678,3 +2678,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 
 - **Weryfikacja lokalna 2026-11-08:** niezależny skrypt `/mnt/data/ontologia_ge/verify.py`: `python -m py_compile` PASS, `unittest` 3/3 PASS (200 dokładnych równości wymiernych, 35 nierówności numerycznych i eksperyment Monte Carlo z 20000 realizacji). Nie uruchomiono bajtowo identycznego testu pobranego z repozytorium; pełne CI niepotwierdzone.
 - **PDF lokalny:** `/mnt/data/ontologia_ge/F28_2GE_PODGLAD.pdf`, 1 strona A4, `pdfinfo` PASS, SHA-256 `a2b132f91be79aaca889b7368e7c4f281ac859480f1e8be5f899b39e05243629`. Skrócony podgląd, nie pełna kompilacja manuskryptu.
+
+
+### Tom I — F28.2-GF: koncentracja kwadratury warstwowej (2026-11-08)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2GF.md`, commit `c3d9651acdd9078e5786682c6302fb100180dbf4`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Nierówność Hoeffdinga, wariancja, certyfikaty jednoczesne, błąd przybliżenia fazy i zależność między próbkami.
+- **Test na main:** `tests/test_f28_2gf.py`, commit `fda0bc85998443530505af303794e0e27bd8fdae`. Lokalny niezależny odpowiednik `/mnt/data/ontologia_gf/verify.py`: `py_compile` PASS, `unittest` **5/5 PASS**. Nie uruchomiono bezpośrednio bajtowo identycznego pliku z GitHub; GitHub Actions CI niepotwierdzone.
+- **PDF lokalny:** `/mnt/data/ontologia_gf/F28_2GF_PODGLAD.pdf`, 1 strona A4, `pdfinfo` PASS; SHA-256 `87920fb98ec1f7396cbfbf92895eedce46cb85d17a916027b2f595b1c64a6cf0`. Skrócony podgląd, nie pełny skład matematyczny manuskryptu.
+- **Otwarte:** niezależna recenzja dowodów, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Wstęp historyczny i wcześniejsza treść bez ingerencji; bez końcowego spisu treści i Tomu II.
