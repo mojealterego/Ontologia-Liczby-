@@ -2669,3 +2669,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test repozytoryjny:** `tests/test_f28_2gd.py`, commit `0c15358ea3efc324aff9253422c7b9f437992c0d`. Lokalna niezależna implementacja `/mnt/data/ontologia_gd/verify.py`: `py_compile` PASS; `unittest` 3/3 PASS (100 dokładnych sum wymiernych, 20 oszacowań faz liniowych, 4 tożsamości namiotowe). Bezpośrednie uruchomienie pobranego pliku z GitHub i pełne Actions CI **niepotwierdzone**.
 - **PDF lokalny:** `/mnt/data/ontologia_gd/F28_2GD_PODGLAD.pdf`, 1 strona A4, SHA-256 `c705b18fe8494652bf2b7fb49212d91ca15c38db5f9a821a867ff91d11789b73`; `pdfinfo` PASS. Podgląd skrócony, nie pełna kompilacja manuskryptu.
 - **Otwarte:** niezależna recenzja analityczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały niezmienione. Bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-GE: losowa kwadratura warstwowa profilu fazowego (2026-11-08)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2GE.md`, commit `61e11d1ff2ceeedc8deff60f6d0246d4ac15ba60`. Trzy definicje, pięć twierdzeń z dowodami, trzy kontrprzykłady i sześć zadań z rozwiązaniami. Nieobciążoność dla faz mierzalnych, wariancja ≤(1+L)²/(12N³), zbieżność prawie na pewno, deterministyczny certyfikat błędu i ograniczenia zależnych próbek.
+- **Test main:** `tests/test_f28_2ge.py`, commit `600008b738dcde521b3d4d30212c66cae45dee01`. Status lokalnego uruchomienia i PDF odnotować po wykonaniu; nie utożsamiać z GitHub Actions CI.
+- **Otwarte:** niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i poprzedni manuskrypt bez ingerencji. Bez końcowego spisu treści i Tomu II.
