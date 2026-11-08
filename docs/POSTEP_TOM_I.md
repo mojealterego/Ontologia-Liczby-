@@ -2720,3 +2720,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** niezależny `/mnt/data/ontologia_gk/verify.py`, `py_compile` PASS i 104 dokładne kontrole wymierne PASS; nie zastępuje to uruchomienia testu repozytoryjnego ani pełnego CI.
 - **Podgląd PDF:** `/mnt/data/ontologia_gk/F28_2GK_PODGLAD.pdf`, 1 strona A4, `pdfinfo` PASS, SHA-256 `4b012b1e570c882f3979d13b9bc34287901aa123319e84c644fcfe55a37e290b`. Skrót, nie pełny skład manuskryptu.
 - **Otwarte:** pełne CI, niezależna recenzja dowodów i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały niezmienione; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-GL: całkowitoliczbowa alokacja warstw antytetycznych (2026-11-08)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2GL.md`, commit pierwotny `13ed3961d9e0bd46138ed69541677aa3a616ad56`, korekta kontrprzykładu K1 `b29a38339331b40a0c0477d9f3eb3b3db7a22d5e`. 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady i 6 rozwiązanych zadań. Dowód dokładnej optymalności zachłannej alokacji całkowitoliczbowej minimalizującej certyfikat wariancji.
+- **Test main:** `tests/test_f28_2gl.py`, commit `7017adff031ef7f31190bec6940639a0c7d113f8`. Lokalny niezależny skrypt `/mnt/data/ontologia_gl/verify.py`: `py_compile` PASS; 2040 przypadków wyczerpującej enumeracji wymiernej PASS, przykłady PASS. **Nie jest to uruchomienie repozytoryjnego testu**. Lokalny `git ls-remote` zablokowany przez DNS github.com; pełne Actions CI niepotwierdzone.
+- **Podgląd PDF:** `/mnt/data/ontologia_gl/F28_2GL_PODGLAD.pdf`, 1 strona A4, `pdfinfo` PASS, SHA-256 `fdc0f31bcfc3bc4a48510c0a9589ed0c46da107d4b5c33abc0f71b4a23360d04`. Skrót wyników, nie pełny skład matematyczny manuskryptu.
+- **Otwarte:** niezależna recenzja, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsza treść nietknięte. Bez końcowego spisu treści i Tomu II.
