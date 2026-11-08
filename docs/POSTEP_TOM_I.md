@@ -2734,3 +2734,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2gm.py`, commit `c8fd7da118a9e96ca32779556780f043ffd9ad92`. Lokalny odpowiednik `/mnt/data/ontologia_gm/verify.py`: `py_compile` PASS, `unittest` 3/3 PASS, 1764 dokładne przypadki enumeracji. Bezpośrednie wykonanie bajtowo identycznego testu repozytoryjnego i GitHub Actions CI niepotwierdzone.
 - **PDF:** `/mnt/data/ontologia_gm/F28_2GM_PODGLAD.pdf`, A4, 1 strona, SHA-256 `f84486bbc1a6f376511621b9c15c552c2590e8977f8fc5a65c2e872a4faad2a8`. Skrócony podgląd, nie pełny skład manuskryptu.
 - **Otwarte:** niezależna recenzja, CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-GN: dokładna luka optymalności (2026-11-08)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2GN.md`, commit `e01e80d96a7a3a72dfa21e31bca9764a32ceff74`. 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady, 5 rozwiązanych zadań. Kryterium optymalności i jednoznaczności przez lukę granicznych korzyści, dokładna różnica do drugiego optimum, stabilność przedziałowa i oszacowanie kosztu alternatyw.
+- **Test na main:** `tests/test_f28_2gn.py`, commit `7942625f9f033c477604b0013807f8085ca34e40`. Lokalny odpowiednik `/mnt/data/ontologia_gn/test_f28_2gn.py`: `python -m py_compile` PASS, `unittest` 3/3 PASS, **1665 przypadków dokładnej enumeracji wymiernej**. Nie jest to uruchomienie bajtowo identycznego testu pobranego z repozytorium ani GitHub Actions CI.
+- **Podgląd lokalny:** `/mnt/data/ontologia_gn/F28_2GN_PODGLAD.pdf`, 1 strona A4, `pdfinfo` PASS, SHA-256 `cfb0228487ea81dcd5b1d6e313c2c2f56f80e3f6e01e502fb377e283e12101a4`. Podgląd skrócony, nie pełny skład manuskryptu.
+- **Otwarte:** niezależna recenzja, pełne CI i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i poprzednie rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
