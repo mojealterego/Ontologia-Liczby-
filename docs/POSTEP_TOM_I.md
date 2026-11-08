@@ -2712,3 +2712,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Manuskrypt main:** `manuscript/tom-i/F28_2GJ.md`, commit `9e66a5c5e0527f7eec15a8e437d6e149a7a36647`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Ostry certyfikat Var(T_P)≤M²Σh_i⁶/720, osiągalny dla funkcji kwadratowych; równa siatka minimalizuje najgorszy certyfikat wśród N warstw.
 - **Test main:** `tests/test_f28_2gj.py`, commit `83873e0432e39becf88b35e3e0a08745657ac567`. Pięć klas kontroli na dokładnych ułamkach: optymalność, wariancja, nierówna siatka, zależność próbek i dokładność afiniczna. Status bezpośredniego uruchomienia testu repozytoryjnego oraz CI należy raportować wyłącznie po wykonaniu.
 - **Otwarte:** niezależna recenzja matematyczna, GitHub Actions CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Wstęp historyczny i poprzednie rozdziały nietknięte. Bez końcowego spisu treści i bez Tomu II.
+
+
+### Tom I — F28.2-GK: regionalna alokacja warstw antytetycznych (2026-11-08)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2GK.md`, commit `c43985da36e7419804ff26957265339085243aab`. 3 definicje, 5 twierdzeń z dowodami, 3 kontrprzykłady i 6 zadań rozwiązanych. Lokalny certyfikat wariancji, ostrość dla funkcji kwadratowych, alokacja regionalna n_j proporcjonalna do M_j^(1/3)ℓ_j, kontrola zaokrągleń i zależnych próbek.
+- **Test main:** `tests/test_f28_2gk.py`, commit `e02f29c39fcc9f86285368ff46d87edc03ef4752`. Bezpośrednie wykonanie pliku repozytoryjnego niepotwierdzone: środowisko lokalne nie rozwiązuje hosta raw.githubusercontent.com.
+- **Weryfikacja lokalna:** niezależny `/mnt/data/ontologia_gk/verify.py`, `py_compile` PASS i 104 dokładne kontrole wymierne PASS; nie zastępuje to uruchomienia testu repozytoryjnego ani pełnego CI.
+- **Podgląd PDF:** `/mnt/data/ontologia_gk/F28_2GK_PODGLAD.pdf`, 1 strona A4, `pdfinfo` PASS, SHA-256 `4b012b1e570c882f3979d13b9bc34287901aa123319e84c644fcfe55a37e290b`. Skrót, nie pełny skład manuskryptu.
+- **Otwarte:** pełne CI, niezależna recenzja dowodów i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały niezmienione; bez końcowego spisu treści i Tomu II.
