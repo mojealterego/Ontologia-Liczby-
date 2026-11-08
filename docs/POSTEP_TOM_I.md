@@ -2790,3 +2790,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** niezależny skrypt `/tmp/verify_gu.py`: `py_compile` PASS, 2772 dokładne kontrole wymierne PASS. Nie utożsamiać z uruchomieniem testu repozytoryjnego.
 - **PDF:** `/mnt/data/ontologia_gu/F28_2GU_PODGLAD.pdf`, jednostronicowy A4, `pdfinfo` PASS, SHA-256 `adcc3c60d19c8ded1a0b933b67a1bb01d75800b834f9fcd578404369feb6c53b`. Skrócony podgląd, nie pełny skład.
 - **Otwarte:** pełne CI, niezależna recenzja matematyczna, integracja z monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i poprzednie rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-GV: dokładne progi sąsiednie alokacji (2026-11-08)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2GV.md`, commit `f1b6bf00af4de0a34748b97d235a40784e0ef369`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Redukcja parametrycznej optymalizacji do M+1 profili, ścisłe uporządkowanie progów i dokładna charakterystyka optimum.
+- **Test main:** `tests/test_f28_2gv.py`, commit `d2580617066bcb73b4d3df14f00efdd96805b7b0`. Bezpośrednie pobranie przez curl nie powiodło się: DNS `raw.githubusercontent.com`; testu repozytoryjnego nie wykonano lokalnie.
+- **Weryfikacja lokalna:** niezależny `/mnt/data/ontologia_gv/verify.py`: `py_compile` PASS i **2325 dokładnych przypadków enumeracji wymiernej PASS**. Nie jest to dowód wszystkich twierdzeń ani przebieg CI.
+- **Podgląd PDF lokalny:** `/mnt/data/ontologia_gv/F28_2GV_PODGLAD.pdf`, 1 strona A4, `pdfinfo` PASS, SHA-256 `08aed933048e16403f78717d1476209b620828c900bf9e1d59dbdac57d899db6`. Skrócony podgląd, nie pełny skład.
+- **Blokady:** brak niezależnej recenzji matematycznej, bezpośredniego uruchomienia testu repozytoryjnego, potwierdzonego CI i integracji z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsza treść bez ingerencji; bez końcowego spisu treści i Tomu II.
