@@ -2649,3 +2649,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2ga.py`, commit `53384a09d9fde2ec1a51d4d99fe4ba108fe5236e`. Lokalna niezależna weryfikacja: **99 kontroli PASS** (69 teleskopowych dokładnych, 25 nierówności reszty dyskretnej, 5 nierówności reszty całkowej). Test repozytoryjny nie został uruchomiony bezpośrednio; GitHub Actions CI niepotwierdzone.
 - **Podgląd PDF:** lokalny `/mnt/data/ontologia_ga/F28_2GA_PODGLAD.pdf`, 1 strona A4, SHA-256 `81818f0f643051308f38700b37319f51ca14d2b5b42492f1e9896eda30360c61`; `pdfinfo` i `pdftotext` PASS. Skrót, nie pełny skład manuskryptu.
 - **Otwarte:** niezależna recenzja, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-GB: stabilność i kwadratura fazowa (2026-11-08)
+- Manuskrypt `manuscript/tom-i/F28_2GB.md`, commit `a673a294bc5cae4c29938b5125348ca1a181ec6a`: 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady i 6 rozwiązanych zadań. Stabilność całki fazowej, kwadratura, pochodne Frécheta i certyfikat reszty.
+- Test `tests/test_f28_2gb.py`, commit `5790915a5e85edb2c2c7c17eeea953bae8535da0`. Testy repozytoryjne i CI wymagają niezależnego uruchomienia; nie przypisywać im PASS bez wykonania.
+- Bez integracji z monolitem 0.20; **585/1222 bez zmian**. Historyczny wstęp i wcześniejszy manuskrypt nietknięte. Bez końcowego spisu treści i Tomu II.
