@@ -2655,3 +2655,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Manuskrypt `manuscript/tom-i/F28_2GB.md`, commit `a673a294bc5cae4c29938b5125348ca1a181ec6a`: 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady i 6 rozwiązanych zadań. Stabilność całki fazowej, kwadratura, pochodne Frécheta i certyfikat reszty.
 - Test `tests/test_f28_2gb.py`, commit `5790915a5e85edb2c2c7c17eeea953bae8535da0`. Testy repozytoryjne i CI wymagają niezależnego uruchomienia; nie przypisywać im PASS bez wykonania.
 - Bez integracji z monolitem 0.20; **585/1222 bez zmian**. Historyczny wstęp i wcześniejszy manuskrypt nietknięte. Bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-GC: ostre certyfikaty kwadratury i aliasing (2026-11-08)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2GC.md`, commit `ed4ccd101043322a88f89270fc2699c89ceb4319`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady, sześć zadań rozwiązanych. Wyniki: dokładny błąd dla fazy stałej, poprawiony certyfikat Lipschitza, brak identyfikowalności całki z skończonych próbek i aliasing bez kontroli regularności.
+- **Test main:** `tests/test_f28_2gc.py`, commit `3d634e82a078e40da371b79f203c7fa8ad4532c3`. Lokalnie wykonano równoważny zestaw `/mnt/data/ontologia_gc/test_gc.py`: 4/4 testy PASS (dokładne ułamki, certyfikat, faza liniowa, aliasing). Nie jest to bezpośrednie uruchomienie bajtowo pobranego pliku z GitHub ani pełne CI.
+- **PDF lokalny:** `/mnt/data/ontologia_gc/F28_2GC_PODGLAD.pdf`, 1 strona A4, SHA-256 `71711747a203cae3d08df9f936f4ac6f345a66b78c8ec202a555905c9230a71c`. Skrócony podgląd ReportLab, nie pełna kompilacja źródła.
+- **Otwarte:** pełne GitHub Actions CI, niezależna recenzja matematyczna, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i poprzednie rozdziały niezmienione. Bez finalnego spisu treści i Tomu II.
