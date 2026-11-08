@@ -2812,3 +2812,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2gx.py`, commit `ed56bbf9c3207f370ae8f11a8957557e11bd36d8`. Identyczny kod testu wykonany lokalnie: `PASS 1872` dokładnych przypadków wymiernych; `python -m py_compile` PASS. Nie jest to przebieg GitHub Actions CI.
 - **Podgląd PDF:** `/mnt/data/ontologia_gx/F28_2GX_PODGLAD.pdf`, 1 strona A4, `pdfinfo` PASS, SHA-256 `2dc99b1d0263278e89e46eb46b2305002a40ff29b13b0643d9f44a2f259faff2`. Skrócony podgląd, nie pełny skład.
 - **Otwarte:** niezależna recenzja, CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsza treść nietknięte; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-GY: certyfikat wymianowy i oszacowanie luki (2026-11-09)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2GY.md`, commit `af569f8889af5e97aa6ba6d809808e7e1dc753ea`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Dokładny certyfikat globalnej optymalności przez wymiany i dwustronne oszacowanie luki `epsilon(n) <= G(n) <= (N-r)epsilon(n)`.
+- **Test na main:** `tests/test_f28_2gy.py`, commit `8cf958f45a0fd5d4cc230e6d44ec0ba458c70cf8`. Lokalny skrypt równoważny logicznie: `py_compile` PASS; **1080 dokładnych przypadków wymiernych PASS**. Testu pobranego z GitHub nie wykonano osobno i nie potwierdzono CI.
+- **Podgląd lokalny:** `/mnt/data/ontologia_gy/F28_2GY_PODGLAD.pdf`, Pandoc/XeLaTeX, 2 strony A4; `pdfinfo` PASS; SHA-256 `5ea3fee8d51ba37724a5237e82e33c33c6718692edf6d11093e9af116251c5e1`. Podgląd przygotowano z lokalnej wersji o tej samej treści matematycznej, ale innym formatowaniu niż opublikowany manuskrypt; nie jest to skład pliku pobranego z GitHub.
+- **Blokady:** brak binarnego monolitu 0.20, pełnego CI i niezależnej recenzji. **585/1222 bez zmian**, bez integracji suplementu. Historyczny wstęp i wcześniejsze rozdziały bez ingerencji. Bez finalnego spisu treści i Tomu II.
