@@ -2769,3 +2769,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Manuskrypt main:** `manuscript/tom-i/F28_2GR.md`, commit `fcdfb1778c7d5b051c7c725df2d552b2945e543e`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Formuła pochodnej kierunkowej jako minimum po aktywnych alokacjach; kryterium różniczkowalności, zbiór nadgradientów, regularność i promień stabilności.
 - **Test main:** `tests/test_f28_2gr.py`, commit `70adc9e2d8406967654c4c0c2cedff41d874e165`. Wymaga bezpośredniego uruchomienia i potwierdzenia; nie deklarować PASS bez wykonania.
 - **Otwarte:** niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-GS: monotoniczność porównawcza alokacji (2026-11-08)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2GS.md`, commit `40cacf48897f2da9b653c1cdc638b7489d65f93c`. 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady i 6 rozwiązanych zadań. Monotoniczność własnego przydziału przy zwiększeniu jednej wagi, optymalność zachłanna, stabilność bez remisów.
+- **Test main:** `tests/test_f28_2gs.py`, commit `46f061ad1b3c0089ee4ef53fcb59dbd6e77ea2c0`. Niezależna lokalna enumeracja: 216 kontroli globalnego optimum i 594 kontroli monotoniczności PASS; bezpośredni przebieg pobranego testu repozytoryjnego i GitHub Actions CI niepotwierdzone.
+- **Status:** brak integracji z rzeczywistym monolitem 0.20; **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały bez ingerencji. Bez końcowego spisu treści i bez Tomu II.
