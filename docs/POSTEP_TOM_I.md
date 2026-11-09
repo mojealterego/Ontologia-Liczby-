@@ -2854,3 +2854,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** niezależny odpowiednik `/mnt/data/ontologia_hd/verify.py`: `py_compile` PASS, 3240 dokładnych instancji wymiernych PASS. Nie jest to przebieg GitHub Actions.
 - **PDF lokalny:** `/mnt/data/ontologia_hd/F28_2HD_PODGLAD.pdf`; Pandoc/XeLaTeX, 1 strona A4, `pdfinfo` PASS, SHA-256 `836095af6aeefd923f1b9aefdb5d0ca81d936797380c917424f6e7901245aec6`. Skrócony podgląd, nie skład pobranego pliku repozytoryjnego ani monolitu.
 - **Blokady:** DNS raw.githubusercontent.com, niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i poprzednie rozdziały bez ingerencji. Bez końcowego spisu treści i Tomu II.
+
+### Tom I — F28.2-HE: konstruktywny certyfikat dualny (2026-11-09)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2HE.md`, commit `b252ade57f34545aeb7843b5e7f877b10ad1537c`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Rekonstrukcja perturbacji ekstremalnej, dokładna dualność i algorytm O(r log r).
+- **Test main:** `tests/test_f28_2he.py`, utworzenie `23c32735296275b437ae5bbc8428968877d35aba`, korekta licznika `f1d318188dfb9d8cec13a03c8987097988c5d763`.
+- **Weryfikacja lokalna:** równoważny skrypt `/mnt/data/ontologia_he/verify.py`, `py_compile` PASS i **1872 dokładne przypadki wymierne PASS**; bezpośredni test repozytoryjny nieuruchomiony z powodu DNS GitHub.
+- **PDF:** `/mnt/data/ontologia_he/F28_2HE_PODGLAD.pdf`, Pandoc/XeLaTeX, 1 strona A4, `pdfinfo` PASS, SHA-256 `c9e77622c73e47aaba228f3bcaa3317de65bd8220438ae03eba0cd3125ea73e6`. Skrócony podgląd, nie pełna kompilacja manuskryptu.
+- **Otwarte:** niezależna recenzja, pełne CI i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsza treść nietknięte; bez finalnego spisu treści i Tomu II.
