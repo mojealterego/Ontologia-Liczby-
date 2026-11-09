@@ -2889,3 +2889,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** niezależny `/mnt/data/ontologia_hi/verify.py`; `py_compile` PASS i **6561 dokładnych instancji wymiernych PASS**. Nie jest to GitHub Actions CI ani niezależna recenzja wszystkich dowodów.
 - **Podgląd PDF lokalny:** `/mnt/data/ontologia_hi/F28_2HI_PODGLAD.pdf`, ReportLab, 1 strona A4, `pdfinfo` PASS, SHA-256 `3f7daa4fe6ed69dd3f2a8960dd33fdde281c10723334380957ffd496054bc6f3`. Skrócony podgląd, nie pełny skład manuskryptu ani monolitu.
 - **Blokady:** brak niezależnej recenzji, pełnego CI, bezpośredniego uruchomienia testu z repo i integracji z monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-HJ: geometria kosztów modulo stałe (2026-11-09)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2HJ.md`, commit `5e069b8eee468ce1e93c87a11b4a409d319a4238`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Funkcja wartości znormalizowana, norma ilorazowa, dokładna stała Lipschitza i skończony certyfikat wierzchołkowy.
+- **Test main:** `tests/test_f28_2hj.py`, commit `b9c19ce8edb610499655a7ddf02f4543a3ea2e37`. Lokalna implementacja równoważna: `py_compile` PASS i 3969 dokładnych instancji wymiernych PASS; nie jest to bezpośredni przebieg opublikowanego pliku ani GitHub Actions CI.
+- **PDF lokalny:** `/mnt/data/ontologia_hj/F28_2HJ_PODGLAD.pdf`, 1 strona A4, `pdfinfo` PASS; SHA-256 `efda235db0ca512f70de7af345507907525f1be10123ce2dabc48a729bdfee49`. Skrócony podgląd, nie pełna kompilacja manuskryptu ani monolitu.
+- **Otwarte:** niezależna recenzja matematyczna, uruchomienie testu pobranego z repozytorium, pełne CI i integracja z monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały bez ingerencji; bez finalnego spisu treści i Tomu II.
