@@ -2916,3 +2916,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2hm.py`, commit `a4bc02330876b2d3d650b67335bff22cdba32c97`. Identyczna treść skryptu uruchomiona lokalnie: `python -m py_compile` PASS, `unittest` 4/4 PASS, w tym 121 kwadratów i 256 trójkątów z arytmetyką wymierną. Nie wykonano bezpośrednio pliku ponownie pobranego z GitHub; GitHub Actions CI niepotwierdzone.
 - **Podgląd PDF:** lokalny `/mnt/data/ontologia_hm/F28_2HM_PODGLAD.pdf`, ReportLab, 1 strona A4, `pdfinfo` PASS; SHA-256 `770278afe70323f0c53f388daaf18f116b307ca8371e3b165560b61a78383b9c`. Skrót tez i dowodu, nie pełny skład manuskryptu.
 - **Otwarte:** niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-HN: selektywna odporność optimum (2026-11-09)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2HN.md`, commit `2e78ee9e1dc9d09fdca8a28d3ced70811a6bce95`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady/przypadki graniczne, sześć zadań rozwiązanych. Dokładny promień odporności na perturbacje kosztów ograniczone do wybranych współrzędnych.
+- **Test main:** `tests/test_f28_2hn.py`, commit `2a6bfa6e094f94c46f32bff199f107ba36fb6f3a`. Lokalna implementacja o tej samej logice: unittest 4/4 PASS; 363 dokładne porównania kwadratu, 242 porównania odcinka, test niewidzialnej krawędzi i perturbacji granicznej. Opublikowanego pliku nie uruchomiono bezpośrednio; CI niepotwierdzone.
+- **Podgląd PDF lokalny:** `/mnt/data/ontologia_hn/F28_2HN_PODGLAD.pdf`, ReportLab, 2 strony A4, `pdfinfo` PASS; SHA-256 `aa2332358863287f303c30402ed89f525be30f04b65c74e0374edcdc81d78f3c`. Skład lokalnej wersji, nie identycznego pliku repozytoryjnego ani monolitu.
+- **Otwarte:** niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
