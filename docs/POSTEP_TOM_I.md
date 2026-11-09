@@ -2819,3 +2819,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test na main:** `tests/test_f28_2gy.py`, commit `8cf958f45a0fd5d4cc230e6d44ec0ba458c70cf8`. Lokalny skrypt równoważny logicznie: `py_compile` PASS; **1080 dokładnych przypadków wymiernych PASS**. Testu pobranego z GitHub nie wykonano osobno i nie potwierdzono CI.
 - **Podgląd lokalny:** `/mnt/data/ontologia_gy/F28_2GY_PODGLAD.pdf`, Pandoc/XeLaTeX, 2 strony A4; `pdfinfo` PASS; SHA-256 `5ea3fee8d51ba37724a5237e82e33c33c6718692edf6d11093e9af116251c5e1`. Podgląd przygotowano z lokalnej wersji o tej samej treści matematycznej, ale innym formatowaniu niż opublikowany manuskrypt; nie jest to skład pliku pobranego z GitHub.
 - **Blokady:** brak binarnego monolitu 0.20, pełnego CI i niezależnej recenzji. **585/1222 bez zmian**, bez integracji suplementu. Historyczny wstęp i wcześniejsze rozdziały bez ingerencji. Bez finalnego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-GZ: certyfikat a posteriori korzyści marginalnych (2026-11-09)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2GZ.md`, commit `6155a886a3f6138710b52b2471a5994d2e7af521`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Globalny certyfikat optymalności, oszacowanie luki `0 ≤ G(n) ≤ (N−r)ε(n)`, jednoznaczność i skończona naprawa wymianowa.
+- **Test main:** `tests/test_f28_2gz.py`, commit `fca70c3529586e7df269311e4b66d329a5a271fd`. Lokalny odpowiednik: `python -m py_compile` PASS, **1080 przypadków dokładnej enumeracji wymiernej PASS**. Nie potwierdzono osobnego uruchomienia pobranego z GitHub testu ani GitHub Actions CI.
+- **PDF lokalny:** `/mnt/data/ontologia_gz/F28_2GZ_PODGLAD.pdf`, Pandoc/XeLaTeX, 2 strony A4, `pdfinfo` PASS, SHA-256 `d4e6a02f535b6822d72c7b5e5e57ffd65d1cacbecb84c35416e8ea82fbfd54d2`. Lokalny podgląd z rozbudowanej wersji redakcyjnej, nie skład pliku pobranego z GitHub.
+- **Otwarte:** niezależna recenzja matematyczna, CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
