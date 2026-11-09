@@ -2943,3 +2943,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2hq.py`, commit `53ee6ea5d17e04e078a64a28b919641146b8f956`. Lokalny skrypt o tej samej logice: `py_compile` PASS, `unittest` 3/3 PASS, 2025 dokładnych instancji wymiernych. Pierwszy przebieg lokalny ujawnił błąd testu (dzielenie przez zero przy konstruowaniu oczekiwanego wyniku); naprawiono przed publikacją. Bezpośredni test pobrany z GitHub i CI niepotwierdzone.
 - **Podgląd PDF lokalny:** `/mnt/data/ontologia_hq/F28_2HQ_PODGLAD.pdf`, ReportLab, 1 strona A4, `pdfinfo` PASS, SHA-256 `595f0884e106dec2b6ad81d34097668e099a7674efc5c7c0ac2a1443315e7aa4`. Skrót, nie pełna kompilacja opublikowanego manuskryptu.
 - **Otwarte:** niezależna recenzja dowodów, pełne CI i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez finalnego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-HR: ogólne zbiory niepewności i funkcje podparcia (2026-11-09)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2HR.md`, commit `95a2b81bcb5c1458fb4324294a36165c4fb59d75`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Certyfikat krawędziowy dla zwartego wypukłego symetrycznego K; monotoniczność, skalowanie, suma Minkowskiego, aproksymacja z zachowaniem niewidoczności.
+- **Test main:** `tests/test_f28_2hr.py`, commit `4b8a7e9f0a0e08d07d701304e20fd682648dcdb5`. Lokalny skrypt o tej samej logice: `py_compile` PASS, `unittest` 4/4 PASS, 4096 dokładnych przypadków wymiernych plus testy graniczne. Bezpośrednie uruchomienie pobranego pliku repozytoryjnego i GitHub Actions CI niepotwierdzone.
+- **Podgląd PDF lokalny:** `/mnt/data/ontologia_hr/F28_2HR_PODGLAD.pdf`, ReportLab, 1 strona A4, `pdfinfo` PASS, SHA-256 `977add981be57b5b3be988779c3889e30f1c0833aea7fd775fefaa1224a578d6`. Podgląd skrócony, nie pełny skład pliku z repozytorium.
+- **Otwarte:** niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i poprzednie rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
