@@ -2963,3 +2963,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2ht.py`, commit `fcb88fb28f775f1d02df9e37c0399b531acdfe2e`. Lokalnie wykonano skrypt o identycznej treści: `py_compile` PASS, `unittest` 4/4 PASS, siatka 5929 przypadków wymiernych plus przypadki brzegowe. Bezpośredni przebieg pliku pobranego ponownie z GitHub i pełne CI niepotwierdzone.
 - **PDF lokalny:** `/mnt/data/ontologia_ht/F28_2HT_PODGLAD.pdf`, ReportLab, 1 strona A4, `pdfinfo` PASS, SHA-256 `9dd9238ca04ebd3cb0bb506eaac2ce7c04e3da3e2e9cce47242ce1f836f449a6`. Skrócony podgląd, nie pełny skład manuskryptu.
 - **Otwarte:** niezależna recenzja, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały bez ingerencji; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-HU: niewypukłe zbiory scenariuszy i wypuklenie (2026-11-10)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2HU.md`, commit `b2d97bc0a85757b42d1c1f0ea699f149acb313d5`. Cztery twierdzenia z dowodami, trzy definicje, cztery kontrprzykłady/przypadki graniczne i sześć zadań rozwiązanych. Niezmienniczość promienia przy wypukleniu, dokładny certyfikat krawędziowy, świadek graniczny dla zwartego K, reguły sumy scenariuszy i skalowania.
+- **Test main:** `tests/test_f28_2hu.py`, commit `d440fdd51dfd4f99754d98832b5717c9bd355fe7`. Test opublikowano; bezpośrednie uruchomienie pliku z repo i CI pozostają do potwierdzenia.
+- **PDF lokalny:** `/mnt/data/ontologia_hu/F28_2HU_PODGLAD.pdf`, ReportLab, 1 strona A4, pdfinfo PASS, SHA-256 `6ffbc7b59b39a0439d2f0ab68e26573a6a70717c3a73007c68d14101a8ce65fe`. Skrócony podgląd, nie pełny skład manuskryptu.
+- **Otwarte:** niezależna recenzja, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały bez ingerencji; bez finalnego spisu treści i Tomu II.
