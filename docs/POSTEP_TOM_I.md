@@ -2868,3 +2868,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2hf.py`, commit `ee2e283c40e740ae211f10306f6231aeaca4688d`. Lokalny odpowiednik: `py_compile` PASS; `unittest` 2/2 PASS, 594 dokładne porównania wymierne. Opublikowany test repozytoryjny nie został uruchomiony bezpośrednio.
 - **PDF lokalny:** `/mnt/data/ontologia_hf/F28_2HF_PODGLAD.pdf`, Pandoc/XeLaTeX, 2 strony A4; `pdfinfo` PASS; SHA-256 `73aff0016bb1aaf824d51a7f24da185462eaca8d369ffce7bfa54674a5582c7f`. PDF jest lokalnym składem wersji redakcyjnej, nie kompilacją pliku pobranego z GitHub.
 - **Otwarte:** pełne CI, niezależna recenzja matematyczna, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały nietknięte; bez finalnego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-HG: geometria funkcji wartości przy zmiennej sumie perturbacji (2026-11-09)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2HG.md`, commit `cdad12b81a4d2414922e339da063c08e383e633c`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Dokładna konstrukcja zachłanna, wypukłość funkcji wartości, podgradienty i jednoznaczność optimum.
+- **Test main:** `tests/test_f28_2hg.py`, commit `1f3ba4bbded84b0902b8bdd0c197e2f0ee2b83d7`. Test enumeracyjny dla wymiernych danych; przebieg CI i bezpośrednie uruchomienie testu repozytoryjnego pozostają do potwierdzenia.
+- **Otwarte:** pełne CI, niezależna recenzja matematyczna i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i poprzednie rozdziały nietknięte; bez finalnego spisu treści i Tomu II.
