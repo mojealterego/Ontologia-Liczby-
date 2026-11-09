@@ -2874,3 +2874,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Manuskrypt main:** `manuscript/tom-i/F28_2HG.md`, commit `cdad12b81a4d2414922e339da063c08e383e633c`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Dokładna konstrukcja zachłanna, wypukłość funkcji wartości, podgradienty i jednoznaczność optimum.
 - **Test main:** `tests/test_f28_2hg.py`, commit `1f3ba4bbded84b0902b8bdd0c197e2f0ee2b83d7`. Test enumeracyjny dla wymiernych danych; przebieg CI i bezpośrednie uruchomienie testu repozytoryjnego pozostają do potwierdzenia.
 - **Otwarte:** pełne CI, niezależna recenzja matematyczna i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i poprzednie rozdziały nietknięte; bez finalnego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-HH: wrażliwość funkcji wartości na zmianę kosztów (2026-11-09)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2HH.md`, commit `d8b3798a31b269bffc6bfeac5c11e77567dcdfa6`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań; oszacowania Lipschitza i żalu, wklęsłość w kosztach, pochodna kierunkowa oraz przesunięcie wspólne.
+- **Test main:** `tests/test_f28_2hh.py`, commit `aee723f541a6979c494dc63a4dc092cc71e55a0a`. Lokalny odpowiednik testu: `py_compile` PASS, 5625 dokładnych instancji wymiernych PASS. Nie uruchomiono bezpośrednio pliku pobranego z GitHub ani CI.
+- **Podgląd PDF lokalny:** `/mnt/data/ontologia_hh/F28_2HH_PODGLAD.pdf`, Pandoc/XeLaTeX, 2 strony A4, `pdfinfo` PASS, SHA-256 `10d619c62ed6e5a32e00751d91cfcd4bb21482f9305ac7057af3b776af413f33`. Skład lokalnej redakcji o tej samej tematyce, ale nie identycznego opublikowanego pliku.
+- **Otwarte:** niezależna recenzja matematyczna, bezpośredni test repozytoryjny, pełne CI, integracja z monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i poprzednie rozdziały bez ingerencji; bez końcowego spisu treści i Tomu II.
