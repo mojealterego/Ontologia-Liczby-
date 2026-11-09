@@ -2956,3 +2956,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Manuskrypt main:** `manuscript/tom-i/F28_2HS.md`, commit `8453628fd612de23372b0178514dec83209a96de`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Korekta orientacji funkcji podparcia: dla perturbacji c+tK właściwy mianownik to h_K(x−v), nie h_K(v−x).
 - **Test main:** `tests/test_f28_2hs.py`, commit `a21160ce633977784d340c32e91b112c2943ffb1`. Testy arytmetyki wymiernej, asymetrii, skalowania i granicy. Uruchomienie opublikowanego pliku i pełne CI wymagają osobnego potwierdzenia.
 - **Otwarte:** niezależna recenzja matematyczna, pełna kompilacja manuskryptu z repo, integracja z monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały bez ingerencji. Bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-HT: wielościenne perturbacje i skończone certyfikaty (2026-11-09)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2HT.md`, commit `855012511c3a7c38bef4f14ecfdc9062958e6508`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Certyfikat krawędziowo-wierzchołkowy, test budżetu domkniętego, świadek utraty jednoznaczności, monotoniczność i skalowanie.
+- **Test main:** `tests/test_f28_2ht.py`, commit `fcb88fb28f775f1d02df9e37c0399b531acdfe2e`. Lokalnie wykonano skrypt o identycznej treści: `py_compile` PASS, `unittest` 4/4 PASS, siatka 5929 przypadków wymiernych plus przypadki brzegowe. Bezpośredni przebieg pliku pobranego ponownie z GitHub i pełne CI niepotwierdzone.
+- **PDF lokalny:** `/mnt/data/ontologia_ht/F28_2HT_PODGLAD.pdf`, ReportLab, 1 strona A4, `pdfinfo` PASS, SHA-256 `9dd9238ca04ebd3cb0bb506eaac2ce7c04e3da3e2e9cce47242ce1f836f449a6`. Skrócony podgląd, nie pełny skład manuskryptu.
+- **Otwarte:** niezależna recenzja, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały bez ingerencji; bez końcowego spisu treści i Tomu II.
