@@ -2846,3 +2846,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2hc.py`, commit `fccafec4e833e92b863fe9e8f4a8e10e335428aa`. Lokalny odpowiednik przeszedł `py_compile` i 4050 dokładnych porównań wymiernych. Nie potwierdzono osobnego wykonania pliku pobranego z repozytorium ani CI.
 - **Podgląd PDF lokalny:** `/mnt/data/ontologia_hc/F28_2HC_PODGLAD.pdf`, Pandoc/XeLaTeX, 2 strony A4; `pdfinfo` PASS. Podgląd lokalnego manuskryptu, nie pełna kompilacja monolitu ani skład pobranej wersji repozytoryjnej.
 - **Otwarte:** niezależna recenzja matematyczna, pełne CI, integracja z monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-HD: dualny certyfikat konserwatywnej odporności (2026-11-09)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2HD.md`; utworzenie `eb02bba94e7d9812f99ce87227ce382784b90e7f`, korekta kontrprzykładu K1 `ddcd1ee35ca1a02a6b114c51e91e6bea24153fc7`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady/przypadki graniczne, sześć zadań rozwiązanych. Silna dualność liniowa, dokładny certyfikat przez co najwyżej r punktów załamania.
+- **Test na main:** `tests/test_f28_2hd.py`, commit `74e6271f22419177f90917213aeed477ecf0556c`. Test repozytoryjny nie został bezpośrednio wykonany.
+- **Weryfikacja lokalna:** niezależny odpowiednik `/mnt/data/ontologia_hd/verify.py`: `py_compile` PASS, 3240 dokładnych instancji wymiernych PASS. Nie jest to przebieg GitHub Actions.
+- **PDF lokalny:** `/mnt/data/ontologia_hd/F28_2HD_PODGLAD.pdf`; Pandoc/XeLaTeX, 1 strona A4, `pdfinfo` PASS, SHA-256 `836095af6aeefd923f1b9aefdb5d0ca81d936797380c917424f6e7901245aec6`. Skrócony podgląd, nie skład pobranego pliku repozytoryjnego ani monolitu.
+- **Blokady:** DNS raw.githubusercontent.com, niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i poprzednie rozdziały bez ingerencji. Bez końcowego spisu treści i Tomu II.
