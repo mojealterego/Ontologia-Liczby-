@@ -27,7 +27,7 @@ def verify():
             checks+=1
     assert margin(((F(0),),(F(1),)),(F(0),))==0
     assert margin(((F(0),),(F(1),)),(F(3),))==3
-    assert margin(((F(0),F(1)),(F(1),F(0))),(F(1),F(3)))==2
+    assert margin(((F(0),F(1)),(F(1),F(0))),(F(3),F(1)))==1
     return checks
 
 if __name__=="__main__":
