@@ -2881,3 +2881,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2hh.py`, commit `aee723f541a6979c494dc63a4dc092cc71e55a0a`. Lokalny odpowiednik testu: `py_compile` PASS, 5625 dokładnych instancji wymiernych PASS. Nie uruchomiono bezpośrednio pliku pobranego z GitHub ani CI.
 - **Podgląd PDF lokalny:** `/mnt/data/ontologia_hh/F28_2HH_PODGLAD.pdf`, Pandoc/XeLaTeX, 2 strony A4, `pdfinfo` PASS, SHA-256 `10d619c62ed6e5a32e00751d91cfcd4bb21482f9305ac7057af3b776af413f33`. Skład lokalnej redakcji o tej samej tematyce, ale nie identycznego opublikowanego pliku.
 - **Otwarte:** niezależna recenzja matematyczna, bezpośredni test repozytoryjny, pełne CI, integracja z monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i poprzednie rozdziały bez ingerencji; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-HI: dokładny moduł ciągłości i supergradienty kosztów (2026-11-09)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2HI.md`, commit `13f9aa3761365e16f4008f5be71e84474452fe53`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Dokładna globalna stała Lipschitza, superróżniczka, pochodna kierunkowa, przesunięcie wspólne i promień lokalnej afiniczności.
+- **Test na main:** `tests/test_f28_2hi.py`, commit `b245bb02cb599d46d9b2b17f670506ddea1bee8c`. Bezpośrednie wykonanie pliku repozytoryjnego niepotwierdzone (DNS raw.githubusercontent.com).
+- **Weryfikacja lokalna:** niezależny `/mnt/data/ontologia_hi/verify.py`; `py_compile` PASS i **6561 dokładnych instancji wymiernych PASS**. Nie jest to GitHub Actions CI ani niezależna recenzja wszystkich dowodów.
+- **Podgląd PDF lokalny:** `/mnt/data/ontologia_hi/F28_2HI_PODGLAD.pdf`, ReportLab, 1 strona A4, `pdfinfo` PASS, SHA-256 `3f7daa4fe6ed69dd3f2a8960dd33fdde281c10723334380957ffd496054bc6f3`. Skrócony podgląd, nie pełny skład manuskryptu ani monolitu.
+- **Blokady:** brak niezależnej recenzji, pełnego CI, bezpośredniego uruchomienia testu z repo i integracji z monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
