@@ -2839,3 +2839,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - Manuskrypt `manuscript/tom-i/F28_2HB.md`; commit 75c3c19c2d5d9be704da5aaa05690290fac08a24. Definicje dopuszczalnych perturbacji, pięć twierdzeń z dowodami, trzy przypadki graniczne/kontrprzykłady, sześć rozwiązanych zadań.
 - Test `tests/test_f28_2hb.py`; commit 92727669beada4bad9433055aad76762e5cc7b16. Lokalny odpowiednik: `py_compile` PASS, 1950 dokładnych porównań wymiernych PASS. Testu repozytoryjnego i CI nie wykonano bezpośrednio.
 - Integracja z monolitem 0.20 niewykonana; licznik 585/1222 bez zmian. Historyczny wstęp i wcześniejsze rozdziały bez zmian. Brak finalnego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-HC: stabilność przy zachowaniu sumy wag (2026-11-09)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2HC.md`, commit `edaeafc90686c4a2a5a93ac5de4891add9081d2a`. 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady/przypadki graniczne, 6 zadań rozwiązanych. Model perturbacji o zerowej sumie, ścisła dodatniość, dokładny algorytm wierzchołkowy, próg odporności.
+- **Test main:** `tests/test_f28_2hc.py`, commit `fccafec4e833e92b863fe9e8f4a8e10e335428aa`. Lokalny odpowiednik przeszedł `py_compile` i 4050 dokładnych porównań wymiernych. Nie potwierdzono osobnego wykonania pliku pobranego z repozytorium ani CI.
+- **Podgląd PDF lokalny:** `/mnt/data/ontologia_hc/F28_2HC_PODGLAD.pdf`, Pandoc/XeLaTeX, 2 strony A4; `pdfinfo` PASS. Podgląd lokalnego manuskryptu, nie pełna kompilacja monolitu ani skład pobranej wersji repozytoryjnej.
+- **Otwarte:** niezależna recenzja matematyczna, pełne CI, integracja z monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
