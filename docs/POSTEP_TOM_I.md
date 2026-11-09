@@ -2861,3 +2861,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Weryfikacja lokalna:** równoważny skrypt `/mnt/data/ontologia_he/verify.py`, `py_compile` PASS i **1872 dokładne przypadki wymierne PASS**; bezpośredni test repozytoryjny nieuruchomiony z powodu DNS GitHub.
 - **PDF:** `/mnt/data/ontologia_he/F28_2HE_PODGLAD.pdf`, Pandoc/XeLaTeX, 1 strona A4, `pdfinfo` PASS, SHA-256 `c9e77622c73e47aaba228f3bcaa3317de65bd8220438ae03eba0cd3125ea73e6`. Skrócony podgląd, nie pełna kompilacja manuskryptu.
 - **Otwarte:** niezależna recenzja, pełne CI i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsza treść nietknięte; bez finalnego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-HF: przedział mnożników dualnych i degeneracja (2026-11-09)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2HF.md`, commit `6174aec54e8f5bfaa8f399d97e330b78082a2049`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Warunki pierwotno-dualne, dokładny przedział mnożników, charakterystyka niejednoznaczności oraz podgradienty funkcji wartości.
+- **Test main:** `tests/test_f28_2hf.py`, commit `ee2e283c40e740ae211f10306f6231aeaca4688d`. Lokalny odpowiednik: `py_compile` PASS; `unittest` 2/2 PASS, 594 dokładne porównania wymierne. Opublikowany test repozytoryjny nie został uruchomiony bezpośrednio.
+- **PDF lokalny:** `/mnt/data/ontologia_hf/F28_2HF_PODGLAD.pdf`, Pandoc/XeLaTeX, 2 strony A4; `pdfinfo` PASS; SHA-256 `73aff0016bb1aaf824d51a7f24da185462eaca8d369ffce7bfa54674a5582c7f`. PDF jest lokalnym składem wersji redakcyjnej, nie kompilacją pliku pobranego z GitHub.
+- **Otwarte:** pełne CI, niezależna recenzja matematyczna, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały nietknięte; bez finalnego spisu treści i Tomu II.
