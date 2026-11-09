@@ -2902,3 +2902,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Manuskrypt main:** `manuscript/tom-i/F28_2HK.md`, commit `baae6de1a600b6de9d80934242153bda952f11fa`. Trzy definicje, pięć twierdzeń z dowodami, cztery przypadki graniczne/kontrprzykłady i sześć rozwiązanych zadań. Dokładny promień zachowania wskazanego minimizera w normie dowolnej oraz specjalizacja l∞.
 - **Test main:** `tests/test_f28_2hk.py`, commit `e5fb898eea3a84ce51bef23d510e195b24aaf0fa`. Lokalny skrypt o tej samej logice: `py_compile` PASS, 53900 dokładnych porównań wymiernych PASS; bezpośredni przebieg pliku pobranego z GitHub i CI niepotwierdzone.
 - **Otwarte:** niezależna recenzja dowodów, pełne CI, integracja z monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i poprzednie rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-HL: stożek normalny i dokładna komora stabilności (2026-11-09)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2HL.md`, commit `c7b9e58adaf41641bfdf7d688e757d0116474b3d`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Certyfikat wierzchołkowy, komora jednoznaczności, dokładny promień stabilności, niezmienniczość względem więzów afinicznych.
+- **Test na main:** `tests/test_f28_2hl.py`, utworzenie `bcd5a02ad3a20ccba8112085d2158f308517d287`, korekta błędnego przypadku testowego `ffbd98efe0a43a55d9a016190c064b09934fde44`. Lokalny skrypt o tej samej logice: `py_compile` PASS i **53 361 dokładnych porównań wymiernych PASS**. Opublikowany plik testowy nie był uruchamiany bezpośrednio; pełne CI niepotwierdzone.
+- **Podgląd PDF:** `/mnt/data/ontologia_hl/F28_2HL_PODGLAD.pdf`, 1 strona A4, ReportLab, `pdfinfo` PASS, SHA-256 `d0fdb61743307c8c1a76bab64072e83e343a65048b5357b373702a3b8ceaf799`. Skrót, nie pełna kompilacja manuskryptu ani monolitu.
+- **Otwarte:** niezależna recenzja matematyczna, bezpośrednie uruchomienie testu z repo, CI i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Wstęp historyczny i poprzednie rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
