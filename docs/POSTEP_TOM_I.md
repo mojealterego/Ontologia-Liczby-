@@ -2826,3 +2826,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2gz.py`, commit `fca70c3529586e7df269311e4b66d329a5a271fd`. Lokalny odpowiednik: `python -m py_compile` PASS, **1080 przypadków dokładnej enumeracji wymiernej PASS**. Nie potwierdzono osobnego uruchomienia pobranego z GitHub testu ani GitHub Actions CI.
 - **PDF lokalny:** `/mnt/data/ontologia_gz/F28_2GZ_PODGLAD.pdf`, Pandoc/XeLaTeX, 2 strony A4, `pdfinfo` PASS, SHA-256 `d4e6a02f535b6822d72c7b5e5e57ffd65d1cacbecb84c35416e8ea82fbfd54d2`. Lokalny podgląd z rozbudowanej wersji redakcyjnej, nie skład pliku pobranego z GitHub.
 - **Otwarte:** niezależna recenzja matematyczna, CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-HA: dokładny promień odporności na perturbacje wag (2026-11-09)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2HA.md`, commit `6dd008860c2579861226d3e13ac995579d1c39f8`. 3 definicje, 5 twierdzeń z dowodami, 4 kontrprzykłady i 6 zadań rozwiązanych. Dokładny promień odporności w normie maksimum oraz dualna postać dla dowolnej normy; ograniczenie dodatniości wag jawnie zaznaczone.
+- **Test main:** `tests/test_f28_2ha.py`, commit `5cae1db26e9e63e4c50c41590818a48f7598e687`. Niezależny lokalny odpowiednik: 3240 dokładnych kontroli wymiernych PASS. Nie wykonano osobno testu pobranego z GitHub ani GitHub Actions CI.
+- **Podgląd PDF lokalny:** `/mnt/data/ontologia_ha/F28_2HA_PODGLAD.pdf`, 1 strona A4, `pdfinfo` PASS, SHA-256 `5d4aa1e3e6ed6cbbf6eaaa2c357a2a6b4c6b2cc49dad83c5706242cae03ed6cc`. Skrót, nie pełny skład opublikowanego manuskryptu.
+- **Otwarte:** niezależna recenzja matematyczna, pełne CI i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
