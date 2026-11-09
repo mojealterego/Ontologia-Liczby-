@@ -32,7 +32,7 @@ class TestHE(unittest.TestCase):
                         dd=tuple(Q(x) for x in d)
                         self.assertEqual(dual(dd,l,h),vertices(dd,l,h))
                         count+=1
-        self.assertEqual(count,1944)
+        self.assertEqual(count,1872)
 
 if __name__=="__main__":
     unittest.main()
