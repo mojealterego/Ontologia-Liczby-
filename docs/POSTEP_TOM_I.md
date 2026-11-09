@@ -2930,3 +2930,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2ho.py`, commit `eef97d596eedbf8f3cd5383a37027f62890b286b`. Lokalny odpowiednik przeszedł `py_compile` oraz 2400 dokładnych instancji wymiernych; opublikowany plik nie został uruchomiony bezpośrednio.
 - **PDF lokalny:** `/mnt/data/ontologia_ho/F28_2HO_PODGLAD.pdf`, ReportLab, jedna strona A4, `pdfinfo` PASS, SHA-256 `3781909898f3fbd9aa9153a3a00bcda24192893eed67ccc7e89d4a8f76a34e41`. Jest to skrócony podgląd, nie pełny skład pliku repozytoryjnego.
 - **Otwarte:** niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały bez ingerencji; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-HP: elipsoidalna odporność minimizera (2026-11-09)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2HP.md`, commit `cea2c09e422c7760d0c3758781948406a524ebeb`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady/przypadki graniczne, sześć rozwiązanych zadań. Dokładny certyfikat krawędziowy dla macierzy Q dodatnio określonej.
+- **Test main:** `tests/test_f28_2hp.py`, commit `311a1033c137b2b784f43b75458f8d633aed1509`. Weryfikacja repozytoryjnego testu i CI wymaga osobnego potwierdzenia; nie należy jej domniemywać.
+- **Otwarte:** niezależna recenzja matematyczna, pełne CI i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
