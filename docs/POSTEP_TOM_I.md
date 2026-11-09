@@ -2896,3 +2896,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2hj.py`, commit `b9c19ce8edb610499655a7ddf02f4543a3ea2e37`. Lokalna implementacja równoważna: `py_compile` PASS i 3969 dokładnych instancji wymiernych PASS; nie jest to bezpośredni przebieg opublikowanego pliku ani GitHub Actions CI.
 - **PDF lokalny:** `/mnt/data/ontologia_hj/F28_2HJ_PODGLAD.pdf`, 1 strona A4, `pdfinfo` PASS; SHA-256 `efda235db0ca512f70de7af345507907525f1be10123ce2dabc48a729bdfee49`. Skrócony podgląd, nie pełna kompilacja manuskryptu ani monolitu.
 - **Otwarte:** niezależna recenzja matematyczna, uruchomienie testu pobranego z repozytorium, pełne CI i integracja z monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały bez ingerencji; bez finalnego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-HK: dokładny promień stabilności minimizerów (2026-11-09)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2HK.md`, commit `baae6de1a600b6de9d80934242153bda952f11fa`. Trzy definicje, pięć twierdzeń z dowodami, cztery przypadki graniczne/kontrprzykłady i sześć rozwiązanych zadań. Dokładny promień zachowania wskazanego minimizera w normie dowolnej oraz specjalizacja l∞.
+- **Test main:** `tests/test_f28_2hk.py`, commit `e5fb898eea3a84ce51bef23d510e195b24aaf0fa`. Lokalny skrypt o tej samej logice: `py_compile` PASS, 53900 dokładnych porównań wymiernych PASS; bezpośredni przebieg pliku pobranego z GitHub i CI niepotwierdzone.
+- **Otwarte:** niezależna recenzja dowodów, pełne CI, integracja z monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i poprzednie rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
