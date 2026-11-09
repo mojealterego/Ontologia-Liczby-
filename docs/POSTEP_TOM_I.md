@@ -2923,3 +2923,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2hn.py`, commit `2a6bfa6e094f94c46f32bff199f107ba36fb6f3a`. Lokalna implementacja o tej samej logice: unittest 4/4 PASS; 363 dokładne porównania kwadratu, 242 porównania odcinka, test niewidzialnej krawędzi i perturbacji granicznej. Opublikowanego pliku nie uruchomiono bezpośrednio; CI niepotwierdzone.
 - **Podgląd PDF lokalny:** `/mnt/data/ontologia_hn/F28_2HN_PODGLAD.pdf`, ReportLab, 2 strony A4, `pdfinfo` PASS; SHA-256 `aa2332358863287f303c30402ed89f525be30f04b65c74e0374edcdc81d78f3c`. Skład lokalnej wersji, nie identycznego pliku repozytoryjnego ani monolitu.
 - **Otwarte:** niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-HO: anizotropowa odporność optimum (2026-11-09)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2HO.md`, commit `19e562dee3609ddfa814b931d78da064b49ac8bf`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady/przypadki graniczne, sześć zadań rozwiązanych. Dokładny promień dla prostokątnych budżetów perturbacji i zamrożonych współrzędnych.
+- **Test main:** `tests/test_f28_2ho.py`, commit `eef97d596eedbf8f3cd5383a37027f62890b286b`. Lokalny odpowiednik przeszedł `py_compile` oraz 2400 dokładnych instancji wymiernych; opublikowany plik nie został uruchomiony bezpośrednio.
+- **PDF lokalny:** `/mnt/data/ontologia_ho/F28_2HO_PODGLAD.pdf`, ReportLab, jedna strona A4, `pdfinfo` PASS, SHA-256 `3781909898f3fbd9aa9153a3a00bcda24192893eed67ccc7e89d4a8f76a34e41`. Jest to skrócony podgląd, nie pełny skład pliku repozytoryjnego.
+- **Otwarte:** niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały bez ingerencji; bez końcowego spisu treści i Tomu II.
