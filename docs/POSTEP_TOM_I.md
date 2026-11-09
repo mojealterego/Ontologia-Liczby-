@@ -2950,3 +2950,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2hr.py`, commit `4b8a7e9f0a0e08d07d701304e20fd682648dcdb5`. Lokalny skrypt o tej samej logice: `py_compile` PASS, `unittest` 4/4 PASS, 4096 dokładnych przypadków wymiernych plus testy graniczne. Bezpośrednie uruchomienie pobranego pliku repozytoryjnego i GitHub Actions CI niepotwierdzone.
 - **Podgląd PDF lokalny:** `/mnt/data/ontologia_hr/F28_2HR_PODGLAD.pdf`, ReportLab, 1 strona A4, `pdfinfo` PASS, SHA-256 `977add981be57b5b3be988779c3889e30f1c0833aea7fd775fefaa1224a578d6`. Podgląd skrócony, nie pełny skład pliku z repozytorium.
 - **Otwarte:** niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i poprzednie rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-HS: asymetryczne zbiory niepewności (2026-11-09)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2HS.md`, commit `8453628fd612de23372b0178514dec83209a96de`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Korekta orientacji funkcji podparcia: dla perturbacji c+tK właściwy mianownik to h_K(x−v), nie h_K(v−x).
+- **Test main:** `tests/test_f28_2hs.py`, commit `a21160ce633977784d340c32e91b112c2943ffb1`. Testy arytmetyki wymiernej, asymetrii, skalowania i granicy. Uruchomienie opublikowanego pliku i pełne CI wymagają osobnego potwierdzenia.
+- **Otwarte:** niezależna recenzja matematyczna, pełna kompilacja manuskryptu z repo, integracja z monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały bez ingerencji. Bez końcowego spisu treści i Tomu II.
