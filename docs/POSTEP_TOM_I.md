@@ -2833,3 +2833,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2ha.py`, commit `5cae1db26e9e63e4c50c41590818a48f7598e687`. Niezależny lokalny odpowiednik: 3240 dokładnych kontroli wymiernych PASS. Nie wykonano osobno testu pobranego z GitHub ani GitHub Actions CI.
 - **Podgląd PDF lokalny:** `/mnt/data/ontologia_ha/F28_2HA_PODGLAD.pdf`, 1 strona A4, `pdfinfo` PASS, SHA-256 `5d4aa1e3e6ed6cbbf6eaaa2c357a2a6b4c6b2cc49dad83c5706242cae03ed6cc`. Skrót, nie pełny skład opublikowanego manuskryptu.
 - **Otwarte:** niezależna recenzja matematyczna, pełne CI i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-HB: odporność w dodatnim ortancie wag (2026-11-09)
+- Manuskrypt `manuscript/tom-i/F28_2HB.md`; commit 75c3c19c2d5d9be704da5aaa05690290fac08a24. Definicje dopuszczalnych perturbacji, pięć twierdzeń z dowodami, trzy przypadki graniczne/kontrprzykłady, sześć rozwiązanych zadań.
+- Test `tests/test_f28_2hb.py`; commit 92727669beada4bad9433055aad76762e5cc7b16. Lokalny odpowiednik: `py_compile` PASS, 1950 dokładnych porównań wymiernych PASS. Testu repozytoryjnego i CI nie wykonano bezpośrednio.
+- Integracja z monolitem 0.20 niewykonana; licznik 585/1222 bez zmian. Historyczny wstęp i wcześniejsze rozdziały bez zmian. Brak finalnego spisu treści i Tomu II.
