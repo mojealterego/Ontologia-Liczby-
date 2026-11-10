@@ -3024,3 +3024,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2ic.py`, commit `044f77d299a9b409e52c73070a3e9fc096e1351b`. Nie wykonano bezpośrednio testu pobranego z GitHub (DNS raw.githubusercontent.com). Lokalny uproszczony test: 672 instancje wymierne, 3/3 PASS, py_compile PASS. Nie należy utożsamiać go z testem repozytoryjnym.
 - **Podgląd PDF lokalny:** `F28_2IC_PODGLAD.pdf`, ReportLab, 1 strona A4, pdfinfo PASS, SHA-256 `95c66ea8098029a4d0439c51be37b4be9fcb2b3e0219bbef359ad844ad69d0a3`. Skrót, nie pełny skład manuskryptu.
 - **Otwarte:** bezpośrednie wykonanie testu repozytoryjnego, pełne CI, niezależna recenzja dowodów, integracja z monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-ID: certyfikaty przy niepewności pomiaru szczelin (2026-11-10)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2ID.md`, commit `c15041b10dad95de15c992eb63ac0db0e2d495df`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady/ograniczenia i sześć rozwiązanych zadań. Certyfikat przy jednoczesnej niepewności szczelin kosztu i funkcji podparcia.
+- **Test main:** `tests/test_f28_2id.py`, commit `cfe074d207070b9bce119b901d9a315dec0c60d5`. Opublikowany skrypt nie był bezpośrednio wykonany; lokalny niezależny test nierówności: 897 instancji wymiernych, 3/3 PASS; `py_compile` PASS.
+- **Podgląd PDF lokalny:** `/mnt/data/ontologia_id/F28_2ID_PODGLAD.pdf`, ReportLab, 1 strona A4, `pdfinfo` PASS, SHA-256 `10c32b5b0a6086c3d7bc26543a0b1ef024e27e2c0bc38756df8b10d9ebddb2a3`. Skrót, nie pełny skład pliku repozytoryjnego.
+- **Otwarte:** bezpośrednie uruchomienie testu repozytoryjnego, pełne CI, niezależna recenzja matematyczna i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i poprzednie rozdziały bez ingerencji; bez końcowego spisu treści i Tomu II.
