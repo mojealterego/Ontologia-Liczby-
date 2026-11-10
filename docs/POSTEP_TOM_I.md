@@ -3003,3 +3003,11 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Manuskrypt na main:** `manuscript/tom-i/F28_2HZ.md`, commit `afe2a67dd39a9f92101f4eabf80d69006369dbfa`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady/przypadki graniczne, sześć rozwiązanych zadań. Łączny błąd odwrotnego promienia przy zmianie kosztów i zbioru scenariuszy, warunek zachowania jednoznaczności i przedziały promienia.
 - **Test na main:** `tests/test_f28_2hz.py`, commit `d806dc332891a4b4234e01b2c5ca50fbb3c5ff1d`. Lokalna wersja: `py_compile` PASS, `unittest` 3/3 PASS, 847 dokładnych instancji wymiernych. Testu pobranego ponownie z repozytorium nie uruchomiono bezpośrednio.
 - **Otwarte:** niezależna recenzja dowodów, pełne CI, pełny skład PDF i integracja z monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-IA: nierównomierne certyfikaty kierunkowe (2026-11-10)
+
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2IA.md`, commit `378e146765cbe37dacf15c3833bc2491cb04fe51`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Certyfikaty przedziałowe promienia odporności z oddzielnymi zbiorami próbek i błędami dla poszczególnych krawędzi.
+- **Test na main:** `tests/test_f28_2ia.py`, commit `670950daa6bf9f1e69451f468d051106f9c6e06f`. Lokalna wersja testu: `unittest` **4/4 PASS**, 210 dokładnych instancji wymiernych; `py_compile` PASS. Bezpośrednie wykonanie pliku pobranego z GitHub i pełne CI niepotwierdzone.
+- **PDF lokalny:** `/mnt/data/ontologia_ia/F28_2IA_PODGLAD.pdf`, Pandoc/XeLaTeX, 2 strony A4; SHA-256 `82c83d99404ec556b10e93895bc4499b383c0e4189a3d839afdb680ef83b0cce`. PDF z lokalnego rozszerzonego wariantu tekstu; nie jest binarnym artefaktem repozytorium ani pełnym monolitem.
+- **Otwarte:** niezależna recenzja matematyczna, pełne CI, weryfikacja bezpośrednio pobranego testu i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
