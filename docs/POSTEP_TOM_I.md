@@ -2977,3 +2977,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2hv.py`, commit `3153b18ea7b3be6158a29f571ca777b8bca32283`. Niezależnie lokalnie sprawdzono 2023 wymierne przypadki niezmienniczości przy dodaniu punktu środkowego (PASS). Bezpośredni przebieg opublikowanego testu niepotwierdzony.
 - **Podgląd PDF lokalny:** `/mnt/data/ontologia_hv/F28_2HV_PODGLAD.pdf`, ReportLab, 1 strona A4, pdfinfo PASS; SHA-256 `f18d66b742bd5364ab7e4f46f255e7167a0ad25d02566df234bf08cbf01077ab`. Skrót, nie pełny skład manuskryptu.
 - **Otwarte:** pełne CI, niezależna recenzja matematyczna, integracja z monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsza treść nietknięte; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-HW: stabilność promienia przy aproksymacji scenariuszy (2026-11-10)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2HW.md`, commit `e41c24cdcec8439eea5f9f94a6ccd316660beb8c`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady/przypadki graniczne i sześć rozwiązanych zadań. Główny wynik: dokładna Lipschitzowska stabilność odwrotnego promienia w metryce Hausdorffa oraz certyfikat błędu aproksymacji.
+- **Test na main:** `tests/test_f28_2hw.py`, commit `0ed4a3134f8b01fded10b52f93054588eb5b5358`. Lokalny odpowiednik skryptu: `python -m py_compile` PASS, `unittest` 4/4 PASS, w tym 4375 dokładnych porównań wymiernych i 361 porównań monotoniczności. Bezpośrednie wykonanie opublikowanego pliku niepotwierdzone.
+- **Podgląd PDF lokalny:** `/mnt/data/ontologia_hw/F28_2HW_PODGLAD.pdf`, ReportLab, 1 strona A4, `pdfinfo` PASS; SHA-256 `70a9e4340b9b7b7dc06c52c3881008fe44a8e7f0c808b802dd2aab088aa7625b`. Podgląd skrócony, nie pełna kompilacja manuskryptu.
+- **Otwarte:** niezależna recenzja matematyczna, uruchomienie testu pobranego z repo, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
