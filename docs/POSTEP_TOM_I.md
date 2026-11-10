@@ -2997,3 +2997,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Manuskrypt main:** `manuscript/tom-i/F28_2HY.md`, commit `72f58e9868cf84e5ef7c0686c296b2196cc72e15`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady/ograniczenia, sześć rozwiązanych zadań. Certyfikowane ograniczenia odwrotnego promienia, adaptacyjne kryteria zatrzymania, monotoniczna zbieżność i ostrość stałej.
 - **Test main:** `tests/test_f28_2hy.py`, commit `b72ef0eb9caef790689e6bc6a31cbba6c29e8310`. Testy opublikowane; bezpośredni przebieg i CI niepotwierdzone na etapie zapisu.
 - **Otwarte:** wykonanie testów, niezależna recenzja, pełna kompilacja PDF, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-HZ: wspólna stabilność kosztów i scenariuszy (2026-11-10)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2HZ.md`, commit `afe2a67dd39a9f92101f4eabf80d69006369dbfa`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady/przypadki graniczne, sześć rozwiązanych zadań. Łączny błąd odwrotnego promienia przy zmianie kosztów i zbioru scenariuszy, warunek zachowania jednoznaczności i przedziały promienia.
+- **Test na main:** `tests/test_f28_2hz.py`, commit `d806dc332891a4b4234e01b2c5ca50fbb3c5ff1d`. Lokalna wersja: `py_compile` PASS, `unittest` 3/3 PASS, 847 dokładnych instancji wymiernych. Testu pobranego ponownie z repozytorium nie uruchomiono bezpośrednio.
+- **Otwarte:** niezależna recenzja dowodów, pełne CI, pełny skład PDF i integracja z monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
