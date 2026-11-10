@@ -2991,3 +2991,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2hx.py`, commit `4e69cecc9b2df2de9b411214bece8b262bd38a4d`. Lokalna wersja o identycznej treści: `py_compile` PASS, `unittest` 4/4 PASS; 1331 wymiernych instancji w teście siatkowym oraz testy asymetrii, 2D i ostrości. Bezpośrednie uruchomienie pobranego z GitHub pliku i GitHub Actions CI niepotwierdzone.
 - **Podgląd PDF lokalny:** `/mnt/data/ontologia_hx/F28_2HX_PODGLAD.pdf`, ReportLab, 1 strona A4, `pdfinfo` PASS, SHA-256 `9938d6ef58a5e79148ed658a6290d4aadc686054c8a7ac36a89110efe0835933`. Skrócony podgląd, nie pełny skład opublikowanego manuskryptu.
 - **Otwarte:** niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-HY: adaptacyjna certyfikacja scenariuszy (2026-11-10)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2HY.md`, commit `72f58e9868cf84e5ef7c0686c296b2196cc72e15`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady/ograniczenia, sześć rozwiązanych zadań. Certyfikowane ograniczenia odwrotnego promienia, adaptacyjne kryteria zatrzymania, monotoniczna zbieżność i ostrość stałej.
+- **Test main:** `tests/test_f28_2hy.py`, commit `b72ef0eb9caef790689e6bc6a31cbba6c29e8310`. Testy opublikowane; bezpośredni przebieg i CI niepotwierdzone na etapie zapisu.
+- **Otwarte:** wykonanie testów, niezależna recenzja, pełna kompilacja PDF, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
