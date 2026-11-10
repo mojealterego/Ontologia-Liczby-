@@ -3031,3 +3031,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2id.py`, commit `cfe074d207070b9bce119b901d9a315dec0c60d5`. Opublikowany skrypt nie był bezpośrednio wykonany; lokalny niezależny test nierówności: 897 instancji wymiernych, 3/3 PASS; `py_compile` PASS.
 - **Podgląd PDF lokalny:** `/mnt/data/ontologia_id/F28_2ID_PODGLAD.pdf`, ReportLab, 1 strona A4, `pdfinfo` PASS, SHA-256 `10c32b5b0a6086c3d7bc26543a0b1ef024e27e2c0bc38756df8b10d9ebddb2a3`. Skrót, nie pełny skład pliku repozytoryjnego.
 - **Otwarte:** bezpośrednie uruchomienie testu repozytoryjnego, pełne CI, niezależna recenzja matematyczna i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i poprzednie rozdziały bez ingerencji; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-IE: zerowe dolne granice szczelin (2026-11-10)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2IE.md`, commit `dce73ec05ff0f8bbb05c698a77706e5df52d9099`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady i sześć rozwiązanych zadań. Rozszerzenie certyfikatów na przypadek dolnej granicy szczeliny równej zero; jawne rozróżnienie zera licznika i nieskończonej granicy ilorazu.
+- **Test main:** `tests/test_f28_2ie.py`, commit `f7193dac13e25ae7f34517d5d39002e0a8a78d44`. Bezpośrednie wykonanie pliku repozytoryjnego zablokowane przez DNS raw.githubusercontent.com; niezależny lokalny skrypt zweryfikował 560 dokładnych instancji wymiernych (PASS). Nie utożsamiać tych wyników.
+- **Podgląd PDF lokalny:** `/mnt/data/ontologia_ie/F28_2IE_PODGLAD.pdf`, ReportLab, jedna strona A4, `pdfinfo` PASS, SHA-256 `31f9353c43203a26ace73cad794f8329e9e3d43c835e840c1cdf66930ac7f677`. Skrót, nie pełny skład repozytoryjnego manuskryptu.
+- **Otwarte:** niezależna recenzja, bezpośrednie uruchomienie testów z repo, pełne CI i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały bez ingerencji; bez końcowego spisu treści i Tomu II.
