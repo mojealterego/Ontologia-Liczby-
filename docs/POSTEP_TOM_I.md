@@ -2984,3 +2984,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test na main:** `tests/test_f28_2hw.py`, commit `0ed4a3134f8b01fded10b52f93054588eb5b5358`. Lokalny odpowiednik skryptu: `python -m py_compile` PASS, `unittest` 4/4 PASS, w tym 4375 dokładnych porównań wymiernych i 361 porównań monotoniczności. Bezpośrednie wykonanie opublikowanego pliku niepotwierdzone.
 - **Podgląd PDF lokalny:** `/mnt/data/ontologia_hw/F28_2HW_PODGLAD.pdf`, ReportLab, 1 strona A4, `pdfinfo` PASS; SHA-256 `70a9e4340b9b7b7dc06c52c3881008fe44a8e7f0c808b802dd2aab088aa7625b`. Podgląd skrócony, nie pełna kompilacja manuskryptu.
 - **Otwarte:** niezależna recenzja matematyczna, uruchomienie testu pobranego z repo, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte. Bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-HX: certyfikowane przedziały przy dyskretyzacji scenariuszy (2026-11-10)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2HX.md`, commit `590bd5b42f8e8d01f490d95f6e47e4a930a534a6`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady/przypadki graniczne, sześć zadań rozwiązanych. Dwustronny certyfikat promienia dla skończonej δ-sieci scenariuszy, błąd odwrotności, zbieżność monotoniczna.
+- **Test main:** `tests/test_f28_2hx.py`, commit `4e69cecc9b2df2de9b411214bece8b262bd38a4d`. Lokalna wersja o identycznej treści: `py_compile` PASS, `unittest` 4/4 PASS; 1331 wymiernych instancji w teście siatkowym oraz testy asymetrii, 2D i ostrości. Bezpośrednie uruchomienie pobranego z GitHub pliku i GitHub Actions CI niepotwierdzone.
+- **Podgląd PDF lokalny:** `/mnt/data/ontologia_hx/F28_2HX_PODGLAD.pdf`, ReportLab, 1 strona A4, `pdfinfo` PASS, SHA-256 `9938d6ef58a5e79148ed658a6290d4aadc686054c8a7ac36a89110efe0835933`. Skrócony podgląd, nie pełny skład opublikowanego manuskryptu.
+- **Otwarte:** niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
