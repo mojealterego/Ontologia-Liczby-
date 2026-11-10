@@ -3017,3 +3017,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Manuskrypt na main:** `manuscript/tom-i/F28_2IB.md`, commit `2e41b7cabc3613fd8c9e2009fc4ae6a5f412aadd`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady/granice i sześć rozwiązanych zadań. Przedziałowe wyrocznie kierunkowe, dokładny próg, kryteria zatrzymania, monotoniczna zbieżność i wybór aktywnego kierunku.
 - **Test na main:** `tests/test_f28_2ib.py`, commit `2a67012a430dbbceec594bf35fe394291d3ccf8f`. Cztery testy, w tym 3136 dokładnych przypadków wymiernych. Status uruchomienia repozytoryjnego testu i pełnego CI należy raportować osobno; sam commit nie dowodzi ich wykonania.
 - **Otwarte:** niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsza treść zachowane; bez finalnego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-IC: względne certyfikaty promienia (2026-11-10)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2IC.md`, commit `17457f72f4d514b9a6d27d22d6f9350e21fca34d`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady, sześć rozwiązanych zadań. Granice względne i budżetowe, w tym rozróżnienie utraty optymalności od utraty jednoznaczności.
+- **Test main:** `tests/test_f28_2ic.py`, commit `044f77d299a9b409e52c73070a3e9fc096e1351b`. Nie wykonano bezpośrednio testu pobranego z GitHub (DNS raw.githubusercontent.com). Lokalny uproszczony test: 672 instancje wymierne, 3/3 PASS, py_compile PASS. Nie należy utożsamiać go z testem repozytoryjnym.
+- **Podgląd PDF lokalny:** `F28_2IC_PODGLAD.pdf`, ReportLab, 1 strona A4, pdfinfo PASS, SHA-256 `95c66ea8098029a4d0439c51be37b4be9fcb2b3e0219bbef359ad844ad69d0a3`. Skrót, nie pełny skład manuskryptu.
+- **Otwarte:** bezpośrednie wykonanie testu repozytoryjnego, pełne CI, niezależna recenzja dowodów, integracja z monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
