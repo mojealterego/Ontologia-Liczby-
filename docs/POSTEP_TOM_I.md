@@ -2970,3 +2970,10 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test main:** `tests/test_f28_2hu.py`, commit `d440fdd51dfd4f99754d98832b5717c9bd355fe7`. Test opublikowano; bezpośrednie uruchomienie pliku z repo i CI pozostają do potwierdzenia.
 - **PDF lokalny:** `/mnt/data/ontologia_hu/F28_2HU_PODGLAD.pdf`, ReportLab, 1 strona A4, pdfinfo PASS, SHA-256 `6ffbc7b59b39a0439d2f0ab68e26573a6a70717c3a73007c68d14101a8ce65fe`. Skrócony podgląd, nie pełny skład manuskryptu.
 - **Otwarte:** niezależna recenzja, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian.** Wstęp historyczny i wcześniejsze rozdziały bez ingerencji; bez finalnego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-HV: nieograniczone zbiory perturbacji (2026-11-10)
+- **Manuskrypt main:** `manuscript/tom-i/F28_2HV.md`, commit `e90e0a08c2077b14dbe15013b08f98d0b5931257`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady/przypadki graniczne i sześć rozwiązanych zadań. Rozszerzenie na nieograniczone, niewypukłe i niedomknięte K; promień zerowy oraz nieosiąganie granicy.
+- **Test main:** `tests/test_f28_2hv.py`, commit `3153b18ea7b3be6158a29f571ca777b8bca32283`. Niezależnie lokalnie sprawdzono 2023 wymierne przypadki niezmienniczości przy dodaniu punktu środkowego (PASS). Bezpośredni przebieg opublikowanego testu niepotwierdzony.
+- **Podgląd PDF lokalny:** `/mnt/data/ontologia_hv/F28_2HV_PODGLAD.pdf`, ReportLab, 1 strona A4, pdfinfo PASS; SHA-256 `f18d66b742bd5364ab7e4f46f255e7167a0ad25d02566df234bf08cbf01077ab`. Skrót, nie pełny skład manuskryptu.
+- **Otwarte:** pełne CI, niezależna recenzja matematyczna, integracja z monolitem 0.20. **585/1222 bez zmian.** Historyczny wstęp i wcześniejsza treść nietknięte; bez końcowego spisu treści i Tomu II.
