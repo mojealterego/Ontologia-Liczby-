@@ -3011,3 +3011,9 @@ Końcowy spis treści wykonać dopiero po ukończeniu i finalnym składzie Tomu 
 - **Test na main:** `tests/test_f28_2ia.py`, commit `670950daa6bf9f1e69451f468d051106f9c6e06f`. Lokalna wersja testu: `unittest` **4/4 PASS**, 210 dokładnych instancji wymiernych; `py_compile` PASS. Bezpośrednie wykonanie pliku pobranego z GitHub i pełne CI niepotwierdzone.
 - **PDF lokalny:** `/mnt/data/ontologia_ia/F28_2IA_PODGLAD.pdf`, Pandoc/XeLaTeX, 2 strony A4; SHA-256 `82c83d99404ec556b10e93895bc4499b383c0e4189a3d839afdb680ef83b0cce`. PDF z lokalnego rozszerzonego wariantu tekstu; nie jest binarnym artefaktem repozytorium ani pełnym monolitem.
 - **Otwarte:** niezależna recenzja matematyczna, pełne CI, weryfikacja bezpośrednio pobranego testu i integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsze rozdziały nietknięte; bez końcowego spisu treści i Tomu II.
+
+
+### Tom I — F28.2-IB: certyfikaty a posteriori z wyrocznią funkcji podparcia (2026-11-10)
+- **Manuskrypt na main:** `manuscript/tom-i/F28_2IB.md`, commit `2e41b7cabc3613fd8c9e2009fc4ae6a5f412aadd`. Trzy definicje, pięć twierdzeń z dowodami, cztery kontrprzykłady/granice i sześć rozwiązanych zadań. Przedziałowe wyrocznie kierunkowe, dokładny próg, kryteria zatrzymania, monotoniczna zbieżność i wybór aktywnego kierunku.
+- **Test na main:** `tests/test_f28_2ib.py`, commit `2a67012a430dbbceec594bf35fe394291d3ccf8f`. Cztery testy, w tym 3136 dokładnych przypadków wymiernych. Status uruchomienia repozytoryjnego testu i pełnego CI należy raportować osobno; sam commit nie dowodzi ich wykonania.
+- **Otwarte:** niezależna recenzja matematyczna, pełne CI, integracja z rzeczywistym monolitem 0.20. **585/1222 bez zmian**. Historyczny wstęp i wcześniejsza treść zachowane; bez finalnego spisu treści i Tomu II.
